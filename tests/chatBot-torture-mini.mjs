@@ -62,7 +62,8 @@ function normalizeCase(it, expected) {
       const pre = await detectLangRulesOnly(input);
       const res = await runPipeline(input, `${type}:${i}`);
       const got = res.lang || "UNKNOWN";
-      const reply = res.reply || "(no reply)";
+      const reply = typeof res.reply === "object" ? JSON.stringify(res.reply) : res.reply || "(no reply)";
+
 
       // 🧠 Ny logik: godkänn greeting & filter enligt nya pipeline-regler
       const ok =
