@@ -32,3 +32,8 @@ Thumbs.db
 # Test artifacts
 coverage/
 *.spec.js.snap
+
+# Environment and API secrets
+.env*
+lib/sk-proj-*.txt
+tests/test-openai.ps1
