@@ -1,0 +1,12 @@
+﻿C:\uteklinker-chatbot-vercel\api\chat.js:15 fs.appendFileSync(LOG_FILE, line, "utf8");
+C:\uteklinker-chatbot-vercel\lib\detect-lang.js:86 fs.appendFileSync(LOG_FILE, line);
+C:\uteklinker-chatbot-vercel\lib\logger.js:25 fs.appendFileSync(logFile, line + "\n", "utf8");
+C:\uteklinker-chatbot-vercel\Old tests\list-files.js:26 fs.writeFileSync(outFile, header + content, "utf8");
+C:\uteklinker-chatbot-vercel\Old tests\snapshot.js:41 fs.writeFileSync(outputFile, JSON.stringify(snapshot, null, 2), "utf8");
+C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js:31 fs.writeFileSync(ENV_FILE, cleaned, "utf8");
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:33 32   fs.appendFileSync(LOG_FILE, line, "utf8");
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:24 fs.appendFileSync(LOG_FILE, line, "utf8");
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:27 fs.appendFileSync(LANG_LOG_FILE, line, "utf8"); // ✅ endast mismatchar i lang-detect.log
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:22 fs.appendFileSync(LOG_FILE, line, "utf8");
+C:\uteklinker-chatbot-vercel\tests\logger.js:14 fs.appendFileSync(logFile, line + "\n", "utf8");
+C:\uteklinker-chatbot-vercel\tests\snapshot.js:41 fs.writeFileSync(outputFile, JSON.stringify(snapshot, null, 2), "utf8");

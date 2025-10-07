@@ -1,0 +1,1549 @@
+{
+  "Mineral": {
+    "färger": [
+      {
+        "namn": "Galenit",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Svavel",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      }
+    ]
+  },
+  "PKDC301": {
+    "färger": [
+      {
+        "namn": "Noce RTT",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      }
+    ]
+  },
+  "Träklinker": {
+    "färger": [
+      {
+        "namn": "Konjak",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      }
+    ]
+  },
+  "Uteklinker": {
+    "färger": [
+      {
+        "namn": "Albero Gelso",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Albero Mandorlo",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Albero Nocciolo",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Alpine Bocote",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Alpine Cobolo",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alpine Mix Dark Chevry",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alpine Mogano",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alpine Sarawa",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alpine Sarawa Chevry",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alpine Slavonia",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alpine Slavonia Chevry",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Alta",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Anfi Dover",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Anfi Elba",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Anfi Palinuro",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Anfi Stromboli",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Antique Dune Carved",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Antique Nuit Carved",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Antique Opal Carved",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Antique Taupe Carved",
+        "klass": "Beige",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Ardesia Bianco",
+        "klass": "Vit",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Ardesia Cenere",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Ardesia Grigio",
+        "klass": "Grå",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Ardesia Taupe",
+        "klass": "Beige",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Argresia Svart",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Beton Cemento",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "60x120",
+          "80x180",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Beton Cenere",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Beton Sandalo",
+        "klass": "Beige",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180",
+          "60x120",
+          "120x240",
+          "260x60",
+          "100x100",
+          "60x100",
+          "30x120"
+        ]
+      },
+      {
+        "namn": "Casa Country",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Casa Loft",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Casa Modern",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Casa Urban",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Castello Chambord",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Castello Chenonceau",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Castello Cheverny",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Castello Fontainbleu",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Castello Ussè",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cemento Clay",
+        "klass": "Brun",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cemento Grit",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cemento Land",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cemento Lime",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cemento Rust",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cortina Basalto",
+        "klass": "Grå",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cortina Calcite",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cortina Cenere",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Cortina Sabbia",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Factory Corten",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Factory Oxide",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Factory Zinc",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Fossile Jura",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Fossile Lux Dark",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Fossile Lux Fumo",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Granito Grå",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Grotta Alta",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Grotta Porfido",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Grotta Silver Black",
+        "klass": "Grå",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Grotta Silver White",
+        "klass": "Grå",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Iris Astra",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Iris Crono",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Iris Geo",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Iris Leucos",
+        "klass": "Vit",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Iris Litos",
+        "klass": "Övrigt",
+        "format": [
+          "20x120",
+          "40x120",
+          "60x60",
+          "80x80",
+          "80x180"
+        ]
+      },
+      {
+        "namn": "Kvarts Grå",
+        "klass": "Övrigt",
+        "format": [
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Lava Etna",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Lava Marsili",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Lava Salina",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Lava Vesuvio",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Manhattan Midtown",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Manhattan Nolita",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Manhattan Soho",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Manhattan Tribeca",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Materia Upcendre",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Materia Upcharbon",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Materia Upcrete",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Materia Upivoire",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Meteo Dark",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Meteo Fog",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Meteo Salt",
+        "klass": "Grå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Meteo Sand",
+        "klass": "Beige",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Mista Agate",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Mista Pearl",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Mista Shell",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Mista Tahiti",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Monte Ash",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Monte Carbon",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Monte Clay",
+        "klass": "Brun",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Monte Fire",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Nature Kauri",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Kauri Doga",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Maple",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Maple Doga",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Nut",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Nut Doga",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Oak",
+        "klass": "Brun",
+        "format": [
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "60x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "45x90",
+          "90x90",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nature Oak Doga",
+        "klass": "Brun",
+        "format": [
+          "60x60",
+          "45x90",
+          "90x90",
+          "430x120",
+          "930x60",
+          "460x120",
+          "160x60",
+          "860x60",
+          "440x120",
+          "560x60",
+          "80x80",
+          "100x100",
+          "030x120",
+          "40x120",
+          "40x180",
+          "60x120",
+          "260x60",
+          "960x60",
+          "060x60",
+          "240x80",
+          "340x80",
+          "440x80",
+          "760x60",
+          "660x60",
+          "940x120"
+        ]
+      },
+      {
+        "namn": "Nordique Evo Greyge",
+        "klass": "Grå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Nordique Evo Gris Fonce",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Nordique Evo Noir",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Quartz Antracite",
+        "klass": "Antracitgrå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Quartz Diaspro",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Quartz Madera",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Quartz Prasio",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Roccia Antracite",
+        "klass": "Antracitgrå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Roccia Cream",
+        "klass": "Beige",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Roccia Green Gray",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Roccia Ivory Platinum",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Roccia Light Grey",
+        "klass": "Grå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Roccia Mud",
+        "klass": "Beige",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Slate Bly",
+        "klass": "Övrigt",
+        "format": []
+      },
+      {
+        "namn": "Slate Grafite",
+        "klass": "Övrigt",
+        "format": []
+      },
+      {
+        "namn": "Slate Grå",
+        "klass": "Övrigt",
+        "format": []
+      },
+      {
+        "namn": "Stella Bone",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Stella Cement",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Stella Plomb",
+        "klass": "Grå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Stone Landstone",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Stone Nightstone",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Stone Silverstone",
+        "klass": "Grå",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Stone Sunstone",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Strada Saint Luois",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Strada Santa Fe'",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Strada Santa Monica",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Travertin Beige",
+        "klass": "Beige",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Trentino Avana",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Trentino Canapa",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Trentino Lino",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Trentino Moro",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Trentino Tabacco",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Vintage Bruges",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Vintage Gent",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      },
+      {
+        "namn": "Vintage Namur",
+        "klass": "Övrigt",
+        "format": [
+          "430x120",
+          "930x60"
+        ]
+      }
+    ]
+  }
+}

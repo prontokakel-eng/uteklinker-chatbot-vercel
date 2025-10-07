@@ -1,0 +1,1566 @@
+Index,Lang,Field,ChangeType,Original,Patched
+0,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Lava erhältlich:
+- Etna (Sonstiges) – Format: 430x120
+- Marsili (Sonstiges) – Format: 430x120
+- Salina (Sonstiges) – Format: 430x120
+- Vesuvio (Sonstiges) – Format: … Möchten Sie mehr sehen?","Die folgenden Farben sind in Lava erhältlich:
+- Etna (Sonstiges) – Format: 430x120
+- Marsili (Sonstiges) – Format: 430x120
+- Salina (Sonstiges) – Format: 430x120
+- Vesuvio (Sonstiges) – Format: … … Vill du se fler?"
+0,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Lava erhältlich:
+- Etna (Sonstiges) – Format: 430x120
+- Marsili (Sonstiges) – Format: 430x120
+- Salina (Sonstiges) – Format: 430x120
+- Vesuvio (Sonstiges) – Format: 430x120","Die folgenden Farben sind in Lava erhältlich:
+- Etna (Sonstiges) – Format: 430x120
+- Marsili (Sonstiges) – Format: 430x120
+- Salina (Sonstiges) – Format: 430x120
+- Vesuvio (Sonstiges) – Format: … Vill du se fler?"
+1,SE,answer_full_se,TRUNCATED,"Följande färger finns i Albero:
+- Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Mandorlo (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Nocciolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Albero:
+- Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Mandorlo (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Nocciolo (Övrigt) – format: … Vill du se fler?"
+1,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Albero:
+- Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Mandorlo (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Nocciolo (Övrigt) – format: … Vill du se fler?","Följande färger finns i Albero:
+- Gelso (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Mandorlo (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Nocciolo (Övrigt) – format: … Vill du se fler?"
+1,EN,answer_en,TRUNCATED,"The following colors are available in Albero:
+- Gelso (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Would you like to see more?","The following colors are available in Albero:
+- Gelso (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … … Vill du se fler?"
+1,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Albero:
+- Gelso (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … … Vill du se fler?","The following colors are available in Albero:
+- Gelso (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Mandorlo (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … … Vill du se fler?"
+1,EN,answer_full_en,TRUNCATED,"The following colors are available in Albero:
+- Gelso (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Albero:
+- Gelso (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?"
+1,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Albero:
+- Gelso (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?","The following colors are available in Albero:
+- Gelso (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Mandorlo (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … Vill du se fler?"
+1,DA,answer_da,TRUNCATED,"Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo … Vil du se flere?","Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo … Vil … Vill du se fler?"
+1,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo … Vil … Vill du se fler?","Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Mandorlo (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nocciolo … Vil … Vill du se fler?"
+1,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo … Vill du se fler?"
+1,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo … Vill du se fler?","Følgende farver findes i Albero:
+- Gelso (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Mandorlo (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nocciolo … Vill du se fler?"
+1,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?"
+1,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?","Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Mandorlo (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … … Vill du se fler?"
+1,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nocciolo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+1,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mandorlo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","Die folgenden Farben sind in Albero erhältlich:
+- Gelso (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Mandorlo (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+2,SE,answer_full_se,TRUNCATED,"Följande färger finns i Alpine:
+- Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cobolo (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mix Dark Chevry (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mogano (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sarawa (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sarawa Chevry (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Slavonia (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Slavonia Chevry (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm","Följande färger finns i Alpine:
+- Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cobolo (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mix Dark … Vill du se fler?"
+2,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Alpine:
+- Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cobolo (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mix Dark … Vill du se fler?","Följande färger finns i Alpine:
+- Bocote (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Cobolo (Övrigt) – format: 120x240 cm20x120 cm30x120 cm40x120 cm60x120 cm60x60 cm80x180 cm80x80 cm- Mix Dark … Vill du se fler?"
+2,EN,answer_en,TRUNCATED,"The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm … Would you like to see more?","The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm … … Vill du se fler?"
+2,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm … … Vill du se fler?","The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cobolo (Other) – sizes: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm … … Vill du se fler?"
+2,EN,answer_full_en,TRUNCATED,"The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mix Dark Chevry (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mogano (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sarawa (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sarawa Chevry (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Slavonia (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Slavonia Chevry (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, … Vill du se fler?"
+2,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Other) – sizes: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, … Vill du se fler?","The following colors are available in Alpine:
+- Bocote (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cobolo (Other) – sizes: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, … Vill du se fler?"
+2,DA,answer_da,TRUNCATED,"Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm … Vil du se flere?","Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm … Vil … Vill du se fler?"
+2,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm … Vil … Vill du se fler?","Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cobolo (Andet) – format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm … Vil … Vill du se fler?"
+2,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mix Dark Chevry (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mogano (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sarawa (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sarawa Chevry (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Slavonia (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Slavonia Chevry (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, … Vill du se fler?"
+2,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Andet) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, … Vill du se fler?","Følgende farver findes i Alpine:
+- Bocote (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cobolo (Andet) – format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, … Vill du se fler?"
+2,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm … Vill du se fler?"
+2,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm … Vill du se fler?","Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cobolo (Sonstiges) – Formate: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm … Vill du se fler?"
+2,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mix Dark Chevry (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Mogano (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sarawa (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sarawa Chevry (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Slavonia (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Slavonia Chevry (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, … Vill du se fler?"
+2,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cobolo (Sonstiges) – Formate: 120x240cm, 20x120cm, 30x120cm, 40x120cm, … Vill du se fler?","Die folgenden Farben sind in Alpine erhältlich:
+- Bocote (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cobolo (Sonstiges) – Formate: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, … Vill du se fler?"
+4,SE,answer_full_se,TRUNCATED,"Följande färger finns i Antique:
+- Dune Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Nuit Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Opal Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Taupe Carved (Beige) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Antique:
+- Dune Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Nuit Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Opal Carved (Övrigt) – … Vill du se fler?"
+4,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Antique:
+- Dune Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Nuit Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Opal Carved (Övrigt) – … Vill du se fler?","Följande färger finns i Antique:
+- Dune Carved (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Nuit Carved (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Opal Carved (Övrigt) – … Vill du se fler?"
+4,EN,answer_en,TRUNCATED,"The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Would you like to see more?","The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?"
+4,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?","The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nuit Carved (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … … Vill du se fler?"
+4,EN,answer_full_en,TRUNCATED,"The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Taupe Carved (Beige) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+4,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","The following colors are available in Antique:
+- Dune Carved (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nuit Carved (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+4,DA,answer_da,TRUNCATED,"Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal … Vil du se flere?","Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal … Vill du se fler?"
+4,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal … Vill du se fler?","Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nuit Carved (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Opal … Vill du se fler?"
+4,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Taupe Carved (Beige) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal … Vill du se fler?"
+4,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal … Vill du se fler?","Følgende farver findes i Antique:
+- Dune Carved (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nuit Carved (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Opal … Vill du se fler?"
+4,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm … … Vill du se fler?"
+4,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm … … Vill du se fler?","Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nuit Carved (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm … … Vill du se fler?"
+4,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Opal Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Taupe Carved (Beige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, … Vill du se fler?"
+4,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Nuit Carved (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, … Vill du se fler?","Die folgenden Farben sind in Antique erhältlich:
+- Dune Carved (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Nuit Carved (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, … Vill du se fler?"
+5,SE,answer_full_se,TRUNCATED,"Följande färger finns i Ardesia:
+- Bianco (Vit) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Grigio (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Taupe (Beige) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Ardesia:
+- Bianco (Vit) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Grigio (Grå) – format: … Vill du se fler?"
+5,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Ardesia:
+- Bianco (Vit) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Grigio (Grå) – format: … Vill du se fler?","Följande färger finns i Ardesia:
+- Bianco (Vit) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Cenere (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Grigio (Grå) – format: … Vill du se fler?"
+5,EN,answer_en,TRUNCATED,"The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Would you like to see more?","The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … … Vill du se fler?"
+5,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … … Vill du se fler?","The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … … Vill du se fler?"
+5,EN,answer_full_en,TRUNCATED,"The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Taupe (Beige) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?"
+5,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?","The following colors are available in Ardesia:
+- Bianco (White) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … Vill du se fler?"
+5,DA,answer_da,TRUNCATED,"Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grå) – … Vil du se flere?","Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grå) – … … Vill du se fler?"
+5,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grå) – … … Vill du se fler?","Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Grå) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grigio (Grå) – … … Vill du se fler?"
+5,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Taupe (Beige) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grå) – … Vill du se fler?"
+5,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grå) – … Vill du se fler?","Følgende farver findes i Ardesia:
+- Bianco (Hvid) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Grå) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grigio (Grå) – … Vill du se fler?"
+5,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten … Vill du se fler?"
+5,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten … Vill du se fler?","Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Sonstige) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … Möchten … Vill du se fler?"
+5,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grigio (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Taupe (Beige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+5,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstige) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","Die folgenden Farben sind in Ardesia erhältlich:
+- Bianco (Weiß) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Sonstige) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+7,SE,answer_full_se,TRUNCATED,"Följande färger finns i Beton:
+- Cemento (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sandalo (Beige) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm","Följande färger finns i Beton:
+- Cemento (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: … Vill du se fler?"
+7,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Beton:
+- Cemento (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: … Vill du se fler?","Följande färger finns i Beton:
+- Cemento (Övrigt) – format: 120x240 cm20x120 cm30x120 cm40x120 cm60x120 cm60x60 cm80x180 cm80x80 cm- Cenere (Övrigt) – format: … Vill du se fler?"
+7,EN,answer_en,TRUNCATED,"The following colors are available in Beton:
+- Cemento (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – format: 120x240cm, 20x120cm … Would you like to see more?","The following colors are available in Beton:
+- Cemento (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – format: 120x240cm, 20x120cm … … Vill du se fler?"
+7,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Beton:
+- Cemento (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – format: 120x240cm, 20x120cm … … Vill du se fler?","The following colors are available in Beton:
+- Cemento (Other) – format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Other) – format: 120x240 cm, 20x120 cm … … Vill du se fler?"
+7,EN,answer_full_en,TRUNCATED,"The following colors are available in Beton:
+- Cemento (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sandalo (Beige) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Beton:
+- Cemento (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – format: 120x240cm, 20x120cm, … Vill du se fler?"
+7,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Beton:
+- Cemento (Other) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – format: 120x240cm, 20x120cm, … Vill du se fler?","The following colors are available in Beton:
+- Cemento (Other) – format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Other) – format: 120x240 cm, 20x120 cm, … Vill du se fler?"
+7,DA,answer_da,TRUNCATED,"Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm … Vil du se flere?","Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm … … Vill du se fler?"
+7,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm … … Vill du se fler?","Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Øvrigt) – format: 120x240 cm, 20x120 cm, 30x120 cm … … Vill du se fler?"
+7,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sandalo (Beige) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, … Vill du se fler?"
+7,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Øvrigt) – format: 120x240cm, 20x120cm, 30x120cm, … Vill du se fler?","Følgende farver findes i Beton:
+- Cemento (Øvrigt) – format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Øvrigt) – format: 120x240 cm, 20x120 cm, 30x120 cm, … Vill du se fler?"
+7,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Format: 120x240cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Format: 120x240cm … … Vill du se fler?"
+7,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Format: 120x240cm … … Vill du se fler?","Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Sonstiges) – Format: 120x240 cm … … Vill du se fler?"
+7,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sandalo (Beige) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Format: 120x240cm, … Vill du se fler?"
+7,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240cm, 20x120cm, 30x120cm, 40x120cm, 60x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Format: 120x240cm, … Vill du se fler?","Die folgenden Farben sind in Beton erhältlich:
+- Cemento (Sonstiges) – Format: 120x240 cm, 20x120 cm, 30x120 cm, 40x120 cm, 60x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Sonstiges) – Format: 120x240 cm, … Vill du se fler?"
+8,SE,answer_full_se,TRUNCATED,"Följande färger finns i Cemento:
+- Clay (Brun) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Grit (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Land (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Lime (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Rust (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Cemento:
+- Clay (Brun) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Grit (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Land (Övrigt) – format: … Vill du se fler?"
+8,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Cemento:
+- Clay (Brun) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Grit (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Land (Övrigt) – format: … Vill du se fler?","Följande färger finns i Cemento:
+- Clay (Brun) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Grit (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Land (Övrigt) – format: … Vill du se fler?"
+8,EN,answer_en,TRUNCATED,"The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land … Would you like to see more?","The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land … … Vill du se fler?"
+8,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land … … Vill du se fler?","The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grit (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Land … … Vill du se fler?"
+8,EN,answer_full_en,TRUNCATED,"The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Lime (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Rust (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land … Vill du se fler?"
+8,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land … Vill du se fler?","The following colors are available in Cemento:
+- Clay (Brown) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grit (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Land … Vill du se fler?"
+8,DA,answer_da,TRUNCATED,"Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Øvrigt) – … Vil du se flere?","Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Øvrigt) – … … Vill du se fler?"
+8,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Øvrigt) – … … Vill du se fler?","Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grit (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Land (Øvrigt) – … … Vill du se fler?"
+8,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Lime (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Rust (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Øvrigt) – … Vill du se fler?"
+8,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Øvrigt) – … Vill du se fler?","Følgende farver findes i Cemento:
+- Clay (Brun) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grit (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Land (Øvrigt) – … Vill du se fler?"
+8,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten … Vill du se fler?"
+8,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten … Vill du se fler?","Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grit (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … Möchten … Vill du se fler?"
+8,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Land (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Lime (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Rust (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+8,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","Die folgenden Farben sind in Cemento erhältlich:
+- Clay (Braun) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Grit (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+9,SE,answer_full_se,TRUNCATED,"Följande färger finns i Cortina:
+- Basalto (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Calcite (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Sabbia (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Cortina:
+- Basalto (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Calcite (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: … Vill du se fler?"
+9,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Cortina:
+- Basalto (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Calcite (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: … Vill du se fler?","Följande färger finns i Cortina:
+- Basalto (Grå) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Calcite (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Cenere (Övrigt) – format: … Vill du se fler?"
+9,EN,answer_en,TRUNCATED,"The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Would you like to see more?","The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … … Vill du se fler?"
+9,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … … Vill du se fler?","The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Calcite (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … … Vill du se fler?"
+9,EN,answer_full_en,TRUNCATED,"The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sabbia (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?"
+9,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?","The following colors are available in Cortina:
+- Basalto (Gray) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Calcite (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … Vill du se fler?"
+9,DA,answer_da,TRUNCATED,"Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Andet) … Vil du se flere?","Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Andet) … Vill du se fler?"
+9,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Andet) … Vill du se fler?","Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Calcite (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Andet) … Vill du se fler?"
+9,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sabbia (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Andet) … Vill du se fler?"
+9,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Andet) … Vill du se fler?","Følgende farver findes i Cortina:
+- Basalto (Grå) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Calcite (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Cenere (Andet) … Vill du se fler?"
+9,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?"
+9,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?","Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Calcite (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … … Vill du se fler?"
+9,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Cenere (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Sabbia (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+9,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","Die folgenden Farben sind in Cortina erhältlich:
+- Basalto (Grau) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Calcite (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+10,SE,answer_full_se,TRUNCATED,"Följande färger finns i Grotta:
+- Porfido (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Silver Black (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Silver White (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Grotta:
+- Porfido (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Silver Black (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Silver White (Grå) – format: … Vill du se fler?"
+10,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Grotta:
+- Porfido (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Silver Black (Grå) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Silver White (Grå) – format: … Vill du se fler?","Följande färger finns i Grotta:
+- Porfido (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Silver Black (Grå) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Silver White (Grå) – format: … Vill du se fler?"
+10,EN,answer_en,TRUNCATED,"The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Would you like to see more?","The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?"
+10,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?","The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver Black (Gray) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … Vill du se fler?"
+10,EN,answer_full_en,TRUNCATED,"The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver White (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?"
+10,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Gray) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- … Vill du se fler?","The following colors are available in Grotta:
+- Porfido (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver Black (Gray) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- … Vill du se fler?"
+10,DA,answer_da,TRUNCATED,"Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver … Vil du se flere?","Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver … … Vill du se fler?"
+10,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver … … Vill du se fler?","Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver Black (Grå) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver … … Vill du se fler?"
+10,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver White (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver … Vill du se fler?"
+10,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver … Vill du se fler?","Følgende farver findes i Grotta:
+- Porfido (Andet) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver Black (Grå) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver … Vill du se fler?"
+10,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?"
+10,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?","Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver Black (Grau) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … … Vill du se fler?"
+10,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver White (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+10,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Silver Black (Grau) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","Die folgenden Farben sind in Grotta erhältlich:
+- Porfido (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Silver Black (Grau) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+11,SE,answer_full_se,TRUNCATED,"Följande färger finns i Iris:
+- Astra (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Crono (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Geo (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Leucos (Vit) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Litos (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm","Följande färger finns i Iris:
+- Astra (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Crono (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Geo (Övrigt) – format: … Vill du se fler?"
+11,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Iris:
+- Astra (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Crono (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Geo (Övrigt) – format: … Vill du se fler?","Följande färger finns i Iris:
+- Astra (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Crono (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x180 cm80x80 cm- Geo (Övrigt) – format: … Vill du se fler?"
+11,EN,answer_en,TRUNCATED,"The following colors are available in Iris:
+- Astra (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo … Would you like to see more?","The following colors are available in Iris:
+- Astra (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo … … Vill du se fler?"
+11,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Iris:
+- Astra (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo … … Vill du se fler?","The following colors are available in Iris:
+- Astra (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Crono (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Geo … … Vill du se fler?"
+11,EN,answer_full_en,TRUNCATED,"The following colors are available in Iris:
+- Astra (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Leucos (White) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Litos (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","The following colors are available in Iris:
+- Astra (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo … Vill du se fler?"
+11,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Iris:
+- Astra (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Other) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo … Vill du se fler?","The following colors are available in Iris:
+- Astra (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Crono (Other) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Geo … Vill du se fler?"
+11,DA,answer_da,TRUNCATED,"Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Øvrigt) – … Vil du se flere?","Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Øvrigt) – … … Vill du se fler?"
+11,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Øvrigt) – … … Vill du se fler?","Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Crono (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Geo (Øvrigt) – … … Vill du se fler?"
+11,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Leucos (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Litos (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Øvrigt) – … Vill du se fler?"
+11,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Øvrigt) – … Vill du se fler?","Følgende farver findes i Iris:
+- Astra (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Crono (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Geo (Øvrigt) – … Vill du se fler?"
+11,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … Möchten Sie mehr sehen?","Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?"
+11,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm … … Vill du se fler?","Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Crono (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm … … Vill du se fler?"
+11,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Geo (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Leucos (Weiß) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Litos (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm","Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?"
+11,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, 80x80cm
+- Crono (Sonstiges) – Format: 20x120cm, 40x120cm, 60x60cm, 80x180cm, … Vill du se fler?","Die folgenden Farben sind in Iris erhältlich:
+- Astra (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, 80x80 cm
+- Crono (Sonstiges) – Format: 20x120 cm, 40x120 cm, 60x60 cm, 80x180 cm, … Vill du se fler?"
+13,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Manhattan erhältlich:
+- Midtown (Sonstiges) – Format: 430x120
+- Nolita (Sonstiges) – Format: 430x120
+- Soho (Sonstiges) – Format: 430x120
+- Tribeca (Sonstiges) – Format: … Möchten Sie mehr sehen?","Die folgenden Farben sind in Manhattan erhältlich:
+- Midtown (Sonstiges) – Format: 430x120
+- Nolita (Sonstiges) – Format: 430x120
+- Soho (Sonstiges) – Format: 430x120
+- Tribeca (Sonstiges) – Format: … Vill du se fler?"
+13,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Manhattan erhältlich:
+- Midtown (Sonstiges) – Format: 430x120
+- Nolita (Sonstiges) – Format: 430x120
+- Soho (Sonstiges) – Format: 430x120
+- Tribeca (Sonstiges) – Format: 430x120","Die folgenden Farben sind in Manhattan erhältlich:
+- Midtown (Sonstiges) – Format: 430x120
+- Nolita (Sonstiges) – Format: 430x120
+- Soho (Sonstiges) – Format: 430x120
+- Tribeca (Sonstiges) – Format: … Vill du se fler?"
+14,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Materia erhältlich:
+- Upcendre (Sonstiges) – Format: 430x120
+- Upcharbon (Sonstiges) – Format: 430x120
+- Upcrete (Sonstiges) – Format: 430x120
+- Upivoire (Sonstiges) – … Möchten Sie mehr sehen?","Die folgenden Farben sind in Materia erhältlich:
+- Upcendre (Sonstiges) – Format: 430x120
+- Upcharbon (Sonstiges) – Format: 430x120
+- Upcrete (Sonstiges) – Format: 430x120
+- Upivoire (Sonstiges) – … … Vill du se fler?"
+14,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Materia erhältlich:
+- Upcendre (Sonstiges) – Format: 430x120
+- Upcharbon (Sonstiges) – Format: 430x120
+- Upcrete (Sonstiges) – Format: 430x120
+- Upivoire (Sonstiges) – Format: 430x120","Die folgenden Farben sind in Materia erhältlich:
+- Upcendre (Sonstiges) – Format: 430x120
+- Upcharbon (Sonstiges) – Format: 430x120
+- Upcrete (Sonstiges) – Format: 430x120
+- Upivoire (Sonstiges) – … Vill du se fler?"
+17,SE,answer_full_se,TRUNCATED,"Följande färger finns i Nature:
+- Nut (Övrigt) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Nut Doga (Övrigt) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Oak (Brun) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Oak Doga (Brun) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm","Följande färger finns i Nature:
+- Nut (Övrigt) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Nut Doga (Övrigt) – format: … Vill du se fler?"
+17,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Nature:
+- Nut (Övrigt) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Nut Doga (Övrigt) – format: … Vill du se fler?","Följande färger finns i Nature:
+- Nut (Övrigt) – format: 100x100 cm40x120 cm40x180 cm430x120 cm440x120 cm45x90 cm560x60 cm60x120 cm60x60 cm80x80 cm860x60 cm90x90 cm- Nut Doga (Övrigt) – format: … Vill du se fler?"
+17,EN,answer_en,TRUNCATED,"The following colors are available in Nature:
+- Nut (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga … Would you like to see more?","The following colors are available in Nature:
+- Nut (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga … Vill du se fler?"
+17,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Nature:
+- Nut (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga … Vill du se fler?","The following colors are available in Nature:
+- Nut (Other) – format: 100x100 cm, 40x120 cm, 40x180 cm, 430x120 cm, 440x120 cm, 45x90 cm, 560x60 cm, 60x120 cm, 60x60 cm, 80x80 cm, 860x60 cm, 90x90 cm
+- Nut Doga … Vill du se fler?"
+17,EN,answer_full_en,TRUNCATED,"The following colors are available in Nature:
+- Nut (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Oak (Brown) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Oak Doga (Brown) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm","The following colors are available in Nature:
+- Nut (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga … Vill du se fler?"
+17,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Nature:
+- Nut (Other) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga … Vill du se fler?","The following colors are available in Nature:
+- Nut (Other) – format: 100x100 cm, 40x120 cm, 40x180 cm, 430x120 cm, 440x120 cm, 45x90 cm, 560x60 cm, 60x120 cm, 60x60 cm, 80x80 cm, 860x60 cm, 90x90 cm
+- Nut Doga … Vill du se fler?"
+17,DA,answer_da,TRUNCATED,"Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Øvrigt) – … Vil du se flere?","Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Øvrigt) – … … Vill du se fler?"
+17,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Øvrigt) – … … Vill du se fler?","Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100 cm, 40x120 cm, 40x180 cm, 430x120 cm, 440x120 cm, 45x90 cm, 560x60 cm, 60x120 cm, 60x60 cm, 80x80 cm, 860x60 cm, 90x90 cm
+- Nut Doga (Øvrigt) – … … Vill du se fler?"
+17,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Oak (Brun) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Oak Doga (Brun) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm","Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Øvrigt) – … Vill du se fler?"
+17,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Øvrigt) – … Vill du se fler?","Følgende farver findes i Nature:
+- Nut (Øvrigt) – format: 100x100 cm, 40x120 cm, 40x180 cm, 430x120 cm, 440x120 cm, 45x90 cm, 560x60 cm, 60x120 cm, 60x60 cm, 80x80 cm, 860x60 cm, 90x90 cm
+- Nut Doga (Øvrigt) – … Vill du se fler?"
+17,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut … Möchten Sie mehr sehen?","Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut … Vill du se fler?"
+17,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut … Vill du se fler?","Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100 cm, 40x120 cm, 40x180 cm, 430x120 cm, 440x120 cm, 45x90 cm, 560x60 cm, 60x120 cm, 60x60 cm, 80x80 cm, 860x60 cm, 90x90 cm
+- Nut … Vill du se fler?"
+17,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut Doga (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Oak (Braun) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Oak Doga (Braun) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm","Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut … Vill du se fler?"
+17,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100cm, 40x120cm, 40x180cm, 430x120cm, 440x120cm, 45x90cm, 560x60cm, 60x120cm, 60x60cm, 80x80cm, 860x60cm, 90x90cm
+- Nut … Vill du se fler?","Die folgenden Farben sind in Nature erhältlich:
+- Nut (Sonstiges) – Format: 100x100 cm, 40x120 cm, 40x180 cm, 430x120 cm, 440x120 cm, 45x90 cm, 560x60 cm, 60x120 cm, 60x60 cm, 80x80 cm, 860x60 cm, 90x90 cm
+- Nut … Vill du se fler?"
+18,SE,answer_full_se,TRUNCATED,"Följande färger finns i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm- Evo Gris Fonce (Övrigt) – format: 430x120cm- Evo Gris Fonce (kopia) (Övrigt) – format: 430x120cm- Evo Noir (Övrigt) – format: 430x120cm","Följande färger finns i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm- Evo Gris Fonce (Övrigt) – format: 430x120cm- Evo Gris Fonce (kopia) (Övrigt) – format: 430x120cm- Evo Noir (Övrigt) – format: … Vill du se fler?"
+18,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm- Evo Gris Fonce (Övrigt) – format: 430x120cm- Evo Gris Fonce (kopia) (Övrigt) – format: 430x120cm- Evo Noir (Övrigt) – format: … Vill du se fler?","Följande färger finns i Nordique:
+- Evo Greyge (Grå) – format: 430x120 cm- Evo Gris Fonce (Övrigt) – format: 430x120 cm- Evo Gris Fonce (kopia) (Övrigt) – format: 430x120 cm- Evo Noir (Övrigt) – format: … Vill du se fler?"
+18,EN,answer_en,TRUNCATED,"The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120cm
+- Evo Gris Fonce (Other) – size: 430x120cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Evo Noir (Other) – … Would you like to see more?","The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120cm
+- Evo Gris Fonce (Other) – size: 430x120cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Evo Noir (Other) – … Vill du se fler?"
+18,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120cm
+- Evo Gris Fonce (Other) – size: 430x120cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Evo Noir (Other) – … Vill du se fler?","The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120 cm
+- Evo Gris Fonce (Other) – size: 430x120 cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120 cm
+- Evo Noir (Other) – … Vill du se fler?"
+18,EN,answer_full_en,TRUNCATED,"The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120cm
+- Evo Gris Fonce (Other) – size: 430x120cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Evo Noir (Other) – size: 430x120cm","The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120cm
+- Evo Gris Fonce (Other) – size: 430x120cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Evo Noir (Other) – … Vill du se fler?"
+18,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120cm
+- Evo Gris Fonce (Other) – size: 430x120cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Evo Noir (Other) – … Vill du se fler?","The following colors are available in Nordique:
+- Evo Greyge (Gray) – size: 430x120 cm
+- Evo Gris Fonce (Other) – size: 430x120 cm
+- Evo Gris Fonce (copy) (Other) – size: 430x120 cm
+- Evo Noir (Other) – … Vill du se fler?"
+18,DA,answer_da,TRUNCATED,"Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120cm
+- Evo Noir (Øvrigt) – … Vil du se flere?","Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120cm
+- Evo Noir (Øvrigt) – … … Vill du se fler?"
+18,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120cm
+- Evo Noir (Øvrigt) – … … Vill du se fler?","Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120 cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120 cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120 cm
+- Evo Noir (Øvrigt) – … … Vill du se fler?"
+18,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120cm
+- Evo Noir (Øvrigt) – format: 430x120cm","Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120cm
+- Evo Noir (Øvrigt) – … Vill du se fler?"
+18,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120cm
+- Evo Noir (Øvrigt) – … Vill du se fler?","Følgende farver findes i Nordique:
+- Evo Greyge (Grå) – format: 430x120 cm
+- Evo Gris Fonce (Øvrigt) – format: 430x120 cm
+- Evo Gris Fonce (kopi) (Øvrigt) – format: 430x120 cm
+- Evo Noir (Øvrigt) – … Vill du se fler?"
+18,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- … Möchten Sie mehr sehen?","Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- … … Vill du se fler?"
+18,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- … … Vill du se fler?","Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120 cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120 cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120 cm
+- … … Vill du se fler?"
+18,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- Evo Noir (Sonstiges) – Format: 430x120cm","Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- … Vill du se fler?"
+18,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- … Vill du se fler?","Die folgenden Farben sind in Nordique erhältlich:
+- Evo Greyge (Grau) – Format: 430x120 cm
+- Evo Gris Fonce (Sonstiges) – Format: 430x120 cm
+- Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120 cm
+- … Vill du se fler?"
+19,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Quartz erhältlich:
+- Antrazit (Antracitgrau) – Format: 430x120
+- Diaspro (Sonstiges) – Format: 430x120
+- Madera (Sonstiges) – Format: 430x120
+- Prasio (Sonstiges) – … Möchten Sie mehr sehen?","Die folgenden Farben sind in Quartz erhältlich:
+- Antrazit (Antracitgrau) – Format: 430x120
+- Diaspro (Sonstiges) – Format: 430x120
+- Madera (Sonstiges) – Format: 430x120
+- Prasio (Sonstiges) – … … Vill du se fler?"
+19,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Quartz erhältlich:
+- Antrazit (Antracitgrau) – Format: 430x120
+- Diaspro (Sonstiges) – Format: 430x120
+- Madera (Sonstiges) – Format: 430x120
+- Prasio (Sonstiges) – Format: 430x120","Die folgenden Farben sind in Quartz erhältlich:
+- Antrazit (Antracitgrau) – Format: 430x120
+- Diaspro (Sonstiges) – Format: 430x120
+- Madera (Sonstiges) – Format: 430x120
+- Prasio (Sonstiges) – … Vill du se fler?"
+23,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Stone erhältlich:
+- Landstone (Sonstiges) – Format: 430x120
+- Nightstone (Sonstiges) – Format: 430x120
+- Silverstone (Grau) – Format: 430x120
+- Sunstone (Sonstiges) – … Möchten Sie mehr sehen?","Die folgenden Farben sind in Stone erhältlich:
+- Landstone (Sonstiges) – Format: 430x120
+- Nightstone (Sonstiges) – Format: 430x120
+- Silverstone (Grau) – Format: 430x120
+- Sunstone (Sonstiges) – … … Vill du se fler?"
+23,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Stone erhältlich:
+- Landstone (Sonstiges) – Format: 430x120
+- Nightstone (Sonstiges) – Format: 430x120
+- Silverstone (Grau) – Format: 430x120
+- Sunstone (Sonstiges) – Format: 430x120","Die folgenden Farben sind in Stone erhältlich:
+- Landstone (Sonstiges) – Format: 430x120
+- Nightstone (Sonstiges) – Format: 430x120
+- Silverstone (Grau) – Format: 430x120
+- Sunstone (Sonstiges) – … Vill du se fler?"
+26,SE,answer_full_se,TRUNCATED,"Följande färger finns i Trentino:
+- Avana (Övrigt) – format: 430x120cm- Canapa (Övrigt) – format: 430x120cm- Lino (Övrigt) – format: 430x120cm- Moro (Övrigt) – format: 430x120cm- Tabacco (Övrigt) – format: 430x120cm","Följande färger finns i Trentino:
+- Avana (Övrigt) – format: 430x120cm- Canapa (Övrigt) – format: 430x120cm- Lino (Övrigt) – format: 430x120cm- Moro (Övrigt) – format: 430x120cm- Tabacco (Övrigt) – … Vill du se fler?"
+26,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Trentino:
+- Avana (Övrigt) – format: 430x120cm- Canapa (Övrigt) – format: 430x120cm- Lino (Övrigt) – format: 430x120cm- Moro (Övrigt) – format: 430x120cm- Tabacco (Övrigt) – … Vill du se fler?","Följande färger finns i Trentino:
+- Avana (Övrigt) – format: 430x120 cm- Canapa (Övrigt) – format: 430x120 cm- Lino (Övrigt) – format: 430x120 cm- Moro (Övrigt) – format: 430x120 cm- Tabacco (Övrigt) – … Vill du se fler?"
+26,EN,answer_en,TRUNCATED,"The following colors are available in Trentino:
+- Avana (Other) – size: 430x120cm
+- Canapa (Other) – size: 430x120cm
+- Lino (Other) – size: 430x120cm
+- Moro (Other) – size: 430x120cm
+- Tabacco … Would you like to see more?","The following colors are available in Trentino:
+- Avana (Other) – size: 430x120cm
+- Canapa (Other) – size: 430x120cm
+- Lino (Other) – size: 430x120cm
+- Moro (Other) – size: 430x120cm
+- Tabacco … … Vill du se fler?"
+26,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Trentino:
+- Avana (Other) – size: 430x120cm
+- Canapa (Other) – size: 430x120cm
+- Lino (Other) – size: 430x120cm
+- Moro (Other) – size: 430x120cm
+- Tabacco … … Vill du se fler?","The following colors are available in Trentino:
+- Avana (Other) – size: 430x120 cm
+- Canapa (Other) – size: 430x120 cm
+- Lino (Other) – size: 430x120 cm
+- Moro (Other) – size: 430x120 cm
+- Tabacco … … Vill du se fler?"
+26,EN,answer_full_en,TRUNCATED,"The following colors are available in Trentino:
+- Avana (Other) – size: 430x120cm
+- Canapa (Other) – size: 430x120cm
+- Lino (Other) – size: 430x120cm
+- Moro (Other) – size: 430x120cm
+- Tabacco (Other) – size: 430x120cm","The following colors are available in Trentino:
+- Avana (Other) – size: 430x120cm
+- Canapa (Other) – size: 430x120cm
+- Lino (Other) – size: 430x120cm
+- Moro (Other) – size: 430x120cm
+- Tabacco … Vill du se fler?"
+26,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Trentino:
+- Avana (Other) – size: 430x120cm
+- Canapa (Other) – size: 430x120cm
+- Lino (Other) – size: 430x120cm
+- Moro (Other) – size: 430x120cm
+- Tabacco … Vill du se fler?","The following colors are available in Trentino:
+- Avana (Other) – size: 430x120 cm
+- Canapa (Other) – size: 430x120 cm
+- Lino (Other) – size: 430x120 cm
+- Moro (Other) – size: 430x120 cm
+- Tabacco … Vill du se fler?"
+26,DA,answer_da,TRUNCATED,"Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120cm
+- Canapa (Andet) – format: 430x120cm
+- Lino (Andet) – format: 430x120cm
+- Moro (Andet) – format: 430x120cm
+- Tabacco (Andet) – … Vil du se flere?","Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120cm
+- Canapa (Andet) – format: 430x120cm
+- Lino (Andet) – format: 430x120cm
+- Moro (Andet) – format: 430x120cm
+- Tabacco (Andet) – … … Vill du se fler?"
+26,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120cm
+- Canapa (Andet) – format: 430x120cm
+- Lino (Andet) – format: 430x120cm
+- Moro (Andet) – format: 430x120cm
+- Tabacco (Andet) – … … Vill du se fler?","Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120 cm
+- Canapa (Andet) – format: 430x120 cm
+- Lino (Andet) – format: 430x120 cm
+- Moro (Andet) – format: 430x120 cm
+- Tabacco (Andet) – … … Vill du se fler?"
+26,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120cm
+- Canapa (Andet) – format: 430x120cm
+- Lino (Andet) – format: 430x120cm
+- Moro (Andet) – format: 430x120cm
+- Tabacco (Andet) – format: 430x120cm","Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120cm
+- Canapa (Andet) – format: 430x120cm
+- Lino (Andet) – format: 430x120cm
+- Moro (Andet) – format: 430x120cm
+- Tabacco (Andet) – … Vill du se fler?"
+26,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120cm
+- Canapa (Andet) – format: 430x120cm
+- Lino (Andet) – format: 430x120cm
+- Moro (Andet) – format: 430x120cm
+- Tabacco (Andet) – … Vill du se fler?","Følgende farver findes i Trentino:
+- Avana (Andet) – format: 430x120 cm
+- Canapa (Andet) – format: 430x120 cm
+- Lino (Andet) – format: 430x120 cm
+- Moro (Andet) – format: 430x120 cm
+- Tabacco (Andet) – … Vill du se fler?"
+26,DE,answer_de,TRUNCATED,"Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120cm
+- Canapa (Sonstiges) – Format: 430x120cm
+- Lino (Sonstiges) – Format: 430x120cm
+- Moro (Sonstiges) – Format: … Möchten Sie mehr sehen?","Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120cm
+- Canapa (Sonstiges) – Format: 430x120cm
+- Lino (Sonstiges) – Format: 430x120cm
+- Moro (Sonstiges) – Format: … Vill du se fler?"
+26,DE,answer_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120cm
+- Canapa (Sonstiges) – Format: 430x120cm
+- Lino (Sonstiges) – Format: 430x120cm
+- Moro (Sonstiges) – Format: … Vill du se fler?","Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120 cm
+- Canapa (Sonstiges) – Format: 430x120 cm
+- Lino (Sonstiges) – Format: 430x120 cm
+- Moro (Sonstiges) – Format: … Vill du se fler?"
+26,DE,answer_full_de,TRUNCATED,"Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120cm
+- Canapa (Sonstiges) – Format: 430x120cm
+- Lino (Sonstiges) – Format: 430x120cm
+- Moro (Sonstiges) – Format: 430x120cm
+- Tabacco (Sonstiges) – Format: 430x120cm","Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120cm
+- Canapa (Sonstiges) – Format: 430x120cm
+- Lino (Sonstiges) – Format: 430x120cm
+- Moro (Sonstiges) – Format: … Vill du se fler?"
+26,DE,answer_full_de,FORMAT_NORMALIZED,"Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120cm
+- Canapa (Sonstiges) – Format: 430x120cm
+- Lino (Sonstiges) – Format: 430x120cm
+- Moro (Sonstiges) – Format: … Vill du se fler?","Die folgenden Farben sind in Trentino erhältlich:
+- Avana (Sonstiges) – Format: 430x120 cm
+- Canapa (Sonstiges) – Format: 430x120 cm
+- Lino (Sonstiges) – Format: 430x120 cm
+- Moro (Sonstiges) – Format: … Vill du se fler?"
+100,DE,answer_de,TRUNCATED,"Plattor levereras staplade och skyddade på pall. Antal per pall framgår av produktblad.
+
+Fliesen werden gestapelt und geschützt auf einer Palette geliefert. Die Anzahl pro Palette entnehmen Sie bitte … Möchten Sie mehr sehen?","Plattor levereras staplade och skyddade på pall. Antal per pall framgår av produktblad.
+
+Fliesen werden gestapelt und geschützt auf einer Palette geliefert. Die Anzahl pro Palette entnehmen Sie bitte … Vill du se fler?"
+100,DE,answer_full_de,TRUNCATED,"Plattor levereras staplade och skyddade på pall. Antal per pall framgår av produktblad.
+
+Fliesen werden gestapelt und geschützt auf einer Palette geliefert. Die Anzahl pro Palette entnehmen Sie bitte dem Produktdatenblatt.","Plattor levereras staplade och skyddade på pall. Antal per pall framgår av produktblad.
+
+Fliesen werden gestapelt und geschützt auf einer Palette geliefert. Die Anzahl pro Palette entnehmen Sie bitte … Vill du se fler?"
+200,DE,answer_de,TRUNCATED,"Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 und weitere. Kontaktieren Sie uns, wenn Sie die gesamte Liste einsehen … Möchten Sie mehr sehen?","Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 und weitere. Kontaktieren Sie uns, wenn Sie die gesamte Liste einsehen … … Vill du se fler?"
+200,DE,answer_full_de,TRUNCATED,"Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 und weitere. Kontaktieren Sie uns, wenn Sie die gesamte Liste einsehen möchten.","Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 und weitere. Kontaktieren Sie uns, wenn Sie die gesamte Liste einsehen … Vill du se fler?"
+207,SE,answer_full_se,TRUNCATED,"Vi erbjuder fötter med följande höjdintervall: 28-38, 37.5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125, 125-225.","Vi erbjuder fötter med följande höjdintervall: 28-38, 37.5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125, … Vill du se fler?"
+207,EN,answer_en,TRUNCATED,"We offer feet with the following height ranges: 28-38, 37.5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125 … Would you like to see more?","We offer feet with the following height ranges: 28-38, 37.5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125 … Vill du se fler?"
+207,EN,answer_full_en,TRUNCATED,"We offer feet with the following height ranges: 28-38, 37.5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125, 125-225.","We offer feet with the following height ranges: 28-38, 37.5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125, … Vill du se fler?"
+207,DE,answer_de,TRUNCATED,"Wir bieten Füße mit folgenden Höhenbereichen an: 28-38, 37,5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125 … Möchten Sie mehr sehen?","Wir bieten Füße mit folgenden Höhenbereichen an: 28-38, 37,5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125 … Vill du se fler?"
+207,DE,answer_full_de,TRUNCATED,"Wir bieten Füße mit folgenden Höhenbereichen an: 28-38, 37,5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, 75-125, 125-225.","Wir bieten Füße mit folgenden Höhenbereichen an: 28-38, 37,5-50, 50-75, 75-120, 120-170, 170-215, 140-230, 185-275, 235-325, 205-345, 250-385, 300-400, 270-455, 315-500, 365-550, 25-50, 50-75, … Vill du se fler?"
+217,SE,answer_full_se,TRUNCATED,"Följande färger finns i Uteklinker:
+- Lava Marsili (Övrigt) – format: 430x120cm- Albero Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Mandorlo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Nocciolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Alpine Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Alpine Cobolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Mix Dark Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Mogano (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Sarawa (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Sarawa Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Slavonia (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Slavonia Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Anniversario Grå (Övrigt)
+- Anniversario Ljusgrå (Övrigt)
+- Anniversario Mörkgrå (Övrigt)
+- Antique Dune Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Nuit Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Opal Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Taupe Carved (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Bianco (Vit) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Grigio (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Taupe (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Argresia Svart (Övrigt) – format: 430x120cm- Beton Cemento (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm60x120cm80x180cm120x240cm30x120cm- Beton Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Beton Sandalo (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Cemento Clay (Brun) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Grit (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Land (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Lime (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Rust (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Basalto (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Calcite (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Sabbia (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Porfido (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Silver Black (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Silver White (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Astra (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Crono (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Geo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Leucos (Vit) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Litos (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Kvarts Grå (Övrigt) – format: 860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Lava Etna (Övrigt) – format: 430x120cm- Lava Salina (Övrigt) – format: 430x120cm- Lava Vesuvio (Övrigt) – format: 430x120cm- Manhattan Midtown (Övrigt) – format: 430x120cm- Manhattan Nolita (Övrigt) – format: 430x120cm- Manhattan Soho (Övrigt) – format: 430x120cm- Manhattan Tribeca (Övrigt) – format: 430x120cm- Materia Upcendre (Övrigt) – format: 430x120cm- Materia Upcharbon (Övrigt) – format: 430x120cm- Materia Upcrete (Övrigt) – format: 430x120cm- Materia Upivoire (Övrigt) – format: 430x120cm- Meteo Dark (Övrigt) – format: 430x120cm- Meteo Fog (Övrigt) – format: 430x120cm- Meteo Salt (Grå) – format: 430x120cm- Meteo Sand (Beige) – format: 430x120cm- Mista Agate (Övrigt) – format: 430x120cm- Mista Pearl (Övrigt) – format: 430x120cm- Mista Shell (Övrigt) – format: 430x120cm- Mista Tahiti (Övrigt) – format: 430x120cm- Nature Nut (Övrigt) – format: 430x120cm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Nut Doga (Övrigt) – format: 430x120cm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Oak (Brun) – format: 430x120cm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Oak Doga (Brun) – format: 60x60cm45x90cm90x90cm430x120cm860x60cm440x120cm560x60cm80x80cm100x100cm40x120cm40x180cm60x120cm- Nordique Evo Greyge (Grå) – format: 430x120cm- Nordique Evo Gris Fonce (Övrigt) – format: 430x120cm- Nordique Evo Gris Fonce (kopia) (Övrigt) – format: 430x120cm- Nordique Evo Noir (Övrigt) – format: 430x120cm- Quartz Antracite (Antracitgrå) – format: 430x120cm- Quartz Diaspro (Övrigt) – format: 430x120cm- Quartz Madera (Övrigt) – format: 430x120cm- Quartz Prasio (Övrigt) – format: 430x120cm- Roccia Antracite (Antracitgrå) – format: 430x120cm- Roccia Cream (Beige) – format: 430x120cm- Roccia Light Grey (Grå) – format: 430x120cm- Roccia Mud (Beige) – format: 430x120cm- Slate Bly (Övrigt)
+- Slate Grafite (Övrigt)
+- Slate Grå (Övrigt)
+- Stella Bone (Övrigt) – format: 430x120cm- Stella Cement (Övrigt) – format: 430x120cm- Stella Plomb (Grå) – format: 430x120cm- Stone Landstone (Övrigt) – format: 430x120cm- Stone Nightstone (Övrigt) – format: 430x120cm- Stone Silverstone (Grå) – format: 430x120cm- Stone Sunstone (Övrigt) – format: 430x120cm- Strada Saint Luois (Övrigt) – format: 430x120cm- Strada Santa Fe' (Övrigt) – format: 430x120cm- Strada Santa Monica (Övrigt) – format: 430x120cm- Travertin Beige (Beige) – format: 430x120cm- Trentino Avana (Övrigt) – format: 430x120cm- Trentino Canapa (Övrigt) – format: 430x120cm- Trentino Lino (Övrigt) – format: 430x120cm- Trentino Moro (Övrigt) – format: 430x120cm- Trentino Tabacco (Övrigt) – format: 430x120cm- Vintage Bruges (Övrigt) – format: 430x120cm- Vintage Gent (Övrigt) – format: 430x120cm- Vintage Namur (Övrigt) – format: 430x120cm","Följande färger finns i Uteklinker:
+- Lava Marsili (Övrigt) – format: 430x120cm- Albero Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Mandorlo (Övrigt) – format: … Vill du se fler?"
+217,SE,answer_full_se,FORMAT_NORMALIZED,"Följande färger finns i Uteklinker:
+- Lava Marsili (Övrigt) – format: 430x120cm- Albero Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Mandorlo (Övrigt) – format: … Vill du se fler?","Följande färger finns i Uteklinker:
+- Lava Marsili (Övrigt) – format: 430x120 cm- Albero Gelso (Övrigt) – format: 20x120 cm40x120 cm60x60 cm80x80 cm80x180 cm- Albero Mandorlo (Övrigt) – format: … Vill du se fler?"
+217,EN,answer_en,TRUNCATED,"The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120cm
+- Albero Gelso (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … Would you like to see more?","The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120cm
+- Albero Gelso (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … … Vill du se fler?"
+217,EN,answer_en,FORMAT_NORMALIZED,"The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120cm
+- Albero Gelso (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … … Vill du se fler?","The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120 cm
+- Albero Gelso (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x80 cm, 80x180 cm
+- Albero Mandorlo … … Vill du se fler?"
+217,EN,answer_full_en,TRUNCATED,"The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120cm
+- Albero Gelso (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Nocciolo (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Alpine Bocote (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Alpine Cobolo (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Mix Dark Chevry (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Mogano (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Sarawa (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Sarawa Chevry (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Slavonia (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Slavonia Chevry (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Anniversario Grey (Other)
+- Anniversario Light Grey (Other)
+- Anniversario Dark Grey (Other)
+- Antique Dune Carved (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Nuit Carved (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Opal Carved (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Taupe Carved (Beige) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Bianco (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Grigio (Grey) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Taupe (Beige) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Argresia Black (Other) – size: 430x120cm
+- Beton Cemento (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 60x120cm, 80x180cm, 120x240cm, 30x120cm
+- Beton Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Beton Sandalo (Beige) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Cemento Clay (Brown) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Grit (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Land (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Lime (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Rust (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Basalto (Grey) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Calcite (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Cenere (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Sabbia (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Porfido (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Silver Black (Grey) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Silver White (Grey) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Astra (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Crono (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Geo (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Leucos (White) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Litos (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Quartz Grey (Other) – sizes: 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Lava Etna (Other) – size: 430x120cm
+- Lava Salina (Other) – size: 430x120cm
+- Lava Vesuvio (Other) – size: 430x120cm
+- Manhattan Midtown (Other) – size: 430x120cm
+- Manhattan Nolita (Other) – size: 430x120cm
+- Manhattan Soho (Other) – size: 430x120cm
+- Manhattan Tribeca (Other) – size: 430x120cm
+- Materia Upcendre (Other) – size: 430x120cm
+- Materia Upcharbon (Other) – size: 430x120cm
+- Materia Upcrete (Other) – size: 430x120cm
+- Materia Upivoire (Other) – size: 430x120cm
+- Meteo Dark (Other) – size: 430x120cm
+- Meteo Fog (Other) – size: 430x120cm
+- Meteo Salt (Grey) – size: 430x120cm
+- Meteo Sand (Beige) – size: 430x120cm
+- Mista Agate (Other) – size: 430x120cm
+- Mista Pearl (Other) – size: 430x120cm
+- Mista Shell (Other) – size: 430x120cm
+- Mista Tahiti (Other) – size: 430x120cm
+- Nature Nut (Other) – sizes: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Nut Doga (Other) – sizes: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Oak (Brown) – sizes: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Oak Doga (Brown) – sizes: 60x60cm, 45x90cm, 90x90cm, 430x120cm, 860x60cm, 440x120cm, 560x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm
+- Nordique Evo Greyge (Grey) – size: 430x120cm
+- Nordique Evo Gris Fonce (Other) – size: 430x120cm
+- Nordique Evo Gris Fonce (copy) (Other) – size: 430x120cm
+- Nordique Evo Noir (Other) – size: 430x120cm
+- Quartz Antracite (Anthracite Grey) – size: 430x120cm
+- Quartz Diaspro (Other) – size: 430x120cm
+- Quartz Madera (Other) – size: 430x120cm
+- Quartz Prasio (Other) – size: 430x120cm
+- Roccia Antracite (Anthracite Grey) – size: 430x120cm
+- Roccia Cream (Beige) – size: 430x120cm
+- Roccia Light Grey (Grey) – size: 430x120cm
+- Roccia Mud (Beige) – size: 430x120cm
+- Slate Bly (Other)
+- Slate Grafite (Other)
+- Slate Grey (Other)
+- Stella Bone (Other) – size: 430x120cm
+- Stella Cement (Other) – size: 430x120cm
+- Stella Plomb (Grey) – size: 430x120cm
+- Stone Landstone (Other) – size: 430x120cm
+- Stone Nightstone (Other) – size: 430x120cm
+- Stone Silverstone (Grey) – size: 430x120cm
+- Stone Sunstone (Other) – size: 430x120cm
+- Strada Saint Louis (Other) – size: 430x120cm
+- Strada Santa Fe' (Other) – size: 430x120cm
+- Strada Santa Monica (Other) – size: 430x120cm
+- Travertin Beige (Beige) – size: 430x120cm
+- Trentino Avana (Other) – size: 430x120cm
+- Trentino Canapa (Other) – size: 430x120cm
+- Trentino Lino (Other) – size: 430x120cm
+- Trentino Moro (Other) – size: 430x120cm
+- Trentino Tabacco (Other) – size: 430x120cm
+- Vintage Bruges (Other) – size: 430x120cm
+- Vintage Gent (Other) – size: 430x120cm
+- Vintage Namur (Other) – size: 430x120cm","The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120cm
+- Albero Gelso (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … Vill du se fler?"
+217,EN,answer_full_en,FORMAT_NORMALIZED,"The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120cm
+- Albero Gelso (Other) – sizes: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … Vill du se fler?","The following colors are available in Exterior Porcelain:
+- Lava Marsili (Other) – size: 430x120 cm
+- Albero Gelso (Other) – sizes: 20x120 cm, 40x120 cm, 60x60 cm, 80x80 cm, 80x180 cm
+- Albero Mandorlo … Vill du se fler?"
+217,DA,answer_da,TRUNCATED,"Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120cm
+- Albero Gelso (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Øvrigt) – format: … Vil du se flere?","Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120cm
+- Albero Gelso (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Øvrigt) – format: … Vill du se fler?"
+217,DA,answer_da,FORMAT_NORMALIZED,"Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120cm
+- Albero Gelso (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Øvrigt) – format: … Vill du se fler?","Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120 cm
+- Albero Gelso (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x80 cm, 80x180 cm
+- Albero Mandorlo (Øvrigt) – format: … Vill du se fler?"
+217,DA,answer_full_da,TRUNCATED,"Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120cm
+- Albero Gelso (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Nocciolo (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Alpine Bocote (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Alpine Cobolo (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Mix Dark Chevry (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Mogano (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Sarawa (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Sarawa Chevry (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Slavonia (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Slavonia Chevry (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Anniversario Grå (Øvrigt)
+- Anniversario Ljusgrå (Øvrigt)
+- Anniversario Mörkgrå (Øvrigt)
+- Antique Dune Carved (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Nuit Carved (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Opal Carved (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Taupe Carved (Beige) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Bianco (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Cenere (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Grigio (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Taupe (Beige) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Argresia Svart (Øvrigt) – format: 430x120cm
+- Beton Cemento (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 60x120cm, 80x180cm, 120x240cm, 30x120cm
+- Beton Cenere (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Beton Sandalo (Beige) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Cemento Clay (Brun) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Grit (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Land (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Lime (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Rust (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Basalto (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Calcite (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Cenere (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Sabbia (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Porfido (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Silver Black (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Silver White (Grå) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Astra (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Crono (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Geo (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Leucos (Hvid) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Litos (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Kvarts Grå (Øvrigt) – format: 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Lava Etna (Øvrigt) – format: 430x120cm
+- Lava Salina (Øvrigt) – format: 430x120cm
+- Lava Vesuvio (Øvrigt) – format: 430x120cm
+- Manhattan Midtown (Øvrigt) – format: 430x120cm
+- Manhattan Nolita (Øvrigt) – format: 430x120cm
+- Manhattan Soho (Øvrigt) – format: 430x120cm
+- Manhattan Tribeca (Øvrigt) – format: 430x120cm
+- Materia Upcendre (Øvrigt) – format: 430x120cm
+- Materia Upcharbon (Øvrigt) – format: 430x120cm
+- Materia Upcrete (Øvrigt) – format: 430x120cm
+- Materia Upivoire (Øvrigt) – format: 430x120cm
+- Meteo Dark (Øvrigt) – format: 430x120cm
+- Meteo Fog (Øvrigt) – format: 430x120cm
+- Meteo Salt (Grå) – format: 430x120cm
+- Meteo Sand (Beige) – format: 430x120cm
+- Mista Agate (Øvrigt) – format: 430x120cm
+- Mista Pearl (Øvrigt) – format: 430x120cm
+- Mista Shell (Øvrigt) – format: 430x120cm
+- Mista Tahiti (Øvrigt) – format: 430x120cm
+- Nature Nut (Øvrigt) – format: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Nut Doga (Øvrigt) – format: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Oak (Brun) – format: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Oak Doga (Brun) – format: 60x60cm, 45x90cm, 90x90cm, 430x120cm, 860x60cm, 440x120cm, 560x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm
+- Nordique Evo Greyge (Grå) – format: 430x120cm
+- Nordique Evo Gris Fonce (Øvrigt) – format: 430x120cm
+- Nordique Evo Gris Fonce (kopia) (Øvrigt) – format: 430x120cm
+- Nordique Evo Noir (Øvrigt) – format: 430x120cm
+- Quartz Antracite (Antracitgrå) – format: 430x120cm
+- Quartz Diaspro (Øvrigt) – format: 430x120cm
+- Quartz Madera (Øvrigt) – format: 430x120cm
+- Quartz Prasio (Øvrigt) – format: 430x120cm
+- Roccia Antracite (Antracitgrå) – format: 430x120cm
+- Roccia Cream (Beige) – format: 430x120cm
+- Roccia Light Grey (Grå) – format: 430x120cm
+- Roccia Mud (Beige) – format: 430x120cm
+- Slate Bly (Øvrigt)
+- Slate Grafite (Øvrigt)
+- Slate Grå (Øvrigt)
+- Stella Bone (Øvrigt) – format: 430x120cm
+- Stella Cement (Øvrigt) – format: 430x120cm
+- Stella Plomb (Grå) – format: 430x120cm
+- Stone Landstone (Øvrigt) – format: 430x120cm
+- Stone Nightstone (Øvrigt) – format: 430x120cm
+- Stone Silverstone (Grå) – format: 430x120cm
+- Stone Sunstone (Øvrigt) – format: 430x120cm
+- Strada Saint Luois (Øvrigt) – format: 430x120cm
+- Strada Santa Fe' (Øvrigt) – format: 430x120cm
+- Strada Santa Monica (Øvrigt) – format: 430x120cm
+- Travertin Beige (Beige) – format: 430x120cm
+- Trentino Avana (Øvrigt) – format: 430x120cm
+- Trentino Canapa (Øvrigt) – format: 430x120cm
+- Trentino Lino (Øvrigt) – format: 430x120cm
+- Trentino Moro (Øvrigt) – format: 430x120cm
+- Trentino Tabacco (Øvrigt) – format: 430x120cm
+- Vintage Bruges (Øvrigt) – format: 430x120cm
+- Vintage Gent (Øvrigt) – format: 430x120cm
+- Vintage Namur (Øvrigt) – format: 430x120cm","Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120cm
+- Albero Gelso (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Øvrigt) – format: … Vill du se fler?"
+217,DA,answer_full_da,FORMAT_NORMALIZED,"Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120cm
+- Albero Gelso (Øvrigt) – format: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Øvrigt) – format: … Vill du se fler?","Følgende farver findes i Udeklinker:
+- Lava Marsili (Øvrigt) – format: 430x120 cm
+- Albero Gelso (Øvrigt) – format: 20x120 cm, 40x120 cm, 60x60 cm, 80x80 cm, 80x180 cm
+- Albero Mandorlo (Øvrigt) – format: … Vill du se fler?"
+217,DE,answer_de,TRUNCATED,"Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120cm
+- Albero Gelso (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … Möchten Sie mehr sehen?","Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120cm
+- Albero Gelso (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … … Vill du se fler?"
+217,DE,answer_de,FORMAT_NORMALIZED,"Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120cm
+- Albero Gelso (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … … Vill du se fler?","Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120 cm
+- Albero Gelso (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x80 cm, 80x180 cm
+- Albero Mandorlo … … Vill du se fler?"
+217,DE,answer_full_de,TRUNCATED,"Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120cm
+- Albero Gelso (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Nocciolo (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Alpine Bocote (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Alpine Cobolo (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Mix Dark Chevry (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Mogano (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Sarawa (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Sarawa Chevry (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Slavonia (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Alpine Slavonia Chevry (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Anniversario Grau (Sonstiges)
+- Anniversario Hellgrau (Sonstiges)
+- Anniversario Dunkelgrau (Sonstiges)
+- Antique Dune Carved (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Nuit Carved (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Opal Carved (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Antique Taupe Carved (Beige) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Bianco (Weiß) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Cenere (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Grigio (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Ardesia Taupe (Beige) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Argresia Schwarz (Sonstiges) – Format: 430x120cm
+- Beton Cemento (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 60x120cm, 80x180cm, 120x240cm, 30x120cm
+- Beton Cenere (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Beton Sandalo (Beige) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm, 60x120cm, 120x240cm, 30x120cm
+- Cemento Clay (Braun) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Grit (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Land (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Lime (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cemento Rust (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Basalto (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Calcite (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Cenere (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Cortina Sabbia (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Porfido (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Silver Black (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Grotta Silver White (Grau) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Astra (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Crono (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Geo (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Leucos (Weiß) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Iris Litos (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Quarz Grau (Sonstiges) – Formate: 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Lava Etna (Sonstiges) – Format: 430x120cm
+- Lava Salina (Sonstiges) – Format: 430x120cm
+- Lava Vesuvio (Sonstiges) – Format: 430x120cm
+- Manhattan Midtown (Sonstiges) – Format: 430x120cm
+- Manhattan Nolita (Sonstiges) – Format: 430x120cm
+- Manhattan Soho (Sonstiges) – Format: 430x120cm
+- Manhattan Tribeca (Sonstiges) – Format: 430x120cm
+- Materia Upcendre (Sonstiges) – Format: 430x120cm
+- Materia Upcharbon (Sonstiges) – Format: 430x120cm
+- Materia Upcrete (Sonstiges) – Format: 430x120cm
+- Materia Upivoire (Sonstiges) – Format: 430x120cm
+- Meteo Dark (Sonstiges) – Format: 430x120cm
+- Meteo Fog (Sonstiges) – Format: 430x120cm
+- Meteo Salt (Grau) – Format: 430x120cm
+- Meteo Sand (Beige) – Format: 430x120cm
+- Mista Agate (Sonstiges) – Format: 430x120cm
+- Mista Pearl (Sonstiges) – Format: 430x120cm
+- Mista Shell (Sonstiges) – Format: 430x120cm
+- Mista Tahiti (Sonstiges) – Format: 430x120cm
+- Nature Nut (Sonstiges) – Formate: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Nut Doga (Sonstiges) – Formate: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Oak (Braun) – Formate: 430x120cm, 860x60cm, 440x120cm, 560x60cm, 60x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm, 45x90cm, 90x90cm
+- Nature Oak Doga (Braun) – Formate: 60x60cm, 45x90cm, 90x90cm, 430x120cm, 860x60cm, 440x120cm, 560x60cm, 80x80cm, 100x100cm, 40x120cm, 40x180cm, 60x120cm
+- Nordique Evo Greyge (Grau) – Format: 430x120cm
+- Nordique Evo Gris Fonce (Sonstiges) – Format: 430x120cm
+- Nordique Evo Gris Fonce (Kopie) (Sonstiges) – Format: 430x120cm
+- Nordique Evo Noir (Sonstiges) – Format: 430x120cm
+- Quartz Antracite (Antrazitgrau) – Format: 430x120cm
+- Quartz Diaspro (Sonstiges) – Format: 430x120cm
+- Quartz Madera (Sonstiges) – Format: 430x120cm
+- Quartz Prasio (Sonstiges) – Format: 430x120cm
+- Roccia Antracite (Antrazitgrau) – Format: 430x120cm
+- Roccia Cream (Beige) – Format: 430x120cm
+- Roccia Light Grey (Grau) – Format: 430x120cm
+- Roccia Mud (Beige) – Format: 430x120cm
+- Slate Bly (Sonstiges)
+- Slate Grafite (Sonstiges)
+- Slate Grau (Sonstiges)
+- Stella Bone (Sonstiges) – Format: 430x120cm
+- Stella Cement (Sonstiges) – Format: 430x120cm
+- Stella Plomb (Grau) – Format: 430x120cm
+- Stone Landstone (Sonstiges) – Format: 430x120cm
+- Stone Nightstone (Sonstiges) – Format: 430x120cm
+- Stone Silverstone (Grau) – Format: 430x120cm
+- Stone Sunstone (Sonstiges) – Format: 430x120cm
+- Strada Saint Luois (Sonstiges) – Format: 430x120cm
+- Strada Santa Fe' (Sonstiges) – Format: 430x120cm
+- Strada Santa Monica (Sonstiges) – Format: 430x120cm
+- Travertin Beige (Beige) – Format: 430x120cm
+- Trentino Avana (Sonstiges) – Format: 430x120cm
+- Trentino Canapa (Sonstiges) – Format: 430x120cm
+- Trentino Lino (Sonstiges) – Format: 430x120cm
+- Trentino Moro (Sonstiges) – Format: 430x120cm
+- Trentino Tabacco (Sonstiges) – Format: 430x120cm
+- Vintage Bruges (Sonstiges) – Format: 430x120cm
+- Vintage Gent (Sonstiges) – Format: 430x120cm
+- Vintage Namur (Sonstiges) – Format: 430x120cm","Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120cm
+- Albero Gelso (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … Vill du se fler?"
+217,DE,answer_full_de,FORMAT_NORMALIZED,"Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120cm
+- Albero Gelso (Sonstiges) – Formate: 20x120cm, 40x120cm, 60x60cm, 80x80cm, 80x180cm
+- Albero Mandorlo … Vill du se fler?","Folgende Farben sind in Uteklinker erhältlich:
+- Lava Marsili (Sonstiges) – Format: 430x120 cm
+- Albero Gelso (Sonstiges) – Formate: 20x120 cm, 40x120 cm, 60x60 cm, 80x80 cm, 80x180 cm
+- Albero Mandorlo … Vill du se fler?"

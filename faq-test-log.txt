@@ -1,0 +1,63 @@
+=== 🧪 FAQ Data Test (Keywords + Fuse) ===
+
+=== 🧪 FAQ Data Test (Keywords + Fuse) ===
+
+🔎 [SE] Input: "Vilka mått har ni?"
+   ❌ Ingen match hittad
+
+🔎 [EN] Input: "How to clean outdoor tiles?"
+   🏷 Keywords hittade: tiles, clean, to, outdoor tiles
+   ✅ Match (keyword+fuse): ""Salt-glazed tiles?"" (score=0.61)
+      💬 Svar: Yes, it's fine to salt outdoor tiles; they are resistant to most types of chemicals. If you're unsure, test on a spare tile or a small, inconspicuous area.
+      ⭐ Avgörande keyword: tiles
+
+🔎 [SE] Input: "Kan man lägga plattorna på grus?"
+   🏷 Keywords hittade: grus, plattorna
+   ✅ Match (keyword+fuse): "Måste man limma plattorna?" (score=0.68)
+      💬 Svar: Nej, vid lös läggning ligger de stadigt tack vare sin tyngd.
+      ⭐ Avgörande keyword: plattorna
+
+🔎 [EN] Input: "Do you ship internationally?"
+   ❌ Ingen match hittad
+
+🔎 [DA] Input: "Hvordan rengør man terrassefliser?"
+   ❌ Ingen match hittad
+
+🔎 [DE] Input: "Welche Größen gibt es?"
+   🏷 Keywords hittade: welche
+   ✅ Match (keyword+fuse): "Welche Vorteile bieten unterschiedliche Oberflächentexturen?" (score=0.66)
+      💬 Svar: Ja, es gibt sowohl glatte als auch strukturierte Oberflächen, je nach Anforderungen.
+      ⭐ Avgörande keyword: welche
+
+🔎 [SE] Input: "Kan man använda salt på plattorna?"
+   🏷 Keywords hittade: plattorna, salt
+   ✅ Match (keyword+fuse): "Måste man limma plattorna?" (score=0.72)
+      💬 Svar: Nej, vid lös läggning ligger de stadigt tack vare sin tyngd.
+      ⭐ Avgörande keyword: plattorna
+
+🔎 [EN] Input: "Do you offer home delivery?"
+   🏷 Keywords hittade: home delivery
+   ✅ Match (keyword+fuse): "Do you offer home delivery?" (score=0.00)
+      💬 Svar: Yes, we offer home delivery to the property boundary.
+      ⭐ Avgörande keyword: home delivery
+
+🔎 [DA] Input: "Tilbyder I hjemlevering?"
+   🏷 Keywords hittade: tilbyder
+   ✅ Match (keyword+fuse): "Tilbyder I hjemmelevering?" (score=0.16)
+      💬 Svar: Ja, vi tilbyder levering til ejendomsgrænsen.
+      ⭐ Avgörande keyword: tilbyder
+
+🔎 [DE] Input: "Kan man skære pladerne?"
+   ❌ Ingen match hittad
+
+🔎 [EN] Input: "Blablabla random nonsense question?"
+   ❌ Ingen match hittad
+
+=== 📊 Summering ===
+Keyword-träffar (exakt): 0
+Keyword+Fuse-träffar:   6
+Fuse-träffar:           0
+Missar:                 5
+Totalt:                 11 (Coverage: 54.5%)
+
+📂 Logg sparad till: C:\uteklinker-chatbot-vercel\faq-test-log.txt

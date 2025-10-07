@@ -1,0 +1,298 @@
+Steg 1: Exempel på 20 frågor & svar
+
+Jag genererar först ett smakprov på ca 20 frågor/svar (5 per språk).
+Så du kan bedöma stil, språk och nivå innan vi automatiserar allt.
+
+🇸🇪 Svenska
+
+Levererar ni till Gotland?
+Ja, vi levererar till hela Sverige inklusive Gotland. (AI)
+
+Kan man använda högtryckstvätt på plattorna?
+Ja, men vi rekommenderar låg trycknivå och brett munstycke. (AI)
+
+Behöver plattorna underhållsolja?
+Nej, klinkerdäck® kräver inget oljebehandling. (FAQ)
+
+Vilka färger finns tillgängliga?
+Vi erbjuder flera färger, till exempel grå, svart och beige. (FAQ)
+
+Kan man lägga plattorna på en altan i trä?
+Ja, men underlaget måste vara jämnt och stabilt. (AI)
+
+🇬🇧 English
+
+Do you deliver to the UK?
+No, deliveries are currently limited to Sweden, Denmark and Germany. (AI)
+
+Can I use a pressure washer on the tiles?
+Yes, but we recommend low pressure and a wide nozzle. (AI)
+
+Are the tiles frost-resistant?
+Yes, klinkerdäck® is frostproof and requires no winter storage. (FAQ)
+
+What sizes do the tiles come in?
+The tiles are available in standard outdoor dimensions. (AI)
+
+Can I place the tiles on gravel?
+Yes, the tiles can be installed on gravel with proper support. (AI)
+
+🇩🇰 Dansk
+
+Leverer I til Bornholm?
+Ja, vi leverer i hele Danmark inklusive Bornholm. (AI)
+
+Kan man bruge højtryksrenser på fliserne?
+Ja, men vi anbefaler lavt tryk og bred dyse. (AI)
+
+Skal fliserne behandles med olie?
+Nej, klinkerdæk® kræver ingen oliebehandling. (FAQ)
+
+Findes der forskellige overflader?
+Ja, både glatte og strukturerede overflader findes. (FAQ)
+
+Kan man lægge fliserne på en træterrasse?
+Ja, hvis underlaget er jævnt og stabilt. (AI)
+
+🇩🇪 Deutsch
+
+Liefern Sie auch nach Österreich?
+Nein, aktuell nur nach Deutschland, Dänemark und Schweden. (AI)
+
+Kann man die Platten mit einem Hochdruckreiniger säubern?
+Ja, aber nur mit niedrigem Druck und breiter Düse. (AI)
+
+Sind die Platten frostsicher?
+Ja, klinkerdäck® ist frostsicher und benötigt keine Winterlagerung. (FAQ)
+
+Welche Farben gibt es?
+Es gibt mehrere Farben, z. B. Grau, Schwarz und Beige. (FAQ)
+
+Kann man die Platten auf Kies verlegen?
+Ja, die Platten können auf Kies verlegt werden, wenn der Untergrund eben ist. (AI)
+
+🔹 Steg 2: Script för att skriva till Google Sheets
+
+När du säger “kör” gör vi ett Node.js-script (generate-faq.mjs) som:
+
+Läser in befintliga FAQ + keywords.
+
+Genererar hundratals frågor/svar (med OpenAI om FAQ inte matchar).
+
+Skapar ett nytt Google Spreadsheet FAQ_NEW_GENERATED_QUESTIONS.
+
+Lägger frågor/svar i 4 flikar: SE, EN, DA, DE.
+
+Bra att du säger det! Jag uppdaterar “affärsregeln” för leveranser så allt vi genererar (frågor + svar + AI-fallback) följer:
+
+Policy (att bädda in i generatorn)
+
+Primärt: Leverans till Sverige, Danmark, Tyskland (standard).
+
+Utökat: Hela EU kan potentiellt levereras mot förfrågan/offert (manuell bekräftelse krävs).
+
+Utanför EU: i nuläget inte (om inget annat avtalats) → hänvisa till förfrågan.
+
+Hur vi använder policyn
+
+I generatorns prompt och i post-processing (rule-check) säkerställer vi att svar aldrig lovar automatisk leverans utanför standardländerna utan “mot förfrågan”.
+
+Vi sätter en konstant och en guard i kod så ev. AI-svar som bryter policyn korrigeras.
+
+Q&A-mallar (att lägga in direkt i den nya Google-sheeten)
+Svenska (SE)
+
+Levererar ni till hela Sverige?
+Ja, vi levererar i hela Sverige.
+
+Levererar ni till Danmark och Tyskland?
+Ja, Danmark och Tyskland ingår i våra standardleveranser.
+
+Levererar ni till andra EU-länder (t.ex. Finland, Nederländerna, Frankrike)?
+Ja, potentiellt – mot förfrågan. Kontakta oss för offert och bekräftelse på leveransmöjlighet.
+
+Levererar ni till Storbritannien?
+Potentiellt – mot förfrågan och efter separat offert/avtal.
+
+Levererar ni utanför EU?
+I nuläget endast mot förfrågan och efter individuell bedömning/avtal.
+
+English (EN)
+
+Do you deliver across Sweden?
+Yes, we deliver throughout Sweden.
+
+Do you deliver to Denmark and Germany?
+Yes, Denmark and Germany are part of our standard delivery countries.
+
+Do you deliver to other EU countries (e.g., Finland, Netherlands, France)?
+Potentially – upon request. Please contact us for a quotation and confirmation.
+
+Do you deliver to the UK?
+Potentially – upon request and subject to a separate quote/arrangement.
+
+Do you deliver outside the EU?
+Currently upon request only, following individual assessment/arrangement.
+
+Dansk (DA)
+
+Leverer I i hele Sverige?
+Ja, vi leverer i hele Sverige.
+
+Leverer I til Danmark og Tyskland?
+Ja, Danmark og Tyskland er standardleveringer.
+
+Leverer I til andre EU-lande (fx Finland, Nederlandene, Frankrig)?
+Potentielt – efter forespørgsel. Kontakt os for tilbud og bekræftelse.
+
+Leverer I til Storbritannien?
+Potentielt – efter forespørgsel og særskilt tilbud/aftale.
+
+Leverer I uden for EU?
+P.t. kun efter forespørgsel og individuel vurdering/aftale.
+
+Deutsch (DE)
+
+Liefern Sie in ganz Schweden?
+Ja, wir liefern in ganz Schweden.
+
+Liefern Sie nach Dänemark und Deutschland?
+Ja, Dänemark und Deutschland gehören zu unseren Standardlieferländern.
+
+Liefern Sie in andere EU-Länder (z. B. Finnland, Niederlande, Frankreich)?
+Potentiell – auf Anfrage. Bitte kontaktieren Sie uns für Angebot und Bestätigung.
+
+Liefern Sie nach Großbritannien?
+Potentiell – auf Anfrage und nach separatem Angebot/Vereinbarung.
+
+Liefern Sie außerhalb der EU?
+Derzeit nur auf Anfrage nach individueller Prüfung/Vereinbarung.
+
+Prompt-instruktion (lägg i AI-generatorn)
+
+“When answering about shipping: default to Sweden, Denmark, and Germany as standard. For other EU countries or the UK, always say ‘potentially upon request’ and ask the user to contact for a quote/confirmation. Outside the EU: ‘upon request only’. Never promise worldwide delivery.”
+
+Nästa steg
+
+Jag kan nu:
+
+generera 200–500 Q&A per språk med policyn inbäddad,
+
+skriva direkt till ny Google-sheet (FAQ_NEW_GENERATED_QUESTIONS) i flikarna SE, EN, DA, DE,
+
+markera källa som AI respektive FAQ,
+
+köra policy-guard på alla AI-svar innan skrivning.
+
+Säg bara vilka språk/antal du vill börja med (t.ex. SE/EN 100 st var), så kör jag hela filen i nästa steg.
+
+Förslag på kategorier & exempel (utkast)
+1. Produkt & Egenskaper
+
+Vilka mått finns klinkerdäck® i?
+
+Finns det olika färger att välja på?
+
+Är plattorna halksäkra?
+
+Tål plattorna frost och kyla?
+
+Kan man använda salt på klinkerdäck® vid snö och is?
+
+Är plattorna resistenta mot mossa och alger?
+
+Finns det olika ytstrukturer (släta, strukturerade)?
+
+Är plattorna resistenta mot kemikalier?
+
+2. Installation & Underlag
+
+Kan man lägga plattorna direkt på grus?
+
+Måste man limma plattorna vid installation?
+
+Kan plattorna läggas på trätrall eller altan?
+
+Går det att lägga klinkerdäck® på betong?
+
+Behöver man distanskryss när man lägger plattorna?
+
+Kan man kapa plattorna själv?
+
+Vilka verktyg rekommenderas för kapning?
+
+Kan man lägga plattorna på balkong?
+
+Krävs det underhållsolja?
+
+3. Underhåll & Skötsel
+
+Hur rengör man plattorna bäst?
+
+Kan man använda högtryckstvätt på plattorna?
+
+Behöver plattorna behandlas med impregnering?
+
+Hur tar man bort mossa och alger från plattorna?
+
+Hur påverkas plattorna av salt på vintern?
+
+Krävs det speciell vinterförvaring?
+
+Kan plattorna missfärgas av vin, olja eller andra fläckar?
+
+Hur lång är livslängden på plattorna?
+
+4. Leverans & Logistik
+
+Erbjuder ni hemleverans?
+
+Kan man hämta plattorna själv i butik eller lager?
+
+Levererar ni i hela Sverige?
+
+Levererar ni till Danmark?
+
+Levererar ni till Finland?
+
+Kan ni leverera till andra EU-länder?
+
+Skickar ni även till Norge?
+
+Hur lång är leveranstiden normalt?
+
+Vad kostar frakten?
+
+Kan man boka tid för leverans?
+
+5. Kundservice & Garanti
+
+Finns det garanti på klinkerdäck®?
+
+Hur lång garanti lämnar ni?
+
+Kan man returnera plattor som blivit över?
+
+Går det att beställa provplattor innan köp?
+
+Hur får man offert på större projekt?
+
+Erbjuder ni rådgivning vid planering?
+
+Vad gör jag om en platta går sönder vid leverans?
+
+Hur gör jag en reklamation?
+
+6. Övrigt
+
+Är klinkerdäck® miljövänligt?
+
+Är plattorna återvinningsbara?
+
+Tillverkas produkterna i Sverige?
+
+Kan man använda plattorna inomhus också?
+
+Passar klinkerdäck® till poolområden?
+
+Är klinkerdäck® brandsäkert?

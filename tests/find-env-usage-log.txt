@@ -1,0 +1,135 @@
+﻿C:\uteklinker-chatbot-vercel\api\ai.js:5 apiKey: process.env.OPENAI_API_KEY,
+C:\uteklinker-chatbot-vercel\api\chat.js:9 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+C:\uteklinker-chatbot-vercel\api\experimental.js:9 apiKey: process.env.OPENAI_API_KEY,
+C:\uteklinker-chatbot-vercel\lib\utils.js:35 project_id: clean(process.env.GCP_PROJECT_ID),
+C:\uteklinker-chatbot-vercel\lib\utils.js:36 private_key_id: clean(process.env.GCP_PRIVATE_KEY_ID),
+C:\uteklinker-chatbot-vercel\lib\utils.js:37 private_key: (process.env.GCP_PRIVATE_KEY || "")
+C:\uteklinker-chatbot-vercel\lib\utils.js:41 client_email: clean(process.env.GCP_CLIENT_EMAIL),
+C:\uteklinker-chatbot-vercel\lib\utils.js:42 client_id: clean(process.env.GCP_CLIENT_ID),
+C:\uteklinker-chatbot-vercel\lib\utils.js:61 `🌍 URL: https://docs.google.com/spreadsheets/d/${process.env.SHEET_ID}/edit#gid=0 (range: ${range})`
+C:\uteklinker-chatbot-vercel\lib\utils.js:65 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\lib\utils.js:113 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\lib\utils.js:126 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\Old tests\server.js:1 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\Old tests\server.js:2 dotenv.config();
+C:\uteklinker-chatbot-vercel\Old tests\server.js:30 if (process.env.NODE_ENV !== "production") {
+C:\uteklinker-chatbot-vercel\Old tests\server.js:31 const PORT = process.env.PORT || 3000;
+C:\uteklinker-chatbot-vercel\Old tests\test-faq.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\Old tests\test-faq.js:3 dotenv.config();
+C:\uteklinker-chatbot-vercel\Old tests\test-faq.js:10 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+C:\uteklinker-chatbot-vercel\Old tests\test-faq.js:29 console.log(`🔧 Matchningsmetod: ${String(process.env.USE_FUZZY || "").toLowerCase() === "true" ? "FUZZY" : "ENKEL"}`);
+C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js:4 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js:48 dotenv.config({ path: ENV_FILE });
+C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js:61 console.log("🔍 Verifierar laddade variabler (via dotenv)...");
+C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js:63 const val = process.env[key];
+C:\uteklinker-chatbot-vercel\Test cache filer\ai.js:5 apiKey: process.env.OPENAI_API_KEY,
+C:\uteklinker-chatbot-vercel\Test cache filer\chat.js:8 apiKey: process.env.OPENAI_API_KEY,
+C:\uteklinker-chatbot-vercel\Test cache filer\experimental.js:9 apiKey: process.env.OPENAI_API_KEY,
+C:\uteklinker-chatbot-vercel\Test cache filer\faq.js:38 const useFuzzy = String(process.env.USE_FUZZY || "").toLowerCase() === "true";
+C:\uteklinker-chatbot-vercel\Test cache filer\server.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\Test cache filer\server.js:3 dotenv.config();
+C:\uteklinker-chatbot-vercel\Test cache filer\server.js:26 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+C:\uteklinker-chatbot-vercel\Test cache filer\server.js:165 const PORT = process.env.PORT || 3000;
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:28 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:29 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:30 private_key: process.env.GCP_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:31 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:32 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:52 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:93 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\Test cache filer\utils.js:106 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite-vercel.js:7 const BASE_URL = process.env.NODE_ENV === "production" ? PROD_URL : LOCAL_URL;
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:2 2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:13 13 dotenv.config({ path: "../.env.vercel" });
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:50 50       project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:51 51       private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:52 52       private_key: process.env.GCP_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:53 53       client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:54 54       client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:55 55       sheet_id: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js:65 65 const SHEET_ID = process.env.SHEET_ID;
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:2 import "dotenv/config";              // ✅ laddar .env direkt
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:51 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:52 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:53 private_key: process.env.GCP_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:54 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:55 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:56 sheet_id: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs:66 const SHEET_ID = process.env.SHEET_ID;
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:2 import "dotenv/config";
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:44 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:45 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:46 private_key: process.env.GCP_PRIVATE_KEY?.replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:47 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:48 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs:58 const SHEET_ID = process.env.SHEET_ID;
+C:\uteklinker-chatbot-vercel\tests\test-cache.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\test-cache.js:3 dotenv.config({ path: "../.env.vercel" });
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:5 dotenv.config({ path: ".env.vercel" });
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:11 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:12 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:13 private_key: (process.env.GCP_PRIVATE_KEY || "")
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:17 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:18 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:30 console.log(`📌 SHEET_ID: ${process.env.SHEET_ID}`);
+C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js:35 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js:3 dotenv.config({ path: ".env.vercel" });
+C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js:10 console.log("📌 SHEET_ID i env:", process.env.SHEET_ID);
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:6 dotenv.config({ path: ".env.vercel" });
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:11 const spreadsheetId = process.env.SHEET_ID;
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:23 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:24 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:25 private_key: (process.env.GCP_PRIVATE_KEY || "")
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:29 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js:30 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-env.js:2 import "dotenv/config";
+C:\uteklinker-chatbot-vercel\tests\test-google-env.js:13 client_email: cleanEnv(process.env.GCP_CLIENT_EMAIL),
+C:\uteklinker-chatbot-vercel\tests\test-google-env.js:14 private_key: cleanEnv(process.env.GCP_PRIVATE_KEY)?.replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\tests\test-google-env.js:15 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:1 import "dotenv/config";   // ⬅ lägg till detta direkt överst
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:4 console.log("CLIENT_EMAIL:", JSON.stringify(process.env.GCP_CLIENT_EMAIL));
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:5 console.log("PRIVATE_KEY length:", process.env.GCP_PRIVATE_KEY?.length || 0);
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:11 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:12 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:13 private_key: (process.env.GCP_PRIVATE_KEY || "").replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:14 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\test-google-key.js:15 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:3 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:4 dotenv.config({ path: ".env.vercel" });
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:30 showVar("GCP_PROJECT_ID", process.env.GCP_PROJECT_ID);
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:31 showVar("GCP_PRIVATE_KEY_ID", process.env.GCP_PRIVATE_KEY_ID);
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:32 showVar("GCP_CLIENT_EMAIL", process.env.GCP_CLIENT_EMAIL);
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:33 showVar("GCP_CLIENT_ID", process.env.GCP_CLIENT_ID);
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:35 const pk = process.env.GCP_PRIVATE_KEY;
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:49 project_id: clean(process.env.GCP_PROJECT_ID),
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:50 private_key_id: clean(process.env.GCP_PRIVATE_KEY_ID),
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:51 private_key: (process.env.GCP_PRIVATE_KEY || "")
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:55 client_email: clean(process.env.GCP_CLIENT_EMAIL),
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:56 client_id: clean(process.env.GCP_CLIENT_ID),
+C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js:100 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:23 showVar("GCP_PROJECT_ID", process.env.GCP_PROJECT_ID);
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:24 showVar("GCP_PRIVATE_KEY_ID", process.env.GCP_PRIVATE_KEY_ID);
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:25 showVar("GCP_CLIENT_EMAIL", process.env.GCP_CLIENT_EMAIL);
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:26 showVar("GCP_CLIENT_ID", process.env.GCP_CLIENT_ID);
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:28 const pk = process.env.GCP_PRIVATE_KEY;
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:42 project_id: clean(process.env.GCP_PROJECT_ID),
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:43 private_key_id: clean(process.env.GCP_PRIVATE_KEY_ID),
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:44 private_key: (process.env.GCP_PRIVATE_KEY || "")
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:48 client_email: clean(process.env.GCP_CLIENT_EMAIL),
+C:\uteklinker-chatbot-vercel\tests\test-google-sanitize.js:49 client_id: clean(process.env.GCP_CLIENT_ID),
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:1 import "dotenv/config";
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:11 project_id: process.env.GCP_PROJECT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:12 private_key_id: process.env.GCP_PRIVATE_KEY_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:13 private_key: (process.env.GCP_PRIVATE_KEY || "")
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:17 client_email: process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:18 client_id: process.env.GCP_CLIENT_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:28 console.log(`📄 Hämtar från Sheet ID: ${process.env.SHEET_ID}, range: ${range}`);
+C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js:31 spreadsheetId: process.env.SHEET_ID,
+C:\uteklinker-chatbot-vercel\tests\test-google.js:2 import dotenv from "dotenv";
+C:\uteklinker-chatbot-vercel\tests\test-google.js:3 dotenv.config();
+C:\uteklinker-chatbot-vercel\tests\test-google.js:11 client_email: process.env.GOOGLE_CLIENT_EMAIL || process.env.GCP_CLIENT_EMAIL,
+C:\uteklinker-chatbot-vercel\tests\test-google.js:12 private_key: (process.env.GOOGLE_PRIVATE_KEY || process.env.GCP_PRIVATE_KEY).replace(/\\n/g, "\n"),
+C:\uteklinker-chatbot-vercel\tests\test-google.js:20 spreadsheetId: process.env.SHEET_ID,

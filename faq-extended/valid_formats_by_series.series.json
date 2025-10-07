@@ -1,0 +1,249 @@
+{
+  "Lava": {
+    "colors": [
+      "Etna",
+      "Marsili",
+      "Salina",
+      "Vesuvio"
+    ],
+    "formats": []
+  },
+  "Albero": {
+    "colors": [
+      "Gelso",
+      "Mandorlo",
+      "Nocciolo"
+    ],
+    "formats": []
+  },
+  "Alpine": {
+    "colors": [
+      "Bocote",
+      "Cobolo",
+      "Mix Dark Chevry",
+      "Mogano",
+      "Sarawa",
+      "Sarawa Chevry",
+      "Slavonia",
+      "Slavonia Chevry"
+    ],
+    "formats": []
+  },
+  "Anniversario": {
+    "colors": [
+      "Grå",
+      "Ljusgrå",
+      "Mörkgrå"
+    ],
+    "formats": []
+  },
+  "Antique": {
+    "colors": [
+      "Dune Carved",
+      "Nuit Carved",
+      "Opal Carved",
+      "Taupe Carved"
+    ],
+    "formats": []
+  },
+  "Ardesia": {
+    "colors": [
+      "Bianco",
+      "Cenere",
+      "Grigio",
+      "Taupe"
+    ],
+    "formats": []
+  },
+  "Argresia": {
+    "colors": [
+      "Svart"
+    ],
+    "formats": []
+  },
+  "Beton": {
+    "colors": [
+      "Cemento",
+      "Cenere",
+      "Sandalo"
+    ],
+    "formats": []
+  },
+  "Cemento": {
+    "colors": [
+      "Clay",
+      "Grit",
+      "Land",
+      "Lime",
+      "Rust"
+    ],
+    "formats": []
+  },
+  "Cortina": {
+    "colors": [
+      "Basalto",
+      "Calcite",
+      "Cenere",
+      "Sabbia"
+    ],
+    "formats": []
+  },
+  "Grotta": {
+    "colors": [
+      "Porfido",
+      "Silver Black",
+      "Silver White"
+    ],
+    "formats": []
+  },
+  "Iris": {
+    "colors": [
+      "Astra",
+      "Crono",
+      "Geo",
+      "Leucos",
+      "Litos"
+    ],
+    "formats": []
+  },
+  "Kvarts": {
+    "colors": [
+      "Grå"
+    ],
+    "formats": []
+  },
+  "Manhattan": {
+    "colors": [
+      "Midtown",
+      "Nolita",
+      "Soho",
+      "Tribeca"
+    ],
+    "formats": []
+  },
+  "Materia": {
+    "colors": [
+      "Upcendre",
+      "Upcharbon",
+      "Upcrete",
+      "Upivoire"
+    ],
+    "formats": []
+  },
+  "Meteo": {
+    "colors": [
+      "Dark",
+      "Fog",
+      "Salt",
+      "Sand"
+    ],
+    "formats": []
+  },
+  "Mista": {
+    "colors": [
+      "Agate",
+      "Pearl",
+      "Shell",
+      "Tahiti"
+    ],
+    "formats": []
+  },
+  "Nature": {
+    "colors": [
+      "Nut",
+      "Nut Doga",
+      "Oak",
+      "Oak Doga"
+    ],
+    "formats": []
+  },
+  "Nordique": {
+    "colors": [
+      "Evo Greyge",
+      "Evo Gris Fonce",
+      "Evo Noir"
+    ],
+    "formats": []
+  },
+  "Quartz": {
+    "colors": [
+      "Antracite",
+      "Diaspro",
+      "Madera",
+      "Prasio"
+    ],
+    "formats": []
+  },
+  "Roccia": {
+    "colors": [
+      "Antracite",
+      "Cream",
+      "Light Grey",
+      "Mud"
+    ],
+    "formats": []
+  },
+  "Slate": {
+    "colors": [
+      "Bly",
+      "Grafite",
+      "Grå"
+    ],
+    "formats": []
+  },
+  "Stella": {
+    "colors": [
+      "Bone",
+      "Cement",
+      "Plomb"
+    ],
+    "formats": []
+  },
+  "Stone": {
+    "colors": [
+      "Landstone",
+      "Nightstone",
+      "Silverstone",
+      "Sunstone"
+    ],
+    "formats": []
+  },
+  "Strada": {
+    "colors": [
+      "Saint Luois",
+      "Santa Fe'",
+      "Santa Monica"
+    ],
+    "formats": []
+  },
+  "Travertin": {
+    "colors": [
+      "Beige"
+    ],
+    "formats": []
+  },
+  "Trentino": {
+    "colors": [
+      "Avana",
+      "Canapa",
+      "Lino",
+      "Moro",
+      "Tabacco"
+    ],
+    "formats": []
+  },
+  "Vintage": {
+    "colors": [
+      "Bruges",
+      "Gent",
+      "Namur"
+    ],
+    "formats": []
+  },
+  "Konjak": {
+    "colors": [
+      "Konjak"
+    ],
+    "formats": []
+  }
+}

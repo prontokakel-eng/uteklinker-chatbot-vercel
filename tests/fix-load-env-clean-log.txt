@@ -1,0 +1,16 @@
+﻿Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\Old tests\server.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\Old tests\test-faq.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\Test cache filer\server.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\check-env.mjs
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-cache.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-google-env.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-google-key.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js
+Fixade skrÃ¤p i: C:\uteklinker-chatbot-vercel\tests\test-google.js

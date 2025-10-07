@@ -1,0 +1,22 @@
+Körning TORTURE TEST
+
+Lokalt snabbtest:
+
+$env:TEST_MODE="local"; node tests/chatBot-torture-test-v3-NEW.mjs
+
+
+
+→ Skriver till flik Test.
+
+Mot Vercel backend:
+
+$env:TEST_MODE="backend"; node tests/chatBot-torture-test-v3-NEW.mjs
+
+
+→ Använder fetch (hela kedjan testas) och skriver till flik Test-prod.
+
+
+🔹 Mot en specifik preview-URL (om du vill testa en ny deploy innan den gått live)
+
+$env:TEST_MODE="backend"; $env:CHAT_API_URL="https://project-name-abc123.vercel.app/api/chat"; node tests/chatBot-torture-test-v3-NEW.mjs
+

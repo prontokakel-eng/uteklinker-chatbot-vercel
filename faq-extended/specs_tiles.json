@@ -1,0 +1,2880 @@
+[
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "gold"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "gold"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "gold"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "gold"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "gold"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fog"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fog"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fog"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fog"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fog"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cenere"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cenere"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cenere"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cenere"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cenere"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "anthracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "anthracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "anthracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "anthracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "anthracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "prasio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "prasio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "prasio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "prasio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "prasio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1000,
+    "width_mm": 1000,
+    "size_text": "100x100 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silice"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.0,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silice"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silice"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silice"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silice"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge",
+      "bullnose step",
+      "drainage grid"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "LF_AVA_Outdoor_Catalog_2025.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80.0x80.0 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60.4x60.4 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1208,
+    "width_mm": 1208,
+    "size_text": "120.8x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.74,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 1208,
+    "size_text": "60.4x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 5.48,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80.0x80.0 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "smoke"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60.4x60.4 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "smoke"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1208,
+    "width_mm": 1208,
+    "size_text": "120.8x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "smoke"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.74,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 1208,
+    "size_text": "60.4x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "smoke"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 5.48,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80.0x80.0 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60.4x60.4 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1208,
+    "width_mm": 1208,
+    "size_text": "120.8x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.74,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 1208,
+    "size_text": "60.4x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 5.48,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80.0x80.0 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "sabbia"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60.4x60.4 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "sabbia"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 1208,
+    "width_mm": 1208,
+    "size_text": "120.8x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "sabbia"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.74,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 1208,
+    "size_text": "60.4x120.8 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11C",
+    "frost_resistant": true,
+    "colors": [
+      "sabbia"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 5.48,
+    "docs": {
+      "catalog_pdf": "SINTESI_Catalogo_twenty_2025_LR.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grit"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grit"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grit"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "rust"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "rust"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "rust"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "lime"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "lime"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "lime"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "clay"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "clay"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "clay"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "land"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "land"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "land"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cream"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cream"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "cream"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "light grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "light grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "light grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "mud"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "mud"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "mud"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "antracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "antracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "antracite"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fango"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fango"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fango"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fumo"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fumo"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "fumo"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "ghiaccio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "ghiaccio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "ghiaccio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "greige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "perla"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "perla"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "perla"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "tortora"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "tortora"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "tortora"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grigio"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "white"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "white"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "white"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 600,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silver"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 900,
+    "width_mm": 900,
+    "size_text": "90x90 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silver"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.94,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 600,
+    "width_mm": 1200,
+    "size_text": "60x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "silver"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 2.78,
+    "docs": {
+      "catalog_pdf": "CAPRI-OUTDOOR-catalogo.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": 47.0,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "light grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "light grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "light grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": 47.0,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "grey"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": 47.0,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "dark"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "dark"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "dark"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60x60 cm 20 mm",
+    "weight_kg_m2": 47.0,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "beige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 10.96,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 800,
+    "width_mm": 800,
+    "size_text": "80x80 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "beige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 6.25,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "thickness_mm": 20,
+    "length_mm": 400,
+    "width_mm": 1200,
+    "size_text": "40x120 cm 20 mm",
+    "weight_kg_m2": null,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "colors": [
+      "beige"
+    ],
+    "surface": "rectified",
+    "special_pieces": [
+      "stair tread",
+      "pool edge"
+    ],
+    "pedestals_per_m2": 4.17,
+    "docs": {
+      "catalog_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "scraped_at": "2025-09-29T11:28:39.545079Z"
+  }
+]

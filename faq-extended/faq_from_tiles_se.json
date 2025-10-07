@@ -1,0 +1,2110 @@
+{
+  "SE_PLAT": [
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "gold",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "gold",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "gold",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "gold",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "gold",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "fog",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "fog",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "fog",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "fog",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "fog",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "cenere",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "cenere",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "cenere",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "cenere",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "cenere",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "anthracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "anthracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "anthracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "anthracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "anthracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "prasio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "prasio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "prasio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "prasio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "prasio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "silice",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "100x100 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "answer_se": "4 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "silice",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "silice",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "silice",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "silice",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80.0x80.0 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x60.4 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "120.8x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "2.74 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "5.48 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "smoke",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80.0x80.0 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "smoke",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x60.4 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "smoke",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "120.8x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "2.74 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "smoke",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "5.48 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80.0x80.0 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x60.4 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "120.8x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "2.74 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "5.48 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "sabbia",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80.0x80.0 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "sabbia",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x60.4 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "sabbia",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "120.8x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "answer_se": "2.74 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "sabbia",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60.4x120.8 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "answer_se": "5.48 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "grit",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "grit",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "grit",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "rust",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "rust",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "rust",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "lime",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "lime",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "lime",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "clay",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "clay",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "clay",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "land",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "land",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "land",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "cream",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "cream",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "cream",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "light grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "light grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "light grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "mud",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "mud",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "mud",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "antracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "antracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "antracite",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "fango",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "fango",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "fango",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "fumo",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "fumo",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "fumo",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "ghiaccio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "ghiaccio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "ghiaccio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "greige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "perla",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "perla",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "perla",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "tortora",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "tortora",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "tortora",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "grigio",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "white",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "white",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "white",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "silver",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "silver",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "90x90 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "answer_se": "4.94 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "silver",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "answer_se": "2.78 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "light grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "light grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "light grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "grey",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "dark",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "dark",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "dark",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "beige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "60x60 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "answer_se": "10.96 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "beige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "80x80 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "answer_se": "6.25 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    },
+    {
+      "question_se": "Vilka färger finns för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "beige",
+      "source": "specs_tiles.json",
+      "category": "färg"
+    },
+    {
+      "question_se": "Vilka storlekar finns i 20 mm tjocklek?",
+      "answer_se": "40x120 cm 20 mm",
+      "source": "specs_tiles.json",
+      "category": "storlek"
+    },
+    {
+      "question_se": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "answer_se": "4.17 st/m²",
+      "source": "specs_tiles.json",
+      "category": "piedestaler"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿Skulle ersÃ¤tta i C:\uteklinker-chatbot-vercel\api\chat.js:15 fs.appendFileSync(LOG_FILE, line, "utf8");
+Skulle ersÃ¤tta i C:\uteklinker-chatbot-vercel\lib\detect-lang.js:86 fs.appendFileSync(LOG_FILE, line);
+Skulle ersÃ¤tta i C:\uteklinker-chatbot-vercel\lib\logger.js:25 fs.appendFileSync(logFile, line + "\n", "utf8");

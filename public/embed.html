@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Embed Test</title>
+  <style>
+    #chatbot-bubble {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #0078d7;
+      color: #fff;
+      padding: 12px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      display: none;
+      z-index: 9999;
+    }
+
+    #chatbot-frame {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 400px;
+      height: 600px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+      display: none;
+      z-index: 9998;
+    }
+  </style>
+</head>
+<body>
+  <!-- Bubble -->
+  <div id="chatbot-bubble">🤖 Kan jag hjälpa till?</div>
+
+  <!-- Chat iframe -->
+  <iframe id="chatbot-frame" src="/chat.html"></iframe>
+
+  <script>
+    const bubble = document.getElementById("chatbot-bubble");
+    const frame = document.getElementById("chatbot-frame");
+
+    // Visa bubble efter 6 sek
+    setTimeout(() => {
+      bubble.style.display = "block";
+    }, 6000);
+
+    // Försvinn efter 6 sek igen
+    setTimeout(() => {
+      bubble.style.display = "none";
+    }, 12000);
+
+    // Visa andra bubble efter 45 sek
+    setTimeout(() => {
+      bubble.textContent = "🤖 Har du frågor om ditt projekt vi kan hjälpa dig med?";
+      bubble.style.display = "block";
+    }, 45000);
+
+    // Klick → öppna chat
+    bubble.addEventListener("click", () => {
+      bubble.style.display = "none";
+      frame.style.display = "block";
+    });
+  </script>
+</body>
+</html>

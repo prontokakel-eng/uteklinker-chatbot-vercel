@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot Embed</title>
+  <style>
+    #chatbot-frame {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 400px;
+      height: 600px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      display: none; /* dold tills vi öppnar den */
+      z-index: 9999;
+    }
+
+    #chatbot-toggle {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #0070f3;
+      color: white;
+      font-size: 24px;
+      border: none;
+      cursor: pointer;
+      z-index: 10000;
+    }
+  </style>
+</head>
+<body>
+  <!-- Toggle knapp -->
+  <button id="chatbot-toggle">💬</button>
+
+  <!-- Iframe som laddar chatten -->
+  <iframe id="chatbot-frame" src="/chat.html"></iframe>
+
+  <script>
+    const btn = document.getElementById("chatbot-toggle");
+    const frame = document.getElementById("chatbot-frame");
+
+    btn.addEventListener("click", () => {
+      if (frame.style.display === "none") {
+        frame.style.display = "block";
+      } else {
+        frame.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>

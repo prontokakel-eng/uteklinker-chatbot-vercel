@@ -1,0 +1,5 @@
+﻿Hard-clean fix i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs
+Hard-clean fix i: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs
+Hard-clean fix i: C:\uteklinker-chatbot-vercel\tests\test-google-env.js
+Hard-clean fix i: C:\uteklinker-chatbot-vercel\tests\test-google-key.js
+Hard-clean fix i: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js

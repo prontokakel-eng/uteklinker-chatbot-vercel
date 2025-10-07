@@ -1,0 +1,31 @@
+{
+  "name": "uteklinker-chatbot",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./lib/gate.js",
+  "exports": {
+    "./lib/*": "./lib/*.js"
+  },
+  "scripts": {
+    "test": "node tests/check-healthz.js && node tests/faq-fuzzy-suite-vercel.js",
+    "test:prod": "NODE_ENV=production node tests/faq-fuzzy-suite-vercel.js",
+    "pull-env": "node vercel-pull.js",
+    "test:faq": "node tests/faq-super-suite.mjs",
+    "test:lang": "node tests/detect-lang-fulltest.mjs"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chalk": "^5.6.2",
+    "cheerio": "^1.1.2",
+    "csv-parse": "^6.1.0",
+    "fuse.js": "^7.1.0",
+    "googleapis": "^126.0.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^5.23.0",
+    "string-similarity": "^4.0.4"
+  },
+  "devDependencies": {
+    "vercel": "^28.18.5"
+  }
+}

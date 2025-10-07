@@ -1,0 +1,904 @@
+{
+  "SE": [
+    {
+      "question": "Vilka mått finns klinkerdäck® i?",
+      "answer": "Plattorna finns i flera olika standardmått. Se vår produktkatalog för aktuella storlekar.",
+      "source": "FAQ",
+      "category": "Format"
+    },
+    {
+      "question": "Vilka färger finns tillgängliga?",
+      "answer": "Vi erbjuder flera färger, till exempel grå, svart och beige.",
+      "source": "FAQ",
+      "category": "Färger"
+    },
+    {
+      "question": "Vilken vikt har en platta?",
+      "answer": "En platta väger i genomsnitt 16–64 kg beroende på storlek.",
+      "source": "AI",
+      "category": "Format"
+    },
+    {
+      "question": "Vilket material tillverkas klinkerdäck® av?",
+      "answer": "Plattorna är tillverkade i keramiskt material med hög hållfasthet.",
+      "source": "FAQ",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Har plattorna någon CE-märkning?",
+      "answer": "Ja, klinkerdäck® är CE-märkt och uppfyller gällande byggstandarder.",
+      "source": "AI",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Finns det olika ytstrukturer (släta, strukturerade)?",
+      "answer": "Ja, både släta och strukturerade ytor finns tillgängliga.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Finns det tekniska datablad att ladda ner?",
+      "answer": "Ja, tekniska datablad finns som PDF på vår hemsida.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Är plattorna resistenta mot kemikalier?",
+      "answer": "Ja, klinkerdäck® tål vanliga hushållskemikalier utan problem.",
+      "source": "AI",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Vilka toleranser gäller för mått och form?",
+      "answer": "Toleranserna följer europeisk standard för keramiska utomhusplattor.",
+      "source": "AI",
+      "category": "Format"
+    },
+    {
+      "question": "Kan man lägga plattorna direkt på grus?",
+      "answer": "Ja, klinkerdäck® kan läggas på ett stabilt grusunderlag.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Måste man limma plattorna vid installation?",
+      "answer": "Nej, normalt sett behöver plattorna inte limmas utan kan läggas löst på rätt underlag.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Kan plattorna läggas på en träaltan?",
+      "answer": "Ja, förutsatt att underlaget är jämnt och stabilt.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan man kapa plattorna själv?",
+      "answer": "Ja, plattorna kan kapas med vinkelslip och diamantklinga.",
+      "source": "FAQ",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Vilka verktyg rekommenderas för kapning?",
+      "answer": "Vinkelslip med diamantklinga ger bäst resultat.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan man lägga plattorna på en balkong?",
+      "answer": "Ja, klinkerdäck® är lämpligt för balkonger om konstruktionen är tillräckligt bärande.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Behöver man distanskryss när man lägger plattorna?",
+      "answer": "Ja, för att säkerställa jämna fogar rekommenderas distanskryss.",
+      "source": "FAQ",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Kan man lägga plattorna inomhus?",
+      "answer": "Ja, klinkerdäck® kan även användas inomhus på lämpliga ytor.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Fungerar plattorna på lutande underlag?",
+      "answer": "Ja, men underlaget måste vara stabilt och dränerat.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur rengör man plattorna bäst?",
+      "answer": "Använd vatten och en mjuk borste. För svårare smuts kan milda rengöringsmedel användas.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan man använda högtryckstvätt på plattorna?",
+      "answer": "Ja, men vi rekommenderar låg trycknivå och brett munstycke.",
+      "source": "AI",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Behöver plattorna behandlas med impregnering?",
+      "answer": "Nej, klinkerdäck® kräver ingen impregnering.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur tar man bort mossa och alger från plattorna?",
+      "answer": "Använd borste och milda rengöringsmedel eller algborttagare anpassad för stenytor.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur påverkas plattorna av salt på vintern?",
+      "answer": "Plattorna tål normalt vägsalt, men överdriven användning bör undvikas.",
+      "source": "AI",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Kan plattorna missfärgas av vin, olja eller andra fläckar?",
+      "answer": "Fläckar kan uppstå, men går ofta bort med mild rengöring.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Krävs det speciell vinterförvaring?",
+      "answer": "Nej, klinkerdäck® kan ligga ute året runt.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur lång livslängd har plattorna?",
+      "answer": "Med rätt installation och underhåll har klinkerdäck® mycket lång livslängd, ofta flera decennier.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Kan plattorna slipas eller renoveras?",
+      "answer": "Nej, plattorna är färdigbehandlade och kräver ingen slipning.",
+      "source": "AI",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Är plattorna halksäkra?",
+      "answer": "Ja, klinkerdäck® har halkskyddade ytor anpassade för utomhusbruk.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Är klinkerdäck® brandsäkert?",
+      "answer": "Ja, plattorna är brandsäkra och avger inga giftiga gaser vid brand.",
+      "source": "AI",
+      "category": "Säkerhet"
+    },
+    {
+      "question": "Kan man använda plattorna vid poolområden?",
+      "answer": "Ja, klinkerdäck® är halkskyddat och lämpar sig för poolmiljöer.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Är plattorna säkra för barn att leka på?",
+      "answer": "Ja, ytan är halkskyddad och tålig för barnens lek.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan äldre personer gå säkert på plattorna?",
+      "answer": "Ja, halkskyddet gör att även seniorer kan gå säkert på ytan.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur testas halksäkerheten?",
+      "answer": "Plattorna testas enligt europeisk standard för friktion och halkmotstånd.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan plattorna bli hala vid isbildning?",
+      "answer": "Ja, precis som alla utomhusytor kan de bli hala vid is, använd gärna sand.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Finns det någon garanti på halkskyddet?",
+      "answer": "Ja, halkskyddet gäller under hela produktens livslängd vid normal användning.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan man använda halkskyddstejp tillsammans med plattorna?",
+      "answer": "Nej, det behövs inte eftersom ytan redan är halksäker.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur lång är livslängden på klinkerdäck®?",
+      "answer": "Plattorna har mycket lång livslängd, ofta över 30 år.",
+      "source": "FAQ",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Är plattorna UV-beständiga?",
+      "answer": "Ja, de bleks inte av solljus.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Tål plattorna frost och kyla?",
+      "answer": "Ja, klinkerdäck® är frostsäkert och kräver ingen vinterförvaring.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Är plattorna resistenta mot slitage?",
+      "answer": "Ja, de är mycket slitstarka och lämpar sig för högtrafikerade ytor.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan man använda plattorna i offentliga miljöer?",
+      "answer": "Ja, klinkerdäck® är anpassat för både privata och offentliga miljöer.",
+      "source": "FAQ",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Tål plattorna kemikalier?",
+      "answer": "Ja, klinkerdäck® är motståndskraftigt mot de flesta vanliga kemikalier.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Är plattorna reptåliga?",
+      "answer": "Ja, ytan är mycket reptålig vid normal användning.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur påverkas plattorna av tung belastning?",
+      "answer": "Plattorna tål hög belastning och passar för utemiljöer med möbler.",
+      "source": "FAQ",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Hur lång garanti ges på hållbarheten?",
+      "answer": "Vi erbjuder långvarig garanti mot sprickbildning vid normal användning.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Är klinkerdäck® miljövänligt?",
+      "answer": "Ja, produkterna är tillverkade med miljöhänsyn och är återvinningsbara.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Är plattorna återvinningsbara?",
+      "answer": "Ja, klinkerdäck® kan återvinnas som byggmaterial.",
+      "source": "FAQ",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Tillverkas produkterna i Sverige?",
+      "answer": "Ja, delar av produktionen sker i Sverige med höga miljökrav.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Kan man använda plattorna inomhus?",
+      "answer": "Ja, klinkerdäck® kan även användas inomhus i exempelvis hallar och kök.",
+      "source": "FAQ",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Passar klinkerdäck® till poolområden?",
+      "answer": "Ja, plattorna är halksäkra och tåliga mot vattenmiljöer.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan plattorna användas på balkong?",
+      "answer": "Ja, klinkerdäck® passar bra på balkonger.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Kan man använda plattorna i kommersiella lokaler?",
+      "answer": "Ja, klinkerdäck® fungerar även i restauranger och butiker.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Hur påverkar produktionen miljön?",
+      "answer": "Tillverkningen sker med miljövänliga processer och minimerad CO2-belastning.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Är produkterna certifierade för miljöbyggnation?",
+      "answer": "Ja, klinkerdäck® kan användas i miljöcertifierade byggprojekt.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Levererar ni i hela Sverige?",
+      "answer": "Ja, vi levererar i hela Sverige.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Levererar ni till Danmark och Tyskland?",
+      "answer": "Ja, Danmark och Tyskland ingår i våra standardleveranser.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Levererar ni till Finland?",
+      "answer": "Ja, potentiellt – mot förfrågan. Kontakta oss för offert.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Levererar ni till Storbritannien?",
+      "answer": "Potentiellt – mot förfrågan och separat offert.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Levererar ni utanför EU?",
+      "answer": "Endast mot förfrågan och individuell bedömning.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Hur lång är leveranstiden normalt?",
+      "answer": "Normalt 5–10 arbetsdagar beroende på lagerstatus.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Vad kostar frakten?",
+      "answer": "Fraktkostnaden beror på vikt och destination, kontakta oss för offert.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Kan man boka tid för leverans?",
+      "answer": "Ja, tidsbokning av leverans är möjlig mot tillägg.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Kan man hämta plattorna själv i lager?",
+      "answer": "Ja, självhämtning i lager är möjlig efter överenskommelse.",
+      "source": "FAQ",
+      "category": "saknas"
+    },
+    {
+      "question": "Vad kostar klinkerdäck® per kvadratmeter?",
+      "answer": "Priset varierar beroende på modell, kontakta oss för aktuell prislista.",
+      "source": "FAQ",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Kan man få offert på större projekt?",
+      "answer": "Ja, vi lämnar offert baserat på volym och leveransadress.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Erbjuder ni delbetalning?",
+      "answer": "Ja, delbetalning kan erbjudas via våra betalpartners.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Vilken tjocklek har plattorna?",
+      "answer": "Standardtjockleken är anpassad för utomhusbruk. Se tekniskt datablad för exakta mått.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Finns plattorna med fasad kant?",
+      "answer": "Ja, vissa modeller har lätt fasade kanter för mjukare känsla.",
+      "source": "AI",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Hur stor är kalibreringstoleransen?",
+      "answer": "Plattorna kalibreras enligt gällande standard. Se datablad för toleranser.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur stor fogbredd rekommenderar ni?",
+      "answer": "Vanligtvis 3–5 mm beroende på underlag och användning.",
+      "source": "FAQ",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Finns plattorna i matt eller halvmatt yta?",
+      "answer": "Ja, flera ytor finns – från matt till lätt strukturerad.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur packas plattorna på pall?",
+      "answer": "Plattor levereras staplade och skyddade på pall. Antal per pall framgår av produktblad.",
+      "source": "AI",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Vilka kulörer är mest färgstabila över tid?",
+      "answer": "Mörkgrå och naturinspirerade kulörer tenderar upplevas stabila. Se färgprover i dagsljus för bästa bedömning.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Finns produktcertifikat och provningsprotokoll?",
+      "answer": "Ja, dokument kan tillhandahållas på begäran för projekt.",
+      "source": "AI",
+      "category": "Produktfakta & Tekniska data"
+    },
+    {
+      "question": "Vilket fall bör underlaget ha för dränering?",
+      "answer": "Rekommenderat fall är ca 1–2 % bort från fasad för att leda bort vatten.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan jag lägga plattorna på befintlig betongplatta?",
+      "answer": "Ja, förutsatt att betongen är plan, bärig och fri från sprickor.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Behöver jag frostskyddslager under plattorna?",
+      "answer": "I utsatta lägen rekommenderas frostskydd och dränerande bädd.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Vilken fog rekommenderas mellan plattorna?",
+      "answer": "En dränerande fogsand eller polymerförstärkt fog fungerar bra utomhus.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Hur hanterar jag rörelsefogar?",
+      "answer": "Lämna rörelsezoner mot fasad och större ytor enligt branschpraxis.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan plattorna läggas på justerbara fötter?",
+      "answer": "Ja, på takterrasser och balkonger kan justerbara fötter användas.",
+      "source": "FAQ",
+      "category": "Piedestaler / Fötter / Stöd"
+    },
+    {
+      "question": "Vilket mönster är enklast att lägga?",
+      "answer": "Rakt förband är snabbast; fiskben och modulmönster kräver mer kapning.",
+      "source": "AI",
+      "category": "Läggningsförslag"
+    },
+    {
+      "question": "Hur avslutar jag mot kanter och rabatter?",
+      "answer": "Använd kantstöd eller kantlist för att säkra plattorna mot rörelse.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Hur ofta bör man städa en uteplats med klinkerdäck®?",
+      "answer": "Löpande sopning och avtorkning vid behov. Grundrengör 1–2 gånger per säsong.",
+      "source": "FAQ",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Hur tar jag bort oljefläckar?",
+      "answer": "Badda med absorberande papper, använd därefter milt avfettningsmedel anpassat för sten/klinker.",
+      "source": "AI",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Kan jag använda ättika eller syror vid rengöring?",
+      "answer": "Undvik starka syror. Använd pH-neutrala eller milt alkaliska medel som är godkända för plattor.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur förebygger jag gröna beläggningar?",
+      "answer": "Håll ytan ren och torr, och använd vid behov algborttagare enligt instruktion.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan jag skotta snö med metallskyffel?",
+      "answer": "Använd hellre plastskyffel för att skona ytan och fogarna.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur rengör jag fogarna utan att skada dem?",
+      "answer": "Borsta varsamt och undvik högtryck rakt ner i fogarna.",
+      "source": "AI",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Behöver jag efterbehandla plattorna efter vintern?",
+      "answer": "En vårstädning med mild rengöring räcker normalt.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur tar jag bort rostfläckar?",
+      "answer": "Använd ett rostborttagningsmedel som är säkert för keramiska ytor och följ instruktionerna noggrant.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Blir plattorna mycket varma i direkt solljus?",
+      "answer": "Ytan kan bli varm vid stark sol. Använd möbeltassar och mattor vid behov.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Är ytan halksäker när den är blöt?",
+      "answer": "Plattorna har halkskyddad yta anpassad för utomhusbruk även vid väta.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Är produkten säker kring grill och gnistor?",
+      "answer": "Keramiska plattor är obrännbara, men undvik långvarig punktvärme.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan kanterna upplevas vassa?",
+      "answer": "Kanter är bearbetade, men använd försiktighet vid kapning och hantering.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Finns rekommendationer för belysning av trappsteg?",
+      "answer": "Ja, markera nivåskillnader med belysning eller kontrastlist för ökad säkerhet.",
+      "source": "AI",
+      "category": "Säkerhet"
+    },
+    {
+      "question": "Är plattorna lämpliga för rullator och rullstol?",
+      "answer": "Ja, vid korrekt lagt, jämnt underlag ger ytan god framkomlighet.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Påverkas halksäkerheten av pollen och smuts?",
+      "answer": "Ja, smuts kan minska friktionen. Håll ytan ren för bästa grepp.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Behövs skyddsutrustning vid kapning?",
+      "answer": "Använd alltid hörsel-, ögon- och andningsskydd samt handskar vid kapning.",
+      "source": "FAQ",
+      "category": "Säkerhet"
+    },
+    {
+      "question": "Hur tåliga är plattorna mot repor från möbelben?",
+      "answer": "Använd möbeltassar för att minska risken för märken. Ytan är i sig reptålig.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Tål plattorna cykelställ och barnleksaker?",
+      "answer": "Ja, normal vardagsanvändning är inget problem vid korrekt underlag.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Hur påverkas färgen över tid?",
+      "answer": "Färgupplevelsen kan variera med ljus och smuts. Regelbunden rengöring bevarar utseendet.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Klarar plattorna snabba temperaturväxlingar?",
+      "answer": "Keramik tål normalt temperaturväxlingar väl vid korrekt installation.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Kan tunga krukor och grillar stå på plattorna?",
+      "answer": "Ja, vid korrekt underlag och fördelad belastning.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Hur påverkas ytan av vägsalt?",
+      "answer": "Undvik överdriven användning av salt. Sand rekommenderas vid is.",
+      "source": "FAQ",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur lång teknisk livslängd kan man räkna med?",
+      "answer": "Med rätt installation och skötsel kan plattorna hålla i många årtionden.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Kan plattorna spricka?",
+      "answer": "Rätt underarbete minskar risken för rörelser och sprickbildning.",
+      "source": "AI",
+      "category": "Hållbarhet"
+    },
+    {
+      "question": "Är klinkerdäck® återvinningsbart?",
+      "answer": "Ja, materialet kan återvinnas som byggmaterial. Lokala regler gäller.",
+      "source": "FAQ",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Finns miljövarudeklaration (EPD)?",
+      "answer": "Dokumentation kan tillhandahållas för projekt på begäran.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Passar plattorna för takterrasser?",
+      "answer": "Ja, särskilt med justerbara fötter och dränerande lager.",
+      "source": "AI",
+      "category": "Piedestaler / Fötter / Stöd"
+    },
+    {
+      "question": "Kan plattorna användas i entréer inomhus?",
+      "answer": "Ja, keramik är slitstarkt och lättstädat även i entréer.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Är produkten lämplig i marina miljöer?",
+      "answer": "Ja, men välj rätt fog och underlag för miljön.",
+      "source": "AI",
+      "category": "Miljö & Användningsområden"
+    },
+    {
+      "question": "Kan plattorna kombineras med trä och natursten?",
+      "answer": "Ja, materialmöten fungerar väl estetiskt vid god detaljprojektering.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Finns rekommendationer för ljuddämpning?",
+      "answer": "Använd mattor eller gummipads vid behov av ljudreduktion.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Lämpar sig plattorna för uteserveringar?",
+      "answer": "Ja, slitstyrka och enkel rengöring gör dem lämpliga i kommersiella miljöer.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Vilka länder har ni som standardleverans?",
+      "answer": "Sverige, Danmark och Tyskland är standardleveranser.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Kan ni leverera till andra EU-länder?",
+      "answer": "Potentiellt – mot förfrågan. Kontakta oss för offert och bekräftelse.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Vilka leveranssätt används?",
+      "answer": "Hemleverans med avisering. Inbärning ingår normalt inte.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan jag få kvällsleverans?",
+      "answer": "I vissa regioner kan tidsstyrd leverans erbjudas mot tillägg.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Hur lång är normal leveranstid?",
+      "answer": "Vanligtvis 5–10 arbetsdagar beroende på lager och adress.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Hur levereras varorna – på pall?",
+      "answer": "Ja, varor kommer normalt på pall som lossas med bakgavellift eller truck.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Hur beräknas pris per m²?",
+      "answer": "Pris påverkas av modell, volym och leveransadress. Begär offert för exakt pris.",
+      "source": "FAQ",
+      "category": "Piedestaler / Fötter / Stöd"
+    },
+    {
+      "question": "Erbjuder ni volymrabatter?",
+      "answer": "Ja, större projekt kan få mängdrabatt efter offert.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Vilka betalningsmetoder accepterar ni?",
+      "answer": "Kort, Swish och faktura kan erbjudas beroende på kundtyp.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Går det att delbetala?",
+      "answer": "Delbetalning kan erbjudas via betalpartner efter kreditprövning.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Ingår frakt i priset?",
+      "answer": "Frakt offereras separat om inte annat anges.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Har ni prisgaranti?",
+      "answer": "Nej, men vi lämnar konkurrenskraftiga offerter baserat på projektets omfattning.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Kostar provplattor något?",
+      "answer": "Provplattor kan erbjudas mot självkostnad eller i samband med offert.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Hur länge gäller en offert?",
+      "answer": "Offertens giltighetstid framgår av offerten, normalt 14–30 dagar.",
+      "source": "AI",
+      "category": "Pris & Betalning"
+    },
+    {
+      "question": "Kan jag ångra köpet?",
+      "answer": "Ångerrätt gäller enligt lag för distansköp. Vissa undantag kan finnas.",
+      "source": "FAQ",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Hur returnerar jag överblivna plattor?",
+      "answer": "Kontakta kundservice. Retur godkänns om plattorna är oskadade i originalförpackning.",
+      "source": "AI",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Vem står för returfrakten?",
+      "answer": "Returfrakt bekostas normalt av kunden om inte varan är felaktig.",
+      "source": "AI",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Hur snabbt måste transportskada anmälas?",
+      "answer": "Anmäl skador direkt vid mottagning och dokumentera med bilder.",
+      "source": "AI",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Hur hanteras produktionsfel?",
+      "answer": "Vi utreder ärendet och erbjuder ersättning eller utbyte enligt garanti.",
+      "source": "AI",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Kan specialbeställda varor returneras?",
+      "answer": "Specialorder omfattas normalt inte av öppet köp.",
+      "source": "AI",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Hur lång tid tar en återbetalning?",
+      "answer": "Återbetalning sker normalt inom 5–10 bankdagar efter godkänd retur.",
+      "source": "AI",
+      "category": "Returer & Reklamationer"
+    },
+    {
+      "question": "Kan jag byta kulör efter leverans?",
+      "answer": "Byten hanteras som retur och ny beställning om varan är oskadad.",
+      "source": "AI",
+      "category": "Färger"
+    },
+    {
+      "question": "Hur kontaktar jag er för rådgivning?",
+      "answer": "Mejla eller ring kundservice så hjälper vi till med val av plattor och underlag.",
+      "source": "FAQ",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan ni räkna på materialåtgång?",
+      "answer": "Ja, vi kan hjälpa till med överslagsberäkning utifrån mått och förutsättningar.",
+      "source": "AI",
+      "category": "Format"
+    },
+    {
+      "question": "Erbjuder ni projekteringsstöd?",
+      "answer": "För större projekt kan underlag som datablad och generella principdetaljer tillhandahållas.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Hur lång är normal svarstid från kundservice?",
+      "answer": "Vi strävar efter att svara inom 24 timmar på vardagar.",
+      "source": "AI",
+      "category": "Kundservice & Support"
+    },
+    {
+      "question": "Kan ni rekommendera montörer?",
+      "answer": "Vi kan hänvisa till samarbetspartners i vissa regioner.",
+      "source": "AI",
+      "category": "Kundservice & Support"
+    },
+    {
+      "question": "Vilka handlingar är bra att ha när jag frågar om offert?",
+      "answer": "Måttsatt skiss, önskad kulör och ungefärlig leveransadress underlättar.",
+      "source": "AI",
+      "category": "Färger"
+    },
+    {
+      "question": "Finns support efter leverans?",
+      "answer": "Ja, vi hjälper gärna till med frågor om skötsel och kompletteringar.",
+      "source": "AI",
+      "category": "Tillbehör"
+    },
+    {
+      "question": "Kan vi boka ett videomöte?",
+      "answer": "Ja, vid behov kan rådgivning ske digitalt.",
+      "source": "AI",
+      "category": "Kundservice & Support"
+    },
+    {
+      "question": "Har ni exempelbilder på uteplatser med klinkerdäck®?",
+      "answer": "Ja, inspirationsbilder finns på vår webb och kan skickas vid förfrågan.",
+      "source": "FAQ",
+      "category": "Projekt & Inspiration"
+    },
+    {
+      "question": "Kan jag få hjälp att välja mönster?",
+      "answer": "Vi kan ge rekommendationer på läggningsmönster utifrån stil och yta.",
+      "source": "AI",
+      "category": "Läggningsförslag"
+    },
+    {
+      "question": "Passar plattorna ihop med trädetaljer och stål?",
+      "answer": "Ja, materialet kombineras ofta med trä, stål och glas i modern design.",
+      "source": "AI",
+      "category": "Projekt & Inspiration"
+    },
+    {
+      "question": "Kan jag provlägga några plattor innan köp?",
+      "answer": "Ja, beställ provplattor och testa på en mindre yta först.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Kan jag använda möbeltassar på plattorna?",
+      "answer": "Ja, vi rekommenderar möbeltassar för att skydda ytan och minska ljud.",
+      "source": "AI",
+      "category": "Ytor"
+    },
+    {
+      "question": "Hur ofta bör fogarna efterfyllas?",
+      "answer": "Inspektera årligen och fyll på vid behov för att behålla stabiliteten.",
+      "source": "AI",
+      "category": "Tillbehör"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+✅ Sanity-check plan inför imorgon
+
+Jag går igenom filerna vi jobbat med (baserat på dina senaste versioner):
+
+gate.js
+
+Importerar: normalizeMessage (utils-text.js), containsWhitelistWord, containsBlacklistWord, isGibberish (filters.js), checkRateLimit (rate-limiter.js).
+
+Exporterar: runGate().
+👉 Ser konsistent ut, ingen dubbel logik.
+
+filters.js
+
+Innehåller bara helpers (whitelist, blacklist, gibberish).
+👉 Används korrekt av gate.js.
+
+rate-limiter.js
+
+Exporterar checkRateLimit(ip) med både fast + slow limiter.
+👉 Integrerad i gate.js. Bra skydd mot bottar.
+
+detect-lang-rules.js
+
+Returnerar { lang, via } baserat på regex, anchors, heuristics, whitelist-boost.
+👉 Ingen filterlogik, precis som vi ville.
+
+detect-lang-core.js
+
+Kör rules → fallback AI.
+
+Returnerar språk, aldrig FILTER.
+👉 Tydligt ansvar, bra separation.
+
+detect-lang.js
+
+Tunn wrapper: detectLangSafe() → detectLangCore().
+👉 Ingen krock.
+
+chat.js
+
+Flöde:
+
+runGate()
+
+detectLangSafe()
+
+FAQ lookup (sheets.js)
+
+AI fallback (med saveAiReply)
+👉 Nu skyddad mot req.headers-crash med ?..
+
+sheets.js
+
+Hämtar/sparar FAQ/AI via Google Sheets.
+👉 Används bara i chat.js. Ser bra ut.
+
+tests/chatBot-torture-test-v3-NEW.mjs
+
+Har headers: { "x-forwarded-for": "test-ip-${i}" } → undviker rate-limit-block.
+
+Jämför PreDetect vs ChatDetect.
+
+Skriver till Sheets med layout.
+👉 Bra för felsökning.
+
+🔍 Slutsats
+
+Allt ser konsistent och rent ut:
+
+Gate = enda filter.
+
+Detect-lang = bara språk.
+
+Sheets = bara data.
+
+Rate-limit = IP-skydd.
+
+Test = robust export + mismatch-analys.
+
+Imorgon kan vi fokusera helt på varför vissa SE/DA/DE-fall blir FILTER fast de borde passera.
+
+🛠️ Felsöknings-checklista
+1️⃣ Grundtest – PreDetect vs ChatDetect
+
+Kör node tests/chatBot-torture-test-v3-NEW.mjs.
+
+Filtrera i resultatet på alla rader där:
+
+PreDetect ≠ ChatDetect
+
+och ChatDetect = FILTER
+
+Detta visar var språket detekteras rätt (PreDetect) men chatten ändå blockerar.
+
+👉 Om felet är här → det är gate.js eller rate-limiter.js som stoppar i onödan.
+
+2️⃣ Whitelist override check
+
+För inputs med ord som finns i whitelist:
+
+Ska ge via=whitelist i ChatDetect.
+
+Om det ändå blir FILTER → bug i containsWhitelistWord eller i gate’s prioritering.
+
+3️⃣ Rate-limit falsklarm
+
+Kolla loggar [RateLimiter].
+
+Om samma test-ip blockeras för ofta → öka testfilens IP-spridning (redan patchat men dubbelkolla).
+
+Om kunder riskerar blockas i prod:
+
+Tunas via .env: RATE_LIMIT, RATE_LIMIT_WINDOW, RATE_LIMIT_FAST, RATE_LIMIT_FAST_WINDOW.
+
+4️⃣ Gibberish falsklarm
+
+Om korta men giltiga inputs blockeras → justera isGibberish() i filters.js.
+
+T.ex. “CE?” ska inte flaggas som gibberish.
+
+5️⃣ Sheets fallback
+
+Kolla saveAiReply fel (Unable to parse range: AI_SE!A:B).
+
+Orsak: tabben AI_SE måste finnas i arket.
+
+Skapa flikarna AI_SE, AI_DA, AI_DE, AI_EN i Google Sheet.
+
+6️⃣ Debug-loggar
+
+Se till att gate.js returnerar via: "blacklist" | "whitelist" | "gibberish" | "rate-limit" | "pass".
+
+Lägg till console.log i gate.js för alla brancher → lättare se var det blockas.
+
+✅ Prioriterad ordning för imorgon
+
+Kolla PreDetect vs ChatDetect mismatchar.
+
+Whitelist override – fungerar det alltid?
+
+Rate-limit – blockar den tester i onödan?
+
+Gibberish – stänger den ute korta frågor felaktigt?
+
+Sheets AI-flikar – finns de i arket?
+
+Vill du att jag redan nu gör en patchad gate.js med extra console.log så vi ser exakt var blockeringen sker i steg 1?

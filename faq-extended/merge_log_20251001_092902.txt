@@ -1,0 +1,77 @@
+Merge run 20251001_092902
+Gamla keywords (rå): 533
+Gamla keywords (normaliserade): 533
+Nya keywords (normaliserade): 812
+Totalt efter merge: 1344 unika keywords
+
+Första 20:
+100 mm
+100x100 cm
+120 mm
+120x120 cm
+120x240 cm
+125 mm
+140 mm
+170 mm
+185 mm
+205 mm
+20x120 cm
+215 mm
+225 mm
+230 mm
+235 mm
+250 mm
+270 mm
+275 mm
+300 mm
+30x120 cm
+
+Sista 20:
+året
+årligen
+årtionden
+återbetalning
+återvinna
+återvinnas
+återvinningsbara
+återvinningsbart
+ögon
+ökad
+önskad
+önskemål
+öppet
+över
+överblivna
+överdriven
+överenskommelse
+överslagsberäkning
+överväg
+övrigt
+
+Piedestal-konverteringar (tal → mm):
+100 → 100 mm
+120 → 120 mm
+125 → 125 mm
+140 → 140 mm
+170 → 170 mm
+185 → 185 mm
+205 → 205 mm
+215 → 215 mm
+225 → 225 mm
+230 → 230 mm
+235 → 235 mm
+250 → 250 mm
+270 → 270 mm
+275 → 275 mm
+300 → 300 mm
+315 → 315 mm
+325 → 325 mm
+330 → 330 mm
+345 → 345 mm
+355 → 355 mm
+365 → 365 mm
+385 → 385 mm
+400 → 400 mm
+455 → 455 mm
+500 → 500 mm
+550 → 550 mm

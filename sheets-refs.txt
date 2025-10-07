@@ -1,0 +1,32 @@
+﻿
+lib\utils.js:73:  const response = await sheets.spreadsheets.values.get({
+lib\utils.js:121:  await sheets.spreadsheets.values.append({
+lib\utils.js:134:  await sheets.spreadsheets.values.append({
+Test cache filer\utils.js:51:  const response = await sheets.spreadsheets.va
+lues.get({
+Test cache filer\utils.js:92:  await sheets.spreadsheets.values.append({
+Test cache filer\utils.js:105:  await sheets.spreadsheets.values.append({
+tests\faq-fuzzy-suite.js:88:87   await sheets.spreadsheets.values.append({
+tests\faq-fuzzy-suite.mjs:74:  await sheets.spreadsheets.values.append({
+tests\faq-super-suite-w-wo-google.mjs:83:  await sheets.spreadsheets.values.
+append({
+tests\faq-super-suite-w-wo-google.mjs:92:  const res = await sheets.spreadsh
+eets.values.get({
+tests\sheets-readwrite-test.mjs:24:    const writeRes = await sheets.spreads
+heets.values.append({
+tests\sheets-readwrite-test.mjs:35:    const readRes = await sheets.spreadsh
+eets.values.get({
+tests\sheets-write-test.mjs:30:    const res = await sheets.spreadsheets.val
+ues.update({
+tests\test-faq-all-prod.js:28:    const res = await sheets.spreadsheets.valu
+es.get({
+tests\test-faq-en-prod.js:31:    const res = await sheets.spreadsheets.value
+s.get({
+tests\test-google-prod-full.js:84:    const res = await sheets.spreadsheets.
+values.get({
+tests\test-google-sheets.js:24:    const response = await sheets.spreadsheet
+s.values.get({
+tests\test-google.js:14:    const res = await sheets.spreadsheets.values.get
+({
+
+

@@ -1,0 +1,11 @@
+﻿Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\api\chat.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\api\detect-lang.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\api\experimental.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\api\test-google.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\Test cache filer\chat.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\Test cache filer\experimental.js
+Skulle uppdatera imports i: C:\uteklinker-chatbot-vercel\Test cache filer\faq.js

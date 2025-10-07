@@ -1,0 +1,16 @@
+{
+  "name": "uteklinker-chatbot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "test": "node tests/check-healthz.js && node tests/faq-fuzzy-suite-vercel.js",
+    "test:prod": "NODE_ENV=production node tests/faq-fuzzy-suite-vercel.js",
+    "pull-env": "node vercel-pull.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "string-similarity": "^4.0.4",
+    "googleapis": "^126.0.1"
+  }
+}

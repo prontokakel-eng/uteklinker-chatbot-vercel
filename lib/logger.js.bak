@@ -1,0 +1,31 @@
+import fs from "fs";
+import path from "path";
+
+// Hitta loggmapp (bara för lokal dev)
+const logDir = path.resolve("./logs");
+
+// Funktion som kollar om vi kör på Vercel (read-only FS)
+function isVercel() {
+  return process.env.VERCEL === "1" || process.env.VERCEL_ENV !== undefined;
+}
+
+export function logMessage(file, message) {
+  const timestamp = new Date().toISOString();
+  const line = `[${timestamp}] ${message}`;
+
+  if (isVercel()) {
+    // ✅ I Vercel → skriv bara till console
+    console.log(`[${file}] ${line}`);
+  } else {
+    // ✅ Lokalt → vill vi egentligen skriva till fil + console
+    // Men kommenterar ut för att undvika problem när log-filer saknas.
+    /*
+    if (!fs.existsSync(logDir)) {
+      fs.mkdirSync(logDir, { recursive: true });
+    }
+    const logFile = path.join(logDir, file);
+    fs.appendFileSync(logFile, line + "\n", "utf8");
+    */
+    console.log(`[${file}] ${line}`);
+  }
+}

@@ -1,0 +1,17 @@
+﻿Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\Old tests\server.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\Old tests\test-faq.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\Test cache filer\server.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\check-env.mjs
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-cache.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-google-env.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-google-key.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js
+Uppdaterade till load-env i: C:\uteklinker-chatbot-vercel\tests\test-google.js

@@ -1,0 +1,49 @@
+Merge run 20251001_091925
+Gamla keywords (rå): 533
+Gamla keywords (normaliserade): 533
+Nya keywords (normaliserade): 812
+Totalt efter merge: 1344 unika keywords
+
+Första 20:
+100
+100x100 cm
+120
+120x120 cm
+120x240 cm
+125
+140
+170
+185
+205
+20x120 cm
+215
+225
+230
+235
+250
+270
+275
+300
+30x120 cm
+
+Sista 20:
+året
+årligen
+årtionden
+återbetalning
+återvinna
+återvinnas
+återvinningsbara
+återvinningsbart
+ögon
+ökad
+önskad
+önskemål
+öppet
+över
+överblivna
+överdriven
+överenskommelse
+överslagsberäkning
+överväg
+övrigt

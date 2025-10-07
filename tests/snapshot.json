@@ -1,0 +1,1121 @@
+[
+  {
+    "type": "dir",
+    "name": ".py",
+    "path": ".py"
+  },
+  {
+    "type": "file",
+    "name": "build_series_facit.py",
+    "path": ".py\\build_series_facit.py",
+    "size": 982,
+    "mtime": "2025-10-02T15:42:45.608Z"
+  },
+  {
+    "type": "file",
+    "name": "clean_translation_file.py",
+    "path": ".py\\clean_translation_file.py",
+    "size": 1516,
+    "mtime": "2025-09-18T09:28:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean_translation_file_smart.py",
+    "path": ".py\\clean_translation_file_smart.py",
+    "size": 2847,
+    "mtime": "2025-09-18T09:32:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fail-safe-mini.py",
+    "path": ".py\\fail-safe-mini.py",
+    "size": 2468,
+    "mtime": "2025-09-18T08:19:40.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_sanity_autofix.py",
+    "path": ".py\\faq_sanity_autofix.py",
+    "size": 1115,
+    "mtime": "2025-09-17T14:57:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_sanity_autofix_with_source.py",
+    "path": ".py\\faq_sanity_autofix_with_source.py",
+    "size": 1598,
+    "mtime": "2025-09-17T15:07:34.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_sanity_check.py",
+    "path": ".py\\faq_sanity_check.py",
+    "size": 1506,
+    "mtime": "2025-09-17T14:55:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "list_sheets.py",
+    "path": ".py\\list_sheets.py",
+    "size": 1312,
+    "mtime": "2025-10-01T05:24:18.232Z"
+  },
+  {
+    "type": "file",
+    "name": "merge_caches.py",
+    "path": ".py\\merge_caches.py",
+    "size": 1083,
+    "mtime": "2025-10-02T12:21:35.638Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_and_merge_keywords.py",
+    "path": ".py\\normalize_and_merge_keywords.py",
+    "size": 4082,
+    "mtime": "2025-10-01T07:28:50.589Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_faq_formats.py",
+    "path": ".py\\normalize_faq_formats.py",
+    "size": 5131,
+    "mtime": "2025-10-02T12:31:27.621Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_formats_in_sheets.py",
+    "path": ".py\\normalize_formats_in_sheets.py",
+    "size": 3334,
+    "mtime": "2025-10-02T09:11:48.673Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_keywords.py",
+    "path": ".py\\normalize_keywords.py",
+    "size": 2222,
+    "mtime": "2025-10-01T07:08:00.425Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_sizes (1).py",
+    "path": ".py\\normalize_sizes (1).py",
+    "size": 4341,
+    "mtime": "2025-10-01T11:48:53.039Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_sizes.py",
+    "path": ".py\\normalize_sizes.py",
+    "size": 4051,
+    "mtime": "2025-10-01T11:47:39.759Z"
+  },
+  {
+    "type": "file",
+    "name": "nytt som skall in1.txt",
+    "path": ".py\\nytt som skall in1.txt",
+    "size": 1631,
+    "mtime": "2025-09-17T15:27:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_en_problems.py",
+    "path": ".py\\patch_en_problems.py",
+    "size": 4196,
+    "mtime": "2025-10-01T10:59:58.251Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_en_problems_v2.py",
+    "path": ".py\\patch_en_problems_v2.py",
+    "size": 5962,
+    "mtime": "2025-10-01T11:02:55.609Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang.py",
+    "path": ".py\\patch_faq_multilang.py",
+    "size": 4246,
+    "mtime": "2025-10-02T08:10:05.615Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang_v2.py",
+    "path": ".py\\patch_faq_multilang_v2.py",
+    "size": 4212,
+    "mtime": "2025-10-02T08:15:22.350Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang_v3.py",
+    "path": ".py\\patch_faq_multilang_v3.py",
+    "size": 4452,
+    "mtime": "2025-10-02T08:29:13.196Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang_v4.py",
+    "path": ".py\\patch_faq_multilang_v4.py",
+    "size": 5757,
+    "mtime": "2025-10-02T08:42:39.276Z"
+  },
+  {
+    "type": "file",
+    "name": "sanitize_faq_se.py",
+    "path": ".py\\sanitize_faq_se.py",
+    "size": 2499,
+    "mtime": "2025-10-02T15:56:04.637Z"
+  },
+  {
+    "type": "file",
+    "name": "sanitize_pronto_formats.py",
+    "path": ".py\\sanitize_pronto_formats.py",
+    "size": 1659,
+    "mtime": "2025-10-02T13:33:14.642Z"
+  },
+  {
+    "type": "file",
+    "name": "scrape_pronto_formats.py",
+    "path": ".py\\scrape_pronto_formats.py",
+    "size": 2237,
+    "mtime": "2025-10-02T13:20:12.337Z"
+  },
+  {
+    "type": "file",
+    "name": "scrape_pronto_formats_v2.py",
+    "path": ".py\\scrape_pronto_formats_v2.py",
+    "size": 2058,
+    "mtime": "2025-10-02T13:24:58.621Z"
+  },
+  {
+    "type": "file",
+    "name": "sync_se_full_lookup.py",
+    "path": ".py\\sync_se_full_lookup.py",
+    "size": 4937,
+    "mtime": "2025-10-01T05:44:33.888Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_en_to_da_de.py",
+    "path": ".py\\translate_en_to_da_de.py",
+    "size": 5785,
+    "mtime": "2025-10-01T11:29:31.854Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_local_se_to_en_da_de.py",
+    "path": ".py\\translate_faq_local_se_to_en_da_de.py",
+    "size": 4153,
+    "mtime": "2025-10-02T11:25:48.248Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de (1).py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de (1).py",
+    "size": 8466,
+    "mtime": "2025-10-01T14:27:39.894Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de.py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de.py",
+    "size": 6794,
+    "mtime": "2025-10-02T15:01:37.582Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de_CLEAN.py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de_CLEAN.py",
+    "size": 6060,
+    "mtime": "2025-10-03T09:11:14.563Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de_UPDATED.py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de_UPDATED.py",
+    "size": 7156,
+    "mtime": "2025-10-03T08:33:59.116Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_full_pivot_fixed.py",
+    "path": ".py\\translate_full_pivot_fixed.py",
+    "size": 4942,
+    "mtime": "2025-09-18T07:48:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_full_pivot_gpt4o_fail_safe.py",
+    "path": ".py\\translate_full_pivot_gpt4o_fail_safe.py",
+    "size": 3602,
+    "mtime": "2025-09-18T07:19:34.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_full_pivot_gpt4o_safe_all.py",
+    "path": ".py\\translate_full_pivot_gpt4o_safe_all.py",
+    "size": 6282,
+    "mtime": "2025-09-18T05:15:20.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords.py",
+    "path": ".py\\translate_keywords.py",
+    "size": 3155,
+    "mtime": "2025-10-01T05:43:56.009Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets-ver3.py",
+    "path": ".py\\translate_keywords_sheets-ver3.py",
+    "size": 6412,
+    "mtime": "2025-10-01T09:50:46.139Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets-ver5.py",
+    "path": ".py\\translate_keywords_sheets-ver5.py",
+    "size": 6445,
+    "mtime": "2025-10-01T10:19:14.247Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets.py",
+    "path": ".py\\translate_keywords_sheets.py",
+    "size": 3890,
+    "mtime": "2025-10-01T07:38:13.268Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets_batch.py",
+    "path": ".py\\translate_keywords_sheets_batch.py",
+    "size": 6125,
+    "mtime": "2025-10-01T09:12:49.580Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_missing_da_de.py",
+    "path": ".py\\translate_missing_da_de.py",
+    "size": 2754,
+    "mtime": "2025-09-17T17:24:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_missing_pivot_gpt4o.py",
+    "path": ".py\\translate_missing_pivot_gpt4o.py",
+    "size": 7819,
+    "mtime": "2025-09-17T17:16:08.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_test.py",
+    "path": ".py\\translate_test.py",
+    "size": 1702,
+    "mtime": "2025-09-17T12:34:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_test_pivot.py",
+    "path": ".py\\translate_test_pivot.py",
+    "size": 3603,
+    "mtime": "2025-09-17T12:46:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_test_pivot_gpt4o.py",
+    "path": ".py\\translate_test_pivot_gpt4o.py",
+    "size": 3752,
+    "mtime": "2025-09-17T12:51:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "upload_normalized_faq.py",
+    "path": ".py\\upload_normalized_faq.py",
+    "size": 2548,
+    "mtime": "2025-10-01T14:41:00.916Z"
+  },
+  {
+    "type": "file",
+    "name": "upload_normalized_lookup.py",
+    "path": ".py\\upload_normalized_lookup.py",
+    "size": 2173,
+    "mtime": "2025-10-01T13:35:32.375Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v2.mjs",
+    "path": "chatBot-torture-test-v2.mjs",
+    "size": 3698,
+    "mtime": "2025-09-25T10:18:56.184Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v3-NEW.mjs",
+    "path": "chatBot-torture-test-v3-NEW.mjs",
+    "size": 9889,
+    "mtime": "2025-09-27T10:46:26.903Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v3.mjs",
+    "path": "chatBot-torture-test-v3.mjs",
+    "size": 3799,
+    "mtime": "2025-09-25T13:31:00.653Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test.mjs",
+    "path": "chatBot-torture-test.mjs",
+    "size": 3181,
+    "mtime": "2025-09-25T09:43:27.489Z"
+  },
+  {
+    "type": "file",
+    "name": "chatPipeline-test.mjs",
+    "path": "chatPipeline-test.mjs",
+    "size": 1349,
+    "mtime": "2025-09-27T11:51:49.921Z"
+  },
+  {
+    "type": "file",
+    "name": "check-env-diff.ps1",
+    "path": "check-env-diff.ps1",
+    "size": 1827,
+    "mtime": "2025-09-20T07:23:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-env-sync.ps1",
+    "path": "check-env-sync.ps1",
+    "size": 3075,
+    "mtime": "2025-09-20T06:41:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-env.mjs",
+    "path": "check-env.mjs",
+    "size": 162,
+    "mtime": "2025-09-23T05:51:05.066Z"
+  },
+  {
+    "type": "file",
+    "name": "check-healthz.js",
+    "path": "check-healthz.js",
+    "size": 482,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-load-env-clean-log.txt",
+    "path": "check-load-env-clean-log.txt",
+    "size": 71912,
+    "mtime": "2025-09-23T05:47:36.420Z"
+  },
+  {
+    "type": "file",
+    "name": "check-load-env-clean.ps1",
+    "path": "check-load-env-clean.ps1",
+    "size": 1706,
+    "mtime": "2025-09-23T05:50:38.792Z"
+  },
+  {
+    "type": "file",
+    "name": "check-vercel-env.ps1",
+    "path": "check-vercel-env.ps1",
+    "size": 1453,
+    "mtime": "2025-09-21T06:01:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-vercel-vars.ps1",
+    "path": "check-vercel-vars.ps1",
+    "size": 1223,
+    "mtime": "2025-09-21T06:14:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean-faq-samples.mjs",
+    "path": "clean-faq-samples.mjs",
+    "size": 1804,
+    "mtime": "2025-09-28T14:46:22.079Z"
+  },
+  {
+    "type": "file",
+    "name": "clean-load-env-log.txt",
+    "path": "clean-load-env-log.txt",
+    "size": 80,
+    "mtime": "2025-09-23T05:41:23.248Z"
+  },
+  {
+    "type": "file",
+    "name": "clean-load-env.ps1",
+    "path": "clean-load-env.ps1",
+    "size": 1780,
+    "mtime": "2025-09-23T05:41:07.008Z"
+  },
+  {
+    "type": "file",
+    "name": "cleanup-bak-log.txt",
+    "path": "cleanup-bak-log.txt",
+    "size": 3123,
+    "mtime": "2025-09-23T05:59:21.284Z"
+  },
+  {
+    "type": "file",
+    "name": "cleanup-bak.ps1",
+    "path": "cleanup-bak.ps1",
+    "size": 719,
+    "mtime": "2025-09-23T05:58:31.762Z"
+  },
+  {
+    "type": "file",
+    "name": "detect-lang-core-test.mjs",
+    "path": "detect-lang-core-test.mjs",
+    "size": 3103,
+    "mtime": "2025-09-27T13:06:53.384Z"
+  },
+  {
+    "type": "file",
+    "name": "detect-lang-test.mjs",
+    "path": "detect-lang-test.mjs",
+    "size": 2279,
+    "mtime": "2025-09-27T11:13:59.179Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-auto-categorize.mjs",
+    "path": "faq-auto-categorize.mjs",
+    "size": 2548,
+    "mtime": "2025-09-29T06:56:25.218Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-data-test.mjs",
+    "path": "faq-data-test.mjs",
+    "size": 3467,
+    "mtime": "2025-09-28T13:51:06.591Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-dialog-torture.mjs",
+    "path": "faq-dialog-torture.mjs",
+    "size": 1475,
+    "mtime": "2025-10-01T15:11:29.402Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-suite-vercel.js",
+    "path": "faq-fuzzy-suite-vercel.js",
+    "size": 1873,
+    "mtime": "2025-09-20T12:04:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-suite.js",
+    "path": "faq-fuzzy-suite.js",
+    "size": 6422,
+    "mtime": "2025-09-23T05:36:23.430Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-suite.mjs",
+    "path": "faq-fuzzy-suite.mjs",
+    "size": 5872,
+    "mtime": "2025-09-23T05:53:23.759Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-test.mjs",
+    "path": "faq-fuzzy-test.mjs",
+    "size": 1039,
+    "mtime": "2025-09-28T05:52:11.939Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-mini.mjs",
+    "path": "faq-mini.mjs",
+    "size": 2790,
+    "mtime": "2025-09-25T05:48:27.595Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite-ex-google-sheets.mjs",
+    "path": "faq-super-suite-ex-google-sheets.mjs",
+    "size": 3081,
+    "mtime": "2025-09-24T10:48:53.733Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite-local.mjs",
+    "path": "faq-super-suite-local.mjs",
+    "size": 2195,
+    "mtime": "2025-09-24T11:14:59.322Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite-w-wo-google.mjs",
+    "path": "faq-super-suite-w-wo-google.mjs",
+    "size": 5591,
+    "mtime": "2025-09-24T11:10:30.853Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite.mjs",
+    "path": "faq-super-suite.mjs",
+    "size": 6788,
+    "mtime": "2025-09-25T06:12:57.403Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_colors_from_pronto_se.json",
+    "path": "faq_colors_from_pronto_se.json",
+    "size": 1149,
+    "mtime": "2025-09-30T14:01:46.889Z"
+  },
+  {
+    "type": "file",
+    "name": "find-env-usage-log.txt",
+    "path": "find-env-usage-log.txt",
+    "size": 14150,
+    "mtime": "2025-09-23T05:28:03.263Z"
+  },
+  {
+    "type": "file",
+    "name": "find-env-usage.ps1",
+    "path": "find-env-usage.ps1",
+    "size": 1386,
+    "mtime": "2025-09-23T05:27:36.557Z"
+  },
+  {
+    "type": "file",
+    "name": "find-fs-logging-log.txt",
+    "path": "find-fs-logging-log.txt",
+    "size": 1297,
+    "mtime": "2025-09-23T06:10:42.095Z"
+  },
+  {
+    "type": "file",
+    "name": "find-fs-logging.ps1",
+    "path": "find-fs-logging.ps1",
+    "size": 1364,
+    "mtime": "2025-09-23T06:10:24.944Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-dotenv-log.txt",
+    "path": "fix-dotenv-log.txt",
+    "size": 691,
+    "mtime": "2025-09-23T05:30:48.959Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-dotenv.ps1",
+    "path": "fix-dotenv.ps1",
+    "size": 2045,
+    "mtime": "2025-09-23T05:30:32.427Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-imports.ps1",
+    "path": "fix-imports.ps1",
+    "size": 2018,
+    "mtime": "2025-09-23T04:19:19.027Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-clean-log.txt",
+    "path": "fix-load-env-clean-log.txt",
+    "size": 1180,
+    "mtime": "2025-09-23T05:51:05.114Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-clean.ps1",
+    "path": "fix-load-env-clean.ps1",
+    "size": 1706,
+    "mtime": "2025-09-23T05:50:57.207Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-hardclean-log.txt",
+    "path": "fix-load-env-hardclean-log.txt",
+    "size": 373,
+    "mtime": "2025-09-23T05:53:23.775Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-hardclean.ps1",
+    "path": "fix-load-env-hardclean.ps1",
+    "size": 1857,
+    "mtime": "2025-09-23T05:53:09.699Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-log.txt",
+    "path": "fix-load-env-log.txt",
+    "size": 1424,
+    "mtime": "2025-09-23T05:36:23.462Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env.ps1",
+    "path": "fix-load-env.ps1",
+    "size": 2262,
+    "mtime": "2025-09-23T05:35:57.648Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-relative-imports-dryrun-log.txt",
+    "path": "fix-relative-imports-dryrun-log.txt",
+    "size": 894,
+    "mtime": "2025-09-23T05:11:39.385Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-relative-imports-dryrun.ps1",
+    "path": "fix-relative-imports-dryrun.ps1",
+    "size": 3370,
+    "mtime": "2025-09-23T05:13:59.824Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-relative-imports-log.txt",
+    "path": "fix-relative-imports-log.txt",
+    "size": 839,
+    "mtime": "2025-09-23T05:14:16.408Z"
+  },
+  {
+    "type": "file",
+    "name": "generate-faq-from-json.mjs",
+    "path": "generate-faq-from-json.mjs",
+    "size": 3260,
+    "mtime": "2025-09-29T13:06:01.910Z"
+  },
+  {
+    "type": "file",
+    "name": "generate-faq-sample.mjs",
+    "path": "generate-faq-sample.mjs",
+    "size": 4149,
+    "mtime": "2025-09-29T06:55:46.975Z"
+  },
+  {
+    "type": "dir",
+    "name": "helpers",
+    "path": "helpers"
+  },
+  {
+    "type": "file",
+    "name": "run-chat.js",
+    "path": "helpers\\run-chat.js",
+    "size": 1293,
+    "mtime": "2025-09-25T13:54:32.482Z"
+  },
+  {
+    "type": "file",
+    "name": "Körning TORTURE TEST.txt",
+    "path": "Körning TORTURE TEST.txt",
+    "size": 557,
+    "mtime": "2025-09-25T14:27:15.179Z"
+  },
+  {
+    "type": "file",
+    "name": "logger.js",
+    "path": "logger.js",
+    "size": 548,
+    "mtime": "2025-09-21T12:06:30.000Z"
+  },
+  {
+    "type": "dir",
+    "name": "logs",
+    "path": "logs"
+  },
+  {
+    "type": "file",
+    "name": "lang-detect.log",
+    "path": "logs\\lang-detect.log",
+    "size": 6177,
+    "mtime": "2025-09-23T08:16:39.113Z"
+  },
+  {
+    "type": "file",
+    "name": "move-and-check.ps1",
+    "path": "move-and-check.ps1",
+    "size": 1759,
+    "mtime": "2025-09-23T04:26:25.553Z"
+  },
+  {
+    "type": "dir",
+    "name": "Old tests",
+    "path": "Old tests"
+  },
+  {
+    "type": "file",
+    "name": "list-files.js",
+    "path": "Old tests\\list-files.js",
+    "size": 781,
+    "mtime": "2025-09-18T11:31:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "move-core-scripts.js",
+    "path": "Old tests\\move-core-scripts.js",
+    "size": 1368,
+    "mtime": "2025-09-19T15:59:10.000Z"
+  },
+  {
+    "type": "file",
+    "name": "move-scripts.js",
+    "path": "Old tests\\move-scripts.js",
+    "size": 1258,
+    "mtime": "2025-09-19T15:44:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "server.js",
+    "path": "Old tests\\server.js",
+    "size": 1024,
+    "mtime": "2025-09-23T05:51:05.050Z"
+  },
+  {
+    "type": "file",
+    "name": "snapshot.js",
+    "path": "Old tests\\snapshot.js",
+    "size": 1107,
+    "mtime": "2025-09-19T15:56:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "Test cache filer.zip",
+    "path": "Old tests\\Test cache filer.zip",
+    "size": 13869,
+    "mtime": "2025-09-19T11:38:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-api.js",
+    "path": "Old tests\\test-api.js",
+    "size": 683,
+    "mtime": "2025-09-20T11:25:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect.js",
+    "path": "Old tests\\test-detect.js",
+    "size": 287,
+    "mtime": "2025-09-18T11:20:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq.js",
+    "path": "Old tests\\test-faq.js",
+    "size": 2273,
+    "mtime": "2025-09-23T05:51:05.050Z"
+  },
+  {
+    "type": "file",
+    "name": "vercel-pull.js",
+    "path": "Old tests\\vercel-pull.js",
+    "size": 2069,
+    "mtime": "2025-09-23T05:51:05.066Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging-dryrun-log.txt",
+    "path": "patch-fs-logging-dryrun-log.txt",
+    "size": 334,
+    "mtime": "2025-09-23T06:12:25.024Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging-dryrun.ps1",
+    "path": "patch-fs-logging-dryrun.ps1",
+    "size": 1217,
+    "mtime": "2025-09-23T06:12:16.182Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging-log.txt",
+    "path": "patch-fs-logging-log.txt",
+    "size": 168,
+    "mtime": "2025-09-23T06:16:32.839Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging.ps1",
+    "path": "patch-fs-logging.ps1",
+    "size": 1860,
+    "mtime": "2025-09-23T06:16:27.101Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-single.ps1",
+    "path": "patch-single.ps1",
+    "size": 1149,
+    "mtime": "2025-09-23T04:35:54.552Z"
+  },
+  {
+    "type": "file",
+    "name": "postprocess-pronto.mjs",
+    "path": "postprocess-pronto.mjs",
+    "size": 1149,
+    "mtime": "2025-09-30T14:06:57.179Z"
+  },
+  {
+    "type": "file",
+    "name": "redeploy.ps1",
+    "path": "redeploy.ps1",
+    "size": 1629,
+    "mtime": "2025-09-24T14:17:30.677Z"
+  },
+  {
+    "type": "file",
+    "name": "scrape-pronto.mjs",
+    "path": "scrape-pronto.mjs",
+    "size": 3675,
+    "mtime": "2025-09-30T14:04:04.744Z"
+  },
+  {
+    "type": "file",
+    "name": "sheets-helper.js",
+    "path": "sheets-helper.js",
+    "size": 2299,
+    "mtime": "2025-09-25T11:41:43.656Z"
+  },
+  {
+    "type": "file",
+    "name": "sheets-readwrite-test.mjs",
+    "path": "sheets-readwrite-test.mjs",
+    "size": 1753,
+    "mtime": "2025-09-25T11:55:40.038Z"
+  },
+  {
+    "type": "file",
+    "name": "sheets-write-test.mjs",
+    "path": "sheets-write-test.mjs",
+    "size": 1255,
+    "mtime": "2025-09-25T10:11:18.159Z"
+  },
+  {
+    "type": "file",
+    "name": "snapshot.js",
+    "path": "snapshot.js",
+    "size": 1107,
+    "mtime": "2025-09-19T15:56:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "snapshot.json",
+    "path": "snapshot.json",
+    "size": 4848,
+    "mtime": "2025-09-21T15:09:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sync-env.ps1",
+    "path": "sync-env.ps1",
+    "size": 767,
+    "mtime": "2025-09-20T05:54:40.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-api.js",
+    "path": "test-api.js",
+    "size": 769,
+    "mtime": "2025-09-20T12:00:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cache.js",
+    "path": "test-cache.js",
+    "size": 1103,
+    "mtime": "2025-09-23T05:51:05.082Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cache.ps1",
+    "path": "test-cache.ps1",
+    "size": 723,
+    "mtime": "2025-09-19T11:10:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cases.json",
+    "path": "test-cases.json",
+    "size": 6645,
+    "mtime": "2025-09-27T10:01:55.399Z"
+  },
+  {
+    "type": "file",
+    "name": "test-chat-prod.js",
+    "path": "test-chat-prod.js",
+    "size": 879,
+    "mtime": "2025-09-21T06:24:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-chat.ps1",
+    "path": "test-chat.ps1",
+    "size": 1055,
+    "mtime": "2025-09-18T12:38:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang-ai.mjs",
+    "path": "test-detect-lang-ai.mjs",
+    "size": 1370,
+    "mtime": "2025-09-23T12:31:27.550Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang-extended.mjs",
+    "path": "test-detect-lang-extended.mjs",
+    "size": 3216,
+    "mtime": "2025-09-23T09:14:04.560Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang-safe.mjs",
+    "path": "test-detect-lang-safe.mjs",
+    "size": 1822,
+    "mtime": "2025-09-23T15:20:12.050Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang.mjs",
+    "path": "test-detect-lang.mjs",
+    "size": 331,
+    "mtime": "2025-09-23T08:38:30.135Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq-all-prod.js",
+    "path": "test-faq-all-prod.js",
+    "size": 1570,
+    "mtime": "2025-09-23T05:51:05.082Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq-cache.js",
+    "path": "test-faq-cache.js",
+    "size": 723,
+    "mtime": "2025-09-23T05:51:05.082Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq-en-prod.js",
+    "path": "test-faq-en-prod.js",
+    "size": 1570,
+    "mtime": "2025-09-23T05:51:05.098Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq.js",
+    "path": "test-faq.js",
+    "size": 1611,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-files-all.zip",
+    "path": "test-files-all.zip",
+    "size": 64572,
+    "mtime": "2025-09-24T10:12:12.155Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-env.js",
+    "path": "test-google-env.js",
+    "size": 1247,
+    "mtime": "2025-09-23T05:53:23.775Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-key.js",
+    "path": "test-google-key.js",
+    "size": 872,
+    "mtime": "2025-09-23T05:53:23.775Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-prod-full.js",
+    "path": "test-google-prod-full.js",
+    "size": 3644,
+    "mtime": "2025-09-23T05:51:05.098Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-prod-ver.js",
+    "path": "test-google-prod-ver.js",
+    "size": 851,
+    "mtime": "2025-09-21T07:09:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-sanitize.js",
+    "path": "test-google-sanitize.js",
+    "size": 2135,
+    "mtime": "2025-09-21T07:47:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-sheets.js",
+    "path": "test-google-sheets.js",
+    "size": 1525,
+    "mtime": "2025-09-23T05:53:23.775Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google.js",
+    "path": "test-google.js",
+    "size": 884,
+    "mtime": "2025-09-23T05:51:05.114Z"
+  },
+  {
+    "type": "file",
+    "name": "test-norm.js",
+    "path": "test-norm.js",
+    "size": 2172,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-openai.js",
+    "path": "test-openai.js",
+    "size": 664,
+    "mtime": "2025-09-24T14:13:33.565Z"
+  },
+  {
+    "type": "file",
+    "name": "test-openai.ps1",
+    "path": "test-openai.ps1",
+    "size": 1530,
+    "mtime": "2025-09-24T15:53:49.364Z"
+  },
+  {
+    "type": "file",
+    "name": "test-refresh.js",
+    "path": "test-refresh.js",
+    "size": 908,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-save.js",
+    "path": "test-save.js",
+    "size": 1348,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-synonyms.ps1",
+    "path": "test-synonyms.ps1",
+    "size": 1539,
+    "mtime": "2025-09-18T14:41:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "transform-specs-to-faq.mjs",
+    "path": "transform-specs-to-faq.mjs",
+    "size": 3353,
+    "mtime": "2025-09-29T13:00:48.565Z"
+  }
+]

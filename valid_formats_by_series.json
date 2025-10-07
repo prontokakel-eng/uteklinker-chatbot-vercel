@@ -1,0 +1,616 @@
+{
+  "Mineral": {
+    "Galenit": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ]
+  },
+  "Uteklinker": {
+    "Albero Gelso": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Albero Mandorlo": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Albero Nocciolo": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Bocote": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Cobolo": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Mix Dark Chevry": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Mogano": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Sarawa": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Sarawa Chevry": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Slavonia": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Alpine Slavonia Chevry": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Anfi Dover": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Anfi Elba": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Anfi Palinuro": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Anfi Stromboli": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Antique Dune Carved": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Antique Nuit Carved": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Antique Opal Carved": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Antique Taupe Carved": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Ardesia Bianco": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Ardesia Cenere": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Ardesia Grigio": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Ardesia Taupe": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Beton Cemento": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Beton Cenere": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Beton Sandalo": [
+      "100x100cm",
+      "120x240cm",
+      "20x120cm",
+      "30x120cm",
+      "40x120cm",
+      "60x100cm",
+      "60x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Casa Country": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Casa Loft": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Casa Modern": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Casa Urban": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Castello Chambord": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Castello Chenonceau": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Castello Cheverny": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Castello Fontainbleu": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Castello Ussè": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cemento Clay": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cemento Grit": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cemento Land": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cemento Lime": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cemento Rust": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cortina Basalto": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cortina Calcite": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cortina Cenere": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Cortina Sabbia": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Factory Corten": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Factory Oxide": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Factory Zinc": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Fossile Jura": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Fossile Lux Dark": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Fossile Lux Fumo": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Granito Grå": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Grotta Alta": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Grotta Porfido": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Grotta Silver Black": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Grotta Silver White": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Iris Astra": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Iris Crono": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Iris Geo": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Iris Leucos": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Iris Litos": [
+      "20x120cm",
+      "40x120cm",
+      "60x60cm",
+      "80x180cm",
+      "80x80cm"
+    ],
+    "Kvarts Grå": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Kauri": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Kauri Doga": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Maple": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Maple Doga": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Nut": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Nut Doga": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Oak": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ],
+    "Nature Oak Doga": [
+      "030x120cm",
+      "060x60cm",
+      "100x100cm",
+      "160x60cm",
+      "240x80cm",
+      "40x120cm",
+      "40x180cm",
+      "45x90cm",
+      "60x120cm",
+      "60x60cm",
+      "80x80cm",
+      "90x90cm"
+    ]
+  }
+}

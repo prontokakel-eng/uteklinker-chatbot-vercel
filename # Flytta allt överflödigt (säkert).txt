@@ -1,0 +1,7 @@
+# Flytta allt överflödigt (säkert)
+.\cleanup-unused.ps1 -ProjectPath "C:\uteklinker-chatbot-vercel"
+
+# Direkt radera (irreversibelt)
+.\cleanup-unused.ps1 -ProjectPath "C:\uteklinker-chatbot-vercel" -Delete
+
+C:\uteklinker-chatbot-vercel\old-files-uteklinker-chatbot-vercel\cleanup-20251002-1530.log

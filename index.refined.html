@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <h1>🤖 Chatbot</h1>
+  </header>
+
+  <!-- Banners -->
+  <div id="langBanner" class="banner"></div>
+  <div id="faqBanner" class="banner">✅ Svar från lokal FAQ-databas</div>
+  <div id="saveBanner" class="banner">✅ Ditt svar sparades!</div>
+
+  <!-- Main chat container -->
+  <main class="chat-container">
+    <div id="messages" class="messages"></div>
+
+    <!-- Inline edit -->
+    <div id="editContainer" class="hidden">
+      <textarea id="editField"></textarea>
+      <div class="edit-buttons">
+        <button id="saveEditBtn">Spara</button>
+        <button id="cancelEditBtn">Avbryt</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="chat-footer">
+    <div class="input-group">
+      <input id="user-input" type="text" placeholder="Skriv din fråga här..." />
+      <button id="send-btn">➤</button>
+    </div>
+
+    <!-- Extra controls -->
+    <div class="options">
+      <label for="langSelect">Språk:</label>
+      <select id="langSelect">
+        <option value="SE">🇸🇪 SE</option>
+        <option value="EN">🇬🇧 EN</option>
+        <option value="DA">🇩🇰 DA</option>
+        <option value="DE">🇩🇪 DE</option>
+      </select>
+    </div>
+  </footer>
+
+  <!-- Loader animation -->
+  <div id="loader" class="loader hidden">● ● ●</div>
+
+  <!-- Undo banner -->
+  <div id="undoBanner" class="banner">
+    ✅ Svar sparat! <button id="undoBtn">Ångra</button>
+  </div>
+
+  <script src="chat-ui.js"></script>
+</body>
+</html>

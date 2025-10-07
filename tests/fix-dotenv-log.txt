@@ -1,0 +1,9 @@
+﻿Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\Old tests\server.js
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\Old tests\test-faq.js
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\Test cache filer\server.js
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\tests\test-google-env.js
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\tests\test-google-key.js
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js
+Uppdaterade dotenv i: C:\uteklinker-chatbot-vercel\tests\test-google.js

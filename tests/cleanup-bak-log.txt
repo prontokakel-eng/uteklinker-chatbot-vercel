@@ -1,0 +1,46 @@
+﻿Raderar: C:\uteklinker-chatbot-vercel\api\chat.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\api\detect-lang.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\api\experimental.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\api\test-google.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Old tests\server.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Old tests\server.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\Old tests\test-faq.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Old tests\test-faq.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Old tests\vercel-pull.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\Test cache filer\chat.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Test cache filer\experimental.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Test cache filer\faq.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Test cache filer\server.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\Test cache filer\server.js.bak2
+Raderar: C:\uteklinker-chatbot-vercel\Test cache filer\server.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\check-env.mjs.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\check-env.mjs.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs.bak4
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs.bak4
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-cache.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-cache.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-faq-all-prod.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-faq-en-prod.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-env.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-env.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-env.js.bak4
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-key.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-key.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-key.js.bak4
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-prod-full.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js.bak3
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google-sheets.js.bak4
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google.js.bak
+Raderar: C:\uteklinker-chatbot-vercel\tests\test-google.js.bak3

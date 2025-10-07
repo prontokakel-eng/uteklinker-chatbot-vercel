@@ -1,0 +1,108 @@
+<!-- 🚀 Chatbot Embed -->
+<style>
+  #chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 9999;
+  }
+
+  #chatbot-frame {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 380px;
+    height: 560px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.25);
+    display: none;
+    z-index: 9998;
+  }
+
+  #chatbot-bubble {
+    position: fixed;
+    bottom: 95px;
+    right: 90px;
+    background: white;
+    color: #333;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 14px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    display: none;
+    z-index: 10000;
+    max-width: 220px;
+  }
+
+  #chatbot-bubble button {
+    background: #4a6cf7;
+    border: none;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    margin-top: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+</style>
+
+<!-- Knappen -->
+<button id="chatbot-button">💬</button>
+
+<!-- Chat Iframe -->
+<iframe 
+  id="chatbot-frame"
+  src="https://ditt-vercel-projekt.vercel.app/chat.html">
+</iframe>
+
+<!-- Bubblan -->
+<div id="chatbot-bubble">
+  <span id="chatbot-text">🤖 Kan jag hjälpa till?</span><br>
+  <button id="chatbot-yes">Ja tack</button>
+</div>
+
+<script>
+  const btn = document.getElementById("chatbot-button");
+  const frame = document.getElementById("chatbot-frame");
+  const bubble = document.getElementById("chatbot-bubble");
+  const text = document.getElementById("chatbot-text");
+  const yesBtn = document.getElementById("chatbot-yes");
+
+  // Funktion för att visa bubblan i 6s
+  function showBubble(message) {
+    if (frame.style.display === "block") return; // Visa inte om chat är öppen
+    text.textContent = message;
+    bubble.style.display = "block";
+    setTimeout(() => {
+      bubble.style.display = "none";
+    }, 6000);
+  }
+
+  // Toggle chat
+  btn.addEventListener("click", () => {
+    const isVisible = frame.style.display === "block";
+    frame.style.display = isVisible ? "none" : "block";
+  });
+
+  // Klick på "Ja tack"
+  yesBtn.addEventListener("click", () => {
+    bubble.style.display = "none";
+    frame.style.display = "block";
+  });
+
+  // Första bubblan efter 6s
+  setTimeout(() => showBubble("🤖 Kan jag hjälpa till?"), 6000);
+
+  // Andra bubblan efter 45s
+  setTimeout(() => showBubble("🤖 Har du frågor om ditt projekt vi kan hjälpa dig med?"), 45000);
+</script>

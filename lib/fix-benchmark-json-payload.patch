@@ -1,0 +1,44 @@
+diff --git a/lib/faq-sheets.js b/lib/faq-sheets.js
+index bd281a2..6b13c2e 100644
+--- a/lib/faq-sheets.js
++++ b/lib/faq-sheets.js
+@@ -132,10 +132,27 @@ export async function writeBenchmarkResult(row, attempt = 1) {
+   // 🛡️ Bypass eventuell readonly-klient: initiera WRITE-klient varje gång vi ska skriva.
+   const sheets = await ensureClient("write", "writeBenchmarkResult");
+
+-  try {
+-    await sheets.spreadsheets.values.append({
+-      spreadsheetId: sheetId,
+-      range: `${tab}!A:Z`,            // stor range för säkerhets skull
+-      valueInputOption: "USER_ENTERED",
+-      requestBody: { values: [row] },
+-    });
+-    log(`✅ Wrote to ${tab}: ${JSON.stringify(row)}`);
++  // 🧩 Om "row" är ett objekt (från benchmark), konvertera till array
++  let values;
++  if (Array.isArray(row)) {
++    values = row;
++  } else if (typeof row === "object" && row !== null) {
++    // 🔒 Fast kolumnordning för benchmark-utdata
++    const order = [
++      "sheetName",
++      "lang",
++      "question",
++      "detectedLang",
++      "confidence",
++      "result",
++      "timestamp"
++    ];
++    values = order.map(k => row[k] ?? "");
++  } else {
++    values = [String(row)];
++  }
++
++  try {
++    await sheets.spreadsheets.values.append({
++      spreadsheetId: sheetId,
++      range: `${tab}!A:Z`,            // stor range för säkerhets skull
++      valueInputOption: "USER_ENTERED",
++      requestBody: { values: [values] },
++    });
++    log(`✅ Wrote to ${tab}: ${JSON.stringify(row)}`);

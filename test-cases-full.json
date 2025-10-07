@@ -1,0 +1,4108 @@
+﻿{
+  "SE": [
+    {
+      "input": "Vilka färger finns i serien Lava?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Albero?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Alpine?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Anniversario?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Antique?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Ardesia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Argresia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Beton?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Cemento?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Cortina?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Grotta?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Iris?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Kvarts?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Manhattan?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Materia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Meteo?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Mista?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Nature?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Nordique?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Quartz?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Roccia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Slate?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Stella?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Stone?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Strada?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Travertin?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Trentino?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Vintage?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Konjak?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka mått finns klinkerdäck® i?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns tillgängliga?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilken vikt har en platta?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket material tillverkas klinkerdäck® av?",
+      "expected": "SE"
+    },
+    {
+      "input": "Har plattorna någon CE-märkning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns det olika ytstrukturer (släta, strukturerade)?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns det tekniska datablad att ladda ner?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna resistenta mot kemikalier?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka toleranser gäller för mått och form?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man lägga plattorna direkt på grus?",
+      "expected": "SE"
+    },
+    {
+      "input": "Måste man limma plattorna vid installation?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna läggas på en träaltan?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man kapa plattorna själv?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka verktyg rekommenderas för kapning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man lägga plattorna på en balkong?",
+      "expected": "SE"
+    },
+    {
+      "input": "Behöver man distanskryss när man lägger plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man lägga plattorna inomhus?",
+      "expected": "SE"
+    },
+    {
+      "input": "Fungerar plattorna på lutande underlag?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur rengör man plattorna bäst?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man använda högtryckstvätt på plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Behöver plattorna behandlas med impregnering?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur tar man bort mossa och alger från plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur påverkas plattorna av salt på vintern?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna missfärgas av vin, olja eller andra fläckar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Krävs det speciell vinterförvaring?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång livslängd har plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna slipas eller renoveras?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna halksäkra?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är klinkerdäck® brandsäkert?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man använda plattorna vid poolområden?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna säkra för barn att leka på?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan äldre personer gå säkert på plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur testas halksäkerheten?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna bli hala vid isbildning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns det någon garanti på halkskyddet?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man använda halkskyddstejp tillsammans med plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång är livslängden på klinkerdäck®?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna UV-beständiga?",
+      "expected": "SE"
+    },
+    {
+      "input": "Tål plattorna frost och kyla?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna resistenta mot slitage?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man använda plattorna i offentliga miljöer?",
+      "expected": "SE"
+    },
+    {
+      "input": "Tål plattorna kemikalier?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna reptåliga?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur påverkas plattorna av tung belastning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång garanti ges på hållbarheten?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är klinkerdäck® miljövänligt?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna återvinningsbara?",
+      "expected": "SE"
+    },
+    {
+      "input": "Tillverkas produkterna i Sverige?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man använda plattorna inomhus?",
+      "expected": "SE"
+    },
+    {
+      "input": "Passar klinkerdäck® till poolområden?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna användas på balkong?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man använda plattorna i kommersiella lokaler?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur påverkar produktionen miljön?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är produkterna certifierade för miljöbyggnation?",
+      "expected": "SE"
+    },
+    {
+      "input": "Levererar ni i hela Sverige?",
+      "expected": "SE"
+    },
+    {
+      "input": "Levererar ni till Danmark och Tyskland?",
+      "expected": "SE"
+    },
+    {
+      "input": "Levererar ni till Finland?",
+      "expected": "SE"
+    },
+    {
+      "input": "Levererar ni till Storbritannien?",
+      "expected": "SE"
+    },
+    {
+      "input": "Levererar ni utanför EU?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång är leveranstiden normalt?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vad kostar frakten?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man boka tid för leverans?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man hämta plattorna själv i lager?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vad kostar klinkerdäck® per kvadratmeter?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan man få offert på större projekt?",
+      "expected": "SE"
+    },
+    {
+      "input": "Erbjuder ni delbetalning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilken tjocklek har plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns plattorna med fasad kant?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur stor är kalibreringstoleransen?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur stor fogbredd rekommenderar ni?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns plattorna i matt eller halvmatt yta?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur packas plattorna på pall?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka kulörer är mest färgstabila över tid?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns produktcertifikat och provningsprotokoll?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket fall bör underlaget ha för dränering?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag lägga plattorna på befintlig betongplatta?",
+      "expected": "SE"
+    },
+    {
+      "input": "Behöver jag frostskyddslager under plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilken fog rekommenderas mellan plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur hanterar jag rörelsefogar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna läggas på justerbara fötter?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket mönster är enklast att lägga?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur avslutar jag mot kanter och rabatter?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur ofta bör man städa en uteplats med klinkerdäck®?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur tar jag bort oljefläckar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag använda ättika eller syror vid rengöring?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur förebygger jag gröna beläggningar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag skotta snö med metallskyffel?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur rengör jag fogarna utan att skada dem?",
+      "expected": "SE"
+    },
+    {
+      "input": "Behöver jag efterbehandla plattorna efter vintern?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur tar jag bort rostfläckar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Blir plattorna mycket varma i direkt solljus?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är ytan halksäker när den är blöt?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är produkten säker kring grill och gnistor?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan kanterna upplevas vassa?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns rekommendationer för belysning av trappsteg?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är plattorna lämpliga för rullator och rullstol?",
+      "expected": "SE"
+    },
+    {
+      "input": "Påverkas halksäkerheten av pollen och smuts?",
+      "expected": "SE"
+    },
+    {
+      "input": "Behövs skyddsutrustning vid kapning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur tåliga är plattorna mot repor från möbelben?",
+      "expected": "SE"
+    },
+    {
+      "input": "Tål plattorna cykelställ och barnleksaker?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur påverkas färgen över tid?",
+      "expected": "SE"
+    },
+    {
+      "input": "Klarar plattorna snabba temperaturväxlingar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan tunga krukor och grillar stå på plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur påverkas ytan av vägsalt?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång teknisk livslängd kan man räkna med?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna spricka?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är klinkerdäck® återvinningsbart?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns miljövarudeklaration (EPD)?",
+      "expected": "SE"
+    },
+    {
+      "input": "Passar plattorna för takterrasser?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna användas i entréer inomhus?",
+      "expected": "SE"
+    },
+    {
+      "input": "Är produkten lämplig i marina miljöer?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan plattorna kombineras med trä och natursten?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns rekommendationer för ljuddämpning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Lämpar sig plattorna för uteserveringar?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka länder har ni som standardleverans?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan ni leverera till andra EU-länder?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka leveranssätt används?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag få kvällsleverans?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång är normal leveranstid?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur levereras varorna – på pall?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur beräknas pris per m²?",
+      "expected": "SE"
+    },
+    {
+      "input": "Erbjuder ni volymrabatter?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka betalningsmetoder accepterar ni?",
+      "expected": "SE"
+    },
+    {
+      "input": "Går det att delbetala?",
+      "expected": "SE"
+    },
+    {
+      "input": "Ingår frakt i priset?",
+      "expected": "SE"
+    },
+    {
+      "input": "Har ni prisgaranti?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kostar provplattor något?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur länge gäller en offert?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag ångra köpet?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur returnerar jag överblivna plattor?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vem står för returfrakten?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur snabbt måste transportskada anmälas?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur hanteras produktionsfel?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan specialbeställda varor returneras?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång tid tar en återbetalning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag byta kulör efter leverans?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur kontaktar jag er för rådgivning?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan ni räkna på materialåtgång?",
+      "expected": "SE"
+    },
+    {
+      "input": "Erbjuder ni projekteringsstöd?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur lång är normal svarstid från kundservice?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan ni rekommendera montörer?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka handlingar är bra att ha när jag frågar om offert?",
+      "expected": "SE"
+    },
+    {
+      "input": "Finns support efter leverans?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan vi boka ett videomöte?",
+      "expected": "SE"
+    },
+    {
+      "input": "Har ni exempelbilder på uteplatser med klinkerdäck®?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag få hjälp att välja mönster?",
+      "expected": "SE"
+    },
+    {
+      "input": "Passar plattorna ihop med trädetaljer och stål?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag provlägga några plattor innan köp?",
+      "expected": "SE"
+    },
+    {
+      "input": "Kan jag använda möbeltassar på plattorna?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur ofta bör fogarna efterfyllas?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka storlekar finns i 20 mm tjocklek?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format har ni?",
+      "expected": "SE"
+    },
+    {
+      "input": "Jag letar en platta som är typ 60x60 – vilka format ligger närmast?",
+      "expected": "SE"
+    },
+    {
+      "input": "Jag letar en platta som är typ 80x80 – vilka format ligger närmast?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka storlekar har ni i 20 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Har ni förslag på läggningsmönster för 20 mm plattor?",
+      "expected": "SE"
+    },
+    {
+      "input": "Jag har 35 m² av 60x60 cm – hur många fötter behöver jag?",
+      "expected": "SE"
+    },
+    {
+      "input": "Hur räknar jag antal fötter per m² för en viss plattstorlek?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka höjder på fötter har ni?",
+      "expected": "SE"
+    },
+    {
+      "input": "Jag har en specifik höjd, t.ex. 40 mm eller 355 mm, vilken fot ska jag välja?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Adjustment Key?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Slope Corrector 0-5%?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Spacer Tabs 2/3/4 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Pocket Key?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Twist Lock Ring?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Fix Ring?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Dome Extension 25 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilket tillbehör används: Prolunga PBP10 100 mm?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Uteklinker?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka färger finns i serien Träklinker?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Lava?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Albero?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Alpine?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Anniversario?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Antique?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Ardesia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Argresia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Beton?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Cemento?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Cortina?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Grotta?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Iris?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Kvarts?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Manhattan?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Materia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Meteo?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Mista?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Nature?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Nordique?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Quartz?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Roccia?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Slate?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Stella?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Stone?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Strada?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Travertin?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Trentino?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Vintage?",
+      "expected": "SE"
+    },
+    {
+      "input": "Vilka format finns i serien Konjak?",
+      "expected": "SE"
+    }
+  ],
+  "EN": [
+    {
+      "input": "What colors are available in the Lava series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Albero series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Alpine series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Anniversario series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Antique series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Ardesia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Argresia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Beton series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Cemento series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Cortina series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Grotta series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Iris series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Kvarts series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Manhattan series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Materia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Meteo series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Mista series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Nature series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Nordique series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Quartz series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Roccia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Slate series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Stella series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Stone series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Strada series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Travertin series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Trentino series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Vintage series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Konjak series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What sizes are klinkerdäck® available in?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the weight of a plate?",
+      "expected": "EN"
+    },
+    {
+      "input": "What material is klinkerdäck® made of?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do the tiles have any CE marking?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are there different surface textures (smooth, structured)?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are there technical data sheets available for download?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles resistant to chemicals?",
+      "expected": "EN"
+    },
+    {
+      "input": "What tolerances apply to dimensions and shape?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you lay the tiles directly on gravel?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do the tiles need to be glued during installation?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be laid on a wooden deck?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you cut the tiles yourself?",
+      "expected": "EN"
+    },
+    {
+      "input": "What tools are recommended for cutting?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be placed on a balcony?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you need spacers when laying the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be installed indoors?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do the tiles work on sloped surfaces?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do you best clean the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you use a pressure washer on the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do the tiles need to be treated with impregnation?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do you remove moss and algae from the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "How are the tiles affected by salt in the winter?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be discolored by wine, oil, or other stains?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is special winter storage required?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the lifespan of the plates?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be sanded or renovated?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles slip-resistant?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is klinkerdäck® fireproof?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be used in pool areas?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles safe for children to play on?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can older people walk safely on the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "How is slip resistance tested?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles become slippery when ice forms?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is there a warranty on the anti-slip protection?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can anti-slip tape be used with the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the lifespan of klinkerdäck®?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles UV-resistant?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles resistant to frost and cold?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles resistant to wear?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be used in public environments?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles resistant to chemicals?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles scratch-resistant?",
+      "expected": "EN"
+    },
+    {
+      "input": "How are the tiles affected by heavy loads?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the warranty period for durability?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is klinkerdäck® environmentally friendly?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles recyclable?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the products manufactured in Sweden?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be used indoors?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is klinkerdäck® suitable for pool areas?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be used on a balcony?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be used in commercial premises?",
+      "expected": "EN"
+    },
+    {
+      "input": "How does production affect the environment?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the products certified for environmentally friendly construction?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you deliver throughout Sweden?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you deliver to Denmark and Germany?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you deliver to Finland?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you deliver to the United Kingdom?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you deliver outside the EU?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the normal delivery time?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the shipping cost?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you schedule a delivery time?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you pick up the tiles yourself in the warehouse?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the cost of klinkerdäck® per square meter?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I get a quote for larger projects?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you offer installment payments?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the thickness of the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles available with a beveled edge?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the calibration tolerance?",
+      "expected": "EN"
+    },
+    {
+      "input": "What joint width do you recommend?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles available in matte or semi-matte finish?",
+      "expected": "EN"
+    },
+    {
+      "input": "How are the tiles packed on a pallet?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which colors are the most color-stable over time?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are product certificates and test reports available?",
+      "expected": "EN"
+    },
+    {
+      "input": "What slope should the base have for drainage?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I lay the tiles on an existing concrete slab?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do I need a frost protection layer under the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "What grout is recommended between the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I manage expansion joints?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be laid on adjustable feet?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which pattern is the easiest to lay?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I finish against edges and borders?",
+      "expected": "EN"
+    },
+    {
+      "input": "How often should you clean a patio with klinkerdäck®?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I remove oil stains?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I use vinegar or acids for cleaning?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I prevent green deposits?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I shovel snow with a metal shovel?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I clean the grout without damaging it?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do I need to treat the tiles after winter?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I remove rust stains?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do the tiles get very hot in direct sunlight?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is the surface slip-resistant when wet?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is the product safe around the grill and sparks?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the edges be perceived as sharp?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are there recommendations for lighting stair steps?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles suitable for walkers and wheelchairs?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is slip resistance affected by pollen and dirt?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is protective equipment needed during cutting?",
+      "expected": "EN"
+    },
+    {
+      "input": "How resistant are the tiles to scratches from furniture legs?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles resistant to bike racks and children's toys?",
+      "expected": "EN"
+    },
+    {
+      "input": "How does the color change over time?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the plates withstand rapid temperature changes?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can heavy pots and grills be placed on the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "How is the surface affected by road salt?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the expected technical lifespan?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles crack?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is klinkerdäck® recyclable?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is there an Environmental Product Declaration (EPD)?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles suitable for roof terraces?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be used in indoor entrances?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is the product suitable for marine environments?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can the tiles be combined with wood and natural stone?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are there recommendations for soundproofing?",
+      "expected": "EN"
+    },
+    {
+      "input": "Are the tiles suitable for outdoor dining areas?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which countries do you offer standard delivery to?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you deliver to other EU countries?",
+      "expected": "EN"
+    },
+    {
+      "input": "What delivery methods are used?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I get evening delivery?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the normal delivery time?",
+      "expected": "EN"
+    },
+    {
+      "input": "How are the goods delivered – on a pallet?",
+      "expected": "EN"
+    },
+    {
+      "input": "How is the price per m² calculated?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you offer volume discounts?",
+      "expected": "EN"
+    },
+    {
+      "input": "What payment methods do you accept?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is it possible to pay in installments?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is shipping included in the price?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you have a price guarantee?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do sample tiles cost anything?",
+      "expected": "EN"
+    },
+    {
+      "input": "How long is a quote valid?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I cancel the purchase?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I return leftover tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "Who is responsible for the return shipping?",
+      "expected": "EN"
+    },
+    {
+      "input": "How quickly must a transport damage be reported?",
+      "expected": "EN"
+    },
+    {
+      "input": "How are production defects handled?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can custom-ordered items be returned?",
+      "expected": "EN"
+    },
+    {
+      "input": "How long does a refund take?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I change the color after delivery?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I contact you for advice?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you calculate the material consumption?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you offer design support?",
+      "expected": "EN"
+    },
+    {
+      "input": "What is the typical response time from customer service?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can you recommend installers?",
+      "expected": "EN"
+    },
+    {
+      "input": "What documents are good to have when I request a quote?",
+      "expected": "EN"
+    },
+    {
+      "input": "Is there support after delivery?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can we schedule a video meeting?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you have example images of patios with klinkerdäck®?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I get help choosing a pattern?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do the tiles match with wood details and steel?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I try laying some tiles before purchasing?",
+      "expected": "EN"
+    },
+    {
+      "input": "Can I use furniture pads on the tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "How often should the joints be refilled?",
+      "expected": "EN"
+    },
+    {
+      "input": "What sizes are available in 20 mm thickness?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles sized 100x100 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles in size 80x80 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles sized 60x60 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles in size 60x120 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles in size 40x120 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles in size 80.0x80.0 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles sized 60.4x60.4 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles sized 120.8x120.8 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles sized 60.4x120.8 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "How many feet are needed per m² for tiles in size 90x90 cm 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats do you have?",
+      "expected": "EN"
+    },
+    {
+      "input": "I'm looking for a tile that's about 60x60 – which formats are closest?",
+      "expected": "EN"
+    },
+    {
+      "input": "I'm looking for a tile that's about 80x80 – which formats are the closest?",
+      "expected": "EN"
+    },
+    {
+      "input": "What sizes do you have in 20 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "Do you have suggestions for laying patterns for 20 mm tiles?",
+      "expected": "EN"
+    },
+    {
+      "input": "I have 35 m² of 60x60 cm – how many feet do I need?",
+      "expected": "EN"
+    },
+    {
+      "input": "How do I calculate the number of tiles per m² for a specific tile size?",
+      "expected": "EN"
+    },
+    {
+      "input": "What heights of feet do you have?",
+      "expected": "EN"
+    },
+    {
+      "input": "I have a specific height, e.g., 40 mm or 355 mm, which foot should I choose?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Adjustment Key?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Slope Corrector 0-5%?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Spacer Tabs 2/3/4 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Pocket Key?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Twist Lock Ring?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Fix Ring?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Dome Extension 25 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "Which accessory is used: Prolunga PBP10 100 mm?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Uteklinker series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What colors are available in the Träklinker series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Lava series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Albero series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Alpine series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Anniversario series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Antique series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Ardesia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Argresia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Beton series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Cemento series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Cortina series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Grotta series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Iris series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Kvarts series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Manhattan series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Materia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Meteo series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Mista series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Nature series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Nordique series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Quartz series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Roccia series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Slate series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Stella series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Stone series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Strada series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Travertin series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Trentino series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Vintage series?",
+      "expected": "EN"
+    },
+    {
+      "input": "What formats are available in the Konjak series?",
+      "expected": "EN"
+    }
+  ],
+  "DA": [
+    {
+      "input": "Hvilke farver er tilgængelige i Lava-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Albero-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Alpine-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Anniversario-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Antique-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Ardesia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Argresia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Beton-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Cemento-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Cortina-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Grotta-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Iris-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Kvarts-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Manhattan-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Materia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Meteo-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Mista-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Nature-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Nordique-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Quartz-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Roccia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Slate-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Stella-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Stone-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Strada-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Travertin-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Trentino-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Vintage-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Konjak-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke størrelser fås klinkerdäck® i?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad vejer en tallerken?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket materiale er klinkerdäck® lavet af?",
+      "expected": "DA"
+    },
+    {
+      "input": "Har fliserne nogen CE-mærkning?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der forskellige overfladeteksturer (glat, struktureret)?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der tekniske datablad tilgængelige for download?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne modstandsdygtige over for kemikalier?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke tolerancer gælder for dimensioner og form?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan du lægge fliserne direkte på grus?",
+      "expected": "DA"
+    },
+    {
+      "input": "Skal fliserne limes under installationen?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne lægges på et trædæk?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan du selv skære fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke værktøjer anbefales til skæring?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne placeres på en altan?",
+      "expected": "DA"
+    },
+    {
+      "input": "Skal du bruge afstandsstykker, når du lægger fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne installeres indendørs?",
+      "expected": "DA"
+    },
+    {
+      "input": "Fungerer fliserne på skrånende overflader?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan rengør man bedst fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan man bruge en højtryksrenser på fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Skal fliserne behandles med imprægnering?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan fjerner man mos og alger fra fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan påvirkes fliserne af salt om vinteren?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne misfarves af vin, olie eller andre pletter?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kræves der særlig vinteropbevaring?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er levetiden for tallerkenerne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne slibes eller renoveres?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne skridsikre?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er klinkerdäck® brandsikkert?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne bruges i poolområder?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne sikre for børn at lege på?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan ældre mennesker gå sikkert på fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan testes skridsikkerhed?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne blive glatte, når der dannes is?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der garanti på skridsikringen?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan skridsikkert tape bruges med fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er levetiden for klinkerdäck®?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne UV-resistente?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne modstandsdygtige over for frost og kulde?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne modstandsdygtige over for slid?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne bruges i offentlige miljøer?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne modstandsdygtige over for kemikalier?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne ridsefaste?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan påvirkes fliserne af tunge belastninger?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er garantiperioden for holdbarhed?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er klinkerdäck® miljøvenligt?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne genanvendelige?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er produkterne fremstillet i Sverige?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne bruges indendørs?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er klinkerdäck® egnet til poolområder?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne bruges på en altan?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne bruges i erhvervslokaler?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan påvirker produktion miljøet?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er produkterne certificeret til miljøvenligt byggeri?",
+      "expected": "DA"
+    },
+    {
+      "input": "Leverer I i hele Sverige?",
+      "expected": "DA"
+    },
+    {
+      "input": "Leverer I til Danmark og Tyskland?",
+      "expected": "DA"
+    },
+    {
+      "input": "Leverer I til Finland?",
+      "expected": "DA"
+    },
+    {
+      "input": "Leverer I til Storbritannien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Leverer I uden for EU?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er den normale leveringstid?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er forsendelsesomkostningerne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan du planlægge et leveringstidspunkt?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan du selv hente fliserne på lageret?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er prisen på klinkerdäck® per kvadratmeter?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg få et tilbud på større projekter?",
+      "expected": "DA"
+    },
+    {
+      "input": "Tilbyder I afbetalingsordninger?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er tykkelsen på fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne tilgængelige med en skrå kant?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er kalibreringstolerancen?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilken fugebredde anbefaler I?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne tilgængelige i mat eller semi-mat finish?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan er fliserne pakket på en palle?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er de mest farvestabile over tid?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er produktcertifikater og testrapporter tilgængelige?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilken hældning skal basen have for dræning?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg lægge fliserne på en eksisterende betonplade?",
+      "expected": "DA"
+    },
+    {
+      "input": "Skal jeg bruge et frostbeskyttelseslag under fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilken fugemasse anbefales mellem fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan håndterer jeg ekspansionsfuger?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne lægges på justerbare fødder?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket mønster er det nemmeste at lægge?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan afslutter jeg mod kanter og grænser?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor ofte bør du rengøre en terrasse med klinkerdäck®?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan fjerner jeg olieflekker?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg bruge eddike eller syrer til rengøring?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan forhindrer jeg grønne belægninger?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg skovle sne med en metalskovl?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan rengør jeg fugerne uden at beskadige dem?",
+      "expected": "DA"
+    },
+    {
+      "input": "Skal jeg behandle fliserne efter vinteren?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan fjerner jeg rustpletter?",
+      "expected": "DA"
+    },
+    {
+      "input": "Bliver fliserne meget varme i direkte sollys?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er overfladen skridsikker, når den er våd?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er produktet sikkert omkring grillen og gnister?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan kanterne opfattes som skarpe?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der anbefalinger til belysning af trappetrin?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne egnede til gående og kørestole?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er skridsikkerhed påvirket af pollen og snavs?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der behov for beskyttelsesudstyr under skæring?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor modstandsdygtige er fliserne over for ridser fra møbelben?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne modstandsdygtige over for cykelstativer og børnelegetøj?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan ændrer farven sig over tid?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan tallerkenerne modstå hurtige temperaturændringer?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan tunge gryder og grill placeres på fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan påvirkes overfladen af vejsalt?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er den forventede tekniske levetid?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne revne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er klinkerdäck® genanvendelig?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der en Miljøvaredeklaration (EPD)?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne egnede til tagterrasser?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne bruges i indendørs indgange?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er produktet egnet til marine miljøer?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan fliserne kombineres med træ og natursten?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der anbefalinger til lydisolering?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fliserne velegnede til udendørs spiseområder?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke lande tilbyder I standardlevering til?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan I levere til andre EU-lande?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke leveringsmetoder anvendes?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg få aftenlevering?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er den normale leveringstid?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan leveres varerne – på en palle?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan beregnes prisen pr. m²?",
+      "expected": "DA"
+    },
+    {
+      "input": "Tilbyder I mængderabatter?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke betalingsmetoder accepterer I?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er det muligt at betale i rater?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er fragt inkluderet i prisen?",
+      "expected": "DA"
+    },
+    {
+      "input": "Har I en prisgaranti?",
+      "expected": "DA"
+    },
+    {
+      "input": "Koster prøvetagning af fliser noget?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor længe er et tilbud gyldigt?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg annullere købet?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan returnerer jeg overskydende fliser?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvem er ansvarlig for returforsendelsen?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor hurtigt skal en transportskade rapporteres?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan håndteres produktionsfejl?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan specialbestilte varer returneres?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor lang tid tager en refundering?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg ændre farven efter levering?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan kontakter jeg jer for rådgivning?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan du beregne materialeforbruget?",
+      "expected": "DA"
+    },
+    {
+      "input": "Tilbyder I designstøtte?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvad er den typiske svartid fra kundeservice?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan du anbefale installatører?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke dokumenter er gode at have, når jeg anmoder om et tilbud?",
+      "expected": "DA"
+    },
+    {
+      "input": "Er der support efter levering?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan vi planlægge et videomøde?",
+      "expected": "DA"
+    },
+    {
+      "input": "Har I eksempler på billeder af terrasser med klinkerdäck®?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg få hjælp til at vælge et mønster?",
+      "expected": "DA"
+    },
+    {
+      "input": "Matcher fliserne med trædetaljer og stål?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg prøve at lægge nogle fliser, før jeg køber dem?",
+      "expected": "DA"
+    },
+    {
+      "input": "Kan jeg bruge møbelpuder på fliserne?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor ofte skal fugerne genopfyldes?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke størrelser er tilgængelige i 20 mm tykkelse?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 100x100 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er der brug for pr. m² til fliser i størrelsen 80x80 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fliser er der brug for pr. m² til fliser i størrelsen 60x60 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelse 60x120 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 40x120 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er der brug for pr. m² til fliser i størrelse 80.0x80.0 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er der brug for pr. m² for fliser i størrelsen 60.4x60.4 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fliser er der brug for pr. m² til fliser i størrelsen 120.8x120.8 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fliser er der brug for pr. m² for fliser i størrelsen 60.4x120.8 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 90x90 cm 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater har I?",
+      "expected": "DA"
+    },
+    {
+      "input": "Jeg leder efter en flise, der er omkring 60x60 – hvilke formater er tættest på?",
+      "expected": "DA"
+    },
+    {
+      "input": "Jeg leder efter en flise, der er omkring 80x80 – hvilke formater er de tætteste?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke størrelser har I i 20 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Har I forslag til læggemønstre for 20 mm fliser?",
+      "expected": "DA"
+    },
+    {
+      "input": "Jeg har 35 m² af 60x60 cm – hvor mange fødder har jeg brug for?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvordan beregner jeg antallet af fliser pr. m² for en specifik flisestørrelse?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke højder af fødder har I?",
+      "expected": "DA"
+    },
+    {
+      "input": "Jeg har en specifik højde, f.eks. 40 mm eller 355 mm, hvilken fod skal jeg vælge?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Adjustment Key?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Slope Corrector 0-5%?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Spacer Tabs 2/3/4 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Pocket Key?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Twist Lock Ring?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Fix Ring?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Dome Extension 25 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilket tilbehør bruges: Prolunga PBP10 100 mm?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Uteklinker-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke farver er tilgængelige i Träklinker-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Lava-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Albero-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Alpine-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Anniversario-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Antique-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Ardesia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Argresia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Beton-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Cemento-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Cortina-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Grotta-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Iris-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Kvarts-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Manhattan-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Materia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Meteo-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Mista-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Nature-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Nordique-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Quartz-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Roccia-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Slate-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Stella-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Stone-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Strada-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Travertin-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Trentino-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Vintage-serien?",
+      "expected": "DA"
+    },
+    {
+      "input": "Hvilke formater er tilgængelige i Konjak-serien?",
+      "expected": "DA"
+    }
+  ],
+  "DE": [
+    {
+      "input": "Welche Farben sind in der Lava-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Albero-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Alpine-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Anniversario-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Antique-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Ardesia-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Argresia-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Beton-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Serie Cemento erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Cortina-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Grotta-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Iris-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Kvarts-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Manhattan-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Materia-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Meteo-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Mista-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Nature-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Nordique-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Quartz-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Roccia-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Slate-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Stella-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Stone-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Strada-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Travertin-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Trentino-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Vintage-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Konjak-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "In welchen Größen ist klinkerdäck® erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie schwer ist ein Teller?",
+      "expected": "DE"
+    },
+    {
+      "input": "Aus welchem Material besteht klinkerdäck®?",
+      "expected": "DE"
+    },
+    {
+      "input": "Haben die Fliesen eine CE-Kennzeichnung?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es technische Datenblätter zum Herunterladen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen chemikalienbeständig?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Toleranzen gelten für Maße und Form?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie die Fliesen direkt auf Kies verlegen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Müssen die Fliesen während der Installation geklebt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen auf einem Holzdeck verlegt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie die Fliesen selbst schneiden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Werkzeuge werden zum Schneiden empfohlen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen auf einem Balkon verlegt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Benötigen Sie Abstandshalter beim Verlegen der Fliesen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen im Innenbereich installiert werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Funktionieren die Fliesen auf geneigten Flächen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie reinigt man Fliesen am besten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann man einen Hochdruckreiniger auf den Fliesen verwenden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Müssen die Fliesen mit Imprägnierung behandelt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie entfernt man Moos und Algen von den Fliesen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie werden die Fliesen im Winter durch Salz beeinflusst?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen durch Wein, Öl oder andere Flecken verfärbt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist eine spezielle Winterlagerung erforderlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie lange ist die Lebensdauer der Teller?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen geschliffen oder renoviert werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen rutschfest?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist klinkerdäck® feuerfest?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen in Poolbereichen verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen sicher für Kinder zum Spielen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können ältere Menschen sicher auf den Fliesen gehen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie wird die Rutschfestigkeit getestet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen rutschig werden, wenn sich Eis bildet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es eine Garantie auf den Rutschschutz?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann Anti-Rutsch-Band mit den Fliesen verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Was ist die Lebensdauer von klinkerdäck®?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen UV-beständig?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen frost- und kältebeständig?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen verschleißfest?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen in öffentlichen Umgebungen verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen chemikalienbeständig?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen kratzfest?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie werden die Fliesen durch schwere Lasten beeinflusst?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie lange ist die Garantiezeit für die Haltbarkeit?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist klinkerdäck® umweltfreundlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen recycelbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Werden die Produkte in Schweden hergestellt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen im Innenbereich verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist klinkerdäck® für Poolbereiche geeignet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen auf einem Balkon verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen in Geschäftsräumen verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie wirkt sich die Produktion auf die Umwelt aus?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Produkte für umweltfreundliches Bauen zertifiziert?",
+      "expected": "DE"
+    },
+    {
+      "input": "Liefern Sie in ganz Schweden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Liefern Sie nach Dänemark und Deutschland?",
+      "expected": "DE"
+    },
+    {
+      "input": "Liefern Sie nach Finnland?",
+      "expected": "DE"
+    },
+    {
+      "input": "Liefern Sie in das Vereinigte Königreich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Liefern Sie auch außerhalb der EU?",
+      "expected": "DE"
+    },
+    {
+      "input": "Was ist die normale Lieferzeit?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie hoch sind die Versandkosten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie eine Lieferzeit vereinbaren?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie die Fliesen selbst im Lager abholen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Was kostet klinkerdäck® pro Quadratmeter?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich ein Angebot für größere Projekte erhalten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Bieten Sie Ratenzahlungen an?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie dick sind die Fliesen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen mit einer abgeschrägten Kante erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Was ist die Kalibrierungstoleranz?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Fugenbreite empfehlen Sie?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen in matter oder halbmatten Ausführung erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie werden die Fliesen auf einer Palette verpackt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind im Laufe der Zeit am farbstabilsten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind Produktzertifikate und Prüfberichte verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Gefälle sollte die Basis für die Entwässerung haben?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich die Fliesen auf einer vorhandenen Betonplatte verlegen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Benötige ich eine Frostschutzschicht unter den Fliesen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welcher Fugenmörtel wird zwischen den Fliesen empfohlen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie verwalte ich Dehnungsfugen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen auf verstellbaren Füßen verlegt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Muster lässt sich am einfachsten verlegen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie bearbeite ich Kanten und Ränder?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie oft sollte man eine Terrasse mit klinkerdäck® reinigen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie entferne ich Ölflecken?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich Essig oder Säuren zum Reinigen verwenden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie kann ich Grünbeläge verhindern?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich mit einer Metallschaufel Schnee schaufeln?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie reinige ich die Fugen, ohne sie zu beschädigen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Muss ich die Fliesen nach dem Winter behandeln?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie entferne ich Rostflecken?",
+      "expected": "DE"
+    },
+    {
+      "input": "Werden die Fliesen in direktem Sonnenlicht sehr heiß?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist die Oberfläche rutschfest, wenn sie nass ist?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist das Produkt sicher in der Nähe des Grills und Funken?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Kanten als scharf wahrgenommen werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es Empfehlungen zur Beleuchtung von Treppenstufen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen für Rollatoren und Rollstühle geeignet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wird die Rutschfestigkeit durch Pollen und Schmutz beeinträchtigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wird beim Schneiden eine Schutzausrüstung benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie widerstandsfähig sind die Fliesen gegen Kratzer von Möbelbeinen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen widerstandsfähig gegen Fahrradständer und Kinderspielzeug?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie ändert sich die Farbe im Laufe der Zeit?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Teller schnellen Temperaturänderungen standhalten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können schwere Töpfe und Grills auf den Fliesen platziert werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie wird die Oberfläche durch Streusalz beeinflusst?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie lang ist die erwartete technische Lebensdauer?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen Risse bekommen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist klinkerdäck® recycelbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es eine Umweltproduktdeklaration (EPD)?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen für Dachterrassen geeignet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen in Innenbereichen von Eingängen verwendet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist das Produkt für marine Umgebungen geeignet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können die Fliesen mit Holz und Naturstein kombiniert werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es Empfehlungen zur Schalldämmung?",
+      "expected": "DE"
+    },
+    {
+      "input": "Sind die Fliesen für Außenbereiche geeignet?",
+      "expected": "DE"
+    },
+    {
+      "input": "In welche Länder bieten Sie Standardlieferung an?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie in andere EU-Länder liefern?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Liefermethoden werden verwendet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich eine Abendlieferung erhalten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Was ist die normale Lieferzeit?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie werden die Waren geliefert – auf einer Palette?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie wird der Preis pro m² berechnet?",
+      "expected": "DE"
+    },
+    {
+      "input": "Bieten Sie Mengenrabatte an?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist es möglich, in Raten zu zahlen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ist der Versand im Preis inbegriffen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Haben Sie eine Preisgarantie?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kosten Musterfliesen etwas?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie lange ist ein Angebot gültig?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich den Kauf stornieren?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie kann ich übrig gebliebene Fliesen zurückgeben?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wer ist für den Rückversand verantwortlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie schnell muss ein Transportschaden gemeldet werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie werden Produktionsfehler behandelt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können individuell bestellte Artikel zurückgegeben werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie lange dauert eine Rückerstattung?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich die Farbe nach der Lieferung ändern?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie kann ich Sie für eine Beratung kontaktieren?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie den Materialverbrauch berechnen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Bieten Sie Designunterstützung an?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie ist die typische Antwortzeit des Kundenservice?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können Sie Installateure empfehlen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Dokumente sind gut zu haben, wenn ich ein Angebot anfordere?",
+      "expected": "DE"
+    },
+    {
+      "input": "Gibt es Unterstützung nach der Lieferung?",
+      "expected": "DE"
+    },
+    {
+      "input": "Können wir ein Videomeeting planen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Haben Sie Beispielbilder von Terrassen mit klinkerdäck®?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich Hilfe bei der Auswahl eines Musters bekommen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Passen die Fliesen zu Holzelementen und Stahl?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe?",
+      "expected": "DE"
+    },
+    {
+      "input": "Kann ich Möbelunterlagen auf den Fliesen verwenden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie oft sollten die Fugen nachgefüllt werden?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Größen sind in 20 mm Dicke erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Füße werden pro m² für Fliesen der Größe 100x100 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Füße werden pro m² für Fliesen in der Größe 80x80 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Füße werden pro m² für Fliesen der Größe 60x60 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Füße werden pro m² für Fliesen in der Größe 60x120 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Fuß werden pro m² für Fliesen in der Größe 40x120 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Fliesen werden pro m² für Fliesen in der Größe 80,0x80,0 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Fliesen werden pro m² benötigt für Fliesen der Größe 60.4x60.4 cm 20 mm?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Füße werden pro m² für Fliesen der Größe 120.8x120.8 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Fliesen werden pro m² benötigt für Fliesen der Größe 60.4x120.8 cm 20 mm?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie viele Füße werden pro m² für Fliesen in der Größe 90x90 cm 20 mm benötigt?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate haben Sie?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ich suche nach einer Fliese, die etwa 60x60 groß ist – welche Formate kommen dem am nächsten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ich suche nach einer Fliese, die etwa 80x80 groß ist – welche Formate kommen dem am nächsten?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Größen haben Sie in 20 mm?",
+      "expected": "DE"
+    },
+    {
+      "input": "Haben Sie Vorschläge für Verlegemuster für 20 mm Fliesen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ich habe 35 m² von 60x60 cm – wie viele Fuß benötige ich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Wie berechne ich die Anzahl der Fliesen pro m² für eine bestimmte Fliesengröße?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Höhen in Fuß haben Sie?",
+      "expected": "DE"
+    },
+    {
+      "input": "Ich habe eine bestimmte Höhe, z.B. 40 mm oder 355 mm, welchen Fuß sollte ich wählen?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Adjustment Key?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Slope Corrector 0-5%?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Spacer Tabs 2/3/4 mm?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Pocket Key?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Twist Lock Ring?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Fix Ring?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Dome Extension 25 mm?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welches Zubehör wird verwendet: Prolunga PBP10 100 mm?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Uteklinker-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Farben sind in der Träklinker-Serie erhältlich?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Lava-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Albero-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Alpine-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Anniversario-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Serie Antique verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Serie Ardesia verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Argresia-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Beton-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Serie Cemento verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Cortina-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Grotta-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Iris-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Kvarts-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Manhattan-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Materia-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Meteo-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Mista-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Nature-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Nordique-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Quartz-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Roccia-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Slate-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Stella-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Stone-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Strada-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Travertin-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Trentino-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Vintage-Serie verfügbar?",
+      "expected": "DE"
+    },
+    {
+      "input": "Welche Formate sind in der Konjak-Serie verfügbar?",
+      "expected": "DE"
+    }
+  ],
+  "LONG": [
+    {
+      "input": "Detta är en väldigt lång text nummer 1 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 2 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 3 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 4 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 5 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 6 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 7 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 8 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 9 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 10 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 11 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 12 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 13 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 14 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 15 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 16 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 17 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 18 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 19 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Detta är en väldigt lång text nummer 20 som innehåller massor av utfyllnad för att simulera mänskligt skräp blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. blandat med ord som klinker, fog, platta, men egentligen är den alldeles för lång för att vara relevant. ",
+      "expected": "FILTER"
+    }
+  ],
+  "BLOCK": [
+    {
+      "input": "cheap viagra free money",
+      "expected": "FILTER"
+    },
+    {
+      "input": "lottery scam claim prize",
+      "expected": "FILTER"
+    },
+    {
+      "input": "porn links click here",
+      "expected": "FILTER"
+    },
+    {
+      "input": "earn $5000 fast",
+      "expected": "FILTER"
+    },
+    {
+      "input": "bitcoin get rich now",
+      "expected": "FILTER"
+    },
+    {
+      "input": "credit card hack tool",
+      "expected": "FILTER"
+    },
+    {
+      "input": "fake passport service",
+      "expected": "FILTER"
+    },
+    {
+      "input": "casino jackpot guaranteed",
+      "expected": "FILTER"
+    },
+    {
+      "input": "win iphone now",
+      "expected": "FILTER"
+    },
+    {
+      "input": "adult cam chat",
+      "expected": "FILTER"
+    }
+  ],
+  "GIBBERISH": [
+    {
+      "input": "mgvzo3yqfzsmgvzo3yqfzsmgvzo3yqfzs",
+      "expected": "FILTER"
+    },
+    {
+      "input": "dywjoojkb4ldywjoojkb4ldywjoojkb4l",
+      "expected": "FILTER"
+    },
+    {
+      "input": "reozbs7robreozbs7robreozbs7rob",
+      "expected": "FILTER"
+    },
+    {
+      "input": "egodn76df5begodn76df5begodn76df5b",
+      "expected": "FILTER"
+    },
+    {
+      "input": "z2ryic4k7yz2ryic4k7yz2ryic4k7y",
+      "expected": "FILTER"
+    },
+    {
+      "input": "fwwpf89nwofwwpf89nwofwwpf89nwo",
+      "expected": "FILTER"
+    },
+    {
+      "input": "c0jgmo3t95cc0jgmo3t95cc0jgmo3t95c",
+      "expected": "FILTER"
+    },
+    {
+      "input": "mr2gk5hhyumr2gk5hhyumr2gk5hhyu",
+      "expected": "FILTER"
+    },
+    {
+      "input": "vawanexvd0mvawanexvd0mvawanexvd0m",
+      "expected": "FILTER"
+    },
+    {
+      "input": "wj8njy5783owj8njy5783owj8njy5783o",
+      "expected": "FILTER"
+    },
+    {
+      "input": "ey8a7m4elppey8a7m4elppey8a7m4elpp",
+      "expected": "FILTER"
+    },
+    {
+      "input": "rwtku2hku2rwtku2hku2rwtku2hku2",
+      "expected": "FILTER"
+    },
+    {
+      "input": "sf0efztce5qsf0efztce5qsf0efztce5q",
+      "expected": "FILTER"
+    },
+    {
+      "input": "f6xbqcv5u3f6xbqcv5u3f6xbqcv5u3",
+      "expected": "FILTER"
+    },
+    {
+      "input": "dkwmeih7ukbdkwmeih7ukbdkwmeih7ukb",
+      "expected": "FILTER"
+    },
+    {
+      "input": "radg4hmnaqradg4hmnaqradg4hmnaq",
+      "expected": "FILTER"
+    },
+    {
+      "input": "xw8h4916cwxw8h4916cwxw8h4916cw",
+      "expected": "FILTER"
+    },
+    {
+      "input": "ppode58zksppode58zksppode58zks",
+      "expected": "FILTER"
+    },
+    {
+      "input": "u0gcg0py1su0gcg0py1su0gcg0py1s",
+      "expected": "FILTER"
+    },
+    {
+      "input": "hijbapjs23bhijbapjs23bhijbapjs23b",
+      "expected": "FILTER"
+    }
+  ],
+  "GREETING": [
+    {
+      "input": "hej",
+      "expected": "SE"
+    },
+    {
+      "input": "hejhej",
+      "expected": "SE"
+    },
+    {
+      "input": "godmorgon",
+      "expected": "SE"
+    },
+    {
+      "input": "hello",
+      "expected": "EN"
+    },
+    {
+      "input": "hi there",
+      "expected": "EN"
+    },
+    {
+      "input": "good morning",
+      "expected": "EN"
+    },
+    {
+      "input": "hej med dig",
+      "expected": "DA"
+    },
+    {
+      "input": "godaften",
+      "expected": "DA"
+    },
+    {
+      "input": "hallo",
+      "expected": "DE"
+    },
+    {
+      "input": "guten morgen",
+      "expected": "DE"
+    }
+  ],
+  "RELEVANCE": [
+    {
+      "input": "Kan du berätta ett skämt?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Vad är meningen med livet?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Hur bakar man bullar?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Vilken färg har himlen?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Spelar du fotboll?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Vad tycker du om musik?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Hur lång är en orm?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Vad betyder AI?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Har du sett min katt?",
+      "expected": "FILTER"
+    },
+    {
+      "input": "Hur mycket väger jorden?",
+      "expected": "FILTER"
+    }
+  ]
+}

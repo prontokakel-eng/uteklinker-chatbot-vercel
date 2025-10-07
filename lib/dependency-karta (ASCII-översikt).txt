@@ -1,0 +1,59 @@
+──────────────────────────────────────────────────────────────────────────────
+📦  CHATBOT SPRÅKPIPELINE  (2025-10-06)
+──────────────────────────────────────────────────────────────────────────────
+
+USER INPUT
+    │
+    ▼
+┌──────────────┐
+│  gate.js     │   ← första försvarslinjen
+└──────────────┘
+    │
+    ├──> 🧩 applyWhitelist()        (från wl-bl-filters.js)
+    │       ▸ tillåter text som matchar whitelist
+    │
+    ├──> 🚫 applyBlacklist()        (från wl-bl-filters.js)
+    │       ▸ blockerar oönskad text
+    │
+    ├──> 🤖 checkGibberish()        (från gibberish-filter.js)
+    │       ▸ stoppar nonsenstext
+    │
+    ├──> 🧠 detectShortLangWord()   (från filters.js)
+    │       ▸ känner igen “Ja”, “Hi”, “Ok” etc.
+    │
+    ├──> 👋 checkGreeting()         (från filters.js)
+    │       ▸ hälsningsdetektion, t.ex. “Hej”, “Hello”
+    │
+    ├──> 🌍 getIpLang()             (från ip-lang.js)
+    │       ▸ fallback för språk utifrån IP eller landskod
+    │
+    ├──> 🚦 checkRateLimit()        (från rate-limiter.js)
+    │       ▸ skyddar mot överbelastning
+    │
+    ▼
+┌────────────────┐
+│ detectLangCore │
+└────────────────┘
+    │
+    ├──> 🔡 detectLangRulesOnly()        (från detect-lang-rules.js)
+    │       ▸ regex, anchors och kortord-lexikon
+    │
+    ├──> 📊 detectLangHeuristicGroup()   (från detect-lang-heuristics.js)
+    │       ▸ teckenfrekvens, grupp-score
+    │
+    ├──> 🧩 AI-fallback (OpenAI)         (via getOpenAIClient)
+    │       ▸ endast vid låg confidence eller UNKNOWN
+    │
+    ▼
+┌─────────────────────┐
+│ Final Lang Decision │
+└─────────────────────┘
+    │
+    ├──> Inject FAQ context  (via faq-cache / faq-data)
+    ├──> Send to AI fallback if needed
+    └──> Return structured reply { lang, via, confidence }
+
+──────────────────────────────────────────────────────────────────────────────
+📈  Pipeline-flöde:  
+  Input → Gate → Filters → Heuristik/Regler → (AI) → Output
+──────────────────────────────────────────────────────────────────────────────

@@ -1,0 +1,35 @@
+
+node move-scripts.js forward
+
+node move-scripts.js backward
+
+node move-core-scripts.js forward
+node move-core-scripts.js backward
+
+.\redeploy.ps1 tar bort alla Vercel och re deployar
+
+$env:VERCEL_TOKEN="test123"
+
+$env:VERCEL_TOKEN="vlt_lQLROt8AKkZemcV3BnXSdRBf"
+
+
+Invoke-RestMethod -Uri "https://uteklinker-chatbot-vercel.vercel.app/api/chat" `
+  -Method Post `
+  -ContentType "application/json" `
+  -Body (@{ message = "Wie wird eine hochwertige Platte charakterisiert?"; lang = "DE"; mode = "STRICT" } | ConvertTo-Json -Depth 5)
+
+$body = @{
+  message = "Wie wird eine hochwertige Platte charakterisiert?"
+  lang    = "DE"
+  mode    = "STRICT"
+} | ConvertTo-Json -Depth 5 -Compress
+
+Invoke-RestMethod -Uri "https://uteklinker-chatbot-vercel.vercel.app/api/chat" `
+  -Method Post `
+  -ContentType "application/json" `
+  -Body $body
+
+
+vercel logs <https://uteklinker-chatbot-vercel-o0e04x7fh.vercel.app/> --prod
+
+

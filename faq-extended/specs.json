@@ -1,0 +1,195 @@
+[
+  {
+    "country_of_origin": "Italy",
+    "material": "Porcelain stoneware",
+    "surface": null,
+    "colors": [],
+    "thickness_mm": 20,
+    "length_mm": 604,
+    "width_mm": 604,
+    "size_text": "60,4x60,4 cm ±0,5 mm",
+    "weight_kg_m2": 47.0,
+    "slip_rating": "R11",
+    "frost_resistant": true,
+    "chemical_resistance": "Conforms ISO 10545-13",
+    "environmental_certifications": [],
+    "pedestal_system_name": null,
+    "pedestal_scheme": "corner",
+    "pedestals_per_m2": 2.8,
+    "docs": {
+      "technical_pdf": "TWENTY_caratteristiche_tecniche.pdf"
+    },
+    "source_url": null,
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "28-38",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "37.5-50",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "50-75",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "75-120",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "120-170",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "170-215",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "140-230",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "185-275",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "235-325",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "205-345",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "250-385",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "300-400",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "270-455",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "315-500",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Eterno Support",
+    "height_range_mm": "365-550",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Star.T",
+    "height_range_mm": "10-15",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  },
+  {
+    "country_of_origin": "Italy",
+    "pedestal_system_name": "Star.T",
+    "height_range_mm": "5",
+    "pedestals_per_m2": null,
+    "docs": {
+      "technical_pdf": "original_3_Short_PedestalSYSTEM_ITAEN_2024.pdf"
+    },
+    "scraped_at": "2025-09-29T10:19:02.627659Z"
+  }
+]

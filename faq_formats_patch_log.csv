@@ -1,0 +1,952 @@
+Tab,Row,Col,Original,Patched,ChangeType
+FAQ_SE,2,answer_se,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,4,Källa FAQ / AI,"Följande färger finns i Alpine:
+- Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cobolo (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mix Dark Chevry (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mogano (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sarawa (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sarawa Chevry (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Slavonia (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Slavonia Chevry (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm","Följande färger finns i Alpine:
+- Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x180cm80x80cm- Cobolo (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mix Dark Chevry (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Mogano (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sarawa (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sarawa Chevry (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Slavonia (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Slavonia Chevry (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm",INVALID
+FAQ_SE,8,answer_se,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,9,Källa FAQ / AI,"Följande färger finns i Beton:
+- Cemento (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sandalo (Beige) – format: 120x240cm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm","Följande färger finns i Beton:
+- Cemento (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Cenere (Övrigt) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm- Sandalo (Beige) – format: INVALID_FORMATcm20x120cm30x120cm40x120cm60x120cm60x60cm80x180cm80x80cm",INVALID
+FAQ_SE,14,answer_se,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_SE,15,answer_se,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,16,answer_se,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,17,answer_se,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_SE,18,answer_se,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,19,Källa FAQ / AI,"Följande färger finns i Nature:
+- Nut (Övrigt) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Nut Doga (Övrigt) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Oak (Brun) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Oak Doga (Brun) – format: 100x100cm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm","Följande färger finns i Nature:
+- Nut (Övrigt) – format: INVALID_FORMATcm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Nut Doga (Övrigt) – format: INVALID_FORMATcm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Oak (Brun) – format: INVALID_FORMATcm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm- Oak Doga (Brun) – format: INVALID_FORMATcm40x120cm40x180cm430x120cm440x120cm45x90cm560x60cm60x120cm60x60cm80x80cm860x60cm90x90cm",INVALID
+FAQ_SE,20,Källa FAQ / AI,"Följande färger finns i Nordique:
+- Evo Greyge (Grå) – format: 430x120cm- Evo Gris Fonce (Övrigt) – format: 430x120cm- Evo Gris Fonce (kopia) (Övrigt) – format: 430x120cm- Evo Noir (Övrigt) – format: 430x120cm","Följande färger finns i Nordique:
+- Evo Greyge (Grå) – format: INVALID_FORMATcm- Evo Gris Fonce (Övrigt) – format: INVALID_FORMATcm- Evo Gris Fonce (kopia) (Övrigt) – format: INVALID_FORMATcm- Evo Noir (Övrigt) – format: INVALID_FORMATcm",INVALID
+FAQ_SE,21,answer_se,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,22,answer_se,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_SE,24,answer_se,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_SE,25,answer_se,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,26,answer_se,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,27,answer_se,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_SE,28,Källa FAQ / AI,"Följande färger finns i Trentino:
+- Avana (Övrigt) – format: 430x120cm- Canapa (Övrigt) – format: 430x120cm- Lino (Övrigt) – format: 430x120cm- Moro (Övrigt) – format: 430x120cm- Tabacco (Övrigt) – format: 430x120cm","Följande färger finns i Trentino:
+- Avana (Övrigt) – format: INVALID_FORMATcm- Canapa (Övrigt) – format: INVALID_FORMATcm- Lino (Övrigt) – format: INVALID_FORMATcm- Moro (Övrigt) – format: INVALID_FORMATcm- Tabacco (Övrigt) – format: INVALID_FORMATcm",INVALID
+FAQ_SE,29,answer_se,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,30,answer_se,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_SE,181,answer_se,100x100 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_SE,182,question_se,Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek INVALID_FORMAT cm 20 mm?,INVALID
+FAQ_SE,183,answer_se,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_SE,184,question_se,Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 80x80cm cm 20 mm?,NORMALIZED
+FAQ_SE,185,answer_se,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_SE,186,question_se,Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 60x60cm cm 20 mm?,NORMALIZED
+FAQ_SE,187,answer_se,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_SE,188,question_se,Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek INVALID_FORMAT cm 20 mm?,INVALID
+FAQ_SE,189,answer_se,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_SE,190,question_se,Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 40x120cm cm 20 mm?,NORMALIZED
+FAQ_SE,191,answer_se,80.0x80.0 cm 20 mm,80.INVALID_FORMAT.0 cm 20 mm,INVALID
+FAQ_SE,192,question_se,Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 80.INVALID_FORMAT.0 cm 20 mm?,INVALID
+FAQ_SE,193,answer_se,60.4x60.4 cm 20 mm,60.INVALID_FORMAT.4 cm 20 mm,INVALID
+FAQ_SE,194,question_se,Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 60.INVALID_FORMAT.4 cm 20 mm?,INVALID
+FAQ_SE,195,answer_se,120.8x120.8 cm 20 mm,120.INVALID_FORMAT.8 cm 20 mm,INVALID
+FAQ_SE,196,question_se,Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 120.INVALID_FORMAT.8 cm 20 mm?,INVALID
+FAQ_SE,197,answer_se,60.4x120.8 cm 20 mm,60.INVALID_FORMAT.8 cm 20 mm,INVALID
+FAQ_SE,198,question_se,Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 60.INVALID_FORMAT.8 cm 20 mm?,INVALID
+FAQ_SE,199,answer_se,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_SE,200,question_se,Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 90x90cm cm 20 mm?,NORMALIZED
+FAQ_SE,201,question_se,Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?,Hur många fötter behövs per m² för plattor i storlek 60x60cm cm 20 mm?,NORMALIZED
+FAQ_SE,202,answer_se,"Vi erbjuder flera olika standardformat i 20 mm tjocklek. Exempel: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 och fler. Kontakta oss om du vill se hela listan.","Vi erbjuder flera olika standardformat i 20 mm tjocklek. Exempel: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 och fler. Kontakta oss om du vill se hela listan.",NORMALIZED
+FAQ_SE,203,question_se,Jag letar en platta som är typ 60x60 – vilka format ligger närmast?,Jag letar en platta som är typ 60x60cm – vilka format ligger närmast?,NORMALIZED
+FAQ_SE,203,answer_se,"Närmaste format till 60x60 cm är 60x60, 60x120 eller 90x90 cm beroende på önskemål om proportioner.","Närmaste format till 60x60cm cm är 60x60cm, 60x120 eller 90x90 cm beroende på önskemål om proportioner.",NORMALIZED
+FAQ_SE,204,question_se,Jag letar en platta som är typ 80x80 – vilka format ligger närmast?,Jag letar en platta som är typ 80x80cm – vilka format ligger närmast?,NORMALIZED
+FAQ_SE,204,answer_se,"Närmaste format till 80x80 cm är 80x80, 90x90 eller 100x100 cm.","Närmaste format till 80x80cm cm är 80x80cm, 90x90 eller 100x100 cm.",NORMALIZED
+FAQ_SE,205,answer_se,"Standardstorlekar inkluderar 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Vill du se fler format?","Standardstorlekar inkluderar 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Vill du se fler format?",NORMALIZED
+FAQ_SE,207,question_se,Jag har 35 m² av 60x60 cm – hur många fötter behöver jag?,Jag har 35 m² av 60x60cm cm – hur många fötter behöver jag?,NORMALIZED
+FAQ_SE,207,answer_se,Beräkning: 60x60 cm kräver ca 2.78 fötter/m². För 35 m² blir det ungefär 97 fötter.,Beräkning: 60x60cm cm kräver ca 2.78 fötter/m². För 35 m² blir det ungefär 97 fötter.,NORMALIZED
+FAQ_SE,208,answer_se,"Regel: ≤60 cm → ca 2.78 fötter/m², 80 cm → ca 6.25 fötter/m², 90 cm → ca 4.94 fötter/m², 100 cm → ca 4.0 fötter/m². Längre format (60x120 cm, 40x120 cm) → ca 2.78–4.17 fötter/m².","Regel: ≤60 cm → ca 2.78 fötter/m², 80 cm → ca 6.25 fötter/m², 90 cm → ca 4.94 fötter/m², 100 cm → ca 4.0 fötter/m². Längre format (INVALID_FORMAT cm, 40x120 cm) → ca 2.78–4.17 fötter/m².",INVALID
+FAQ_SE,219,Källa FAQ / AI,"Följande färger finns i Uteklinker:
+- Lava Marsili (Övrigt) – format: 430x120cm- Albero Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Mandorlo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Nocciolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Alpine Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Alpine Cobolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Mix Dark Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Mogano (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Sarawa (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Sarawa Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Slavonia (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Slavonia Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Anniversario Grå (Övrigt)
+- Anniversario Ljusgrå (Övrigt)
+- Anniversario Mörkgrå (Övrigt)
+- Antique Dune Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Nuit Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Opal Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Taupe Carved (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Bianco (Vit) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Grigio (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Taupe (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Argresia Svart (Övrigt) – format: 430x120cm- Beton Cemento (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm60x120cm80x180cm120x240cm30x120cm- Beton Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Beton Sandalo (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Cemento Clay (Brun) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Grit (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Land (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Lime (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Rust (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Basalto (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Calcite (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Sabbia (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Porfido (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Silver Black (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Silver White (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Astra (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Crono (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Geo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Leucos (Vit) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Litos (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Kvarts Grå (Övrigt) – format: 860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Lava Etna (Övrigt) – format: 430x120cm- Lava Salina (Övrigt) – format: 430x120cm- Lava Vesuvio (Övrigt) – format: 430x120cm- Manhattan Midtown (Övrigt) – format: 430x120cm- Manhattan Nolita (Övrigt) – format: 430x120cm- Manhattan Soho (Övrigt) – format: 430x120cm- Manhattan Tribeca (Övrigt) – format: 430x120cm- Materia Upcendre (Övrigt) – format: 430x120cm- Materia Upcharbon (Övrigt) – format: 430x120cm- Materia Upcrete (Övrigt) – format: 430x120cm- Materia Upivoire (Övrigt) – format: 430x120cm- Meteo Dark (Övrigt) – format: 430x120cm- Meteo Fog (Övrigt) – format: 430x120cm- Meteo Salt (Grå) – format: 430x120cm- Meteo Sand (Beige) – format: 430x120cm- Mista Agate (Övrigt) – format: 430x120cm- Mista Pearl (Övrigt) – format: 430x120cm- Mista Shell (Övrigt) – format: 430x120cm- Mista Tahiti (Övrigt) – format: 430x120cm- Nature Nut (Övrigt) – format: 430x120cm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Nut Doga (Övrigt) – format: 430x120cm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Oak (Brun) – format: 430x120cm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Oak Doga (Brun) – format: 60x60cm45x90cm90x90cm430x120cm860x60cm440x120cm560x60cm80x80cm100x100cm40x120cm40x180cm60x120cm- Nordique Evo Greyge (Grå) – format: 430x120cm- Nordique Evo Gris Fonce (Övrigt) – format: 430x120cm- Nordique Evo Gris Fonce (kopia) (Övrigt) – format: 430x120cm- Nordique Evo Noir (Övrigt) – format: 430x120cm- Quartz Antracite (Antracitgrå) – format: 430x120cm- Quartz Diaspro (Övrigt) – format: 430x120cm- Quartz Madera (Övrigt) – format: 430x120cm- Quartz Prasio (Övrigt) – format: 430x120cm- Roccia Antracite (Antracitgrå) – format: 430x120cm- Roccia Cream (Beige) – format: 430x120cm- Roccia Light Grey (Grå) – format: 430x120cm- Roccia Mud (Beige) – format: 430x120cm- Slate Bly (Övrigt)
+- Slate Grafite (Övrigt)
+- Slate Grå (Övrigt)
+- Stella Bone (Övrigt) – format: 430x120cm- Stella Cement (Övrigt) – format: 430x120cm- Stella Plomb (Grå) – format: 430x120cm- Stone Landstone (Övrigt) – format: 430x120cm- Stone Nightstone (Övrigt) – format: 430x120cm- Stone Silverstone (Grå) – format: 430x120cm- Stone Sunstone (Övrigt) – format: 430x120cm- Strada Saint Luois (Övrigt) – format: 430x120cm- Strada Santa Fe' (Övrigt) – format: 430x120cm- Strada Santa Monica (Övrigt) – format: 430x120cm- Travertin Beige (Beige) – format: 430x120cm- Trentino Avana (Övrigt) – format: 430x120cm- Trentino Canapa (Övrigt) – format: 430x120cm- Trentino Lino (Övrigt) – format: 430x120cm- Trentino Moro (Övrigt) – format: 430x120cm- Trentino Tabacco (Övrigt) – format: 430x120cm- Vintage Bruges (Övrigt) – format: 430x120cm- Vintage Gent (Övrigt) – format: 430x120cm- Vintage Namur (Övrigt) – format: 430x120cm","Följande färger finns i Uteklinker:
+- Lava Marsili (Övrigt) – format: INVALID_FORMATcm- Albero Gelso (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Mandorlo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Albero Nocciolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Alpine Bocote (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Alpine Cobolo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Mix Dark Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Mogano (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Sarawa (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Sarawa Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Slavonia (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Alpine Slavonia Chevry (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Anniversario Grå (Övrigt)
+- Anniversario Ljusgrå (Övrigt)
+- Anniversario Mörkgrå (Övrigt)
+- Antique Dune Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Nuit Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Opal Carved (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Antique Taupe Carved (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Bianco (Vit) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Grigio (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Ardesia Taupe (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Argresia Svart (Övrigt) – format: INVALID_FORMATcm- Beton Cemento (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm60x120cm80x180cm120x240cm30x120cm- Beton Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Beton Sandalo (Beige) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm60x120cm120x240cm30x120cm- Cemento Clay (Brun) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Grit (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Land (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Lime (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cemento Rust (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Basalto (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Calcite (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Cenere (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Cortina Sabbia (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Porfido (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Silver Black (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Grotta Silver White (Grå) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Astra (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Crono (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Geo (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Leucos (Vit) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Iris Litos (Övrigt) – format: 20x120cm40x120cm60x60cm80x80cm80x180cm- Kvarts Grå (Övrigt) – format: 860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Lava Etna (Övrigt) – format: INVALID_FORMATcm- Lava Salina (Övrigt) – format: INVALID_FORMATcm- Lava Vesuvio (Övrigt) – format: INVALID_FORMATcm- Manhattan Midtown (Övrigt) – format: INVALID_FORMATcm- Manhattan Nolita (Övrigt) – format: INVALID_FORMATcm- Manhattan Soho (Övrigt) – format: INVALID_FORMATcm- Manhattan Tribeca (Övrigt) – format: INVALID_FORMATcm- Materia Upcendre (Övrigt) – format: INVALID_FORMATcm- Materia Upcharbon (Övrigt) – format: INVALID_FORMATcm- Materia Upcrete (Övrigt) – format: INVALID_FORMATcm- Materia Upivoire (Övrigt) – format: INVALID_FORMATcm- Meteo Dark (Övrigt) – format: INVALID_FORMATcm- Meteo Fog (Övrigt) – format: INVALID_FORMATcm- Meteo Salt (Grå) – format: INVALID_FORMATcm- Meteo Sand (Beige) – format: INVALID_FORMATcm- Mista Agate (Övrigt) – format: INVALID_FORMATcm- Mista Pearl (Övrigt) – format: INVALID_FORMATcm- Mista Shell (Övrigt) – format: INVALID_FORMATcm- Mista Tahiti (Övrigt) – format: INVALID_FORMATcm- Nature Nut (Övrigt) – format: INVALID_FORMATcm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Nut Doga (Övrigt) – format: INVALID_FORMATcm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Oak (Brun) – format: INVALID_FORMATcm860x60cm440x120cm560x60cm60x60cm80x80cm100x100cm40x120cm40x180cm60x120cm45x90cm90x90cm- Nature Oak Doga (Brun) – format: 60x60cm45x90cm90x90cmINVALID_FORMATcm860x60cm440x120cm560x60cm80x80cm100x100cm40x120cm40x180cm60x120cm- Nordique Evo Greyge (Grå) – format: INVALID_FORMATcm- Nordique Evo Gris Fonce (Övrigt) – format: INVALID_FORMATcm- Nordique Evo Gris Fonce (kopia) (Övrigt) – format: INVALID_FORMATcm- Nordique Evo Noir (Övrigt) – format: INVALID_FORMATcm- Quartz Antracite (Antracitgrå) – format: INVALID_FORMATcm- Quartz Diaspro (Övrigt) – format: INVALID_FORMATcm- Quartz Madera (Övrigt) – format: INVALID_FORMATcm- Quartz Prasio (Övrigt) – format: INVALID_FORMATcm- Roccia Antracite (Antracitgrå) – format: INVALID_FORMATcm- Roccia Cream (Beige) – format: INVALID_FORMATcm- Roccia Light Grey (Grå) – format: INVALID_FORMATcm- Roccia Mud (Beige) – format: INVALID_FORMATcm- Slate Bly (Övrigt)
+- Slate Grafite (Övrigt)
+- Slate Grå (Övrigt)
+- Stella Bone (Övrigt) – format: INVALID_FORMATcm- Stella Cement (Övrigt) – format: INVALID_FORMATcm- Stella Plomb (Grå) – format: INVALID_FORMATcm- Stone Landstone (Övrigt) – format: INVALID_FORMATcm- Stone Nightstone (Övrigt) – format: INVALID_FORMATcm- Stone Silverstone (Grå) – format: INVALID_FORMATcm- Stone Sunstone (Övrigt) – format: INVALID_FORMATcm- Strada Saint Luois (Övrigt) – format: INVALID_FORMATcm- Strada Santa Fe' (Övrigt) – format: INVALID_FORMATcm- Strada Santa Monica (Övrigt) – format: INVALID_FORMATcm- Travertin Beige (Beige) – format: INVALID_FORMATcm- Trentino Avana (Övrigt) – format: INVALID_FORMATcm- Trentino Canapa (Övrigt) – format: INVALID_FORMATcm- Trentino Lino (Övrigt) – format: INVALID_FORMATcm- Trentino Moro (Övrigt) – format: INVALID_FORMATcm- Trentino Tabacco (Övrigt) – format: INVALID_FORMATcm- Vintage Bruges (Övrigt) – format: INVALID_FORMATcm- Vintage Gent (Övrigt) – format: INVALID_FORMATcm- Vintage Namur (Övrigt) – format: INVALID_FORMATcm",INVALID
+FAQ_SE,220,answer_se,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,2,answer_en,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,2,answer_full_en,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,8,answer_en,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,8,answer_full_en,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,14,answer_en,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_EN,14,answer_full_en,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_EN,15,answer_en,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,15,answer_full_en,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,16,answer_en,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,16,answer_full_en,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,17,answer_en,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_EN,17,answer_full_en,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_EN,18,answer_en,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,18,answer_full_en,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,21,answer_en,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,21,answer_full_en,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,22,answer_en,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_EN,22,answer_full_en,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_EN,24,answer_en,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_EN,24,answer_full_en,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_EN,25,answer_en,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,25,answer_full_en,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,26,answer_en,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,26,answer_full_en,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,27,answer_en,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_EN,27,answer_full_en,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_EN,29,answer_en,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,29,answer_full_en,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,30,answer_en,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,30,answer_full_en,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,181,answer_en,100x100 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_EN,181,answer_full_en,100x100 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_EN,182,question_en,How many feet are needed per m² for tiles sized 100x100 cm 20 mm?,How many feet are needed per m² for tiles sized INVALID_FORMAT cm 20 mm?,INVALID
+FAQ_EN,183,answer_en,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_EN,183,answer_full_en,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_EN,184,question_en,How many feet are needed per m² for tiles sized 80x80 cm 20 mm?,How many feet are needed per m² for tiles sized 80x80cm cm 20 mm?,NORMALIZED
+FAQ_EN,185,answer_en,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_EN,185,answer_full_en,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_EN,186,question_en,How many feet are needed per m² for tiles sized 60x60 cm 20 mm?,How many feet are needed per m² for tiles sized 60x60cm cm 20 mm?,NORMALIZED
+FAQ_EN,187,answer_en,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_EN,187,answer_full_en,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_EN,188,question_en,How many feet are needed per m² for tiles sized 60x120 cm 20 mm?,How many feet are needed per m² for tiles sized INVALID_FORMAT cm 20 mm?,INVALID
+FAQ_EN,189,answer_en,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_EN,189,answer_full_en,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_EN,190,question_en,How many feet are needed per m² for tiles sized 40x120 cm 20 mm?,How many feet are needed per m² for tiles sized 40x120cm cm 20 mm?,NORMALIZED
+FAQ_EN,191,answer_en,80.0x80.0 cm 20 mm,80.INVALID_FORMAT.0 cm 20 mm,INVALID
+FAQ_EN,191,answer_full_en,80.0x80.0 cm 20 mm,80.INVALID_FORMAT.0 cm 20 mm,INVALID
+FAQ_EN,192,question_en,How many feet are needed per m² for tiles sized 80.0x80.0 cm 20 mm?,How many feet are needed per m² for tiles sized 80.INVALID_FORMAT.0 cm 20 mm?,INVALID
+FAQ_EN,193,answer_en,60.4x60.4 cm 20 mm,60.INVALID_FORMAT.4 cm 20 mm,INVALID
+FAQ_EN,193,answer_full_en,60.4x60.4 cm 20 mm,60.INVALID_FORMAT.4 cm 20 mm,INVALID
+FAQ_EN,194,question_en,How many feet are needed per m² for tiles sized 60.4x60.4 cm 20 mm?,How many feet are needed per m² for tiles sized 60.INVALID_FORMAT.4 cm 20 mm?,INVALID
+FAQ_EN,195,answer_en,120.8x120.8 cm 20 mm,120.INVALID_FORMAT.8 cm 20 mm,INVALID
+FAQ_EN,195,answer_full_en,120.8x120.8 cm 20 mm,120.INVALID_FORMAT.8 cm 20 mm,INVALID
+FAQ_EN,196,question_en,How many feet are needed per m² for tiles sized 120.8x120.8 cm 20 mm?,How many feet are needed per m² for tiles sized 120.INVALID_FORMAT.8 cm 20 mm?,INVALID
+FAQ_EN,197,answer_en,60.4x120.8 cm 20 mm,60.INVALID_FORMAT.8 cm 20 mm,INVALID
+FAQ_EN,197,answer_full_en,60.4x120.8 cm 20 mm,60.INVALID_FORMAT.8 cm 20 mm,INVALID
+FAQ_EN,198,question_en,How many feet are needed per m² for tiles sized 60.4x120.8 cm 20 mm?,How many feet are needed per m² for tiles sized 60.INVALID_FORMAT.8 cm 20 mm?,INVALID
+FAQ_EN,199,answer_en,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_EN,199,answer_full_en,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_EN,200,question_en,How many feet are needed per m² for tiles sized 90x90 cm 20 mm?,How many feet are needed per m² for tiles sized 90x90cm cm 20 mm?,NORMALIZED
+FAQ_EN,201,question_en,How many feet are needed per m² for tiles sized 60x60 cm 20 mm?,How many feet are needed per m² for tiles sized 60x60cm cm 20 mm?,NORMALIZED
+FAQ_EN,202,answer_en,"We offer several different standard formats in 20 mm thickness. Examples: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100, and more. Contact us if you would like to see the complete list.","We offer several different standard formats in 20 mm thickness. Examples: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100, and more. Contact us if you would like to see the complete list.",NORMALIZED
+FAQ_EN,202,answer_full_en,"We offer several different standard formats in 20 mm thickness. Examples: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100, and more. Contact us if you would like to see the complete list.","We offer several different standard formats in 20 mm thickness. Examples: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100, and more. Contact us if you would like to see the complete list.",NORMALIZED
+FAQ_EN,203,question_en,I'm looking for a tile that is about 60x60 – what sizes are closest?,I'm looking for a tile that is about 60x60cm – what sizes are closest?,NORMALIZED
+FAQ_EN,203,answer_en,"The closest formats to 60x60 cm are 60x60, 60x120, or 90x90 cm, depending on the desired proportions.","The closest formats to 60x60cm cm are 60x60cm, 60x120, or 90x90 cm, depending on the desired proportions.",NORMALIZED
+FAQ_EN,203,answer_full_en,"The closest formats to 60x60 cm are 60x60, 60x120, or 90x90 cm, depending on the desired proportions.","The closest formats to 60x60cm cm are 60x60cm, 60x120, or 90x90 cm, depending on the desired proportions.",NORMALIZED
+FAQ_EN,204,question_en,I'm looking for a tile that is about 80x80 – what sizes are closest?,I'm looking for a tile that is about 80x80cm – what sizes are closest?,NORMALIZED
+FAQ_EN,204,answer_en,"The closest sizes to 80x80 cm are 80x80, 90x90, or 100x100 cm.","The closest sizes to 80x80cm cm are 80x80cm, 90x90, or 100x100 cm.",NORMALIZED
+FAQ_EN,204,answer_full_en,"The closest sizes to 80x80 cm are 80x80, 90x90, or 100x100 cm.","The closest sizes to 80x80cm cm are 80x80cm, 90x90, or 100x100 cm.",NORMALIZED
+FAQ_EN,205,answer_en,"Standard sizes include 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would you like to see more formats?","Standard sizes include 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would you like to see more formats?",NORMALIZED
+FAQ_EN,205,answer_full_en,"Standard sizes include 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would you like to see more formats?","Standard sizes include 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would you like to see more formats?",NORMALIZED
+FAQ_EN,207,question_en,I have 35 m² of 60x60 cm – how many feet do I need?,I have 35 m² of 60x60cm cm – how many feet do I need?,NORMALIZED
+FAQ_EN,207,answer_en,"Calculation: 60x60 cm requires about 2.78 feet/m². For 35 m², it will be approximately 97 feet.","Calculation: 60x60cm cm requires about 2.78 feet/m². For 35 m², it will be approximately 97 feet.",NORMALIZED
+FAQ_EN,207,answer_full_en,"Calculation: 60x60 cm requires about 2.78 feet/m². For 35 m², it will be approximately 97 feet.","Calculation: 60x60cm cm requires about 2.78 feet/m². For 35 m², it will be approximately 97 feet.",NORMALIZED
+FAQ_EN,208,answer_en,"Rule: ≤60 cm → approximately 2.78 feet/m², 80 cm → approximately 6.25 feet/m², 90 cm → approximately 4.94 feet/m², 100 cm → approximately 4.0 feet/m². Longer formats (60x120 cm, 40x120 cm) → approximately 2.78–4.17 feet/m².","Rule: ≤60 cm → approximately 2.78 feet/m², 80 cm → approximately 6.25 feet/m², 90 cm → approximately 4.94 feet/m², 100 cm → approximately 4.0 feet/m². Longer formats (INVALID_FORMAT cm, 40x120 cm) → approximately 2.78–4.17 feet/m².",INVALID
+FAQ_EN,208,answer_full_en,"Rule: ≤60 cm → approximately 2.78 feet/m², 80 cm → approximately 6.25 feet/m², 90 cm → approximately 4.94 feet/m², 100 cm → approximately 4.0 feet/m². Longer formats (60x120 cm, 40x120 cm) → approximately 2.78–4.17 feet/m².","Rule: ≤60 cm → approximately 2.78 feet/m², 80 cm → approximately 6.25 feet/m², 90 cm → approximately 4.94 feet/m², 100 cm → approximately 4.0 feet/m². Longer formats (INVALID_FORMAT cm, 40x120 cm) → approximately 2.78–4.17 feet/m².",INVALID
+FAQ_EN,220,answer_en,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_EN,220,answer_full_en,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,2,answer_da,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,2,answer_full_da,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,8,answer_da,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,8,answer_full_da,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,14,answer_da,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_DA,14,answer_full_da,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_DA,15,answer_da,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,15,answer_full_da,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,16,answer_da,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,16,answer_full_da,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,17,answer_da,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DA,17,answer_full_da,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DA,18,answer_da,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,18,answer_full_da,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,21,answer_da,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,21,answer_full_da,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,22,answer_da,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DA,22,answer_full_da,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DA,24,answer_da,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_DA,24,answer_full_da,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_DA,25,answer_da,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,25,answer_full_da,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,26,answer_da,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,26,answer_full_da,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,27,answer_da,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DA,27,answer_full_da,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DA,29,answer_da,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,29,answer_full_da,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,30,answer_da,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,30,answer_full_da,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,181,answer_da,"Sure! Here’s the translation of the FAQ text into Danish:
+
+100x100 cm 20 mm","Sure! Here’s the translation of the FAQ text into Danish:
+
+INVALID_FORMAT cm 20 mm",INVALID
+FAQ_DA,181,answer_full_da,"Sure! Here’s the translation of the FAQ text into Danish:
+
+100x100 cm 20 mm","Sure! Here’s the translation of the FAQ text into Danish:
+
+INVALID_FORMAT cm 20 mm",INVALID
+FAQ_DA,182,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 100x100 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen INVALID_FORMAT cm 20 mm?,INVALID
+FAQ_DA,183,answer_da,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_DA,183,answer_full_da,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_DA,184,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 80x80 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen 80x80cm cm 20 mm?,NORMALIZED
+FAQ_DA,185,answer_da,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_DA,185,answer_full_da,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_DA,186,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 60x60 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen 60x60cm cm 20 mm?,NORMALIZED
+FAQ_DA,187,answer_da,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_DA,187,answer_full_da,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_DA,188,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 60x120 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen INVALID_FORMAT cm 20 mm?,INVALID
+FAQ_DA,189,answer_da,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_DA,189,answer_full_da,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_DA,190,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 40x120 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen 40x120cm cm 20 mm?,NORMALIZED
+FAQ_DA,191,answer_da,"80,0x80,0 cm 20 mm","80,INVALID_FORMAT,0 cm 20 mm",INVALID
+FAQ_DA,191,answer_full_da,"80,0x80,0 cm 20 mm","80,INVALID_FORMAT,0 cm 20 mm",INVALID
+FAQ_DA,192,question_da,"Hvor mange fødder kræves pr. m² for fliser i størrelsen 80,0x80,0 cm 20 mm?","Hvor mange fødder kræves pr. m² for fliser i størrelsen 80,INVALID_FORMAT,0 cm 20 mm?",INVALID
+FAQ_DA,193,answer_da,"60,4x60,4 cm 20 mm","60,INVALID_FORMAT,4 cm 20 mm",INVALID
+FAQ_DA,193,answer_full_da,"60,4x60,4 cm 20 mm","60,INVALID_FORMAT,4 cm 20 mm",INVALID
+FAQ_DA,194,question_da,"Hvor mange fødder kræves pr. m² for fliser i størrelsen 60,4x60,4 cm 20 mm?","Hvor mange fødder kræves pr. m² for fliser i størrelsen 60,INVALID_FORMAT,4 cm 20 mm?",INVALID
+FAQ_DA,195,answer_da,"120,8x120,8 cm 20 mm","120,INVALID_FORMAT,8 cm 20 mm",INVALID
+FAQ_DA,195,answer_full_da,"120,8x120,8 cm 20 mm","120,INVALID_FORMAT,8 cm 20 mm",INVALID
+FAQ_DA,196,question_da,"Hvor mange fødder kræves pr. m² for fliser i størrelsen 120,8x120,8 cm 20 mm?","Hvor mange fødder kræves pr. m² for fliser i størrelsen 120,INVALID_FORMAT,8 cm 20 mm?",INVALID
+FAQ_DA,197,answer_da,"60,4x120,8 cm 20 mm","60,INVALID_FORMAT,8 cm 20 mm",INVALID
+FAQ_DA,197,answer_full_da,"60,4x120,8 cm 20 mm","60,INVALID_FORMAT,8 cm 20 mm",INVALID
+FAQ_DA,198,question_da,"Hvor mange fødder kræves pr. m² for fliser i størrelsen 60,4x120,8 cm 20 mm?","Hvor mange fødder kræves pr. m² for fliser i størrelsen 60,INVALID_FORMAT,8 cm 20 mm?",INVALID
+FAQ_DA,199,answer_da,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_DA,199,answer_full_da,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_DA,200,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 90x90 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen 90x90cm cm 20 mm?,NORMALIZED
+FAQ_DA,201,question_da,Hvor mange fødder kræves pr. m² for fliser i størrelsen 60x60 cm 20 mm?,Hvor mange fødder kræves pr. m² for fliser i størrelsen 60x60cm cm 20 mm?,NORMALIZED
+FAQ_DA,202,answer_da,"Vi tilbyder flere forskellige standardformater i 20 mm tykkelse. Eksempler: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 og flere. Kontakt os, hvis du vil se hele listen.","Vi tilbyder flere forskellige standardformater i 20 mm tykkelse. Eksempler: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 og flere. Kontakt os, hvis du vil se hele listen.",NORMALIZED
+FAQ_DA,202,answer_full_da,"Vi tilbyder flere forskellige standardformater i 20 mm tykkelse. Eksempler: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 og flere. Kontakt os, hvis du vil se hele listen.","Vi tilbyder flere forskellige standardformater i 20 mm tykkelse. Eksempler: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 og flere. Kontakt os, hvis du vil se hele listen.",NORMALIZED
+FAQ_DA,203,question_da,"Jeg leder efter en flise, der er cirka 60x60 – hvilke formater ligger tættest på?","Jeg leder efter en flise, der er cirka 60x60cm – hvilke formater ligger tættest på?",NORMALIZED
+FAQ_DA,203,answer_da,"Det nærmeste format til 60x60 cm er 60x60, 60x120 eller 90x90 cm afhængigt af ønskede proportioner.","Det nærmeste format til 60x60cm cm er 60x60cm, 60x120 eller 90x90 cm afhængigt af ønskede proportioner.",NORMALIZED
+FAQ_DA,203,answer_full_da,"Det nærmeste format til 60x60 cm er 60x60, 60x120 eller 90x90 cm afhængigt af ønskede proportioner.","Det nærmeste format til 60x60cm cm er 60x60cm, 60x120 eller 90x90 cm afhængigt af ønskede proportioner.",NORMALIZED
+FAQ_DA,204,question_da,"Jeg leder efter en plade, der er cirka 80x80 – hvilke formater ligger tættest på?","Jeg leder efter en plade, der er cirka 80x80cm – hvilke formater ligger tættest på?",NORMALIZED
+FAQ_DA,204,answer_da,"Det nærmeste format til 80x80 cm er 80x80, 90x90 eller 100x100 cm.","Det nærmeste format til 80x80cm cm er 80x80cm, 90x90 eller 100x100 cm.",NORMALIZED
+FAQ_DA,204,answer_full_da,"Det nærmeste format til 80x80 cm er 80x80, 90x90 eller 100x100 cm.","Det nærmeste format til 80x80cm cm er 80x80cm, 90x90 eller 100x100 cm.",NORMALIZED
+FAQ_DA,205,answer_da,"Standardstørrelser inkluderer 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Vil du se flere formater?","Standardstørrelser inkluderer 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Vil du se flere formater?",NORMALIZED
+FAQ_DA,205,answer_full_da,"Standardstørrelser inkluderer 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Vil du se flere formater?","Standardstørrelser inkluderer 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Vil du se flere formater?",NORMALIZED
+FAQ_DA,207,question_da,Jeg har 35 m² af 60x60 cm – hvor mange fødder har jeg brug for?,Jeg har 35 m² af 60x60cm cm – hvor mange fødder har jeg brug for?,NORMALIZED
+FAQ_DA,207,answer_da,"Beregning: 60x60 cm kræver ca. 2,78 fod/m². For 35 m² bliver det omtrent 97 fod.","Beregning: 60x60cm cm kræver ca. 2,78 fod/m². For 35 m² bliver det omtrent 97 fod.",NORMALIZED
+FAQ_DA,207,answer_full_da,"Beregning: 60x60 cm kræver ca. 2,78 fod/m². For 35 m² bliver det omtrent 97 fod.","Beregning: 60x60cm cm kræver ca. 2,78 fod/m². For 35 m² bliver det omtrent 97 fod.",NORMALIZED
+FAQ_DA,208,answer_da,"Regel: ≤60 cm → ca 2.78 fødder/m², 80 cm → ca 6.25 fødder/m², 90 cm → ca 4.94 fødder/m², 100 cm → ca 4.0 fødder/m². Længre format (60x120 cm, 40x120 cm) → ca 2.78–4.17 fødder/m².","Regel: ≤60 cm → ca 2.78 fødder/m², 80 cm → ca 6.25 fødder/m², 90 cm → ca 4.94 fødder/m², 100 cm → ca 4.0 fødder/m². Længre format (INVALID_FORMAT cm, 40x120 cm) → ca 2.78–4.17 fødder/m².",INVALID
+FAQ_DA,208,answer_full_da,"Regel: ≤60 cm → ca 2.78 fødder/m², 80 cm → ca 6.25 fødder/m², 90 cm → ca 4.94 fødder/m², 100 cm → ca 4.0 fødder/m². Længre format (60x120 cm, 40x120 cm) → ca 2.78–4.17 fødder/m².","Regel: ≤60 cm → ca 2.78 fødder/m², 80 cm → ca 6.25 fødder/m², 90 cm → ca 4.94 fødder/m², 100 cm → ca 4.0 fødder/m². Længre format (INVALID_FORMAT cm, 40x120 cm) → ca 2.78–4.17 fødder/m².",INVALID
+FAQ_DA,220,answer_da,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DA,220,answer_full_da,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,2,answer_ge,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,2,answer_full_ge,"Följande färger finns i Lava:
+- Etna (Övrigt) – format: 430x120
+- Marsili (Övrigt) – format: 430x120
+- Salina (Övrigt) – format: 430x120
+- Vesuvio (Övrigt) – format: 430x120","Följande färger finns i Lava:
+- Etna (Övrigt) – format: INVALID_FORMAT
+- Marsili (Övrigt) – format: INVALID_FORMAT
+- Salina (Övrigt) – format: INVALID_FORMAT
+- Vesuvio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,8,answer_ge,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,8,answer_full_ge,"Följande färger finns i Argresia:
+- Svart (Övrigt) – format: 430x120","Följande färger finns i Argresia:
+- Svart (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,14,answer_ge,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_DE,14,answer_full_ge,"Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90","Följande färger finns i Kvarts:
+- Grå (Övrigt) – format: INVALID_FORMAT, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",INVALID
+FAQ_DE,15,answer_ge,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,15,answer_full_ge,"Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: 430x120
+- Nolita (Övrigt) – format: 430x120
+- Soho (Övrigt) – format: 430x120
+- Tribeca (Övrigt) – format: 430x120","Följande färger finns i Manhattan:
+- Midtown (Övrigt) – format: INVALID_FORMAT
+- Nolita (Övrigt) – format: INVALID_FORMAT
+- Soho (Övrigt) – format: INVALID_FORMAT
+- Tribeca (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,16,answer_ge,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,16,answer_full_ge,"Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: 430x120
+- Upcharbon (Övrigt) – format: 430x120
+- Upcrete (Övrigt) – format: 430x120
+- Upivoire (Övrigt) – format: 430x120","Följande färger finns i Materia:
+- Upcendre (Övrigt) – format: INVALID_FORMAT
+- Upcharbon (Övrigt) – format: INVALID_FORMAT
+- Upcrete (Övrigt) – format: INVALID_FORMAT
+- Upivoire (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,17,answer_ge,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DE,17,answer_full_ge,"Följande färger finns i Meteo:
+- Dark (Övrigt) – format: 430x120
+- Fog (Övrigt) – format: 430x120
+- Salt (Grå) – format: 430x120
+- Sand (Beige) – format: 430x120","Följande färger finns i Meteo:
+- Dark (Övrigt) – format: INVALID_FORMAT
+- Fog (Övrigt) – format: INVALID_FORMAT
+- Salt (Grå) – format: INVALID_FORMAT
+- Sand (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DE,18,answer_ge,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,18,answer_full_ge,"Följande färger finns i Mista:
+- Agate (Övrigt) – format: 430x120
+- Pearl (Övrigt) – format: 430x120
+- Shell (Övrigt) – format: 430x120
+- Tahiti (Övrigt) – format: 430x120","Följande färger finns i Mista:
+- Agate (Övrigt) – format: INVALID_FORMAT
+- Pearl (Övrigt) – format: INVALID_FORMAT
+- Shell (Övrigt) – format: INVALID_FORMAT
+- Tahiti (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,21,answer_ge,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,21,answer_full_ge,"Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: 430x120
+- Diaspro (Övrigt) – format: 430x120
+- Madera (Övrigt) – format: 430x120
+- Prasio (Övrigt) – format: 430x120","Följande färger finns i Quartz:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Diaspro (Övrigt) – format: INVALID_FORMAT
+- Madera (Övrigt) – format: INVALID_FORMAT
+- Prasio (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,22,answer_ge,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DE,22,answer_full_ge,"Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: 430x120
+- Cream (Beige) – format: 430x120
+- Light Grey (Grå) – format: 430x120
+- Mud (Beige) – format: 430x120","Följande färger finns i Roccia:
+- Antracite (Antracitgrå) – format: INVALID_FORMAT
+- Cream (Beige) – format: INVALID_FORMAT
+- Light Grey (Grå) – format: INVALID_FORMAT
+- Mud (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DE,24,answer_ge,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_DE,24,answer_full_ge,"Följande färger finns i Stella:
+- Bone (Övrigt) – format: 430x120
+- Cement (Övrigt) – format: 430x120
+- Plomb (Grå) – format: 430x120","Följande färger finns i Stella:
+- Bone (Övrigt) – format: INVALID_FORMAT
+- Cement (Övrigt) – format: INVALID_FORMAT
+- Plomb (Grå) – format: INVALID_FORMAT",INVALID
+FAQ_DE,25,answer_ge,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,25,answer_full_ge,"Följande färger finns i Stone:
+- Landstone (Övrigt) – format: 430x120
+- Nightstone (Övrigt) – format: 430x120
+- Silverstone (Grå) – format: 430x120
+- Sunstone (Övrigt) – format: 430x120","Följande färger finns i Stone:
+- Landstone (Övrigt) – format: INVALID_FORMAT
+- Nightstone (Övrigt) – format: INVALID_FORMAT
+- Silverstone (Grå) – format: INVALID_FORMAT
+- Sunstone (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,26,answer_ge,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,26,answer_full_ge,"Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: 430x120
+- Santa Fe' (Övrigt) – format: 430x120
+- Santa Monica (Övrigt) – format: 430x120","Följande färger finns i Strada:
+- Saint Luois (Övrigt) – format: INVALID_FORMAT
+- Santa Fe' (Övrigt) – format: INVALID_FORMAT
+- Santa Monica (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,27,answer_ge,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DE,27,answer_full_ge,"Följande färger finns i Travertin:
+- Beige (Beige) – format: 430x120","Följande färger finns i Travertin:
+- Beige (Beige) – format: INVALID_FORMAT",INVALID
+FAQ_DE,29,answer_ge,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,29,answer_full_ge,"Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: 430x120
+- Gent (Övrigt) – format: 430x120
+- Namur (Övrigt) – format: 430x120","Följande färger finns i Vintage:
+- Bruges (Övrigt) – format: INVALID_FORMAT
+- Gent (Övrigt) – format: INVALID_FORMAT
+- Namur (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,30,answer_ge,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,30,answer_full_ge,"Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Konjak:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,181,answer_ge,100x100 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_DE,181,answer_full_ge,100x100 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_DE,182,question_ge,Wie viele Füße werden pro m² für Platten der Größe 100x100 cm 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe INVALID_FORMAT cm 20 mm benötigt?,INVALID
+FAQ_DE,183,answer_ge,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_DE,183,answer_full_ge,80x80 cm 20 mm,80x80cm cm 20 mm,NORMALIZED
+FAQ_DE,184,question_ge,Wie viele Füße werden pro m² für Platten der Größe 80x80 cm 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe 80x80cm cm 20 mm benötigt?,NORMALIZED
+FAQ_DE,185,answer_ge,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_DE,185,answer_full_ge,60x60 cm 20 mm,60x60cm cm 20 mm,NORMALIZED
+FAQ_DE,186,question_ge,Wie viele Füße werden pro m² für Platten der Größe 60x60 cm 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe 60x60cm cm 20 mm benötigt?,NORMALIZED
+FAQ_DE,187,answer_ge,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_DE,187,answer_full_ge,60x120 cm 20 mm,INVALID_FORMAT cm 20 mm,INVALID
+FAQ_DE,188,question_ge,Wie viele Füße werden pro m² für Platten der Größe 60x120 cm 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe INVALID_FORMAT cm 20 mm benötigt?,INVALID
+FAQ_DE,189,answer_ge,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_DE,189,answer_full_ge,40x120 cm 20 mm,40x120cm cm 20 mm,NORMALIZED
+FAQ_DE,190,question_ge,Wie viele Füße werden pro m² für Platten der Größe 40x120 cm 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe 40x120cm cm 20 mm benötigt?,NORMALIZED
+FAQ_DE,198,question_ge,"Wie viele Füße werden pro m² für Platten der Größe 60,4x120,8 cm 20 mm benötigt?","Wie viele Füße werden pro m² für Platten der Größe 60,INVALID_FORMAT,8 cm 20 mm benötigt?",INVALID
+FAQ_DE,199,answer_ge,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_DE,199,answer_full_ge,90x90 cm 20 mm,90x90cm cm 20 mm,NORMALIZED
+FAQ_DE,200,question_ge,Wie viele Füße werden pro m² für Platten der Größe 90x90 cm und 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe 90x90cm cm und 20 mm benötigt?,NORMALIZED
+FAQ_DE,201,question_ge,Wie viele Füße werden pro m² für Platten der Größe 60x60 cm 20 mm benötigt?,Wie viele Füße werden pro m² für Platten der Größe 60x60cm cm 20 mm benötigt?,NORMALIZED
+FAQ_DE,202,answer_ge,"Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 und mehr. Kontaktieren Sie uns, wenn Sie die gesamte Liste sehen möchten.","Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 und mehr. Kontaktieren Sie uns, wenn Sie die gesamte Liste sehen möchten.",NORMALIZED
+FAQ_DE,202,answer_full_ge,"Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 und mehr. Kontaktieren Sie uns, wenn Sie die gesamte Liste sehen möchten.","Wir bieten mehrere verschiedene Standardformate in 20 mm Dicke an. Beispiele: 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 und mehr. Kontaktieren Sie uns, wenn Sie die gesamte Liste sehen möchten.",NORMALIZED
+FAQ_DE,203,question_ge,"Ich suche eine Fliese, die etwa 60x60 cm groß ist – welche Formate kommen dem am nächsten?","Ich suche eine Fliese, die etwa 60x60cm cm groß ist – welche Formate kommen dem am nächsten?",NORMALIZED
+FAQ_DE,203,answer_ge,"Das nächstgelegene Format zu 60x60 cm ist 60x60, 60x120 oder 90x90 cm, je nach Wunsch nach Proportionen.","Das nächstgelegene Format zu 60x60cm cm ist 60x60cm, 60x120 oder 90x90 cm, je nach Wunsch nach Proportionen.",NORMALIZED
+FAQ_DE,203,answer_full_ge,"Das nächstgelegene Format zu 60x60 cm ist 60x60, 60x120 oder 90x90 cm, je nach Wunsch nach Proportionen.","Das nächstgelegene Format zu 60x60cm cm ist 60x60cm, 60x120 oder 90x90 cm, je nach Wunsch nach Proportionen.",NORMALIZED
+FAQ_DE,204,question_ge,"Ich suche eine Fliese, die etwa 80x80 cm groß ist – welche Formate kommen dem am nächsten?","Ich suche eine Fliese, die etwa 80x80cm cm groß ist – welche Formate kommen dem am nächsten?",NORMALIZED
+FAQ_DE,204,answer_ge,"Das nächstgelegene Format zu 80x80 cm ist 80x80, 90x90 oder 100x100 cm.","Das nächstgelegene Format zu 80x80cm cm ist 80x80cm, 90x90 oder 100x100 cm.",NORMALIZED
+FAQ_DE,204,answer_full_ge,"Das nächstgelegene Format zu 80x80 cm ist 80x80, 90x90 oder 100x100 cm.","Das nächstgelegene Format zu 80x80cm cm ist 80x80cm, 90x90 oder 100x100 cm.",NORMALIZED
+FAQ_DE,205,answer_ge,"Standardgrößen umfassen 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Möchtest du weitere Formate sehen?","Standardgrößen umfassen 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Möchtest du weitere Formate sehen?",NORMALIZED
+FAQ_DE,205,answer_full_ge,"Standardgrößen umfassen 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Möchtest du weitere Formate sehen?","Standardgrößen umfassen 60x60cm, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Möchtest du weitere Formate sehen?",NORMALIZED
+FAQ_DE,207,question_ge,Ich habe 35 m² von 60x60 cm – wie viele Füße benötige ich?,Ich habe 35 m² von 60x60cm cm – wie viele Füße benötige ich?,NORMALIZED
+FAQ_DE,207,answer_ge,"Berechnung: 60x60 cm benötigt ca. 2,78 Fuß/m². Für 35 m² sind das ungefähr 97 Fuß.","Berechnung: 60x60cm cm benötigt ca. 2,78 Fuß/m². Für 35 m² sind das ungefähr 97 Fuß.",NORMALIZED
+FAQ_DE,207,answer_full_ge,"Berechnung: 60x60 cm benötigt ca. 2,78 Fuß/m². Für 35 m² sind das ungefähr 97 Fuß.","Berechnung: 60x60cm cm benötigt ca. 2,78 Fuß/m². Für 35 m² sind das ungefähr 97 Fuß.",NORMALIZED
+FAQ_DE,208,answer_ge,"Regel: ≤60 cm → ca. 2,78 Fuß/m², 80 cm → ca. 6,25 Fuß/m², 90 cm → ca. 4,94 Fuß/m², 100 cm → ca. 4,0 Fuß/m². Längeres Format (60x120 cm, 40x120 cm) → ca. 2,78–4,17 Fuß/m².","Regel: ≤60 cm → ca. 2,78 Fuß/m², 80 cm → ca. 6,25 Fuß/m², 90 cm → ca. 4,94 Fuß/m², 100 cm → ca. 4,0 Fuß/m². Längeres Format (INVALID_FORMAT cm, 40x120 cm) → ca. 2,78–4,17 Fuß/m².",INVALID
+FAQ_DE,208,answer_full_ge,"Regel: ≤60 cm → ca. 2,78 Fuß/m², 80 cm → ca. 6,25 Fuß/m², 90 cm → ca. 4,94 Fuß/m², 100 cm → ca. 4,0 Fuß/m². Längeres Format (60x120 cm, 40x120 cm) → ca. 2,78–4,17 Fuß/m².","Regel: ≤60 cm → ca. 2,78 Fuß/m², 80 cm → ca. 6,25 Fuß/m², 90 cm → ca. 4,94 Fuß/m², 100 cm → ca. 4,0 Fuß/m². Längeres Format (INVALID_FORMAT cm, 40x120 cm) → ca. 2,78–4,17 Fuß/m².",INVALID
+FAQ_DE,220,answer_ge,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID
+FAQ_DE,220,answer_full_ge,"Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: 430x120","Följande färger finns i Träklinker:
+- Konjak (Övrigt) – format: INVALID_FORMAT",INVALID

@@ -1,0 +1,13 @@
+$headers = @{
+  "Content-Type" = "application/json"
+}
+
+$body = @{
+  text = "Hej"
+} | ConvertTo-Json
+
+Invoke-WebRequest `
+  -Uri "https://din-app.vercel.app/api/chat" `
+  -Method POST `
+  -Headers $headers `
+  -Body $body | Select-Object -ExpandProperty Content

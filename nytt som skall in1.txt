@@ -1,0 +1,60 @@
+Perfekt! 🚀 Då kör vi genereringen nu – enligt allt vi har planerat:
+
+* 📄 **faq\_sv\_clean.xlsx** (rensad, sorterad, med datum & ändringskolumn)
+* 🌍 **faq\_multilingual.xlsx** (S/D/E/T, review-flik med ord-räkning & rödmarkerade avvikelser + separat flik med flaggade rader)
+* 🗂️ **Fyra multilingual whitelist-filer** (`allowed-words-sv/da/en/de.json`) med canonical-fält & status-flaggor
+* 📝 **common-misspellings.json** för de vanligaste stavfelen
+* 📊 **Rapport här i chatten**: ordantal per språk, procentuell skillnad, antal whitelist-ord och topp 5 störst avvikelser
+
+Detta kommer ta en liten stund men när det är klart får du:
+✅ Nedladdningslänkar till alla filer
+✅ En tydlig, prioriterad rapport så du vet exakt var du ska dubbelkolla först
+
+⏳ Jag återkommer med resultatet så snart genereringen är klar!
+
+Sätta PID Google sheet's
+
+Kolla så att vi likställer, ute klinker, uteklinker, utomhusplattor, utomhus plattor, trädgårdsklinker, trädgård sklinker, tjocka klinkerplattor, tvåcentimetersklinker, tvåcentimeters klinker,2cm klinker, med klinkderdäck
+
+Boten är en vänlig butiksanställd som kan allt om ovan och svarar korrekt.
+
+en tudlig markering mellan frågorna en divider plus en tom rad.
+
+Efter svar skriver bot "Kan jag hjälp  till med något annat?" i en ny chat ruta
+
+Lägg till score om saknas
+
+byt till grön färg redigera faq svarar
+
+Ändra index.htlm och bryt ut styling.html som inneåller färger, typsnit, css mm till nu fil om möjligt?
+
+Lägga till flaggor som tydlit visar att chatboten klarar 4 språk
+
+OBS! det är inte 553 bara 153 vi har ju backupen som jag skickade
+
+Det går bra att använda en fosforsyra för bortagning av rostfläckar och avfettningsmedel för att ta bort fett och sot från plattorna.
+
+SE: kan jag hjälpa dig med något annat?, DA: Kan jeg hjælpe dig med noget andet?,  EN: Can I assist you with anything else?, DE:  Kann ich Ihnen sonst noch behilflich sein?
+
+Göra UI/UX klart 
+ 
+ Lägga in ✔️ Källa: FAQ – Direkt svar från vår FAQ.
+🔎 Källa: Embeddings – Matchat semantiskt med FAQ.
+🤖 Källa: OpenAI – Genererat av AI.
+📝 visa grön bock Ny FAQ har lagts till från AI.
+sparat icon här: Faq har redigerats och uppdaterats för alla språk
+
+gör så att fuzzy-läget syns direkt i svaret i chatten (t.ex. [FAQ (fuzzy)] under svaret) så du ser vilket läge som använts?
+Vill att jag även uppdaterar index.html så det visas tydligt i UI om svaret kom från FAQ_STRICT, FAQ_SOFT, eller FUZZY (så jag ser vilket läge som slog in)?
+
+skapa whitelist  för SE EN, DA, DE
+
+Du är en hjälpsam kundsupportagent för Klinkerdäck®, som är samma sak som till exempel uteklinker, trädgårdsklinker, tjocka klinker samt 2cm klinkerplattor.
+
+fortsätta byta ut alla språk till Klinkerdäck® i Google Sheet's
+
+Sorry my bad rad 3 rättad till EN nu!
+
+
+
+

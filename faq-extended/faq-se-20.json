@@ -1,0 +1,124 @@
+{
+  "SE": [
+    {
+      "question": "Vilka mått finns klinkerdäck® i?",
+      "answer": "Plattorna finns i flera olika standardmått. Se vår produktkatalog för aktuella storlekar.",
+      "source": "FAQ",
+      "category": "Produkt & Egenskaper"
+    },
+    {
+      "question": "Finns det olika färger att välja på?",
+      "answer": "Ja, vi erbjuder flera färger, till exempel grå, svart och beige.",
+      "source": "FAQ",
+      "category": "Produkt & Egenskaper"
+    },
+    {
+      "question": "Är plattorna halksäkra?",
+      "answer": "Ja, klinkerdäck® har halkskyddade ytor anpassade för utomhusbruk.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Tål plattorna frost och kyla?",
+      "answer": "Ja, klinkerdäck® är frostsäkert och kräver ingen vinterförvaring.",
+      "source": "FAQ",
+      "category": "Produkt & Egenskaper"
+    },
+    {
+      "question": "Kan man lägga plattorna direkt på grus?",
+      "answer": "Ja, klinkerdäck® kan läggas på ett stabilt grusunderlag.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Måste man limma plattorna vid installation?",
+      "answer": "Nej, plattorna behöver normalt inte limmas utan kan läggas löst på rätt underlag.",
+      "source": "AI",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Kan plattorna läggas på en träaltan?",
+      "answer": "Ja, förutsatt att underlaget är jämnt och stabilt.",
+      "source": "FAQ",
+      "category": "Installation & Underlag"
+    },
+    {
+      "question": "Vilka verktyg rekommenderas för kapning?",
+      "answer": "Vi rekommenderar vinkelslip med diamantklinga för bästa resultat.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Hur rengör man plattorna bäst?",
+      "answer": "Använd vatten och en mjuk borste. För svårare smuts kan milda rengöringsmedel användas.",
+      "source": "FAQ",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Kan man använda högtryckstvätt på plattorna?",
+      "answer": "Ja, men vi rekommenderar låg trycknivå och brett munstycke.",
+      "source": "AI",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Behöver plattorna behandlas med impregnering?",
+      "answer": "Nej, klinkerdäck® kräver ingen impregnering.",
+      "source": "FAQ",
+      "category": "Underhåll & Skötsel"
+    },
+    {
+      "question": "Hur lång livslängd har plattorna?",
+      "answer": "Med rätt installation och underhåll har klinkerdäck® mycket lång livslängd, ofta flera decennier.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Levererar ni i hela Sverige?",
+      "answer": "Ja, vi levererar i hela Sverige.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Levererar ni till Danmark och Tyskland?",
+      "answer": "Ja, Danmark och Tyskland ingår i våra standardleveranser.",
+      "source": "FAQ",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Levererar ni till Finland?",
+      "answer": "Ja, potentiellt – mot förfrågan. Kontakta oss för offert och bekräftelse.",
+      "source": "AI",
+      "category": "saknas"
+    },
+    {
+      "question": "Hur lång är leveranstiden normalt?",
+      "answer": "Normalt är leveranstiden 5–10 arbetsdagar beroende på lagerstatus.",
+      "source": "AI",
+      "category": "Leverans & Logistik"
+    },
+    {
+      "question": "Finns det garanti på klinkerdäck®?",
+      "answer": "Ja, vi lämnar garanti på våra produkter. Kontakta kundservice för detaljer.",
+      "source": "FAQ",
+      "category": "Kundservice & Garanti"
+    },
+    {
+      "question": "Kan man beställa provplattor innan köp?",
+      "answer": "Ja, provplattor kan beställas via kundservice.",
+      "source": "FAQ",
+      "category": "Kundservice & Garanti"
+    },
+    {
+      "question": "Hur gör jag en reklamation?",
+      "answer": "Kontakta vår kundservice med ordernummer och beskrivning av felet så hjälper vi dig.",
+      "source": "AI",
+      "category": "Kundservice & Garanti"
+    },
+    {
+      "question": "Är klinkerdäck® miljövänligt?",
+      "answer": "Ja, produkterna är tillverkade med miljöhänsyn och är återvinningsbara.",
+      "source": "AI",
+      "category": "saknas"
+    }
+  ]
+}

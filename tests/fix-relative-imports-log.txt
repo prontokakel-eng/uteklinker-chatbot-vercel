@@ -1,0 +1,11 @@
+﻿Uppdaterade imports i: C:\uteklinker-chatbot-vercel\api\chat.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\api\detect-lang.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\api\experimental.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\api\test-google.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\tests\faq-fuzzy-suite.mjs
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\tests\faq-super-suite.mjs
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\tests\test-faq-cache.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\Test cache filer\chat.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\Test cache filer\experimental.js
+Uppdaterade imports i: C:\uteklinker-chatbot-vercel\Test cache filer\faq.js

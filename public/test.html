@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <title>API Test</title>
+</head>
+<body>
+  <h1>Testa API-anrop</h1>
+  <button id="faq">Test FAQ</button>
+  <button id="ai">Test AI</button>
+  <pre id="output"></pre>
+  
+  <script>
+    const output = document.getElementById("output");
+
+    function logResult(label, data) {
+      output.textContent = `${label}:\n` + JSON.stringify(data, null, 2);
+    }
+
+    document.getElementById("faq").onclick = () => {
+      fetch("/api/save-faq-reply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question: "Kan man lägga plattor på grus?",
+          reply: "Ja, med rätt underarbete fungerar det.",
+          lang: "SE"
+        })
+      })
+        .then(r => r.json())
+        .then(d => logResult("FAQ-resultat", d))
+        .catch(e => logResult("FAQ-fel", { error: e.message }));
+    };
+
+    document.getElementById("ai").onclick = () => {
+      fetch("/api/save-ai-reply", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          question: "What sizes are available?",
+          reply: "We offer multiple standard and custom sizes.",
+          lang: "EN"
+        })
+      })
+        .then(r => r.json())
+        .then(d => logResult("AI-resultat", d))
+        .catch(e => logResult("AI-fel", { error: e.message }));
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chatbot</title>
+
+  <!-- Ladda refined CSS (den mest moderna och isolerade) -->
+  <link rel="stylesheet" href="/css/style.refined.css" />
+</head>
+<body>
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="app-header">
+      <h1>🤖 Chatbot</h1>
+    </header>
+
+    <!-- Undo banner -->
+    <div id="undoBanner" class="banner" style="display:none;">
+      ✅ Svar sparat! <button id="undoBtn" class="btn linklike">↩️ Ångra</button>
+    </div>
+
+    <!-- Banners -->
+    <div id="langBanner" class="banner"></div>
+    <div id="faqBanner" class="banner">✅ Svar från lokal FAQ-databas</div>
+    <div id="saveBanner" class="banner">✅ Ditt svar sparades!</div>
+
+    <!-- Main chat container -->
+    <main class="chat-container">
+      <div id="messages" class="messages"></div>
+    </main>
+
+    <!-- Loader animation -->
+    <div id="loader" class="loader hidden" aria-live="polite" aria-busy="true">
+      <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="chat-footer">
+      <div class="input-group">
+        <input id="user-input" type="text" placeholder="Skriv ett meddelande..." autocomplete="off" />
+        <button id="send-btn">➤</button>
+      </div>
+      <div class="footer-row">
+        <div class="options">
+          <label class="enter-toggle">
+            <input type="checkbox" id="enter-toggle" checked /> Enter skickar
+          </label>
+          <select id="langSelect">
+            <option value="SE" selected>Svenska</option>
+            <option value="EN">Engelska</option>
+            <option value="DE">Tyska</option>
+            <option value="DA">Danska</option>
+          </select>
+        </div>
+        <div id="enter-help" class="help-text"></div>
+      </div>
+    </footer>
+  </div> <!-- end app-wrapper -->
+
+  <!-- Script -->
+  <script src="/chat-ui.js"></script>
+</body>
+</html>

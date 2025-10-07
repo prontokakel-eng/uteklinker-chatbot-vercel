@@ -1,0 +1,176 @@
+[
+  {
+    "question_se": "Vilka färger finns i serien Lava?",
+    "answer_se": "Följande färger finns i Lava:\n- Etna (Övrigt) – format: 430x120\n- Marsili (Övrigt) – format: 430x120\n- Salina (Övrigt) – format: 430x120\n- Vesuvio (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Albero?",
+    "answer_se": "Följande färger finns i Albero:\n- Gelso (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Mandorlo (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Nocciolo (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Alpine?",
+    "answer_se": "Följande färger finns i Alpine:\n- Bocote (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Cobolo (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Mix Dark Chevry (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Mogano (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Sarawa (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Sarawa Chevry (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Slavonia (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Slavonia Chevry (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Anniversario?",
+    "answer_se": "Följande färger finns i Anniversario:\n- Grå (Övrigt)\n- Ljusgrå (Övrigt)\n- Mörkgrå (Övrigt)",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Antique?",
+    "answer_se": "Följande färger finns i Antique:\n- Dune Carved (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Nuit Carved (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Opal Carved (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Taupe Carved (Beige) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Ardesia?",
+    "answer_se": "Följande färger finns i Ardesia:\n- Bianco (Vit) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Cenere (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Grigio (Grå) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Taupe (Beige) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Argresia?",
+    "answer_se": "Följande färger finns i Argresia:\n- Svart (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Beton?",
+    "answer_se": "Följande färger finns i Beton:\n- Cemento (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Cenere (Övrigt) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80\n- Sandalo (Beige) – format: 120x240, 20x120, 30x120, 40x120, 60x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Cemento?",
+    "answer_se": "Följande färger finns i Cemento:\n- Clay (Brun) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Grit (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Land (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Lime (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Rust (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Cortina?",
+    "answer_se": "Följande färger finns i Cortina:\n- Basalto (Grå) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Calcite (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Cenere (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Sabbia (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Grotta?",
+    "answer_se": "Följande färger finns i Grotta:\n- Porfido (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Silver Black (Grå) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Silver White (Grå) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Iris?",
+    "answer_se": "Följande färger finns i Iris:\n- Astra (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Crono (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Geo (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Leucos (Vit) – format: 20x120, 40x120, 60x60, 80x180, 80x80\n- Litos (Övrigt) – format: 20x120, 40x120, 60x60, 80x180, 80x80",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Kvarts?",
+    "answer_se": "Följande färger finns i Kvarts:\n- Grå (Övrigt) – format: 100x100, 40x120, 40x180, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Manhattan?",
+    "answer_se": "Följande färger finns i Manhattan:\n- Midtown (Övrigt) – format: 430x120\n- Nolita (Övrigt) – format: 430x120\n- Soho (Övrigt) – format: 430x120\n- Tribeca (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Materia?",
+    "answer_se": "Följande färger finns i Materia:\n- Upcendre (Övrigt) – format: 430x120\n- Upcharbon (Övrigt) – format: 430x120\n- Upcrete (Övrigt) – format: 430x120\n- Upivoire (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Meteo?",
+    "answer_se": "Följande färger finns i Meteo:\n- Dark (Övrigt) – format: 430x120\n- Fog (Övrigt) – format: 430x120\n- Salt (Grå) – format: 430x120\n- Sand (Beige) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Mista?",
+    "answer_se": "Följande färger finns i Mista:\n- Agate (Övrigt) – format: 430x120\n- Pearl (Övrigt) – format: 430x120\n- Shell (Övrigt) – format: 430x120\n- Tahiti (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Nature?",
+    "answer_se": "Följande färger finns i Nature:\n- Nut (Övrigt) – format: 100x100, 40x120, 40x180, 430x120, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90\n- Nut Doga (Övrigt) – format: 100x100, 40x120, 40x180, 430x120, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90\n- Oak (Brun) – format: 100x100, 40x120, 40x180, 430x120, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90\n- Oak Doga (Brun) – format: 100x100, 40x120, 40x180, 430x120, 440x120, 45x90, 560x60, 60x120, 60x60, 80x80, 860x60, 90x90",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Nordique?",
+    "answer_se": "Följande färger finns i Nordique:\n- Evo Greyge (Grå) – format: 430x120\n- Evo Gris Fonce (Övrigt) – format: 430x120\n- Evo Gris Fonce (kopia) (Övrigt) – format: 430x120\n- Evo Noir (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Quartz?",
+    "answer_se": "Följande färger finns i Quartz:\n- Antracite (Antracitgrå) – format: 430x120\n- Diaspro (Övrigt) – format: 430x120\n- Madera (Övrigt) – format: 430x120\n- Prasio (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Roccia?",
+    "answer_se": "Följande färger finns i Roccia:\n- Antracite (Antracitgrå) – format: 430x120\n- Cream (Beige) – format: 430x120\n- Light Grey (Grå) – format: 430x120\n- Mud (Beige) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Slate?",
+    "answer_se": "Följande färger finns i Slate:\n- Bly (Övrigt)\n- Grafite (Övrigt)\n- Grå (Övrigt)",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Stella?",
+    "answer_se": "Följande färger finns i Stella:\n- Bone (Övrigt) – format: 430x120\n- Cement (Övrigt) – format: 430x120\n- Plomb (Grå) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Stone?",
+    "answer_se": "Följande färger finns i Stone:\n- Landstone (Övrigt) – format: 430x120\n- Nightstone (Övrigt) – format: 430x120\n- Silverstone (Grå) – format: 430x120\n- Sunstone (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Strada?",
+    "answer_se": "Följande färger finns i Strada:\n- Saint Luois (Övrigt) – format: 430x120\n- Santa Fe' (Övrigt) – format: 430x120\n- Santa Monica (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Travertin?",
+    "answer_se": "Följande färger finns i Travertin:\n- Beige (Beige) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Trentino?",
+    "answer_se": "Följande färger finns i Trentino:\n- Avana (Övrigt) – format: 430x120\n- Canapa (Övrigt) – format: 430x120\n- Lino (Övrigt) – format: 430x120\n- Moro (Övrigt) – format: 430x120\n- Tabacco (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Vintage?",
+    "answer_se": "Följande färger finns i Vintage:\n- Bruges (Övrigt) – format: 430x120\n- Gent (Övrigt) – format: 430x120\n- Namur (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  },
+  {
+    "question_se": "Vilka färger finns i serien Konjak?",
+    "answer_se": "Följande färger finns i Konjak:\n- Konjak (Övrigt) – format: 430x120",
+    "source": "prontokakel.starwebserver.se",
+    "category": "Färger"
+  }
+]

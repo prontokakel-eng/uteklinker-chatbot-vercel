@@ -1,0 +1,3 @@
+﻿Patchade: C:\uteklinker-chatbot-vercel\api\chat.js
+Patchade: C:\uteklinker-chatbot-vercel\lib\detect-lang.js
+Patchade: C:\uteklinker-chatbot-vercel\lib\logger.js

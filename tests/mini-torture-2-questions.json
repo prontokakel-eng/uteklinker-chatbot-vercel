@@ -1,0 +1,43 @@
+{
+  "INFO": "Mini sanity cases - 2 frågor per kategori för snabbkörning",
+  "SE": [
+    { "input": "Vilka mått har ni?", "expected": "SE" },
+    { "input": "Är plattorna halksäkra?", "expected": "SE" }
+  ],
+  "EN": [
+    { "input": "What sizes do you offer?", "expected": "EN" },
+    { "input": "Are the tiles slip resistant?", "expected": "EN" }
+  ],
+  "DA": [
+    { "input": "Er det frostsikkert?", "expected": "DA" },
+    { "input": "Kan jeg selv montere det?", "expected": "DA" }
+  ],
+  "DE": [
+    { "input": "Gibt es verschiedene Farben?", "expected": "DE" },
+    { "input": "Sind die Platten rutschfest?", "expected": "DE" }
+  ],
+  "FUZZY": [
+    { "input": "klinkerdak mått??", "expected": "SE" },
+    { "input": "klinkerdäck slipp??", "expected": "SE" }
+  ],
+  "GIBBERISH": [
+    { "input": "asdkjhqwe123", "expected": "FILTER" },
+    { "input": "!!!!!!?????", "expected": "FILTER" }
+  ],
+  "LONG": [
+    { "input": "Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ...................................................", "expected": "FILTER" },
+    { "input": "Another very very long nonsense text for sanity-test sanity-test sanity-test …", "expected": "FILTER" }
+  ],
+  "BLOCK": [
+    { "input": "cheap viagra online", "expected": "FILTER" },
+    { "input": "lottery scam free money", "expected": "FILTER" }
+  ],
+  "GREETING": [
+    { "input": "hej", "expected": "SE" },
+    { "input": "hello there", "expected": "EN" }
+  ],
+  "RELEVANCE": [
+    { "input": "12345", "expected": "FILTER" },
+    { "input": "??!!", "expected": "FILTER" }
+  ]
+}
