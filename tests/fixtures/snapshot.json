@@ -1,0 +1,1583 @@
+[
+  {
+    "type": "dir",
+    "name": ".py",
+    "path": ".py"
+  },
+  {
+    "type": "file",
+    "name": "build_series_facit.py",
+    "path": ".py\\build_series_facit.py",
+    "size": 982,
+    "mtime": "2025-10-02T15:42:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean_translation_file.py",
+    "path": ".py\\clean_translation_file.py",
+    "size": 1516,
+    "mtime": "2025-09-18T09:28:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean_translation_file_smart.py",
+    "path": ".py\\clean_translation_file_smart.py",
+    "size": 2847,
+    "mtime": "2025-09-18T09:32:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fail-safe-mini.py",
+    "path": ".py\\fail-safe-mini.py",
+    "size": 2468,
+    "mtime": "2025-09-18T08:19:40.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_sanity_autofix.py",
+    "path": ".py\\faq_sanity_autofix.py",
+    "size": 1115,
+    "mtime": "2025-09-17T14:57:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_sanity_autofix_with_source.py",
+    "path": ".py\\faq_sanity_autofix_with_source.py",
+    "size": 1598,
+    "mtime": "2025-09-17T15:07:34.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_sanity_check.py",
+    "path": ".py\\faq_sanity_check.py",
+    "size": 1506,
+    "mtime": "2025-09-17T14:55:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "list_sheets.py",
+    "path": ".py\\list_sheets.py",
+    "size": 1312,
+    "mtime": "2025-10-01T05:24:18.000Z"
+  },
+  {
+    "type": "file",
+    "name": "merge_caches.py",
+    "path": ".py\\merge_caches.py",
+    "size": 1083,
+    "mtime": "2025-10-02T12:21:34.000Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_and_merge_keywords.py",
+    "path": ".py\\normalize_and_merge_keywords.py",
+    "size": 4082,
+    "mtime": "2025-10-01T07:28:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_faq_formats.py",
+    "path": ".py\\normalize_faq_formats.py",
+    "size": 5131,
+    "mtime": "2025-10-02T12:31:26.000Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_formats_in_sheets.py",
+    "path": ".py\\normalize_formats_in_sheets.py",
+    "size": 3334,
+    "mtime": "2025-10-02T09:11:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_keywords.py",
+    "path": ".py\\normalize_keywords.py",
+    "size": 2222,
+    "mtime": "2025-10-01T07:08:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_sizes (1).py",
+    "path": ".py\\normalize_sizes (1).py",
+    "size": 4341,
+    "mtime": "2025-10-01T11:48:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "normalize_sizes.py",
+    "path": ".py\\normalize_sizes.py",
+    "size": 4051,
+    "mtime": "2025-10-01T11:47:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "nytt som skall in1.txt",
+    "path": ".py\\nytt som skall in1.txt",
+    "size": 1631,
+    "mtime": "2025-09-17T15:27:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_en_problems.py",
+    "path": ".py\\patch_en_problems.py",
+    "size": 4196,
+    "mtime": "2025-10-01T10:59:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_en_problems_v2.py",
+    "path": ".py\\patch_en_problems_v2.py",
+    "size": 5962,
+    "mtime": "2025-10-01T11:02:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang.py",
+    "path": ".py\\patch_faq_multilang.py",
+    "size": 4246,
+    "mtime": "2025-10-02T08:10:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang_v2.py",
+    "path": ".py\\patch_faq_multilang_v2.py",
+    "size": 4212,
+    "mtime": "2025-10-02T08:15:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang_v3.py",
+    "path": ".py\\patch_faq_multilang_v3.py",
+    "size": 4452,
+    "mtime": "2025-10-02T08:29:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch_faq_multilang_v4.py",
+    "path": ".py\\patch_faq_multilang_v4.py",
+    "size": 5757,
+    "mtime": "2025-10-02T08:42:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sanitize_faq_se.py",
+    "path": ".py\\sanitize_faq_se.py",
+    "size": 2499,
+    "mtime": "2025-10-02T15:56:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sanitize_pronto_formats.py",
+    "path": ".py\\sanitize_pronto_formats.py",
+    "size": 1659,
+    "mtime": "2025-10-02T13:33:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "scrape_pronto_formats.py",
+    "path": ".py\\scrape_pronto_formats.py",
+    "size": 2237,
+    "mtime": "2025-10-02T13:20:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "scrape_pronto_formats_v2.py",
+    "path": ".py\\scrape_pronto_formats_v2.py",
+    "size": 2058,
+    "mtime": "2025-10-02T13:24:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sync_se_full_lookup.py",
+    "path": ".py\\sync_se_full_lookup.py",
+    "size": 4937,
+    "mtime": "2025-10-01T05:44:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_en_to_da_de.py",
+    "path": ".py\\translate_en_to_da_de.py",
+    "size": 5785,
+    "mtime": "2025-10-01T11:29:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_local_se_to_en_da_de.py",
+    "path": ".py\\translate_faq_local_se_to_en_da_de.py",
+    "size": 4153,
+    "mtime": "2025-10-02T11:25:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de (1).py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de (1).py",
+    "size": 8466,
+    "mtime": "2025-10-01T14:27:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de.py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de.py",
+    "size": 6453,
+    "mtime": "2025-10-03T14:13:46.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de_CLEAN.py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de_CLEAN.py",
+    "size": 6060,
+    "mtime": "2025-10-03T09:11:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_faq_sheets_se_to_en_da_de_UPDATED.py",
+    "path": ".py\\translate_faq_sheets_se_to_en_da_de_UPDATED.py",
+    "size": 7156,
+    "mtime": "2025-10-03T08:33:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_full_pivot_fixed.py",
+    "path": ".py\\translate_full_pivot_fixed.py",
+    "size": 4942,
+    "mtime": "2025-09-18T07:48:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_full_pivot_gpt4o_fail_safe.py",
+    "path": ".py\\translate_full_pivot_gpt4o_fail_safe.py",
+    "size": 3602,
+    "mtime": "2025-09-18T07:19:34.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_full_pivot_gpt4o_safe_all.py",
+    "path": ".py\\translate_full_pivot_gpt4o_safe_all.py",
+    "size": 6282,
+    "mtime": "2025-09-18T05:15:20.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords.py",
+    "path": ".py\\translate_keywords.py",
+    "size": 3155,
+    "mtime": "2025-10-01T05:43:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets-ver3.py",
+    "path": ".py\\translate_keywords_sheets-ver3.py",
+    "size": 6412,
+    "mtime": "2025-10-01T09:50:46.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets-ver5.py",
+    "path": ".py\\translate_keywords_sheets-ver5.py",
+    "size": 6445,
+    "mtime": "2025-10-01T10:19:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets.py",
+    "path": ".py\\translate_keywords_sheets.py",
+    "size": 3890,
+    "mtime": "2025-10-01T07:38:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_keywords_sheets_batch.py",
+    "path": ".py\\translate_keywords_sheets_batch.py",
+    "size": 6125,
+    "mtime": "2025-10-01T09:12:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_missing_da_de.py",
+    "path": ".py\\translate_missing_da_de.py",
+    "size": 2754,
+    "mtime": "2025-09-17T17:24:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_missing_pivot_gpt4o.py",
+    "path": ".py\\translate_missing_pivot_gpt4o.py",
+    "size": 7819,
+    "mtime": "2025-09-17T17:16:08.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_test.py",
+    "path": ".py\\translate_test.py",
+    "size": 1702,
+    "mtime": "2025-09-17T12:34:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_test_pivot.py",
+    "path": ".py\\translate_test_pivot.py",
+    "size": 3603,
+    "mtime": "2025-09-17T12:46:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "translate_test_pivot_gpt4o.py",
+    "path": ".py\\translate_test_pivot_gpt4o.py",
+    "size": 3752,
+    "mtime": "2025-09-17T12:51:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "upload_normalized_faq.py",
+    "path": ".py\\upload_normalized_faq.py",
+    "size": 2548,
+    "mtime": "2025-10-01T14:41:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "upload_normalized_lookup.py",
+    "path": ".py\\upload_normalized_lookup.py",
+    "size": 2173,
+    "mtime": "2025-10-01T13:35:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "analyze-torture-log.mjs",
+    "path": "analyze-torture-log.mjs",
+    "size": 2384,
+    "mtime": "2025-10-05T14:24:20.000Z"
+  },
+  {
+    "type": "file",
+    "name": "build-test-cases-full.mjs",
+    "path": "build-test-cases-full.mjs",
+    "size": 4123,
+    "mtime": "2025-10-05T13:16:10.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-mini.mjs",
+    "path": "chatBot-torture-mini.mjs",
+    "size": 4169,
+    "mtime": "2025-10-07T07:08:38.755Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v2.mjs",
+    "path": "chatBot-torture-test-v2.mjs",
+    "size": 3698,
+    "mtime": "2025-09-25T10:18:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v3-NEW.mjs",
+    "path": "chatBot-torture-test-v3-NEW.mjs",
+    "size": 10521,
+    "mtime": "2025-10-03T15:15:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v3.mjs",
+    "path": "chatBot-torture-test-v3.mjs",
+    "size": 3799,
+    "mtime": "2025-09-25T13:31:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v4-LOCAL3000.mjs",
+    "path": "chatBot-torture-test-v4-LOCAL3000.mjs",
+    "size": 10003,
+    "mtime": "2025-10-06T14:06:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v4-PROD.mjs",
+    "path": "chatBot-torture-test-v4-PROD.mjs",
+    "size": 11723,
+    "mtime": "2025-10-05T13:26:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v4.mjs",
+    "path": "chatBot-torture-test-v4.mjs",
+    "size": 11717,
+    "mtime": "2025-10-05T13:26:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test-v5.mjs",
+    "path": "chatBot-torture-test-v5.mjs",
+    "size": 8125,
+    "mtime": "2025-10-06T15:13:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "chatBot-torture-test.mjs",
+    "path": "chatBot-torture-test.mjs",
+    "size": 3181,
+    "mtime": "2025-09-25T09:43:26.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-env-diff.ps1",
+    "path": "check-env-diff.ps1",
+    "size": 1827,
+    "mtime": "2025-09-20T07:23:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-env-sync.ps1",
+    "path": "check-env-sync.ps1",
+    "size": 3075,
+    "mtime": "2025-09-20T06:41:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-env.mjs",
+    "path": "check-env.mjs",
+    "size": 162,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-healthz.js",
+    "path": "check-healthz.js",
+    "size": 482,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-load-env-clean-log.txt",
+    "path": "check-load-env-clean-log.txt",
+    "size": 71912,
+    "mtime": "2025-09-23T05:47:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-load-env-clean.ps1",
+    "path": "check-load-env-clean.ps1",
+    "size": 1706,
+    "mtime": "2025-09-23T05:50:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-vercel-env.ps1",
+    "path": "check-vercel-env.ps1",
+    "size": 1453,
+    "mtime": "2025-09-21T06:01:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "check-vercel-vars.ps1",
+    "path": "check-vercel-vars.ps1",
+    "size": 1223,
+    "mtime": "2025-09-21T06:14:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean-faq-samples.mjs",
+    "path": "clean-faq-samples.mjs",
+    "size": 1804,
+    "mtime": "2025-09-28T14:46:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean-load-env-log.txt",
+    "path": "clean-load-env-log.txt",
+    "size": 80,
+    "mtime": "2025-09-23T05:41:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "clean-load-env.ps1",
+    "path": "clean-load-env.ps1",
+    "size": 1780,
+    "mtime": "2025-09-23T05:41:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "cleanup-bak-log.txt",
+    "path": "cleanup-bak-log.txt",
+    "size": 3123,
+    "mtime": "2025-09-23T05:59:20.000Z"
+  },
+  {
+    "type": "file",
+    "name": "cleanup-bak.ps1",
+    "path": "cleanup-bak.ps1",
+    "size": 719,
+    "mtime": "2025-09-23T05:58:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "debug-sheets.js",
+    "path": "debug-sheets.js",
+    "size": 1074,
+    "mtime": "2025-10-03T11:57:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "detect-lang-core-test.mjs",
+    "path": "detect-lang-core-test.mjs",
+    "size": 3103,
+    "mtime": "2025-09-27T13:06:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "detect-lang-fulltest.mjs",
+    "path": "detect-lang-fulltest.mjs",
+    "size": 2984,
+    "mtime": "2025-10-06T12:18:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "detect-lang-test-combined.mjs",
+    "path": "detect-lang-test-combined.mjs",
+    "size": 3447,
+    "mtime": "2025-10-06T09:53:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "detect-lang-test.mjs",
+    "path": "detect-lang-test.mjs",
+    "size": 2279,
+    "mtime": "2025-09-27T11:13:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-auto-categorize.mjs",
+    "path": "faq-auto-categorize.mjs",
+    "size": 2548,
+    "mtime": "2025-09-29T06:56:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-data-test.mjs",
+    "path": "faq-data-test.mjs",
+    "size": 3467,
+    "mtime": "2025-09-28T13:51:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-dialog-torture.mjs",
+    "path": "faq-dialog-torture.mjs",
+    "size": 1475,
+    "mtime": "2025-10-01T15:11:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-suite-vercel.js",
+    "path": "faq-fuzzy-suite-vercel.js",
+    "size": 1873,
+    "mtime": "2025-09-20T12:04:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-suite.js",
+    "path": "faq-fuzzy-suite.js",
+    "size": 6422,
+    "mtime": "2025-09-23T05:36:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-suite.mjs",
+    "path": "faq-fuzzy-suite.mjs",
+    "size": 5872,
+    "mtime": "2025-09-23T05:53:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-fuzzy-test.mjs",
+    "path": "faq-fuzzy-test.mjs",
+    "size": 1039,
+    "mtime": "2025-09-28T05:52:10.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-benchmark-v4.mjs",
+    "path": "faq-lang-benchmark-v4.mjs",
+    "size": 5160,
+    "mtime": "2025-10-07T13:27:57.791Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-benchmark.mjs",
+    "path": "faq-lang-benchmark.mjs",
+    "size": 4011,
+    "mtime": "2025-10-07T13:20:08.240Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-mini.mjs",
+    "path": "faq-mini.mjs",
+    "size": 2790,
+    "mtime": "2025-09-25T05:48:26.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite-ex-google-sheets.mjs",
+    "path": "faq-super-suite-ex-google-sheets.mjs",
+    "size": 3081,
+    "mtime": "2025-09-24T10:48:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite-local.mjs",
+    "path": "faq-super-suite-local.mjs",
+    "size": 2195,
+    "mtime": "2025-09-24T11:14:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite-w-wo-google.mjs",
+    "path": "faq-super-suite-w-wo-google.mjs",
+    "size": 5591,
+    "mtime": "2025-09-24T11:10:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-super-suite.mjs",
+    "path": "faq-super-suite.mjs",
+    "size": 6788,
+    "mtime": "2025-09-25T06:12:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq_colors_from_pronto_se.json",
+    "path": "faq_colors_from_pronto_se.json",
+    "size": 1149,
+    "mtime": "2025-09-30T14:01:46.000Z"
+  },
+  {
+    "type": "file",
+    "name": "find-env-usage-log.txt",
+    "path": "find-env-usage-log.txt",
+    "size": 14150,
+    "mtime": "2025-09-23T05:28:02.000Z"
+  },
+  {
+    "type": "file",
+    "name": "find-env-usage.ps1",
+    "path": "find-env-usage.ps1",
+    "size": 1386,
+    "mtime": "2025-09-23T05:27:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "find-fs-logging-log.txt",
+    "path": "find-fs-logging-log.txt",
+    "size": 1297,
+    "mtime": "2025-09-23T06:10:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "find-fs-logging.ps1",
+    "path": "find-fs-logging.ps1",
+    "size": 1364,
+    "mtime": "2025-09-23T06:10:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-dotenv-log.txt",
+    "path": "fix-dotenv-log.txt",
+    "size": 691,
+    "mtime": "2025-09-23T05:30:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-dotenv.ps1",
+    "path": "fix-dotenv.ps1",
+    "size": 2045,
+    "mtime": "2025-09-23T05:30:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-imports.ps1",
+    "path": "fix-imports.ps1",
+    "size": 2018,
+    "mtime": "2025-09-23T04:19:18.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-clean-log.txt",
+    "path": "fix-load-env-clean-log.txt",
+    "size": 1180,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-clean.ps1",
+    "path": "fix-load-env-clean.ps1",
+    "size": 1706,
+    "mtime": "2025-09-23T05:50:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-hardclean-log.txt",
+    "path": "fix-load-env-hardclean-log.txt",
+    "size": 373,
+    "mtime": "2025-09-23T05:53:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-hardclean.ps1",
+    "path": "fix-load-env-hardclean.ps1",
+    "size": 1857,
+    "mtime": "2025-09-23T05:53:08.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env-log.txt",
+    "path": "fix-load-env-log.txt",
+    "size": 1424,
+    "mtime": "2025-09-23T05:36:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-load-env.ps1",
+    "path": "fix-load-env.ps1",
+    "size": 2262,
+    "mtime": "2025-09-23T05:35:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-relative-imports-dryrun-log.txt",
+    "path": "fix-relative-imports-dryrun-log.txt",
+    "size": 894,
+    "mtime": "2025-09-23T05:11:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-relative-imports-dryrun.ps1",
+    "path": "fix-relative-imports-dryrun.ps1",
+    "size": 3370,
+    "mtime": "2025-09-23T05:13:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "fix-relative-imports-log.txt",
+    "path": "fix-relative-imports-log.txt",
+    "size": 839,
+    "mtime": "2025-09-23T05:14:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "generate-faq-from-json.mjs",
+    "path": "generate-faq-from-json.mjs",
+    "size": 3260,
+    "mtime": "2025-09-29T13:06:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "generate-faq-sample.mjs",
+    "path": "generate-faq-sample.mjs",
+    "size": 4149,
+    "mtime": "2025-09-29T06:55:46.000Z"
+  },
+  {
+    "type": "dir",
+    "name": "helpers",
+    "path": "helpers"
+  },
+  {
+    "type": "file",
+    "name": "run-chat.js",
+    "path": "helpers\\run-chat.js",
+    "size": 1293,
+    "mtime": "2025-09-25T13:54:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "Körning TORTURE TEST.txt",
+    "path": "Körning TORTURE TEST.txt",
+    "size": 557,
+    "mtime": "2025-09-25T14:27:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "logger.js",
+    "path": "logger.js",
+    "size": 548,
+    "mtime": "2025-09-21T12:06:30.000Z"
+  },
+  {
+    "type": "dir",
+    "name": "logs",
+    "path": "logs"
+  },
+  {
+    "type": "file",
+    "name": "failed-benchmark-writes.csv",
+    "path": "logs\\failed-benchmark-writes.csv",
+    "size": 6054,
+    "mtime": "2025-10-07T08:14:24.281Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-benchmark-2025-10-06.csv",
+    "path": "logs\\faq-lang-benchmark-2025-10-06.csv",
+    "size": 46,
+    "mtime": "2025-10-06T15:49:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-benchmark-2025-10-06.json",
+    "path": "logs\\faq-lang-benchmark-2025-10-06.json",
+    "size": 2,
+    "mtime": "2025-10-06T15:49:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-benchmark-2025-10-07.csv",
+    "path": "logs\\faq-lang-benchmark-2025-10-07.csv",
+    "size": 73028,
+    "mtime": "2025-10-07T14:45:01.228Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-benchmark-2025-10-07.json",
+    "path": "logs\\faq-lang-benchmark-2025-10-07.json",
+    "size": 177139,
+    "mtime": "2025-10-07T13:08:15.230Z"
+  },
+  {
+    "type": "file",
+    "name": "faq-lang-fails-2025-10-07.csv",
+    "path": "logs\\faq-lang-fails-2025-10-07.csv",
+    "size": 6371,
+    "mtime": "2025-10-07T14:45:01.228Z"
+  },
+  {
+    "type": "file",
+    "name": "lang-detect.log",
+    "path": "logs\\lang-detect.log",
+    "size": 6177,
+    "mtime": "2025-09-23T08:16:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-03_1607.log",
+    "path": "logs\\mini-torture-2025-10-03_1607.log",
+    "size": 38626,
+    "mtime": "2025-10-03T14:07:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-03_1626.log",
+    "path": "logs\\mini-torture-2025-10-03_1626.log",
+    "size": 36744,
+    "mtime": "2025-10-03T14:26:14.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-04.log",
+    "path": "logs\\mini-torture-2025-10-04.log",
+    "size": 37425,
+    "mtime": "2025-10-04T13:19:46.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-04T14-27-20-861Z.log",
+    "path": "logs\\mini-torture-2025-10-04T14-27-20-861Z.log",
+    "size": 4587,
+    "mtime": "2025-10-04T14:28:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-04T14-28-30-442Z.log",
+    "path": "logs\\mini-torture-2025-10-04T14-28-30-442Z.log",
+    "size": 4587,
+    "mtime": "2025-10-04T14:29:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-04T14-29-11-868Z.log",
+    "path": "logs\\mini-torture-2025-10-04T14-29-11-868Z.log",
+    "size": 4587,
+    "mtime": "2025-10-04T14:29:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T07-57-24-893Z.log",
+    "path": "logs\\mini-torture-2025-10-05T07-57-24-893Z.log",
+    "size": 3825,
+    "mtime": "2025-10-05T07:58:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-04-14-940Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-04-14-940Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T08:05:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-26-18-139Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-26-18-139Z.log",
+    "size": 2821,
+    "mtime": "2025-10-05T08:26:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-35-10-029Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-35-10-029Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T08:36:10.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-43-17-911Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-43-17-911Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T08:44:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-54-55-538Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-54-55-538Z.log",
+    "size": 83,
+    "mtime": "2025-10-05T08:54:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-57-23-683Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-57-23-683Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T08:57:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T08-59-19-357Z.log",
+    "path": "logs\\mini-torture-2025-10-05T08-59-19-357Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T08:59:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T09-20-57-715Z.log",
+    "path": "logs\\mini-torture-2025-10-05T09-20-57-715Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T09:21:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T11-07-15-053Z.log",
+    "path": "logs\\mini-torture-2025-10-05T11-07-15-053Z.log",
+    "size": 3651,
+    "mtime": "2025-10-05T11:07:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T11-13-26-892Z.log",
+    "path": "logs\\mini-torture-2025-10-05T11-13-26-892Z.log",
+    "size": 3367,
+    "mtime": "2025-10-05T11:13:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T11-19-42-593Z.log",
+    "path": "logs\\mini-torture-2025-10-05T11-19-42-593Z.log",
+    "size": 3367,
+    "mtime": "2025-10-05T11:20:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T11-23-11-116Z.log",
+    "path": "logs\\mini-torture-2025-10-05T11-23-11-116Z.log",
+    "size": 3367,
+    "mtime": "2025-10-05T11:23:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T11-29-21-758Z.log",
+    "path": "logs\\mini-torture-2025-10-05T11-29-21-758Z.log",
+    "size": 3367,
+    "mtime": "2025-10-05T11:29:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T11-33-18-577Z.log",
+    "path": "logs\\mini-torture-2025-10-05T11-33-18-577Z.log",
+    "size": 3367,
+    "mtime": "2025-10-05T11:33:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-21-38-729Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-21-38-729Z.log",
+    "size": 3287,
+    "mtime": "2025-10-05T12:21:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-24-13-234Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-24-13-234Z.log",
+    "size": 2761,
+    "mtime": "2025-10-05T12:24:18.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-26-38-547Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-26-38-547Z.log",
+    "size": 2761,
+    "mtime": "2025-10-05T12:26:44.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-28-46-024Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-28-46-024Z.log",
+    "size": 2761,
+    "mtime": "2025-10-05T12:28:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-30-42-518Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-30-42-518Z.log",
+    "size": 2761,
+    "mtime": "2025-10-05T12:30:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-37-47-453Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-37-47-453Z.log",
+    "size": 2761,
+    "mtime": "2025-10-05T12:37:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-41-49-506Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-41-49-506Z.log",
+    "size": 2761,
+    "mtime": "2025-10-05T12:41:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-46-20-504Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-46-20-504Z.log",
+    "size": 2195,
+    "mtime": "2025-10-05T12:46:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2025-10-05T12-49-23-845Z.log",
+    "path": "logs\\mini-torture-2025-10-05T12-49-23-845Z.log",
+    "size": 2195,
+    "mtime": "2025-10-05T12:49:26.000Z"
+  },
+  {
+    "type": "file",
+    "name": "rate-limiter-2025-10-04.log",
+    "path": "logs\\rate-limiter-2025-10-04.log",
+    "size": 6287,
+    "mtime": "2025-10-04T14:29:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "rate-limiter-2025-10-05.log",
+    "path": "logs\\rate-limiter-2025-10-05.log",
+    "size": 15633,
+    "mtime": "2025-10-05T14:15:52.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-chat-log.txt",
+    "path": "logs\\test-chat-log.txt",
+    "size": 539,
+    "mtime": "2025-10-03T13:44:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-mismatch-report-2025-10-05T14-24-29-539Z.csv",
+    "path": "logs\\torture-mismatch-report-2025-10-05T14-24-29-539Z.csv",
+    "size": 32,
+    "mtime": "2025-10-05T14:24:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-run-2025-10-06.log",
+    "path": "logs\\torture-run-2025-10-06.log",
+    "size": 19237,
+    "mtime": "2025-10-06T15:17:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-summary-2025-10-06.csv",
+    "path": "logs\\torture-summary-2025-10-06.csv",
+    "size": 13708,
+    "mtime": "2025-10-06T15:17:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-summary-2025-10-06.json",
+    "path": "logs\\torture-summary-2025-10-06.json",
+    "size": 40768,
+    "mtime": "2025-10-06T15:17:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T12-52-36-151Z.log",
+    "path": "logs\\torture-v4-2025-10-05T12-52-36-151Z.log",
+    "size": 6081,
+    "mtime": "2025-10-05T12:52:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T12-55-41-447Z.log",
+    "path": "logs\\torture-v4-2025-10-05T12-55-41-447Z.log",
+    "size": 6824,
+    "mtime": "2025-10-05T12:55:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T12-57-47-701Z.log",
+    "path": "logs\\torture-v4-2025-10-05T12-57-47-701Z.log",
+    "size": 6638,
+    "mtime": "2025-10-05T12:57:58.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T12-59-22-708Z.log",
+    "path": "logs\\torture-v4-2025-10-05T12-59-22-708Z.log",
+    "size": 6638,
+    "mtime": "2025-10-05T12:59:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T13-33-53-064Z.log",
+    "path": "logs\\torture-v4-2025-10-05T13-33-53-064Z.log",
+    "size": 6637,
+    "mtime": "2025-10-05T13:34:00.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T13-45-23-725Z.log",
+    "path": "logs\\torture-v4-2025-10-05T13-45-23-725Z.log",
+    "size": 6683,
+    "mtime": "2025-10-05T13:45:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T14-10-50-128Z.log",
+    "path": "logs\\torture-v4-2025-10-05T14-10-50-128Z.log",
+    "size": 129,
+    "mtime": "2025-10-05T14:10:50.000Z"
+  },
+  {
+    "type": "file",
+    "name": "torture-v4-2025-10-05T14-14-22-397Z.log",
+    "path": "logs\\torture-v4-2025-10-05T14-14-22-397Z.log",
+    "size": 292415,
+    "mtime": "2025-10-05T14:15:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "mini-torture-2-questions.json",
+    "path": "mini-torture-2-questions.json",
+    "size": 1778,
+    "mtime": "2025-10-04T09:29:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "move-and-check.ps1",
+    "path": "move-and-check.ps1",
+    "size": 1759,
+    "mtime": "2025-09-23T04:26:24.000Z"
+  },
+  {
+    "type": "dir",
+    "name": "Old tests",
+    "path": "Old tests"
+  },
+  {
+    "type": "file",
+    "name": "list-files.js",
+    "path": "Old tests\\list-files.js",
+    "size": 781,
+    "mtime": "2025-09-18T11:31:36.000Z"
+  },
+  {
+    "type": "file",
+    "name": "move-core-scripts.js",
+    "path": "Old tests\\move-core-scripts.js",
+    "size": 1368,
+    "mtime": "2025-09-19T15:59:10.000Z"
+  },
+  {
+    "type": "file",
+    "name": "move-scripts.js",
+    "path": "Old tests\\move-scripts.js",
+    "size": 1258,
+    "mtime": "2025-09-19T15:44:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "server.js",
+    "path": "Old tests\\server.js",
+    "size": 1024,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "snapshot.js",
+    "path": "Old tests\\snapshot.js",
+    "size": 1107,
+    "mtime": "2025-09-19T15:56:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "Test cache filer.zip",
+    "path": "Old tests\\Test cache filer.zip",
+    "size": 13869,
+    "mtime": "2025-09-19T11:38:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-api.js",
+    "path": "Old tests\\test-api.js",
+    "size": 683,
+    "mtime": "2025-09-20T11:25:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect.js",
+    "path": "Old tests\\test-detect.js",
+    "size": 287,
+    "mtime": "2025-09-18T11:20:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq.js",
+    "path": "Old tests\\test-faq.js",
+    "size": 2273,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "vercel-pull.js",
+    "path": "Old tests\\vercel-pull.js",
+    "size": 2069,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging-dryrun-log.txt",
+    "path": "patch-fs-logging-dryrun-log.txt",
+    "size": 334,
+    "mtime": "2025-09-23T06:12:24.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging-dryrun.ps1",
+    "path": "patch-fs-logging-dryrun.ps1",
+    "size": 1217,
+    "mtime": "2025-09-23T06:12:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging-log.txt",
+    "path": "patch-fs-logging-log.txt",
+    "size": 168,
+    "mtime": "2025-09-23T06:16:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-fs-logging.ps1",
+    "path": "patch-fs-logging.ps1",
+    "size": 1860,
+    "mtime": "2025-09-23T06:16:26.000Z"
+  },
+  {
+    "type": "file",
+    "name": "patch-single.ps1",
+    "path": "patch-single.ps1",
+    "size": 1149,
+    "mtime": "2025-09-23T04:35:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "postprocess-pronto.mjs",
+    "path": "postprocess-pronto.mjs",
+    "size": 1149,
+    "mtime": "2025-09-30T14:06:56.000Z"
+  },
+  {
+    "type": "file",
+    "name": "redeploy.ps1",
+    "path": "redeploy.ps1",
+    "size": 1629,
+    "mtime": "2025-09-24T14:17:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "scrape-pronto.mjs",
+    "path": "scrape-pronto.mjs",
+    "size": 3675,
+    "mtime": "2025-09-30T14:04:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sheets-helper.js",
+    "path": "sheets-helper.js",
+    "size": 2299,
+    "mtime": "2025-09-25T11:41:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sheets-readwrite-test.mjs",
+    "path": "sheets-readwrite-test.mjs",
+    "size": 1753,
+    "mtime": "2025-09-25T11:55:40.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sheets-write-test.mjs",
+    "path": "sheets-write-test.mjs",
+    "size": 1255,
+    "mtime": "2025-09-25T10:11:18.000Z"
+  },
+  {
+    "type": "file",
+    "name": "snapshot.js",
+    "path": "snapshot.js",
+    "size": 1107,
+    "mtime": "2025-09-19T15:56:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "snapshot.json",
+    "path": "snapshot.json",
+    "size": 26148,
+    "mtime": "2025-10-03T10:18:46.000Z"
+  },
+  {
+    "type": "file",
+    "name": "sync-env.ps1",
+    "path": "sync-env.ps1",
+    "size": 767,
+    "mtime": "2025-09-20T05:54:40.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-api.js",
+    "path": "test-api.js",
+    "size": 769,
+    "mtime": "2025-09-20T12:00:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cache.js",
+    "path": "test-cache.js",
+    "size": 1103,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cache.ps1",
+    "path": "test-cache.ps1",
+    "size": 723,
+    "mtime": "2025-09-19T11:10:06.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cases-full.json",
+    "path": "test-cases-full.json",
+    "size": 113588,
+    "mtime": "2025-10-05T14:14:02.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-cases.json",
+    "path": "test-cases.json",
+    "size": 6645,
+    "mtime": "2025-09-27T10:01:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-chat-prod.js",
+    "path": "test-chat-prod.js",
+    "size": 879,
+    "mtime": "2025-09-21T06:24:16.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-chat.ps1",
+    "path": "test-chat.ps1",
+    "size": 1055,
+    "mtime": "2025-09-18T12:38:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-chatPipeline.js",
+    "path": "test-chatPipeline.js",
+    "size": 2223,
+    "mtime": "2025-10-03T14:24:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang-ai.mjs",
+    "path": "test-detect-lang-ai.mjs",
+    "size": 1370,
+    "mtime": "2025-09-23T12:31:26.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang-extended.mjs",
+    "path": "test-detect-lang-extended.mjs",
+    "size": 3216,
+    "mtime": "2025-09-23T09:14:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang-safe.mjs",
+    "path": "test-detect-lang-safe.mjs",
+    "size": 1822,
+    "mtime": "2025-09-23T15:20:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-lang.mjs",
+    "path": "test-detect-lang.mjs",
+    "size": 331,
+    "mtime": "2025-09-23T08:38:30.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-detect-rules.mjs",
+    "path": "test-detect-rules.mjs",
+    "size": 4191,
+    "mtime": "2025-10-07T13:52:52.272Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq-all-prod.js",
+    "path": "test-faq-all-prod.js",
+    "size": 1570,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq-cache.js",
+    "path": "test-faq-cache.js",
+    "size": 723,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq-en-prod.js",
+    "path": "test-faq-en-prod.js",
+    "size": 1570,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-faq.js",
+    "path": "test-faq.js",
+    "size": 1611,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-files-all.zip",
+    "path": "test-files-all.zip",
+    "size": 64572,
+    "mtime": "2025-09-24T10:12:12.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-env.js",
+    "path": "test-google-env.js",
+    "size": 1247,
+    "mtime": "2025-09-23T05:53:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-key.js",
+    "path": "test-google-key.js",
+    "size": 872,
+    "mtime": "2025-09-23T05:53:22.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-prod-full.js",
+    "path": "test-google-prod-full.js",
+    "size": 3644,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-prod-ver.js",
+    "path": "test-google-prod-ver.js",
+    "size": 851,
+    "mtime": "2025-09-21T07:09:54.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-sanitize.js",
+    "path": "test-google-sanitize.js",
+    "size": 2135,
+    "mtime": "2025-09-21T07:47:28.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google-sheets.js",
+    "path": "test-google-sheets.js",
+    "size": 2804,
+    "mtime": "2025-10-06T16:21:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-google.js",
+    "path": "test-google.js",
+    "size": 884,
+    "mtime": "2025-09-23T05:51:04.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-norm.js",
+    "path": "test-norm.js",
+    "size": 2172,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-openai.js",
+    "path": "test-openai.js",
+    "size": 664,
+    "mtime": "2025-09-24T14:13:32.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-openai.ps1",
+    "path": "test-openai.ps1",
+    "size": 1530,
+    "mtime": "2025-09-24T15:53:48.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-refresh.js",
+    "path": "test-refresh.js",
+    "size": 908,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-save.js",
+    "path": "test-save.js",
+    "size": 1348,
+    "mtime": "2025-09-20T11:27:42.000Z"
+  },
+  {
+    "type": "file",
+    "name": "test-synonyms.ps1",
+    "path": "test-synonyms.ps1",
+    "size": 1539,
+    "mtime": "2025-09-18T14:41:38.000Z"
+  },
+  {
+    "type": "file",
+    "name": "transform-specs-to-faq.mjs",
+    "path": "transform-specs-to-faq.mjs",
+    "size": 3353,
+    "mtime": "2025-09-29T13:00:48.000Z"
+  }
+]

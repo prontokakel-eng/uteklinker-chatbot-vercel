@@ -1,0 +1,75 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== npm run deadcode ===
+
+> uteklinker-chatbot@1.0.1 deadcode
+> knip --production
+
+
+=== npm run deps:check ===
+
+> uteklinker-chatbot@1.0.1 deps:check
+> depcheck --skip-missing=true
+
+No depcheck issue
+
+=== graph:cycles (API mode) ===
+Ô£à Inga cykler
+
+=== graph:orphans (API mode) ===
+[
+  'ai.js',
+  'blacklist-regex.js',
+  'chatPipeline.js',
+  'detect-lang-rules last ver.js',
+  'faq-dialog.js',
+  'faq-keywords.js',
+  'faq-search.js',
+  'gate.featureflag.2025-10-10_042808.js',
+  'policy.js',
+  'utils-progress.js',
+  'utils.js'
+]
+
+=== node tests/smoke-wlbl.js ===
+node:internal/modules/esm/resolve:283
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\uteklinker-chatbot-vercel\lib\whitelist-regex.js' imported from C:\uteklinker-chatbot-vercel\tests\smoke-wlbl.js
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:708:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:657:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:640:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:264:38)
+    at ModuleJob._link (node:internal/modules/esm/module_job:168:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///C:/uteklinker-chatbot-vercel/lib/whitelist-regex.js'
+}
+
+Node.js v20.19.5
+node:internal/errors:984
+  const err = new Error(message);
+              ^
+
+Error: Command failed: node tests/smoke-wlbl.js
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at run (file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:5:3)
+    at file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:45:1 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 2400,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v20.19.5

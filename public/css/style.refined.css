@@ -15,12 +15,25 @@ body {
 }
 
 /* Header */
-.app-header {
+.app-header { display:flex; align-items:center; justify-content:space-between; gap:.5rem;
   background: #2563eb;
   color: white;
   padding: 1rem;
   text-align: center;
 }
+
+
+/* Lang switch */
+.lang-switch { display:inline-flex; gap:.35rem; align-items:center; }
+.btn-icon {
+  width: 40px; height: 40px; display: grid; place-items: center;
+  background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.25);
+  color: #fff; border-radius: 999px; cursor: pointer;
+}
+.btn-icon:hover { background: rgba(255,255,255,.18); }
+.btn-icon[aria-pressed="true"] { outline: 2px solid #fff; outline-offset: 2px; }
+.flag svg { width: 22px; height: 22px; display:block; }
+
 
 /* Chat container */
 .chat-container {
@@ -203,4 +216,37 @@ body {
     align-items: flex-start;
     gap: 0.25rem;
   }
+}
+
+/* Compact mode rules */
+body.compact .message { max-width:85%; padding:.5rem .75rem; }
+body.compact .messages { gap:.55rem; }
+body.compact #user-input { padding:.55rem; font-size:.95rem; }
+body.compact #send-btn, body.compact .btn { padding:.3rem .6rem; font-size:.9rem; }
+
+/* System message styling (language switch line inside chat) */
+.message.system{ align-self:flex-start; background:#f3f4f6; color:#4b5563; padding:.35rem .6rem; border-radius:.5rem; margin:.25rem 0 .25rem .5rem; font-size:.9rem; }
+:root[data-theme="dark"] .message.system{ background:#1f2937; color:#cbd5e1; }
+
+/* List-mode rules */
+body.list-mode .chat-container .messages .message { align-self:flex-start !important; }
+body.list-mode .chat-container .messages .message.user { align-self:flex-start !important; margin-left: 0; }
+body.list-mode .chat-container .messages .message.user + .message.bot,
+body.list-mode .chat-container .messages .message.user + .message.faq,
+body.list-mode .chat-container .messages .message.user + .message.ai { margin-left:.5rem; margin-top:.25rem; }
+/* system line aligns with content */
+body.list-mode .message.system { align-self:flex-start !important; margin-left:.5rem; }
+
+
+/* === List layout (Q under A) === */
+.chat-container .messages .message { align-self: flex-start; } /* default left for all */
+.chat-container .messages .message.user { 
+  align-self: flex-start !important;   /* override bubble-right rule */
+  margin-left: 0;
+}
+.chat-container .messages .message.user + .message.bot,
+.chat-container .messages .message.user + .message.faq,
+.chat-container .messages .message.user + .message.ai {
+  margin-left: .5rem;
+  margin-top: .25rem;
 }

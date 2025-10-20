@@ -1,0 +1,1800 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== Lint ===
+(node:33784) ESLintEmptyConfigWarning: Running ESLint with an empty config (from C:\uteklinker-chatbot-vercel\eslint.config.mjs). Please double-check that this is what you want. If you want to run ESLint with an empty config, export [{}] to remove this warning.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+C:\uteklinker-chatbot-vercel\coverage\lcov-report\block-navigation.js
+  1:1  warning  Unused eslint-disable directive (no problems were reported)
+
+C:\uteklinker-chatbot-vercel\coverage\lcov-report\prettify.js
+  1:1  warning  Unused eslint-disable directive (no problems were reported)
+
+C:\uteklinker-chatbot-vercel\coverage\lcov-report\sorter.js
+  1:1  warning  Unused eslint-disable directive (no problems were reported)
+
+C:\uteklinker-chatbot-vercel\lib\blacklist-regex.js
+  15:58  error  Parsing error: Unexpected token assert
+
+C:\uteklinker-chatbot-vercel\lib\old\oct-10-detect-lang-core.js
+  136:7  warning  Unused eslint-disable directive (no problems were reported from 'no-console')
+
+C:\uteklinker-chatbot-vercel\load-env.js
+  7:1  error  Parsing error: Unexpected character '­ƒº®'
+
+C:\uteklinker-chatbot-vercel\tests\sep\faq-fuzzy-suite.js
+  4:4  error  Parsing error: Unexpected token import
+
+C:\uteklinker-chatbot-vercel\tests\sep\test-detect-lang.mjs
+  12:1  error  Parsing error: Unexpected token }
+
+Ô£û 8 problems (4 errors, 4 warnings)
+  0 errors and 4 warnings potentially fixable with the `--fix` option.
+
+Ô£û Lint failed
+
+=== Typecheck ===
+jsconfig.json(4,15): error TS6046: Argument for '--module' option must be: 'none', 'commonjs', 'amd', 'system', 'umd', 'es6', 'es2015', 'es2020', 'esnext'.
+jsconfig.json(5,25): error TS6046: Argument for '--moduleResolution' option must be: 'node', 'classic'.
+jsconfig.json(6,15): error TS6046: Argument for '--target' option must be: 'es3', 'es5', 'es6', 'es2015', 'es2016', 'es2017', 'es2018', 'es2019', 'es2020', 'es2021', 'esnext'.
+lib/blacklist-regex.js(15,58): error TS1005: ';' expected.
+lib/blacklist-regex.js(15,65): error TS1005: ';' expected.
+lib/old/old-filters.js(5,57): error TS1005: ';' expected.
+lib/old/old-filters.js(5,62): error TS1005: '(' expected.
+lib/old/old-filters.js(5,78): error TS1005: ')' expected.
+load-env.js(7,1): error TS1127: Invalid character.
+load-env.js(7,8): error TS1005: ';' expected.
+load-env.js(7,19): error TS1005: ';' expected.
+load-env.js(7,28): error TS1005: ';' expected.
+load-env.js(7,30): error TS1109: Expression expected.
+load-env.js(7,32): error TS1109: Expression expected.
+load-env.js(7,34): error TS1109: Expression expected.
+load-env.js(7,36): error TS1109: Expression expected.
+load-env.js(7,38): error TS1109: Expression expected.
+load-env.js(7,40): error TS1109: Expression expected.
+load-env.js(7,42): error TS1109: Expression expected.
+load-env.js(7,44): error TS1109: Expression expected.
+load-env.js(7,46): error TS1109: Expression expected.
+load-env.js(7,48): error TS1109: Expression expected.
+load-env.js(7,50): error TS1109: Expression expected.
+load-env.js(7,52): error TS1109: Expression expected.
+load-env.js(7,54): error TS1109: Expression expected.
+load-env.js(8,1): error TS1127: Invalid character.
+load-env.js(8,39): error TS1005: ';' expected.
+load-env.js(8,44): error TS1109: Expression expected.
+load-env.js(8,49): error TS1005: ';' expected.
+load-env.js(8,51): error TS1128: Declaration or statement expected.
+load-env.js(9,1): error TS1127: Invalid character.
+load-env.js(9,37): error TS1005: ';' expected.
+load-env.js(9,44): error TS1109: Expression expected.
+load-env.js(9,49): error TS1005: ';' expected.
+load-env.js(9,51): error TS1128: Declaration or statement expected.
+load-env.js(10,1): error TS1127: Invalid character.
+load-env.js(10,32): error TS1005: ';' expected.
+load-env.js(10,44): error TS1109: Expression expected.
+load-env.js(10,49): error TS1005: ';' expected.
+load-env.js(10,51): error TS1128: Declaration or statement expected.
+load-env.js(11,1): error TS1127: Invalid character.
+load-env.js(11,34): error TS1003: Identifier expected.
+load-env.js(11,44): error TS1003: Identifier expected.
+load-env.js(11,49): error TS1005: ';' expected.
+load-env.js(11,51): error TS1128: Declaration or statement expected.
+load-env.js(12,1): error TS1127: Invalid character.
+load-env.js(12,28): error TS6188: Numeric separators are not allowed here.
+load-env.js(12,29): error TS1351: An identifier or keyword cannot immediately follow a numeric literal.
+load-env.js(12,32): error TS1005: ';' expected.
+load-env.js(12,44): error TS1109: Expression expected.
+load-env.js(12,49): error TS1005: ';' expected.
+load-env.js(12,51): error TS1128: Declaration or statement expected.
+load-env.js(13,1): error TS1127: Invalid character.
+load-env.js(13,49): error TS1005: ';' expected.
+load-env.js(13,51): error TS1127: Invalid character.
+load-env.js(14,3): error TS1109: Expression expected.
+load-env.js(14,5): error TS1109: Expression expected.
+load-env.js(14,7): error TS1109: Expression expected.
+load-env.js(14,9): error TS1109: Expression expected.
+load-env.js(14,11): error TS1109: Expression expected.
+load-env.js(14,13): error TS1109: Expression expected.
+load-env.js(14,15): error TS1109: Expression expected.
+load-env.js(14,17): error TS1109: Expression expected.
+load-env.js(14,19): error TS1109: Expression expected.
+load-env.js(14,21): error TS1109: Expression expected.
+load-env.js(14,23): error TS1109: Expression expected.
+load-env.js(14,25): error TS1109: Expression expected.
+load-env.js(14,27): error TS1109: Expression expected.
+load-env.js(14,29): error TS1109: Expression expected.
+load-env.js(14,31): error TS1109: Expression expected.
+load-env.js(14,33): error TS1109: Expression expected.
+load-env.js(14,35): error TS1109: Expression expected.
+load-env.js(14,37): error TS1109: Expression expected.
+load-env.js(14,39): error TS1109: Expression expected.
+load-env.js(14,41): error TS1109: Expression expected.
+load-env.js(14,43): error TS1109: Expression expected.
+load-env.js(14,45): error TS1109: Expression expected.
+load-env.js(14,47): error TS1109: Expression expected.
+load-env.js(14,49): error TS1109: Expression expected.
+load-env.js(14,51): error TS1109: Expression expected.
+load-env.js(14,53): error TS1109: Expression expected.
+load-env.js(16,1): error TS1109: Expression expected.
+node_modules/openai/client.d.ts(7,15): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(7,82): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(32,15): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(35,15): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(35,30): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(254,19): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(256,19): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(256,62): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(258,19): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(258,86): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(259,47): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(259,78): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(259,121): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(259,162): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(259,217): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(259,296): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,33): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,72): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,145): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,226): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,275): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,334): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,383): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,444): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,515): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,596): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,671): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,740): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,799): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,852): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,933): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1008): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1087): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1150): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1203): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1284): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1369): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1432): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1501): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1556): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1625): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1706): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1779): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1826): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1889): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,1954): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2029): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2092): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2139): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2210): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2281): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2352): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2415): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2484): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2533): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2596): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2683): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2764): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(260,2827): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(261,45): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(261,102): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(261,131): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(261,170): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,35): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,68): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,101): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,132): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,165): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,206): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(262,249): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,37): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,58): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,115): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,178): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,229): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,284): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,345): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,394): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,425): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,464): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,527): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,568): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,633): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,692): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,741): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(263,814): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(264,35): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(264,66): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,47): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,78): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,135): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,176): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,237): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,286): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(265,345): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(266,37): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(266,58): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(266,93): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,49): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,118): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,169): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,230): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,303): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,366): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,441): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,526): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,559): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,606): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,667): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,710): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,781): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,838): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,895): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(269,948): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(272,39): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(272,60): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(272,91): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(272,138): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(272,171): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(272,216): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(273,49): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(273,72): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(273,119): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,35): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,98): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,183): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,230): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,281): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,328): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,371): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,418): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,471): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,514): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(277,557): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(278,45): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(278,102): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(278,163): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(278,216): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(278,279): error TS1005: ',' expected.
+node_modules/openai/client.d.ts(278,332): error TS1005: ',' expected.
+node_modules/openai/core/api-promise.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/core/api-promise.d.ts(2,15): error TS1005: ',' expected.
+node_modules/openai/core/api-promise.d.ts(3,15): error TS1005: ',' expected.
+node_modules/openai/core/api-promise.d.ts(3,38): error TS1005: ',' expected.
+node_modules/openai/core/pagination.d.ts(3,15): error TS1005: ',' expected.
+node_modules/openai/core/pagination.d.ts(4,15): error TS1005: ',' expected.
+node_modules/openai/core/streaming.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/core/uploads.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/core/uploads.d.ts(2,23): error TS1005: ',' expected.
+node_modules/openai/index.d.ts(2,15): error TS1005: ',' expected.
+node_modules/openai/index.d.ts(4,23): error TS1005: ',' expected.
+node_modules/openai/internal/parse.d.ts(2,15): error TS1005: ',' expected.
+node_modules/openai/internal/request-options.d.ts(5,15): error TS1005: ',' expected.
+node_modules/openai/internal/uploads.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/internal/utils/log.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/lib/AbstractChatCompletionRunner.d.ts(8,15): error TS1005: ',' expected.
+node_modules/openai/lib/AssistantStream.d.ts(4,15): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionRunner.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionRunner.d.ts(1,48): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionRunner.d.ts(2,15): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(3,15): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(5,43): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(5,64): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(5,90): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(5,123): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(5,160): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStream.d.ts(6,45): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStreamingRunner.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStreamingRunner.d.ts(1,41): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStreamingRunner.d.ts(2,30): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStreamingRunner.d.ts(3,15): error TS1005: ',' expected.
+node_modules/openai/lib/ChatCompletionStreamingRunner.d.ts(4,30): error TS1005: ',' expected.
+node_modules/openai/lib/parser.d.ts(2,15): error TS1005: ',' expected.
+node_modules/openai/lib/responses/ResponseStream.d.ts(1,35): error TS1005: ',' expected.
+node_modules/openai/lib/responses/ResponseStream.d.ts(1,56): error TS1005: ',' expected.
+node_modules/openai/lib/responses/ResponseStream.d.ts(1,87): error TS1005: ',' expected.
+node_modules/openai/lib/responses/ResponseStream.d.ts(4,15): error TS1005: ',' expected.
+node_modules/openai/lib/responses/ResponseStream.d.ts(5,15): error TS1005: ',' expected.
+node_modules/openai/lib/responses/ResponseStream.d.ts(5,61): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,35): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,54): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,75): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,90): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,121): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,160): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(2,191): error TS1005: ',' expected.
+node_modules/openai/lib/ResponsesParser.d.ts(3,15): error TS1005: ',' expected.
+node_modules/openai/lib/RunnableFunction.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/lib/RunnableFunction.d.ts(2,15): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(21,19): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(21,50): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,53): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,90): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,141): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,192): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,251): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,316): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,379): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,430): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,475): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,540): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,601): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(22,686): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(23,49): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(23,82): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(23,129): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(23,190): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(24,37): error TS1005: ',' expected.
+node_modules/openai/resources/audio/audio.d.ts(24,70): error TS1005: ',' expected.
+node_modules/openai/resources/audio/speech.d.ts(62,19): error TS1005: ',' expected.
+node_modules/openai/resources/audio/speech.d.ts(62,52): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(6,15): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,19): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,56): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,107): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,158): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,217): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,282): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,345): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,396): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,441): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,506): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,567): error TS1005: ',' expected.
+node_modules/openai/resources/audio/transcriptions.d.ts(483,652): error TS1005: ',' expected.
+node_modules/openai/resources/audio/translations.d.ts(5,15): error TS1005: ',' expected.
+node_modules/openai/resources/audio/translations.d.ts(79,19): error TS1005: ',' expected.
+node_modules/openai/resources/audio/translations.d.ts(79,52): error TS1005: ',' expected.
+node_modules/openai/resources/audio/translations.d.ts(79,99): error TS1005: ',' expected.
+node_modules/openai/resources/audio/translations.d.ts(79,160): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(5,27): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(215,19): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(215,40): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(215,71): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(215,118): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(215,151): error TS1005: ',' expected.
+node_modules/openai/resources/batches.d.ts(215,196): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(8,27): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,48): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,91): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,142): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,179): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,228): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,267): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,302): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,349): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,396): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,435): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,480): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,519): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,572): error TS1005: ',' expected.
+node_modules/openai/resources/beta/assistants.d.ts(1229,625): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,41): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,100): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,143): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,200): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,265): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,332): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,397): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,464): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,581): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,690): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,801): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,870): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,939): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1010): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1079): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1110): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1175): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1238): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1305): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1370): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1441): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1520): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1599): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1654): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1703): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1746): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1801): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1854): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1903): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,1960): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2015): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2092): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2167): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2216): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2285): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2352): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2401): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2452): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2497): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2586): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2673): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2740): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2805): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2860): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2913): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,2962): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,3009): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,3058): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(14,3121): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,45): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,74): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,117): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,168): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,205): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,254): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,293): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,328): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,375): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,422): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,461): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,506): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,545): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,598): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(15,651): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,39): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,108): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,157): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,222): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,283): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,306): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,343): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,390): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,437): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,496): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,579): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,656): error TS1005: ',' expected.
+node_modules/openai/resources/beta/beta.d.ts(16,691): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,78): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,121): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,178): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,243): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,310): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,375): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,442): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,559): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,668): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,779): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,848): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,917): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,988): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1057): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1088): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1153): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1216): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1283): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1348): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1419): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1498): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1577): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1632): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1681): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1724): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1779): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1832): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1881): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1938): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,1993): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2070): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2145): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2194): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2263): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2330): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2379): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2430): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2475): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2564): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2651): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2718): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2783): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2838): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2891): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2940): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,2987): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,3036): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2328,3099): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2329,41): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2329,77): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2329,130): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2330,67): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/realtime.d.ts(2330,118): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/sessions.d.ts(742,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/sessions.d.ts(742,44): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/sessions.d.ts(742,97): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/transcription-sessions.d.ts(297,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/realtime/transcription-sessions.d.ts(297,70): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(5,27): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,50): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,91): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,146): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,211): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,258): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,315): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,344): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,397): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,436): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,485): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,512): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,563): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,600): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,647): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,672): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,711): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,760): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,817): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,856): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,891): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,936): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,985): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1030): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1049): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1092): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1145): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1174): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1213): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1248): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1297): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1350): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1399): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/messages.d.ts(592,1444): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(10,27): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,90): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,107): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,136): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,163): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,204): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,269): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,328): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,373): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,414): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,451): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,480): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,511): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,533): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,596): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,683): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,764): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(730,804): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,35): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,84): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,147): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,204): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,271): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,318): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,375): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,418): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,471): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,534): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,559): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,594): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,639): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,698): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,737): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,764): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,801): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,850): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,901): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,936): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/runs.d.ts(731,983): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(5,27): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,68): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,131): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,188): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,255): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,302): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,359): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,402): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,455): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,518): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,543): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,578): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,623): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,682): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,721): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,748): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,785): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,834): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,885): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,920): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/runs/steps.d.ts(613,967): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,19): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,88): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,137): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,202): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,263): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,286): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,323): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,370): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,417): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,476): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,559): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,636): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1039,671): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,33): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,104): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,121): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,150): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,177): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,218): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,283): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,342): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,387): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,428): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,465): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,506): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,535): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,566): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,588): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,651): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,738): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,819): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1040,859): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,41): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,72): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,113): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,168): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,233): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,280): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,337): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,366): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,419): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,458): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,507): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,534): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,585): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,622): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,669): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,705): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,744): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,793): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,850): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,889): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,924): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,969): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1018): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1063): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1082): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1125): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1178): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1207): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1246): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1281): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1330): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1383): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1432): error TS1005: ',' expected.
+node_modules/openai/resources/beta/threads/threads.d.ts(1041,1477): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(10,19): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,47): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,86): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,159): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,240): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,289): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,348): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,397): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,458): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,529): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,610): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,685): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,754): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,813): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,866): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,947): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1022): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1101): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1164): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1217): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1298): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1383): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1446): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1515): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1570): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1639): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1720): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1793): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1840): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1903): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,1968): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2043): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2106): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2153): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2224): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2295): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2366): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2429): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2498): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2547): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2610): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2697): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2778): error TS1005: ',' expected.
+node_modules/openai/resources/chat/chat.d.ts(11,2841): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(8,27): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(16,37): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(136,15): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(136,47): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(137,15): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(138,15): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(139,37): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,19): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,58): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,131): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,212): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,261): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,320): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,369): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,430): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,501): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,582): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,657): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,726): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,785): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,838): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,919): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,994): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1073): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1136): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1189): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1270): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1355): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1418): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1487): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1542): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1611): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1692): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1765): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1812): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1875): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,1940): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2015): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2078): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2125): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2196): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2267): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2338): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2401): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2470): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2519): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2582): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2669): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2750): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1624,2813): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/completions.d.ts(1625,41): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,28): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,49): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,87): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,129): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,155): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,186): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,212): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,244): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,281): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,323): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,362): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,398): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,429): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,457): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,499): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,538): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,579): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,612): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,640): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,682): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,726): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,759): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,795): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,824): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,860): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,902): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,940): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,965): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,998): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1032): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1071): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1104): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1129): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1166): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1203): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1240): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1273): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1306): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1351): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1393): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1426): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1457): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(1,1495): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/index.d.ts(3,25): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/messages.d.ts(4,15): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/messages.d.ts(31,19): error TS1005: ',' expected.
+node_modules/openai/resources/chat/completions/messages.d.ts(33,15): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,28): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,49): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,87): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,129): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,155): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,186): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,212): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,244): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,281): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,323): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,362): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,398): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,429): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,457): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,499): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,538): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,579): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,612): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,640): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,682): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,726): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,759): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,795): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,824): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,860): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,902): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,940): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,965): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,998): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1032): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1071): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1104): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1129): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1166): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1203): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1240): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1273): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1306): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1351): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1393): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1426): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1457): error TS1005: ',' expected.
+node_modules/openai/resources/chat/index.d.ts(2,1495): error TS1005: ',' expected.
+node_modules/openai/resources/completions.d.ts(327,19): error TS1005: ',' expected.
+node_modules/openai/resources/completions.d.ts(327,50): error TS1005: ',' expected.
+node_modules/openai/resources/completions.d.ts(327,93): error TS1005: ',' expected.
+node_modules/openai/resources/completions.d.ts(327,134): error TS1005: ',' expected.
+node_modules/openai/resources/completions.d.ts(327,189): error TS1005: ',' expected.
+node_modules/openai/resources/completions.d.ts(327,268): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(5,27): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(197,19): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(197,76): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(197,137): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(197,190): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(197,253): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(197,306): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,35): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,82): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,133): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,176): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,229): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,272): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,319): error TS1005: ',' expected.
+node_modules/openai/resources/containers/containers.d.ts(198,358): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/content.d.ts(14,19): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(5,27): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(6,15): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,19): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,66): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,117): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,160): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,213): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,256): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,303): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(145,342): error TS1005: ',' expected.
+node_modules/openai/resources/containers/files/files.d.ts(146,39): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,19): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,80): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,115): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,164): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,229): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,254): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,301): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,334): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,377): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,422): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,461): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,506): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,549): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(173,608): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,35): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,78): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,129): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,182): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,225): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,272): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/conversations.d.ts(174,311): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(5,39): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,19): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,62): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,113): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,166): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,209): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,256): error TS1005: ',' expected.
+node_modules/openai/resources/conversations/items.d.ts(354,295): error TS1005: ',' expected.
+node_modules/openai/resources/embeddings.d.ts(111,19): error TS1005: ',' expected.
+node_modules/openai/resources/embeddings.d.ts(111,76): error TS1005: ',' expected.
+node_modules/openai/resources/embeddings.d.ts(111,105): error TS1005: ',' expected.
+node_modules/openai/resources/embeddings.d.ts(111,144): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(8,27): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,19): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,82): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,167): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,214): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,265): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,312): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,355): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,402): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,455): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,498): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(732,541): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,33): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,112): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,179): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,214): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,259): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,308): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,349): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,394): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,439): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,490): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,531): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,576): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,613): error TS1005: ',' expected.
+node_modules/openai/resources/evals/evals.d.ts(733,654): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/output-items.d.ts(4,27): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/output-items.d.ts(380,19): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/output-items.d.ts(380,82): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/output-items.d.ts(380,137): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/output-items.d.ts(380,202): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/output-items.d.ts(380,261): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(8,27): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,19): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,98): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,165): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,200): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,245): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,294): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,335): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,380): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,425): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,476): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,517): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,562): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,599): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2287,640): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2288,47): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2288,110): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2288,165): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2288,230): error TS1005: ',' expected.
+node_modules/openai/resources/evals/runs/runs.d.ts(2288,289): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(3,27): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(4,15): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,19): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,52): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,85): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,116): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,149): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,190): error TS1005: ',' expected.
+node_modules/openai/resources/files.d.ts(162,233): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/alpha.d.ts(8,39): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/alpha.d.ts(8,84): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/alpha.d.ts(8,139): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/alpha.d.ts(8,180): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/graders.d.ts(117,19): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/graders.d.ts(117,64): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/graders.d.ts(117,119): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/alpha/graders.d.ts(117,160): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,47): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,106): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,169): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,228): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,297): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,352): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/checkpoints.d.ts(8,411): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,19): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,78): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,141): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,200): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,269): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,324): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/checkpoints/permissions.d.ts(158,383): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(17,39): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(17,86): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(17,115): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(17,182): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(17,231): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(17,292): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,33): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,70): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,117): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,186): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,267): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,326): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,373): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,430): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,471): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/fine-tuning.d.ts(18,508): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/checkpoints.d.ts(2,27): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/checkpoints.d.ts(72,19): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/checkpoints.d.ts(72,76): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/checkpoints.d.ts(72,143): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(7,27): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,19): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,56): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,103): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,172): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,253): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,312): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,359): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,416): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,457): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(525,494): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(526,47): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(526,104): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/jobs/jobs.d.ts(526,171): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/methods.d.ts(118,19): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/methods.d.ts(118,66): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/methods.d.ts(118,95): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/methods.d.ts(118,162): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/methods.d.ts(118,211): error TS1005: ',' expected.
+node_modules/openai/resources/fine-tuning/methods.d.ts(118,272): error TS1005: ',' expected.
+node_modules/openai/resources/graders/grader-models.d.ts(302,19): error TS1005: ',' expected.
+node_modules/openai/resources/graders/grader-models.d.ts(302,62): error TS1005: ',' expected.
+node_modules/openai/resources/graders/grader-models.d.ts(302,95): error TS1005: ',' expected.
+node_modules/openai/resources/graders/grader-models.d.ts(302,130): error TS1005: ',' expected.
+node_modules/openai/resources/graders/grader-models.d.ts(302,173): error TS1005: ',' expected.
+node_modules/openai/resources/graders/grader-models.d.ts(302,218): error TS1005: ',' expected.
+node_modules/openai/resources/graders/graders.d.ts(8,49): error TS1005: ',' expected.
+node_modules/openai/resources/graders/graders.d.ts(8,92): error TS1005: ',' expected.
+node_modules/openai/resources/graders/graders.d.ts(8,125): error TS1005: ',' expected.
+node_modules/openai/resources/graders/graders.d.ts(8,160): error TS1005: ',' expected.
+node_modules/openai/resources/graders/graders.d.ts(8,203): error TS1005: ',' expected.
+node_modules/openai/resources/graders/graders.d.ts(8,248): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(5,15): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,19): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,40): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,97): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,160): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,211): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,266): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,327): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,376): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,407): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,446): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,509): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,550): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,615): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,674): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,723): error TS1005: ',' expected.
+node_modules/openai/resources/images.d.ts(651,796): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(3,22): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(3,39): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(4,24): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(4,36): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(4,53): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(4,78): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(4,102): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(4,124): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(6,28): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(6,45): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(6,68): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(6,90): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(6,119): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(6,160): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(7,27): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(7,57): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(7,89): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(7,117): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(7,145): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(7,171): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(9,27): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(9,57): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(9,73): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(9,94): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,22): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,55): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,99): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,124): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,151): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,176): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,199): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,224): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,247): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,270): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(10,291): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,22): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,40): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,58): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,75): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,93): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,116): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(11,137): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,23): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,35): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,65): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,98): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,125): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,154): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,186): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,212): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,229): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,250): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,283): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,305): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,339): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,370): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,396): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(14,434): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(15,23): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(15,35): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(15,54): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,28): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,45): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,75): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,97): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,129): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,155): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(16,186): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(19,24): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(19,37): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(19,62): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,29): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,65): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,92): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,124): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,162): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,195): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,234): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,278): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,296): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,321): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,353): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,383): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,413): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,441): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,471): error TS1005: ',' expected.
+node_modules/openai/resources/index.d.ts(20,494): error TS1005: ',' expected.
+node_modules/openai/resources/models.d.ts(50,19): error TS1005: ',' expected.
+node_modules/openai/resources/models.d.ts(50,40): error TS1005: ',' expected.
+node_modules/openai/resources/models.d.ts(50,75): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,19): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,50): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,107): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,148): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,209): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,258): error TS1005: ',' expected.
+node_modules/openai/resources/moderations.d.ts(293,317): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/client-secrets.d.ts(592,19): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/client-secrets.d.ts(592,84): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/client-secrets.d.ts(592,153): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/client-secrets.d.ts(592,248): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/client-secrets.d.ts(592,341): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/client-secrets.d.ts(592,404): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,19): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,66): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,125): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,168): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,221): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,286): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,353): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,418): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,485): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,536): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,653): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,762): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,873): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,976): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1045): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1114): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1185): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1254): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1319): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1382): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1449): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1514): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1585): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1664): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1743): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1818): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1863): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1916): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,1963): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2018): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2065): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2130): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2185): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2234): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2293): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2354): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2405): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2478): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2527): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2618): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2701): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2796): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2881): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2962): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,2999): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3046): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3097): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3160): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3225): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3276): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3335): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3384): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3453): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3504): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3547): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3624): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3693): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3760): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3815): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3868): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,3955): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4044): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4093): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4134): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4201): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4260): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4309): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4368): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4421): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4498): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4585): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4698): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4791): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4838): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4913): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,4970): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5025): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5102): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5177): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5226): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5295): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5362): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5411): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5462): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5507): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5596): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5683): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5752): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5819): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5878): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5931): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,5992): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6059): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6124): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6179): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6232): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6281): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6328): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6377): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3825,6440): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3826,51): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3826,116): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3826,185): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3826,280): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3826,373): error TS1005: ',' expected.
+node_modules/openai/resources/realtime/realtime.d.ts(3826,436): error TS1005: ',' expected.
+node_modules/openai/resources/responses/input-items.d.ts(4,15): error TS1005: ',' expected.
+node_modules/openai/resources/responses/input-items.d.ts(62,19): error TS1005: ',' expected.
+node_modules/openai/resources/responses/input-items.d.ts(62,62): error TS1005: ',' expected.
+node_modules/openai/resources/responses/input-items.d.ts(64,15): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(1,15): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(1,52): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,19): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,54): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,85): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,128): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,167): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,202): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,229): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,286): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,341): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,418): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,493): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,586): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,677): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,770): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,865): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,964): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1037): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1092): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1151): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1230): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1321): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1362): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1431): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1498): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1559): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1610): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1665): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1750): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1833): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1900): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1937): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,1984): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2033): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2116): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2201): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2284): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2347): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2406): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2485): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2574): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2661): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2720): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2787): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2866): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,2927): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3006): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3087): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3168): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3253): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3310): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3357): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3414): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3451): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3498): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3549): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3594): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3641): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3686): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3759): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3818): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3863): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3898): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,3977): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4054): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4123): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4186): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4257): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4336): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4409): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4490): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4539): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4586): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4653): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4718): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4771): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4824): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4871): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4958): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,4997): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5046): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5099): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5186): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5271): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5358): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5443): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5516): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5587): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5648): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5707): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5746): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5795): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5842): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5897): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5950): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,5987): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6068): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6151): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6232): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6251): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6296): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6339): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6386): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6423): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6468): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6509): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6560): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6597): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6648): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6723): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6792): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6847): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4596,6926): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4597,45): error TS1005: ',' expected.
+node_modules/openai/resources/responses/responses.d.ts(4597,88): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/parts.d.ts(3,15): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/parts.d.ts(49,19): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/parts.d.ts(49,50): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/uploads.d.ts(154,19): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/uploads.d.ts(154,42): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/uploads.d.ts(154,89): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/uploads.d.ts(155,35): error TS1005: ',' expected.
+node_modules/openai/resources/uploads/uploads.d.ts(155,66): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(6,15): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(8,15): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(169,19): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(169,70): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(169,123): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(169,180): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(169,233): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/file-batches.d.ts(171,15): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(4,27): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,19): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,60): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,115): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,164): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,215): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,274): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,317): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,364): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,407): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,446): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/files.d.ts(229,489): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(8,27): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,19): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,88): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,139): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,200): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,273): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,336): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,411): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,496): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,529): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,576): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,637): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,680): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,751): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,808): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,865): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(369,918): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,35): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,76): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,131): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,180): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,231): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,290): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,333): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,380): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,423): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,462): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(370,505): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(371,47): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(371,98): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(371,151): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(371,208): error TS1005: ',' expected.
+node_modules/openai/resources/vector-stores/vector-stores.d.ts(371,261): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,19): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,82): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,145): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,204): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,261): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,326): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,387): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,454): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,533): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,606): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,685): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,760): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,829): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,898): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,961): error TS1005: ',' expected.
+node_modules/openai/resources/webhooks.d.ts(585,1032): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(4,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(5,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(6,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(7,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(8,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(10,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(11,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(12,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(14,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(17,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(18,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(20,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(21,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(23,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(25,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(27,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(28,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(29,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(33,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(35,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(36,8): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(37,8): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(39,1): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(43,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(44,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(47,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(48,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(49,8): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(49,19): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(49,21): error TS1136: Property assignment expected.
+tests/sep/faq-fuzzy-suite.js(50,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(50,14): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(50,33): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(51,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(51,20): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(51,29): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(52,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(52,24): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(52,33): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(53,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(53,21): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(53,30): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(54,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(54,22): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(54,31): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(55,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(55,19): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(55,28): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(56,10): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(56,18): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(56,27): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(57,8): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(58,8): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(58,14): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(59,6): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(59,7): error TS1128: Declaration or statement expected.
+tests/sep/faq-fuzzy-suite.js(60,4): error TS1128: Declaration or statement expected.
+tests/sep/faq-fuzzy-suite.js(61,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(62,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(63,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(66,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(67,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(68,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(70,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(71,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(72,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(73,8): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(74,8): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(75,8): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(76,8): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(77,10): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(78,10): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(81,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(84,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(85,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(86,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(87,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(88,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(89,8): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(89,21): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(90,8): error TS1005: ':' expected.
+tests/sep/faq-fuzzy-suite.js(90,13): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(90,15): error TS1136: Property assignment expected.
+tests/sep/faq-fuzzy-suite.js(91,8): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(91,24): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(92,8): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(92,19): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(93,6): error TS1005: ',' expected.
+tests/sep/faq-fuzzy-suite.js(93,7): error TS1128: Declaration or statement expected.
+tests/sep/faq-fuzzy-suite.js(94,4): error TS1128: Declaration or statement expected.
+tests/sep/faq-fuzzy-suite.js(96,4): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(97,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(98,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(100,6): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(101,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(102,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(104,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(108,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(109,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(111,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(113,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(114,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(115,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(116,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(118,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(119,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(121,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(122,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(123,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(127,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(128,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(131,5): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(132,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(133,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(135,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(136,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(137,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(139,11): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(143,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(144,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(146,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(147,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(148,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(149,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(151,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(152,9): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(155,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(156,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(159,5): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(160,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(161,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(163,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(164,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(166,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(167,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(170,5): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(171,7): error TS1005: ';' expected.
+tests/sep/faq-fuzzy-suite.js(172,7): error TS1005: ';' expected.
+Ô£û Typecheck failed
+
+=== Dead code (knip) ===
+ERROR: Invalid input
+Ô£û Dead code (knip) failed
+
+=== Cycles (madge) ===
+Usage: cli [options] <src...>
+
+Options:
+  -V, --version            output the version number
+  -b, --basedir <path>     base directory for resolving paths
+  -s, --summary            show dependency count summary
+  -c, --circular           show circular dependencies
+  -d, --depends <name>     show module dependents
+  -x, --exclude <regexp>   exclude modules using RegExp
+  -j, --json               output as JSON
+  -i, --image <file>       write graph to file as an image
+  -l, --layout <name>      layout engine to use for graph
+                           (dot/neato/fdp/sfdp/twopi/circo)
+  --orphans                show modules that no one is depending on
+  --leaves                 show modules that have no dependencies
+  --dot                    show graph using the DOT language
+  --rankdir <direction>    set the direction of the graph layout
+  --extensions <list>      comma separated string of valid file extensions
+  --require-config <file>  path to RequireJS config
+  --webpack-config <file>  path to webpack config
+  --ts-config <file>       path to typescript config
+  --include-npm            include shallow NPM modules (default: false)
+  --no-color               disable color in output and image
+  --no-spinner             disable progress spinner
+  --no-count               disable circular dependencies counting
+  --stdin                  read predefined tree from STDIN (default: false)
+  --warning                show warnings about skipped files (default: false)
+  --debug                  turn on debug┬áoutput (default: false)
+  -h, --help               display help for command
+
+Ô£û Cycles (madge) failed
+
+=== Orphans (madge) ===
+Usage: cli [options] <src...>
+
+Options:
+  -V, --version            output the version number
+  -b, --basedir <path>     base directory for resolving paths
+  -s, --summary            show dependency count summary
+  -c, --circular           show circular dependencies
+  -d, --depends <name>     show module dependents
+  -x, --exclude <regexp>   exclude modules using RegExp
+  -j, --json               output as JSON
+  -i, --image <file>       write graph to file as an image
+  -l, --layout <name>      layout engine to use for graph
+                           (dot/neato/fdp/sfdp/twopi/circo)
+  --orphans                show modules that no one is depending on
+  --leaves                 show modules that have no dependencies
+  --dot                    show graph using the DOT language
+  --rankdir <direction>    set the direction of the graph layout
+  --extensions <list>      comma separated string of valid file extensions
+  --require-config <file>  path to RequireJS config
+  --webpack-config <file>  path to webpack config
+  --ts-config <file>       path to typescript config
+  --include-npm            include shallow NPM modules (default: false)
+  --no-color               disable color in output and image
+  --no-spinner             disable progress spinner
+  --no-count               disable circular dependencies counting
+  --stdin                  read predefined tree from STDIN (default: false)
+  --warning                show warnings about skipped files (default: false)
+  --debug                  turn on debug┬áoutput (default: false)
+  -h, --help               display help for command
+
+Ô£û Orphans (madge) failed
+
+=== Deps (depcheck) ===
+Unused devDependencies
+* vercel
+Ô£û Deps (depcheck) failed
+
+=== Unit tests ===
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\uteklinker-chatbot-vercel\tests\check-healthz.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.19.5
+Ô£û Unit tests failed
+
+=== Coverage ===
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\uteklinker-chatbot-vercel\tests\check-healthz.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.19.5
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+Ô£û Coverage failed
+
+=== E2E ===
+[load-env] ­ƒº® Local env loaded: C:\uteklinker-chatbot-vercel\.env.local
+Ô£à No OpenAI env conflicts detected in PowerShell environment.
+­ƒôÑ Loaded env from C:\uteklinker-chatbot-vercel\.env.local (106 vars)
+ÔÜá´©Å GCP_PRIVATE_KEY hade verkliga radbrytningar ÔÇô korrigerar
+­ƒöæ OPENAI_API_KEY = sk-pr...90JcA (len=164)
+­ƒöæ OPENAI_PROJECT_ID = proj_...2AP5D (len=29)
+­ƒöæ SHEET_ID = 1_FjA...E-dlY (len=44)
+­ƒöæ SHEET_ID_MAIN = 1_FjA...E-dlY (len=44)
+­ƒöæ GCP_CLIENT_EMAIL = chatb...t.com (len=68)
+­ƒöæ GCP_PROJECT_ID = utekl...ercel (len=25)
+­ƒöæ GCP_PRIVATE_KEY_ID = 12345...45678 (len=40)
+­ƒöæ GCP_PRIVATE_KEY = -----...----- (len=1730)
+­ƒº® Lexicon Sanity Test ÔÇô detect-lang-core.js
+
+­ƒö╣ Testing SE:
+[detect-lang.log] [2025-10-20T08:29:00.941Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+  "Jag ├ñlskar att dricka kaffe p├Ñ morgonen...." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.944Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+  "Detta ├ñr ett typiskt svenskt uttryck med..." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.944Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+  "Han gick till aff├ñren och k├Âpte mj├Âlk...." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+
+­ƒö╣ Testing EN:
+[detect-lang.log] [2025-10-20T08:29:00.945Z] ­ƒöì Strong marker detected: EN
+[detect-lang.log] [2025-10-20T08:29:00.945Z] Ô£à Regex tr├ñff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "I love drinking coffee in the morning...." ÔåÆ EN via=regex-exclusive conf=1.00 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.945Z] Ô£à Regex tr├ñff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+  "This is a typical English sentence with ..." ÔåÆ SE via=short-lexicon conf=0.90 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.945Z] ­ƒöì Strong marker detected: EN
+[detect-lang.log] [2025-10-20T08:29:00.945Z] Ô£à Regex tr├ñff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "She went to the store and bought milk...." ÔåÆ EN via=regex-exclusive conf=1.00 best=n/a
+
+­ƒö╣ Testing DA:
+[detect-lang.log] [2025-10-20T08:29:00.946Z] Ô¼à´©Å Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+  "Jeg elsker at drikke kaffe om morgenen...." ÔåÆ DA via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.946Z] ­ƒöì Strong marker detected: DA
+[detect-lang.log] [2025-10-20T08:29:00.946Z] Ô£à Regex tr├ñff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "Dette er en typisk dansk s├ªtning med ├ª├©├Ñ..." ÔåÆ DA via=regex-exclusive conf=1.00 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.946Z] ­ƒöì Strong marker detected: DA
+[detect-lang.log] [2025-10-20T08:29:00.947Z] Ô£à Regex tr├ñff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "Han gik til butikken og k├©bte m├ªlk...." ÔåÆ DA via=regex-exclusive conf=1.00 best=n/a
+
+­ƒö╣ Testing DE:
+[detect-lang.log] [2025-10-20T08:29:00.947Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+  "Ich liebe es, morgens Kaffee zu trinken...." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.947Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+  "Das ist ein typischer deutscher Satz mit..." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T08:29:00.947Z] ­ƒöì Strong marker detected: DE
+[detect-lang.log] [2025-10-20T08:29:00.948Z] Ô£à Regex tr├ñff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "Er ging in den Laden und kaufte Milch...." ÔåÆ DE via=regex-exclusive conf=1.00 best=n/a
+
+Ô£à Lexicon-boost sanity-check klar!
+
+Ô£ô DA_FULL_LOOKUP.json
+Ô£ô DE_FULL_LOOKUP.json
+Ô£ô EN_FULL_LOOKUP.json
+Ô£ô SE_FULL_LOOKUP.json
+ÔÇö Summary ÔÇö
+OK: 4, Fail: 0
+Error: Cannot find package '@playwright/test' imported from C:\uteklinker-chatbot-vercel\tests\e2e\smoke.spec.ts
+Error: Cannot find package 'vitest' imported from C:\uteklinker-chatbot-vercel\tests\pipeline.spec.js
+Error: No tests found
+
+Ô£û E2E failed

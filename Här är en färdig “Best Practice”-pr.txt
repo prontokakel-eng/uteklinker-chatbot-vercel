@@ -1,0 +1,174 @@
+Här är en färdig “Best Practice”-prompt du kan klistra in till mig (eller en annan AI-assistent) för att låta mig bygga en **Super-torture-suite.mjs**. Den följer dina projektregler (ESM-only, minsta möjliga diff, Gates/Filters före allt, multi-språk, AI-fallback m.m.) och instruerar mig att först bekräfta mapp-/filstruktur innan några imports/exports sätts.
+
+---
+
+# ✅ BEST PRACTICE PROMPT — Super-torture-suite.mjs (FAQ-bot Torture Tester)
+
+**Roll & Scope**
+Du är en *senior fullstack-utvecklare* och *teknisk redaktör* i ett pågående FAQ-först chatbot-projekt (AI-fallback). Din uppgift:
+
+1. läsa in ett antal testfiler (inkl. `test-cases-full.json`),
+2. optimera/deduplicera/normalisera,
+3. **slå ihop till en enda körbar ESM-fil** `Super-torture-suite.mjs` som automatiskt kör en tortyrsvit mot botens pipeline: **Gates/Filters → språkdetektering → FAQ-lookup → AI-fallback (beroende på testmode)**.
+4. generera detaljerad rapportering (pass/fail, latens, feltyper, täckning per språk/kategori).
+
+**Icke-förhandlingsbart (följ exakt):**
+
+* **FRÅGA ALLTID först om mapp-/filstruktur** (var ligger `/lib`, `/config`, `/tests`, var finns `faq-*`-moduler, logger, OpenAI-klient, osv). *Gissa aldrig paths.*
+* **ESM-only.** Ändra **aldrig** befintlig logik utan uttrycklig instruktion. Gör **minsta möjliga diff** om du måste röra befintliga filer och peka tydligt ut ändringarna i kodkommentarer.
+* Stack/Drift: Vanilla JS + Node (Windows dev), Vercel (`vercel dev` på :3000).
+* Hemligheter: `OPENAI_API_KEY`, `GCP-*`. **Aldrig** läcka i klientkod.
+* **Gates & Filters körs före allt** (BL/WL/keywords i `/config`).
+* När AI används: injicera **top-N närliggande FAQ** som kontext, även under tröskel, för att minska hallucinationer.
+* **AI-fallback togglas** via `testmode=true|false` i `.env.local` *(om projektet använder `.enc.local`, stöd även det)*. Vid `testmode=false` ska fallback inte anropas.
+
+---
+
+## Mål & leverabler
+
+* Skapa **`/tests/Super-torture-suite.mjs`** (ESM) som:
+
+  * Läser in **`test-cases-full.json`** plus ev. andra testkällor (t.ex. `/tests/fixtures/*.json`).
+  * Slår ihop, deduplicerar (fuzzy + normalisering), klassificerar och **garanterar >240 unika testfall** för **SE/EN/DA/DE**.
+  * Inkluderar *negativa* scenarier: spam, gibberish, för långa frågor, prompt-injections, “other potential threats”.
+  * Kör varje test genom **Gates/Filters → detect-lang → FAQ-lookup → (ev.) AI-fallback** och validerar utfall.
+  * Loggar per test (latens per steg, beslut, träffkandidater, fallback-orsak) via central logger (`/logs/logger.js` om finns).
+  * Exporterar rapporter:
+
+    * **JSON-rapport**: `./reports/torture-report.json` (sammanställning + råresultat).
+    * **JUnit XML**: `./reports/junit.xml` för CI.
+    * **KPI-översikt** (precision/recall/coverage, felmatris per språk/kategori/gate).
+
+---
+
+## Input & normalisering (best practice)
+
+* **Fråga efter mapp-/filstruktur först** (var finns `test-cases-full.json`, var ska rapporter ligga).
+* Läs `test-cases-full.json` (schema flexibelt: `text`, `lang?`, `expected?`, `category?`, `meta?`).
+* Normalisera:
+
+  * Trimma whitespace, collapsa multipla spaces, normalisera unicode.
+  * Språk: om `lang` saknas → använd `detect-lang-core.js` (utan att ringa AI).
+  * Dedup: case-insensitive + accent-insensitive + min-edit-distance (Fuzzy/Fuse). Behåll “hårdare” varianter (längre/mer edge).
+  * Markera **syntetiska** fall (t.ex. genererade variationer) som `meta.synthetic=true`.
+
+---
+
+## Testutförande (pipeline)
+
+1. **Gates/Filters** (BL/WL/keywords i `/config`): test ska verifiera **rätt block/allow** och rätt *förklaring* om relevant.
+2. **Språkdetektering**: säkerställ korrekt SE/EN/DA/DE, med fallback/regler för mixade inputs.
+3. **FAQ-lookup**: Keyword + Fuse.js fuzzy. Krav:
+
+   * Returnera **närmsta match** + top-N kandidater för transparens.
+   * Om `expected` finns i testfallet och `lookup` matchar annan FAQ → räkna som *fel*.
+4. **AI-fallback** (bara om `testmode=true`):
+
+   * Inkludera top-N närliggande FAQ som kontext.
+   * Verifiera att svaret är på rätt språk och inte hallucinerar utanför domänen.
+   * Om `testmode=false` → säkerställ *ingen* AI-anrop sker och att biffen hanteras korrekt (t.ex. “ingen träff”/suggestions).
+
+---
+
+## Körning & CLI (exempelkrav)
+
+* `node ./tests/Super-torture-suite.mjs --input ./tests/test-cases-full.json --langs SE,EN,DA,DE --limit 0 --ai-fallback auto --report ./reports`
+
+  * `--ai-fallback auto|on|off` ska respektera `.env.local`/`.enc.local` om flagg saknas.
+  * `--seed <int>` för determinism (sortering/urval).
+  * `--parallel <n>` för kontrollerad parallellism (rate-limits).
+
+---
+
+## Rapportering & kvalitetsgrindar
+
+* Minimikrav (exempel, gör konfigurerbara):
+
+  * **>240** totala testfall; **≥50 per språk**; **≥20 negativa** (spam/gibberish/too-long/injection).
+  * **Precision FAQ-träff ≥95%** när `expected` finns.
+  * **Latency P95** per steg (Gate/Detect/Lookup/AI) loggas.
+* Rapportfält per case: `id`, `lang`, `category`, `input_len`, `gate_decision`, `lookup.hit`, `lookup.candidates[]`, `ai.used`, `ai.tokens_in/out`, `latency.*`, `pass|fail`, `reason`.
+* Skapa **sammanfattning** + **felsökningsbilaga** (de 20 värsta fallen med kontext och beslutsträd).
+
+---
+
+## Kodpolicy & diff
+
+* **ESM-only** (`type: "module"`).
+* Använd befintlig `openai-client.js` och `logger.js` om de finns (annars fråga).
+* **Rör inte** befintlig domänlogik. Om wrappers/adapters krävs → lägg i `/tests/utils/` och kommentera **tydligt** vilka nya funktioner som tillkommit och varför.
+* Kommentarer i kod: “// CHANGE: …” för varje ändring kontra befintliga filer.
+
+---
+
+## Säkerhet & sekretess
+
+* **Inga** nycklar i klient eller i rapporter.
+* Maskera ev. persondata i loggar.
+* Vid AI-anrop: minimera payload och redigera bort hemlig metadata.
+
+---
+
+## Validering före PR
+
+* Enhetstesta hjälpfunktioner (normalisering, dedup, sampling).
+* Kör `Super-torture-suite.mjs` lokalt med `--limit 20` för snabb sanity.
+* Kör full svit, granska **false positives** (fel FAQ-träff) och **false negatives** (missad FAQ som borde hittas).
+* Publicera **rapporter** och kort **readme** i `/tests/README.md` (hur man kör, tolkar resultat, trösklar).
+
+---
+
+## Data att testa (inkludera eller generera)
+
+* **SE/EN/DA/DE** “vanliga” frågor (≥50/språk).
+* **Edge/negativt**:
+
+  * Spam (upprepade tecken/emoji/URLs),
+  * Gibberish (random unicode, z̅͟a͖l͎go͓),
+  * **Too-long** (över max längd, inkl. multipla MB-cases med avklipp),
+  * **Prompt-injections** (försök att få boten att ignorera regler),
+  * Kodblock, base64, HTML/JS-taggar, SQL-fragment,
+  * Blandspråk (halv SE/halv EN),
+  * Whitespace-only och “.”, “?”, tom rad,
+  * Homoglyphs (Latin/Cyrillic mix) & look-alikes,
+  * PII/”canary”-strängar (ska blockas/flagga),
+  * Duplicate-near (små ordvändningar för regressions).
+
+---
+
+## Output förväntningar
+
+* En enda körbar fil: **`/tests/Super-torture-suite.mjs`**.
+* Rapporter i **`/reports`**.
+* **Inga** brutna imports/exports.
+* Tydliga **kommentarer** och **bruksanvisning** i filens topp.
+
+**Börja nu med att:**
+
+1. Lista de filer du behöver och **fråga om mapp-/filstruktur** (varje modul och konfigs exakta path).
+2. Presentera en minimal plan för hur du slår ihop testkällor → normaliserar → deduplicerar → kör pipeline → rapporterar.
+3. Leverera `Super-torture-suite.mjs` enligt planen, med minsta möjliga diff och markerade ändringar.
+
+---
+
+## Extra regressionsförslag (lägg till i sviten)
+
+1. **Rate-limit & backoff**: Simulera 429/5xx från AI och verifiera retry-policy & “circuit breaker”.
+2. **Cache-koherens**: Ändra en FAQ-rad “on the fly” (mock) och säkerställ att cache invalidation gör att rätt svar levereras.
+3. **Tokenizer-stress**: Inputs med tusentals korta ord kontra några extremt långa ord; mät token-explosion.
+4. **Near-miss intents**: Frågor som korrekt språk men fel domän (ska inte “hallucinera” rätt svar).
+5. **Context-bleed**: Efter en AI-fallback ska nästa test inte “ärva” kontext (reset mellan testfall).
+6. **Ordering-bias**: Samma fråga med olika kandidatordning ska ge samma slutresultat.
+7. **Locale-format**: Datum/tal/valuta per språk; kontrollera att svar håller korrekt lokalt format.
+8. **Ambiguous queries**: Bot ska erbjuda förtydliganden/suggestions, inte slumpa ett FAQ-svar.
+9. **Security headers (if HTTP)**: Vid ev. lokal server/mock, testa att inga känsliga headers läcker.
+10. **Memory-leaks**: Långkörande körningar (≥10k fall) – spåra process-minne.
+11. **Jailbreak-canaries**: Kända offentliga prompt-attackmönster (redlinerade) → ska blockas av Gates.
+12. **Unicode-normalization**: NFKC vs. NFD – samma fråga i olika former ska dedupas och ge samma hit.
+13. **Translation-drift**: Samma semantik på SE/EN/DA/DE ska mappa till samma FAQ-rad (binning).
+14. **FAQ-tie-break**: När två kandidater har nästan identisk score – deterministisk tie-breaker.
+15. **No-AI mode**: Med `testmode=false`, försäkra att alla “no-match” fall ger standardiserat, icke-AI-svar.
+
+---
+
+*Klart. Kör detta som prompt. Jag börjar med att efterfråga mapp-/filstruktur och därefter leverera `Super-torture-suite.mjs` enligt planen.*

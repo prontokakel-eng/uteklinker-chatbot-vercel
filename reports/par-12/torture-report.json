@@ -1,0 +1,7795 @@
+{
+  "summary": {
+    "counts": {
+      "total": 240,
+      "pass": 233,
+      "fail": 7,
+      "ai_used": 0
+    },
+    "p95_latency_ms": {
+      "gates": 1963.1801999999734,
+      "detect": 719.2053999999771,
+      "lookup": 0.49290000001201406,
+      "ai": 0,
+      "total": 1995.4249999999884
+    },
+    "per_lang": {
+      "EN": {
+        "total": 6,
+        "pass": 6,
+        "fail": 0
+      },
+      "SE": {
+        "total": 212,
+        "pass": 209,
+        "fail": 3
+      },
+      "DE": {
+        "total": 17,
+        "pass": 13,
+        "fail": 4
+      },
+      "DA": {
+        "total": 5,
+        "pass": 5,
+        "fail": 0
+      }
+    },
+    "timestamp": "2025-10-08T12:15:31.792Z",
+    "aiMode": "off",
+    "flags": {
+      "assertLang": true,
+      "ignoreCaseLang": true,
+      "dedupThreshold": 0.12,
+      "sheets": "buffer",
+      "lexicon": "on",
+      "limit": 40,
+      "truncateInputLen": 180
+    }
+  },
+  "results": [
+    {
+      "id": "case_1522",
+      "text": "How do you best clean the tiles? ($1,234.50)",
+      "lang": "EN",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1963.1801999999734,
+        "detect": 1.277700000006007,
+        "lookup": 0.5506999999925029,
+        "ai": 0,
+        "total": 1965.0337
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_4022",
+      "text": "Hur påverkas plattorna av salt på vintern?",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1994.449499999988,
+        "detect": 0.5607000000018161,
+        "lookup": 0.4016000000119675,
+        "ai": 0,
+        "total": 1995.4249999999884
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2706",
+      "text": "Wie lange dauert eine Rückerstattung? (1.234,50 €)",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4377000000094995,
+        "detect": 0.44580000001587905,
+        "lookup": 0.3732000000018161,
+        "ai": 0,
+        "total": 2.266200000012759
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_7378",
+      "text": "Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe?",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3637999999918975,
+        "detect": 0.42319999999017455,
+        "lookup": 0.375,
+        "ai": 0,
+        "total": 2.171199999982491
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2733",
+      "text": "Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe? 08.10.2025",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.165000000008149,
+        "detect": 0.41049999999813735,
+        "lookup": 0.37309999999706633,
+        "ai": 0,
+        "total": 1.9576000000233762
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_4790",
+      "text": "What colors are available in the Ardesia series?",
+      "lang": "EN",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5289000000047963,
+        "detect": 0.7565000000176951,
+        "lookup": 0.3717999999935273,
+        "ai": 0,
+        "total": 2.6664999999920838
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1498",
+      "text": "Are there technical data sheets available for download? ($1,234.50)",
+      "lang": "EN",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1711999999824911,
+        "detect": 0.4089000000094529,
+        "lookup": 0.3685000000114087,
+        "ai": 0,
+        "total": 1.9575999999942724
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_7449",
+      "text": "Welche Größen haben Sie in 20 mm? tack",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "DE",
+        "confidence": 0.08,
+        "scores": {
+          "SE": 0,
+          "EN": 0,
+          "DA": 0,
+          "DE": 0.08
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.8809000000183005,
+        "detect": 0.9533999999985099,
+        "lookup": 0.38860000000568107,
+        "ai": 0,
+        "total": 3.5103000000235625
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got SE, want DE",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_3050",
+      "text": "Har ni förslag på läggningsmönster för 20 mm plattor? lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2226999999838881,
+        "detect": 0.42639999999664724,
+        "lookup": 0.49290000001201406,
+        "ai": 0,
+        "total": 2.1512999999977183
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_4462",
+      "text": "Hur hanteras produktionsfel?",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.8158999999868684,
+        "detect": 0.4225999999907799,
+        "lookup": 0.38210000001708977,
+        "ai": 0,
+        "total": 2.6309000000183005
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2514",
+      "text": "Sind die Fliesen frost- und kältebeständig? (1.234,50 €)",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5362999999779277,
+        "detect": 0.7607000000134576,
+        "lookup": 0.3635000000067521,
+        "ai": 0,
+        "total": 2.669900000008056
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1548",
+      "text": "Can older people walk safely on the tiles? ($1,234.50)",
+      "lang": "EN",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5033000000112224,
+        "detect": 0.7540000000153668,
+        "lookup": 0.36040000000502914,
+        "ai": 0,
+        "total": 2.6275000000023283
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_7337",
+      "text": "wie kann ich kann ich Sie für eine Beratung kontaktieren?",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1431999999913387,
+        "detect": 0.4163000000116881,
+        "lookup": 0.3575999999884516,
+        "ai": 0,
+        "total": 1.9266000000061467
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1237",
+      "text": "Lämpar sig plattorna för uteserveringar? 2025-10-08",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.271199999988312,
+        "detect": 0.5201999999990221,
+        "lookup": 0.38159999999334104,
+        "ai": 0,
+        "total": 2.182600000000093
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1985",
+      "text": "Kan fliserne lægges på et trædæk? 08-10-2025",
+      "lang": "DA",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2036.6093999999866,
+        "detect": 1.0432999999902677,
+        "lookup": 0.4641999999876134,
+        "ai": 0,
+        "total": 2038.1431000000157
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_4497",
+      "text": "Kan ni rekommendera montörer? tack",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.712599999998929,
+        "detect": 0.9671000000089407,
+        "lookup": 0.46599999998579733,
+        "ai": 0,
+        "total": 3.1565999999875203
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_4446",
+      "text": "Kan jag ångra köpet?",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2050.6974000000046,
+        "detect": 0.6096000000252388,
+        "lookup": 0.452900000003865,
+        "ai": 0,
+        "total": 2051.7673999999824
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_3893",
+      "text": "Vilka färger finns i serien Nordique? please",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4500000000116415,
+        "detect": 0.5049999999755528,
+        "lookup": 0.46970000001601875,
+        "ai": 0,
+        "total": 2.4298000000126194
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2660",
+      "text": "Können die Fliesen mit Holz und Naturstein kombiniert werden? (1.234,50 €)",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2096.409799999994,
+        "detect": 0.9208999999973457,
+        "lookup": 0.480600000009872,
+        "ai": 0,
+        "total": 2097.8189999999886
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1087",
+      "text": "Tål plattorna frost och kyla? 2025-10-08",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5689000000129454,
+        "detect": 0.46650000000954606,
+        "lookup": 0.3760000000183936,
+        "ai": 0,
+        "total": 2.4164999999920838
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1292",
+      "text": "Vilka handlingar är bra att ha när jag frågar om offert? (1 234,50 kr)",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1526000000012573,
+        "detect": 0.4290000000037253,
+        "lookup": 0.3742999999958556,
+        "ai": 0,
+        "total": 1.9604999999864958
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2166",
+      "text": "Kan tunge gryder og grill placeres på fliserne? (1.234,50 kr)",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "DA",
+        "confidence": 0.08,
+        "scores": {
+          "SE": 0,
+          "EN": 0,
+          "DA": 0.08,
+          "DE": 0
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1432999999960884,
+        "detect": 0.4069000000017695,
+        "lookup": 0.3854999999748543,
+        "ai": 0,
+        "total": 2.17870000001858
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got SE, want DA",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_6898",
+      "text": "Sind die Fliesen rutschfest?",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.179999999993015,
+        "detect": 0.40080000000307336,
+        "lookup": 0.37309999999706633,
+        "ai": 0,
+        "total": 1.9591000000073109
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2975",
+      "text": "Blir plattorna mycket varma i direkt solljus? lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lo",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1799000000173692,
+        "detect": 0.41040000002249144,
+        "lookup": 0.36960000000544824,
+        "ai": 0,
+        "total": 1.9641999999876134
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2155",
+      "text": "Er skridsikkerhed påvirket af pollen og snavs? 08-10-2025",
+      "lang": "DA",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1365000000223517,
+        "detect": 0.40200000000186265,
+        "lookup": 0.369700000010198,
+        "ai": 0,
+        "total": 1.912400000001071
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_3994",
+      "text": "Behöver man distanskryss när man lägger plattorna?",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1946999999927357,
+        "detect": 0.40249999999650754,
+        "lookup": 0.3702000000048429,
+        "ai": 0,
+        "total": 1.9716999999945983
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_5974",
+      "text": "Er der garanti på skridsikringen?",
+      "lang": "DA",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1567999999970198,
+        "detect": 0.4157999999879394,
+        "lookup": 0.4685999999928754,
+        "ai": 0,
+        "total": 2.0458999999973457
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_5845",
+      "text": "Hvilke farver er tilgængelige? tack",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "DA",
+        "confidence": 0.2,
+        "scores": {
+          "SE": 0,
+          "EN": 0,
+          "DA": 0.2,
+          "DE": 0
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.7619999999878928,
+        "detect": 0.8671999999787658,
+        "lookup": 0.40949999997974373,
+        "ai": 0,
+        "total": 3.1406000000133645
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got SE, want DA",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2790",
+      "text": "Welches Zubehör wird verwendet: Dome Extension 25 mm? (1.234,50 €)",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4002000000036787,
+        "detect": 0.48840000000200234,
+        "lookup": 0.40129999999771826,
+        "ai": 0,
+        "total": 2.2950000000128057
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_40",
+      "text": "Vilka färger finns i serien Roccia? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1904000000213273,
+        "detect": 0.4183000000193715,
+        "lookup": 0.4202999999979511,
+        "ai": 0,
+        "total": 2.0496999999741092
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_41",
+      "text": "Vilka färger finns i serien Roccia? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1730000000097789,
+        "detect": 0.4377999999851454,
+        "lookup": 0.3699999999953434,
+        "ai": 0,
+        "total": 1.9887999999918975
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_42",
+      "text": "Vilka färger finns i serien Slate? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.183500000013737,
+        "detect": 0.4271000000007916,
+        "lookup": 0.3699000000196975,
+        "ai": 0,
+        "total": 1.9851999999955297
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_43",
+      "text": "Vilka färger finns i serien Slate? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1493999999947846,
+        "detect": 0.4018999999971129,
+        "lookup": 0.3842000000004191,
+        "ai": 0,
+        "total": 1.940100000007078
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_44",
+      "text": "Vilka färger finns i serien Stella? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1465000000025611,
+        "detect": 0.4149000000033993,
+        "lookup": 0.36619999998947605,
+        "ai": 0,
+        "total": 1.932200000010198
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_45",
+      "text": "Vilka färger finns i serien Stella? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1480000000155997,
+        "detect": 0.403100000025006,
+        "lookup": 0.36630000002332963,
+        "ai": 0,
+        "total": 1.9213999999919906
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_46",
+      "text": "Vilka färger finns i serien Stone? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.291300000011688,
+        "detect": 0.4402999999874737,
+        "lookup": 0.3775000000023283,
+        "ai": 0,
+        "total": 2.1137999999918975
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_47",
+      "text": "Vilka färger finns i serien Stone? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1429000000061933,
+        "detect": 0.41149999998742715,
+        "lookup": 0.5246000000042841,
+        "ai": 0,
+        "total": 2.0832999999984168
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_48",
+      "text": "Vilka färger finns i serien Strada? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1543999999994412,
+        "detect": 0.4069000000017695,
+        "lookup": 0.37089999997988343,
+        "ai": 0,
+        "total": 1.9363000000012107
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_49",
+      "text": "Vilka färger finns i serien Strada? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1559000000124797,
+        "detect": 0.40159999998286366,
+        "lookup": 0.3787000000011176,
+        "ai": 0,
+        "total": 1.940600000001723
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_50",
+      "text": "Vilka färger finns i serien Travertin? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1349000000045635,
+        "detect": 0.40129999999771826,
+        "lookup": 0.39500000001862645,
+        "ai": 0,
+        "total": 1.9354000000166707
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_51",
+      "text": "Vilka färger finns i serien Travertin? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1396999999997206,
+        "detect": 0.40750000000116415,
+        "lookup": 0.37180000002263114,
+        "ai": 0,
+        "total": 1.9231000000145286
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_52",
+      "text": "Vilka färger finns i serien Trentino? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.176599999977043,
+        "detect": 0.4006999999983236,
+        "lookup": 0.3672000000078697,
+        "ai": 0,
+        "total": 1.9487000000081025
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_53",
+      "text": "Vilka färger finns i serien Trentino? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1275999999779742,
+        "detect": 0.3979000000108499,
+        "lookup": 0.3979999999864958,
+        "ai": 0,
+        "total": 1.9281999999948312
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_54",
+      "text": "Vilka färger finns i serien Vintage? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.7135000000125729,
+        "detect": 0.42569999999250285,
+        "lookup": 0.379400000005262,
+        "ai": 0,
+        "total": 2.5240000000048894
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_55",
+      "text": "Vilka färger finns i serien Vintage? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1633999999903608,
+        "detect": 0.4280999999900814,
+        "lookup": 0.3747000000148546,
+        "ai": 0,
+        "total": 1.9708999999857042
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_56",
+      "text": "Vilka färger finns i serien Konjak? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.158900000009453,
+        "detect": 0.3874999999825377,
+        "lookup": 0.371000000013737,
+        "ai": 0,
+        "total": 1.9215999999723863
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_57",
+      "text": "Vilka färger finns i serien Konjak? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1401000000187196,
+        "detect": 0.4026999999769032,
+        "lookup": 0.36910000001080334,
+        "ai": 0,
+        "total": 1.916300000011688
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_58",
+      "text": "Vilka mått finns klinkerdäck® i? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1779000000096858,
+        "detect": 0.39959999997518025,
+        "lookup": 0.36340000000200234,
+        "ai": 0,
+        "total": 1.9456000000063796
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_59",
+      "text": "Vilka mått finns klinkerdäck® i? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1457999999984168,
+        "detect": 0.4090999999898486,
+        "lookup": 0.36360000001150183,
+        "ai": 0,
+        "total": 1.922500000015134
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_60",
+      "text": "Vilka färger finns tillgängliga? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1621999999915715,
+        "detect": 0.40429999999469146,
+        "lookup": 0.3632000000216067,
+        "ai": 0,
+        "total": 1.9337999999988824
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_61",
+      "text": "Vilka färger finns tillgängliga? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1310999999986961,
+        "detect": 0.3969000000215601,
+        "lookup": 0.40920000002370216,
+        "ai": 0,
+        "total": 1.941400000010617
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_62",
+      "text": "Vilken vikt har en platta? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.365399999980582,
+        "detect": 0.4588999999978114,
+        "lookup": 0.4641000000119675,
+        "ai": 0,
+        "total": 2.2929000000003725
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_63",
+      "text": "Vilken vikt har en platta? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2030000000086147,
+        "detect": 0.41999999998370185,
+        "lookup": 0.3986000000149943,
+        "ai": 0,
+        "total": 2.0258000000030734
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_6510",
+      "text": "Hvilke højder af fødder har I?",
+      "lang": "DA",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2175.4414999999863,
+        "detect": 0.775999999983469,
+        "lookup": 0.3740000000107102,
+        "ai": 0,
+        "total": 2176.597999999998
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_3361",
+      "text": "Hvilke størrelser fås klinkerdäck® i? lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lore",
+      "lang": "DA",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2195.908299999981,
+        "detect": 0.9598000000114553,
+        "lookup": 0.4651000000012573,
+        "ai": 0,
+        "total": 2197.3403999999864
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_66",
+      "text": "Har plattorna någon CE-märkning? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5777999999991152,
+        "detect": 0.5070999999879859,
+        "lookup": 0.5574000000196975,
+        "ai": 0,
+        "total": 2.6485000000102445
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_67",
+      "text": "Har plattorna någon CE-märkning? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3788999999815132,
+        "detect": 0.5176999999966938,
+        "lookup": 0.4887000000162516,
+        "ai": 0,
+        "total": 2.3901999999943655
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_68",
+      "text": "Finns det olika ytstrukturer (släta, strukturerade)? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5060000000230502,
+        "detect": 0.5278000000107568,
+        "lookup": 0.46429999999236315,
+        "ai": 0,
+        "total": 2.5027999999874737
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_69",
+      "text": "Finns det olika ytstrukturer (släta, strukturerade)? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3614999999990687,
+        "detect": 0.41550000000279397,
+        "lookup": 0.36960000000544824,
+        "ai": 0,
+        "total": 2.1510999999882188
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_70",
+      "text": "Finns det tekniska datablad att ladda ner? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1728000000002794,
+        "detect": 0.5298999999940861,
+        "lookup": 0.39100000000325963,
+        "ai": 0,
+        "total": 2.098100000002887
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_71",
+      "text": "Finns det tekniska datablad att ladda ner? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1499999999941792,
+        "detect": 0.4377999999851454,
+        "lookup": 0.45829999999841675,
+        "ai": 0,
+        "total": 2.050500000012107
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_72",
+      "text": "Är plattorna resistenta mot kemikalier? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1964000000152737,
+        "detect": 0.4032000000006519,
+        "lookup": 0.35679999997955747,
+        "ai": 0,
+        "total": 1.9602999999769963
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_73",
+      "text": "Är plattorna resistenta mot kemikalier? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1362000000081025,
+        "detect": 0.42569999999250285,
+        "lookup": 0.47399999998742715,
+        "ai": 0,
+        "total": 2.0403999999980442
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_74",
+      "text": "Vilka toleranser gäller för mått och form? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4804000000003725,
+        "detect": 0.5948999999964144,
+        "lookup": 0.47029999998630956,
+        "ai": 0,
+        "total": 2.5504000000073574
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_75",
+      "text": "Vilka toleranser gäller för mått och form? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5184000000008382,
+        "detect": 0.4138000000093598,
+        "lookup": 0.3648000000102911,
+        "ai": 0,
+        "total": 2.3016999999817926
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_76",
+      "text": "Kan man lägga plattorna direkt på grus? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1754000000073574,
+        "detect": 0.4188999999896623,
+        "lookup": 0.3779999999969732,
+        "ai": 0,
+        "total": 1.9771999999938998
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_77",
+      "text": "Kan man lägga plattorna direkt på grus? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3551000000152271,
+        "detect": 0.5472000000008848,
+        "lookup": 0.4379999999946449,
+        "ai": 0,
+        "total": 2.345100000005914
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_78",
+      "text": "Måste man limma plattorna vid installation? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1497000000090338,
+        "detect": 0.40820000000530854,
+        "lookup": 0.4297999999835156,
+        "ai": 0,
+        "total": 1.9931999999971595
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_79",
+      "text": "Måste man limma plattorna vid installation? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5436999999801628,
+        "detect": 0.4646999999822583,
+        "lookup": 0.4242999999842141,
+        "ai": 0,
+        "total": 2.4373999999952503
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_80",
+      "text": "Kan plattorna läggas på en träaltan? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3392999999923632,
+        "detect": 0.4668999999994412,
+        "lookup": 0.5204000000085216,
+        "ai": 0,
+        "total": 2.3311000000103377
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_81",
+      "text": "Kan plattorna läggas på en träaltan? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2989999999990687,
+        "detect": 0.4843999999866355,
+        "lookup": 0.4260000000067521,
+        "ai": 0,
+        "total": 2.214300000021467
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_82",
+      "text": "Kan man kapa plattorna själv? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.184399999998277,
+        "detect": 0.4539999999979045,
+        "lookup": 0.36739999998826534,
+        "ai": 0,
+        "total": 2.010600000008708
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_83",
+      "text": "Kan man kapa plattorna själv? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.38990000000922,
+        "detect": 0.4252999999735039,
+        "lookup": 0.3839999999909196,
+        "ai": 0,
+        "total": 2.2041000000026543
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_84",
+      "text": "Vilka verktyg rekommenderas för kapning? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1715000000258442,
+        "detect": 0.43290000001434237,
+        "lookup": 0.3816999999980908,
+        "ai": 0,
+        "total": 1.9909000000043306
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_85",
+      "text": "Vilka verktyg rekommenderas för kapning? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1330999999772757,
+        "detect": 0.4269999999960419,
+        "lookup": 0.36139999999431893,
+        "ai": 0,
+        "total": 1.9263000000210013
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_86",
+      "text": "Kan man lägga plattorna på en balkong? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 4.16479999999865,
+        "detect": 0.49319999999715947,
+        "lookup": 0.43099999998230487,
+        "ai": 0,
+        "total": 5.094799999991665
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_87",
+      "text": "Kan man lägga plattorna på en balkong? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2969000000157394,
+        "detect": 0.4125999999814667,
+        "lookup": 0.3853999999992084,
+        "ai": 0,
+        "total": 2.0988999999826774
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_88",
+      "text": "Behöver man distanskryss när man lägger plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2096000000019558,
+        "detect": 0.5889999999781139,
+        "lookup": 0.454200000007404,
+        "ai": 0,
+        "total": 2.257500000006985
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_89",
+      "text": "Behöver man distanskryss när man lägger plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3971000000019558,
+        "detect": 0.5356000000028871,
+        "lookup": 0.37719999998807907,
+        "ai": 0,
+        "total": 2.3144000000029337
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_90",
+      "text": "Kan man lägga plattorna inomhus? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1607000000076368,
+        "detect": 0.448900000017602,
+        "lookup": 0.36919999998644926,
+        "ai": 0,
+        "total": 1.9831000000122003
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_91",
+      "text": "Kan man lägga plattorna inomhus? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1450999999942724,
+        "detect": 0.43339999997988343,
+        "lookup": 0.39949999999953434,
+        "ai": 0,
+        "total": 1.9821000000229105
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_92",
+      "text": "Fungerar plattorna på lutande underlag? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.184800000017276,
+        "detect": 0.39579999999841675,
+        "lookup": 0.36369999998714775,
+        "ai": 0,
+        "total": 1.9483999999938533
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_93",
+      "text": "Fungerar plattorna på lutande underlag? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.407199999986915,
+        "detect": 0.4358000000065658,
+        "lookup": 0.3883999999961816,
+        "ai": 0,
+        "total": 2.23599999997532
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_94",
+      "text": "Hur rengör man plattorna bäst? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4948999999905936,
+        "detect": 0.514100000000326,
+        "lookup": 0.45480000000679865,
+        "ai": 0,
+        "total": 2.46830000000773
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_95",
+      "text": "Hur rengör man plattorna bäst? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3871999999973923,
+        "detect": 0.41699999998672865,
+        "lookup": 0.4039000000047963,
+        "ai": 0,
+        "total": 2.2124999999941792
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_96",
+      "text": "Kan man använda högtryckstvätt på plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3602000000246335,
+        "detect": 0.5278000000107568,
+        "lookup": 0.46529999998165295,
+        "ai": 0,
+        "total": 2.3575999999884516
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_97",
+      "text": "Kan man använda högtryckstvätt på plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4694000000017695,
+        "detect": 0.5771999999997206,
+        "lookup": 0.41849999999976717,
+        "ai": 0,
+        "total": 2.469599999982165
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_98",
+      "text": "Behöver plattorna behandlas med impregnering? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.463000000017928,
+        "detect": 0.5270000000018626,
+        "lookup": 0.46330000000307336,
+        "ai": 0,
+        "total": 2.4579000000085216
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_99",
+      "text": "Behöver plattorna behandlas med impregnering? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4239999999990687,
+        "detect": 0.41099999999278225,
+        "lookup": 0.37460000001010485,
+        "ai": 0,
+        "total": 2.213900000002468
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_100",
+      "text": "Hur tar man bort mossa och alger från plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.136499999993248,
+        "detect": 0.43809999999939464,
+        "lookup": 0.45539999997708946,
+        "ai": 0,
+        "total": 2.034400000004098
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_101",
+      "text": "Hur tar man bort mossa och alger från plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3029999999853317,
+        "detect": 0.38860000000568107,
+        "lookup": 0.45950000002630986,
+        "ai": 0,
+        "total": 2.1551000000035856
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_102",
+      "text": "Hur påverkas plattorna av salt på vintern? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4477999999944586,
+        "detect": 0.5228999999817461,
+        "lookup": 0.467899999988731,
+        "ai": 0,
+        "total": 2.4428999999945518
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_103",
+      "text": "Hur påverkas plattorna av salt på vintern? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4474000000045635,
+        "detect": 0.5190000000002328,
+        "lookup": 0.45430000001215376,
+        "ai": 0,
+        "total": 2.425199999997858
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_104",
+      "text": "Kan plattorna missfärgas av vin, olja eller andra fläckar? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4365999999863561,
+        "detect": 0.5156999999890104,
+        "lookup": 0.4606999999959953,
+        "ai": 0,
+        "total": 2.417199999996228
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_105",
+      "text": "Kan plattorna missfärgas av vin, olja eller andra fläckar? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.438800000003539,
+        "detect": 0.4949999999953434,
+        "lookup": 0.3924000000115484,
+        "ai": 0,
+        "total": 2.330199999996694
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2626",
+      "text": "Gibt es Empfehlungen zur Beleuchtung von Treppenstufen? (1.234,50 €)",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2.4833999999973457,
+        "detect": 675.9755000000005,
+        "lookup": 0.476600000023609,
+        "ai": 0,
+        "total": 678.9433000000136
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_106",
+      "text": "Krävs det speciell vinterförvaring? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4769999999844003,
+        "detect": 465.6773000000103,
+        "lookup": 0.3977000000013504,
+        "ai": 0,
+        "total": 467.55770000000484
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_108",
+      "text": "Hur lång livslängd har plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2257000000099652,
+        "detect": 0.40829999998095445,
+        "lookup": 0.3717999999935273,
+        "ai": 0,
+        "total": 2.010199999989709
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_109",
+      "text": "Hur lång livslängd har plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1598999999987427,
+        "detect": 0.42660000000614673,
+        "lookup": 0.3623999999836087,
+        "ai": 0,
+        "total": 1.953300000022864
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_110",
+      "text": "Kan plattorna slipas eller renoveras? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1894000000029337,
+        "detect": 0.3941000000049826,
+        "lookup": 0.3630999999877531,
+        "ai": 0,
+        "total": 1.950699999986682
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_111",
+      "text": "Kan plattorna slipas eller renoveras? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1203000000095926,
+        "detect": 0.4043000000237953,
+        "lookup": 0.3607999999949243,
+        "ai": 0,
+        "total": 1.8893999999854714
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_112",
+      "text": "Är plattorna halksäkra? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.141299999988405,
+        "detect": 0.43940000000293367,
+        "lookup": 0.3431000000273343,
+        "ai": 0,
+        "total": 1.927399999985937
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_113",
+      "text": "Är plattorna halksäkra? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0740999999979977,
+        "detect": 0.3754999999946449,
+        "lookup": 0.34479999999166466,
+        "ai": 0,
+        "total": 1.7978000000002794
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_7147",
+      "text": "Wie entferne ich Rostflecken",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2780.5181999999913,
+        "detect": 0.39280000000144355,
+        "lookup": 0.4614000000001397,
+        "ai": 0,
+        "total": 2781.3799
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_65",
+      "text": "Vilket material tillverkas klinkerdäck® av? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1735000000044238,
+        "detect": 609.4991999999911,
+        "lookup": 0.3717999999935273,
+        "ai": 0,
+        "total": 611.049399999989
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_116",
+      "text": "Kan man använda plattorna vid poolområden? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1441000000049826,
+        "detect": 0.4048000000184402,
+        "lookup": 0.3580999999830965,
+        "ai": 0,
+        "total": 1.9112999999779277
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_117",
+      "text": "Kan man använda plattorna vid poolområden? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.148300000000745,
+        "detect": 0.5009999999892898,
+        "lookup": 0.4798000000009779,
+        "ai": 0,
+        "total": 2.134299999976065
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_118",
+      "text": "Är plattorna säkra för barn att leka på? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1607999999832828,
+        "detect": 0.39400000000023283,
+        "lookup": 0.36220000000321306,
+        "ai": 0,
+        "total": 1.9212999999872409
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_119",
+      "text": "Är plattorna säkra för barn att leka på? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.14179999998305,
+        "detect": 0.3882000000157859,
+        "lookup": 0.3614999999990687,
+        "ai": 0,
+        "total": 1.8955000000132713
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_120",
+      "text": "Kan äldre personer gå säkert på plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1590999999898486,
+        "detect": 0.3942000000097323,
+        "lookup": 0.35699999998905696,
+        "ai": 0,
+        "total": 1.9143000000040047
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_121",
+      "text": "Kan äldre personer gå säkert på plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.111799999984214,
+        "detect": 0.40129999999771826,
+        "lookup": 0.40170000001671724,
+        "ai": 0,
+        "total": 1.9190999999991618
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_122",
+      "text": "Hur testas halksäkerheten? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.4060999999928754,
+        "detect": 0.38730000000214204,
+        "lookup": 0.3620000000228174,
+        "ai": 0,
+        "total": 1.161500000016531
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_123",
+      "text": "Hur testas halksäkerheten? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.3618999999889638,
+        "detect": 0.38759999998728745,
+        "lookup": 0.36019999999552965,
+        "ai": 0,
+        "total": 1.1169999999983702
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_124",
+      "text": "Kan plattorna bli hala vid isbildning? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1368000000074971,
+        "detect": 0.3747000000148546,
+        "lookup": 0.35149999998975545,
+        "ai": 0,
+        "total": 1.8667000000132248
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_125",
+      "text": "Kan plattorna bli hala vid isbildning? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0604999999923166,
+        "detect": 0.369299999991199,
+        "lookup": 0.3444000000017695,
+        "ai": 0,
+        "total": 1.777799999981653
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_126",
+      "text": "Finns det någon garanti på halkskyddet? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.126700000022538,
+        "detect": 0.38380000001052395,
+        "lookup": 0.5058999999891967,
+        "ai": 0,
+        "total": 2.0210000000079162
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_127",
+      "text": "Finns det någon garanti på halkskyddet? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2744999999995343,
+        "detect": 0.38910000000032596,
+        "lookup": 0.36269999999785796,
+        "ai": 0,
+        "total": 2.0309999999881256
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_128",
+      "text": "Kan man använda halkskyddstejp tillsammans med plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1163999999989755,
+        "detect": 0.39080000002286397,
+        "lookup": 0.3611000000091735,
+        "ai": 0,
+        "total": 1.8729000000166707
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_129",
+      "text": "Kan man använda halkskyddstejp tillsammans med plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1262000000278931,
+        "detect": 0.3849000000045635,
+        "lookup": 0.3533999999926891,
+        "ai": 0,
+        "total": 1.8686000000161584
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_130",
+      "text": "Hur lång är livslängden på klinkerdäck®? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1266999999934342,
+        "detect": 0.4409000000159722,
+        "lookup": 0.35890000002109446,
+        "ai": 0,
+        "total": 1.930900000006659
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_131",
+      "text": "Hur lång är livslängden på klinkerdäck®? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.158900000009453,
+        "detect": 0.41000000000349246,
+        "lookup": 0.36770000000251457,
+        "ai": 0,
+        "total": 1.9407000000064727
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_132",
+      "text": "Är plattorna UV-beständiga? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.116199999989476,
+        "detect": 0.38910000000032596,
+        "lookup": 0.35890000002109446,
+        "ai": 0,
+        "total": 1.868400000006659
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_133",
+      "text": "Är plattorna UV-beständiga? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0945999999821652,
+        "detect": 0.3782000000064727,
+        "lookup": 0.35390000001643784,
+        "ai": 0,
+        "total": 1.831000000005588
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_134",
+      "text": "Tål plattorna frost och kyla? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1008999999903608,
+        "detect": 0.38689999998314306,
+        "lookup": 0.3538000000116881,
+        "ai": 0,
+        "total": 1.8457000000053085
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_135",
+      "text": "Tål plattorna frost och kyla? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1040999999968335,
+        "detect": 0.3842000000004191,
+        "lookup": 0.3620999999984633,
+        "ai": 0,
+        "total": 1.8545000000158325
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_136",
+      "text": "Är plattorna resistenta mot slitage? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1106999999901745,
+        "detect": 0.3809999999939464,
+        "lookup": 0.35169999999925494,
+        "ai": 0,
+        "total": 1.8476000000082422
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_137",
+      "text": "Är plattorna resistenta mot slitage? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1091000000014901,
+        "detect": 0.37780000001657754,
+        "lookup": 0.3524000000033993,
+        "ai": 0,
+        "total": 1.8434999999881256
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_138",
+      "text": "Kan man använda plattorna i offentliga miljöer? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1026999999885447,
+        "detect": 0.41820000001462176,
+        "lookup": 0.45809999998891726,
+        "ai": 0,
+        "total": 1.9834999999729916
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_139",
+      "text": "Kan man använda plattorna i offentliga miljöer? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3254000000015367,
+        "detect": 0.3947000000043772,
+        "lookup": 0.3623999999836087,
+        "ai": 0,
+        "total": 2.0868999999947846
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_140",
+      "text": "Tål plattorna kemikalier? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1107999999949243,
+        "detect": 0.3824000000022352,
+        "lookup": 0.3934000000008382,
+        "ai": 0,
+        "total": 1.8905999999842606
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_141",
+      "text": "Tål plattorna kemikalier? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.098500000021886,
+        "detect": 0.3832000000111293,
+        "lookup": 0.3603000000002794,
+        "ai": 0,
+        "total": 1.8460999999952037
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_142",
+      "text": "Är plattorna reptåliga? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0978999999933876,
+        "detect": 0.3769999999785796,
+        "lookup": 0.35399999999208376,
+        "ai": 0,
+        "total": 1.8332000000227708
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_143",
+      "text": "Är plattorna reptåliga? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1116999999794643,
+        "detect": 0.38229999999748543,
+        "lookup": 0.3528999999980442,
+        "ai": 0,
+        "total": 1.8508999999903608
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_144",
+      "text": "Hur påverkas plattorna av tung belastning? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1068000000086613,
+        "detect": 0.3807999999844469,
+        "lookup": 0.3593000000109896,
+        "ai": 0,
+        "total": 1.851299999980256
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_145",
+      "text": "Hur påverkas plattorna av tung belastning? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1300000000046566,
+        "detect": 0.3804999999993015,
+        "lookup": 0.3625999999931082,
+        "ai": 0,
+        "total": 1.877199999988079
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_146",
+      "text": "Hur lång garanti ges på hållbarheten? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.104300000006333,
+        "detect": 0.38380000001052395,
+        "lookup": 0.3580000000074506,
+        "ai": 0,
+        "total": 1.8502999999909662
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_147",
+      "text": "Hur lång garanti ges på hållbarheten? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.140800000022864,
+        "detect": 0.4385000000183936,
+        "lookup": 0.36340000000200234,
+        "ai": 0,
+        "total": 1.947199999995064
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1222",
+      "text": "Är klinkerdäck® återvinningsbart? (1 234,50 kr)",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5327000000106636,
+        "detect": 794.5469999999914,
+        "lookup": 0.3737000000255648,
+        "ai": 0,
+        "total": 796.4580999999889
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_4150",
+      "text": "Levererar ni i hela Sverige?",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4604999999864958,
+        "detect": 829.9408000000112,
+        "lookup": 0.37819999997736886,
+        "ai": 0,
+        "total": 831.7856000000029
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_150",
+      "text": "Är plattorna återvinningsbara? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.157100000011269,
+        "detect": 0.4153999999980442,
+        "lookup": 0.36269999999785796,
+        "ai": 0,
+        "total": 1.9397999999928288
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_151",
+      "text": "Är plattorna återvinningsbara? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1048000000009779,
+        "detect": 0.38450000001466833,
+        "lookup": 0.3619999999937136,
+        "ai": 0,
+        "total": 1.855600000009872
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_64",
+      "text": "Vilket material tillverkas klinkerdäck® av? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3078999999852385,
+        "detect": 704.5818999999901,
+        "lookup": 0.3747999999905005,
+        "ai": 0,
+        "total": 706.2688999999955
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2612",
+      "text": "Wie reinige ich die Fugen, ohne sie zu beschädigen? (1.234,50 €)",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2877.921799999982,
+        "detect": 0.3941000000049826,
+        "lookup": 0.392100000026403,
+        "ai": 0,
+        "total": 2878.7137999999977
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_154",
+      "text": "Kan man använda plattorna inomhus? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1898999999975786,
+        "detect": 0.39850000001024455,
+        "lookup": 0.3610000000044238,
+        "ai": 0,
+        "total": 1.9536000000080094
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_155",
+      "text": "Kan man använda plattorna inomhus? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1677000000199769,
+        "detect": 0.4551999999966938,
+        "lookup": 0.3662999999942258,
+        "ai": 0,
+        "total": 1.9936999999918044
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2669",
+      "text": "Können Sie in andere EU-Länder liefern? 08.10.2025",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2078.4853000000003,
+        "detect": 837.7548000000243,
+        "lookup": 0.40580000000773,
+        "ai": 0,
+        "total": 2916.6547000000137
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_114",
+      "text": "Är klinkerdäck® brandsäkert? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1247999999905005,
+        "detect": 394.391100000008,
+        "lookup": 0.4857999999949243,
+        "ai": 0,
+        "total": 396.00779999999213
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_158",
+      "text": "Kan plattorna användas på balkong? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4843999999866355,
+        "detect": 0.4937999999965541,
+        "lookup": 0.44909999999799766,
+        "ai": 0,
+        "total": 2.432700000004843
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_159",
+      "text": "Kan plattorna användas på balkong? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3978000000061002,
+        "detect": 0.5156000000133645,
+        "lookup": 0.4531999999890104,
+        "ai": 0,
+        "total": 2.3716000000131316
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_160",
+      "text": "Kan man använda plattorna i kommersiella lokaler? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.45110000000568107,
+        "detect": 0.4930000000167638,
+        "lookup": 0.4566000000049826,
+        "ai": 0,
+        "total": 1.4051000000035856
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_161",
+      "text": "Kan man använda plattorna i kommersiella lokaler? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.447199999995064,
+        "detect": 0.5341999999945983,
+        "lookup": 0.502699999982724,
+        "ai": 0,
+        "total": 1.490399999980582
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_162",
+      "text": "Hur påverkar produktionen miljön? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4268000000156462,
+        "detect": 0.568200000008801,
+        "lookup": 0.45480000000679865,
+        "ai": 0,
+        "total": 2.4548999999824446
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_163",
+      "text": "Hur påverkar produktionen miljön? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5050000000046566,
+        "detect": 0.4813999999896623,
+        "lookup": 0.45530000000144355,
+        "ai": 0,
+        "total": 2.4470000000146683
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_164",
+      "text": "Är produkterna certifierade för miljöbyggnation? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4409000000159722,
+        "detect": 0.498699999996461,
+        "lookup": 0.45609999998123385,
+        "ai": 0,
+        "total": 2.400900000007823
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_165",
+      "text": "Är produkterna certifierade för miljöbyggnation? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4744000000064261,
+        "detect": 0.4861000000091735,
+        "lookup": 0.4539999999979045,
+        "ai": 0,
+        "total": 2.4192000000039116
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_107",
+      "text": "Krävs det speciell vinterförvaring? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5094999999855645,
+        "detect": 567.7709999999788,
+        "lookup": 0.4340999999840278,
+        "ai": 0,
+        "total": 569.7204999999958
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_148",
+      "text": "Är klinkerdäck® miljövänligt? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1977000000188127,
+        "detect": 435.94369999997434,
+        "lookup": 0.4414000000106171,
+        "ai": 0,
+        "total": 437.5945000000065
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_149",
+      "text": "Är klinkerdäck® miljövänligt? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1679000000003725,
+        "detect": 441.1575999999768,
+        "lookup": 0.4455000000016298,
+        "ai": 0,
+        "total": 442.7768999999971
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_2627",
+      "text": "Gibt es Empfehlungen zur Beleuchtung von Treppenstufen? 08.10.2025",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2580.9396000000124,
+        "detect": 735.1695999999938,
+        "lookup": 0.5100000000093132,
+        "ai": 0,
+        "total": 3316.6277999999875
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_157",
+      "text": "Passar klinkerdäck® till poolområden? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.163299999985611,
+        "detect": 486.43009999999776,
+        "lookup": 0.5000999999756459,
+        "ai": 0,
+        "total": 488.09969999999157
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_115",
+      "text": "Är klinkerdäck® brandsäkert? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2739999999757856,
+        "detect": 624.3301999999967,
+        "lookup": 0.37539999998989515,
+        "ai": 0,
+        "total": 625.9848000000056
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1770",
+      "text": "Is there support after delivery? ($1,234.50)",
+      "lang": "EN",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4218999999866355,
+        "detect": 1441.9599999999919,
+        "lookup": 0.5248999999894295,
+        "ai": 0,
+        "total": 1443.913499999995
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_153",
+      "text": "Tillverkas produkterna i Sverige? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1733000000240281,
+        "detect": 653.4918999999936,
+        "lookup": 0.3941000000049826,
+        "ai": 0,
+        "total": 655.0647000000172
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_167",
+      "text": "Levererar ni i hela Sverige? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2243000000016764,
+        "detect": 449.46609999999055,
+        "lookup": 0.4147999999986496,
+        "ai": 0,
+        "total": 451.11149999999907
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_166",
+      "text": "Levererar ni i hela Sverige? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4451999999873806,
+        "detect": 523.9510999999766,
+        "lookup": 0.3800000000046566,
+        "ai": 0,
+        "total": 525.7816999999923
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_176",
+      "text": "Hur lång är leveranstiden normalt? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1361000000033528,
+        "detect": 0.3867000000027474,
+        "lookup": 0.36969999998109415,
+        "ai": 0,
+        "total": 1.8973999999871012
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_177",
+      "text": "Hur lång är leveranstiden normalt? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1042000000015832,
+        "detect": 0.3804999999993015,
+        "lookup": 0.34870000000228174,
+        "ai": 0,
+        "total": 1.8377000000036787
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_178",
+      "text": "Vad kostar frakten? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.168199999985518,
+        "detect": 0.3889999999955762,
+        "lookup": 0.35269999998854473,
+        "ai": 0,
+        "total": 1.9143000000040047
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_179",
+      "text": "Vad kostar frakten? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0848999999871012,
+        "detect": 0.3804999999993015,
+        "lookup": 0.35219999999389984,
+        "ai": 0,
+        "total": 1.822199999995064
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_180",
+      "text": "Kan man boka tid för leverans? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.3565000000235159,
+        "detect": 0.4365000000107102,
+        "lookup": 0.3555999999807682,
+        "ai": 0,
+        "total": 1.1528999999864027
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_181",
+      "text": "Kan man boka tid för leverans? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.3476000000082422,
+        "detect": 0.3827999999921303,
+        "lookup": 0.34720000001834705,
+        "ai": 0,
+        "total": 1.0817999999853782
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_182",
+      "text": "Kan man hämta plattorna själv i lager? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0983000000123866,
+        "detect": 0.37580000000889413,
+        "lookup": 0.36089999999967404,
+        "ai": 0,
+        "total": 1.8395000000018626
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_183",
+      "text": "Kan man hämta plattorna själv i lager? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0975000000034925,
+        "detect": 0.3742999999958556,
+        "lookup": 0.36770000000251457,
+        "ai": 0,
+        "total": 1.8436999999976251
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_184",
+      "text": "Vad kostar klinkerdäck® per kvadratmeter? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0785999999789055,
+        "detect": 0.45160000000032596,
+        "lookup": 0.4412999999767635,
+        "ai": 0,
+        "total": 1.9765999999945052
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_185",
+      "text": "Vad kostar klinkerdäck® per kvadratmeter? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1145000000251457,
+        "detect": 0.380700000008801,
+        "lookup": 0.35549999997601844,
+        "ai": 0,
+        "total": 1.8549000000057276
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_186",
+      "text": "Kan man få offert på större projekt? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0811999999859836,
+        "detect": 0.38339999999152496,
+        "lookup": 0.39000000001396984,
+        "ai": 0,
+        "total": 1.8589000000210945
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_187",
+      "text": "Kan man få offert på större projekt? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1640000000188593,
+        "detect": 0.4765000000188593,
+        "lookup": 0.38100000002305023,
+        "ai": 0,
+        "total": 2.025999999983469
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_169",
+      "text": "Levererar ni till Danmark och Tyskland? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.493799999996554,
+        "detect": 438.05489999998827,
+        "lookup": 0.3678000000072643,
+        "ai": 0,
+        "total": 439.9211999999825
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_171",
+      "text": "Levererar ni till Finland? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.507499999977881,
+        "detect": 346.3497999999963,
+        "lookup": 0.37440000000060536,
+        "ai": 0,
+        "total": 348.23629999998957
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_190",
+      "text": "Vilken tjocklek har plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0886999999929685,
+        "detect": 0.3735000000160653,
+        "lookup": 0.36880000002565794,
+        "ai": 0,
+        "total": 1.8355000000155997
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_191",
+      "text": "Vilken tjocklek har plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1286000000254717,
+        "detect": 0.37659999998868443,
+        "lookup": 0.3418999999994412,
+        "ai": 0,
+        "total": 1.8515999999945052
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_192",
+      "text": "Finns plattorna med fasad kant? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1057999999902677,
+        "detect": 0.370599999994738,
+        "lookup": 0.34500000000116415,
+        "ai": 0,
+        "total": 1.8258999999961816
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_193",
+      "text": "Finns plattorna med fasad kant? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1116000000038184,
+        "detect": 0.37060000002384186,
+        "lookup": 0.35420000000158325,
+        "ai": 0,
+        "total": 1.840200000006007
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_194",
+      "text": "Hur stor är kalibreringstoleransen? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0783999999985099,
+        "detect": 0.3913999999931548,
+        "lookup": 0.3493000000016764,
+        "ai": 0,
+        "total": 1.8232999999891035
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_195",
+      "text": "Hur stor är kalibreringstoleransen? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.191900000005262,
+        "detect": 0.5315000000118744,
+        "lookup": 0.46720000001369044,
+        "ai": 0,
+        "total": 2.19539999999688
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_196",
+      "text": "Hur stor fogbredd rekommenderar ni? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3561999999801628,
+        "detect": 0.47770000001764856,
+        "lookup": 0.43859999999403954,
+        "ai": 0,
+        "total": 2.2770000000018626
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_197",
+      "text": "Hur stor fogbredd rekommenderar ni? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3879000000015367,
+        "detect": 0.4795999999914784,
+        "lookup": 0.37519999998039566,
+        "ai": 0,
+        "total": 2.2476000000024214
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_198",
+      "text": "Finns plattorna i matt eller halvmatt yta? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0834999999788124,
+        "detect": 0.376300000003539,
+        "lookup": 0.3501000000105705,
+        "ai": 0,
+        "total": 1.8140000000130385
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_199",
+      "text": "Finns plattorna i matt eller halvmatt yta? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0841000000073109,
+        "detect": 0.4263000000210013,
+        "lookup": 0.3441000000166241,
+        "ai": 0,
+        "total": 1.8592000000062399
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_200",
+      "text": "Hur packas plattorna på pall? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0822000000043772,
+        "detect": 0.3889000000199303,
+        "lookup": 0.3566999999748077,
+        "ai": 0,
+        "total": 1.8320999999996275
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_201",
+      "text": "Hur packas plattorna på pall? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0610000000160653,
+        "detect": 0.3717999999935273,
+        "lookup": 0.34179999999469146,
+        "ai": 0,
+        "total": 1.779099999985192
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_202",
+      "text": "Vilka kulörer är mest färgstabila över tid? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0699000000022352,
+        "detect": 0.3797999999951571,
+        "lookup": 0.3461000000243075,
+        "ai": 0,
+        "total": 1.7999000000127126
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_203",
+      "text": "Vilka kulörer är mest färgstabila över tid? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0564000000013039,
+        "detect": 0.369700000010198,
+        "lookup": 0.3426999999792315,
+        "ai": 0,
+        "total": 1.772899999981746
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_204",
+      "text": "Finns produktcertifikat och provningsprotokoll? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.505299999989802,
+        "detect": 0.4866000000038184,
+        "lookup": 0.3687999999965541,
+        "ai": 0,
+        "total": 1.365300000004936
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_205",
+      "text": "Finns produktcertifikat och provningsprotokoll? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 0.354300000006333,
+        "detect": 0.40030000000842847,
+        "lookup": 0.35270000001764856,
+        "ai": 0,
+        "total": 1.1112999999895692
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_206",
+      "text": "Vilket fall bör underlaget ha för dränering? (1 234,50 kr) ",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "SE",
+        "confidence": 0,
+        "scores": {
+          "SE": 0,
+          "EN": 0,
+          "DA": 0,
+          "DE": 0
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1013999999850057,
+        "detect": 0.427800000004936,
+        "lookup": 0.41340000001946464,
+        "ai": 0,
+        "total": 2.018899999995483
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got DE, want SE",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_207",
+      "text": "Vilket fall bör underlaget ha för dränering? 2025-10-08 ",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "SE",
+        "confidence": 0,
+        "scores": {
+          "SE": 0,
+          "EN": 0,
+          "DA": 0,
+          "DE": 0
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2085999999835622,
+        "detect": 0.3747999999905005,
+        "lookup": 0.3610000000044238,
+        "ai": 0,
+        "total": 1.9844999999913853
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got DE, want SE",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_208",
+      "text": "Kan jag lägga plattorna på befintlig betongplatta? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0657999999821186,
+        "detect": 0.37789999999222346,
+        "lookup": 0.34549999999580905,
+        "ai": 0,
+        "total": 1.793600000004517
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_209",
+      "text": "Kan jag lägga plattorna på befintlig betongplatta? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0630999999993946,
+        "detect": 0.37609999999403954,
+        "lookup": 0.36240000001271255,
+        "ai": 0,
+        "total": 1.805900000006659
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_210",
+      "text": "Behöver jag frostskyddslager under plattorna? (1 234,50 kr) ",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "SE",
+        "confidence": 0.08,
+        "scores": {
+          "SE": 0.08,
+          "EN": 0,
+          "DA": 0,
+          "DE": 0
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1437999999907333,
+        "detect": 0.388699999981327,
+        "lookup": 0.34899999998742715,
+        "ai": 0,
+        "total": 1.9293000000179745
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got DE, want SE",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_211",
+      "text": "Behöver jag frostskyddslager under plattorna? 2025-10-08 ",
+      "lang": "DE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": {
+        "suggested": "SE",
+        "confidence": 0.08,
+        "scores": {
+          "SE": 0.08,
+          "EN": 0,
+          "DA": 0,
+          "DE": 0
+        }
+      },
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0614000000059605,
+        "detect": 0.375400000018999,
+        "lookup": 0.35190000000875443,
+        "ai": 0,
+        "total": 1.8803000000189058
+      },
+      "status": "fail",
+      "reason": "Language mismatch: got DE, want SE",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_212",
+      "text": "Vilken fog rekommenderas mellan plattorna? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0613999999768566,
+        "detect": 0.3880000000062864,
+        "lookup": 0.48749999998835847,
+        "ai": 0,
+        "total": 1.941400000010617
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_213",
+      "text": "Vilken fog rekommenderas mellan plattorna? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1362000000081025,
+        "detect": 0.39259999999194406,
+        "lookup": 0.3628000000026077,
+        "ai": 0,
+        "total": 1.8962999999930616
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_214",
+      "text": "Hur hanterar jag rörelsefogar? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0979999999981374,
+        "detect": 0.38380000001052395,
+        "lookup": 0.3680000000167638,
+        "ai": 0,
+        "total": 1.8542000000015832
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_215",
+      "text": "Hur hanterar jag rörelsefogar? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1752000000269618,
+        "detect": 0.38910000000032596,
+        "lookup": 0.34899999998742715,
+        "ai": 0,
+        "total": 1.9174000000057276
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_216",
+      "text": "Kan plattorna läggas på justerbara fötter? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1029999999736901,
+        "detect": 0.38039999999455176,
+        "lookup": 0.3685000000114087,
+        "ai": 0,
+        "total": 1.8562000000092667
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_217",
+      "text": "Kan plattorna läggas på justerbara fötter? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1473000000114553,
+        "detect": 0.3784000000159722,
+        "lookup": 0.35699999998905696,
+        "ai": 0,
+        "total": 1.887300000002142
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_170",
+      "text": "Levererar ni till Finland? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5115999999979977,
+        "detect": 613.6879999999946,
+        "lookup": 0.5020000000076834,
+        "ai": 0,
+        "total": 615.7082999999984
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_174",
+      "text": "Levererar ni utanför EU? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1515999999828637,
+        "detect": 503.8264999999956,
+        "lookup": 0.39699999999720603,
+        "ai": 0,
+        "total": 505.37960000001476
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_220",
+      "text": "Hur avslutar jag mot kanter och rabatter? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1356000000087079,
+        "detect": 0.3720000000030268,
+        "lookup": 0.34619999999995343,
+        "ai": 0,
+        "total": 1.857799999997951
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_221",
+      "text": "Hur avslutar jag mot kanter och rabatter? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0755000000062864,
+        "detect": 0.35649999999441206,
+        "lookup": 0.3430999999982305,
+        "ai": 0,
+        "total": 1.7786999999952968
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_222",
+      "text": "Hur ofta bör man städa en uteplats med klinkerdäck®? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0993000000016764,
+        "detect": 0.3834000000206288,
+        "lookup": 0.34669999999459833,
+        "ai": 0,
+        "total": 1.8361000000149943
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_223",
+      "text": "Hur ofta bör man städa en uteplats med klinkerdäck®? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.105199999990873,
+        "detect": 0.4018999999971129,
+        "lookup": 0.35970000000088476,
+        "ai": 0,
+        "total": 1.8706999999994878
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_224",
+      "text": "Hur tar jag bort oljefläckar? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0909000000101514,
+        "detect": 0.3777000000118278,
+        "lookup": 0.3463000000047032,
+        "ai": 0,
+        "total": 1.8191000000224449
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_225",
+      "text": "Hur tar jag bort oljefläckar? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0798000000067987,
+        "detect": 0.37310000002617016,
+        "lookup": 0.35129999998025596,
+        "ai": 0,
+        "total": 1.8081999999994878
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_226",
+      "text": "Kan jag använda ättika eller syror vid rengöring? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.091099999990547,
+        "detect": 0.4018999999971129,
+        "lookup": 0.34429999999701977,
+        "ai": 0,
+        "total": 1.8414000000047963
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_227",
+      "text": "Kan jag använda ättika eller syror vid rengöring? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1723999999812804,
+        "detect": 0.454200000007404,
+        "lookup": 0.4450000000069849,
+        "ai": 0,
+        "total": 2.0762999999860767
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_228",
+      "text": "Hur förebygger jag gröna beläggningar? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1677999999956228,
+        "detect": 0.4155999999784399,
+        "lookup": 0.35099999999511056,
+        "ai": 0,
+        "total": 1.9389000000082888
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_229",
+      "text": "Hur förebygger jag gröna beläggningar? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1477000000013504,
+        "detect": 0.3804000000236556,
+        "lookup": 0.3501000000105705,
+        "ai": 0,
+        "total": 1.8828000000212342
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_230",
+      "text": "Kan jag skotta snö med metallskyffel? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.087599999998929,
+        "detect": 0.3876999999920372,
+        "lookup": 0.34770000001299195,
+        "ai": 0,
+        "total": 1.8275999999896158
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_231",
+      "text": "Kan jag skotta snö med metallskyffel? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0929999999934807,
+        "detect": 0.38229999999748543,
+        "lookup": 0.35440000001108274,
+        "ai": 0,
+        "total": 1.8338999999978114
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_232",
+      "text": "Hur rengör jag fogarna utan att skada dem? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0812000000150874,
+        "detect": 0.37460000001010485,
+        "lookup": 0.38880000001518056,
+        "ai": 0,
+        "total": 1.8489999999874271
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_233",
+      "text": "Hur rengör jag fogarna utan att skada dem? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1114999999990687,
+        "detect": 0.37359999999171123,
+        "lookup": 0.37090000000898726,
+        "ai": 0,
+        "total": 1.8602000000246335
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_234",
+      "text": "Behöver jag efterbehandla plattorna efter vintern? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1234000000113156,
+        "detect": 0.42540000000735745,
+        "lookup": 0.4176000000152271,
+        "ai": 0,
+        "total": 1.970499999995809
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_235",
+      "text": "Behöver jag efterbehandla plattorna efter vintern? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.200299999996787,
+        "detect": 0.5394000000087544,
+        "lookup": 0.4882000000216067,
+        "ai": 0,
+        "total": 2.2320999999938067
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_236",
+      "text": "Hur tar jag bort rostfläckar? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3980999999912456,
+        "detect": 0.4954999999899883,
+        "lookup": 0.45680000001448207,
+        "ai": 0,
+        "total": 2.3545999999914784
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_237",
+      "text": "Hur tar jag bort rostfläckar? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2440000000060536,
+        "detect": 0.3871000000217464,
+        "lookup": 0.3632999999972526,
+        "ai": 0,
+        "total": 1.9989000000059605
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_238",
+      "text": "Blir plattorna mycket varma i direkt solljus? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1110000000044238,
+        "detect": 0.3880000000062864,
+        "lookup": 0.3536000000021886,
+        "ai": 0,
+        "total": 1.856900000013411
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_239",
+      "text": "Blir plattorna mycket varma i direkt solljus? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.0996999999915715,
+        "detect": 0.3791999999957625,
+        "lookup": 0.3625000000174623,
+        "ai": 0,
+        "total": 1.8458000000100583
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_172",
+      "text": "Levererar ni till Storbritannien? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.397899999981746,
+        "detect": 679.1657000000123,
+        "lookup": 0.3826999999873806,
+        "ai": 0,
+        "total": 680.9512000000104
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_188",
+      "text": "Erbjuder ni delbetalning? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1271000000124332,
+        "detect": 481.0151000000187,
+        "lookup": 0.3949999999895226,
+        "ai": 0,
+        "total": 482.54369999998016
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_168",
+      "text": "Levererar ni till Danmark och Tyskland? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.3815000000176951,
+        "detect": 932.2391999999818,
+        "lookup": 0.4073999999964144,
+        "ai": 0,
+        "total": 934.0331000000006
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_152",
+      "text": "Tillverkas produkterna i Sverige? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1326999999873806,
+        "detect": 1442.6975000000093,
+        "lookup": 0.3944999999948777,
+        "ai": 0,
+        "total": 1444.2306000000099
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_219",
+      "text": "Vilket mönster är enklast att lägga? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.4179000000003725,
+        "detect": 423.47420000002603,
+        "lookup": 0.39160000000265427,
+        "ai": 0,
+        "total": 425.2896999999939
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_175",
+      "text": "Levererar ni utanför EU? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.2216000000189524,
+        "detect": 719.2053999999771,
+        "lookup": 0.3668000000179745,
+        "ai": 0,
+        "total": 720.7980000000098
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_218",
+      "text": "Vilket mönster är enklast att lägga? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1075999999884516,
+        "detect": 694.7489999999816,
+        "lookup": 0.3926000000210479,
+        "ai": 0,
+        "total": 696.2543000000005
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_189",
+      "text": "Erbjuder ni delbetalning? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.139100000000326,
+        "detect": 816.0706000000064,
+        "lookup": 0.4177999999956228,
+        "ai": 0,
+        "total": 817.6337999999814
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_156",
+      "text": "Passar klinkerdäck® till poolområden? (1 234,50 kr) ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.1337000000057742,
+        "detect": 1715.8099999999977,
+        "lookup": 0.4940000000060536,
+        "ai": 0,
+        "total": 1717.443900000013
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "case_1584",
+      "text": "Is klinkerdäck® suitable for pool areas? ($1,234.50)",
+      "lang": "EN",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 2871.671399999992,
+        "detect": 2004.2262000000046,
+        "lookup": 0.4058999999833759,
+        "ai": 0,
+        "total": 4876.312200000015
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    },
+    {
+      "id": "synthetic_173",
+      "text": "Levererar ni till Storbritannien? 2025-10-08 ",
+      "lang": "SE",
+      "category": "uncategorized",
+      "gate_decision": "allow",
+      "gate_reason": null,
+      "lookup": {
+        "hit": false,
+        "best": null,
+        "candidates": []
+      },
+      "ai": {
+        "used": false,
+        "tokens_in": 0,
+        "tokens_out": 0
+      },
+      "lexicon": null,
+      "assert": {
+        "overridden": false
+      },
+      "latency": {
+        "gates": 1.5622000000148546,
+        "detect": 2779.26430000001,
+        "lookup": 0.47469999999157153,
+        "ai": 0,
+        "total": 2781.307199999981
+      },
+      "status": "pass",
+      "reason": "",
+      "decision": "no-match"
+    }
+  ]
+}

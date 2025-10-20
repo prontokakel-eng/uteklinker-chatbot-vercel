@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Super-torture-suite (repo)" tests="300" failures="18" time="774.150">
+  <testcase name="SE | uncategorized | Kan ni rekommendera montörer? tack" time="16.589"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna frost och kyla? 2025-10-08" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka handlingar är bra att ha när jag frågar om offert? (1 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan tunge gryder og grill placeres på fliserne? (1.234,50 kr" time="0.002"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen rutschfest?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Er skridsikkerhed påvirket af pollen og snavs? 08-10-2025" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Behöver man distanskryss när man lägger plattorna?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Er der garanti på skridsikringen?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hvilke farver er tilgængelige? tack" time="0.003"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DE | uncategorized | Welches Zubehör wird verwendet: Dome Extension 25 mm? (1.234" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur rengör jag fogarna utan att skada dem? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan skridsikkert tape bruges med fliserne?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Wie lange dauert eine Rückerstattung? (1.234,50 €)" time="18.461"></testcase>
+  <testcase name="DA | uncategorized | Er der forskellige overfladeteksturer (glat, struktureret)? " time="1.148"></testcase>
+  <testcase name="EN | uncategorized | Do you have example images of patios with klinkerdäck®? lore" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvor modstandsdygtige er fliserne over for ridser fra møbelb" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Do you need spacers when laying the tiles? lorem lorem lorem" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Dome Extension 25 mm? 10/08/2025" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can you calculate the material consumption? lorem lorem lore" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are there different surface textures (smooth, structured)? l" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | What sizes do you have in 20 mm?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are there recommendations for lighting stair steps? lorem lo" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Do you have suggestions for laying patterns for 20 mm tiles?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Spacer Tabs 2/3/4 mm? 10/08/2025" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne bruges i indendørs indgange? 08-10-2025" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilke leveringsmetoder anvendes? please" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | What is the normal delivery time?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Welches Zubehör wird verwendet: Adjustment Key? (1.234,50 €)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | I have a specific height, e.g., 40 mm or 355 mm, which foot " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jag skotta snö med metallskyffel? please" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne slibes eller renoveres? (1.234,50 kr)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | What colors are available? bitte" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | How do I finish against edges and borders? ($1,234.50)" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie entferne ich Rostflecken" time="20.422"></testcase>
+  <testcase name="EN | uncategorized | Are the tiles slip-resistant? 10/08/2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna direkt på grus?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det tekniska datablad att ladda ner? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Liefern Sie auch außerhalb der EU? lorem lorem lorem lorem l" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | How do you best clean the tiles?" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka format finns i serien Cortina? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns rekommendationer för belysning av trappsteg?" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can you schedule a delivery time?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilke formater er tilgængelige i Lava-serien? bitte" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur packas plattorna på pall? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Welches Zubehör wird verwendet: Prolunga PBP10 100 mm? 08.10" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Welches Zubehör wird verwendet: Fix Ring? (1.234,50 €)" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Ich habe 35 m2 von 60x60 cm – wie kann ich viele Fuß benötig" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | How often should the joints be refilled?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Welche Dokumente sind gut zu haben, wenn ich ein Angebot anf" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilket tillbehör används: Prolunga PBP10 100 mm? (1 234,50 k" time="0.936"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Ardesia? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | wie kann ich lange ist die Lebensdauer der Teller?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvor mange fødder er der brug for pr. m2 til fliser i større" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | What colors are available in the Lava series? lorem lorem lo" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilke dokumenter er gode at have, når jeg anmoder om et til" time="0.001"></testcase>
+  <testcase name="DE | uncategorized | Ist der Versand im Preis inbegriffen? 08.10.2025" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns rekommendationer för belysning av trappsteg? (1 234,50" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Welche Größen haben Sie in 20 mm? tack" time="21.166"><failure message="Language mismatch: got SE, want DE"></failure></testcase>
+  <testcase name="SE | uncategorized | Vilket tillbehör används: Twist Lock Ring? venligst" time="0.742"></testcase>
+  <testcase name="DA | uncategorized | Hvad er levetiden for klinkerdäck®? venligst" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Travertin? bitte" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Er produkterne certificeret til miljøvenligt byggeri? (1.234" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Sind die Fliesen recycelbar? (1.234,50 €)" time="0.002"><failure message="Language mismatch: got SE, want DE"></failure></testcase>
+  <testcase name="SE | uncategorized | Vilka format finns i serien Kvarts? tack" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are there different surface textures (smooth, structured)?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns plattorna med fasad kant? 2025-10-08" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can the tiles be placed on a balcony? venligst" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Lava? tack" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne bruges i offentlige miljøer?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Pocket Key?" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Is there a warranty on the anti-slip protection?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie oft sollten die Fugen nachgefüllt werden? 08.10.2025" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hvilke farver er tilgængelige i Beton-serien? tack" time="0.003"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="EN | uncategorized | Can you pick up the tiles yourself in the warehouse? 10/08/2" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | How do I contact you for advice? please" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilket tilbehør bruges: Fix Ring? 08-10-2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka format har ni? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Wie ändert sich die Farbe im Laufe der Zeit?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Kann ich Möbelunterlagen auf den Fliesen verwenden?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur ofta bör fogarna efterfyllas? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Dome Extension 25 mm? venligst" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Har plattorna någon CE-märkning?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen frost- und kältebeständig? (1.234,50 €)" time="21.330"></testcase>
+  <testcase name="DA | uncategorized | Er fliserne egnede til tagterrasser? 08-10-2025" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Welche Dokumente sind gut zu haben, wenn ich ein Angebot anf" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Are the tiles resistant to bike racks and children's toys? (" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are the tiles suitable for roof terraces? bitte" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur lång livslängd har plattorna? please" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Er fliserne ridsefaste? please" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur hanteras produktionsfel?" time="21.416"></testcase>
+  <testcase name="SE | uncategorized | Hvilke formater er tilgængelige i Nature-serien? tack" time="0.003"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DA | uncategorized | Hvilke farver er tilgængelige i Trentino-serien? (1.234,50 k" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvor mange fliser er der brug for pr. m2 til fliser i større" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av tung belastning?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe?" time="21.584"></testcase>
+  <testcase name="DE | uncategorized | Levererar ni till Storbritannien? bitte" time="0.990"><failure message="Language mismatch: got DE, want SE"></failure></testcase>
+  <testcase name="EN | uncategorized | Do you deliver to Denmark and Germany? ($1,234.50)" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Klarar plattorna snabba temperaturväxlingar?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne misfarves af vin, olie eller andre pletter?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilken tjocklek har plattorna? 2025-10-08" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | How do you best clean the tiles? ($1,234.50)" time="21.698"></testcase>
+  <testcase name="SE | uncategorized | Vilken tjocklek har plattorna?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan kanterne opfattes som skarpe?" time="0.002"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="SE | uncategorized | Ingår frakt i priset? (1 234,50 kr)" time="0.477"></testcase>
+  <testcase name="DA | uncategorized | Leverer I uden for EU? please" time="0.585"></testcase>
+  <testcase name="SE | uncategorized | Hur förebygger jag gröna beläggningar? lorem lorem lorem lor" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur rengör man plattorna bäst? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan jeg bruge eddike eller syrer til rengøring? (1.234,50 kr" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hvad vejer en tallerken? tack" time="0.003"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DE | uncategorized | In welchen Größen ist klinkerdäck® erhältlich?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvad er tykkelsen på fliserne? 08-10-2025" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | What colors are available in the Ardesia series?" time="21.865"></testcase>
+  <testcase name="DE | uncategorized | Können die Fliesen rutschig werden, wenn sich Eis bildet? 08" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Können die Fliesen mit Holz und Naturstein kombiniert werden" time="21.885"></testcase>
+  <testcase name="DA | uncategorized | Tilbyder I afbetalingsordninger? (1.234,50 kr)" time="0.469"></testcase>
+  <testcase name="DA | uncategorized | Kan du selv hente fliserne på lageret?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | wie kann ich wird die Oberfläche durch Streusalz beeinflusst" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can I get evening delivery? 10/08/2025" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Skal fliserne behandles med imprægnering? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna cykelställ och barnleksaker? 2025-10-08" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur lång är livslängden på klinkerdäck®? lorem lorem lorem l" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Kann ich die Fliesen auf einer vorhandenen Betonplatte verle" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | How resistant are the tiles to scratches from furniture legs" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan jag provlägga några plattor innan köp? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvad er levetiden for tallerkenerne? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | wie kann ich werden die Waren geliefert – auf einer Palette?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur förebygger jag gröna beläggningar? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man boka tid för leverans? please" time="0.001"></testcase>
+  <testcase name="EN | uncategorized | Can older people walk safely on the tiles? ($1,234.50)" time="21.956"></testcase>
+  <testcase name="EN | uncategorized | How do I contact you for advice? 10/08/2025" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvordan kontakter jeg jer for rådgivning? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are the tiles resistant to frost and cold? please" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilken fugebredde anbefaler I? 08-10-2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur tåliga är plattorna mot repor från möbelben? (1 234,50 k" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can you schedule a delivery time? 10/08/2025" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie werden Produktionsfehler behandelt? lorem lorem lorem lo" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man kapa plattorna själv? venligst" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur stor är kalibreringstoleransen? venligst" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen chemikalienbeständig? venligst" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | What is the lifespan of the plates? 10/08/2025" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are there recommendations for lighting stair steps?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Welche Werkzeuge werden zum Schneiden empfohlen?" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka mått finns klinkerdäck® i?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Behövs skyddsutrustning vid kapning? lorem lorem lorem lorem" time="0.550"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Nordique? please" time="22.158"></testcase>
+  <testcase name="EN | uncategorized | Can the tiles be installed indoors? ($1,234.50)" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie verwalte ich Dehnungsfugen?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvilke farver er tilgængelige i Anniversario-serien? 08-10-2" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are the tiles available with a beveled edge? 10/08/2025" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Are there technical data sheets available for download? 10/0" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Welches Zubehör wird verwendet: Spacer Tabs 2/3/4 mm? 08.10." time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Do you deliver to the United Kingdom?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Er der forskellige overfladeteksturer (glat, struktureret)?" time="0.925"></testcase>
+  <testcase name="DE | uncategorized | Wie berechne ich die Anzahl der Fliesen pro m2 für eine best" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilken fog rekommenderas mellan plattorna? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Is there support after delivery? ($1,234.50)" time="22.290"></testcase>
+  <testcase name="SE | uncategorized | Hur lång är livslängden på klinkerdäck®? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | How resistant are the tiles to scratches from furniture legs" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna cykelställ och barnleksaker? please" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Können Sie den Materialverbrauch berechnen? (1.234,50 €)" time="0.547"></testcase>
+  <testcase name="DA | uncategorized | Kan jeg annullere købet? 08-10-2025" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Er fliserne skridsikre? 08-10-2025" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan du selv skære fliserne? venligst" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Können die Fliesen durch Wein, Öl oder andere Flecken verfär" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Danmark och Tyskland? please" time="0.663"></testcase>
+  <testcase name="SE | uncategorized | Vad kostar frakten? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Skal fliserne behandles med imprægnering? venligst" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Can custom-ordered items be returned? venligst" time="0.448"><failure message="Language mismatch: got DA, want EN"></failure></testcase>
+  <testcase name="EN | uncategorized | Are the tiles UV-resistant?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | How are the tiles affected by salt in the winter? ($1,234.50" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilket tilbehør bruges: Dome Extension 25 mm? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Can I get evening delivery? ($1,234.50)" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är produkterna certifierade för miljöbyggnation?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvordan håndterer jeg ekspansionsfuger? lorem lorem lorem lo" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Can custom-ordered items be returned? 10/08/2025" time="0.785"></testcase>
+  <testcase name="EN | uncategorized | How often should you clean a patio with klinkerdäck®?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | What grout is recommended between the tiles?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Er fliserne modstandsdygtige over for kemikalier?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna vid poolområden? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Pocket Key? ($1,234.50)" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvilket mønster er det nemmeste at lægge?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Do the tiles work on sloped surfaces? 10/08/2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka kulörer är mest färgstabila över tid? lorem lorem lore" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | wie kann ich kann ich Sie für eine Beratung kontaktieren?" time="22.444"></testcase>
+  <testcase name="DE | uncategorized | Wie werden die Fliesen auf einer Palette verpackt?" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | What colors are available in the Lava series? 10/08/2025" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | What tools are recommended for cutting? ($1,234.50)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Are there technical data sheets available for download? ($1," time="22.465"></testcase>
+  <testcase name="EN | uncategorized | Who is responsible for the return shipping?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Er der anbefalinger til lydisolering?" time="0.377"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Manhattan? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Wie lange ist die Lebensdauer der Teller? 08.10.2025" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvilken hældning skal basen have for dræning? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna återvinningsbara? 2025-10-08" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Who is responsible for the return shipping? lorem lorem lore" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | In welche Länder bieten Sie Standardlieferung an?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilket tilbehør bruges: Spacer Tabs 2/3/4 mm?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvad vejer en tallerken? 08-10-2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Nordique" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can I use furniture pads on the tiles? ($1,234.50)" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Können Sie die Fliesen selbst schneiden?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Können die Fliesen im Innenbereich verwendet werden? 08.10.2" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jeg skovle sne med en metalskovl? 08-10-2025" time="0.002"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DA | uncategorized | Hvad er forsendelsesomkostningerne? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan jag ångra köpet? please" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Können die Kanten als scharf wahrgenommen werden? (1.234,50 " time="0.557"></testcase>
+  <testcase name="DE | uncategorized | Wie kann ich übrig gebliebene Fliesen zurückgeben?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan fliserne placeres på en altan? 08-10-2025" time="0.002"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DA | uncategorized | Er der anbefalinger til belysning af trappetrin?" time="0.702"></testcase>
+  <testcase name="DE | uncategorized | Wie werden die Waren geliefert – auf einer Palette? (1.234,5" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can the tiles be discolored by wine, oil, or other stains?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie wird der Preis pro m2 berechnet? 08.10.2025" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Können die Fliesen in Geschäftsräumen verwendet werden? (1.2" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Hvor lang tid tager en refundering? 08-10-2025" time="0.002"><failure message="Language mismatch: got DE, want DA"></failure></testcase>
+  <testcase name="SE | uncategorized | What tolerances apply to dimensions and shape? lorem lorem l" time="0.002"><failure message="Language mismatch: got SE, want EN"></failure></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® återvinningsbart? (1 234,50 kr)" time="22.609"></testcase>
+  <testcase name="DA | uncategorized | Kan du selv hente fliserne på lageret? 08-10-2025" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | In welchen Größen ist klinkerdäck® erhältlich? lorem lorem l" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne bruges i offentlige miljøer? bitte" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Jeg har 35 m2 af 60x60 cm – hvor mange fødder har jeg brug f" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilke lande tilbyder I standardlevering til?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen für Dachterrassen geeignet? (1.234,50 €)" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Can the tiles be used in pool areas?" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvem er ansvarlig for returforsendelsen? lorem lorem lorem l" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen rutschfest? 08.10.2025" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | How do I calculate the number of tiles per m2 for a specific" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur snabbt måste transportskada anmälas? (1 234,50 kr)" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Fungerar plattorna på lutande underlag? please" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvor hurtigt skal en transportskade rapporteres? lorem lorem" time="0.456"></testcase>
+  <testcase name="SE | uncategorized | What is the shipping cost? tack" time="0.003"><failure message="Language mismatch: got SE, want EN"></failure></testcase>
+  <testcase name="SE | uncategorized | Påverkas halksäkerheten av pollen och smuts? please" time="0.562"></testcase>
+  <testcase name="EN | uncategorized | Do you need spacers when laying the tiles?" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna återvinningsbara?" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Wie reinige ich die Fugen, ohne sie zu beschädigen? (1.234,5" time="22.825"></testcase>
+  <testcase name="SE | uncategorized | Vem står för returfrakten? 2025-10-08" time="0.513"></testcase>
+  <testcase name="DE | uncategorized | Welche Größen sind in 20 mm Dicke erhältlich?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Can the tiles be installed indoors? 10/08/2025" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Do you deliver outside the EU?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Ist das Produkt für marine Umgebungen geeignet? please" time="0.549"></testcase>
+  <testcase name="SE | uncategorized | Vilka storlekar har ni i 20 mm? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | hvordan kan jeg forhindrer jeg grønne belægninger?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Kann Anti-Rutsch-Band mit den Fliesen verwendet werden? lore" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Har fliserne nogen CE-mærkning? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan tunge gryder og grill placeres på fliserne? lorem lorem " time="0.002"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Storbritannien? (1 234,50 kr)" time="0.998"></testcase>
+  <testcase name="DE | uncategorized | Kann ich ein Angebot für größere Projekte erhalten?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen für Dachterrassen geeignet? 08.10.2025" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® brandsäkert? 2025-10-08" time="0.517"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna i offentliga miljöer? (1 234,50 kr" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan fliserne revne? tack" time="0.003"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne installeres indendørs? (1.234,50 kr)" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilken fugemasse anbefales mellem fliserne? lorem lorem lor" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Can I cancel the purchase?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Ich habe eine bestimmte Höhe, z.B. 40 mm oder 355 mm, welche" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie dick sind die Fliesen? (1.234,50 €)" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne lægges på justerbare fødder? 08-10-2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Jag har 35 m2 av 60x60 cm – hur många fötter behöver jag? 20" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvordan leveres varerne – på en palle?" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Passen die Fliesen zu Holzelementen und Stahl? 08.10.2025" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilket tilbehør bruges: Fix Ring?" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur ofta bör fogarna efterfyllas? venligst" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Kann ich die Fliesen auf einer vorhandenen Betonplatte verle" time="0.002"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Dome Extension 25 mm?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvad er den forventede tekniske levetid?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | What formats are available in the Lava series" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen für Außenbereiche geeignet?" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Which accessory is used: Fix Ring? ($1,234.50)" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Welche Farben sind in der Alpine-Serie verfügbar? (1.234,50 " time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Matcher fliserne med trædetaljer og stål? lorem lorem lorem " time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Do the tiles have any CE marking? please" time="0.003"></testcase>
+  <testcase name="DA | uncategorized | Hvilke farver er tilgængelige i Uteklinker-serien? 08-10-202" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Can the tiles be used in indoor entrances? 10/08/2025" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Finns plattorna i matt eller halvmatt yta? 2025-10-08" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Können individuell bestellte Artikel zurückgegeben werden? (" time="0.540"></testcase>
+  <testcase name="EN | uncategorized | Is there an Environmental Product Declaration (EPD)? ($1,234" time="0.420"></testcase>
+  <testcase name="DE | uncategorized | Können Sie eine Lieferzeit vereinbaren? lorem lorem lorem lo" time="0.578"></testcase>
+  <testcase name="DA | uncategorized | Er fragt inkluderet i prisen? (1.234,50 kr)" time="0.446"></testcase>
+  <testcase name="DE | uncategorized | Gibt es verschiedene Oberflächentexturen (glatt, strukturier" time="0.456"></testcase>
+  <testcase name="DE | uncategorized | Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe? 0" time="23.110"></testcase>
+  <testcase name="SE | uncategorized | Kan jag ångra köpet?" time="23.118"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne lægges på et trædæk? 08-10-2025" time="23.125"></testcase>
+  <testcase name="EN | uncategorized | Can we schedule a video meeting?" time="0.559"></testcase>
+  <testcase name="EN | uncategorized | Is klinkerdäck® fireproof?" time="0.843"></testcase>
+  <testcase name="DE | uncategorized | Gibt es Empfehlungen zur Beleuchtung von Treppenstufen? (1.2" time="23.362"></testcase>
+  <testcase name="DE | uncategorized | Kann ich Hilfe bei der Auswahl eines Musters bekommen? lorem" time="0.521"></testcase>
+  <testcase name="SE | uncategorized | Vilket mönster är enklast att lägga? 2025-10-08" time="0.561"></testcase>
+  <testcase name="EN | uncategorized | Can I get help choosing a pattern?" time="0.623"></testcase>
+  <testcase name="DA | uncategorized | Can I get a quote for larger projects? venligst" time="0.711"><failure message="Language mismatch: got DA, want EN"></failure></testcase>
+  <testcase name="DE | uncategorized | Können Sie in andere EU-Länder liefern? 08.10.2025" time="23.614"></testcase>
+  <testcase name="EN | uncategorized | Is klinkerdäck® suitable for pool areas? ($1,234.50)" time="23.655"></testcase>
+  <testcase name="DA | uncategorized | Hvilke højder af fødder har I?" time="23.676"></testcase>
+  <testcase name="SE | uncategorized | Lämpar sig plattorna för uteserveringar? 2025-10-08" time="23.674"></testcase>
+  <testcase name="EN | uncategorized | Is special winter storage required? please" time="1.026"></testcase>
+  <testcase name="SE | uncategorized | Vilket tillbehör används: Pocket Key?" time="1.138"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av salt på vintern?" time="24.237"></testcase>
+  <testcase name="DE | uncategorized | Gibt es Empfehlungen zur Beleuchtung von Treppenstufen? 08.1" time="33.150"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni i hela Sverige?" time="33.730"></testcase>
+  <testcase name="DE | uncategorized | Ist klinkerdäck® feuerfest? 08.10.2025" time="34.722"></testcase>
+  <testcase name="DE | uncategorized | Bieten Sie Mengenrabatte an?" time="39.876"></testcase>
+  <testcase name="EN | uncategorized | Is klinkerdäck® fireproof? 10/08/2025" time="34.462"></testcase>
+</testsuite>

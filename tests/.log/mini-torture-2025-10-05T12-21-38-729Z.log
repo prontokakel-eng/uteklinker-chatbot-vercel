@@ -1,0 +1,36 @@
+=== MINI TORTURE START 2025-10-05T12:21:38.729Z ===
+🚀 Running MINI torture test
+[SE] Vilka mått har ni? → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[SE] Är plattorna halksäkra? → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[EN] What sizes do you offer? → got=EN via=AI_FALLBACK, expected=EN, source=- 🟢
+[EN] Are the tiles slip resistant? → got=EN via=AI_FALLBACK, expected=EN, source=- 🟢
+[DA] Er det frostsikkert? → got=DA via=AI_FALLBACK, expected=DA, source=- 🟢
+[DA] Kan jeg selv montere det? → got=DA via=AI_FALLBACK, expected=DA, source=- 🟢
+[DE] Gibt es verschiedene Farben? → got=DE via=AI_FALLBACK, expected=DE, source=- 🟢
+[DE] Sind die Platten rutschfest? → got=DE via=AI_FALLBACK, expected=DE, source=- 🟢
+[FUZZY] klinkerdak mått?? → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[FUZZY] klinkerdäck slipp?? → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[GIBBERISH] asdkjhqwe123 → got=SE via=gibberish, expected=FILTER, source=- 🔴
+[GIBBERISH] !!!!!!????? → got=SE via=short-text, expected=FILTER, source=- 🔴
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → got=SE via=AI_FALLBACK, expected=FILTER, source=- 🔴
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → got=SE via=AI_FALLBACK, expected=FILTER, source=- 🔴
+[BLOCK] cheap viagra online → got=SE via=blacklist-ALL, expected=FILTER, source=- 🔴
+[BLOCK] lottery scam free money → got=SE via=blacklist-ALL, expected=FILTER, source=- 🔴
+[GREETING] hej → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[GREETING] hello there → got=EN via=AI_FALLBACK, expected=EN, source=- 🟢
+[RELEVANCE] 12345 → got=SE via=gibberish, expected=FILTER, source=- 🔴
+[RELEVANCE] ??!! → got=SE via=short-text, expected=FILTER, source=- 🔴
+
+🟩 MINI torture klart. Totala mismatchar: 8
+⚠️ PreDetect≠ChatDetect inte tillämpligt i mini.
+=== MISMATCHED CASES ===
+[GIBBERISH #0] "asdkjhqwe123" → got=SE, expected=FILTER, via=gibberish, source=undefined
+[GIBBERISH #1] "!!!!!!?????" → got=SE, expected=FILTER, via=short-text, source=undefined
+[LONG #0] "Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................." → got=SE, expected=FILTER, via=AI_FALLBACK, source=undefined
+[LONG #1] "Another very very long nonsense text for sanity-test sanity-test sanity-test …" → got=SE, expected=FILTER, via=AI_FALLBACK, source=undefined
+[BLOCK #0] "cheap viagra online" → got=SE, expected=FILTER, via=blacklist-ALL, source=undefined
+[BLOCK #1] "lottery scam free money" → got=SE, expected=FILTER, via=blacklist-ALL, source=undefined
+[RELEVANCE #0] "12345" → got=SE, expected=FILTER, via=gibberish, source=undefined
+[RELEVANCE #1] "??!!" → got=SE, expected=FILTER, via=short-text, source=undefined
+=== END 2025-10-05T12:21:44.345Z ===
+

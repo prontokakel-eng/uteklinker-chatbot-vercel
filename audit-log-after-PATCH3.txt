@@ -1,0 +1,190 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== Lint ===
+
+Oops! Something went wrong! :(
+
+ESLint: 9.38.0
+
+SyntaxError: Unexpected identifier 'setTimeout'
+    at compileSourceTextModule (node:internal/modules/esm/utils:346:16)
+    at ModuleLoader.moduleStrategy (node:internal/modules/esm/translators:146:18)
+    at #translate (node:internal/modules/esm/loader:497:12)
+    at ModuleLoader.loadAndTranslate (node:internal/modules/esm/loader:544:27)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:148:19)
+Ô£û Lint failed
+
+=== Typecheck ===
+Ô£û Typecheck failed
+
+=== Dead code (knip) ===
+ERROR: Error loading C:/uteklinker-chatbot-vercel/knip.json
+Reason: Error parsing C:/uteklinker-chatbot-vercel/knip.json 
+Ô£û Dead code (knip) failed
+
+=== Cycles (madge) ===
+Usage: cli [options] <src...>
+
+Options:
+  -V, --version            output the version number
+  -b, --basedir <path>     base directory for resolving paths
+  -s, --summary            show dependency count summary
+  -c, --circular           show circular dependencies
+  -d, --depends <name>     show module dependents
+  -x, --exclude <regexp>   exclude modules using RegExp
+  -j, --json               output as JSON
+  -i, --image <file>       write graph to file as an image
+  -l, --layout <name>      layout engine to use for graph
+                           (dot/neato/fdp/sfdp/twopi/circo)
+  --orphans                show modules that no one is depending on
+  --leaves                 show modules that have no dependencies
+  --dot                    show graph using the DOT language
+  --rankdir <direction>    set the direction of the graph layout
+  --extensions <list>      comma separated string of valid file extensions
+  --require-config <file>  path to RequireJS config
+  --webpack-config <file>  path to webpack config
+  --ts-config <file>       path to typescript config
+  --include-npm            include shallow NPM modules (default: false)
+  --no-color               disable color in output and image
+  --no-spinner             disable progress spinner
+  --no-count               disable circular dependencies counting
+  --stdin                  read predefined tree from STDIN (default: false)
+  --warning                show warnings about skipped files (default: false)
+  --debug                  turn on debug┬áoutput (default: false)
+  -h, --help               display help for command
+
+Ô£û Cycles (madge) failed
+
+=== Orphans (madge) ===
+Usage: cli [options] <src...>
+
+Options:
+  -V, --version            output the version number
+  -b, --basedir <path>     base directory for resolving paths
+  -s, --summary            show dependency count summary
+  -c, --circular           show circular dependencies
+  -d, --depends <name>     show module dependents
+  -x, --exclude <regexp>   exclude modules using RegExp
+  -j, --json               output as JSON
+  -i, --image <file>       write graph to file as an image
+  -l, --layout <name>      layout engine to use for graph
+                           (dot/neato/fdp/sfdp/twopi/circo)
+  --orphans                show modules that no one is depending on
+  --leaves                 show modules that have no dependencies
+  --dot                    show graph using the DOT language
+  --rankdir <direction>    set the direction of the graph layout
+  --extensions <list>      comma separated string of valid file extensions
+  --require-config <file>  path to RequireJS config
+  --webpack-config <file>  path to webpack config
+  --ts-config <file>       path to typescript config
+  --include-npm            include shallow NPM modules (default: false)
+  --no-color               disable color in output and image
+  --no-spinner             disable progress spinner
+  --no-count               disable circular dependencies counting
+  --stdin                  read predefined tree from STDIN (default: false)
+  --warning                show warnings about skipped files (default: false)
+  --debug                  turn on debug┬áoutput (default: false)
+  -h, --help               display help for command
+
+Ô£û Orphans (madge) failed
+
+=== Deps (depcheck) ===
+Unused devDependencies
+* vercel
+Ô£û Deps (depcheck) failed
+
+=== Unit tests ===
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\uteklinker-chatbot-vercel\tests\check-healthz.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.19.5
+Ô£û Unit tests failed
+
+=== Coverage ===
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\uteklinker-chatbot-vercel\tests\check-healthz.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.19.5
+----------|---------|----------|---------|---------|-------------------
+File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+----------|---------|----------|---------|---------|-------------------
+All files |       0 |        0 |       0 |       0 |                   
+----------|---------|----------|---------|---------|-------------------
+Ô£û Coverage failed
+
+=== E2E ===
+­ƒº® Lexicon Sanity Test ÔÇô detect-lang-core.js
+
+­ƒö╣ Testing SE:
+[detect-lang.log] [2025-10-20T10:06:32.916Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+  "Jag ├ñlskar att dricka kaffe p├Ñ morgonen...." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.918Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+  "Detta ├ñr ett typiskt svenskt uttryck med..." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.919Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+  "Han gick till aff├ñren och k├Âpte mj├Âlk...." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+
+­ƒö╣ Testing EN:
+[detect-lang.log] [2025-10-20T10:06:32.919Z] ­ƒöì Strong marker detected: EN
+[detect-lang.log] [2025-10-20T10:06:32.920Z] Ô£à Regex tr├ñff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "I love drinking coffee in the morning...." ÔåÆ EN via=regex-exclusive conf=1.00 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.920Z] Ô£à Regex tr├ñff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+  "This is a typical English sentence with ..." ÔåÆ SE via=short-lexicon conf=0.90 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.920Z] ­ƒöì Strong marker detected: EN
+[detect-lang.log] [2025-10-20T10:06:32.921Z] Ô£à Regex tr├ñff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "She went to the store and bought milk...." ÔåÆ EN via=regex-exclusive conf=1.00 best=n/a
+
+­ƒö╣ Testing DA:
+[detect-lang.log] [2025-10-20T10:06:32.921Z] Ô¼à´©Å Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+  "Jeg elsker at drikke kaffe om morgenen...." ÔåÆ DA via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.921Z] ­ƒöì Strong marker detected: DA
+[detect-lang.log] [2025-10-20T10:06:32.921Z] Ô£à Regex tr├ñff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "Dette er en typisk dansk s├ªtning med ├ª├©├Ñ..." ÔåÆ DA via=regex-exclusive conf=1.00 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.922Z] ­ƒöì Strong marker detected: DA
+[detect-lang.log] [2025-10-20T10:06:32.922Z] Ô£à Regex tr├ñff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "Han gik til butikken og k├©bte m├ªlk...." ÔåÆ DA via=regex-exclusive conf=1.00 best=n/a
+
+­ƒö╣ Testing DE:
+[detect-lang.log] [2025-10-20T10:06:32.922Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+  "Ich liebe es, morgens Kaffee zu trinken...." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.923Z] Ô¼à´©Å Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+  "Das ist ein typischer deutscher Satz mit..." ÔåÆ SE via=heuristic-group conf=0.70 best=n/a
+[detect-lang.log] [2025-10-20T10:06:32.923Z] ­ƒöì Strong marker detected: DE
+[detect-lang.log] [2025-10-20T10:06:32.923Z] Ô£à Regex tr├ñff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+  "Er ging in den Laden und kaufte Milch...." ÔåÆ DE via=regex-exclusive conf=1.00 best=n/a
+
+Ô£à Lexicon-boost sanity-check klar!
+
+Ô£ô DA_FULL_LOOKUP.json
+Ô£ô DE_FULL_LOOKUP.json
+Ô£ô EN_FULL_LOOKUP.json
+Ô£ô SE_FULL_LOOKUP.json
+ÔÇö Summary ÔÇö
+OK: 4, Fail: 0
+Error: Cannot find package '@playwright/test' imported from C:\uteklinker-chatbot-vercel\tests\e2e\smoke.spec.ts
+Error: Cannot find package 'vitest' imported from C:\uteklinker-chatbot-vercel\tests\pipeline.spec.js
+Error: No tests found
+
+Ô£û E2E failed

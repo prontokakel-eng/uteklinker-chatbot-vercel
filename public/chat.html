@@ -5,48 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chatbot</title>
 
-  <!-- Ladda refined CSS (den mest moderna och isolerade) -->
-  <link rel="stylesheet" href="/css/style.refined.css" />
+  <!-- FIX: Primär path för Vercel/vanilla static -->
+  <link id="ui-css" rel="stylesheet" href="/css/style.refined.css?v=ui-2025-10-09">
+  <script>
+    // Fallbacks om primär path 404:ar i annan hosting
+    (function () {
+      const link = document.getElementById('ui-css');
+      if (!link) return;
+      const fallbacks = [
+        './css/style.refined.css',
+        '/public/css/style.refined.css'
+      ];
+      let i = 0;
+      link.addEventListener('error', () => {
+        if (i >= fallbacks.length) return;
+        const next = fallbacks[i++];
+        if (link.getAttribute('href') === next) return;
+        link.href = next + '?v=' + Date.now();
+      });
+    })();
+  </script>
 </head>
 <body>
+  <a class="sr-only sr-only-focusable" href="#user-input">Hoppa till inmatning</a>
+
   <div class="app-wrapper">
-    <!-- Header -->
     <header class="app-header">
       <h1>🤖 Chatbot</h1>
+
+      <div class="lang-switch" role="group" aria-label="Språk">
+        <button class="btn-icon flag" data-lang="SE" aria-pressed="true" title="Svenska" aria-label="Byt språk till svenska">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <defs><clipPath id="seR"><circle cx="32" cy="32" r="30"/></clipPath></defs>
+            <g clip-path="url(#seR)">
+              <rect width="64" height="64" fill="#006AA7"/>
+              <rect y="26" width="64" height="12" fill="#FECC00"/>
+              <rect x="22" width="12" height="64" fill="#FECC00"/>
+            </g>
+            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" opacity="0.12"/>
+          </svg>
+        </button>
+        <button class="btn-icon flag" data-lang="EN" title="English" aria-label="Switch language to English">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <defs><clipPath id="ukR"><circle cx="32" cy="32" r="30"/></clipPath></defs>
+            <g clip-path="url(#ukR)">
+              <rect width="64" height="64" fill="#012169"/>
+              <g fill="#fff">
+                <polygon points="0,8 8,0 64,56 56,64"/>
+                <polygon points="56,0 64,8 8,64 0,56"/>
+                <rect x="28" y="0" width="8" height="64"/>
+                <rect y="28" width="64" height="8"/>
+              </g>
+              <g fill="#C8102E">
+                <polygon points="0,12 12,0 64,52 52,64"/>
+                <polygon points="52,0 64,12 12,64 0,52"/>
+                <rect x="30" y="0" width="4" height="64"/>
+                <rect y="30" width="64" height="4"/>
+              </g>
+            </g>
+            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" opacity="0.12"/>
+          </svg>
+        </button>
+        <button class="btn-icon flag" data-lang="DA" title="Dansk" aria-label="Skift sprog til dansk">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <defs><clipPath id="dkR"><circle cx="32" cy="32" r="30"/></clipPath></defs>
+            <g clip-path="url(#dkR)">
+              <rect width="64" height="64" fill="#C60C30"/>
+              <rect y="28" width="64" height="8" fill="#fff"/>
+              <rect x="20" width="8" height="64" fill="#fff"/>
+            </g>
+            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" opacity="0.12"/>
+          </svg>
+        </button>
+        <button class="btn-icon flag" data-lang="DE" title="Deutsch" aria-label="Sprache auf Deutsch umstellen">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <defs><clipPath id="deR"><circle cx="32" cy="32" r="30"/></clipPath></defs>
+            <g clip-path="url(#deR)">
+              <rect width="64" height="64" fill="#000"/>
+              <rect y="21.33" width="64" height="21.33" fill="#DD0000"/>
+              <rect y="42.66" width="64" height="21.34" fill="#FFCE00"/>
+            </g>
+            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" opacity="0.12"/>
+          </svg>
+        </button>
+      </div>
     </header>
 
-    <!-- Undo banner -->
     <div id="undoBanner" class="banner" style="display:none;">
       ✅ Svar sparat! <button id="undoBtn" class="btn linklike">↩️ Ångra</button>
     </div>
 
-    <!-- Banners -->
     <div id="langBanner" class="banner"></div>
-    <div id="faqBanner" class="banner">✅ Svar från lokal FAQ-databas</div>
-    <div id="saveBanner" class="banner">✅ Ditt svar sparades!</div>
+    <div id="faqBanner" class="banner" style="display:none;"></div>
+    <div id="saveBanner" class="banner" style="display:none;"></div>
 
-    <!-- Main chat container -->
     <main class="chat-container">
       <div id="messages" class="messages"></div>
     </main>
 
-    <!-- Loader animation -->
     <div id="loader" class="loader hidden" aria-live="polite" aria-busy="true">
       <span class="dot"></span><span class="dot"></span><span class="dot"></span>
     </div>
+    <div id="thinkingSr" class="sr-only" aria-live="polite" aria-atomic="true"></div>
 
-    <!-- Footer -->
     <footer class="chat-footer">
       <div class="input-group">
+        <button id="voice-btn" class="btn-icon" type="button" title="Röstinmatning (följer valt språk)">🎙️</button>
         <input id="user-input" type="text" placeholder="Skriv ett meddelande..." autocomplete="off" />
-        <button id="send-btn">➤</button>
+        <button id="send-btn" title="Skicka">➤</button>
+        <button id="copy-btn" class="btn-icon" type="button" title="Kopiera senaste svar">📋</button>
       </div>
+
       <div class="footer-row">
         <div class="options">
           <label class="enter-toggle">
             <input type="checkbox" id="enter-toggle" checked /> Enter skickar
           </label>
-          <select id="langSelect">
+          <select id="langSelect" aria-label="Språk">
             <option value="SE" selected>Svenska</option>
             <option value="EN">Engelska</option>
             <option value="DE">Tyska</option>
@@ -56,9 +131,8 @@
         <div id="enter-help" class="help-text"></div>
       </div>
     </footer>
-  </div> <!-- end app-wrapper -->
+  </div>
 
-  <!-- Script -->
-  <script src="/chat-ui.js"></script>
+  <script src="/chat-ui.js?v=ui-2025-10-09"></script>
 </body>
 </html>

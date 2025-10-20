@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "counts": {
+      "total": 0,
+      "pass": 0,
+      "fail": 0,
+      "ai_used": 0
+    },
+    "p95_latency_ms": {
+      "gates": 0,
+      "detect": 0,
+      "lookup": 0,
+      "ai": 0,
+      "total": 0
+    },
+    "per_lang": {},
+    "timestamp": "2025-10-08T12:51:23.939Z",
+    "aiMode": "off",
+    "flags": {
+      "assertLang": false,
+      "ignoreCaseLang": false,
+      "dedupThreshold": 0.1,
+      "sheets": "buffer",
+      "lexicon": "on",
+      "limit": 0,
+      "truncateInputLen": 0
+    }
+  },
+  "results": []
+}

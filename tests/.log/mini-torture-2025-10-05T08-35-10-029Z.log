@@ -1,0 +1,40 @@
+=== MINI TORTURE START 2025-10-05T08:35:10.029Z ===
+🚀 Running MINI torture test
+[SE] Vilka mått har ni? → got=SE via=faq, expected=SE, source=FAQ 🟢
+[SE] Är plattorna halksäkra? → got=SE via=faq, expected=SE, source=FAQ 🟢
+[EN] What sizes do you offer? → got=EN via=faq, expected=EN, source=FAQ 🟢
+[EN] Are the tiles slip resistant? → got=EN via=faq, expected=EN, source=FAQ 🟢
+[DA] Er det frostsikkert? → got=DA via=ai, expected=DA, source=AI_FALLBACK 🟢
+🤖 AI fallback used for input="Er det frostsikkert?"
+[DA] Kan jeg selv montere det? → got=DA via=ai, expected=DA, source=AI_FALLBACK 🟢
+🤖 AI fallback used for input="Kan jeg selv montere det?"
+[DE] Gibt es verschiedene Farben? → got=DE via=faq, expected=DE, source=FAQ 🟢
+[DE] Sind die Platten rutschfest? → got=DE via=faq, expected=DE, source=FAQ 🟢
+[FUZZY] klinkerdak mått?? → got=SE via=ai, expected=SE, source=AI_FALLBACK 🟢
+🤖 AI fallback used for input="klinkerdak mått??"
+[FUZZY] klinkerdäck slipp?? → got=SE via=ai, expected=SE, source=AI_FALLBACK 🟢
+🤖 AI fallback used for input="klinkerdäck slipp??"
+[GIBBERISH] asdkjhqwe123 → got=FILTER via=gibberish, expected=FILTER, source=- 🟢
+[GIBBERISH] !!!!!!????? → got=FILTER via=short-text, expected=FILTER, source=- 🟢
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → got=SE via=ai, expected=FILTER, source=AI_FALLBACK 🔴
+🤖 AI fallback used for input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → got=SE via=ai, expected=FILTER, source=AI_FALLBACK 🔴
+🤖 AI fallback used for input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[BLOCK] cheap viagra online → got=EN via=ai, expected=FILTER, source=AI_FALLBACK 🔴
+🤖 AI fallback used for input="cheap viagra online"
+[BLOCK] lottery scam free money → got=SE via=ai, expected=FILTER, source=AI_FALLBACK 🔴
+🤖 AI fallback used for input="lottery scam free money"
+[GREETING] hej → got=SE via=greeting, expected=SE, source=DIALOG 🟢
+[GREETING] hello there → got=EN via=greeting, expected=EN, source=DIALOG 🟢
+[RELEVANCE] 12345 → got=FILTER via=gibberish, expected=FILTER, source=- 🟢
+[RELEVANCE] ??!! → got=FILTER via=short-text, expected=FILTER, source=- 🟢
+
+🟩 MINI torture klart. Totala mismatchar: 4
+⚠️ PreDetect≠ChatDetect inte tillämpligt i mini.
+=== MISMATCHED CASES ===
+[LONG #0] "Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................." → got=SE, expected=FILTER, via=ai, source=AI_FALLBACK
+[LONG #1] "Another very very long nonsense text for sanity-test sanity-test sanity-test …" → got=SE, expected=FILTER, via=ai, source=AI_FALLBACK
+[BLOCK #0] "cheap viagra online" → got=EN, expected=FILTER, via=ai, source=AI_FALLBACK
+[BLOCK #1] "lottery scam free money" → got=SE, expected=FILTER, via=ai, source=AI_FALLBACK
+=== END 2025-10-05T08:36:10.335Z ===
+

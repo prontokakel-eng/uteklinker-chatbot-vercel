@@ -1,0 +1,81 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== npm run deadcode ===
+
+> uteklinker-chatbot@1.0.1 deadcode
+> knip --production
+
+[93m[4mUnused files[24m[39m (34)
+build-test-cases-full.mjs                     
+load-env.js                                   
+madge.config.js                               
+prettier.config.cjs                           
+snapshot.js                                   
+api/9-october-chat.js                         
+api/api-debug-cache.js                        
+api/chat-debug.js                             
+api/chat.js                                   
+api/healthz.js                                
+api/save-ai-reply.js                          
+api/save-faq-reply.js                         
+api/test-openai.js                            
+faq-extended/detect-lang-rules.js             
+lib/faq-cache-view.prod.mjs                   
+public/13-okt-1600-chat-ui.js                 
+public/chat-ui.js                             
+public/embed.js                               
+public/old-chat-ui.js                         
+public/snapshot.js                            
+api/Archive/ai.js                             
+api/Archive/experimental.js                   
+api/Archive/olddetect-lang.js                 
+api/Archive/test-google.js                    
+config/lexicon/add-geo-mapping.mjs            
+config/lexicon/fix-lexicon-one.mjs            
+config/lexicon/sanitize-lexicons.mjs          
+coverage/lcov-report/block-navigation.js      
+coverage/lcov-report/prettify.js              
+coverage/lcov-report/sorter.js                
+public/oct-10-old/09-october-chat-ui.js       
+public/oct-10-old/9-october-chat-ui.js        
+public/oct-10-old/chat-ui.js                  
+config/lexicon/fix/tools.fix-lexicon-one.mjs  
+[93m[4mUnused dependencies[24m[39m (6)
+archiver           package.json:33:6
+chalk              package.json:34:6
+cheerio            package.json:35:6
+csv-parse          package.json:36:6
+node-fetch         package.json:39:6
+string-similarity  package.json:41:6
+[93m[4mUnlisted dependencies[24m[39m (1)
+dotenv  lib/load-env.js:13:20
+[93m[4mUnresolved imports[24m[39m (1)
+./sheets.js  lib/utils.js:7:15
+[93m[4mUnused exports[24m[39m (1)
+default  config/lexicon/lexicon-loader.js:123:8
+node:internal/errors:984
+  const err = new Error(message);
+              ^
+
+Error: Command failed: npm run deadcode
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at run (file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:5:3)
+    at file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:12:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 37312,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v20.19.5

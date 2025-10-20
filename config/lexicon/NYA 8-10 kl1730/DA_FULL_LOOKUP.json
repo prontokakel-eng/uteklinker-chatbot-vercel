@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "normalized": true
+  },
+  "articles": [
+    "en",
+    "et",
+    "den",
+    "det",
+    "de",
+    "nogen",
+    "noget",
+    "nogle"
+  ],
+  "negations": [
+    "ikke",
+    "ingen",
+    "intet",
+    "aldrig",
+    "uden"
+  ],
+  "common": [
+    "og",
+    "at",
+    "som",
+    "har",
+    "for",
+    "på",
+    "er",
+    "kan",
+    "skal",
+    "hvordan",
+    "hvad",
+    "hvilken",
+    "hvilke",
+    "hvorfor",
+    "hvem",
+    "bedst",
+    "billig",
+    "farve",
+    "fliser",
+    "garanti",
+    "gulv",
+    "hej",
+    "indendørs",
+    "klinker",
+    "mål",
+    "skrid",
+    "størrelse",
+    "tag",
+    "tak",
+    "til",
+    "udendørs",
+    "væg",
+    "æ",
+    "ø"
+  ],
+  "regex": {
+    "prefix": [
+      "^(om|af|for|til)"
+    ],
+    "suffix": [
+      "(ning|hed|skab|else|ende)\\b"
+    ]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.5,
+    "common": 0.5,
+    "regex": 0.5
+  },
+  "fallbackTriggers": [
+    "hvordan",
+    "hvad",
+    "hvilken",
+    "hvilke",
+    "hvorfor",
+    "hvem"
+  ],
+  "stopwords": [],
+  "bigrams": [],
+  "trigrams": [],
+  "accentMap": {
+    "á": "a",
+    "à": "a",
+    "â": "a",
+    "ã": "a",
+    "é": "e",
+    "è": "e",
+    "ê": "e",
+    "ë": "e",
+    "í": "i",
+    "ì": "i",
+    "î": "i",
+    "ï": "i",
+    "ó": "o",
+    "ò": "o",
+    "ô": "o",
+    "õ": "o",
+    "ú": "u",
+    "ù": "u",
+    "û": "u",
+    "ü": "u",
+    "ç": "c"
+  },
+  "geoMapping": {
+    "DK": "DA",
+    "SE": "SE",
+    "DE": "DE",
+    "GB": "EN",
+    "US": "EN",
+    "AU": "EN",
+    "CA": "EN",
+    "AT": "DE",
+    "CH": "DE"
+  },
+  "aliases": {},
+  "extras": {
+    "extras": {
+      "lang": "DA",
+      "fallbackExcludes": [],
+      "normalize": {
+        "methods": [
+          "NFD",
+          "NFC"
+        ],
+        "remove": [
+          "[\\u0301\\u0300\\u0302\\u0303]"
+        ]
+      },
+      "regexAnchors": {
+        "exclusive": [
+          "\\bhvordan\\b",
+          "\\bhvilken\\b",
+          "\\bhvilke\\b",
+          "\\bhvad\\b",
+          "\\bhvorfor\\b",
+          "\\bhvem\\b",
+          "æ",
+          "ø",
+          "\\bikke\\b"
+        ],
+        "soft": []
+      },
+      "boosters": [
+        "hvilke",
+        "leverer",
+        "garanti",
+        "skridsikring",
+        "plader",
+        "mål",
+        "til",
+        "fliserne"
+      ]
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "normalized": true
+  },
+  "articles": [
+    "en",
+    "ett",
+    "den",
+    "det",
+    "de",
+    "någon",
+    "något",
+    "några"
+  ],
+  "negations": [
+    "inte",
+    "ej",
+    "inget",
+    "ingenting",
+    "utan",
+    "aldrig"
+  ],
+  "common": [
+    "och",
+    "att",
+    "som",
+    "har",
+    "för",
+    "på",
+    "är",
+    "kan",
+    "ska",
+    "finns",
+    "varför",
+    "vilka",
+    "vilken",
+    "vad",
+    "hur",
+    "badrum",
+    "billig",
+    "ce",
+    "ce-märkning",
+    "dyr",
+    "eftersom",
+    "fog",
+    "färg",
+    "färger",
+    "golv",
+    "hallå",
+    "hej",
+    "ing",
+    "kakel",
+    "kunde",
+    "mått",
+    "platta",
+    "plattor",
+    "serie",
+    "snälla",
+    "tack",
+    "utomhus",
+    "vägg",
+    "ytstruktur",
+    "ok",
+    "okay",
+    "best",
+    "morning",
+    "evening",
+    "good",
+    "thanks",
+    "hello",
+    "hi"
+  ],
+  "regex": {
+    "prefix": [
+      "^(om|av|för|till)"
+    ],
+    "suffix": [
+      "(ning|het|skap|ande|else)\\b"
+    ]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.5,
+    "common": 0.5,
+    "regex": 0.5
+  },
+  "fallbackTriggers": [
+    "vilka",
+    "vilken",
+    "vad",
+    "hur",
+    "varför",
+    "finns",
+    "kan",
+    "är",
+    "har",
+    "går",
+    "hur fungerar",
+    "vad är",
+    "vad heter",
+    "när",
+    "var"
+  ],
+  "stopwords": [],
+  "bigrams": [],
+  "trigrams": [],
+  "accentMap": {
+    "á": "a",
+    "à": "a",
+    "â": "a",
+    "ã": "a",
+    "é": "e",
+    "è": "e",
+    "ê": "e",
+    "ë": "e",
+    "í": "i",
+    "ì": "i",
+    "î": "i",
+    "ï": "i",
+    "ó": "o",
+    "ò": "o",
+    "ô": "o",
+    "õ": "o",
+    "ú": "u",
+    "ù": "u",
+    "û": "u",
+    "ü": "u",
+    "ç": "c"
+  },
+  "geoMapping": {
+    "SE": true,
+    "DK": "DA",
+    "DE": "DE",
+    "GB": "EN",
+    "US": "EN",
+    "AU": "EN",
+    "CA": "EN",
+    "AT": "DE",
+    "CH": "DE"
+  },
+  "aliases": {},
+  "extras": {
+    "extras": {
+      "lang": "SE",
+      "fallbackExcludes": [
+        "hvad",
+        "hvordan",
+        "hvilke",
+        "welche",
+        "nicht",
+        "und",
+        "aber"
+      ],
+      "normalize": {
+        "methods": [
+          "NFD",
+          "NFC"
+        ],
+        "remove": [
+          "[\\u0301\\u0300\\u0302\\u0303]"
+        ]
+      },
+      "regexAnchors": {
+        "exclusive": [
+          "\\bvarför\\b",
+          "\\btack\\b"
+        ],
+        "soft": []
+      },
+      "boosters": [
+        "vilka",
+        "vilken",
+        "finns",
+        "ytstruktur",
+        "serie",
+        "plattorna",
+        "ce",
+        "märkning",
+        "ce-märkning"
+      ]
+    }
+  },
+  "normalize": {
+    "methods": [
+      "NFD",
+      "NFC"
+    ],
+    "remove": [
+      "[\\u0301\\u0300\\u0302\\u0303]"
+    ]
+  },
+  "anchors": {
+    "exclusive": [
+      "\\bvarför\\b",
+      "\\btack\\b"
+    ],
+    "soft": []
+  }
+}

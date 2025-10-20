@@ -1,0 +1,953 @@
+lang,question,detectedLang,confidence,via,status
+SE,"Vilka färger finns i serien Lava?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Albero?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Alpine?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Anniversario?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Antique?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Ardesia?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Argresia?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Beton?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Cemento?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Cortina?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Grotta?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Iris?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Kvarts?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Manhattan?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Materia?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Meteo?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Mista?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Nature?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Nordique?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Quartz?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Roccia?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Slate?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Stella?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Stone?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Strada?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Travertin?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Trentino?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Vintage?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Konjak?",SE,1,short-lexicon,PASS
+SE,"Vilka mått finns klinkerdäck® i?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns tillgängliga?",SE,1,short-lexicon,PASS
+SE,"Vilken vikt har en platta?",SE,1,short-lexicon,PASS
+SE,"Vilket material tillverkas klinkerdäck® av?",SE,0.7,heuristic-group,PASS
+SE,"Har plattorna någon CE-märkning?",SE,1,short-lexicon,PASS
+SE,"Finns det olika ytstrukturer (släta, strukturerade)?",SE,1,short-lexicon,PASS
+SE,"Finns det tekniska datablad att ladda ner?",SE,1,short-lexicon,PASS
+SE,"Är plattorna resistenta mot kemikalier?",SE,1,short-lexicon,PASS
+SE,"Vilka toleranser gäller för mått och form?",SE,1,short-lexicon,PASS
+SE,"Kan man lägga plattorna direkt på grus?",SE,1,short-lexicon,PASS
+SE,"Måste man limma plattorna vid installation?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna läggas på en träaltan?",SE,1,short-lexicon,PASS
+SE,"Kan man kapa plattorna själv?",SE,1,short-lexicon,PASS
+SE,"Vilka verktyg rekommenderas för kapning?",SE,1,short-lexicon,PASS
+SE,"Kan man lägga plattorna på en balkong?",SE,1,short-lexicon,PASS
+SE,"Behöver man distanskryss när man lägger plattorna?",SE,1,short-lexicon,PASS
+SE,"Kan man lägga plattorna inomhus?",SE,1,short-lexicon,PASS
+SE,"Fungerar plattorna på lutande underlag?",SE,1,short-lexicon,PASS
+SE,"Hur rengör man plattorna bäst?",SE,1,short-lexicon,PASS
+SE,"Kan man använda högtryckstvätt på plattorna?",SE,1,short-lexicon,PASS
+SE,"Behöver plattorna behandlas med impregnering?",SE,1,short-lexicon,PASS
+SE,"Hur tar man bort mossa och alger från plattorna?",SE,1,short-lexicon,PASS
+SE,"Hur påverkas plattorna av salt på vintern?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna missfärgas av vin, olja eller andra fläckar?",SE,1,short-lexicon,PASS
+SE,"Krävs det speciell vinterförvaring?",SE,0.7,heuristic-group,PASS
+SE,"Hur lång livslängd har plattorna?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna slipas eller renoveras?",SE,1,short-lexicon,PASS
+SE,"Är plattorna halksäkra?",SE,1,short-lexicon,PASS
+SE,"Är klinkerdäck® brandsäkert?",SE,0.7,heuristic-group,PASS
+SE,"Kan man använda plattorna vid poolområden?",SE,1,short-lexicon,PASS
+SE,"Är plattorna säkra för barn att leka på?",SE,1,short-lexicon,PASS
+SE,"Kan äldre personer gå säkert på plattorna?",SE,1,short-lexicon,PASS
+SE,"Hur testas halksäkerheten?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna bli hala vid isbildning?",SE,1,short-lexicon,PASS
+SE,"Finns det någon garanti på halkskyddet?",SE,1,short-lexicon,PASS
+SE,"Kan man använda halkskyddstejp tillsammans med plattorna?",SE,1,short-lexicon,PASS
+SE,"Hur lång är livslängden på klinkerdäck®?",SE,1,short-lexicon,PASS
+SE,"Är plattorna UV-beständiga?",SE,1,short-lexicon,PASS
+SE,"Tål plattorna frost och kyla?",SE,1,short-lexicon,PASS
+SE,"Är plattorna resistenta mot slitage?",SE,1,short-lexicon,PASS
+SE,"Kan man använda plattorna i offentliga miljöer?",SE,1,short-lexicon,PASS
+SE,"Tål plattorna kemikalier?",SE,1,short-lexicon,PASS
+SE,"Är plattorna reptåliga?",SE,1,short-lexicon,PASS
+SE,"Hur påverkas plattorna av tung belastning?",SE,1,short-lexicon,PASS
+SE,"Hur lång garanti ges på hållbarheten?",SE,1,short-lexicon,PASS
+SE,"Är klinkerdäck® miljövänligt?",SE,0.7,heuristic-group,PASS
+SE,"Är plattorna återvinningsbara?",SE,1,short-lexicon,PASS
+SE,"Tillverkas produkterna i Sverige?",SE,0.7,heuristic-group,PASS
+SE,"Kan man använda plattorna inomhus?",SE,1,short-lexicon,PASS
+SE,"Passar klinkerdäck® till poolområden?",SE,0.7,heuristic-group,PASS
+SE,"Kan plattorna användas på balkong?",SE,1,short-lexicon,PASS
+SE,"Kan man använda plattorna i kommersiella lokaler?",SE,1,short-lexicon,PASS
+SE,"Hur påverkar produktionen miljön?",SE,1,short-lexicon,PASS
+SE,"Är produkterna certifierade för miljöbyggnation?",SE,0.9,short-lexicon,PASS
+SE,"Levererar ni i hela Sverige?",SE,0.7,heuristic-group,PASS
+SE,"Levererar ni till Danmark och Tyskland?",SE,0.7,heuristic-group,PASS
+SE,"Levererar ni till Finland?",EN,0.7,heuristic-group,FAIL
+SE,"Levererar ni till Storbritannien?",SE,0.7,heuristic-group,PASS
+SE,"Levererar ni utanför EU?",SE,0.7,heuristic-group,PASS
+SE,"Hur lång är leveranstiden normalt?",SE,1,short-lexicon,PASS
+SE,"Vad kostar frakten?",SE,0.9,fallback-heuristic,PASS
+SE,"Kan man boka tid för leverans?",SE,0.9,fallback-heuristic,PASS
+SE,"Kan man hämta plattorna själv i lager?",SE,1,short-lexicon,PASS
+SE,"Vad kostar klinkerdäck® per kvadratmeter?",SE,0.9,fallback-heuristic,PASS
+SE,"Kan man få offert på större projekt?",SE,0.9,fallback-heuristic,PASS
+SE,"Erbjuder ni delbetalning?",SE,0.7,heuristic-group,PASS
+SE,"Vilken tjocklek har plattorna?",SE,1,short-lexicon,PASS
+SE,"Finns plattorna med fasad kant?",SE,1,short-lexicon,PASS
+SE,"Hur stor är kalibreringstoleransen?",SE,1,short-lexicon,PASS
+SE,"Hur stor fogbredd rekommenderar ni?",SE,1,short-lexicon,PASS
+SE,"Finns plattorna i matt eller halvmatt yta?",SE,1,short-lexicon,PASS
+SE,"Hur packas plattorna på pall?",SE,1,short-lexicon,PASS
+SE,"Vilka kulörer är mest färgstabila över tid?",SE,1,short-lexicon,PASS
+SE,"Finns produktcertifikat och provningsprotokoll?",SE,1,short-lexicon,PASS
+SE,"Vilket fall bör underlaget ha för dränering?",DE,0.9,short-lexicon,FAIL
+SE,"Kan jag lägga plattorna på befintlig betongplatta?",SE,1,short-lexicon,PASS
+SE,"Behöver jag frostskyddslager under plattorna?",DE,1,short-lexicon,FAIL
+SE,"Vilken fog rekommenderas mellan plattorna?",SE,1,short-lexicon,PASS
+SE,"Hur hanterar jag rörelsefogar?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna läggas på justerbara fötter?",SE,1,short-lexicon,PASS
+SE,"Vilket mönster är enklast att lägga?",SE,0.7,heuristic-group,PASS
+SE,"Hur avslutar jag mot kanter och rabatter?",SE,1,short-lexicon,PASS
+SE,"Hur ofta bör man städa en uteplats med klinkerdäck®?",SE,1,short-lexicon,PASS
+SE,"Hur tar jag bort oljefläckar?",SE,1,short-lexicon,PASS
+SE,"Kan jag använda ättika eller syror vid rengöring?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur förebygger jag gröna beläggningar?",SE,1,short-lexicon,PASS
+SE,"Kan jag skotta snö med metallskyffel?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur rengör jag fogarna utan att skada dem?",SE,1,short-lexicon,PASS
+SE,"Behöver jag efterbehandla plattorna efter vintern?",SE,1,short-lexicon,PASS
+SE,"Hur tar jag bort rostfläckar?",SE,1,short-lexicon,PASS
+SE,"Blir plattorna mycket varma i direkt solljus?",SE,1,short-lexicon,PASS
+SE,"Är ytan halksäker när den är blöt?",SE,0.9,fallback-heuristic,PASS
+SE,"Är produkten säker kring grill och gnistor?",SE,0.7,heuristic-group,PASS
+SE,"Kan kanterna upplevas vassa?",SE,0.9,fallback-heuristic,PASS
+SE,"Finns rekommendationer för belysning av trappsteg?",SE,1,short-lexicon,PASS
+SE,"Är plattorna lämpliga för rullator och rullstol?",SE,1,short-lexicon,PASS
+SE,"Påverkas halksäkerheten av pollen och smuts?",SE,0.7,heuristic-group,PASS
+SE,"Behövs skyddsutrustning vid kapning?",SE,0.7,heuristic-group,PASS
+SE,"Hur tåliga är plattorna mot repor från möbelben?",SE,1,short-lexicon,PASS
+SE,"Tål plattorna cykelställ och barnleksaker?",SE,1,short-lexicon,PASS
+SE,"Hur påverkas färgen över tid?",SE,1,short-lexicon,PASS
+SE,"Klarar plattorna snabba temperaturväxlingar?",SE,1,short-lexicon,PASS
+SE,"Kan tunga krukor och grillar stå på plattorna?",SE,1,short-lexicon,PASS
+SE,"Hur påverkas ytan av vägsalt?",SE,1,short-lexicon,PASS
+SE,"Hur lång teknisk livslängd kan man räkna med?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna spricka?",SE,1,short-lexicon,PASS
+SE,"Är klinkerdäck® återvinningsbart?",SE,0.7,heuristic-group,PASS
+SE,"Finns miljövarudeklaration (EPD)?",SE,1,short-lexicon,PASS
+SE,"Passar plattorna för takterrasser?",SE,1,short-lexicon,PASS
+SE,"Kan plattorna användas i entréer inomhus?",SE,1,short-lexicon,PASS
+SE,"Är produkten lämplig i marina miljöer?",SE,0.7,heuristic-group,PASS
+SE,"Kan plattorna kombineras med trä och natursten?",SE,1,short-lexicon,PASS
+SE,"Finns rekommendationer för ljuddämpning?",SE,1,short-lexicon,PASS
+SE,"Lämpar sig plattorna för uteserveringar?",SE,1,short-lexicon,PASS
+SE,"Vilka länder har ni som standardleverans?",SE,1,short-lexicon,PASS
+SE,"Kan ni leverera till andra EU-länder?",SE,0.9,fallback-heuristic,PASS
+SE,"Vilka leveranssätt används?",SE,1,short-lexicon,PASS
+SE,"Kan jag få kvällsleverans?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur lång är normal leveranstid?",SE,1,short-lexicon,PASS
+SE,"Hur levereras varorna – på pall?",SE,1,short-lexicon,PASS
+SE,"Hur beräknas pris per m²?",SE,1,short-lexicon,PASS
+SE,"Erbjuder ni volymrabatter?",SE,0.7,heuristic-group,PASS
+SE,"Vilka betalningsmetoder accepterar ni?",SE,1,short-lexicon,PASS
+SE,"Går det att delbetala?",SE,0.7,heuristic-group,PASS
+SE,"Ingår frakt i priset?",SE,0.7,heuristic-group,PASS
+SE,"Har ni prisgaranti?",DA,0.9,short-lexicon,FAIL
+SE,"Kostar provplattor något?",SE,0.7,heuristic-group,PASS
+SE,"Hur länge gäller en offert?",SE,1,short-lexicon,PASS
+SE,"Kan jag ångra köpet?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur returnerar jag överblivna plattor?",SE,1,short-lexicon,PASS
+SE,"Vem står för returfrakten?",SE,0.7,heuristic-group,PASS
+SE,"Hur snabbt måste transportskada anmälas?",SE,1,short-lexicon,PASS
+SE,"Hur hanteras produktionsfel?",SE,1,short-lexicon,PASS
+SE,"Kan specialbeställda varor returneras?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur lång tid tar en återbetalning?",SE,1,short-lexicon,PASS
+SE,"Kan jag byta kulör efter leverans?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur kontaktar jag er för rådgivning?",SE,1,short-lexicon,PASS
+SE,"Kan ni räkna på materialåtgång?",SE,0.9,fallback-heuristic,PASS
+SE,"Erbjuder ni projekteringsstöd?",SE,0.7,heuristic-group,PASS
+SE,"Hur lång är normal svarstid från kundservice?",SE,1,short-lexicon,PASS
+SE,"Kan ni rekommendera montörer?",SE,0.9,fallback-heuristic,PASS
+SE,"Vilka handlingar är bra att ha när jag frågar om offert?",SE,1,short-lexicon,PASS
+SE,"Finns support efter leverans?",SE,1,short-lexicon,PASS
+SE,"Kan vi boka ett videomöte?",SE,0.9,fallback-heuristic,PASS
+SE,"Har ni exempelbilder på uteplatser med klinkerdäck®?",SE,0.9,fallback-heuristic,PASS
+SE,"Kan jag få hjälp att välja mönster?",SE,0.9,fallback-heuristic,PASS
+SE,"Passar plattorna ihop med trädetaljer och stål?",SE,1,short-lexicon,PASS
+SE,"Kan jag provlägga några plattor innan köp?",SE,1,short-lexicon,PASS
+SE,"Kan jag använda möbeltassar på plattorna?",SE,1,short-lexicon,PASS
+SE,"Hur ofta bör fogarna efterfyllas?",SE,1,short-lexicon,PASS
+SE,"Vilka storlekar finns i 20 mm tjocklek?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",SE,1,short-lexicon,PASS
+SE,"Vilka format har ni?",SE,1,short-lexicon,PASS
+SE,"Jag letar en platta som är typ 60x60 – vilka format ligger närmast?",SE,1,short-lexicon,PASS
+SE,"Jag letar en platta som är typ 80x80 – vilka format ligger närmast?",SE,1,short-lexicon,PASS
+SE,"Vilka storlekar har ni i 20 mm?",SE,1,short-lexicon,PASS
+SE,"Har ni förslag på läggningsmönster för 20 mm plattor?",SE,1,short-lexicon,PASS
+SE,"Jag har 35 m² av 60x60 cm – hur många fötter behöver jag?",SE,0.9,fallback-heuristic,PASS
+SE,"Hur räknar jag antal fötter per m² för en viss plattstorlek?",SE,1,short-lexicon,PASS
+SE,"Vilka höjder på fötter har ni?",SE,1,short-lexicon,PASS
+SE,"Jag har en specifik höjd, t.ex. 40 mm eller 355 mm, vilken fot ska jag välja?",SE,0.9,short-lexicon,PASS
+SE,"Vilket tillbehör används: Adjustment Key?",SE,0.7,heuristic-group,PASS
+SE,"Vilket tillbehör används: Slope Corrector 0-5%?",SE,0.7,heuristic-group,PASS
+SE,"Vilket tillbehör används: Spacer Tabs 2/3/4 mm?",SE,0.9,short-lexicon,PASS
+SE,"Vilket tillbehör används: Pocket Key?",SE,0.7,heuristic-group,PASS
+SE,"Vilket tillbehör används: Twist Lock Ring?",SE,0.7,heuristic-group,PASS
+SE,"Vilket tillbehör används: Fix Ring?",SE,0.7,heuristic-group,PASS
+SE,"Vilket tillbehör används: Dome Extension 25 mm?",SE,0.7,heuristic-group,PASS
+SE,"Vilket tillbehör används: Prolunga PBP10 100 mm?",SE,0.7,heuristic-group,PASS
+SE,"Vilka färger finns i serien Uteklinker?",SE,1,short-lexicon,PASS
+SE,"Vilka färger finns i serien Träklinker?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Lava?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Albero?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Alpine?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Anniversario?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Antique?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Ardesia?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Argresia?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Beton?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Cemento?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Cortina?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Grotta?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Iris?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Kvarts?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Manhattan?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Materia?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Meteo?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Mista?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Nature?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Nordique?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Quartz?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Roccia?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Slate?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Stella?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Stone?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Strada?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Travertin?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Trentino?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Vintage?",SE,1,short-lexicon,PASS
+SE,"Vilka format finns i serien Konjak?",SE,1,short-lexicon,PASS
+EN,"What colors are available in the Lava series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Albero series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Alpine series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Anniversario series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Antique series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Ardesia series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Argresia series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Beton series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Cemento series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Cortina series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Grotta series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Iris series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Kvarts series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Manhattan series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Materia series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Meteo series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Mista series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Nature series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Nordique series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Quartz series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Roccia series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Slate series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Stella series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Stone series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Strada series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Travertin series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Trentino series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Vintage series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Konjak series?",EN,1,regex-exclusive,PASS
+EN,"What sizes are klinkerdäck® available in?",EN,1,short-lexicon,PASS
+EN,"What colors are available?",EN,1,short-lexicon,PASS
+EN,"What is the weight of a plate?",EN,1,regex-exclusive,PASS
+EN,"What material is klinkerdäck® made of?",EN,0.9,short-lexicon,PASS
+EN,"Do the tiles have any CE marking?",EN,1,regex-exclusive,PASS
+EN,"Are there different surface textures (smooth, structured)?",EN,1,short-lexicon,PASS
+EN,"Are there technical data sheets available for download?",EN,1,short-lexicon,PASS
+EN,"Are the tiles resistant to chemicals?",EN,1,regex-exclusive,PASS
+EN,"What tolerances apply to dimensions and shape?",SE,0.9,short-lexicon,FAIL
+EN,"Can you lay the tiles directly on gravel?",EN,1,regex-exclusive,PASS
+EN,"Do the tiles need to be glued during installation?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be laid on a wooden deck?",EN,1,regex-exclusive,PASS
+EN,"Can you cut the tiles yourself?",EN,1,regex-exclusive,PASS
+EN,"What tools are recommended for cutting?",EN,1,short-lexicon,PASS
+EN,"Can the tiles be placed on a balcony?",EN,1,regex-exclusive,PASS
+EN,"Do you need spacers when laying the tiles?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be installed indoors?",EN,1,regex-exclusive,PASS
+EN,"Do the tiles work on sloped surfaces?",EN,1,regex-exclusive,PASS
+EN,"How do you best clean the tiles?",EN,1,regex-exclusive,PASS
+EN,"Can you use a pressure washer on the tiles?",EN,1,regex-exclusive,PASS
+EN,"Do the tiles need to be treated with impregnation?",EN,1,regex-exclusive,PASS
+EN,"How do you remove moss and algae from the tiles?",EN,1,regex-exclusive,PASS
+EN,"How are the tiles affected by salt in the winter?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be discolored by wine, oil, or other stains?",EN,1,regex-exclusive,PASS
+EN,"Is special winter storage required?",SE,0.7,heuristic-group,FAIL
+EN,"What is the lifespan of the plates?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be sanded or renovated?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles slip-resistant?",EN,1,regex-exclusive,PASS
+EN,"Is klinkerdäck® fireproof?",SE,0.7,heuristic-group,FAIL
+EN,"Can the tiles be used in pool areas?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles safe for children to play on?",EN,1,regex-exclusive,PASS
+EN,"Can older people walk safely on the tiles?",EN,1,regex-exclusive,PASS
+EN,"How is slip resistance tested?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles become slippery when ice forms?",EN,1,regex-exclusive,PASS
+EN,"Is there a warranty on the anti-slip protection?",EN,1,regex-exclusive,PASS
+EN,"Can anti-slip tape be used with the tiles?",EN,1,regex-exclusive,PASS
+EN,"What is the lifespan of klinkerdäck®?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles UV-resistant?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles resistant to frost and cold?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles resistant to wear?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be used in public environments?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles resistant to chemicals?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles scratch-resistant?",EN,1,regex-exclusive,PASS
+EN,"How are the tiles affected by heavy loads?",EN,1,regex-exclusive,PASS
+EN,"What is the warranty period for durability?",EN,1,regex-exclusive,PASS
+EN,"Is klinkerdäck® environmentally friendly?",SE,0.7,heuristic-group,FAIL
+EN,"Are the tiles recyclable?",EN,1,regex-exclusive,PASS
+EN,"Are the products manufactured in Sweden?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be used indoors?",EN,1,regex-exclusive,PASS
+EN,"Is klinkerdäck® suitable for pool areas?",SE,0.7,heuristic-group,FAIL
+EN,"Can the tiles be used on a balcony?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be used in commercial premises?",EN,1,regex-exclusive,PASS
+EN,"How does production affect the environment?",EN,1,regex-exclusive,PASS
+EN,"Are the products certified for environmentally friendly construction?",EN,1,regex-exclusive,PASS
+EN,"Do you deliver throughout Sweden?",EN,1,regex-exclusive,PASS
+EN,"Do you deliver to Denmark and Germany?",EN,1,regex-exclusive,PASS
+EN,"Do you deliver to Finland?",EN,1,regex-exclusive,PASS
+EN,"Do you deliver to the United Kingdom?",EN,1,regex-exclusive,PASS
+EN,"Do you deliver outside the EU?",EN,1,regex-exclusive,PASS
+EN,"What is the normal delivery time?",EN,1,regex-exclusive,PASS
+EN,"What is the shipping cost?",EN,1,regex-exclusive,PASS
+EN,"Can you schedule a delivery time?",EN,1,regex-exclusive,PASS
+EN,"Can you pick up the tiles yourself in the warehouse?",EN,1,regex-exclusive,PASS
+EN,"What is the cost of klinkerdäck® per square meter?",EN,1,regex-exclusive,PASS
+EN,"Can I get a quote for larger projects?",EN,0.7,heuristic-group,PASS
+EN,"Do you offer installment payments?",EN,1,regex-exclusive,PASS
+EN,"What is the thickness of the tiles?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles available with a beveled edge?",EN,1,regex-exclusive,PASS
+EN,"What is the calibration tolerance?",EN,1,regex-exclusive,PASS
+EN,"What joint width do you recommend?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles available in matte or semi-matte finish?",EN,1,regex-exclusive,PASS
+EN,"How are the tiles packed on a pallet?",EN,1,regex-exclusive,PASS
+EN,"Which colors are the most color-stable over time?",EN,1,regex-exclusive,PASS
+EN,"Are product certificates and test reports available?",EN,0.9,mixed-heuristic,PASS
+EN,"What slope should the base have for drainage?",EN,1,regex-exclusive,PASS
+EN,"Can I lay the tiles on an existing concrete slab?",EN,1,regex-exclusive,PASS
+EN,"Do I need a frost protection layer under the tiles?",EN,1,regex-exclusive,PASS
+EN,"What grout is recommended between the tiles?",EN,1,regex-exclusive,PASS
+EN,"How do I manage expansion joints?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be laid on adjustable feet?",EN,1,regex-exclusive,PASS
+EN,"Which pattern is the easiest to lay?",EN,1,regex-exclusive,PASS
+EN,"How do I finish against edges and borders?",EN,1,regex-exclusive,PASS
+EN,"How often should you clean a patio with klinkerdäck®?",EN,1,regex-exclusive,PASS
+EN,"How do I remove oil stains?",EN,1,regex-exclusive,PASS
+EN,"Can I use vinegar or acids for cleaning?",EN,0.7,heuristic-group,PASS
+EN,"How do I prevent green deposits?",EN,1,regex-exclusive,PASS
+EN,"Can I shovel snow with a metal shovel?",EN,0.7,heuristic-group,PASS
+EN,"How do I clean the grout without damaging it?",EN,1,regex-exclusive,PASS
+EN,"Do I need to treat the tiles after winter?",EN,1,regex-exclusive,PASS
+EN,"How do I remove rust stains?",EN,1,regex-exclusive,PASS
+EN,"Do the tiles get very hot in direct sunlight?",EN,1,regex-exclusive,PASS
+EN,"Is the surface slip-resistant when wet?",EN,1,regex-exclusive,PASS
+EN,"Is the product safe around the grill and sparks?",EN,1,regex-exclusive,PASS
+EN,"Can the edges be perceived as sharp?",EN,1,regex-exclusive,PASS
+EN,"Are there recommendations for lighting stair steps?",EN,1,short-lexicon,PASS
+EN,"Are the tiles suitable for walkers and wheelchairs?",EN,1,regex-exclusive,PASS
+EN,"Is slip resistance affected by pollen and dirt?",SE,0.9,short-lexicon,FAIL
+EN,"Is protective equipment needed during cutting?",SE,0.7,heuristic-group,FAIL
+EN,"How resistant are the tiles to scratches from furniture legs?",EN,1,regex-exclusive,PASS
+EN,"Are the tiles resistant to bike racks and children's toys?",EN,1,regex-exclusive,PASS
+EN,"How does the color change over time?",EN,1,regex-exclusive,PASS
+EN,"Can the plates withstand rapid temperature changes?",EN,1,regex-exclusive,PASS
+EN,"Can heavy pots and grills be placed on the tiles?",EN,1,regex-exclusive,PASS
+EN,"How is the surface affected by road salt?",EN,1,regex-exclusive,PASS
+EN,"What is the expected technical lifespan?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles crack?",EN,1,regex-exclusive,PASS
+EN,"Is klinkerdäck® recyclable?",SE,0.7,heuristic-group,FAIL
+EN,"Is there an Environmental Product Declaration (EPD)?",EN,0.7,heuristic-group,PASS
+EN,"Are the tiles suitable for roof terraces?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be used in indoor entrances?",EN,1,regex-exclusive,PASS
+EN,"Is the product suitable for marine environments?",EN,1,regex-exclusive,PASS
+EN,"Can the tiles be combined with wood and natural stone?",EN,1,regex-exclusive,PASS
+EN,"Are there recommendations for soundproofing?",EN,1,short-lexicon,PASS
+EN,"Are the tiles suitable for outdoor dining areas?",EN,1,regex-exclusive,PASS
+EN,"Which countries do you offer standard delivery to?",EN,1,regex-exclusive,PASS
+EN,"Can you deliver to other EU countries?",EN,1,regex-exclusive,PASS
+EN,"What delivery methods are used?",EN,1,short-lexicon,PASS
+EN,"Can I get evening delivery?",EN,1,short-lexicon,PASS
+EN,"What is the normal delivery time?",EN,1,regex-exclusive,PASS
+EN,"How are the goods delivered – on a pallet?",EN,1,regex-exclusive,PASS
+EN,"How is the price per m² calculated?",EN,1,regex-exclusive,PASS
+EN,"Do you offer volume discounts?",EN,1,regex-exclusive,PASS
+EN,"What payment methods do you accept?",EN,1,regex-exclusive,PASS
+EN,"Is it possible to pay in installments?",SE,0.7,heuristic-group,FAIL
+EN,"Is shipping included in the price?",EN,1,regex-exclusive,PASS
+EN,"Do you have a price guarantee?",EN,1,regex-exclusive,PASS
+EN,"Do sample tiles cost anything?",EN,1,short-lexicon,PASS
+EN,"How long is a quote valid?",EN,1,regex-exclusive,PASS
+EN,"Can I cancel the purchase?",EN,1,regex-exclusive,PASS
+EN,"How do I return leftover tiles?",EN,1,regex-exclusive,PASS
+EN,"Who is responsible for the return shipping?",EN,1,regex-exclusive,PASS
+EN,"How quickly must a transport damage be reported?",EN,1,regex-exclusive,PASS
+EN,"How are production defects handled?",EN,1,regex-exclusive,PASS
+EN,"Can custom-ordered items be returned?",EN,0.7,heuristic-group,PASS
+EN,"How long does a refund take?",EN,1,regex-exclusive,PASS
+EN,"Can I change the color after delivery?",EN,1,regex-exclusive,PASS
+EN,"How do I contact you for advice?",EN,1,regex-exclusive,PASS
+EN,"Can you calculate the material consumption?",EN,1,regex-exclusive,PASS
+EN,"Do you offer design support?",EN,1,regex-exclusive,PASS
+EN,"What is the typical response time from customer service?",EN,1,regex-exclusive,PASS
+EN,"Can you recommend installers?",EN,1,regex-exclusive,PASS
+EN,"What documents are good to have when I request a quote?",EN,1,short-lexicon,PASS
+EN,"Is there support after delivery?",EN,0.7,heuristic-group,PASS
+EN,"Can we schedule a video meeting?",EN,0.7,heuristic-group,PASS
+EN,"Do you have example images of patios with klinkerdäck®?",EN,1,regex-exclusive,PASS
+EN,"Can I get help choosing a pattern?",EN,0.7,heuristic-group,PASS
+EN,"Do the tiles match with wood details and steel?",EN,1,regex-exclusive,PASS
+EN,"Can I try laying some tiles before purchasing?",EN,1,short-lexicon,PASS
+EN,"Can I use furniture pads on the tiles?",EN,1,regex-exclusive,PASS
+EN,"How often should the joints be refilled?",EN,1,regex-exclusive,PASS
+EN,"What sizes are available in 20 mm thickness?",EN,1,short-lexicon,PASS
+EN,"How many feet are needed per m² for tiles sized 100x100 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles in size 80x80 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles sized 60x60 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles in size 60x120 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles in size 40x120 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles in size 80.0x80.0 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles sized 60.4x60.4 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles sized 120.8x120.8 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles sized 60.4x120.8 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"How many feet are needed per m² for tiles in size 90x90 cm 20 mm?",EN,1,regex-exclusive,PASS
+EN,"What formats do you have?",EN,1,regex-exclusive,PASS
+EN,"I'm looking for a tile that's about 60x60 – which formats are closest?",EN,1,short-lexicon,PASS
+EN,"I'm looking for a tile that's about 80x80 – which formats are the closest?",EN,1,regex-exclusive,PASS
+EN,"What sizes do you have in 20 mm?",EN,1,regex-exclusive,PASS
+EN,"Do you have suggestions for laying patterns for 20 mm tiles?",EN,1,regex-exclusive,PASS
+EN,"I have 35 m² of 60x60 cm – how many feet do I need?",EN,1,regex-exclusive,PASS
+EN,"How do I calculate the number of tiles per m² for a specific tile size?",EN,1,regex-exclusive,PASS
+EN,"What heights of feet do you have?",EN,1,regex-exclusive,PASS
+EN,"I have a specific height, e.g., 40 mm or 355 mm, which foot should I choose?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Adjustment Key?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Slope Corrector 0-5%?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Spacer Tabs 2/3/4 mm?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Pocket Key?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Twist Lock Ring?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Fix Ring?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Dome Extension 25 mm?",EN,1,short-lexicon,PASS
+EN,"Which accessory is used: Prolunga PBP10 100 mm?",EN,1,short-lexicon,PASS
+EN,"What colors are available in the Uteklinker series?",EN,1,regex-exclusive,PASS
+EN,"What colors are available in the Träklinker series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Lava series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Albero series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Alpine series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Anniversario series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Antique series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Ardesia series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Argresia series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Beton series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Cemento series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Cortina series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Grotta series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Iris series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Kvarts series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Manhattan series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Materia series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Meteo series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Mista series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Nature series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Nordique series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Quartz series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Roccia series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Slate series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Stella series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Stone series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Strada series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Travertin series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Trentino series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Vintage series?",EN,1,regex-exclusive,PASS
+EN,"What formats are available in the Konjak series?",EN,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Lava-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Albero-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Alpine-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Anniversario-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Antique-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Ardesia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Argresia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Beton-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Cemento-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Cortina-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Grotta-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Iris-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Kvarts-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Manhattan-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Materia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Meteo-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Mista-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Nature-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Nordique-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Quartz-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Roccia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Slate-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Stella-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Stone-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Strada-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Travertin-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Trentino-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Vintage-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Konjak-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke størrelser fås klinkerdäck® i?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige?",DA,1,regex-exclusive,PASS
+DA,"Hvad vejer en tallerken?",DA,1,regex-exclusive,PASS
+DA,"Hvilket materiale er klinkerdäck® lavet af?",DA,0.9,short-lexicon,PASS
+DA,"Har fliserne nogen CE-mærkning?",DA,1,regex-exclusive,PASS
+DA,"Er der forskellige overfladeteksturer (glat, struktureret)?",SE,0.7,heuristic-group,FAIL
+DA,"Er der tekniske datablad tilgængelige for download?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne modstandsdygtige over for kemikalier?",DA,0.9,short-lexicon,PASS
+DA,"Hvilke tolerancer gælder for dimensioner og form?",DA,1,regex-exclusive,PASS
+DA,"Kan du lægge fliserne direkte på grus?",DA,1,regex-exclusive,PASS
+DA,"Skal fliserne limes under installationen?",DA,0.9,short-lexicon,PASS
+DA,"Kan fliserne lægges på et trædæk?",DA,1,regex-exclusive,PASS
+DA,"Kan du selv skære fliserne?",DA,1,regex-exclusive,PASS
+DA,"Hvilke værktøjer anbefales til skæring?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne placeres på en altan?",SE,1,short-lexicon,FAIL
+DA,"Skal du bruge afstandsstykker, når du lægger fliserne?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne installeres indendørs?",DA,1,regex-exclusive,PASS
+DA,"Fungerer fliserne på skrånende overflader?",DA,0.9,short-lexicon,PASS
+DA,"Hvordan rengør man bedst fliserne?",DA,1,regex-exclusive,PASS
+DA,"Kan man bruge en højtryksrenser på fliserne?",DA,1,regex-exclusive,PASS
+DA,"Skal fliserne behandles med imprægnering?",DA,1,regex-exclusive,PASS
+DA,"Hvordan fjerner man mos og alger fra fliserne?",DA,1,regex-exclusive,PASS
+DA,"Hvordan påvirkes fliserne af salt om vinteren?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne misfarves af vin, olie eller andre pletter?",DA,1,short-lexicon,PASS
+DA,"Kræves der særlig vinteropbevaring?",DA,1,regex-exclusive,PASS
+DA,"Hvad er levetiden for tallerkenerne?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne slibes eller renoveres?",DA,0.9,short-lexicon,PASS
+DA,"Er fliserne skridsikre?",DA,1,short-lexicon,PASS
+DA,"Er klinkerdäck® brandsikkert?",SE,0.7,heuristic-group,FAIL
+DA,"Kan fliserne bruges i poolområder?",DA,0.9,short-lexicon,PASS
+DA,"Er fliserne sikre for børn at lege på?",DA,1,regex-exclusive,PASS
+DA,"Kan ældre mennesker gå sikkert på fliserne?",DA,1,regex-exclusive,PASS
+DA,"Hvordan testes skridsikkerhed?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne blive glatte, når der dannes is?",DA,0.9,short-lexicon,PASS
+DA,"Er der garanti på skridsikringen?",DA,1,short-lexicon,PASS
+DA,"Kan skridsikkert tape bruges med fliserne?",DA,1,short-lexicon,PASS
+DA,"Hvad er levetiden for klinkerdäck®?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne UV-resistente?",DA,0.9,short-lexicon,PASS
+DA,"Er fliserne modstandsdygtige over for frost og kulde?",DE,0.9,short-lexicon,FAIL
+DA,"Er fliserne modstandsdygtige over for slid?",DA,0.9,short-lexicon,PASS
+DA,"Kan fliserne bruges i offentlige miljøer?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne modstandsdygtige over for kemikalier?",DA,0.9,short-lexicon,PASS
+DA,"Er fliserne ridsefaste?",DA,0.9,short-lexicon,PASS
+DA,"Hvordan påvirkes fliserne af tunge belastninger?",DA,1,regex-exclusive,PASS
+DA,"Hvad er garantiperioden for holdbarhed?",DA,1,regex-exclusive,PASS
+DA,"Er klinkerdäck® miljøvenligt?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne genanvendelige?",DA,0.9,short-lexicon,PASS
+DA,"Er produkterne fremstillet i Sverige?",SE,0.7,heuristic-group,FAIL
+DA,"Kan fliserne bruges indendørs?",DA,1,regex-exclusive,PASS
+DA,"Er klinkerdäck® egnet til poolområder?",SE,0.7,heuristic-group,FAIL
+DA,"Kan fliserne bruges på en altan?",DA,0.9,short-lexicon,PASS
+DA,"Kan fliserne bruges i erhvervslokaler?",DA,0.9,short-lexicon,PASS
+DA,"Hvordan påvirker produktion miljøet?",DA,1,regex-exclusive,PASS
+DA,"Er produkterne certificeret til miljøvenligt byggeri?",DA,1,regex-exclusive,PASS
+DA,"Leverer I i hele Sverige?",SE,0.7,heuristic-group,FAIL
+DA,"Leverer I til Danmark og Tyskland?",DA,0.7,heuristic-group,PASS
+DA,"Leverer I til Finland?",EN,0.7,heuristic-group,FAIL
+DA,"Leverer I til Storbritannien?",SE,0.7,heuristic-group,FAIL
+DA,"Leverer I uden for EU?",SE,0.7,heuristic-group,FAIL
+DA,"Hvad er den normale leveringstid?",DA,1,regex-exclusive,PASS
+DA,"Hvad er forsendelsesomkostningerne?",DA,1,regex-exclusive,PASS
+DA,"Kan du planlægge et leveringstidspunkt?",DA,1,regex-exclusive,PASS
+DA,"Kan du selv hente fliserne på lageret?",DA,0.9,short-lexicon,PASS
+DA,"Hvad er prisen på klinkerdäck® per kvadratmeter?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg få et tilbud på større projekter?",DA,1,regex-exclusive,PASS
+DA,"Tilbyder I afbetalingsordninger?",SE,0.7,heuristic-group,FAIL
+DA,"Hvad er tykkelsen på fliserne?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne tilgængelige med en skrå kant?",DA,1,regex-exclusive,PASS
+DA,"Hvad er kalibreringstolerancen?",DA,1,regex-exclusive,PASS
+DA,"Hvilken fugebredde anbefaler I?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne tilgængelige i mat eller semi-mat finish?",DA,1,regex-exclusive,PASS
+DA,"Hvordan er fliserne pakket på en palle?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er de mest farvestabile over tid?",DA,1,regex-exclusive,PASS
+DA,"Er produktcertifikater og testrapporter tilgængelige?",DA,1,regex-exclusive,PASS
+DA,"Hvilken hældning skal basen have for dræning?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg lægge fliserne på en eksisterende betonplade?",DA,1,regex-exclusive,PASS
+DA,"Skal jeg bruge et frostbeskyttelseslag under fliserne?",DE,1,short-lexicon,FAIL
+DA,"Hvilken fugemasse anbefales mellem fliserne?",DA,1,regex-exclusive,PASS
+DA,"Hvordan håndterer jeg ekspansionsfuger?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne lægges på justerbare fødder?",DA,1,regex-exclusive,PASS
+DA,"Hvilket mønster er det nemmeste at lægge?",DA,1,regex-exclusive,PASS
+DA,"Hvordan afslutter jeg mod kanter og grænser?",DA,1,regex-exclusive,PASS
+DA,"Hvor ofte bør du rengøre en terrasse med klinkerdäck®?",DA,1,regex-exclusive,PASS
+DA,"Hvordan fjerner jeg olieflekker?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg bruge eddike eller syrer til rengøring?",DA,1,regex-exclusive,PASS
+DA,"Hvordan forhindrer jeg grønne belægninger?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg skovle sne med en metalskovl?",SE,0.9,fallback-heuristic,FAIL
+DA,"Hvordan rengør jeg fugerne uden at beskadige dem?",DA,1,regex-exclusive,PASS
+DA,"Skal jeg behandle fliserne efter vinteren?",DA,0.9,short-lexicon,PASS
+DA,"Hvordan fjerner jeg rustpletter?",DA,1,regex-exclusive,PASS
+DA,"Bliver fliserne meget varme i direkte sollys?",DA,0.9,short-lexicon,PASS
+DA,"Er overfladen skridsikker, når den er våd?",DA,1,short-lexicon,PASS
+DA,"Er produktet sikkert omkring grillen og gnister?",DA,0.7,heuristic-group,PASS
+DA,"Kan kanterne opfattes som skarpe?",SE,0.9,fallback-heuristic,FAIL
+DA,"Er der anbefalinger til belysning af trappetrin?",SE,0.7,heuristic-group,FAIL
+DA,"Er fliserne egnede til gående og kørestole?",DA,1,regex-exclusive,PASS
+DA,"Er skridsikkerhed påvirket af pollen og snavs?",DA,1,short-lexicon,PASS
+DA,"Er der behov for beskyttelsesudstyr under skæring?",DA,1,regex-exclusive,PASS
+DA,"Hvor modstandsdygtige er fliserne over for ridser fra møbelben?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne modstandsdygtige over for cykelstativer og børnelegetøj?",DA,1,regex-exclusive,PASS
+DA,"Hvordan ændrer farven sig over tid?",DA,1,regex-exclusive,PASS
+DA,"Kan tallerkenerne modstå hurtige temperaturændringer?",DA,1,regex-exclusive,PASS
+DA,"Kan tunge gryder og grill placeres på fliserne?",SE,1,short-lexicon,FAIL
+DA,"Hvordan påvirkes overfladen af vejsalt?",DA,1,regex-exclusive,PASS
+DA,"Hvad er den forventede tekniske levetid?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne revne?",DA,0.9,short-lexicon,PASS
+DA,"Er klinkerdäck® genanvendelig?",SE,0.7,heuristic-group,FAIL
+DA,"Er der en Miljøvaredeklaration (EPD)?",DA,1,regex-exclusive,PASS
+DA,"Er fliserne egnede til tagterrasser?",DA,1,short-lexicon,PASS
+DA,"Kan fliserne bruges i indendørs indgange?",DA,1,regex-exclusive,PASS
+DA,"Er produktet egnet til marine miljøer?",DA,1,regex-exclusive,PASS
+DA,"Kan fliserne kombineres med træ og natursten?",DA,1,regex-exclusive,PASS
+DA,"Er der anbefalinger til lydisolering?",SE,0.7,heuristic-group,FAIL
+DA,"Er fliserne velegnede til udendørs spiseområder?",DA,1,regex-exclusive,PASS
+DA,"Hvilke lande tilbyder I standardlevering til?",DA,1,regex-exclusive,PASS
+DA,"Kan I levere til andre EU-lande?",SE,0.9,fallback-heuristic,FAIL
+DA,"Hvilke leveringsmetoder anvendes?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg få aftenlevering?",SE,0.9,fallback-heuristic,FAIL
+DA,"Hvad er den normale leveringstid?",DA,1,regex-exclusive,PASS
+DA,"Hvordan leveres varerne – på en palle?",DA,1,regex-exclusive,PASS
+DA,"Hvordan beregnes prisen pr. m²?",DA,1,regex-exclusive,PASS
+DA,"Tilbyder I mængderabatter?",DA,1,regex-exclusive,PASS
+DA,"Hvilke betalingsmetoder accepterer I?",DA,1,regex-exclusive,PASS
+DA,"Er det muligt at betale i rater?",SE,0.7,heuristic-group,FAIL
+DA,"Er fragt inkluderet i prisen?",SE,0.7,heuristic-group,FAIL
+DA,"Har I en prisgaranti?",DA,0.9,short-lexicon,PASS
+DA,"Koster prøvetagning af fliser noget?",DA,1,regex-exclusive,PASS
+DA,"Hvor længe er et tilbud gyldigt?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg annullere købet?",DA,1,regex-exclusive,PASS
+DA,"Hvordan returnerer jeg overskydende fliser?",DA,1,regex-exclusive,PASS
+DA,"Hvem er ansvarlig for returforsendelsen?",DA,1,regex-exclusive,PASS
+DA,"Hvor hurtigt skal en transportskade rapporteres?",SE,0.7,heuristic-group,FAIL
+DA,"Hvordan håndteres produktionsfejl?",DA,1,regex-exclusive,PASS
+DA,"Kan specialbestilte varer returneres?",EN,1,short-lexicon,FAIL
+DA,"Hvor lang tid tager en refundering?",DE,0.9,short-lexicon,FAIL
+DA,"Kan jeg ændre farven efter levering?",DA,1,regex-exclusive,PASS
+DA,"Hvordan kontakter jeg jer for rådgivning?",DA,1,regex-exclusive,PASS
+DA,"Kan du beregne materialeforbruget?",SE,0.9,fallback-heuristic,FAIL
+DA,"Tilbyder I designstøtte?",DA,1,regex-exclusive,PASS
+DA,"Hvad er den typiske svartid fra kundeservice?",DA,1,regex-exclusive,PASS
+DA,"Kan du anbefale installatører?",DA,1,regex-exclusive,PASS
+DA,"Hvilke dokumenter er gode at have, når jeg anmoder om et tilbud?",DA,1,regex-exclusive,PASS
+DA,"Er der support efter levering?",SE,0.7,heuristic-group,FAIL
+DA,"Kan vi planlægge et videomøde?",DA,1,regex-exclusive,PASS
+DA,"Har I eksempler på billeder af terrasser med klinkerdäck®?",SE,0.9,fallback-heuristic,FAIL
+DA,"Kan jeg få hjælp til at vælge et mønster?",DA,1,regex-exclusive,PASS
+DA,"Matcher fliserne med trædetaljer og stål?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg prøve at lægge nogle fliser, før jeg køber dem?",DA,1,regex-exclusive,PASS
+DA,"Kan jeg bruge møbelpuder på fliserne?",DA,1,regex-exclusive,PASS
+DA,"Hvor ofte skal fugerne genopfyldes?",SE,0.7,heuristic-group,FAIL
+DA,"Hvilke størrelser er tilgængelige i 20 mm tykkelse?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 100x100 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er der brug for pr. m² til fliser i størrelsen 80x80 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fliser er der brug for pr. m² til fliser i størrelsen 60x60 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er nødvendige pr. m² for fliser i størrelse 60x120 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 40x120 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er der brug for pr. m² til fliser i størrelse 80.0x80.0 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er der brug for pr. m² for fliser i størrelsen 60.4x60.4 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fliser er der brug for pr. m² til fliser i størrelsen 120.8x120.8 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fliser er der brug for pr. m² for fliser i størrelsen 60.4x120.8 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 90x90 cm 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater har I?",DA,1,regex-exclusive,PASS
+DA,"Jeg leder efter en flise, der er omkring 60x60 – hvilke formater er tættest på?",DA,1,regex-exclusive,PASS
+DA,"Jeg leder efter en flise, der er omkring 80x80 – hvilke formater er de tætteste?",DA,1,regex-exclusive,PASS
+DA,"Hvilke størrelser har I i 20 mm?",DA,1,regex-exclusive,PASS
+DA,"Har I forslag til læggemønstre for 20 mm fliser?",DA,1,regex-exclusive,PASS
+DA,"Jeg har 35 m² af 60x60 cm – hvor mange fødder har jeg brug for?",DA,1,regex-exclusive,PASS
+DA,"Hvordan beregner jeg antallet af fliser pr. m² for en specifik flisestørrelse?",DA,1,regex-exclusive,PASS
+DA,"Hvilke højder af fødder har I?",DA,1,regex-exclusive,PASS
+DA,"Jeg har en specifik højde, f.eks. 40 mm eller 355 mm, hvilken fod skal jeg vælge?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Adjustment Key?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Slope Corrector 0-5%?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Spacer Tabs 2/3/4 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Pocket Key?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Twist Lock Ring?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Fix Ring?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Dome Extension 25 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvilket tilbehør bruges: Prolunga PBP10 100 mm?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Uteklinker-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke farver er tilgængelige i Träklinker-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Lava-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Albero-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Alpine-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Anniversario-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Antique-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Ardesia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Argresia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Beton-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Cemento-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Cortina-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Grotta-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Iris-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Kvarts-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Manhattan-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Materia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Meteo-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Mista-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Nature-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Nordique-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Quartz-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Roccia-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Slate-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Stella-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Stone-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Strada-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Travertin-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Trentino-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Vintage-serien?",DA,1,regex-exclusive,PASS
+DA,"Hvilke formater er tilgængelige i Konjak-serien?",DA,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Lava-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Albero-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Alpine-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Anniversario-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Antique-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Ardesia-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Argresia-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Beton-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Serie Cemento erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Cortina-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Grotta-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Iris-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Kvarts-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Manhattan-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Materia-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Meteo-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Mista-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Nature-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Nordique-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Quartz-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Roccia-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Slate-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Stella-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Stone-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Strada-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Travertin-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Trentino-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Vintage-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Konjak-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"In welchen Größen ist klinkerdäck® erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Wie schwer ist ein Teller?",DE,0.9,short-lexicon,PASS
+DE,"Aus welchem Material besteht klinkerdäck®?",DE,1,short-lexicon,PASS
+DE,"Haben die Fliesen eine CE-Kennzeichnung?",SE,0.9,short-lexicon,FAIL
+DE,"Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?",SE,0.7,heuristic-group,FAIL
+DE,"Gibt es technische Datenblätter zum Herunterladen?",SE,0.7,heuristic-group,FAIL
+DE,"Sind die Fliesen chemikalienbeständig?",DE,0.9,short-lexicon,PASS
+DE,"Welche Toleranzen gelten für Maße und Form?",DE,1,regex-exclusive,PASS
+DE,"Können Sie die Fliesen direkt auf Kies verlegen?",DE,0.9,short-lexicon,PASS
+DE,"Müssen die Fliesen während der Installation geklebt werden?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen auf einem Holzdeck verlegt werden?",DE,0.9,short-lexicon,PASS
+DE,"Können Sie die Fliesen selbst schneiden?",DE,0.9,short-lexicon,PASS
+DE,"Welche Werkzeuge werden zum Schneiden empfohlen?",DE,1,regex-exclusive,PASS
+DE,"Können die Fliesen auf einem Balkon verlegt werden?",DE,0.9,short-lexicon,PASS
+DE,"Benötigen Sie Abstandshalter beim Verlegen der Fliesen?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen im Innenbereich installiert werden?",DE,1,short-lexicon,PASS
+DE,"Funktionieren die Fliesen auf geneigten Flächen?",DE,0.9,short-lexicon,PASS
+DE,"Wie reinigt man Fliesen am besten?",DE,1,short-lexicon,PASS
+DE,"Kann man einen Hochdruckreiniger auf den Fliesen verwenden?",DE,0.9,short-lexicon,PASS
+DE,"Müssen die Fliesen mit Imprägnierung behandelt werden?",DE,0.9,short-lexicon,PASS
+DE,"Wie entfernt man Moos und Algen von den Fliesen?",DE,1,regex-exclusive,PASS
+DE,"Wie werden die Fliesen im Winter durch Salz beeinflusst?",DE,1,short-lexicon,PASS
+DE,"Können die Fliesen durch Wein, Öl oder andere Flecken verfärbt werden?",DE,0.9,short-lexicon,PASS
+DE,"Ist eine spezielle Winterlagerung erforderlich?",SE,0.7,heuristic-group,FAIL
+DE,"Wie lange ist die Lebensdauer der Teller?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen geschliffen oder renoviert werden?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Fliesen rutschfest?",DE,0.9,short-lexicon,PASS
+DE,"Ist klinkerdäck® feuerfest?",SE,0.7,heuristic-group,FAIL
+DE,"Können die Fliesen in Poolbereichen verwendet werden?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Fliesen sicher für Kinder zum Spielen?",DE,0.9,short-lexicon,PASS
+DE,"Können ältere Menschen sicher auf den Fliesen gehen?",DE,0.9,short-lexicon,PASS
+DE,"Wie wird die Rutschfestigkeit getestet?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen rutschig werden, wenn sich Eis bildet?",DE,0.9,short-lexicon,PASS
+DE,"Gibt es eine Garantie auf den Rutschschutz?",DA,0.9,short-lexicon,FAIL
+DE,"Kann Anti-Rutsch-Band mit den Fliesen verwendet werden?",DE,0.9,short-lexicon,PASS
+DE,"Was ist die Lebensdauer von klinkerdäck®?",SE,0.7,heuristic-group,FAIL
+DE,"Sind die Fliesen UV-beständig?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Fliesen frost- und kältebeständig?",DE,1,regex-exclusive,PASS
+DE,"Sind die Fliesen verschleißfest?",DE,1,regex-exclusive,PASS
+DE,"Können die Fliesen in öffentlichen Umgebungen verwendet werden?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Fliesen chemikalienbeständig?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Fliesen kratzfest?",DE,0.9,short-lexicon,PASS
+DE,"Wie werden die Fliesen durch schwere Lasten beeinflusst?",DE,1,short-lexicon,PASS
+DE,"Wie lange ist die Garantiezeit für die Haltbarkeit?",DA,0.9,short-lexicon,FAIL
+DE,"Ist klinkerdäck® umweltfreundlich?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Fliesen recycelbar?",SE,0.9,short-lexicon,FAIL
+DE,"Werden die Produkte in Schweden hergestellt?",SE,0.7,heuristic-group,FAIL
+DE,"Können die Fliesen im Innenbereich verwendet werden?",DE,1,short-lexicon,PASS
+DE,"Ist klinkerdäck® für Poolbereiche geeignet?",SE,0.7,heuristic-group,FAIL
+DE,"Können die Fliesen auf einem Balkon verwendet werden?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen in Geschäftsräumen verwendet werden?",DE,0.9,short-lexicon,PASS
+DE,"Wie wirkt sich die Produktion auf die Umwelt aus?",DE,0.9,short-lexicon,PASS
+DE,"Sind die Produkte für umweltfreundliches Bauen zertifiziert?",DE,0.9,short-lexicon,PASS
+DE,"Liefern Sie in ganz Schweden?",SE,0.7,heuristic-group,FAIL
+DE,"Liefern Sie nach Dänemark und Deutschland?",DE,1,regex-exclusive,PASS
+DE,"Liefern Sie nach Finnland?",EN,0.7,heuristic-group,FAIL
+DE,"Liefern Sie in das Vereinigte Königreich?",SE,0.7,heuristic-group,FAIL
+DE,"Liefern Sie auch außerhalb der EU?",DE,1,regex-exclusive,PASS
+DE,"Was ist die normale Lieferzeit?",SE,0.7,heuristic-group,FAIL
+DE,"Wie hoch sind die Versandkosten?",DE,0.9,short-lexicon,PASS
+DE,"Können Sie eine Lieferzeit vereinbaren?",SE,0.7,heuristic-group,FAIL
+DE,"Können Sie die Fliesen selbst im Lager abholen?",DE,0.9,short-lexicon,PASS
+DE,"Was kostet klinkerdäck® pro Quadratmeter?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich ein Angebot für größere Projekte erhalten?",DE,1,regex-exclusive,PASS
+DE,"Bieten Sie Ratenzahlungen an?",SE,0.7,heuristic-group,FAIL
+DE,"Wie dick sind die Fliesen?",DE,1,short-lexicon,PASS
+DE,"Sind die Fliesen mit einer abgeschrägten Kante erhältlich?",DE,0.9,short-lexicon,PASS
+DE,"Was ist die Kalibrierungstoleranz?",SE,0.7,heuristic-group,FAIL
+DE,"Welche Fugenbreite empfehlen Sie?",DE,1,regex-exclusive,PASS
+DE,"Sind die Fliesen in matter oder halbmatten Ausführung erhältlich?",DE,0.9,short-lexicon,PASS
+DE,"Wie werden die Fliesen auf einer Palette verpackt?",DE,1,short-lexicon,PASS
+DE,"Welche Farben sind im Laufe der Zeit am farbstabilsten?",DE,1,regex-exclusive,PASS
+DE,"Sind Produktzertifikate und Prüfberichte verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welches Gefälle sollte die Basis für die Entwässerung haben?",DE,0.9,short-lexicon,PASS
+DE,"Kann ich die Fliesen auf einer vorhandenen Betonplatte verlegen?",DE,0.9,short-lexicon,PASS
+DE,"Benötige ich eine Frostschutzschicht unter den Fliesen?",DE,1,short-lexicon,PASS
+DE,"Welcher Fugenmörtel wird zwischen den Fliesen empfohlen?",DE,1,short-lexicon,PASS
+DE,"Wie verwalte ich Dehnungsfugen?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen auf verstellbaren Füßen verlegt werden?",DE,1,regex-exclusive,PASS
+DE,"Welches Muster lässt sich am einfachsten verlegen?",DE,0.9,short-lexicon,PASS
+DE,"Wie bearbeite ich Kanten und Ränder?",DE,1,regex-exclusive,PASS
+DE,"Wie oft sollte man eine Terrasse mit klinkerdäck® reinigen?",DE,0.9,short-lexicon,PASS
+DE,"Wie entferne ich Ölflecken?",DE,0.9,short-lexicon,PASS
+DE,"Kann ich Essig oder Säuren zum Reinigen verwenden?",SE,0.7,heuristic-group,FAIL
+DE,"Wie kann ich Grünbeläge verhindern?",DE,0.9,short-lexicon,PASS
+DE,"Kann ich mit einer Metallschaufel Schnee schaufeln?",SE,0.7,heuristic-group,FAIL
+DE,"Wie reinige ich die Fugen, ohne sie zu beschädigen?",DE,0.9,short-lexicon,PASS
+DE,"Muss ich die Fliesen nach dem Winter behandeln?",DE,0.9,short-lexicon,PASS
+DE,"Wie entferne ich Rostflecken?",DE,0.9,short-lexicon,PASS
+DE,"Werden die Fliesen in direktem Sonnenlicht sehr heiß?",DE,1,regex-exclusive,PASS
+DE,"Ist die Oberfläche rutschfest, wenn sie nass ist?",SE,0.7,heuristic-group,FAIL
+DE,"Ist das Produkt sicher in der Nähe des Grills und Funken?",DE,1,regex-exclusive,PASS
+DE,"Können die Kanten als scharf wahrgenommen werden?",SE,0.7,heuristic-group,FAIL
+DE,"Gibt es Empfehlungen zur Beleuchtung von Treppenstufen?",SE,0.7,heuristic-group,FAIL
+DE,"Sind die Fliesen für Rollatoren und Rollstühle geeignet?",DE,1,regex-exclusive,PASS
+DE,"Wird die Rutschfestigkeit durch Pollen und Schmutz beeinträchtigt?",DE,1,regex-exclusive,PASS
+DE,"Wird beim Schneiden eine Schutzausrüstung benötigt?",SE,0.7,heuristic-group,FAIL
+DE,"Wie widerstandsfähig sind die Fliesen gegen Kratzer von Möbelbeinen?",DE,1,short-lexicon,PASS
+DE,"Sind die Fliesen widerstandsfähig gegen Fahrradständer und Kinderspielzeug?",DE,1,regex-exclusive,PASS
+DE,"Wie ändert sich die Farbe im Laufe der Zeit?",DE,0.9,short-lexicon,PASS
+DE,"Können die Teller schnellen Temperaturänderungen standhalten?",SE,0.7,heuristic-group,FAIL
+DE,"Können schwere Töpfe und Grills auf den Fliesen platziert werden?",DE,1,regex-exclusive,PASS
+DE,"Wie wird die Oberfläche durch Streusalz beeinflusst?",DE,0.9,short-lexicon,PASS
+DE,"Wie lang ist die erwartete technische Lebensdauer?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen Risse bekommen?",DE,0.9,short-lexicon,PASS
+DE,"Ist klinkerdäck® recycelbar?",SE,0.9,short-lexicon,FAIL
+DE,"Gibt es eine Umweltproduktdeklaration (EPD)?",SE,0.7,heuristic-group,FAIL
+DE,"Sind die Fliesen für Dachterrassen geeignet?",DE,0.9,short-lexicon,PASS
+DE,"Können die Fliesen in Innenbereichen von Eingängen verwendet werden?",DE,1,short-lexicon,PASS
+DE,"Ist das Produkt für marine Umgebungen geeignet?",DE,0.7,heuristic-group,PASS
+DE,"Können die Fliesen mit Holz und Naturstein kombiniert werden?",DE,1,regex-exclusive,PASS
+DE,"Gibt es Empfehlungen zur Schalldämmung?",SE,0.7,heuristic-group,FAIL
+DE,"Sind die Fliesen für Außenbereiche geeignet?",DE,1,regex-exclusive,PASS
+DE,"In welche Länder bieten Sie Standardlieferung an?",DE,1,regex-exclusive,PASS
+DE,"Können Sie in andere EU-Länder liefern?",SE,0.7,heuristic-group,FAIL
+DE,"Welche Liefermethoden werden verwendet?",DE,1,regex-exclusive,PASS
+DE,"Kann ich eine Abendlieferung erhalten?",SE,0.7,heuristic-group,FAIL
+DE,"Was ist die normale Lieferzeit?",SE,0.7,heuristic-group,FAIL
+DE,"Wie werden die Waren geliefert – auf einer Palette?",DE,0.9,short-lexicon,PASS
+DE,"Wie wird der Preis pro m² berechnet?",DE,1,short-lexicon,PASS
+DE,"Bieten Sie Mengenrabatte an?",SE,0.7,heuristic-group,FAIL
+DE,"Welche Zahlungsmethoden akzeptieren Sie?",DE,1,regex-exclusive,PASS
+DE,"Ist es möglich, in Raten zu zahlen?",SE,0.7,heuristic-group,FAIL
+DE,"Ist der Versand im Preis inbegriffen?",DE,0.9,short-lexicon,PASS
+DE,"Haben Sie eine Preisgarantie?",DA,0.9,short-lexicon,FAIL
+DE,"Kosten Musterfliesen etwas?",DE,0.9,short-lexicon,PASS
+DE,"Wie lange ist ein Angebot gültig?",DE,0.9,short-lexicon,PASS
+DE,"Kann ich den Kauf stornieren?",SE,0.7,heuristic-group,FAIL
+DE,"Wie kann ich übrig gebliebene Fliesen zurückgeben?",DE,1,short-lexicon,PASS
+DE,"Wer ist für den Rückversand verantwortlich?",EN,0.7,heuristic-group,FAIL
+DE,"Wie schnell muss ein Transportschaden gemeldet werden?",DE,0.9,short-lexicon,PASS
+DE,"Wie werden Produktionsfehler behandelt?",DE,0.9,short-lexicon,PASS
+DE,"Können individuell bestellte Artikel zurückgegeben werden?",SE,0.7,heuristic-group,FAIL
+DE,"Wie lange dauert eine Rückerstattung?",DE,0.9,short-lexicon,PASS
+DE,"Kann ich die Farbe nach der Lieferung ändern?",SE,0.7,heuristic-group,FAIL
+DE,"Wie kann ich Sie für eine Beratung kontaktieren?",DE,0.9,short-lexicon,PASS
+DE,"Können Sie den Materialverbrauch berechnen?",SE,0.7,heuristic-group,FAIL
+DE,"Bieten Sie Designunterstützung an?",DE,0.7,heuristic-group,PASS
+DE,"Wie ist die typische Antwortzeit des Kundenservice?",DE,1,short-lexicon,PASS
+DE,"Können Sie Installateure empfehlen?",SE,0.7,heuristic-group,FAIL
+DE,"Welche Dokumente sind gut zu haben, wenn ich ein Angebot anfordere?",DE,1,regex-exclusive,PASS
+DE,"Gibt es Unterstützung nach der Lieferung?",DE,0.7,heuristic-group,PASS
+DE,"Können wir ein Videomeeting planen?",SE,0.7,heuristic-group,FAIL
+DE,"Haben Sie Beispielbilder von Terrassen mit klinkerdäck®?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich Hilfe bei der Auswahl eines Musters bekommen?",SE,0.7,heuristic-group,FAIL
+DE,"Passen die Fliesen zu Holzelementen und Stahl?",DE,1,regex-exclusive,PASS
+DE,"Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe?",DE,0.9,short-lexicon,PASS
+DE,"Kann ich Möbelunterlagen auf den Fliesen verwenden?",DE,0.9,short-lexicon,PASS
+DE,"Wie oft sollten die Fugen nachgefüllt werden?",DE,0.9,short-lexicon,PASS
+DE,"Welche Größen sind in 20 mm Dicke erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Füße werden pro m² für Fliesen der Größe 100x100 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Füße werden pro m² für Fliesen in der Größe 80x80 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Füße werden pro m² für Fliesen der Größe 60x60 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Füße werden pro m² für Fliesen in der Größe 60x120 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Fuß werden pro m² für Fliesen in der Größe 40x120 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Fliesen werden pro m² für Fliesen in der Größe 80,0x80,0 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Fliesen werden pro m² benötigt für Fliesen der Größe 60.4x60.4 cm 20 mm?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Füße werden pro m² für Fliesen der Größe 120.8x120.8 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Fliesen werden pro m² benötigt für Fliesen der Größe 60.4x120.8 cm 20 mm?",DE,1,regex-exclusive,PASS
+DE,"Wie viele Füße werden pro m² für Fliesen in der Größe 90x90 cm 20 mm benötigt?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate haben Sie?",DE,1,regex-exclusive,PASS
+DE,"Ich suche nach einer Fliese, die etwa 60x60 groß ist – welche Formate kommen dem am nächsten?",DE,1,regex-exclusive,PASS
+DE,"Ich suche nach einer Fliese, die etwa 80x80 groß ist – welche Formate kommen dem am nächsten?",DE,1,regex-exclusive,PASS
+DE,"Welche Größen haben Sie in 20 mm?",DE,1,regex-exclusive,PASS
+DE,"Haben Sie Vorschläge für Verlegemuster für 20 mm Fliesen?",DE,0.9,short-lexicon,PASS
+DE,"Ich habe 35 m² von 60x60 cm – wie viele Fuß benötige ich?",DE,1,regex-exclusive,PASS
+DE,"Wie berechne ich die Anzahl der Fliesen pro m² für eine bestimmte Fliesengröße?",DE,1,regex-exclusive,PASS
+DE,"Welche Höhen in Fuß haben Sie?",DE,1,regex-exclusive,PASS
+DE,"Ich habe eine bestimmte Höhe, z.B. 40 mm oder 355 mm, welchen Fuß sollte ich wählen?",DE,1,regex-exclusive,PASS
+DE,"Welches Zubehör wird verwendet: Adjustment Key?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Slope Corrector 0-5%?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Spacer Tabs 2/3/4 mm?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Pocket Key?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Twist Lock Ring?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Fix Ring?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Dome Extension 25 mm?",DE,0.9,short-lexicon,PASS
+DE,"Welches Zubehör wird verwendet: Prolunga PBP10 100 mm?",DE,0.9,short-lexicon,PASS
+DE,"Welche Farben sind in der Uteklinker-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Farben sind in der Träklinker-Serie erhältlich?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Lava-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Albero-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Alpine-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Anniversario-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Serie Antique verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Serie Ardesia verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Argresia-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Beton-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Serie Cemento verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Cortina-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Grotta-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Iris-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Kvarts-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Manhattan-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Materia-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Meteo-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Mista-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Nature-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Nordique-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Quartz-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Roccia-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Slate-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Stella-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Stone-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Strada-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Travertin-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Trentino-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Vintage-Serie verfügbar?",DE,1,regex-exclusive,PASS
+DE,"Welche Formate sind in der Konjak-Serie verfügbar?",DE,1,regex-exclusive,PASS

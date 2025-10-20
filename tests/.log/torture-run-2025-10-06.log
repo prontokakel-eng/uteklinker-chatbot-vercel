@@ -1,0 +1,162 @@
+
+--- TORTURE RUN 1/10 (MODE=backend IP=127.0.0.1) 2025-10-06T15:17:50.882Z ---
+[2025-10-06T15:17:50.882Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:50.882Z] "Varför är klinkerdäck dyra?" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.882Z] "Tack för hjälpen!" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.882Z] "Vilken färg passar bäst till badrum?" expected=SE gate=SE core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.882Z] "Hvordan har du det i dag?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.882Z] "Hvilken klinker passer bedst?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.882Z] "Tak for hjælpen!" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.882Z] "Welche Fliesen sind am besten?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.882Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.882Z] "Danke schön!" expected=DE gate=DE core=DE(short-lexicon:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.882Z] "How are you doing today?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.882Z] "Why are tiles so expensive?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.882Z] "Thanks a lot!" expected=EN gate=EN core=EN(short-lexicon:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.882Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 2/10 (MODE=backend IP=83.0.0.1) 2025-10-06T15:17:50.914Z ---
+[2025-10-06T15:17:50.914Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:50.914Z] "Varför är klinkerdäck dyra?" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.914Z] "Tack för hjälpen!" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.914Z] "Vilken färg passar bäst till badrum?" expected=SE gate=SE core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.914Z] "Hvordan har du det i dag?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.914Z] "Hvilken klinker passer bedst?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.914Z] "Tak for hjælpen!" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.914Z] "Welche Fliesen sind am besten?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.914Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.914Z] "Danke schön!" expected=DE gate=DE core=DE(short-lexicon:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.914Z] "How are you doing today?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.914Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.914Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:50.914Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 3/10 (MODE=backend IP=82.0.0.1) 2025-10-06T15:17:50.939Z ---
+[2025-10-06T15:17:50.939Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:50.939Z] "Varför är klinkerdäck dyra?" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.939Z] "Tack för hjälpen!" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.939Z] "Vilken färg passar bäst till badrum?" expected=SE gate=SE core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.939Z] "Hvordan har du det i dag?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.939Z] "Hvilken klinker passer bedst?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.939Z] "Tak for hjælpen!" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.939Z] "Welche Fliesen sind am besten?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.939Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.939Z] "Danke schön!" expected=DE gate=DE core=DE(short-lexicon:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.939Z] "How are you doing today?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.939Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.939Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:50.939Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 4/10 (MODE=backend IP=8.8.8.8) 2025-10-06T15:17:50.962Z ---
+[2025-10-06T15:17:50.962Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:50.962Z] "Varför är klinkerdäck dyra?" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.962Z] "Tack för hjälpen!" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.962Z] "Vilken färg passar bäst till badrum?" expected=SE gate=SE core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.962Z] "Hvordan har du det i dag?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.962Z] "Hvilken klinker passer bedst?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.962Z] "Tak for hjælpen!" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.962Z] "Welche Fliesen sind am besten?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.962Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.962Z] "Danke schön!" expected=DE gate=DE core=DE(short-lexicon:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.962Z] "How are you doing today?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.962Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.962Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:50.962Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 5/10 (MODE=backend IP=172.16.0.1) 2025-10-06T15:17:50.984Z ---
+[2025-10-06T15:17:50.984Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:50.984Z] "Varför är klinkerdäck dyra?" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.984Z] "Tack för hjälpen!" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.984Z] "Vilken färg passar bäst till badrum?" expected=SE gate=SE core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:50.984Z] "Hvordan har du det i dag?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.984Z] "Hvilken klinker passer bedst?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.984Z] "Tak for hjælpen!" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:50.984Z] "Welche Fliesen sind am besten?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.984Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.984Z] "Danke schön!" expected=DE gate=DE core=DE(short-lexicon:1) backend=— final=DE → PASS
+[2025-10-06T15:17:50.984Z] "How are you doing today?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.984Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:50.984Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:50.984Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 6/10 (MODE=backend IP=127.0.0.1) 2025-10-06T15:17:51.006Z ---
+[2025-10-06T15:17:51.006Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:51.006Z] "Varför är klinkerdäck dyra?" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.006Z] "Tack för hjälpen!" expected=SE gate=SE core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.006Z] "Vilken färg passar bäst till badrum?" expected=SE gate=SE core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.006Z] "Hvordan har du det i dag?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.006Z] "Hvilken klinker passer bedst?" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.006Z] "Tak for hjælpen!" expected=DA gate=DA core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.006Z] "Welche Fliesen sind am besten?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.006Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=DE core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.006Z] "Danke schön!" expected=DE gate=DE core=DE(short-lexicon:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.006Z] "How are you doing today?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.006Z] "Why are tiles so expensive?" expected=EN gate=EN core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.006Z] "Thanks a lot!" expected=EN gate=EN core=EN(short-lexicon:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.006Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 7/10 (MODE=backend IP=83.0.0.1) 2025-10-06T15:17:51.029Z ---
+[2025-10-06T15:17:51.029Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:51.029Z] "Varför är klinkerdäck dyra?" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.029Z] "Tack för hjälpen!" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.029Z] "Vilken färg passar bäst till badrum?" expected=SE gate=— core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.029Z] "Hvordan har du det i dag?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.029Z] "Hvilken klinker passer bedst?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.029Z] "Tak for hjælpen!" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.029Z] "Welche Fliesen sind am besten?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.029Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.029Z] "Danke schön!" expected=DE gate=— core=DE(short-lexicon:0.8) backend=— final=DE → PASS
+[2025-10-06T15:17:51.029Z] "How are you doing today?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.029Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.029Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:51.029Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 8/10 (MODE=backend IP=82.0.0.1) 2025-10-06T15:17:51.057Z ---
+[2025-10-06T15:17:51.057Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:51.057Z] "Varför är klinkerdäck dyra?" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.057Z] "Tack för hjälpen!" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.057Z] "Vilken färg passar bäst till badrum?" expected=SE gate=— core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.057Z] "Hvordan har du det i dag?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.057Z] "Hvilken klinker passer bedst?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.057Z] "Tak for hjælpen!" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.057Z] "Welche Fliesen sind am besten?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.057Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.057Z] "Danke schön!" expected=DE gate=— core=DE(short-lexicon:0.8) backend=— final=DE → PASS
+[2025-10-06T15:17:51.057Z] "How are you doing today?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.057Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.057Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:51.057Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 9/10 (MODE=backend IP=8.8.8.8) 2025-10-06T15:17:51.086Z ---
+[2025-10-06T15:17:51.086Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:51.086Z] "Varför är klinkerdäck dyra?" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.086Z] "Tack för hjälpen!" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.086Z] "Vilken färg passar bäst till badrum?" expected=SE gate=— core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.086Z] "Hvordan har du det i dag?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.086Z] "Hvilken klinker passer bedst?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.086Z] "Tak for hjælpen!" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.086Z] "Welche Fliesen sind am besten?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.086Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.086Z] "Danke schön!" expected=DE gate=— core=DE(short-lexicon:0.8) backend=— final=DE → PASS
+[2025-10-06T15:17:51.086Z] "How are you doing today?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.086Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.086Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:51.086Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+--- TORTURE RUN 10/10 (MODE=backend IP=172.16.0.1) 2025-10-06T15:17:51.115Z ---
+[2025-10-06T15:17:51.115Z] "Hej, hur mår du?" expected=SE gate=— core=SE(short-lexicon:0.8) backend=— final=SE → PASS
+[2025-10-06T15:17:51.115Z] "Varför är klinkerdäck dyra?" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.115Z] "Tack för hjälpen!" expected=SE gate=— core=SE(regex-exclusive:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.115Z] "Vilken färg passar bäst till badrum?" expected=SE gate=— core=SE(short-lexicon:1) backend=— final=SE → PASS
+[2025-10-06T15:17:51.115Z] "Hvordan har du det i dag?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.115Z] "Hvilken klinker passer bedst?" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.115Z] "Tak for hjælpen!" expected=DA gate=— core=DA(regex-exclusive:1) backend=— final=DA → PASS
+[2025-10-06T15:17:51.115Z] "Welche Fliesen sind am besten?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.115Z] "Muss ich die Fliesen gegen Frost schützen?" expected=DE gate=— core=DE(regex-exclusive:1) backend=— final=DE → PASS
+[2025-10-06T15:17:51.115Z] "Danke schön!" expected=DE gate=— core=DE(short-lexicon:0.8) backend=— final=DE → PASS
+[2025-10-06T15:17:51.115Z] "How are you doing today?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.115Z] "Why are tiles so expensive?" expected=EN gate=— core=EN(regex-exclusive:1) backend=— final=EN → PASS
+[2025-10-06T15:17:51.115Z] "Thanks a lot!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+[2025-10-06T15:17:51.115Z] "Ok, let's go!" expected=EN gate=— core=EN(short-lexicon:0.8) backend=— final=EN → PASS
+
+DONE. Totalt rader: 140. PASS=140 FAIL=0 PARTIAL=0

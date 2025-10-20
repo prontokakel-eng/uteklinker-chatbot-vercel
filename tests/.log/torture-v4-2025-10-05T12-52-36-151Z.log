@@ -1,0 +1,107 @@
+=== TORTURE V4 START 2025-10-05T12:52:36.151Z ===
+📂 Using test cases: C:\uteklinker-chatbot-vercel\tests\mini-torture-2-questions.json
+🚀 BACKEND mode → https://min-bot.vercel.app/api/chat
+[LANG] Är plattorna halksäkra? → SE (expected SE) 🟩
+↳ Reply: [object Object],[object Object]
+[LANG] Vilka mått har ni? → SE (expected SE) 🟩
+↳ Reply: [object Object]
+[LANG] What sizes do you offer? → EN (expected EN) 🟩
+↳ Reply: [object Object],[object Object]
+⚠️ PreDetect ≠ ChatDetect { input="Are the tiles slip resistant?", pre=SE (via=heuristic+anchors), chat=EN (via=faq) }
+[LANG] Are the tiles slip resistant? → EN (expected EN) 🟩
+↳ Reply: [object Object],[object Object],[object Object]
+[LANG] Kan jeg selv montere det? → DA (expected DA) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+⚠️ PreDetect ≠ ChatDetect { input="Er det frostsikkert?", pre=UNKNOWN (via=heuristic), chat=DA (via=AI_FALLBACK) }
+[LANG] Er det frostsikkert? → DA (expected DA) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+⚠️ PreDetect ≠ ChatDetect { input="Gibt es verschiedene Farben?", pre=UNKNOWN (via=heuristic), chat=DE (via=faq) }
+[LANG] Gibt es verschiedene Farben? → DE (expected DE) 🟩
+↳ Reply: [object Object]
+⚠️ PreDetect ≠ ChatDetect { input="Sind die Platten rutschfest?", pre=SE (via=heuristic+anchors), chat=DE (via=faq) }
+[LANG] Sind die Platten rutschfest? → DE (expected DE) 🟩
+↳ Reply: [object Object]
+[FUZZY] klinkerdak mått?? → SE (expected SE) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+[FUZZY] klinkerdäck slipp?? → SE (expected SE) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+⚠️ PreDetect ≠ ChatDetect { input="asdkjhqwe123", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[GIBBERISH] asdkjhqwe123 → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+⚠️ PreDetect ≠ ChatDetect { input="!!!!!!?????", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[GIBBERISH] !!!!!!????? → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+⚠️ PreDetect ≠ ChatDetect { input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ...................................................", pre=SE (via=regex-exclusive), chat=FILTER (via=filtered-long) }
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga är för lång eller repetitiv utan relevanta ord.
+⚠️ PreDetect ≠ ChatDetect { input="Another very very long nonsense text for sanity-test sanity-test sanity-test …", pre=SE (via=heuristic+anchors), chat=FILTER (via=filtered-long) }
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga är för lång eller repetitiv utan relevanta ord.
+⚠️ PreDetect ≠ ChatDetect { input="cheap viagra online", pre=UNKNOWN (via=heuristic), chat=FILTER (via=blacklist-ALL) }
+[BLOCK] cheap viagra online → FILTER (expected FILTER) 🟩
+↳ Reply: 🚫 Din fråga innehåller blockerade ord.
+⚠️ PreDetect ≠ ChatDetect { input="lottery scam free money", pre=SE (via=heuristic+anchors), chat=FILTER (via=blacklist-ALL) }
+[BLOCK] lottery scam free money → FILTER (expected FILTER) 🟩
+↳ Reply: 🚫 Din fråga innehåller blockerade ord.
+[GREETING] hej → SE (expected SE) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+[GREETING] hello there → EN (expected EN) 🟩
+↳ Reply: It seems like you're asking something unusual. Could you rephrase?
+⚠️ PreDetect ≠ ChatDetect { input="12345", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[RELEVANCE] 12345 → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+⚠️ PreDetect ≠ ChatDetect { input="??!!", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[RELEVANCE] ??!! → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+
+🟩 Torture-v4 klart. Totala mismatchar: 0
+{"regex":4,"anchors":9,"whitelist":0,"heuristic":7,"ai":0,"unknown":0}
+⚠️ PreDetect ≠ ChatDetect: 12 fall
+💥 Sheets export fail: Invalid values[1][8]: list_value 	 {
+  values {
+    struct_value {
+      fields {
+        key: "answer"
+        value {
+          string_value: "Ja, klinkerd\303\244ck\302\256 har halkskyddade ytor anpassade f\303\266r utomhusbruk."
+        }
+      }
+      fields {
+        key: "question"
+        value {
+          string_value: "\303\204r plattorna halks\303\244kra?"
+        }
+      }
+      fields {
+        key: "score"
+        value {
+          number_value: 9.287439764962262E-10
+        }
+      }
+    }
+  }
+  values {
+    struct_value {
+      fields {
+        key: "answer"
+        value {
+          string_value: "Ja, ytan \303\244r halkskyddad och t\303\245lig f\303\266r barnens lek."
+        }
+      }
+      fields {
+        key: "question"
+        value {
+          string_value: "\303\204r plattorna s\303\244kra f\303\266r barn att leka p\303\245?"
+        }
+      }
+      fields {
+        key: "score"
+        value {
+          number_value: 0.5826177713302312
+        }
+      }
+    }
+  }
+}
+
+=== END 2025-10-05T12:52:43.386Z ===

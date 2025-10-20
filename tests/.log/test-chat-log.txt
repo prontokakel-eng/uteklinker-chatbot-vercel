@@ -1,0 +1,25 @@
+=== TEST START ===
+DEBUG ENV: {
+  "OPENAI": "✅",
+  "SHEET_ID": "✅",
+  "GCP_EMAIL": "✅",
+  "GCP_KEY": "✅"
+}
+
+=== Test 1: FAQ-träff (cut-off) ===
+Svar: {
+  "lang": "SE",
+  "reply": "Följande färger finns i Lava:\n  - Etna\n  - Marsili\n  - Salina\n  - Vesuvio",
+  "source": "FAQ",
+  "via": "faq"
+}
+
+=== Test 2: FAQ uppföljning (ja = fulltext) ===
+Svar: {
+  "lang": "EN",
+  "reply": "The following colors are available in Konjak:\n  - Konjak",
+  "source": "FAQ",
+  "via": "faq"
+}
+
+=== Test 3: Ingen FAQ-träff → AI fallback ===

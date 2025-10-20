@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "normalized": true
+  },
+  "articles": [
+    "der",
+    "die",
+    "das",
+    "ein",
+    "eine",
+    "einer",
+    "eines",
+    "den"
+  ],
+  "negations": [
+    "nicht",
+    "kein",
+    "keine",
+    "niemals",
+    "ohne"
+  ],
+  "common": [
+    "und",
+    "ist",
+    "sind",
+    "auf",
+    "für",
+    "mit",
+    "haben",
+    "hat",
+    "dass",
+    "welche",
+    "warum",
+    "wie",
+    "größe",
+    "aus",
+    "aber",
+    "aussen",
+    "außen",
+    "badezimmer",
+    "boden",
+    "danke",
+    "fliesen",
+    "groesse",
+    "grösse",
+    "preis",
+    "qualität",
+    "teuer",
+    "ü",
+    "wand"
+  ],
+  "regex": {
+    "prefix": [
+      "^(im|am|zum|vom|der|die|das)"
+    ],
+    "suffix": [
+      "(ung|heit|keit|schaft|lich|bar)\\b"
+    ]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.5,
+    "common": 0.5,
+    "regex": 0.5
+  },
+  "fallbackTriggers": [
+    "welche",
+    "warum",
+    "wie"
+  ],
+  "stopwords": [],
+  "bigrams": [],
+  "trigrams": [],
+  "accentMap": {
+    "á": "a",
+    "à": "a",
+    "â": "a",
+    "ã": "a",
+    "é": "e",
+    "è": "e",
+    "ê": "e",
+    "ë": "e",
+    "í": "i",
+    "ì": "i",
+    "î": "i",
+    "ï": "i",
+    "ó": "o",
+    "ò": "o",
+    "ô": "o",
+    "õ": "o",
+    "ú": "u",
+    "ù": "u",
+    "û": "u",
+    "ü": "u",
+    "ç": "c",
+    "ß": "ss",
+    "ö": "o",
+    "ä": "a"
+  },
+  "geoMapping": {
+    "DE": "DE",
+    "AT": "DE",
+    "CH": "DE",
+    "SE": "SE",
+    "DK": "DA",
+    "GB": "EN",
+    "US": "EN",
+    "AU": "EN",
+    "CA": "EN"
+  },
+  "aliases": {},
+  "extras": {
+    "extras": {
+      "lang": "DE",
+      "fallbackExcludes": [],
+      "normalize": {
+        "methods": [
+          "NFD",
+          "NFC"
+        ],
+        "remove": [
+          "[\\u0301\\u0300\\u0302\\u0303]"
+        ]
+      },
+      "regexAnchors": {
+        "exclusive": [
+          "\\bwelche\\b",
+          "ß",
+          "ü",
+          "\\bnicht\\b",
+          "\\bund\\b",
+          "\\baber\\b",
+          "\\bgr(o|ö|oe)sse\\b"
+        ],
+        "soft": []
+      },
+      "boosters": [
+        "welche",
+        "oberfläche",
+        "feuerfest",
+        "aus",
+        "material",
+        "größe",
+        "grösse",
+        "groesse",
+        "frost",
+        "badezimmer"
+      ]
+    }
+  }
+}

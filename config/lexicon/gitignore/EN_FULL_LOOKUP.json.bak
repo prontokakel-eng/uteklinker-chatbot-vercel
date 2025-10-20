@@ -1,0 +1,63 @@
+{
+  "lang": "EN",
+  "articles": ["a", "an", "the", "some"],
+  "negations": ["not", "no", "never", "none", "nothing"],
+  "common": ["and", "is", "are", "of", "to", "for", "in", "on", "have", "has", "it"],
+  "regex": {
+    "suffix": ["(ing|ed|ly|ness|tion|able|ous|ment)\\b"],
+    "prefix": ["^(the|a|an|in|on|to)"]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.4,
+    "common": 0.3,
+    "regex": 0.5
+  }
+}
+{
+  "lang": "EN",
+  "articles": ["a", "an", "the", "some"],
+  "negations": ["not", "no", "never", "none", "nothing"],
+  "common": ["and", "is", "are", "of", "to", "for", "in", "on", "have", "has", "it", "what", "how", "why", "which", "you"],
+  "regex": {
+    "suffix": ["(ing|ed|ly|ness|tion|able|ous|ment)\\b"],
+    "prefix": ["^(the|a|an|in|on|to)"]
+  },
+  "fallbackTriggers": ["what", "how", "why", "which", "are", "you"],
+  "fallbackExcludes": ["vilka", "vilken", "hvad", "hvordan", "welche", "nicht", "und", "aber"],
+  "normalize": {
+    "methods": ["NFD", "NFC"],
+    "remove": ["[\\u0300-\\u036f]"]
+  },
+  "accentMap": {
+    "á": "a", "à": "a", "â": "a", "ã": "a",
+    "é": "e", "è": "e", "ê": "e", "ë": "e",
+    "í": "i", "ì": "i", "î": "i", "ï": "i",
+    "ó": "o", "ò": "o", "ô": "o", "õ": "o",
+    "ú": "u", "ù": "u", "û": "u", "ü": "u",
+    "ç": "c"
+  },
+  "geoMapping": { "GB": "EN", "US": "EN", "AU": "EN", "CA": "EN", "SE": "SE", "DK": "DA", "DE": "DE" },
+  "weights": { "articles": 0.6, "negations": 0.4, "common": 0.3, "regex": 0.5 }
+}
+{
+  "lang": "EN",
+  "articles": [],
+  "negations": ["not"],
+  "common": [
+    "and","are","bathroom","best","cheap","color","evening","expensive","floor","good","hello","hi","how","ing",
+    "it","morning","ok","okay","size","the","thanks","tiles","what","which","will","you"
+  ],
+  "regex": { "prefix": [], "suffix": [] },
+  "regexAnchors": { "exclusive": ["\\bwhy\\b","\\bhow\\b","\\bthe\\b","\\bing\\b","\\byou\\b"], "soft": [] },
+  "boosters": ["what","which","sizes","material","fireproof","surface"],
+  "fallbackTriggers": [],
+  "fallbackExcludes": [],
+  "normalize": { "methods": ["NFD","NFC"], "remove": ["[\\u0301\\u0300\\u0302\\u0303]"] },
+  "accentMap": {
+    "á":"a","à":"a","â":"a","ã":"a","é":"e","è":"e","ê":"e","ë":"e","í":"i","ì":"i","î":"i","ï":"i",
+    "ó":"o","ò":"o","ô":"o","õ":"o","ú":"u","ù":"u","û":"u","ç":"c"
+  },
+  "geoMapping": { "SE":"SE","DK":"DA","DE":"DE","AT":"DE","CH":"DE","GB":"EN","US":"EN","AU":"EN","CA":"EN" },
+  "weights": { "common":0.2,"articles":0.3,"negations":0.2,"regex":0.3,"anchors":0.5,"anchorsSoft":0.25 }
+}

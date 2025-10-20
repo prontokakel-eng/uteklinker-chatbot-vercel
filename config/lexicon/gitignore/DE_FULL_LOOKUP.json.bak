@@ -1,0 +1,50 @@
+{
+  "lang": "DE",
+  "articles": ["der", "die", "das", "ein", "eine", "einer", "eines", "den"],
+  "negations": ["nicht", "kein", "keine", "niemals", "ohne"],
+  "common": ["und", "ist", "sind", "auf", "für", "mit", "haben", "hat", "dass", "welche", "warum", "wie", "größe", "aus", "aber"],
+  "regex": {
+    "suffix": ["(ung|heit|keit|schaft|lich|bar)\\b"],
+    "prefix": ["^(im|am|zum|vom|der|die|das)"]
+  },
+  "fallbackTriggers": ["welche", "warum", "wie"],
+  "fallbackExcludes": ["vilka", "vilken", "hvad", "hvordan", "what", "which", "why", "how"],
+  "normalize": {
+    "methods": ["NFD", "NFC"],
+    "remove": ["[\\u0300-\\u036f]"]
+  },
+  "accentMap": {
+    "á": "a", "à": "a", "â": "a", "ã": "a",
+    "é": "e", "è": "e", "ê": "e", "ë": "e",
+    "í": "i", "ì": "i", "î": "i", "ï": "i",
+    "ó": "o", "ò": "o", "ô": "o", "õ": "o",
+    "ú": "u", "ù": "u", "û": "u", "ü": "u",
+    "ç": "c", "ß": "ss", "ö": "o", "ä": "a", "ü": "u"
+  },
+  "geoMapping": { "DE": "DE", "AT": "DE", "CH": "DE", "SE": "SE", "DK": "DA", "GB": "EN", "US": "EN" },
+  "weights": { "articles": 0.6, "negations": 0.4, "common": 0.3, "regex": 0.5 }
+}
+{
+  "lang": "DE",
+  "articles": [],
+  "negations": ["nicht"],
+  "common": [
+    "aber","aussen","außen","badezimmer","boden","danke","fliesen","groesse","grösse","größe","preis","qualität","teuer",
+    "und","ü","wand","warum","wie"
+  ],
+  "regex": { "prefix": [], "suffix": [] },
+  "regexAnchors": {
+    "exclusive": ["\\bwelche\\b","ß","ü","\\bnicht\\b","\\bund\\b","\\baber\\b","\\bgr(o|ö|oe)sse\\b"],
+    "soft": []
+  },
+  "boosters": ["welche","oberfläche","feuerfest","aus","material","größe","grösse","groesse","frost","badezimmer"],
+  "fallbackTriggers": [],
+  "fallbackExcludes": [],
+  "normalize": { "methods": ["NFD","NFC"], "remove": ["[\\u0301\\u0300\\u0302\\u0303]"] },
+  "accentMap": {
+    "á":"a","à":"a","â":"a","ã":"a","é":"e","è":"e","ê":"e","ë":"e","í":"i","ì":"i","î":"i","ï":"i",
+    "ó":"o","ò":"o","ô":"o","õ":"o","ú":"u","ù":"u","û":"u","ç":"c"
+  },
+  "geoMapping": { "SE":"SE","DK":"DA","DE":"DE","AT":"DE","CH":"DE","GB":"EN","US":"EN","AU":"EN","CA":"EN" },
+  "weights": { "common":0.2,"articles":0.3,"negations":0.2,"regex":0.3,"anchors":0.5,"anchorsSoft":0.25 }
+}

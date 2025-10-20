@@ -1,0 +1,35 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== npm run lint ===
+
+> uteklinker-chatbot@1.0.1 lint
+> eslint --no-esm lib scripts
+
+Invalid option '--esm' - perhaps you meant '--ext'?
+You're using eslint.config.js, some command line flags are no longer available. Please see https://eslint.org/docs/latest/use/command-line-interface for details.
+node:internal/errors:984
+  const err = new Error(message);
+              ^
+
+Error: Command failed: npm run lint
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at run (file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:5:3)
+    at file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:9:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:325:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5) {
+  status: 2,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 31440,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v20.19.5

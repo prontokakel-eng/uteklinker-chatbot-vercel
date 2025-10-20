@@ -1,0 +1,87 @@
+lang,question,detectedLang,confidence,via,status
+SE,"Levererar ni till Finland?",EN,0.7,heuristic-group,FAIL
+SE,"Vilket fall bör underlaget ha för dränering?",DE,0.9,short-lexicon,FAIL
+SE,"Behöver jag frostskyddslager under plattorna?",DE,1,short-lexicon,FAIL
+SE,"Har ni prisgaranti?",DA,0.9,short-lexicon,FAIL
+EN,"What tolerances apply to dimensions and shape?",SE,0.9,short-lexicon,FAIL
+EN,"Is special winter storage required?",SE,0.7,heuristic-group,FAIL
+EN,"Is klinkerdäck® fireproof?",SE,0.7,heuristic-group,FAIL
+EN,"Is klinkerdäck® environmentally friendly?",SE,0.7,heuristic-group,FAIL
+EN,"Is klinkerdäck® suitable for pool areas?",SE,0.7,heuristic-group,FAIL
+EN,"Is slip resistance affected by pollen and dirt?",SE,0.9,short-lexicon,FAIL
+EN,"Is protective equipment needed during cutting?",SE,0.7,heuristic-group,FAIL
+EN,"Is klinkerdäck® recyclable?",SE,0.7,heuristic-group,FAIL
+EN,"Is it possible to pay in installments?",SE,0.7,heuristic-group,FAIL
+DA,"Er der forskellige overfladeteksturer (glat, struktureret)?",SE,0.7,heuristic-group,FAIL
+DA,"Kan fliserne placeres på en altan?",SE,1,short-lexicon,FAIL
+DA,"Er klinkerdäck® brandsikkert?",SE,0.7,heuristic-group,FAIL
+DA,"Er fliserne modstandsdygtige over for frost og kulde?",DE,0.9,short-lexicon,FAIL
+DA,"Er produkterne fremstillet i Sverige?",SE,0.7,heuristic-group,FAIL
+DA,"Er klinkerdäck® egnet til poolområder?",SE,0.7,heuristic-group,FAIL
+DA,"Leverer I i hele Sverige?",SE,0.7,heuristic-group,FAIL
+DA,"Leverer I til Finland?",EN,0.7,heuristic-group,FAIL
+DA,"Leverer I til Storbritannien?",SE,0.7,heuristic-group,FAIL
+DA,"Leverer I uden for EU?",SE,0.7,heuristic-group,FAIL
+DA,"Tilbyder I afbetalingsordninger?",SE,0.7,heuristic-group,FAIL
+DA,"Skal jeg bruge et frostbeskyttelseslag under fliserne?",DE,1,short-lexicon,FAIL
+DA,"Kan jeg skovle sne med en metalskovl?",SE,0.9,fallback-heuristic,FAIL
+DA,"Kan kanterne opfattes som skarpe?",SE,0.9,fallback-heuristic,FAIL
+DA,"Er der anbefalinger til belysning af trappetrin?",SE,0.7,heuristic-group,FAIL
+DA,"Kan tunge gryder og grill placeres på fliserne?",SE,1,short-lexicon,FAIL
+DA,"Er klinkerdäck® genanvendelig?",SE,0.7,heuristic-group,FAIL
+DA,"Er der anbefalinger til lydisolering?",SE,0.7,heuristic-group,FAIL
+DA,"Kan I levere til andre EU-lande?",SE,0.9,fallback-heuristic,FAIL
+DA,"Kan jeg få aftenlevering?",SE,0.9,fallback-heuristic,FAIL
+DA,"Er det muligt at betale i rater?",SE,0.7,heuristic-group,FAIL
+DA,"Er fragt inkluderet i prisen?",SE,0.7,heuristic-group,FAIL
+DA,"Hvor hurtigt skal en transportskade rapporteres?",SE,0.7,heuristic-group,FAIL
+DA,"Kan specialbestilte varer returneres?",EN,1,short-lexicon,FAIL
+DA,"Hvor lang tid tager en refundering?",DE,0.9,short-lexicon,FAIL
+DA,"Kan du beregne materialeforbruget?",SE,0.9,fallback-heuristic,FAIL
+DA,"Er der support efter levering?",SE,0.7,heuristic-group,FAIL
+DA,"Har I eksempler på billeder af terrasser med klinkerdäck®?",SE,0.9,fallback-heuristic,FAIL
+DA,"Hvor ofte skal fugerne genopfyldes?",SE,0.7,heuristic-group,FAIL
+DE,"Haben die Fliesen eine CE-Kennzeichnung?",SE,0.9,short-lexicon,FAIL
+DE,"Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?",SE,0.7,heuristic-group,FAIL
+DE,"Gibt es technische Datenblätter zum Herunterladen?",SE,0.7,heuristic-group,FAIL
+DE,"Ist eine spezielle Winterlagerung erforderlich?",SE,0.7,heuristic-group,FAIL
+DE,"Ist klinkerdäck® feuerfest?",SE,0.7,heuristic-group,FAIL
+DE,"Gibt es eine Garantie auf den Rutschschutz?",DA,0.9,short-lexicon,FAIL
+DE,"Was ist die Lebensdauer von klinkerdäck®?",SE,0.7,heuristic-group,FAIL
+DE,"Wie lange ist die Garantiezeit für die Haltbarkeit?",DA,0.9,short-lexicon,FAIL
+DE,"Sind die Fliesen recycelbar?",SE,0.9,short-lexicon,FAIL
+DE,"Werden die Produkte in Schweden hergestellt?",SE,0.7,heuristic-group,FAIL
+DE,"Ist klinkerdäck® für Poolbereiche geeignet?",SE,0.7,heuristic-group,FAIL
+DE,"Liefern Sie in ganz Schweden?",SE,0.7,heuristic-group,FAIL
+DE,"Liefern Sie nach Finnland?",EN,0.7,heuristic-group,FAIL
+DE,"Liefern Sie in das Vereinigte Königreich?",SE,0.7,heuristic-group,FAIL
+DE,"Was ist die normale Lieferzeit?",SE,0.7,heuristic-group,FAIL
+DE,"Können Sie eine Lieferzeit vereinbaren?",SE,0.7,heuristic-group,FAIL
+DE,"Was kostet klinkerdäck® pro Quadratmeter?",SE,0.7,heuristic-group,FAIL
+DE,"Bieten Sie Ratenzahlungen an?",SE,0.7,heuristic-group,FAIL
+DE,"Was ist die Kalibrierungstoleranz?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich Essig oder Säuren zum Reinigen verwenden?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich mit einer Metallschaufel Schnee schaufeln?",SE,0.7,heuristic-group,FAIL
+DE,"Ist die Oberfläche rutschfest, wenn sie nass ist?",SE,0.7,heuristic-group,FAIL
+DE,"Können die Kanten als scharf wahrgenommen werden?",SE,0.7,heuristic-group,FAIL
+DE,"Gibt es Empfehlungen zur Beleuchtung von Treppenstufen?",SE,0.7,heuristic-group,FAIL
+DE,"Wird beim Schneiden eine Schutzausrüstung benötigt?",SE,0.7,heuristic-group,FAIL
+DE,"Können die Teller schnellen Temperaturänderungen standhalten?",SE,0.7,heuristic-group,FAIL
+DE,"Ist klinkerdäck® recycelbar?",SE,0.9,short-lexicon,FAIL
+DE,"Gibt es eine Umweltproduktdeklaration (EPD)?",SE,0.7,heuristic-group,FAIL
+DE,"Gibt es Empfehlungen zur Schalldämmung?",SE,0.7,heuristic-group,FAIL
+DE,"Können Sie in andere EU-Länder liefern?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich eine Abendlieferung erhalten?",SE,0.7,heuristic-group,FAIL
+DE,"Was ist die normale Lieferzeit?",SE,0.7,heuristic-group,FAIL
+DE,"Bieten Sie Mengenrabatte an?",SE,0.7,heuristic-group,FAIL
+DE,"Ist es möglich, in Raten zu zahlen?",SE,0.7,heuristic-group,FAIL
+DE,"Haben Sie eine Preisgarantie?",DA,0.9,short-lexicon,FAIL
+DE,"Kann ich den Kauf stornieren?",SE,0.7,heuristic-group,FAIL
+DE,"Wer ist für den Rückversand verantwortlich?",EN,0.7,heuristic-group,FAIL
+DE,"Können individuell bestellte Artikel zurückgegeben werden?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich die Farbe nach der Lieferung ändern?",SE,0.7,heuristic-group,FAIL
+DE,"Können Sie den Materialverbrauch berechnen?",SE,0.7,heuristic-group,FAIL
+DE,"Können Sie Installateure empfehlen?",SE,0.7,heuristic-group,FAIL
+DE,"Können wir ein Videomeeting planen?",SE,0.7,heuristic-group,FAIL
+DE,"Haben Sie Beispielbilder von Terrassen mit klinkerdäck®?",SE,0.7,heuristic-group,FAIL
+DE,"Kann ich Hilfe bei der Auswahl eines Musters bekommen?",SE,0.7,heuristic-group,FAIL

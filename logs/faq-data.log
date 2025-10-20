@@ -1,0 +1,416 @@
+[2025-10-14T06:10:12.001Z] 🔄 Init FAQ data (caller: api/chat#mgq5xk80-s7hvi5)
+[2025-10-14T06:10:14.718Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq5xk80-s7hvi5): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:10:14.718Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:10:14.726Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:14.731Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:14.731Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:10:16.765Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:10:18.521Z] [DEBUG] searchFaq lang=EN, input="ping" → 27 träffar
+[2025-10-14T06:10:18.522Z]    #2: "Is shipping included in the price?" (score=0.060)
+[2025-10-14T06:10:18.522Z]    #4: "Are there recommendations for soundproofing?" (score=0.538)
+[2025-10-14T06:10:18.521Z]    #1: "What is the shipping cost?" (score=0.046)
+[2025-10-14T06:10:18.522Z]    #3: "Who is responsible for the return shipping?" (score=0.073)
+[2025-10-14T06:10:18.522Z]    #5: "Can I get evening delivery?" (score=0.538)
+[2025-10-14T06:10:18.523Z] ✅ Bästa träff: "What is the shipping cost?" → "The shipping cost depends on weight and destination, please contact us for a quo..."
+[2025-10-14T06:10:39.150Z] 🔄 Init FAQ data (caller: api/chat#mgq5y565-grzegw)
+[2025-10-14T06:10:41.289Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq5y565-grzegw): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:10:41.298Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:41.290Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:10:41.302Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:41.302Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:10:43.212Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:10:43.245Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:10:43.245Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:10:43.246Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:10:43.246Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:10:43.246Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:10:43.247Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:10:43.246Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:10:44.406Z] 🔄 Init FAQ data (caller: api/chat#mgq5y985-drhymg)
+[2025-10-14T06:10:46.583Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq5y985-drhymg): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:10:46.583Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:10:46.591Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:46.595Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:46.595Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:10:48.552Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:10:48.585Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:10:48.586Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:10:48.586Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:10:48.586Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:10:48.587Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:10:48.587Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:10:48.587Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:10:49.747Z] 🔄 Init FAQ data (caller: api/chat#mgq5ydcj-tgzqv6)
+[2025-10-14T06:10:51.854Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq5ydcj-tgzqv6): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:10:51.854Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:10:51.862Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:51.867Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:51.867Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:10:53.790Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:10:53.823Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:10:53.824Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:10:53.824Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:10:53.825Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:10:53.825Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:10:53.824Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:10:53.825Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:10:54.981Z] 🔄 Init FAQ data (caller: api/chat#mgq5yhdw-lln2j3)
+[2025-10-14T06:10:57.092Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq5yhdw-lln2j3): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:10:57.092Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:10:57.101Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:57.105Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:10:57.106Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:10:59.044Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:10:59.077Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:10:59.077Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:10:59.078Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:10:59.078Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:10:59.078Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:10:59.079Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:10:59.078Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:11:00.245Z] 🔄 Init FAQ data (caller: api/chat#mgq5ylg4-09g9f3)
+[2025-10-14T06:11:22.566Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq5ylg4-09g9f3): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:11:22.566Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:11:22.575Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:11:22.580Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:11:22.580Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:11:24.638Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:11:24.674Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:11:24.674Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:11:24.675Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:11:24.675Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:11:24.675Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:11:24.675Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:11:24.676Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:16:12.505Z] 🔄 Init FAQ data (caller: api/chat#mgq65ae1-v6xdp7)
+[2025-10-14T06:16:14.788Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:16:14.788Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq65ae1-v6xdp7): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:16:14.796Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:14.800Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:14.800Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:16:16.739Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:16:17.381Z] [DEBUG] searchFaq lang=EN, input="ping" → 27 träffar
+[2025-10-14T06:16:17.381Z]    #1: "What is the shipping cost?" (score=0.046)
+[2025-10-14T06:16:17.381Z]    #2: "Is shipping included in the price?" (score=0.060)
+[2025-10-14T06:16:17.382Z]    #4: "Are there recommendations for soundproofing?" (score=0.538)
+[2025-10-14T06:16:17.382Z]    #3: "Who is responsible for the return shipping?" (score=0.073)
+[2025-10-14T06:16:17.382Z] ✅ Bästa träff: "What is the shipping cost?" → "The shipping cost depends on weight and destination, please contact us for a quo..."
+[2025-10-14T06:16:17.382Z]    #5: "Can I get evening delivery?" (score=0.538)
+[2025-10-14T06:16:18.880Z] 🔄 Init FAQ data (caller: api/chat#mgq65fb3-q7i0a6)
+[2025-10-14T06:16:20.996Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq65fb3-q7i0a6): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:16:20.996Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:16:21.010Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:21.004Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:21.010Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:16:22.959Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:16:22.992Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:16:22.992Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:16:22.992Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:16:22.993Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:16:22.993Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:16:22.993Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:16:22.993Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:16:24.137Z] 🔄 Init FAQ data (caller: api/chat#mgq65jd4-aeilg4)
+[2025-10-14T06:16:26.207Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq65jd4-aeilg4): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:16:26.207Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:16:26.217Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:26.222Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:26.223Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:16:28.155Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:16:28.188Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:16:28.187Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:16:28.188Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:16:28.189Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:16:28.188Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:16:28.189Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:16:28.189Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:16:29.331Z] 🔄 Init FAQ data (caller: api/chat#mgq65ndf-kv2x3e)
+[2025-10-14T06:16:31.403Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq65ndf-kv2x3e): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:16:31.412Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:31.403Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:16:31.416Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:31.416Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:16:33.276Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:16:33.309Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:16:33.309Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:16:33.309Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:16:33.310Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:16:33.309Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:16:33.310Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:16:33.310Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:16:34.455Z] 🔄 Init FAQ data (caller: api/chat#mgq65rbr-c55l1l)
+[2025-10-14T06:16:36.537Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq65rbr-c55l1l): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:16:36.545Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:36.537Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:16:36.549Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:36.550Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:16:38.497Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:16:38.530Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:16:38.530Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:16:38.531Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:16:38.531Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:16:38.531Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:16:38.532Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:16:38.531Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:16:39.678Z] 🔄 Init FAQ data (caller: api/chat#mgq65vct-uxnj5n)
+[2025-10-14T06:16:41.866Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq65vct-uxnj5n): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:16:41.867Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:16:41.875Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:41.879Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:16:41.879Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:16:56.385Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:16:56.425Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:16:56.426Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:16:56.426Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:16:56.426Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:16:56.427Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:16:56.427Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:16:56.427Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:16:58.009Z] 🔄 Init FAQ data (caller: api/chat#mgq669i1-01f1c2)
+[2025-10-14T06:17:20.326Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq669i1-01f1c2): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:20.327Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:20.337Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:20.342Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:20.342Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:24.898Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:17:24.928Z] [DEBUG] searchFaq lang=SE, input="Vilka f�rger finns i Beton?" → 32 träffar
+[2025-10-14T06:17:24.928Z]    #1: "Vilka färger finns i serien Lava?" (score=0.541)
+[2025-10-14T06:17:24.929Z]    #2: "Vilka färger finns i serien Albero?" (score=0.541)
+[2025-10-14T06:17:24.929Z]    #4: "Vilka färger finns i serien Anniversario?" (score=0.541)
+[2025-10-14T06:17:24.929Z]    #3: "Vilka färger finns i serien Alpine?" (score=0.541)
+[2025-10-14T06:17:24.929Z]    #5: "Vilka färger finns i serien Antique?" (score=0.541)
+[2025-10-14T06:17:24.930Z] ✅ Bästa träff: "Vilka färger finns i serien Lava?" → "Följande färger finns i Lava:
+  - Etna
+  - Marsili
+  - Salina
+  - Vesuvio..."
+[2025-10-14T06:17:26.089Z] 🔄 Init FAQ data (caller: api/chat#mgq66v60-s4h3dv)
+[2025-10-14T06:17:28.249Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq66v60-s4h3dv): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:28.249Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:28.257Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:28.261Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:28.261Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:30.240Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:17:30.260Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Hvilke farver findes i Beton?"
+[2025-10-14T06:17:31.410Z] 🔄 Init FAQ data (caller: api/chat#mgq66z9t-zjkfwv)
+[2025-10-14T06:17:33.623Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq66z9t-zjkfwv): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:33.624Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:33.632Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:33.635Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:33.636Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:35.592Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:17:35.612Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Welche Farben hat Beton?"
+[2025-10-14T06:17:36.756Z] 🔄 Init FAQ data (caller: api/chat#mgq673ec-l3040l)
+[2025-10-14T06:17:38.892Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq673ec-l3040l): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:38.892Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:38.900Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:38.904Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:38.904Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:40.857Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:17:40.876Z] ℹ️ searchFaq: inga träffar för lang=EN, input="What colors are in Beton?"
+[2025-10-14T06:17:43.219Z] 🔄 Init FAQ data (caller: api/chat#mgq678du-inlm3f)
+[2025-10-14T06:17:43.374Z] 🔄 Init FAQ data (caller: api/chat#mgq678i5-319t4z)
+[2025-10-14T06:17:43.536Z] 🔄 Init FAQ data (caller: api/chat#mgq678mn-l0npgi)
+[2025-10-14T06:17:43.693Z] 🔄 Init FAQ data (caller: api/chat#mgq678r0-dg8axc)
+[2025-10-14T06:17:43.885Z] 🔄 Init FAQ data (caller: api/chat#mgq678wc-ng8hk9)
+[2025-10-14T06:17:44.056Z] 🔄 Init FAQ data (caller: api/chat#mgq67914-98aqt9)
+[2025-10-14T06:17:44.209Z] 🔄 Init FAQ data (caller: api/chat#mgq6795d-rqj83r)
+[2025-10-14T06:17:44.329Z] 🔄 Init FAQ data (caller: api/chat#mgq6798o-pj3sco)
+[2025-10-14T06:17:44.489Z] 🔄 Init FAQ data (caller: api/chat#mgq679d4-lhjmc4)
+[2025-10-14T06:17:44.635Z] 🔄 Init FAQ data (caller: api/chat#mgq679h6-o8gcu5)
+[2025-10-14T06:17:45.391Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq678du-inlm3f): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:45.391Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:45.399Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:45.402Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:45.402Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:45.549Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq678i5-319t4z): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:45.549Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:45.557Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:45.560Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:45.561Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:45.835Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq678r0-dg8axc): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:45.835Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:45.843Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:45.847Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:45.846Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.000Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq678wc-ng8hk9): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:46.008Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.000Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:46.012Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.012Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:46.163Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq67914-98aqt9): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:46.163Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:46.171Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.175Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.175Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:46.781Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq679h6-o8gcu5): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:46.781Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:46.790Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.795Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:46.795Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:48.523Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq678mn-l0npgi): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:48.530Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:48.523Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:48.534Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:48.534Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:48.861Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6795d-rqj83r): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:48.870Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:48.862Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:48.874Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:48.874Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:51.474Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6798o-pj3sco): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:51.485Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:51.474Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:51.489Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:51.489Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:17:51.628Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq679d4-lhjmc4): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:17:51.629Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:17:51.639Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:51.643Z] 🔄 Init FAQ data (caller: detectLangCore)
+[2025-10-14T06:17:51.643Z] [initFaqData] SKIP (debounced/in-flight) caller=detectLangCore
+[2025-10-14T06:18:02.420Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:03.914Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:04.108Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:04.797Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:05.070Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:05.460Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:06.391Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:06.566Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:08.123Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:08.494Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:08.680Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:10.641Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:11.072Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:11.251Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:12.672Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:13.664Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:14.043Z] [initFaqData] SKIP (memoized index) caller=detectLangCore version=40ff57
+[2025-10-14T06:18:14.965Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:15.137Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:18:15.400Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:39:07.147Z] 🔄 Init FAQ data (caller: api/chat#mgq6yr2j-yt4zyh)
+[2025-10-14T06:39:12.390Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6yr2j-yt4zyh): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:12.390Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:13.153Z] [DEBUG] searchFaq lang=EN, input="ping" → 27 träffar
+[2025-10-14T06:39:13.153Z]    #1: "What is the shipping cost?" (score=0.046)
+[2025-10-14T06:39:13.153Z]    #2: "Is shipping included in the price?" (score=0.060)
+[2025-10-14T06:39:13.153Z]    #3: "Who is responsible for the return shipping?" (score=0.073)
+[2025-10-14T06:39:13.154Z]    #4: "Are there recommendations for soundproofing?" (score=0.538)
+[2025-10-14T06:39:13.154Z]    #5: "Can I get evening delivery?" (score=0.538)
+[2025-10-14T06:39:13.154Z] ✅ Bästa träff: "What is the shipping cost?" → "The shipping cost depends on weight and destination, please contact us for a quo..."
+[2025-10-14T06:39:14.713Z] 🔄 Init FAQ data (caller: api/chat#mgq6ywwo-c82wl8)
+[2025-10-14T06:39:19.608Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6ywwo-c82wl8): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:19.608Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:19.650Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:39:19.650Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:39:19.651Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:39:19.650Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:39:19.651Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:39:19.652Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:39:19.651Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:39:20.816Z] 🔄 Init FAQ data (caller: api/chat#mgq6z1m7-ulmz5g)
+[2025-10-14T06:39:26.243Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6z1m7-ulmz5g): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:26.244Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:26.286Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:39:26.286Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:39:26.287Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:39:26.287Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:39:26.287Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:39:26.287Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:39:26.288Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:39:27.435Z] 🔄 Init FAQ data (caller: api/chat#mgq6z6q2-7rmw80)
+[2025-10-14T06:39:32.928Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6z6q2-7rmw80): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:32.928Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:32.973Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:39:32.973Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:39:32.973Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:39:32.974Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:39:32.974Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:39:32.974Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:39:32.974Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:39:34.117Z] 🔄 Init FAQ data (caller: api/chat#mgq6zbvo-y67wkk)
+[2025-10-14T06:39:39.685Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:39.685Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6zbvo-y67wkk): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:39.727Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:39:39.728Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:39:39.728Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:39:39.728Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:39:39.728Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:39:39.729Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:39:39.728Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:39:40.862Z] 🔄 Init FAQ data (caller: api/chat#mgq6zh32-nhzqaq)
+[2025-10-14T06:39:45.144Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6zh32-nhzqaq): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:45.145Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:45.189Z] [DEBUG] searchFaq lang=EN, input="What colors are available in the Beton series?" → 62 träffar
+[2025-10-14T06:39:45.190Z]    #1: "What colors are available in the Beton series?" (score=0.000)
+[2025-10-14T06:39:45.190Z]    #4: "What colors are available in the Albero series?" (score=0.376)
+[2025-10-14T06:39:45.190Z]    #2: "What colors are available in the Meteo series?" (score=0.340)
+[2025-10-14T06:39:45.191Z]    #5: "What colors are available in the Lava series?" (score=0.406)
+[2025-10-14T06:39:45.190Z]    #3: "What colors are available in the Stone series?" (score=0.340)
+[2025-10-14T06:39:45.191Z] ✅ Bästa träff: "What colors are available in the Beton series?" → "The following colors are available in the Beton series: Cemento, Cenere, Sandalo..."
+[2025-10-14T06:39:46.790Z] 🔄 Init FAQ data (caller: api/chat#mgq6zlnq-qi748z)
+[2025-10-14T06:39:51.132Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6zlnq-qi748z): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:39:51.132Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:39:51.163Z] [DEBUG] searchFaq lang=SE, input="Vilka f�rger finns i Beton?" → 32 träffar
+[2025-10-14T06:39:51.164Z]    #1: "Vilka färger finns i serien Lava?" (score=0.541)
+[2025-10-14T06:39:51.164Z]    #2: "Vilka färger finns i serien Albero?" (score=0.541)
+[2025-10-14T06:39:51.164Z]    #3: "Vilka färger finns i serien Alpine?" (score=0.541)
+[2025-10-14T06:39:51.165Z]    #4: "Vilka färger finns i serien Anniversario?" (score=0.541)
+[2025-10-14T06:39:51.165Z]    #5: "Vilka färger finns i serien Antique?" (score=0.541)
+[2025-10-14T06:39:51.165Z] ✅ Bästa träff: "Vilka färger finns i serien Lava?" → "Följande färger finns i Lava:
+  - Etna
+  - Marsili
+  - Salina
+  - Vesuvio..."
+[2025-10-14T06:39:52.309Z] 🔄 Init FAQ data (caller: api/chat#mgq6zpx0-ekthcc)
+[2025-10-14T06:40:00.314Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6zpx0-ekthcc): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:00.314Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:00.344Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Hvilke farver findes i Beton?"
+[2025-10-14T06:40:01.489Z] 🔄 Init FAQ data (caller: api/chat#mgq6zx00-qh7f9j)
+[2025-10-14T06:40:13.107Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq6zx00-qh7f9j): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:13.107Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:13.138Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Welche Farben hat Beton?"
+[2025-10-14T06:40:14.289Z] 🔄 Init FAQ data (caller: api/chat#mgq706vk-0uhj7g)
+[2025-10-14T06:40:19.198Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq706vk-0uhj7g): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:19.199Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:19.227Z] ℹ️ searchFaq: inga träffar för lang=EN, input="What colors are in Beton?"
+[2025-10-14T06:40:21.478Z] 🔄 Init FAQ data (caller: api/chat#mgq70cf9-ljar6o)
+[2025-10-14T06:40:21.592Z] 🔄 Init FAQ data (caller: api/chat#mgq70cif-wti2kf)
+[2025-10-14T06:40:21.764Z] 🔄 Init FAQ data (caller: api/chat#mgq70cn7-k6ao2i)
+[2025-10-14T06:40:21.876Z] 🔄 Init FAQ data (caller: api/chat#mgq70cqb-lgwc4y)
+[2025-10-14T06:40:22.024Z] 🔄 Init FAQ data (caller: api/chat#mgq70cuf-1a3tyr)
+[2025-10-14T06:40:22.178Z] 🔄 Init FAQ data (caller: api/chat#mgq70cyp-avhfmt)
+[2025-10-14T06:40:23.070Z] 🔄 Init FAQ data (caller: api/chat#mgq70dnh-42azeo)
+[2025-10-14T06:40:26.031Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70cn7-k6ao2i): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:26.031Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:26.216Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70cqb-lgwc4y): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:26.216Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:26.296Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70cuf-1a3tyr): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:26.296Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:26.364Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:26.364Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70cf9-ljar6o): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:26.480Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70cif-wti2kf): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:26.481Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:26.832Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:27.003Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:27.123Z] 🔄 Init FAQ data (caller: api/chat#mgq70gs2-7n8emb)
+[2025-10-14T06:40:27.122Z] 🔄 Init FAQ data (caller: api/chat#mgq70gs1-ulllhc)
+[2025-10-14T06:40:27.134Z] 🔄 Init FAQ data (caller: api/chat#mgq70gse-edjh7s)
+[2025-10-14T06:40:27.234Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:27.354Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:27.686Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:27.948Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70dnh-42azeo): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:27.948Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:28.780Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:34.906Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70cyp-avhfmt): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:34.907Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:35.496Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:52.947Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70gse-edjh7s): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:52.948Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:54.029Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70gs1-ulllhc): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:54.029Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:54.590Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:54.613Z] ✅ Fuse-index byggt för FAQ (caller: api/chat#mgq70gs2-7n8emb): {"SE":238,"DA":238,"DE":238,"EN":238}
+[2025-10-14T06:40:54.613Z] [initFaqData] DONE (index updated) version=40ff57
+[2025-10-14T06:40:54.727Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"
+[2025-10-14T06:40:55.523Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Beton availability?"

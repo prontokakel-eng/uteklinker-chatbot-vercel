@@ -1,0 +1,9 @@
+🧱 Om du någonsin behöver rulla tillbaka
+
+Om något går sönder framöver, kan du med ett enda kommando återställa till exakt detta stabila läge:
+
+git checkout v2025-10-07_safe
+git checkout -b restore-from-2025-10-07
+
+
+.\create-snapshot-git.ps1

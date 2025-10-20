@@ -7,107 +7,110 @@ import fs from "fs";
 import path from "path";
 import chalk from "chalk";
 import { detectLangCore } from "../lib/detect-lang-core.js";
-import { loadAllFAQSheets, writeBenchmarkResult } from "../lib/faq-sheets.js";
+import { loadAllFAQSheets, queueBenchmarkResult, flushPendingWrites } from "../lib/faq-sheets.js";
 import { createProgressBar } from "../lib/utils-progress.js";
 
-const LOG_DIR = "./tests/logs";
-if (!fs.existsSync(LOG_DIR)) fs.mkdirSync(LOG_DIR, { recursive: true });
+// === TEST_MODE styr AI-användning ===
+const TEST_MODE = process.env.TEST_MODE === "true";
+console.log(TEST_MODE
+  ? chalk.yellow("🧩 TEST_MODE = true → AI fallback DISABLED")
+  : chalk.green("🧩 TEST_MODE = false → AI fallback ENABLED")
+);
 
-const timestamp = new Date().toISOString().split("T")[0];
-const jsonOut = path.join(LOG_DIR, `faq-lang-benchmark-${timestamp}.json`);
-const csvOut = path.join(LOG_DIR, `faq-lang-benchmark-${timestamp}.csv`);
+// === Benchmark ===
+const sheetName = process.env.SHEET_TAB_NAME || "TEST_TORTURE";
+const outputDir = path.join(process.cwd(), "tests", "logs");
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
+const csvPath = path.join(outputDir, `faq-lang-benchmark-${new Date().toISOString().split("T")[0]}.csv`);
 
-const summary = {};
-const allResults = [];
+// === Init ===
+console.log("\n🧩 FAQ Language Benchmark – DetectLangCore\n");
+const allSheets = await loadAllFAQSheets();
 
-console.log(chalk.bold("\n🧩 FAQ Language Benchmark – DetectLangCore\n"));
+// 🧩 Robust progress-init — stödjer både funktion & objekt
+const progressInstance = createProgressBar(238 * 4);
+const progress =
+  typeof progressInstance === "function"
+    ? { update: progressInstance }
+    : progressInstance;
 
-// 1️⃣ Ladda alla FAQ-flikar (SE, EN, DA, DE)
-const faqData = await loadAllFAQSheets();
-const langs = Object.keys(faqData);
-console.log(chalk.gray(`→ Hittade språk: ${langs.join(", ")}`));
-
-// 2️⃣ Loopa per språk
-for (const lang of langs) {
-  const entries = faqData[lang] || [];
-  const total = entries.length;
-  const bar = createProgressBar(total, lang);
-
+let results = [];
+for (const lang of Object.keys(allSheets)) {
+  const rows = allSheets[lang];
+  console.log(chalk.cyan(`\n🌍 Testing ${lang} (${rows.length} rows)`));
   let pass = 0;
-  let fail = 0;
-  let partial = 0;
 
-  for (const row of entries) {
-    const input = row.question || row.Q || "";
-    const expected = lang;
-    const result = await detectLangCore(input);
+  for (let i = 0; i < rows.length; i++) {
+    const { question } = rows[i];
+    const result = await detectLangCore(question, { skipAI: TEST_MODE });
 
-    const status =
-      result.lang === expected
-        ? "PASS"
-        : result.lang === "UNKNOWN"
-        ? "PARTIAL"
-        : "FAIL";
+    const isPass = result.lang === lang;
+    if (isPass) pass++;
 
-    if (status === "PASS") pass++;
-    else if (status === "FAIL") fail++;
-    else partial++;
-
-    allResults.push({
-      expected,
-      input,
-      detected: result.lang,
-      confidence: result.confidence ?? 0,
+    results.push({
+      lang,
+      question,
+      detectedLang: result.lang,
+      confidence: result.confidence,
       via: result.via,
-      status,
+      status: isPass ? "PASS" : "FAIL"
     });
 
-    // Skicka till Google Sheet
-    await writeBenchmarkResult({
-      sheetName: "TEST_TORTURE",
+    // logga till Google queue (asynkront)
+    await queueBenchmarkResult({
+      sheetName,
       lang,
-      question: input,
+      question,
       detectedLang: result.lang,
-      confidence: result.confidence ?? 0,
-      result: status,
+      confidence: result.confidence,
+      result: isPass ? "PASS" : "FAIL",
       timestamp: new Date().toISOString(),
     });
 
-    bar.tick();
+    // 🧩 Skydda mot undefined progress.update
+    if (progress?.update) {
+      progress.update(i + 1 + 238 * (["SE", "EN", "DA", "DE"].indexOf(lang)));
+    }
   }
 
-  summary[lang] = { pass, fail, partial, total };
   console.log(
-    chalk.green(
-      `\n✅ ${lang}: ${pass} PASS / ${fail} FAIL / ${partial} PARTIAL (${total})`
+    chalk.bold(
+      `✅ ${lang}: ${pass} PASS / ${rows.length - pass} FAIL / 0 PARTIAL (${rows.length})`
     )
   );
 }
 
-// 3️⃣ Spara loggar lokalt
-fs.writeFileSync(jsonOut, JSON.stringify(allResults, null, 2));
-fs.writeFileSync(
-  csvOut,
-  "expected,input,detected,confidence,via,status\n" +
-    allResults
-      .map(
-        (r) =>
-          `${r.expected},"${r.input.replace(/"/g, '""')}",${r.detected},${r.confidence},${r.via},${r.status}`
-      )
-      .join("\n")
-);
-
-// 4️⃣ Skriv sammanfattning
+// === Resultat ===
 console.log("\n--------------------------------------------------------");
-console.log(chalk.bold("📊 Lang Benchmark Summary"));
+console.log("📊 Lang Benchmark Summary");
 console.log("--------------------------------------------------------");
-for (const [lang, s] of Object.entries(summary)) {
-  const acc = ((s.pass / s.total) * 100).toFixed(2);
-  console.log(
-    `${lang}: ${s.total} tests → ${s.pass} PASS / ${s.fail} FAIL / ${s.partial} PARTIAL (${acc}%)`
-  );
+
+const summary = Object.entries(
+  results.reduce((acc, r) => {
+    acc[r.lang] = acc[r.lang] || { total: 0, pass: 0 };
+    acc[r.lang].total++;
+    if (r.status === "PASS") acc[r.lang].pass++;
+    return acc;
+  }, {})
+).map(([lang, { total, pass }]) => {
+  const pct = ((pass / total) * 100).toFixed(2);
+  console.log(`${lang}: ${total} tests → ${pass} PASS / ${total - pass} FAIL / 0 PARTIAL (${pct}%)`);
+  return { lang, pass, total, pct };
+});
+
+// === Skriv CSV ===
+const header = "lang,question,detectedLang,confidence,via,status\n";
+const csv = header + results.map(r =>
+  `${r.lang},"${r.question.replace(/"/g, '""')}",${r.detectedLang},${r.confidence},${r.via},${r.status}`
+).join("\n");
+
+try {
+  fs.writeFileSync(csvPath, csv, "utf8");
+  console.log(chalk.green(`✅ Benchmark results saved to ${csvPath}`));
+} catch (err) {
+  console.error(chalk.red(`❌ Failed to write CSV: ${err.message}`));
 }
-console.log("--------------------------------------------------------");
-console.log(
-  chalk.green(`✅ Written to: TEST_TORTURE (Google Sheets) & ${csvOut}\n`)
-);
+
+// === Skicka till Google Sheets (batch flush) ===
+await flushPendingWrites(process.env.SHEET_ID_MAIN);
+console.log(chalk.green("✅ Written to Google Sheets & local CSV\n"));

@@ -1,0 +1,4 @@
+tests/**
+coverage/**
+lib/_archive/**
+archive/**

@@ -1,0 +1,251 @@
+# Import/Export Breakdown – ChatBot Logic Layer
+# Generated: 2025-10-08
+
+## 🔹 detect-lang-core.js
+**Imports:**
+- getOpenAIClient from `./openai-client.js`
+- detectLangRulesOnly from `./detect-lang-rules.js`
+- detectLangHeuristicGroup from `./detect-lang-heuristics.js`
+- detectLangFaqFuzzy from `./faq-fuzzy-detect.js`
+- initFaqData from `./faq-data.js`
+- logMessage from `./logger.js`
+- getFaqCache from `./faq-cache.js`
+
+**Exports:**
+- `detectLangCore(input, opts)` – huvudpipeline för språkdetektion.
+
+**Internal vars:**
+- `faqReady` (bool)
+- `mapConfidence(via, lang)` – internal helper
+- `cleanInput`, `normalizedInput`
+- `ruleRes`, `regexRes`, `heurRes`, `groupRes`
+
+**Flow:**
+Regex → Heuristik → SE-fallback → Gruppanalys → IP → AI
+
+---
+
+## 🔹 detect-lang-rules.js
+**Imports:**
+- logMessage from `./logger.js`
+
+**Exports:**
+- `detectLangRulesOnly(text)`
+
+**Internal structures:**
+- `regexAnchors`, `boosters`, `exclusiveRegex`, `confidenceRules`
+- `neutralizeBrandTerms(text)` helper
+
+**Responsibilities:**
+Lexikonbaserad regex‑analys och normalisering med språkbevarande diakriter.
+
+---
+
+## 🔹 detect-lang-heuristics.js
+**Exports:**
+- `detectLangHeuristicGroup(input)`
+
+**Internal logic:**
+- `scores` object (SE, DA, DE, EN)
+- regex-matcher för diakriter `[åäöæøüß]`
+- ordlistor per språk (`seWords`, `daWords`, `deWords`, `enWords`)
+- korttext‑boost (≤3 ord)
+
+**Purpose:**
+Ger poäng utifrån token- och diakritmönster. Används som fallback och tiebreaker.
+
+---
+
+## 🔹 faq-data.js
+**Imports:**
+- `Fuse` from `fuse.js`
+- `getFaqCache` from `./faq-cache.js`
+- `logMessage` from `./logger.js`
+
+**Exports:**
+- `initFaqData(caller)` – laddar FAQ och bygger Fuse‑index
+- `getFaqIndex(lang)` – returnerar index per språk
+
+**Variables:**
+- `faqIndexMap` (cache för Fuse-instanser)
+- `faqDataLoaded` (flag)
+
+**Purpose:**
+Förbereder Fuse.js-index för FAQ-sökning och språkledtrådar.
+
+---
+
+## 🔹 faq-cache.js
+**Imports:**
+- `logMessage` from `./logger.js`
+
+**Exports:**
+- `getFaqCache(key)`
+- `setFaqCache(key, value)`
+
+**Internal vars:**
+- `faqCache` (in-memory Map)
+
+**Usage:**
+Delas mellan FAQ, detect-lang-core och Sheets-hantering.
+
+---
+
+## 🔹 faq-sheets.js
+**Imports:**
+- `googleapis` (sheets API)
+- `logMessage` from `./logger.js`
+- `getFaqCache` / `setFaqCache`
+
+**Exports:**
+- `loadAllFAQSheets()` – laddar FAQ-data per språk.
+- `queueBenchmarkResult()` – köhantering av benchmarkrader.
+- `flushPendingWrites()` – tömmer skrivkö.
+- `clearSheet(sheetId, tabName)`
+
+**Env vars:**
+- `SHEET_ID_MAIN`, `SHEET_TAB_NAME`, `TEST_MODE`
+
+**Purpose:**
+Google Sheets I/O för FAQ och benchmark.
+
+---
+
+## 🔹 openai-client.js
+**Imports:**
+- `OpenAI` from `openai`
+
+**Exports:**
+- `getOpenAIClient(caller)` – central klient med env-nyckel.
+
+**Internal vars:**
+- `singletonClient`
+
+**Purpose:**
+Delad OpenAI-klient med kontextloggning.
+
+---
+
+## 🔹 logger.js
+**Exports:**
+- `logMessage(file, message)`
+
+**Purpose:**
+Enkel wrapper som skriver till `logs/{file}` samt konsolen i dev.
+
+---
+
+## 🔹 block-long.js
+**Exports:**
+- `detectLongOrRepetitive(text)`
+
+**Purpose:**
+Analyserar textlängd och repetitivitet innan AI.
+
+---
+
+## 🔹 gate.js
+**Imports:**
+- `filters.js`
+- `block-long.js`
+- `logMessage`
+
+**Exports:**
+- `runGate(input)`
+
+**Purpose:**
+Kör pre-filters, whitelist/blacklist och LONG-block innan AI.
+
+---
+
+## 🔹 filters.js
+**Exports:**
+- `runFilters(input)`
+
+**Purpose:**
+Matchar mot BL/WL/keywords enligt /config.
+
+---
+
+## 🔹 utils-progress.js
+**Exports:**
+- `createProgressBar(total)`
+
+**Purpose:**
+CLI progressbar för tester.
+
+---
+
+## 🔹 tests/faq-lang-benchmark-v4.mjs
+**Imports:**
+- `detectLangCore` from `../lib/detect-lang-core.js`
+- `loadAllFAQSheets`, `queueBenchmarkResult`, `flushPendingWrites`, `clearSheet`
+- `chalk`, `readline`, `fs`, `path`
+- `createProgressBar`
+
+**Purpose:**
+Benchmarking-script som testar alla språk mot FAQ och loggar resultat i CSV + Sheets.
+
+---
+
+## 🔹 paths (kort översikt)
+```
+/lib
+  detect-lang-core.js
+  detect-lang-rules.js
+  detect-lang-heuristics.js
+  faq-data.js
+  faq-cache.js
+  faq-sheets.js
+  openai-client.js
+  logger.js
+  block-long.js
+  gate.js
+  filters.js
+  utils-progress.js
+/tests
+  faq-lang-benchmark-v4.mjs
+  logs/
+```
+graph TD
+  subgraph LangDetection
+    A[detect-lang-core.js]
+    B[detect-lang-rules.js]
+    C[detect-lang-heuristics.js]
+    D[faq-fuzzy-detect.js]
+  end
+
+  subgraph FAQ System
+    E[faq-data.js]
+    F[faq-cache.js]
+    G[faq-sheets.js]
+  end
+
+  subgraph Infrastructure
+    H[openai-client.js]
+    I[logger.js]
+    J[utils-progress.js]
+  end
+
+  subgraph Guards
+    K[block-long.js]
+    L[gate.js]
+    M[filters.js]
+  end
+
+  A --> B
+  A --> C
+  A --> D
+  A --> E
+  A --> F
+  A --> H
+  A --> I
+
+  E --> F
+  E --> I
+  G --> F
+  G --> I
+
+  L --> M
+  L --> K
+  L --> I

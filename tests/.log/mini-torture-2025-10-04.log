@@ -1,0 +1,337 @@
+PS C:\uteklinker-chatbot-vercel> node tests/chatBot-torture-mini.mjs
+📥 Loaded 22 vars från .env.local
+🔑 OPENAI_API_KEY = sk-pr...2IkAA (len=164, source=.env file)
+🔑 OPENAI_PROJECT_ID = proj_...2AP5D (len=29, source=.env file)
+🔑 SHEET_ID = ${SHE...MAIN} (len=16, source=.env file)
+🔑 SHEET_ID_MAIN = 1_FjA...E-dlY (len=44, source=.env file)
+🔑 GCP_CLIENT_EMAIL = chatb...t.com (len=68, source=.env file)
+🔑 GCP_PROJECT_ID = utekl...ercel (len=25, source=.env file)
+🔑 GCP_PRIVATE_KEY_ID = GCP_P...45678 (len=59, source=.env file)
+🔑 GCP_PRIVATE_KEY = -----...----
+ (len=1704, source=.env file)
+📝 Running script: C:\uteklinker-chatbot-vercel\tests\chatBot-torture-mini.mjs
+🗒️ Logfile: C:\uteklinker-chatbot-vercel\tests\logs\mini-torture-2025-10-04.log
+📂 Using test cases: C:\uteklinker-chatbot-vercel\tests\mini-torture-2-questions.json
+🚀 Running MINI torture test (direct chatPipeline)
+[faq-data.log] [2025-10-04T11:33:22.937Z] 🔄 Init FAQ data (caller: detectLangCore)
+✅ GCP_CLIENT_EMAIL loaded (length: 68)
+⚠️ ENV var "GCP_PRIVATE_KEY" hade whitespace, korrigerar automatiskt.
+✅ GCP_PRIVATE_KEY loaded (length: 1703)
+✅ SHEET_ID_MAIN loaded (length: 44)
+[faq-sheets] Init Sheets client med env: { email: '✅', key: '✅', sheetId: '✅' }
+🔑 Google Sheets client initialized (first call from: loadAllFaqData)
+[faq-sheets] ✅ Loaded FAQ_SE: 238 rows
+♻️ Google Sheets client reused (called from: loadAllFaqData)
+[faq-sheets] ✅ Loaded FAQ_EN: 238 rows
+♻️ Google Sheets client reused (called from: loadAllFaqData)
+[faq-sheets] ✅ Loaded FAQ_DA: 238 rows
+♻️ Google Sheets client reused (called from: loadAllFaqData)
+[faq-sheets] ✅ Loaded FAQ_DE: 238 rows
+♻️ Google Sheets client reused (called from: loadAllLookups)
+[faq-sheets] ✅ Loaded SE_FULL_LOOKUP: 1353 keywords
+♻️ Google Sheets client reused (called from: loadAllLookups)
+[faq-sheets] ✅ Loaded EN_FULL_LOOKUP: 1353 keywords
+♻️ Google Sheets client reused (called from: loadAllLookups)
+[faq-sheets] ✅ Loaded DA_FULL_LOOKUP: 1353 keywords
+♻️ Google Sheets client reused (called from: loadAllLookups)
+[faq-sheets] ✅ Loaded DE_FULL_LOOKUP: 1353 keywords
+[faq-cache.log] [2025-10-04T11:33:30.221Z] ✅ FAQ+Lookups cache laddad & sparad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":0,"DA":0,"DE":0,"EN":0}
+[faq-data.log] [2025-10-04T11:33:30.223Z] ✅ Fuse-index byggt för FAQ (caller: detectLangCore): {"SE":238,"DA":238,"DE":238,"EN":238}
+[faq-data.log] [2025-10-04T11:33:30.236Z] [DEBUG] searchFaq lang=SE, input="Vilka mått har ni?" → 1 träffar
+[faq-data.log] [2025-10-04T11:33:30.236Z]    #1: "Vilka format har ni?" (score=0.527)
+[faq-data.log] [2025-10-04T11:33:30.237Z] ✅ Bästa träff: "Vilka format har ni?" → "Vi erbjuder flera olika standardformat i 20 mm tjocklek. Exempel: 60x60, 80x80, ..."
+[faq-data.log] [2025-10-04T11:33:30.247Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Vilka mått har ni?"
+[faq-data.log] [2025-10-04T11:33:30.256Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Vilka mått har ni?"
+[faq-data.log] [2025-10-04T11:33:30.259Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Vilka mått har ni?"
+[detect-lang.log] [2025-10-04T11:33:30.259Z] ✅ FAQ fuzzy detect: "Vilka mått har ni?" → SE
+[chat-pipeline.log] [2025-10-04T11:33:30.260Z] [id=434e6] 🌐 Lang detect: "Vilka mått har ni?" → lang=SE, via=faq-fuzzy, conf=1
+[faq-data.log] [2025-10-04T11:33:30.262Z] [DEBUG] searchFaq lang=SE, input="Vilka mått har ni?" → 1 träffar
+[faq-data.log] [2025-10-04T11:33:30.263Z]    #1: "Vilka format har ni?" (score=0.527)
+[faq-data.log] [2025-10-04T11:33:30.263Z] ✅ Bästa träff: "Vilka format har ni?" → "Vi erbjuder flera olika standardformat i 20 mm tjocklek. Exempel: 60x60, 80x80, ..."
+[chat-pipeline.log] [2025-10-04T11:33:30.264Z] [id=434e6] ✅ FAQ hit: "Vilka mått har ni?" → "Vi erbjuder flera olika standardformat i 20 mm tjocklek. Exempel: 60x60, 80x80, ..."
+[SE] Vilka mått har ni? → got=SE, expected=SE, ok=🟢
+[faq-data.log] [2025-10-04T11:33:30.269Z] [DEBUG] searchFaq lang=SE, input="Är plattorna halksäkra?" → 2 träffar
+[faq-data.log] [2025-10-04T11:33:30.270Z]    #1: "Är plattorna halksäkra?" (score=0.000)
+[faq-data.log] [2025-10-04T11:33:30.271Z]    #2: "Är plattorna säkra för barn att leka på?" (score=0.583)
+[faq-data.log] [2025-10-04T11:33:30.271Z] ✅ Bästa träff: "Är plattorna halksäkra?" → "Ja, klinkerdäck® har halkskyddade ytor anpassade för utomhusbruk...."
+[faq-data.log] [2025-10-04T11:33:30.274Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Är plattorna halksäkra?"
+[faq-data.log] [2025-10-04T11:33:30.279Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Är plattorna halksäkra?"
+[faq-data.log] [2025-10-04T11:33:30.282Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Är plattorna halksäkra?"
+[detect-lang.log] [2025-10-04T11:33:30.283Z] ✅ FAQ fuzzy detect: "Är plattorna halksäkra?" → SE
+[chat-pipeline.log] [2025-10-04T11:33:30.283Z] [id=450b5] 🌐 Lang detect: "Är plattorna halksäkra?" → lang=SE, via=faq-fuzzy, conf=1
+[faq-data.log] [2025-10-04T11:33:30.286Z] [DEBUG] searchFaq lang=SE, input="Är plattorna halksäkra?" → 2 träffar
+[faq-data.log] [2025-10-04T11:33:30.286Z]    #1: "Är plattorna halksäkra?" (score=0.000)
+[faq-data.log] [2025-10-04T11:33:30.287Z]    #2: "Är plattorna säkra för barn att leka på?" (score=0.583)
+[faq-data.log] [2025-10-04T11:33:30.287Z] ✅ Bästa träff: "Är plattorna halksäkra?" → "Ja, klinkerdäck® har halkskyddade ytor anpassade för utomhusbruk...."
+[chat-pipeline.log] [2025-10-04T11:33:30.288Z] [id=450b5] ✅ FAQ hit: "Är plattorna halksäkra?" → "Ja, klinkerdäck® har halkskyddade ytor anpassade för utomhusbruk...."
+[SE] Är plattorna halksäkra? → got=SE, expected=SE, ok=🟢
+[faq-data.log] [2025-10-04T11:33:30.307Z] ℹ️ searchFaq: inga träffar för lang=SE, input="What sizes do you offer?"
+[faq-data.log] [2025-10-04T11:33:30.310Z] ℹ️ searchFaq: inga träffar för lang=DA, input="What sizes do you offer?"
+[faq-data.log] [2025-10-04T11:33:30.313Z] ℹ️ searchFaq: inga träffar för lang=DE, input="What sizes do you offer?"
+[faq-data.log] [2025-10-04T11:33:30.321Z] [DEBUG] searchFaq lang=EN, input="What sizes do you offer?" → 2 träffar
+[faq-data.log] [2025-10-04T11:33:30.322Z]    #1: "What sizes do you have in 20 mm?" (score=0.574)
+[faq-data.log] [2025-10-04T11:33:30.323Z]    #2: "Which countries do you offer standard delivery to?" (score=0.647)
+[faq-data.log] [2025-10-04T11:33:30.323Z] ✅ Bästa träff: "What sizes do you have in 20 mm?" → "Standard sizes include 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would yo..."
+[detect-lang.log] [2025-10-04T11:33:30.324Z] ✅ FAQ fuzzy detect: "What sizes do you offer?" → EN
+[chat-pipeline.log] [2025-10-04T11:33:30.324Z] [id=cdd4c] 🌐 Lang detect: "What sizes do you offer?" → lang=EN, via=faq-fuzzy, conf=1
+[faq-data.log] [2025-10-04T11:33:30.330Z] [DEBUG] searchFaq lang=EN, input="What sizes do you offer?" → 2 träffar
+[faq-data.log] [2025-10-04T11:33:30.331Z]    #1: "What sizes do you have in 20 mm?" (score=0.574)
+[faq-data.log] [2025-10-04T11:33:30.331Z]    #2: "Which countries do you offer standard delivery to?" (score=0.647)
+[faq-data.log] [2025-10-04T11:33:30.332Z] ✅ Bästa träff: "What sizes do you have in 20 mm?" → "Standard sizes include 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would yo..."
+[chat-pipeline.log] [2025-10-04T11:33:30.332Z] [id=cdd4c] ✅ FAQ hit: "What sizes do you offer?" → "Standard sizes include 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would yo..."
+[EN] What sizes do you offer? → got=EN, expected=EN, ok=🟢
+[faq-data.log] [2025-10-04T11:33:30.348Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Are the tiles slip resistant?"
+[faq-data.log] [2025-10-04T11:33:30.351Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Are the tiles slip resistant?"
+[faq-data.log] [2025-10-04T11:33:30.355Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Are the tiles slip resistant?"
+[faq-data.log] [2025-10-04T11:33:30.358Z] [DEBUG] searchFaq lang=EN, input="Are the tiles slip resistant?" → 8 träffar
+[faq-data.log] [2025-10-04T11:33:30.359Z]    #1: "Are the tiles slip-resistant?" (score=0.186)
+[faq-data.log] [2025-10-04T11:33:30.359Z]    #2: "Are the tiles UV-resistant?" (score=0.415)
+[faq-data.log] [2025-10-04T11:33:30.359Z]    #3: "Are the tiles scratch-resistant?" (score=0.491)
+[faq-data.log] [2025-10-04T11:33:30.360Z]    #4: "Are the tiles resistant to chemicals?" (score=0.526)
+[faq-data.log] [2025-10-04T11:33:30.360Z]    #5: "Are the tiles resistant to wear?" (score=0.526)
+[faq-data.log] [2025-10-04T11:33:30.361Z] ✅ Bästa träff: "Are the tiles slip-resistant?" → "Yes, klinkerdäck® has slip-resistant surfaces designed for outdoor use...."
+[detect-lang.log] [2025-10-04T11:33:30.361Z] ✅ FAQ fuzzy detect: "Are the tiles slip resistant?" → EN
+[chat-pipeline.log] [2025-10-04T11:33:30.362Z] [id=8f59c] 🌐 Lang detect: "Are the tiles slip resistant?" → lang=EN, via=faq-fuzzy, conf=1
+[faq-data.log] [2025-10-04T11:33:30.365Z] [DEBUG] searchFaq lang=EN, input="Are the tiles slip resistant?" → 8 träffar
+[faq-data.log] [2025-10-04T11:33:30.366Z]    #1: "Are the tiles slip-resistant?" (score=0.186)
+[faq-data.log] [2025-10-04T11:33:30.366Z]    #2: "Are the tiles UV-resistant?" (score=0.415)
+[faq-data.log] [2025-10-04T11:33:30.366Z]    #3: "Are the tiles scratch-resistant?" (score=0.491)
+[faq-data.log] [2025-10-04T11:33:30.367Z]    #4: "Are the tiles resistant to chemicals?" (score=0.526)
+[faq-data.log] [2025-10-04T11:33:30.367Z]    #5: "Are the tiles resistant to wear?" (score=0.526)
+[faq-data.log] [2025-10-04T11:33:30.367Z] ✅ Bästa träff: "Are the tiles slip-resistant?" → "Yes, klinkerdäck® has slip-resistant surfaces designed for outdoor use...."
+[chat-pipeline.log] [2025-10-04T11:33:30.368Z] [id=8f59c] ✅ FAQ hit: "Are the tiles slip resistant?" → "Yes, klinkerdäck® has slip-resistant surfaces designed for outdoor use...."
+[EN] Are the tiles slip resistant? → got=EN, expected=EN, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Are the tiles slip resistant?", pre=SE (via=heuristic+anchors), chat=EN (via=faq) }
+[faq-data.log] [2025-10-04T11:33:30.379Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Er det frostsikkert?"
+[faq-data.log] [2025-10-04T11:33:30.382Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Er det frostsikkert?"
+[faq-data.log] [2025-10-04T11:33:30.385Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Er det frostsikkert?"
+[faq-data.log] [2025-10-04T11:33:30.387Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Er det frostsikkert?"
+[detect-lang.log] [2025-10-04T11:33:30.395Z] ℹ️ Rules resultat: {"lang":"UNKNOWN","via":"heuristic","matches":[],"confidence":0.5,"NeedsAI":true} (conf=0.6)
+[detect-lang.log] [2025-10-04T11:33:30.396Z] 🤖 AI fallback aktiverad för input="Er det frostsikkert?"
+✅ OPENAI_API_KEY loaded (length: 164)
+🔑 OpenAI client initialized (first call from: detectLangCore)
+[detect-lang.log] [2025-10-04T11:33:31.498Z] 🤖 AI svar: "DA"
+[chat-pipeline.log] [2025-10-04T11:33:31.498Z] [id=770de] 🌐 Lang detect: "Er det frostsikkert?" → lang=DA, via=AI-fallback, conf=0.9
+[faq-data.log] [2025-10-04T11:33:31.502Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Er det frostsikkert?"
+[faq-data.log] [2025-10-04T11:33:31.505Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Er det frostsikkert?"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:33.155Z] [id=770de] 🤖 AI fallback: "Er det frostsikkert?" (lang=DA, via=AI-fallback) → "Kan du specificere, hvad du refererer til? Hvis du taler om et bestemt produkt e..."
+[DA] Er det frostsikkert? → got=DA, expected=DA, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="Er det frostsikkert?"
+⚠️ PreDetect ≠ ChatDetect { input="Er det frostsikkert?", pre=UNKNOWN (via=heuristic), chat=DA (via=ai) }
+[faq-data.log] [2025-10-04T11:33:33.176Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Kan jeg selv montere det?"
+[faq-data.log] [2025-10-04T11:33:33.180Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Kan jeg selv montere det?"
+[faq-data.log] [2025-10-04T11:33:33.184Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Kan jeg selv montere det?"
+[faq-data.log] [2025-10-04T11:33:33.187Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Kan jeg selv montere det?"
+[detect-lang.log] [2025-10-04T11:33:33.199Z] ℹ️ Rules resultat: {"lang":"DA","via":"heuristic+anchors","matches":[{"word":"jeg","match":"jeg","rating":1},{"word":"jeg","match":"jeg","rating":1},{"word":"selv","match":"selv","rating":1}],"confidence":0.7,"NeedsAI":false} (conf=0.8)
+[detect-lang.log] [2025-10-04T11:33:33.200Z] ⬅️ Default return: lang=DA, conf=0.8
+[chat-pipeline.log] [2025-10-04T11:33:33.200Z] [id=5f843] 🌐 Lang detect: "Kan jeg selv montere det?" → lang=DA, via=heuristic+anchors, conf=0.8
+[faq-data.log] [2025-10-04T11:33:33.204Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Kan jeg selv montere det?"
+[faq-data.log] [2025-10-04T11:33:33.207Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Kan jeg selv montere det?"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:35.530Z] [id=5f843] 🤖 AI fallback: "Kan jeg selv montere det?" (lang=DA, via=heuristic+anchors) → "Ja, du kan ofte selv montere mange produkter, hvis du følger de medfølgende inst..."
+[DA] Kan jeg selv montere det? → got=DA, expected=DA, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="Kan jeg selv montere det?"
+[faq-data.log] [2025-10-04T11:33:35.546Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Gibt es verschiedene Farben?"
+[faq-data.log] [2025-10-04T11:33:35.550Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Gibt es verschiedene Farben?"
+[faq-data.log] [2025-10-04T11:33:35.555Z] [DEBUG] searchFaq lang=DE, input="Gibt es verschiedene Farben?" → 1 träffar
+[faq-data.log] [2025-10-04T11:33:35.556Z]    #1: "Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?" (score=0.495)
+[faq-data.log] [2025-10-04T11:33:35.556Z] ✅ Bästa träff: "Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?" → "Ja, sowohl glatte als auch strukturierte Oberflächen sind verfügbar...."
+[faq-data.log] [2025-10-04T11:33:35.560Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Gibt es verschiedene Farben?"
+[detect-lang.log] [2025-10-04T11:33:35.561Z] ✅ FAQ fuzzy detect: "Gibt es verschiedene Farben?" → DE
+[chat-pipeline.log] [2025-10-04T11:33:35.561Z] [id=09d7d] 🌐 Lang detect: "Gibt es verschiedene Farben?" → lang=DE, via=faq-fuzzy, conf=1
+[faq-data.log] [2025-10-04T11:33:35.566Z] [DEBUG] searchFaq lang=DE, input="Gibt es verschiedene Farben?" → 1 träffar
+[faq-data.log] [2025-10-04T11:33:35.566Z]    #1: "Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?" (score=0.495)
+[faq-data.log] [2025-10-04T11:33:35.567Z] ✅ Bästa träff: "Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?" → "Ja, sowohl glatte als auch strukturierte Oberflächen sind verfügbar...."
+[chat-pipeline.log] [2025-10-04T11:33:35.567Z] [id=09d7d] ✅ FAQ hit: "Gibt es verschiedene Farben?" → "Ja, sowohl glatte als auch strukturierte Oberflächen sind verfügbar...."
+[DE] Gibt es verschiedene Farben? → got=DE, expected=DE, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Gibt es verschiedene Farben?", pre=UNKNOWN (via=heuristic), chat=DE (via=faq) }
+[faq-data.log] [2025-10-04T11:33:35.583Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Sind die Platten rutschfest?"
+[faq-data.log] [2025-10-04T11:33:35.587Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Sind die Platten rutschfest?"
+[faq-data.log] [2025-10-04T11:33:35.591Z] [DEBUG] searchFaq lang=DE, input="Sind die Platten rutschfest?" → 1 träffar
+[faq-data.log] [2025-10-04T11:33:35.591Z]    #1: "Sind die Fliesen rutschfest?" (score=0.378)
+[faq-data.log] [2025-10-04T11:33:35.592Z] ✅ Bästa träff: "Sind die Fliesen rutschfest?" → "Ja, klinkerdäck® hat rutschfeste Oberflächen, die für den Außenbereich konzipier..."
+[faq-data.log] [2025-10-04T11:33:35.595Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Sind die Platten rutschfest?"
+[detect-lang.log] [2025-10-04T11:33:35.596Z] ✅ FAQ fuzzy detect: "Sind die Platten rutschfest?" → DE
+[chat-pipeline.log] [2025-10-04T11:33:35.596Z] [id=9ed2f] 🌐 Lang detect: "Sind die Platten rutschfest?" → lang=DE, via=faq-fuzzy, conf=1
+[faq-data.log] [2025-10-04T11:33:35.600Z] [DEBUG] searchFaq lang=DE, input="Sind die Platten rutschfest?" → 1 träffar
+[faq-data.log] [2025-10-04T11:33:35.600Z]    #1: "Sind die Fliesen rutschfest?" (score=0.378)
+[faq-data.log] [2025-10-04T11:33:35.601Z] ✅ Bästa träff: "Sind die Fliesen rutschfest?" → "Ja, klinkerdäck® hat rutschfeste Oberflächen, die für den Außenbereich konzipier..."
+[chat-pipeline.log] [2025-10-04T11:33:35.602Z] [id=9ed2f] ✅ FAQ hit: "Sind die Platten rutschfest?" → "Ja, klinkerdäck® hat rutschfeste Oberflächen, die für den Außenbereich konzipier..."
+[DE] Sind die Platten rutschfest? → got=DE, expected=DE, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Sind die Platten rutschfest?", pre=SE (via=heuristic+anchors), chat=DE (via=faq) }
+[faq-data.log] [2025-10-04T11:33:35.605Z] ℹ️ searchFaq: inga träffar för lang=SE, input="klinkerdak mått??"
+[faq-data.log] [2025-10-04T11:33:35.607Z] ℹ️ searchFaq: inga träffar för lang=DA, input="klinkerdak mått??"
+[faq-data.log] [2025-10-04T11:33:35.610Z] ℹ️ searchFaq: inga träffar för lang=DE, input="klinkerdak mått??"
+[faq-data.log] [2025-10-04T11:33:35.613Z] ℹ️ searchFaq: inga träffar för lang=EN, input="klinkerdak mått??"
+[detect-lang.log] [2025-10-04T11:33:35.613Z] ℹ️ Rules resultat: {"lang":"SE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]} (conf=1)
+[detect-lang.log] [2025-10-04T11:33:35.614Z] ⬅️ Default return: lang=SE, conf=1
+[chat-pipeline.log] [2025-10-04T11:33:35.614Z] [id=33e83] 🌐 Lang detect: "klinkerdak mått??" → lang=SE, via=regex-exclusive, conf=1
+[faq-data.log] [2025-10-04T11:33:35.616Z] ℹ️ searchFaq: inga träffar för lang=SE, input="klinkerdak mått??"
+[faq-data.log] [2025-10-04T11:33:35.619Z] ℹ️ searchFaq: inga träffar för lang=SE, input="klinkerdak mått??"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:39.568Z] [id=33e83] 🤖 AI fallback: "klinkerdak mått??" (lang=SE, via=regex-exclusive) → "Måtten för ett klinkerdak kan variera beroende på vilken typ av takpannor du anv..."
+[FUZZY] klinkerdak mått?? → got=SE, expected=SE, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="klinkerdak mått??"
+[faq-data.log] [2025-10-04T11:33:39.584Z] ℹ️ searchFaq: inga träffar för lang=SE, input="klinkerdäck slipp??"
+[faq-data.log] [2025-10-04T11:33:39.586Z] ℹ️ searchFaq: inga träffar för lang=DA, input="klinkerdäck slipp??"
+[faq-data.log] [2025-10-04T11:33:39.589Z] ℹ️ searchFaq: inga träffar för lang=DE, input="klinkerdäck slipp??"
+[faq-data.log] [2025-10-04T11:33:39.591Z] ℹ️ searchFaq: inga träffar för lang=EN, input="klinkerdäck slipp??"
+[detect-lang.log] [2025-10-04T11:33:39.600Z] ℹ️ Rules resultat: {"lang":"SE","via":"heuristic+anchors","matches":[{"word":"klinkerdäck","match":"klinkerdäcket","rating":0.9090909090909091}],"confidence":0.7,"NeedsAI":false} (conf=0.8)
+[detect-lang.log] [2025-10-04T11:33:39.600Z] ⬅️ Default return: lang=SE, conf=0.8
+[chat-pipeline.log] [2025-10-04T11:33:39.601Z] [id=81e96] 🌐 Lang detect: "klinkerdäck slipp??" → lang=SE, via=heuristic+anchors, conf=0.8
+[faq-data.log] [2025-10-04T11:33:39.603Z] ℹ️ searchFaq: inga träffar för lang=SE, input="klinkerdäck slipp??"
+[faq-data.log] [2025-10-04T11:33:39.605Z] ℹ️ searchFaq: inga träffar för lang=SE, input="klinkerdäck slipp??"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:48.096Z] [id=81e96] 🤖 AI fallback: "klinkerdäck slipp??" (lang=SE, via=heuristic+anchors) → "Att slipa ett klinkerdäck kan vara en bra idé för att underhålla och förlänga li..."
+[FUZZY] klinkerdäck slipp?? → got=SE, expected=SE, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="klinkerdäck slipp??"
+🤪 Gibberish (alla jättelånga ord) { message: 'asdkjhqwe123' }
+[gate.log] [2025-10-04T11:33:48.104Z] 🤪 Gibberish IP=test-ip-0 msg="asdkjhqwe123"
+[GIBBERISH] asdkjhqwe123 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="asdkjhqwe123", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[gate.log] [2025-10-04T11:33:48.111Z] 📏 Kort text IP=test-ip-1 msg="!!!!!!?????"
+[GIBBERISH] !!!!!!????? → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="!!!!!!?????", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[faq-data.log] [2025-10-04T11:33:48.156Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[faq-data.log] [2025-10-04T11:33:48.189Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[faq-data.log] [2025-10-04T11:33:48.224Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[faq-data.log] [2025-10-04T11:33:48.256Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[detect-lang.log] [2025-10-04T11:33:48.257Z] ℹ️ Rules resultat: {"lang":"SE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]} (conf=1)
+[detect-lang.log] [2025-10-04T11:33:48.258Z] ⬅️ Default return: lang=SE, conf=1
+[chat-pipeline.log] [2025-10-04T11:33:48.258Z] [id=3fd19] 🌐 Lang detect: "Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................." → lang=SE, via=regex-exclusive, conf=1
+[faq-data.log] [2025-10-04T11:33:48.288Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[faq-data.log] [2025-10-04T11:33:48.318Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:49.519Z] [id=3fd19] 🤖 AI fallback: "Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................." (lang=SE, via=regex-exclusive) → "Det verkar som att du testar ett längdfilter med en lång text. Om du har några s..."
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[faq-data.log] [2025-10-04T11:33:49.563Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[faq-data.log] [2025-10-04T11:33:49.574Z] ℹ️ searchFaq: inga träffar för lang=DA, input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[faq-data.log] [2025-10-04T11:33:49.586Z] ℹ️ searchFaq: inga träffar för lang=DE, input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[faq-data.log] [2025-10-04T11:33:49.597Z] ℹ️ searchFaq: inga träffar för lang=EN, input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[detect-lang.log] [2025-10-04T11:33:49.626Z] ℹ️ Rules resultat: {"lang":"SE","via":"heuristic+anchors","matches":[{"word":"long","match":"long","rating":1}],"confidence":0.7,"NeedsAI":false} (conf=0.8)
+[detect-lang.log] [2025-10-04T11:33:49.626Z] ⬅️ Default return: lang=SE, conf=0.8
+[chat-pipeline.log] [2025-10-04T11:33:49.627Z] [id=5d67b] 🌐 Lang detect: "Another very very long nonsense text for sanity-test sanity-test sanity-test …" → lang=SE, via=heuristic+anchors, conf=0.8
+[faq-data.log] [2025-10-04T11:33:49.637Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[faq-data.log] [2025-10-04T11:33:49.648Z] ℹ️ searchFaq: inga träffar för lang=SE, input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:50.387Z] [id=5d67b] 🤖 AI fallback: "Another very very long nonsense text for sanity-test sanity-test sanity-test …" (lang=SE, via=heuristic+anchors) → "It seems like you're testing the system with a repetitive text. If you have any ..."
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[faq-data.log] [2025-10-04T11:33:50.397Z] ℹ️ searchFaq: inga träffar för lang=SE, input="cheap viagra online"
+[faq-data.log] [2025-10-04T11:33:50.399Z] ℹ️ searchFaq: inga träffar för lang=DA, input="cheap viagra online"
+[faq-data.log] [2025-10-04T11:33:50.401Z] ℹ️ searchFaq: inga träffar för lang=DE, input="cheap viagra online"
+[faq-data.log] [2025-10-04T11:33:50.404Z] ℹ️ searchFaq: inga träffar för lang=EN, input="cheap viagra online"
+[detect-lang.log] [2025-10-04T11:33:50.411Z] ℹ️ Rules resultat: {"lang":"UNKNOWN","via":"heuristic","matches":[],"confidence":0.5,"NeedsAI":true} (conf=0.6)
+[detect-lang.log] [2025-10-04T11:33:50.411Z] 🤖 AI fallback aktiverad för input="cheap viagra online"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: detectLangCore)
+[detect-lang.log] [2025-10-04T11:33:50.814Z] 🤖 AI svar: "EN"
+[chat-pipeline.log] [2025-10-04T11:33:50.815Z] [id=92cd8] 🌐 Lang detect: "cheap viagra online" → lang=EN, via=AI-fallback, conf=0.9
+[faq-data.log] [2025-10-04T11:33:50.817Z] ℹ️ searchFaq: inga träffar för lang=EN, input="cheap viagra online"
+[faq-data.log] [2025-10-04T11:33:50.820Z] ℹ️ searchFaq: inga träffar för lang=EN, input="cheap viagra online"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:54.833Z] [id=92cd8] 🤖 AI fallback: "cheap viagra online" (lang=EN, via=AI-fallback) → "If you're looking to purchase Viagra or its generic versions online, it's import..."
+[BLOCK] cheap viagra online → got=EN, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="cheap viagra online"
+⚠️ PreDetect ≠ ChatDetect { input="cheap viagra online", pre=UNKNOWN (via=heuristic), chat=EN (via=ai) }
+[faq-data.log] [2025-10-04T11:33:54.848Z] ℹ️ searchFaq: inga träffar för lang=SE, input="lottery scam free money"
+[faq-data.log] [2025-10-04T11:33:54.851Z] ℹ️ searchFaq: inga träffar för lang=DA, input="lottery scam free money"
+[faq-data.log] [2025-10-04T11:33:54.854Z] ℹ️ searchFaq: inga träffar för lang=DE, input="lottery scam free money"
+[faq-data.log] [2025-10-04T11:33:54.858Z] ℹ️ searchFaq: inga träffar för lang=EN, input="lottery scam free money"
+[detect-lang.log] [2025-10-04T11:33:54.868Z] ℹ️ Rules resultat: {"lang":"SE","via":"heuristic+anchors","matches":[{"word":"free","match":"free","rating":1}],"confidence":0.7,"NeedsAI":false} (conf=0.8)
+[detect-lang.log] [2025-10-04T11:33:54.868Z] ⬅️ Default return: lang=SE, conf=0.8
+[chat-pipeline.log] [2025-10-04T11:33:54.869Z] [id=0fe05] 🌐 Lang detect: "lottery scam free money" → lang=SE, via=heuristic+anchors, conf=0.8
+[faq-data.log] [2025-10-04T11:33:54.872Z] ℹ️ searchFaq: inga träffar för lang=SE, input="lottery scam free money"
+[faq-data.log] [2025-10-04T11:33:54.874Z] ℹ️ searchFaq: inga träffar för lang=SE, input="lottery scam free money"
+✅ OPENAI_API_KEY loaded (length: 164)
+♻️ OpenAI client reused (called from: unknown)
+[chat-pipeline.log] [2025-10-04T11:33:58.800Z] [id=0fe05] 🤖 AI fallback: "lottery scam free money" (lang=SE, via=heuristic+anchors) → "It sounds like you might be referring to a situation where someone is offering y..."
+[BLOCK] lottery scam free money → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="lottery scam free money"
+[RateLimiter] 🚫 SLOW block ip=test-ip-0 (max 7 per 60s)
+[gate.log] [2025-10-04T11:33:58.803Z] ⏱️ Rate-limit triggad IP=test-ip-0 → 🚫 SLOW block ip=test-ip-0 (max 7 per 60s)
+[GREETING] hej → got=FILTER, expected=SE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hej", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[RateLimiter] 🚫 SLOW block ip=test-ip-1 (max 7 per 60s)
+[gate.log] [2025-10-04T11:33:58.808Z] ⏱️ Rate-limit triggad IP=test-ip-1 → 🚫 SLOW block ip=test-ip-1 (max 7 per 60s)
+[GREETING] hello there → got=FILTER, expected=EN, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hello there", pre=EN (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+🤪 Gibberish (>50% icke-bokstäver) { message: '12345' }
+[gate.log] [2025-10-04T11:33:58.811Z] 🤪 Gibberish IP=test-ip-0 msg="12345"
+[RELEVANCE] 12345 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="12345", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[gate.log] [2025-10-04T11:33:58.814Z] 📏 Kort text IP=test-ip-1 msg="??!!"
+[RELEVANCE] ??!! → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="??!!", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+
+🟩 MINI torture klart. Totala mismatchar: 6
+
+[BLOCK] lottery scam free money → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="lottery scam free money"
+[GREETING] hej → got=FILTER, expected=SE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hej", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[GREETING] hello there → got=FILTER, expected=EN, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hello there", pre=EN (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[RELEVANCE] 12345 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="12345", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[RELEVANCE] ??!! → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="??!!", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+
+🟩 MINI torture klart. Totala mismatchar: 6
+⚠️ PreDetect ≠ ChatDetect: 11 fall
+=== END 2025-10-04T13:04:50.218Z ===
+
+=== MINI TORTURE START 2025-10-04T13:04:55.241Z ===
+🚀 Running MINI torture test (direct chatPipeline)
+[SE] Vilka mått har ni? → got=SE, expected=SE, ok=🟢
+[SE] Är plattorna halksäkra? → got=SE, expected=SE, ok=🟢
+[EN] What sizes do you offer? → got=EN, expected=EN, ok=🟢
+[EN] Are the tiles slip resistant? → got=EN, expected=EN, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Are the tiles slip resistant?", pre=SE (via=heuristic+anchors), chat=EN (via=faq) }
+[DA] Er det frostsikkert? → got=DA, expected=DA, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="Er det frostsikkert?"
+⚠️ PreDetect ≠ ChatDetect { input="Er det frostsikkert?", pre=UNKNOWN (via=heuristic), chat=DA (via=ai) }
+[DA] Kan jeg selv montere det? → got=DA, expected=DA, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="Kan jeg selv montere det?"
+[DE] Gibt es verschiedene Farben? → got=DE, expected=DE, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Gibt es verschiedene Farben?", pre=UNKNOWN (via=heuristic), chat=DE (via=faq) }
+[DE] Sind die Platten rutschfest? → got=FILTER, expected=DE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="Sind die Platten rutschfest?", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[FUZZY] klinkerdak mått?? → got=FILTER, expected=SE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="klinkerdak mått??", pre=SE (via=regex-exclusive), chat=FILTER (via=rate-limit) }
+[FUZZY] klinkerdäck slipp?? → got=FILTER, expected=SE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="klinkerdäck slipp??", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[GIBBERISH] asdkjhqwe123 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="asdkjhqwe123", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[GIBBERISH] !!!!!!????? → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="!!!!!!?????", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ...................................................", pre=SE (via=regex-exclusive), chat=FILTER (via=rate-limit) }
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Another very very long nonsense text for sanity-test sanity-test sanity-test …", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[BLOCK] cheap viagra online → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="cheap viagra online", pre=UNKNOWN (via=heuristic), chat=FILTER (via=rate-limit) }
+[BLOCK] lottery scam free money → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="lottery scam free money", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[GREETING] hej → got=FILTER, expected=SE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hej", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[GREETING] hello there → got=FILTER, expected=EN, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hello there", pre=EN (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[RELEVANCE] 12345 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="12345", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[RELEVANCE] ??!! → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="??!!", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+
+🟩 MINI torture klart. Totala mismatchar: 5
+⚠️ PreDetect ≠ ChatDetect: 16 fall
+=== END 2025-10-04T13:05:06.289Z ===
+

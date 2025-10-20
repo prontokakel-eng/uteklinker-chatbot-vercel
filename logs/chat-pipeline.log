@@ -1,0 +1,118 @@
+[2025-10-14T06:10:12.001Z] [START2] reqId=mgq5xk80-s7hvi5 text="ping..."
+[2025-10-14T06:10:14.719Z] [START] IP=::ffff:127.0.0.1 text="ping..."
+[2025-10-14T06:10:39.149Z] [START2] reqId=mgq5y565-grzegw text="What colors are available in the Beton s..."
+[2025-10-14T06:10:41.290Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:10:44.406Z] [START2] reqId=mgq5y985-drhymg text="What colors are available in the Beton s..."
+[2025-10-14T06:10:46.583Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:10:49.747Z] [START2] reqId=mgq5ydcj-tgzqv6 text="What colors are available in the Beton s..."
+[2025-10-14T06:10:51.854Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:10:54.981Z] [START2] reqId=mgq5yhdw-lln2j3 text="What colors are available in the Beton s..."
+[2025-10-14T06:10:57.093Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:11:00.244Z] [START2] reqId=mgq5ylg4-09g9f3 text="What colors are available in the Beton s..."
+[2025-10-14T06:11:22.566Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:16:12.505Z] [START2] reqId=mgq65ae1-v6xdp7 text="ping..."
+[2025-10-14T06:16:14.789Z] [START] IP=::ffff:127.0.0.1 text="ping..."
+[2025-10-14T06:16:18.880Z] [START2] reqId=mgq65fb3-q7i0a6 text="What colors are available in the Beton s..."
+[2025-10-14T06:16:20.996Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:16:24.137Z] [START2] reqId=mgq65jd4-aeilg4 text="What colors are available in the Beton s..."
+[2025-10-14T06:16:26.208Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:16:29.331Z] [START2] reqId=mgq65ndf-kv2x3e text="What colors are available in the Beton s..."
+[2025-10-14T06:16:31.403Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:16:34.455Z] [START2] reqId=mgq65rbr-c55l1l text="What colors are available in the Beton s..."
+[2025-10-14T06:16:36.538Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:16:39.677Z] [START2] reqId=mgq65vct-uxnj5n text="What colors are available in the Beton s..."
+[2025-10-14T06:16:41.867Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:16:58.009Z] [START2] reqId=mgq669i1-01f1c2 text="Vilka f�rger finns i Beton?..."
+[2025-10-14T06:17:20.327Z] [START] IP=::ffff:127.0.0.1 text="Vilka f�rger finns i Beton?..."
+[2025-10-14T06:17:26.088Z] [START2] reqId=mgq66v60-s4h3dv text="Hvilke farver findes i Beton?..."
+[2025-10-14T06:17:28.250Z] [START] IP=::ffff:127.0.0.1 text="Hvilke farver findes i Beton?..."
+[2025-10-14T06:17:30.261Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:17:31.409Z] [START2] reqId=mgq66z9t-zjkfwv text="Welche Farben hat Beton?..."
+[2025-10-14T06:17:33.624Z] [START] IP=::ffff:127.0.0.1 text="Welche Farben hat Beton?..."
+[2025-10-14T06:17:35.613Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:17:36.756Z] [START2] reqId=mgq673ec-l3040l text="What colors are in Beton?..."
+[2025-10-14T06:17:38.893Z] [START] IP=::ffff:127.0.0.1 text="What colors are in Beton?..."
+[2025-10-14T06:17:40.876Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:17:43.218Z] [START2] reqId=mgq678du-inlm3f text="Beton availability?..."
+[2025-10-14T06:17:43.373Z] [START2] reqId=mgq678i5-319t4z text="Beton availability?..."
+[2025-10-14T06:17:43.536Z] [START2] reqId=mgq678mn-l0npgi text="Beton availability?..."
+[2025-10-14T06:17:43.692Z] [START2] reqId=mgq678r0-dg8axc text="Beton availability?..."
+[2025-10-14T06:17:43.884Z] [START2] reqId=mgq678wc-ng8hk9 text="Beton availability?..."
+[2025-10-14T06:17:44.056Z] [START2] reqId=mgq67914-98aqt9 text="Beton availability?..."
+[2025-10-14T06:17:44.209Z] [START2] reqId=mgq6795d-rqj83r text="Beton availability?..."
+[2025-10-14T06:17:44.329Z] [START2] reqId=mgq6798o-pj3sco text="Beton availability?..."
+[2025-10-14T06:17:44.489Z] [START2] reqId=mgq679d4-lhjmc4 text="Beton availability?..."
+[2025-10-14T06:17:44.635Z] [START2] reqId=mgq679h6-o8gcu5 text="Beton availability?..."
+[2025-10-14T06:17:45.391Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:45.549Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:45.835Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:46.001Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:46.163Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:46.781Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:48.523Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:48.862Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:51.475Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:17:51.629Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:18:04.108Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:04.797Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:06.391Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:06.566Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:08.680Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:11.251Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:12.673Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:14.966Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:15.137Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:18:15.401Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:39:07.147Z] [START2] reqId=mgq6yr2j-yt4zyh text="ping..."
+[2025-10-14T06:39:12.391Z] [START] IP=::ffff:127.0.0.1 text="ping..."
+[2025-10-14T06:39:14.712Z] [START2] reqId=mgq6ywwo-c82wl8 text="What colors are available in the Beton s..."
+[2025-10-14T06:39:19.608Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:39:20.815Z] [START2] reqId=mgq6z1m7-ulmz5g text="What colors are available in the Beton s..."
+[2025-10-14T06:39:26.244Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:39:27.435Z] [START2] reqId=mgq6z6q2-7rmw80 text="What colors are available in the Beton s..."
+[2025-10-14T06:39:32.929Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:39:34.117Z] [START2] reqId=mgq6zbvo-y67wkk text="What colors are available in the Beton s..."
+[2025-10-14T06:39:39.686Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:39:40.862Z] [START2] reqId=mgq6zh32-nhzqaq text="What colors are available in the Beton s..."
+[2025-10-14T06:39:45.145Z] [START] IP=::ffff:127.0.0.1 text="What colors are available in the Beton series?..."
+[2025-10-14T06:39:46.790Z] [START2] reqId=mgq6zlnq-qi748z text="Vilka f�rger finns i Beton?..."
+[2025-10-14T06:39:51.132Z] [START] IP=::ffff:127.0.0.1 text="Vilka f�rger finns i Beton?..."
+[2025-10-14T06:39:52.309Z] [START2] reqId=mgq6zpx0-ekthcc text="Hvilke farver findes i Beton?..."
+[2025-10-14T06:40:00.314Z] [START] IP=::ffff:127.0.0.1 text="Hvilke farver findes i Beton?..."
+[2025-10-14T06:40:00.345Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:01.488Z] [START2] reqId=mgq6zx00-qh7f9j text="Welche Farben hat Beton?..."
+[2025-10-14T06:40:13.108Z] [START] IP=::ffff:127.0.0.1 text="Welche Farben hat Beton?..."
+[2025-10-14T06:40:13.139Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:14.289Z] [START2] reqId=mgq706vk-0uhj7g text="What colors are in Beton?..."
+[2025-10-14T06:40:19.199Z] [START] IP=::ffff:127.0.0.1 text="What colors are in Beton?..."
+[2025-10-14T06:40:19.228Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:21.478Z] [START2] reqId=mgq70cf9-ljar6o text="Beton availability?..."
+[2025-10-14T06:40:21.592Z] [START2] reqId=mgq70cif-wti2kf text="Beton availability?..."
+[2025-10-14T06:40:21.764Z] [START2] reqId=mgq70cn7-k6ao2i text="Beton availability?..."
+[2025-10-14T06:40:21.875Z] [START2] reqId=mgq70cqb-lgwc4y text="Beton availability?..."
+[2025-10-14T06:40:22.023Z] [START2] reqId=mgq70cuf-1a3tyr text="Beton availability?..."
+[2025-10-14T06:40:22.178Z] [START2] reqId=mgq70cyp-avhfmt text="Beton availability?..."
+[2025-10-14T06:40:23.070Z] [START2] reqId=mgq70dnh-42azeo text="Beton availability?..."
+[2025-10-14T06:40:26.031Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:26.216Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:26.297Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:26.365Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:26.481Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:26.832Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:27.003Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:27.122Z] [START2] reqId=mgq70gs2-7n8emb text="Beton availability?..."
+[2025-10-14T06:40:27.122Z] [START2] reqId=mgq70gs1-ulllhc text="Beton availability?..."
+[2025-10-14T06:40:27.134Z] [START2] reqId=mgq70gse-edjh7s text="Beton availability?..."
+[2025-10-14T06:40:27.234Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:27.355Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:27.687Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:27.948Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:28.780Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:34.907Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:35.496Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:52.948Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:54.029Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:54.590Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:54.613Z] [START] IP=::ffff:127.0.0.1 text="Beton availability?..."
+[2025-10-14T06:40:54.727Z] [AI] Fallback triggas IP=::ffff:127.0.0.1
+[2025-10-14T06:40:55.524Z] [AI] Fallback triggas IP=::ffff:127.0.0.1

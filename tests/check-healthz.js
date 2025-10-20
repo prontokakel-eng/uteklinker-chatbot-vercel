@@ -1,19 +1,12 @@
-// tests/check-healthz.js
-import fetch from "node-fetch";
+import { gateMessage } from "../lib/gate.js";
 
-const urls = [
-  "http://localhost:3000/api/healthz",
-  "https://uteklinker-chatbot-vercel.vercel.app/api/healthz"
-];
-
-for (const url of urls) {
-  console.log(`\n🌍 Testar ${url}`);
-  try {
-    const res = await fetch(url);
-    const text = await res.text();
-    console.log(`✅ Status ${res.status}`);
-    console.log(`📦 Svar: ${text}`);
-  } catch (err) {
-    console.error(`❌ Fel vid fetch:`, err.message);
-  }
+console.log("=== HEALTHZ ===");
+try {
+  const res = await gateMessage("ping", "127.0.0.1");
+  if (!res) throw new Error("Empty response");
+  console.log("✅ HEALTHZ PASSED");
+  process.exit(0);
+} catch (err) {
+  console.error("❌ HEALTHZ FAILED:", err.message);
+  process.exit(1);
 }

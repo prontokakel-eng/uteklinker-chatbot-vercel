@@ -1,0 +1,53 @@
+=== MINI TORTURE START 2025-10-04T14:29:11.868Z ===
+🚀 Running MINI torture test (direct chatPipeline)
+[SE] Vilka mått har ni? → got=SE, expected=SE, ok=🟢
+[SE] Är plattorna halksäkra? → got=SE, expected=SE, ok=🟢
+[EN] What sizes do you offer? → got=EN, expected=EN, ok=🟢
+[EN] Are the tiles slip resistant? → got=EN, expected=EN, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Are the tiles slip resistant?", pre=SE (via=heuristic+anchors), chat=EN (via=faq) }
+[DA] Er det frostsikkert? → got=DA, expected=DA, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="Er det frostsikkert?"
+⚠️ PreDetect ≠ ChatDetect { input="Er det frostsikkert?", pre=UNKNOWN (via=heuristic), chat=DA (via=ai) }
+[DA] Kan jeg selv montere det? → got=DA, expected=DA, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="Kan jeg selv montere det?"
+[DE] Gibt es verschiedene Farben? → got=DE, expected=DE, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Gibt es verschiedene Farben?", pre=UNKNOWN (via=heuristic), chat=DE (via=faq) }
+[DE] Sind die Platten rutschfest? → got=DE, expected=DE, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="Sind die Platten rutschfest?", pre=SE (via=heuristic+anchors), chat=DE (via=faq) }
+[FUZZY] klinkerdak mått?? → got=SE, expected=SE, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="klinkerdak mått??"
+[FUZZY] klinkerdäck slipp?? → got=SE, expected=SE, ok=🟢
+🤖 AI fallback ACTUALLY USED for input="klinkerdäck slipp??"
+[GIBBERISH] asdkjhqwe123 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="asdkjhqwe123", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[GIBBERISH] !!!!!!????? → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="!!!!!!?????", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................."
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="Another very very long nonsense text for sanity-test sanity-test sanity-test …"
+[BLOCK] cheap viagra online → got=EN, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="cheap viagra online"
+⚠️ PreDetect ≠ ChatDetect { input="cheap viagra online", pre=UNKNOWN (via=heuristic), chat=EN (via=ai) }
+[BLOCK] lottery scam free money → got=SE, expected=FILTER, ok=🔴
+🤖 AI fallback ACTUALLY USED for input="lottery scam free money"
+[GREETING] hej → got=FILTER, expected=SE, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hej", pre=SE (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[GREETING] hello there → got=FILTER, expected=EN, ok=🔴
+⚠️ PreDetect ≠ ChatDetect { input="hello there", pre=EN (via=heuristic+anchors), chat=FILTER (via=rate-limit) }
+[RELEVANCE] 12345 → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="12345", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[RELEVANCE] ??!! → got=FILTER, expected=FILTER, ok=🟢
+⚠️ PreDetect ≠ ChatDetect { input="??!!", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+
+🟩 MINI torture klart. Totala mismatchar: 6
+⚠️ PreDetect ≠ ChatDetect: 11 fall
+=== MISMATCHED CASES ===
+[LONG #0] "Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ..................................................." → got=SE, expected=FILTER
+[LONG #1] "Another very very long nonsense text for sanity-test sanity-test sanity-test …" → got=SE, expected=FILTER
+[BLOCK #0] "cheap viagra online" → got=EN, expected=FILTER
+[BLOCK #1] "lottery scam free money" → got=SE, expected=FILTER
+[GREETING #0] "hej" → got=FILTER, expected=SE
+[GREETING #1] "hello there" → got=FILTER, expected=EN
+=== END 2025-10-04T14:29:48.446Z ===
+

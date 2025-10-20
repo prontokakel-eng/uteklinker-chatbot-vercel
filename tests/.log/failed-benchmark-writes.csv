@@ -1,0 +1,75 @@
+lang,question,detectedLang,confidence,result,timestamp
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T15:40:11.163Z
+SE,"Vilka färger finns i serien Albero?",SE,0.8,PASS,2025-10-06T15:40:15.419Z
+SE,"Vilka färger finns i serien Alpine?",SE,0.8,PASS,2025-10-06T15:40:19.717Z
+SE,"Vilka färger finns i serien Anniversario?",SE,0.8,PASS,2025-10-06T15:40:24.096Z
+SE,"Vilka färger finns i serien Antique?",SE,0.8,PASS,2025-10-06T15:40:28.461Z
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T15:53:43.912Z
+SE,"Vilka färger finns i serien Albero?",SE,0.8,PASS,2025-10-06T15:53:47.706Z
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T16:01:56.891Z
+SE,"Vilka färger finns i serien Albero?",SE,0.8,PASS,2025-10-06T16:02:01.178Z
+SE,"Vilka färger finns i serien Alpine?",SE,0.8,PASS,2025-10-06T16:02:03.679Z
+SE,"Vilka färger finns i serien Anniversario?",SE,0.8,PASS,2025-10-06T16:02:06.168Z
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T16:10:58.705Z
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T16:19:03.312Z
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T16:22:37.121Z
+SE,"Vilka färger finns i serien Albero?",SE,0.8,PASS,2025-10-06T16:22:40.270Z
+SE,"Vilka färger finns i serien Alpine?",SE,0.8,PASS,2025-10-06T16:22:42.778Z
+SE,"Vilka färger finns i serien Anniversario?",SE,0.8,PASS,2025-10-06T16:22:46.469Z
+SE,"Vilka färger finns i serien Antique?",SE,0.8,PASS,2025-10-06T16:22:49.551Z
+SE,"Vilka färger finns i serien Ardesia?",SE,0.8,PASS,2025-10-06T16:22:52.662Z
+SE,"Vilka färger finns i serien Argresia?",SE,0.8,PASS,2025-10-06T16:22:56.334Z
+SE,"Vilka färger finns i serien Beton?",SE,0.8,PASS,2025-10-06T16:23:00.583Z
+SE,"Vilka färger finns i serien Cemento?",SE,0.8,PASS,2025-10-06T16:23:04.265Z
+SE,"Vilka färger finns i serien Cortina?",SE,0.8,PASS,2025-10-06T16:23:06.778Z
+SE,"Vilka färger finns i serien Grotta?",SE,0.8,PASS,2025-10-06T16:23:11.162Z
+SE,"Vilka färger finns i serien Iris?",SE,0.8,PASS,2025-10-06T16:23:14.255Z
+SE,"Vilka färger finns i serien Kvarts?",SE,0.8,PASS,2025-10-06T16:23:17.327Z
+SE,"Vilka färger finns i serien Manhattan?",SE,0.8,PASS,2025-10-06T16:23:20.469Z
+SE,"Vilka färger finns i serien Materia?",SE,0.8,PASS,2025-10-06T16:23:23.612Z
+SE,"Vilka färger finns i serien Meteo?",SE,0.8,PASS,2025-10-06T16:23:26.119Z
+SE,"Vilka färger finns i serien Mista?",SE,0.8,PASS,2025-10-06T16:23:29.189Z
+SE,"Vilka färger finns i serien Nature?",SE,0.8,PASS,2025-10-06T16:23:31.707Z
+SE,"Vilka färger finns i serien Nordique?",SE,0.8,PASS,2025-10-06T16:23:34.777Z
+SE,"Vilka färger finns i serien Quartz?",SE,0.8,PASS,2025-10-06T16:23:37.270Z
+SE,"Vilka färger finns i serien Roccia?",SE,0.8,PASS,2025-10-06T16:23:39.763Z
+SE,"Vilka färger finns i serien Slate?",SE,0.8,PASS,2025-10-06T16:23:42.818Z
+SE,"Vilka färger finns i serien Stella?",SE,0.8,PASS,2025-10-06T16:23:45.349Z
+SE,"Vilka färger finns i serien Stone?",SE,0.8,PASS,2025-10-06T16:23:48.455Z
+SE,"Vilka färger finns i serien Strada?",SE,0.8,PASS,2025-10-06T16:23:50.950Z
+SE,"Vilka färger finns i serien Travertin?",SE,0.8,PASS,2025-10-06T16:23:53.979Z
+SE,"Vilka färger finns i serien Trentino?",SE,0.8,PASS,2025-10-06T16:23:57.685Z
+SE,"Vilka färger finns i serien Vintage?",SE,0.8,PASS,2025-10-06T16:24:00.186Z
+SE,"Vilka färger finns i serien Konjak?",SE,0.8,PASS,2025-10-06T16:24:02.698Z
+SE,"Vilka mått finns klinkerdäck® i?",DA,0.8,FAIL,2025-10-06T16:24:05.202Z
+SE,"Vilka färger finns tillgängliga?",SE,0.8,PASS,2025-10-06T16:24:07.732Z
+SE,"Vilken vikt har en platta?",SE,0.8,PASS,2025-10-06T16:24:10.225Z
+SE,"Vilket material tillverkas klinkerdäck® av?",DA,0.8,FAIL,2025-10-06T16:24:12.729Z
+SE,"Har plattorna någon CE-märkning?",EN,0.8,FAIL,2025-10-06T16:24:15.237Z
+SE,"Finns det olika ytstrukturer (släta, strukturerade)?",SE,0.9,PASS,2025-10-06T16:24:19.132Z
+SE,"Finns det tekniska datablad att ladda ner?",SE,0.9,PASS,2025-10-06T16:24:23.011Z
+SE,"Är plattorna resistenta mot kemikalier?",SE,0.9,PASS,2025-10-06T16:24:30.189Z
+SE,"Vilka toleranser gäller för mått och form?",SE,0.9,PASS,2025-10-06T16:24:33.119Z
+SE,"Kan man lägga plattorna direkt på grus?",SE,0.9,PASS,2025-10-06T16:24:36.072Z
+SE,"Måste man limma plattorna vid installation?",SE,0.9,PASS,2025-10-06T16:24:40.077Z
+SE,"Kan plattorna läggas på en träaltan?",SE,0.9,PASS,2025-10-06T16:24:44.615Z
+SE,"Kan man kapa plattorna själv?",SE,0.9,PASS,2025-10-06T16:24:48.415Z
+SE,"Vilka verktyg rekommenderas för kapning?",EN,0.8,FAIL,2025-10-06T16:24:50.920Z
+SE,"Kan man lägga plattorna på en balkong?",SE,0.9,PASS,2025-10-06T16:24:56.939Z
+SE,"Behöver man distanskryss när man lägger plattorna?",SE,0.9,PASS,2025-10-06T16:25:00.503Z
+SE,"Kan man lägga plattorna inomhus?",SE,0.8,PASS,2025-10-06T16:25:03.018Z
+SE,"Fungerar plattorna på lutande underlag?",SE,0.9,PASS,2025-10-06T16:25:08.104Z
+SE,"Hur rengör man plattorna bäst?",SE,0.8,PASS,2025-10-06T16:25:10.588Z
+SE,"Kan man använda högtryckstvätt på plattorna?",SE,0.9,PASS,2025-10-06T16:25:13.717Z
+SE,"Vilka färger finns i serien Lava?",SE,0.8,PASS,2025-10-06T16:27:16.826Z
+SE,"Kan plattorna bli hala vid isbildning?",EN,0.8,FAIL,2025-10-07T08:13:55.788Z
+SE,"Finns det någon garanti på halkskyddet?",UNKNOWN,0,PARTIAL,2025-10-07T08:13:58.428Z
+SE,"Kan man använda halkskyddstejp tillsammans med plattorna?",UNKNOWN,0,PARTIAL,2025-10-07T08:14:01.103Z
+SE,"Hur lång är livslängden på klinkerdäck®?",DA,0.8,FAIL,2025-10-07T08:14:03.603Z
+SE,"Är plattorna UV-beständiga?",EN,0.8,FAIL,2025-10-07T08:14:06.097Z
+SE,"Tål plattorna frost och kyla?",DE,0.8,FAIL,2025-10-07T08:14:08.607Z
+SE,"Är plattorna resistenta mot slitage?",UNKNOWN,0,PARTIAL,2025-10-07T08:14:11.305Z
+SE,"Kan man använda plattorna i offentliga miljöer?",UNKNOWN,0,PARTIAL,2025-10-07T08:14:13.954Z
+SE,"Tål plattorna kemikalier?",UNKNOWN,0,PARTIAL,2025-10-07T08:14:16.619Z
+SE,"Är plattorna reptåliga?",UNKNOWN,0,PARTIAL,2025-10-07T08:14:19.265Z
+SE,"Hur påverkas plattorna av tung belastning?",SE,0.8,PASS,2025-10-07T08:14:21.786Z

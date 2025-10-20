@@ -1,0 +1,662 @@
+[2025-10-14T06:10:12.005Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:14.709Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:14.710Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:14.710Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:14.711Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:14.711Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:14.712Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:14.712Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:14.714Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:14.714Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq5xk80-s7hvi5): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:14.713Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:14.730Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:16.759Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:16.760Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:16.761Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:16.760Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:16.761Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:16.762Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:16.763Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:16.762Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:16.764Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:16.764Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:39.153Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:41.281Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:41.281Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:41.283Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:41.282Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:41.282Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:41.283Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:41.284Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:41.285Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:41.286Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq5y565-grzegw): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:41.284Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:41.301Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:43.207Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:43.208Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:43.209Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:43.209Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:43.208Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:43.209Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:43.210Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:43.211Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:43.212Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:43.210Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:44.410Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:46.573Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:46.574Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:46.574Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:46.574Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:46.575Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:46.576Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:46.577Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:46.576Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:46.578Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq5y985-drhymg): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:46.575Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:46.594Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:48.547Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:48.547Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:48.549Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:48.548Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:48.548Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:48.549Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:48.549Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:48.551Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:48.551Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:48.550Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:49.751Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:51.844Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:51.844Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:51.844Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:51.845Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:51.845Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:51.846Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:51.846Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:51.847Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:51.848Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:51.848Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq5ydcj-tgzqv6): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:51.866Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:53.785Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:53.786Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:53.786Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:53.787Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:53.788Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:53.787Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:53.788Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:53.788Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:53.789Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:53.790Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:54.985Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:57.082Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:57.084Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:57.084Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:57.083Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:57.085Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:57.083Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:57.085Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:57.087Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:57.087Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq5yhdw-lln2j3): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:57.085Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:10:57.104Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:59.039Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:10:59.040Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:10:59.040Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:10:59.041Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:10:59.040Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:10:59.041Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:10:59.042Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:10:59.043Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:10:59.043Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:10:59.042Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:11:00.248Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:11:22.559Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:11:22.560Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq5ylg4-09g9f3): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:11:22.579Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:11:24.633Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:11:24.633Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:11:24.634Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:11:24.633Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:11:24.632Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:11:24.634Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:11:24.635Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:11:24.637Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:11:24.635Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:11:24.637Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:12.509Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:14.778Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:14.779Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:14.780Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:14.779Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:14.779Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:14.781Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:14.781Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:14.783Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:14.781Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:14.783Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq65ae1-v6xdp7): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:14.799Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:16.734Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:16.735Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:16.735Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:16.735Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:16.736Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:16.736Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:16.737Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:16.737Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:16.738Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:16.738Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:18.884Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:20.986Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:20.988Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:20.988Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:20.987Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:20.987Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:20.989Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:20.989Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:20.991Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:20.991Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq65fb3-q7i0a6): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:20.989Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:21.009Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:22.953Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:22.955Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:22.955Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:22.954Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:22.954Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:22.956Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:22.956Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:22.956Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:22.958Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:22.958Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:24.141Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:26.198Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:26.199Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:26.200Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:26.199Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:26.198Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:26.200Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:26.201Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:26.200Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:26.202Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:26.202Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq65jd4-aeilg4): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:26.221Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:28.150Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:28.151Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:28.152Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:28.152Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:28.151Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:28.152Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:28.153Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:28.154Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:28.154Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:28.153Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:29.335Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:31.393Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:31.394Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:31.395Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:31.394Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:31.394Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:31.395Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:31.396Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:31.397Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:31.398Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq65ndf-kv2x3e): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:31.396Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:31.415Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:33.270Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:33.271Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:33.272Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:33.272Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:33.272Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:33.273Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:33.273Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:33.275Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:33.275Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:33.274Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:34.459Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:36.528Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:36.529Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:36.529Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:36.529Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:36.528Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:36.530Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:36.531Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:36.532Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:36.532Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq65rbr-c55l1l): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:36.530Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:36.548Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:38.492Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:38.493Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:38.494Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:38.492Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:38.493Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:38.494Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:38.495Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:38.496Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:38.495Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:38.497Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:39.681Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:41.856Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:41.858Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:41.857Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:16:41.858Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:16:41.857Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:41.859Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:16:41.859Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:16:41.861Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:41.859Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:16:41.861Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq65vct-uxnj5n): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:41.878Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:56.379Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:16:56.380Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:16:56.380Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:16:56.382Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:16:56.382Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:16:58.013Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:20.320Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:20.320Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq669i1-01f1c2): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:20.341Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:24.893Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:24.894Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:24.894Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:24.894Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:24.895Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:24.897Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:24.895Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:24.896Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:24.897Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:26.092Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:28.239Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:28.240Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:28.241Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:28.240Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:28.240Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:28.242Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:28.242Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:28.244Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:28.244Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq66v60-s4h3dv): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:28.242Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:28.260Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:30.235Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:30.236Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:30.237Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:30.236Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:30.236Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:30.237Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:30.238Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:30.238Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:30.239Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:30.239Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:31.413Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:33.613Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:33.614Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:33.615Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:33.615Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:33.614Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:33.616Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:33.616Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:33.618Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:33.618Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq66z9t-zjkfwv): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:33.617Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:33.634Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:35.587Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:35.588Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:35.589Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:35.589Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:35.588Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:35.590Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:35.590Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:35.591Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:35.592Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:35.590Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:36.760Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:38.882Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:38.884Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:38.885Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:38.883Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:38.884Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:38.885Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:38.885Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:38.887Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:38.887Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq673ec-l3040l): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:38.886Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:38.903Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:40.852Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:40.852Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:40.854Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:40.853Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:40.854Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:40.853Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:40.854Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:40.856Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:40.855Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:40.856Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:43.223Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:43.378Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:43.542Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:43.698Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:43.888Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:44.060Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:44.215Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:44.333Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:44.493Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:44.640Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.383Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:45.383Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:45.384Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:45.385Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:45.384Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:45.385Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:45.385Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:45.386Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:45.387Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq678du-inlm3f): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.387Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:45.401Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.539Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:45.539Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:45.541Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:45.540Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:45.540Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:45.541Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:45.542Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:45.543Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:45.542Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:45.543Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq678i5-319t4z): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.559Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.825Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:45.825Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:45.827Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:45.826Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:45.826Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:45.828Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:45.827Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:45.829Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:45.828Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:45.829Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq678r0-dg8axc): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.845Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:45.990Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:45.991Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:45.992Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:45.991Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:45.992Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:45.993Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:45.993Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:45.995Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:45.993Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:45.995Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq678wc-ng8hk9): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:46.011Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:46.155Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:46.155Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:46.157Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:46.156Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:46.156Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:46.157Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:46.157Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:46.159Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:46.158Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:46.159Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq67914-98aqt9): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:46.174Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:46.771Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:46.772Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:46.773Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:46.772Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:46.772Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:46.773Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:46.774Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:17:46.775Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:46.776Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq679h6-o8gcu5): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:46.774Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:46.794Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:48.515Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:48.516Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:48.517Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:48.516Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:48.516Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:48.518Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:48.517Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:48.519Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:48.519Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq678mn-l0npgi): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:48.533Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:48.852Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:48.853Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:48.852Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:48.854Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:48.853Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:48.854Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:17:48.856Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:48.855Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:48.856Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6795d-rqj83r): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:48.873Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:51.464Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:51.465Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:51.465Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:51.466Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:51.466Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:51.467Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:51.468Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6798o-pj3sco): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:51.468Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:51.488Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:51.619Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:17:51.620Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:17:51.620Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:17:51.621Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:17:51.621Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:17:51.622Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:17:51.623Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:17:51.623Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq679d4-lhjmc4): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:17:51.642Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:02.415Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:18:02.418Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:02.418Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:02.415Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:18:03.907Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:18:03.910Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:03.910Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:03.908Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:18:05.065Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:18:05.067Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:05.068Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:05.456Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:18:05.458Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:05.458Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:08.120Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:08.120Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:08.491Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:08.491Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:10.638Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:10.637Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:11.068Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:11.069Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:13.661Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:13.661Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:18:14.041Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:18:14.041Z] ℹ️ FAQ+Lookups cache oförändrad (caller: detectLangCore): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:07.151Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:12.381Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:12.381Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:12.382Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:12.382Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:12.382Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:12.383Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:12.383Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:12.384Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:12.385Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:12.385Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6yr2j-yt4zyh): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:14.717Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:19.598Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:19.598Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:19.599Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:19.600Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:19.600Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:19.599Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:19.601Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:19.602Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:19.601Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:19.602Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6ywwo-c82wl8): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:20.820Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:26.234Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:26.234Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:26.235Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:26.236Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:26.235Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:26.236Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:26.236Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:26.238Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:26.237Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:26.238Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6z1m7-ulmz5g): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:27.439Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:32.918Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:32.918Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:32.919Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:32.919Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:32.918Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:32.920Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:32.921Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:32.922Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:32.920Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:32.922Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6z6q2-7rmw80): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:34.121Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:39.675Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:39.676Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:39.676Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:39.677Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:39.677Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:39.678Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:39.678Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:39.680Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:39.678Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:39.680Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6zbvo-y67wkk): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:40.866Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:45.134Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:45.135Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:45.136Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:45.136Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:45.135Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:45.137Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:45.137Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:45.137Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:45.139Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:45.139Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6zh32-nhzqaq): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:46.794Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:51.122Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:39:51.122Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:39:51.123Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:39:51.124Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:39:51.123Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:39:51.124Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:39:51.125Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:39:51.126Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:39:51.126Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6zlnq-qi748z): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:39:51.125Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:39:52.313Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:00.304Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:00.305Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:00.306Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:00.306Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:00.305Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:00.307Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:00.307Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:00.308Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:00.308Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6zpx0-ekthcc): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:01.492Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:13.097Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:13.097Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:13.098Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:13.099Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:13.098Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:13.099Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:13.100Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:13.101Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:13.101Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq6zx00-qh7f9j): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:14.293Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:19.189Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:19.190Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:19.191Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:19.189Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:19.191Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:19.190Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:19.191Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:19.193Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:19.193Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq706vk-0uhj7g): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:19.192Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:21.482Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:21.596Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:21.768Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:21.880Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:22.027Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:22.181Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:23.074Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:26.021Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:26.021Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:26.022Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:26.022Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:26.023Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:26.023Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:26.022Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:26.024Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:26.025Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:26.025Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70cn7-k6ao2i): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:26.206Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:26.206Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:26.207Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:26.207Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:26.208Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:26.208Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:26.209Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:26.210Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:26.209Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:26.210Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70cqb-lgwc4y): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:26.286Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:26.287Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:26.288Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:26.287Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:26.288Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:26.289Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:26.289Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:26.291Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:26.291Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70cuf-1a3tyr): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:26.289Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:26.353Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:26.353Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:26.354Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:26.355Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:26.354Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:26.355Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:26.356Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:26.358Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:26.356Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:26.358Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70cf9-ljar6o): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:26.470Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:26.471Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:26.471Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:26.472Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:26.470Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:26.472Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:26.473Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:26.474Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:26.475Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70cif-wti2kf): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:26.473Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:27.127Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:27.126Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:27.138Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:27.938Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:27.937Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:27.938Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:27.939Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:27.940Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-14T06:40:27.939Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:27.941Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:27.940Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-14T06:40:27.942Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:27.942Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70dnh-42azeo): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:34.896Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-14T06:40:34.897Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-14T06:40:34.898Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-14T06:40:34.898Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-14T06:40:34.897Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-14T06:40:34.899Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-14T06:40:34.900Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:34.900Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70cyp-avhfmt): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:52.941Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:52.941Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70gse-edjh7s): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:54.021Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:54.022Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70gs1-ulllhc): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-14T06:40:54.605Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-14T06:40:54.605Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70gs2-7n8emb): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}

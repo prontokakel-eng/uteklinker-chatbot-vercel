@@ -1,0 +1,122 @@
+[
+  {
+    "name": "bankid_variants",
+    "pattern": "b[\\W_]*a[\\W_]*n[\\W_]*k[\\W_]*(?:i|1|!)[\\W_]*d",
+    "flags": "i"
+  },
+  {
+    "name": "phishing_literal",
+    "pattern": "\\bphish(?:ing)?\\b",
+    "flags": "i"
+  },
+  {
+    "name": "spoof_spoofing",
+    "pattern": "\\bspoof(?:ing)?\\b",
+    "flags": "i"
+  },
+  {
+    "name": "advance_fee_romance",
+    "pattern": "\\b(advance\\s*fee|romance\\s*scam)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "giftcard_giveaway_airdrop",
+    "pattern": "\\b(gift\\s*card|give\\s*away|air\\s*drop|airdrop)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "unlock_account",
+    "pattern": "\\b(unlock\\s*account|låsa\\s*upp\\s*konto)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "crypto_literal",
+    "pattern": "c[\\W_]*r[\\W_]*y[\\W_]*p[\\W_]*t[\\W_]*o",
+    "flags": "i"
+  },
+  {
+    "name": "coin_tickers",
+    "pattern": "\\b(btc|eth|usdt|bnb|okx|kucoin|binance)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "roi_promises",
+    "pattern": "\\b(100|200|500|1000)\\s*%(\\s|-)?\\s*(roi|avkastning)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "double_money",
+    "pattern": "\\b(dubbl(?:a|e)r?|double)\\s+(pengar|money)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "escort_variants",
+    "pattern": "\\bescort(?:service)?\\b",
+    "flags": "i"
+  },
+  {
+    "name": "onlyfans_cams",
+    "pattern": "\\b(only\\s*fans|onlyfans|cams?)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "sugar_daddy",
+    "pattern": "\\bsugar\\s*daddy\\b",
+    "flags": "i"
+  },
+  {
+    "name": "fake_id_documents",
+    "pattern": "\\b(fake\\s*id|falsk(?:a|t)?\\s*(id|pass)|counterfeit|forged\\s*documents?)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "carding_cvv_fullz",
+    "pattern": "\\b(carding|cvv|fullz|datadump|dump)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "buy_followers_reviews",
+    "pattern": "\\b(buy\\s*followers?|köpa\\s*följare|bot[-\\s]*recensioner|köpa\\s*recensioner)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "malware_family",
+    "pattern": "\\b(ransomware|keyloggers?|trojan|stealer|rat\\s*tool|remote\\s*admin\\s*tool|botnet)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "crack_keygen_nulled",
+    "pattern": "\\b(crack\\s*keygen|keygen|nulled)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "ddos",
+    "pattern": "\\bddos\\b",
+    "flags": "i"
+  },
+  {
+    "name": "credential_stuffing",
+    "pattern": "\\bcredential\\s*stuffing\\b",
+    "flags": "i"
+  },
+  {
+    "name": "sports_betting",
+    "pattern": "\\b(betting\\s*tips?|fixed\\s*match|sportsbook)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "casino_promos",
+    "pattern": "\\b(slots?|roulette|blackjack\\s*bonus|no\\s*deposit\\s*bonus|gratis\\s*(free)?\\s*spins?)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "messenger_leadgen",
+    "pattern": "\\b(whats?app|telegram|kik)\\b.*\\b(me|kontakt|chat)\\b",
+    "flags": "i"
+  },
+  {
+    "name": "url_shorteners",
+    "pattern": "\\b(bit\\.ly|tinyurl\\.com|t\\.co|cutt\\.ly|is\\.gd|ow\\.ly)\\b",
+    "flags": "i"
+  }
+]

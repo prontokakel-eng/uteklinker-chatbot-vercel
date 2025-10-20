@@ -1,0 +1,64 @@
+{
+  "lang": "SE",
+  "articles": ["en", "ett", "den", "det", "de", "någon", "något", "några"],
+  "negations": ["inte", "ej", "inget", "ingenting", "utan", "aldrig"],
+  "common": ["och", "att", "som", "har", "för", "på", "är", "kan", "ska"],
+  "regex": {
+    "suffix": ["(ning|het|skap|ande|else)\\b"],
+    "prefix": ["^(om|av|för|till)"]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.4,
+    "common": 0.3,
+    "regex": 0.5
+  }
+}
+{
+  "lang": "SE",
+  "articles": ["en", "ett", "den", "det", "de", "någon", "något", "några"],
+  "negations": ["inte", "ej", "inget", "ingenting", "utan", "aldrig"],
+  "common": ["och", "att", "som", "har", "för", "på", "är", "kan", "ska", "finns", "varför", "vilka", "vilken", "vad", "hur"],
+  "regex": {
+    "suffix": ["(ning|het|skap|ande|else)\\b"],
+    "prefix": ["^(om|av|för|till)"]
+  },
+  "fallbackTriggers": ["vilka", "vilken", "vad", "hur", "varför", "finns", "kan", "är", "har"],
+  "fallbackExcludes": ["hvad", "hvordan", "hvilke", "welche", "nicht", "und", "aber"],
+  "normalize": {
+    "methods": ["NFD", "NFC"],
+    "remove": ["[\\u0300-\\u036f]"]
+  },
+  "accentMap": {
+    "á": "a", "à": "a", "â": "a", "ã": "a",
+    "é": "e", "è": "e", "ê": "e", "ë": "e",
+    "í": "i", "ì": "i", "î": "i", "ï": "i",
+    "ó": "o", "ò": "o", "ô": "o", "õ": "o",
+    "ú": "u", "ù": "u", "û": "u", "ü": "u",
+    "ç": "c"
+  },
+  "geoMapping": { "SE": "SE", "DK": "DA", "DE": "DE", "GB": "EN", "US": "EN", "AU": "EN", "CA": "EN" },
+  "weights": { "articles": 0.6, "negations": 0.4, "common": 0.3, "regex": 0.5 }
+}
+{
+  "lang": "SE",
+  "articles": [],
+  "negations": ["inte"],
+  "common": [
+    "badrum","billig","ce","ce-märkning","dyr","eftersom","finns","fog","färg","färger","golv","hallå","har","hej","hur",
+    "ing","kan","kakel","kunde","mått","platta","plattor","serie","snälla","tack","utomhus","vad","varför","vägg",
+    "vilka","vilken","ytstruktur","är","ok","okay","best","morning","evening","good","thanks","hello","hi"
+  ],
+  "regex": { "prefix": [], "suffix": [] },
+  "regexAnchors": { "exclusive": ["\\bvarför\\b","\\btack\\b"], "soft": [] },
+  "boosters": ["vilka","vilken","finns","ytstruktur","serie","plattorna","ce","märkning","ce-märkning"],
+  "fallbackTriggers": ["vilka","vilken","finns","har","är","kan","går","hur fungerar","vad är","vad heter","när","var","hur"],
+  "fallbackExcludes": ["hvad","hvordan","hvilke","welche","nicht","und","aber"],
+  "normalize": { "methods": ["NFD","NFC"], "remove": ["[\\u0301\\u0300\\u0302\\u0303]"] },
+  "accentMap": {
+    "á":"a","à":"a","â":"a","ã":"a","é":"e","è":"e","ê":"e","ë":"e","í":"i","ì":"i","î":"i","ï":"i",
+    "ó":"o","ò":"o","ô":"o","õ":"o","ú":"u","ù":"u","û":"u","ç":"c"
+  },
+  "geoMapping": { "SE":"SE","DK":"DA","DE":"DE","AT":"DE","CH":"DE","GB":"EN","US":"EN","AU":"EN","CA":"EN" },
+  "weights": { "common":0.2,"articles":0.3,"negations":0.2,"regex":0.3,"anchors":0.5,"anchorsSoft":0.25 }
+}

@@ -1,0 +1,68 @@
+node ./tests/Super-torture-suite.repo.mjs `
+  --input="./tests/fixtures/test-cases-full.json,./tests/fixtures" `
+  --langs="SE,EN,DA,DE" `
+  --ai-fallback="off" `
+  --report="./reports" `
+  --parallel=4 `
+  --seed=1337 `
+  --dedup-threshold=0.12 `
+  --path.gates="./tests/utils/adapters.mjs" `
+  --path.detectLang="./tests/utils/adapters.mjs" `
+  --path.faqLookup="./tests/utils/adapters.mjs" `
+  --path.logger="./tests/utils/adapters.mjs"
+
+AI AV
+node ./tests/autotune.mjs `
+  --ai=off `
+  --par=12,16,20,24,28 `
+  --runs=1 `
+  --suite=./tests/Super-torture-suite.repo.mjs `
+  --input=./tests/fixtures/test-cases-full.json,./tests/fixtures `
+  --langs=SE,EN,DA,DE `
+  --seed=1337 `
+  --dedup-threshold=0.12 `
+  --assert-lang=true `
+  --ignore-case-lang=true
+
+AI PÅ
+# .env.local → testmode=true
+node ./tests/autotune.mjs `
+  --ai=auto `
+  --par=4,6,8 `
+  --runs=1 `
+  --suite=./tests/Super-torture-suite.repo.mjs `
+  --input=./tests/fixtures/test-cases-full.json,./tests/fixtures `
+  --langs=SE,EN,DA,DE `
+  --seed=1337 `
+  --dedup-threshold=0.12 `
+  --assert-lang=true `
+  --ignore-case-lang=true
+
+Baseline (AI off, batching på → inga Google timeouts)
+
+node ./tests/Super-torture-suite.repo.mjs `
+  --input="./tests/fixtures/test-cases-full.json,./tests/fixtures" `
+  --langs="SE,EN,DA,DE" `
+  --ai-fallback="off" `
+  --report="./reports" `
+  --parallel=24 `
+  --seed=1337 `
+  --dedup-threshold=0.12 `
+  --assert-lang=true `
+  --ignore-case-lang=true `
+  --sheets=buffer
+
+Kör med lexikon på (default) --lexicon=off
+
+node ./tests/Super-torture-suite.repo.mjs `
+  --input="./tests/fixtures/test-cases-full.json,./tests/fixtures" `
+  --langs="SE,EN,DA,DE" `
+  --ai-fallback="off" `
+  --report="./reports" `
+  --parallel=24 `
+  --seed=1337 `
+  --dedup-threshold=0.12 `
+  --assert-lang=true `
+  --ignore-case-lang=true `
+  --sheets=buffer `
+  --lexicon=on

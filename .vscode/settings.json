@@ -1,0 +1,26 @@
+{
+  // 🔧 Format & lint
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // 🔍 ESLint aktiverat för JS/Node
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+
+  // 🎨 Prettier autoformat
+  "prettier.singleQuote": false,
+  "prettier.semi": true,
+  "prettier.trailingComma": "none",
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+
+  // 📝 Editor-upplevelse
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Super-torture-suite (repo)" tests="240" failures="7" time="168.222">
+  <testcase name="DE | uncategorized | Wie lange dauert eine Rückerstattung? (1.234,50 €)" time="1.999"></testcase>
+  <testcase name="SE | uncategorized | Lämpar sig plattorna för uteserveringar? 2025-10-08" time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Wie reinige ich die Fugen, ohne sie zu beschädigen? (1.234,5" time="2.018"></testcase>
+  <testcase name="SE | uncategorized | Kan ni rekommendera montörer? tack" time="0.003"></testcase>
+  <testcase name="EN | uncategorized | Can older people walk safely on the tiles? ($1,234.50)" time="2.035"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Nordique? please" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Kan fliserne lægges på et trædæk? 08-10-2025" time="2.074"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna frost och kyla? 2025-10-08" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka handlingar är bra att ha när jag frågar om offert? (1 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan tunge gryder og grill placeres på fliserne? (1.234,50 kr" time="0.003"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen rutschfest?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Blir plattorna mycket varma i direkt solljus? lorem lorem lo" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Er skridsikkerhed påvirket af pollen og snavs? 08-10-2025" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Behöver man distanskryss när man lägger plattorna?" time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Er der garanti på skridsikringen?" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hvilke farver er tilgængelige? tack" time="0.004"><failure message="Language mismatch: got SE, want DA"></failure></testcase>
+  <testcase name="DE | uncategorized | Welches Zubehör wird verwendet: Dome Extension 25 mm? (1.234" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Roccia? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Roccia? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Slate? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Slate? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Stella? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Stella? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Stone? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Stone? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Strada? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Strada? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Travertin? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Travertin? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Trentino? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Trentino? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Vintage? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Vintage? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Konjak? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns i serien Konjak? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka mått finns klinkerdäck® i? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka mått finns klinkerdäck® i? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns tillgängliga? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka färger finns tillgängliga? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilken vikt har en platta? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilken vikt har en platta? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="DE | uncategorized | Können die Fliesen mit Holz und Naturstein kombiniert werden" time="2.195"></testcase>
+  <testcase name="EN | uncategorized | What colors are available in the Ardesia series?" time="2.202"></testcase>
+  <testcase name="SE | uncategorized | Har plattorna någon CE-märkning? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Har plattorna någon CE-märkning? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det olika ytstrukturer (släta, strukturerade)? (1 234," time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det olika ytstrukturer (släta, strukturerade)? 2025-10" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det tekniska datablad att ladda ner? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det tekniska datablad att ladda ner? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna resistenta mot kemikalier? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna resistenta mot kemikalier? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka toleranser gäller för mått och form? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka toleranser gäller för mått och form? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna direkt på grus? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna direkt på grus? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Måste man limma plattorna vid installation? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Måste man limma plattorna vid installation? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna läggas på en träaltan? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna läggas på en träaltan? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man kapa plattorna själv? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man kapa plattorna själv? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka verktyg rekommenderas för kapning? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Vilka verktyg rekommenderas för kapning? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna på en balkong? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna på en balkong? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Behöver man distanskryss när man lägger plattorna? (1 234,50" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Behöver man distanskryss när man lägger plattorna? 2025-10-0" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna inomhus? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man lägga plattorna inomhus? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Fungerar plattorna på lutande underlag? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Fungerar plattorna på lutande underlag? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur rengör man plattorna bäst? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur rengör man plattorna bäst? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda högtryckstvätt på plattorna? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda högtryckstvätt på plattorna? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Behöver plattorna behandlas med impregnering? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Behöver plattorna behandlas med impregnering? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur tar man bort mossa och alger från plattorna? (1 234,50 k" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur tar man bort mossa och alger från plattorna? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av salt på vintern? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av salt på vintern? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna missfärgas av vin, olja eller andra fläckar? (" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna missfärgas av vin, olja eller andra fläckar? 2" time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av salt på vintern?" time="2.319"></testcase>
+  <testcase name="SE | uncategorized | Kan jag ångra köpet?" time="2.330"></testcase>
+  <testcase name="SE | uncategorized | Hur lång livslängd har plattorna? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur lång livslängd har plattorna? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna slipas eller renoveras? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna slipas eller renoveras? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna halksäkra? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna halksäkra? 2025-10-08 " time="0.003"></testcase>
+  <testcase name="DE | uncategorized | wie kann ich kann ich Sie für eine Beratung kontaktieren?" time="2.384"></testcase>
+  <testcase name="SE | uncategorized | Har ni förslag på läggningsmönster för 20 mm plattor? lorem " time="2.402"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna vid poolområden? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna vid poolområden? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna säkra för barn att leka på? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna säkra för barn att leka på? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan äldre personer gå säkert på plattorna? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan äldre personer gå säkert på plattorna? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur testas halksäkerheten? (1 234,50 kr) " time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Hur testas halksäkerheten? 2025-10-08 " time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna bli hala vid isbildning? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna bli hala vid isbildning? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det någon garanti på halkskyddet? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns det någon garanti på halkskyddet? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda halkskyddstejp tillsammans med plattorna? (1" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda halkskyddstejp tillsammans med plattorna? 20" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur lång är livslängden på klinkerdäck®? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Hur lång är livslängden på klinkerdäck®? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna UV-beständiga? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna UV-beständiga? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna frost och kyla? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna frost och kyla? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna resistenta mot slitage? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna resistenta mot slitage? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna i offentliga miljöer? (1 234,50 kr" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna i offentliga miljöer? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna kemikalier? (1 234,50 kr) " time="0.003"></testcase>
+  <testcase name="SE | uncategorized | Tål plattorna kemikalier? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna reptåliga? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna reptåliga? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av tung belastning? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkas plattorna av tung belastning? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur lång garanti ges på hållbarheten? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur lång garanti ges på hållbarheten? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvilke højder af fødder har I?" time="2.491"></testcase>
+  <testcase name="DE | uncategorized | Sind die Fliesen frost- und kältebeständig? (1.234,50 €)" time="2.494"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna återvinningsbara? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är plattorna återvinningsbara? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe?" time="2.519"></testcase>
+  <testcase name="EN | uncategorized | Are there technical data sheets available for download? ($1," time="2.526"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna inomhus? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna inomhus? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="DA | uncategorized | Hvilke størrelser fås klinkerdäck® i? lorem lorem lorem lore" time="2.544"></testcase>
+  <testcase name="EN | uncategorized | How do you best clean the tiles? ($1,234.50)" time="2.561"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna användas på balkong? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna användas på balkong? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna i kommersiella lokaler? (1 234,50 " time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Kan man använda plattorna i kommersiella lokaler? 2025-10-08" time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkar produktionen miljön? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur påverkar produktionen miljön? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är produkterna certifierade för miljöbyggnation? (1 234,50 k" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är produkterna certifierade för miljöbyggnation? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe? 0" time="2.584"></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® återvinningsbart? (1 234,50 kr)" time="0.731"></testcase>
+  <testcase name="SE | uncategorized | Krävs det speciell vinterförvaring? (1 234,50 kr) " time="0.519"></testcase>
+  <testcase name="SE | uncategorized | Vilket material tillverkas klinkerdäck® av? 2025-10-08 " time="0.725"></testcase>
+  <testcase name="DE | uncategorized | Gibt es Empfehlungen zur Beleuchtung von Treppenstufen? (1.2" time="2.924"></testcase>
+  <testcase name="EN | uncategorized | Is there support after delivery? ($1,234.50)" time="0.934"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni i hela Sverige?" time="1.018"></testcase>
+  <testcase name="SE | uncategorized | Krävs det speciell vinterförvaring? 2025-10-08 " time="0.726"></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® brandsäkert? (1 234,50 kr) " time="0.789"></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® miljövänligt? 2025-10-08 " time="0.708"></testcase>
+  <testcase name="SE | uncategorized | Hur lång är leveranstiden normalt? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur lång är leveranstiden normalt? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vad kostar frakten? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vad kostar frakten? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man boka tid för leverans? (1 234,50 kr) " time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Kan man boka tid för leverans? 2025-10-08 " time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Kan man hämta plattorna själv i lager? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man hämta plattorna själv i lager? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vad kostar klinkerdäck® per kvadratmeter? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vad kostar klinkerdäck® per kvadratmeter? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man få offert på större projekt? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan man få offert på större projekt? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Tillverkas produkterna i Sverige? 2025-10-08 " time="0.702"></testcase>
+  <testcase name="DE | uncategorized | Gibt es Empfehlungen zur Beleuchtung von Treppenstufen? 08.1" time="3.229"></testcase>
+  <testcase name="SE | uncategorized | Vilken tjocklek har plattorna? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilken tjocklek har plattorna? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns plattorna med fasad kant? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns plattorna med fasad kant? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur stor är kalibreringstoleransen? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur stor är kalibreringstoleransen? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur stor fogbredd rekommenderar ni? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur stor fogbredd rekommenderar ni? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns plattorna i matt eller halvmatt yta? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns plattorna i matt eller halvmatt yta? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur packas plattorna på pall? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur packas plattorna på pall? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka kulörer är mest färgstabila över tid? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilka kulörer är mest färgstabila över tid? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Finns produktcertifikat och provningsprotokoll? (1 234,50 kr" time="0.001"></testcase>
+  <testcase name="SE | uncategorized | Finns produktcertifikat och provningsprotokoll? 2025-10-08 " time="0.001"></testcase>
+  <testcase name="DE | uncategorized | Vilket fall bör underlaget ha för dränering? (1 234,50 kr) " time="0.002"><failure message="Language mismatch: got DE, want SE"></failure></testcase>
+  <testcase name="DE | uncategorized | Vilket fall bör underlaget ha för dränering? 2025-10-08 " time="0.002"><failure message="Language mismatch: got DE, want SE"></failure></testcase>
+  <testcase name="SE | uncategorized | Kan jag lägga plattorna på befintlig betongplatta? (1 234,50" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jag lägga plattorna på befintlig betongplatta? 2025-10-0" time="0.002"></testcase>
+  <testcase name="DE | uncategorized | Behöver jag frostskyddslager under plattorna? (1 234,50 kr) " time="0.002"><failure message="Language mismatch: got DE, want SE"></failure></testcase>
+  <testcase name="DE | uncategorized | Behöver jag frostskyddslager under plattorna? 2025-10-08 " time="0.002"><failure message="Language mismatch: got DE, want SE"></failure></testcase>
+  <testcase name="SE | uncategorized | Vilken fog rekommenderas mellan plattorna? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Vilken fog rekommenderas mellan plattorna? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur hanterar jag rörelsefogar? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur hanterar jag rörelsefogar? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna läggas på justerbara fötter? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan plattorna läggas på justerbara fötter? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Danmark och Tyskland? 2025-10-08 " time="0.456"></testcase>
+  <testcase name="SE | uncategorized | Passar klinkerdäck® till poolområden? (1 234,50 kr) " time="0.751"></testcase>
+  <testcase name="SE | uncategorized | Hur avslutar jag mot kanter och rabatter? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur avslutar jag mot kanter och rabatter? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur ofta bör man städa en uteplats med klinkerdäck®? (1 234," time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur ofta bör man städa en uteplats med klinkerdäck®? 2025-10" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur tar jag bort oljefläckar? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur tar jag bort oljefläckar? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jag använda ättika eller syror vid rengöring? (1 234,50 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jag använda ättika eller syror vid rengöring? 2025-10-08" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur förebygger jag gröna beläggningar? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur förebygger jag gröna beläggningar? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jag skotta snö med metallskyffel? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Kan jag skotta snö med metallskyffel? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur rengör jag fogarna utan att skada dem? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur rengör jag fogarna utan att skada dem? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Behöver jag efterbehandla plattorna efter vintern? (1 234,50" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Behöver jag efterbehandla plattorna efter vintern? 2025-10-0" time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur tar jag bort rostfläckar? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Hur tar jag bort rostfläckar? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Blir plattorna mycket varma i direkt solljus? (1 234,50 kr) " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Blir plattorna mycket varma i direkt solljus? 2025-10-08 " time="0.002"></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® brandsäkert? 2025-10-08 " time="0.934"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Finland? (1 234,50 kr) " time="0.441"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Storbritannien? (1 234,50 kr) " time="0.436"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni i hela Sverige? (1 234,50 kr) " time="0.865"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni utanför EU? (1 234,50 kr) " time="0.413"></testcase>
+  <testcase name="SE | uncategorized | Tillverkas produkterna i Sverige? (1 234,50 kr) " time="0.990"></testcase>
+  <testcase name="SE | uncategorized | Vilket material tillverkas klinkerdäck® av? (1 234,50 kr) " time="1.342"></testcase>
+  <testcase name="EN | uncategorized | Is klinkerdäck® suitable for pool areas? ($1,234.50)" time="3.555"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Storbritannien? 2025-10-08 " time="0.576"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Danmark och Tyskland? (1 234,50 kr) " time="0.832"></testcase>
+  <testcase name="SE | uncategorized | Vilket mönster är enklast att lägga? (1 234,50 kr) " time="0.355"></testcase>
+  <testcase name="SE | uncategorized | Erbjuder ni delbetalning? (1 234,50 kr) " time="0.455"></testcase>
+  <testcase name="SE | uncategorized | Vilket mönster är enklast att lägga? 2025-10-08 " time="0.527"></testcase>
+  <testcase name="SE | uncategorized | Erbjuder ni delbetalning? 2025-10-08 " time="0.678"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni till Finland? 2025-10-08 " time="1.064"></testcase>
+  <testcase name="SE | uncategorized | Passar klinkerdäck® till poolområden? 2025-10-08 " time="2.566"></testcase>
+  <testcase name="SE | uncategorized | Welche Größen haben Sie in 20 mm? tack" time="5.506"><failure message="Language mismatch: got SE, want DE"></failure></testcase>
+  <testcase name="SE | uncategorized | Hur hanteras produktionsfel?" time="5.510"></testcase>
+  <testcase name="DE | uncategorized | Wie entferne ich Rostflecken" time="5.668"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni utanför EU? 2025-10-08 " time="14.185"></testcase>
+  <testcase name="SE | uncategorized | Levererar ni i hela Sverige? 2025-10-08 " time="14.787"></testcase>
+  <testcase name="SE | uncategorized | Är klinkerdäck® miljövänligt? (1 234,50 kr) " time="14.964"></testcase>
+  <testcase name="DE | uncategorized | Können Sie in andere EU-Länder liefern? 08.10.2025" time="37.280"></testcase>
+</testsuite>

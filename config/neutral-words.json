@@ -1,0 +1,62 @@
+{
+  "NEUTRAL": {
+    "ALL": [
+      "cm", "mm", "m2", "m²", "x", "×", "-", "/", "(", ")", ",", ".", ";", ":", "'", "\"",
+      "0","1","2","3","4","5","6","7","8","9"
+    ],
+    "SE": {
+      "CORE": [
+        "och", "att", "i", "på", "för", "som", "med", "till", "av", "från", "om", "över", "under", "mellan",
+        "efter", "före", "igen", "vidare", "bara", "även", "utan", "eller", "men", "så", "än", "då", "när",
+        "var", "vart", "här", "där", "alla", "någon", "något", "några", "varje", "mer", "mest", "annan",
+        "andra", "vissa", "sådan", "sådant", "inga", "inte", "nej", "ja", "ju", "nog", "väl", "ännu",
+        "redan", "kanske", "kan", "ska", "skall", "skulle", "vill", "ville", "kunde", "borde", "måste",
+        "är", "var", "blev", "blir", "vara", "varit", "ha", "har", "hade", "göra", "gör", "gjorde",
+        "jag", "du", "han", "hon", "den", "det", "vi", "ni", "de", "mig", "dig", "honom", "henne", "oss",
+        "er", "dem", "min", "mitt", "mina", "din", "ditt", "dina", "sin", "sitt", "sina", "hans", "hennes",
+        "dess", "vår", "vårt", "våra", "er", "ert", "era", "deras", "denna", "detta", "dessa", "sådana",
+        "sådana" , "vilken", "vilket", "vilka", "vad", "vilka", "hur", "varför"
+      ]
+    },
+    "EN": {
+      "CORE": [
+        "a", "an", "the", "and", "or", "but", "if", "then", "else", "when", "while", "at", "by", "for",
+        "in", "of", "on", "to", "from", "up", "down", "with", "without", "about", "into", "over", "under",
+        "above", "below", "between", "before", "after", "again", "further", "once", "here", "there",
+        "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not",
+        "only", "own", "same", "so", "than", "too", "very", "can", "will", "just", "should", "could",
+        "would", "is", "are", "was", "were", "be", "been", "being", "do", "does", "did", "have", "has", "had",
+        "i", "you", "he", "she", "it", "we", "they", "me", "him", "her", "us", "them",
+        "my", "your", "his", "its", "our", "their", "mine", "yours", "hers", "ours", "theirs",
+        "this", "that", "these", "those", "what", "which", "who", "whom", "whose", "why", "how"
+      ]
+    },
+    "DA": {
+      "CORE": [
+        "og", "at", "i", "på", "for", "som", "med", "til", "af", "fra", "om", "over", "under", "mellem",
+        "efter", "før", "igen", "blot", "også", "uden", "eller", "men", "så", "end", "da", "når", "hvor",
+        "her", "der", "alle", "nogen", "noget", "nogle", "hver", "mere", "mest", "anden", "andre", "visse",
+        "sådan", "sådant", "ingen", "ikke", "nej", "ja", "jo", "nu", "endnu", "allerede", "måske", "kan",
+        "skal", "ville", "kunne", "burde", "måtte", "er", "var", "blev", "bliver", "være", "været",
+        "have", "har", "havde", "gøre", "gør", "gjorde",
+        "jeg", "du", "han", "hun", "den", "det", "vi", "I", "de", "mig", "dig", "ham", "hende", "os", "jer", "dem",
+        "min", "mit", "mine", "din", "dit", "dine", "sin", "sit", "sine", "hans", "hendes", "dens", "vores",
+        "jeres", "deres", "denne", "dette", "disse", "hvilken", "hvilket", "hvilke", "hvad", "hvorfor", "hvordan"
+      ]
+    },
+    "DE": {
+      "CORE": [
+        "und", "oder", "aber", "denn", "sondern", "doch", "wenn", "dann", "sonst", "weil", "da", "als", "wie",
+        "dass", "das", "die", "der", "den", "dem", "des", "ein", "eine", "einen", "einem", "eines",
+        "nicht", "kein", "keine", "mit", "zu", "von", "für", "auf", "in", "an", "nach", "bei", "über", "unter",
+        "zwischen", "vor", "während", "gegen", "ohne", "um", "auch", "nur", "schon", "noch", "mehr", "sehr", "so",
+        "hier", "dort", "wer", "was", "welcher", "welche", "welches", "dies", "diese", "dieses", "jener", "jene",
+        "jenes", "warum", "wie", "wo", "wann",
+        "ich", "du", "er", "sie", "es", "wir", "ihr", "sie",
+        "mich", "dich", "ihn", "sie", "es", "uns", "euch", "sie",
+        "mein", "dein", "sein", "ihr", "unser", "euer", "ihr",
+        "dieser", "diese", "dieses", "jener", "jene", "jenes"
+      ]
+    }
+  }
+}

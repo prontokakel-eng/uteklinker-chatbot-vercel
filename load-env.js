@@ -4,6 +4,15 @@ import fs from "fs";
 import path from "path";
 import dotenv from "dotenv";
 
+🧩 ENV DIAGNOSTIC REPORT ------------------------------
+🔑 OPENAI_API_KEY       = sk-proj-r3je...  | src: .env.local
+🔑 OPENAI_PROJECT_ID    = proj_nP7gK...    | src: .env.local
+🔑 GCP_CLIENT_EMAIL     = chatb...         | src: .env.local
+🔑 GCP_PRIVATE_KEY_ID   = 12345...         | src: .env.local
+🔑 SHEET_ID_MAIN        = 1_FjA...         | src: .env.local
+🔑 VERCEL               = undefined        | src: ❌ missing
+------------------------------------------------------
+
 const envPath = path.resolve(process.cwd(), ".env.local");
 
 // 🧹 Steg 1: Läs in .env.local om den finns
@@ -16,7 +25,7 @@ if (fs.existsSync(envPath)) {
     .replace(/\r/g, "")
     .replace(/[ \t]+\n/g, "\n")
     .replace(/ +$/gm, "")
-    .replace(/^([A-Z0-9_]+)=\1=/gm, "$1=") // tar bort dubbel VAR=VAR=
+    .replace(/^([A-Z0-9_]+)=\1=/gm, "$1=")
     .trimEnd();
 
   if (cleaned !== raw) {
@@ -24,10 +33,11 @@ if (fs.existsSync(envPath)) {
     console.log("🧹 .env.local sanerad från whitespace, CR och dubbletter");
   }
 
-  dotenv.config({ path: envPath });
+  // 🔧 CHANGED: tillåt override för att alltid prioritera lokalt env
+  dotenv.config({ path: envPath, override: true });
 } else {
   console.warn("⚠️ Ingen .env.local hittades i projektroten");
-  dotenv.config();
+  dotenv.config({ override: true }); // 🔧 CHANGED: se till att även fallback tillåter override
 }
 
 // 🧩 Steg 2: Normalisera alla variabler i process.env
@@ -35,32 +45,32 @@ for (const [key, value] of Object.entries(process.env)) {
   if (typeof value === "string") {
     let v = value.trim();
 
-    // Fixar nycklar som råkat få "VAR=VAR=" prefix
     const double = new RegExp(`^${key}=`);
-    if (double.test(v)) {
-      v = v.replace(double, "");
-    }
+    if (double.test(v)) v = v.replace(double, "");
 
-    // Specifik fix för GCP_PRIVATE_KEY
     if (key === "GCP_PRIVATE_KEY" && v.includes("BEGIN PRIVATE KEY")) {
-      // Byt ut verkliga radbrytningar mot \n, ta bort dubbla \n och citattecken
       v = v
-        .replace(/\\n/g, "\n") // tolka dubbel-escaped \n
+        .replace(/\\n/g, "\n")
         .replace(/\r/g, "")
         .replace(/"/g, "")
         .trim();
 
-      // Om filen innehåller riktiga radbrytningar, konvertera till escaped form
-      if (v.includes("\n")) {
-        v = v.replace(/\n/g, "\\n");
-      }
+      if (v.includes("\n")) v = v.replace(/\n/g, "\\n");
     }
 
     process.env[key] = v;
   }
 }
 
-// 🧠 Debug-utskrift (endast om GCP-variabler finns)
+// 🔧 CHANGED: skydd mot gamla nycklar
+if (process.env.OPENAI_API_KEY?.startsWith("sk-proj-1d")) {
+  console.error(
+    "🚨 OLD OpenAI key detected (sk-proj-1d...). Please update Vercel and .env.local!"
+  );
+  delete process.env.OPENAI_API_KEY;
+}
+
+// 🧠 Debug-utskrift
 if (process.env.GCP_PRIVATE_KEY?.includes("PRIVATE KEY")) {
   console.log("✅ GCP_PRIVATE_KEY laddad och normaliserad");
 }

@@ -1,0 +1,125 @@
+Extra regressions jag föreslår att lägga till
+
+BOM/encoding: JSON/inputs med UTF-8 BOM & blandade radbrytningar (CRLF/LF).
+
+DST/Timezone: Frågor med datum/tid nära sommartidsväxling; verifiera rätt lokal formatering/svar.
+
+Markup i FAQ: Svar som innehåller HTML/Markdown — ska inte läcka rå markup till användaren.
+
+Race/caching: Samtidiga requests mot FAQ-cache (invalidate + lookup) → inga stale svar.
+
+Huge numerics: Mycket stora tal och långa nummersträngar (IBAN/oid) → ska inte feltolkas som PII utan regler.
+
+Säg bara var modulerna ligger så kopplar jag in dem direkt och (om du vill) finjusterar adapter-hakarna. 👍
+
+Toppen—jag ser din repo-snapshot och att du redan har en del relaterade filer (t.ex. `test-cases-full.json`, flera `chatBot-torture-test-*.mjs`, `faq-fuzzy-suite*.mjs`, `logger.js`). 
+
+# 1) Jag behöver din mapp-/filstruktur (exakta paths)
+
+För att koppla in adaptrarna utan att gissa paths:
+**Bekräfta exakta sökvägar** för följande moduler/artefakter (ESM):
+
+* **Gates/Filters-runner**: t.ex. `./config/gates-runner.js` (exporterar `runGates`).
+* **Språkdetektering (core, ej AI)**: t.ex. `./lib/detect-lang-core.js` (exporterar `detectLang`).
+* **FAQ-lookup**: t.ex. `./lib/faq/faq-lookup.js` (exporterar `faqLookup` eller `lookup`).
+* **OpenAI-klient**: t.ex. `./lib/openai-client.js` (exporterar `callAI`/`chat`).
+* **Logger** (om du vill använda din): t.ex. `./logger.js` (exporterar `logger` med `info/warn/error`).
+* **Testfall**: `./test-cases-full.json` (jag ser den i roten), plus ev. `./tests/fixtures/*.json`.
+* **Miljöfil(er)**: `.env.local` eller `.enc.local` (vi läser `testmode=`).
+
+> Jag ändrar aldrig din domänlogik. Den här sviten läser *bara* in dina befintliga funktioner via CLI-flaggor så att vi kan testa pipelinen end-to-end.
+
+---
+
+# 2) Minimal plan (sammanfattning)
+
+1. **Inläsning**: läs `--input` (en eller flera filer/mappar).
+2. **Normalisering & dedup**: NFKC, trim, komprimera whitespace, accent-agnostisk near-dup (Levenshtein ratio).
+3. **Augmentering**: säkerställ **>240** unika cases; märk syntetiska med `meta.synthetic=true` om det behövs.
+4. **Körning**: per case → **Gates/Filters → detect-lang → FAQ-lookup → AI-fallback (om på)**.
+5. **Validering**: respektera `expected` (t.ex. `blocked`, `no-match` eller FAQ-id/slug/titel).
+6. **Rapport**: skriv `./reports/torture-report.json` (råresultat + KPI) och `./reports/junit.xml`.
+7. **KPI**: p95-latens per steg, pass/fail, språkfördelning, hur många blockades/AI-användes.
+
+---
+
+# 3) Leverans: körbar ESM-fil
+
+Jag har lagt en körbar, fristående ESM-tortyrsvit här (ingen befintlig logik ändrad):
+
+**[Ladda ned `Super-torture-suite.mjs`](sandbox:/mnt/data/tests/Super-torture-suite.mjs)**
+
+### Så kopplar du in dina moduler (inga paths gissas)
+
+Exempelkommando (justera `--path.*` till dina riktiga paths):
+
+```bash
+node ./tests/Super-torture-suite.mjs ^
+  --input ./test-cases-full.json,./tests/fixtures ^
+  --langs SE,EN,DA,DE ^
+  --ai-fallback auto ^
+  --report ./reports ^
+  --parallel 4 --seed 1337 ^
+  --path.gates ./config/gates-runner.js ^
+  --path.detectLang ./lib/detect-lang-core.js ^
+  --path.faqLookup ./lib/faq/faq-lookup.js ^
+  --path.openai ./lib/openai-client.js ^
+  --path.logger ./logger.js
+```
+
+* `--ai-fallback auto` läser `testmode=` från `.env.local`/`.enc.local` (`true` ⇒ AI på).
+* Inga externa beroenden; ESM-only; minsta möjliga diff (ny fil i `/tests`).
+* Loggning använder din `logger.js` om du anger den—annars en no-op-logger (console).
+
+### Rapporter
+
+* **JSON**: `./reports/torture-report.json` (summary + alla case med latens, beslut, kandidater, AI-tokens).
+* **JUnit XML**: `./reports/junit.xml` (för CI).
+* KPI visar p95 för **gates/detect/lookup/ai/total**, pass/fail, språkfördelning, m.m.
+
+---
+
+## Vad sviten redan gör (enligt kraven)
+
+* Läser flera inputkällor (mappar/filer) och **deduplar** (case/accent-agnostiskt + edit-distance ratio).
+* Märker **negativa** scenarier: spam, gibberish, too-long, tomma/tecken-bara, prompt-injections.
+* Kör varje case genom **Gates → Lang → FAQ → AI** (AI endast om `aiMode==='on'`).
+* **Validerar** `expected`:
+
+  * `blocked` → gates måste blocka.
+  * `no-match` → lookup får inte ge träff.
+  * Annars räknas FAQ-mismatch som fail (slug/id/titel sub-match tolereras).
+* Mäter latens per steg + total, och exporterar p95.
+* **No-AI-mode**: failar om AI anropas när `aiMode==='off'`.
+
+---
+
+## Lägg gärna till/peka ut paths så kör jag ett exempelkommando för din repo
+
+När du bekräftar exakta paths (se punkt 1) kan jag skicka ett färdigt `node …`-kommando anpassat till ditt träd och (om du vill) lägga till små wrappers i `/tests/utils/` (utan att röra domänlogiken) för t.ex. typkonvertering.
+
+---
+
+## Extra regressions (inkluderade som riktlinjer/testfallstyper)
+
+Jag rekommenderar att du adderar följande kategorier i `test-cases-full.json` eller fixtures (sviten klassar dem automatiskt, men du kan sätta `category` för rapportering):
+
+1. **Rate-limit/backoff**: mocka `callAI` att kasta 429/5xx ibland; verifiera retry/circuit-breaker.
+2. **Cache-koherens**: mocka en FAQ-rad som ändras; kör två cases och säkerställ invalidation.
+3. **Tokenizer-stress**: tusentals korta ord vs. några extremt långa.
+4. **Near-miss intents**: korrekt språk men utanför domänen → ska inte “gissa” FAQ.
+5. **Context-bleed**: två efterföljande AI-calls måste vara kontext-isolerade.
+6. **Ordering-bias**: samma kandidater i annan ordning → identiskt beslut.
+7. **Locale-format**: datum/valuta per SE/EN/DA/DE i AI-svar.
+8. **Ambiguous queries**: förslag/klargörande i stället för fel FAQ-svar.
+9. **Security headers (om HTTP-mock)**: inga läckande headers.
+10. **Memory-leaks**: långkörning ≥10k fall → processminne följs.
+11. **Jailbreak-canaries**: kända mönster → ska stoppas i Gates.
+12. **Unicode-norm**: NFKC/NFD varianter → samma utfall.
+13. **Translation-drift**: samma semantik SE/EN/DA/DE → samma FAQ-bin.
+14. **FAQ tie-break**: deterministisk urval vid nästan lika score.
+15. **No-AI mode**: vid `testmode=false` ska “no-match” ge standardiserat, icke-AI svar.
+
+---
+
+Vill du att jag uppdaterar kommandot efter din exakta struktur och (om du vill) genererar en minimal `/tests/README.md`?

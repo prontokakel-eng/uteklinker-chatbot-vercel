@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "normalized": true
+  },
+  "articles": [
+    "a",
+    "an",
+    "the",
+    "some"
+  ],
+  "negations": [
+    "not",
+    "no",
+    "never",
+    "none",
+    "nothing"
+  ],
+  "common": [
+    "and",
+    "is",
+    "are",
+    "of",
+    "to",
+    "for",
+    "in",
+    "on",
+    "have",
+    "has",
+    "it",
+    "what",
+    "how",
+    "why",
+    "which",
+    "you",
+    "bathroom",
+    "best",
+    "cheap",
+    "color",
+    "evening",
+    "expensive",
+    "floor",
+    "good",
+    "hello",
+    "hi",
+    "ing",
+    "morning",
+    "ok",
+    "okay",
+    "size",
+    "the",
+    "thanks",
+    "tiles",
+    "will"
+  ],
+  "regex": {
+    "prefix": [
+      "^(the|a|an|in|on|to)"
+    ],
+    "suffix": [
+      "(ing|ed|ly|ness|tion|able|ous|ment)\\b"
+    ]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.5,
+    "common": 0.5,
+    "regex": 0.5
+  },
+  "fallbackTriggers": [
+    "what",
+    "how",
+    "why",
+    "which",
+    "are",
+    "you"
+  ],
+  "stopwords": [],
+  "bigrams": [],
+  "trigrams": [],
+  "accentMap": {
+    "á": "a",
+    "à": "a",
+    "â": "a",
+    "ã": "a",
+    "é": "e",
+    "è": "e",
+    "ê": "e",
+    "ë": "e",
+    "í": "i",
+    "ì": "i",
+    "î": "i",
+    "ï": "i",
+    "ó": "o",
+    "ò": "o",
+    "ô": "o",
+    "õ": "o",
+    "ú": "u",
+    "ù": "u",
+    "û": "u",
+    "ü": "u",
+    "ç": "c"
+  },
+  "geoMapping": {
+    "GB": true,
+    "US": true,
+    "AU": true,
+    "CA": true,
+    "SE": "SE",
+    "DK": "DA",
+    "DE": "DE",
+    "AT": "DE",
+    "CH": "DE",
+    "IE": true,
+    "NZ": true
+  },
+  "aliases": {},
+  "extras": {
+    "extras": {
+      "lang": "EN",
+      "fallbackExcludes": [],
+      "normalize": {
+        "methods": [
+          "NFD",
+          "NFC"
+        ],
+        "remove": [
+          "[\\u0301\\u0300\\u0302\\u0303]"
+        ]
+      },
+      "regexAnchors": {
+        "exclusive": [
+          "\\bwhy\\b",
+          "\\bhow\\b",
+          "\\bthe\\b",
+          "\\bing\\b",
+          "\\byou\\b"
+        ],
+        "soft": []
+      },
+      "boosters": [
+        "what",
+        "which",
+        "sizes",
+        "material",
+        "fireproof",
+        "surface"
+      ]
+    }
+  },
+  "normalize": {
+    "methods": [
+      "NFD",
+      "NFC"
+    ],
+    "remove": [
+      "[\\u0301\\u0300\\u0302\\u0303]"
+    ]
+  },
+  "anchors": {
+    "exclusive": [
+      "\\bwhy\\b",
+      "\\bhow\\b",
+      "\\bthe\\b",
+      "\\bing\\b",
+      "\\byou\\b"
+    ],
+    "soft": []
+  }
+}

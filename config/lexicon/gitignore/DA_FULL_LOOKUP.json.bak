@@ -1,0 +1,66 @@
+{
+  "lang": "DA",
+  "articles": ["en", "et", "den", "det", "de", "nogen", "noget", "nogle"],
+  "negations": ["ikke", "ingen", "intet", "aldrig", "uden"],
+  "common": ["og", "at", "som", "har", "for", "på", "er", "kan", "skal"],
+  "regex": {
+    "suffix": ["(ning|hed|skab|else|ende)\\b"],
+    "prefix": ["^(om|af|for|til)"]
+  },
+  "weights": {
+    "articles": 0.6,
+    "negations": 0.4,
+    "common": 0.3,
+    "regex": 0.5
+  }
+}
+{
+  "lang": "DA",
+  "articles": ["en", "et", "den", "det", "de", "nogen", "noget", "nogle"],
+  "negations": ["ikke", "ingen", "intet", "aldrig", "uden"],
+  "common": ["og", "at", "som", "har", "for", "på", "er", "kan", "skal", "hvordan", "hvad", "hvilken", "hvilke", "hvorfor", "hvem"],
+  "regex": {
+    "suffix": ["(ning|hed|skab|else|ende)\\b"],
+    "prefix": ["^(om|af|for|til)"]
+  },
+  "fallbackTriggers": ["hvordan", "hvad", "hvilken", "hvilke", "hvorfor", "hvem"],
+  "fallbackExcludes": ["vilka", "vilken", "welche", "nicht", "und", "aber", "what", "which", "why", "how"],
+  "normalize": {
+    "methods": ["NFD", "NFC"],
+    "remove": ["[\\u0300-\\u036f]"]
+  },
+  "accentMap": {
+    "á": "a", "à": "a", "â": "a", "ã": "a",
+    "é": "e", "è": "e", "ê": "e", "ë": "e",
+    "í": "i", "ì": "i", "î": "i", "ï": "i",
+    "ó": "o", "ò": "o", "ô": "o", "õ": "o",
+    "ú": "u", "ù": "u", "û": "u", "ü": "u",
+    "ç": "c"
+  },
+  "geoMapping": { "DK": "DA", "SE": "SE", "DE": "DE", "GB": "EN", "US": "EN", "AU": "EN", "CA": "EN" },
+  "weights": { "articles": 0.6, "negations": 0.4, "common": 0.3, "regex": 0.5 }
+}
+{
+  "lang": "DA",
+  "articles": [],
+  "negations": ["ikke"],
+  "common": [
+    "bedst","billig","farve","fliser","garanti","gulv","hej","hvad","hvem","hvilke","hvilken","hvorfor","hvordan",
+    "indendørs","klinker","mål","skrid","størrelse","tag","tak","til","udendørs","væg","æ","ø"
+  ],
+  "regex": { "prefix": [], "suffix": [] },
+  "regexAnchors": {
+    "exclusive": ["\\bhvordan\\b","\\bhvilken\\b","\\bhvilke\\b","\\bhvad\\b","\\bhvorfor\\b","\\bhvem\\b","æ","ø","\\bikke\\b"],
+    "soft": []
+  },
+  "boosters": ["hvilke","leverer","garanti","skridsikring","plader","mål","til","fliserne"],
+  "fallbackTriggers": [],
+  "fallbackExcludes": [],
+  "normalize": { "methods": ["NFD","NFC"], "remove": ["[\\u0301\\u0300\\u0302\\u0303]"] },
+  "accentMap": {
+    "á":"a","à":"a","â":"a","ã":"a","é":"e","è":"e","ê":"e","ë":"e","í":"i","ì":"i","î":"i","ï":"i",
+    "ó":"o","ò":"o","ô":"o","õ":"o","ú":"u","ù":"u","û":"u","ç":"c"
+  },
+  "geoMapping": { "SE":"SE","DK":"DA","DE":"DE","AT":"DE","CH":"DE","GB":"EN","US":"EN","AU":"EN","CA":"EN" },
+  "weights": { "common":0.2,"articles":0.3,"negations":0.2,"regex":0.3,"anchors":0.5,"anchorsSoft":0.25 }
+}

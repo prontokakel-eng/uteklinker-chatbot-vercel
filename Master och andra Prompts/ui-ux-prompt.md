@@ -5,14 +5,16 @@
 
 ## Krav
 - **Komponenter:**  
-  - Inputfält + submit-knapp.  
+  - Inputfält + submit-knapp auto size plus 2 rows for clarity.  
   - Chatfönster med rader för frågeställare + svar.  
-  - Språkvalsknappar (SE/EN/DA/DE).  
+  - Språkvalsknappar (SE/EN/DA/DE).  med flagga 
   - Badge som visar om svaret kom från FAQ eller AI.  
   - Feedbackknappar (👍/👎).  
   - Copy-knapp.  
+  - Thinking dots med ljud = keyboard writing
   - Loader (t.ex. “...” bubbla).  
   - Dark/light-toggle.  
+  - Voice input
 
 - **Teknik:**  
   - Vanilla JS (ingen bundler).  
@@ -28,3 +30,6 @@
 - Skicka alltid kompletta filer (`index.html`, `styles.css`) vid ändringar.  
 - Kommentera ändringar tydligt i koden.  
 - Ändra aldrig logik i API-anrop – UI ska bara konsumera `/api/chat.js`.  
+
+## Mål
+- World Class chatbot som går att kommersialisera 

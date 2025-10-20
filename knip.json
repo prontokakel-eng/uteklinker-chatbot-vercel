@@ -1,0 +1,27 @@
+{
+  "$schema": "https://unpkg.com/knip@latest/schema.json",
+  "entry": ["lib/**/*.js", "scripts/**/*.js"],
+  "ignore": [
+    "archive/**",
+    "tests/**",
+    "public/**",
+    "coverage/**",
+    "api/**",
+    "config/lexicon/**",
+    "build-test-cases-full.mjs",
+    "snapshot.js",
+    "prettier.config.cjs",
+    "madge.config.js",
+    "lib/faq-cache-view.prod.mjs",
+    "load-env.js",
+    "faq-extended/detect-lang-rules.js"
+  ],
+  "ignoreDependencies": [
+    "archiver",
+    "chalk",
+    "cheerio",
+    "csv-parse",
+    "node-fetch",
+    "string-similarity"
+  ]
+}

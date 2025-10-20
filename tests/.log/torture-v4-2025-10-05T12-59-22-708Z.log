@@ -1,0 +1,61 @@
+=== TORTURE V4 START 2025-10-05T12:59:22.709Z ===
+📂 Using test cases: C:\uteklinker-chatbot-vercel\tests\mini-torture-2-questions.json
+🚀 BACKEND mode → https://min-bot.vercel.app/api/chat
+[LANG] Är plattorna halksäkra? → SE (expected SE) 🟩
+↳ Reply: [{"question":"Är plattorna halksäkra?","answer":"Ja, klinkerdäck® har halkskyddade ytor anpassade för utomhusbruk.","score":9.287439764962262e-10},{"question":"Är plattorna säkra för barn att leka på?","answer":"Ja, ytan är halkskyddad och tålig för barnens lek.","score":0.5826177713302312}]
+[LANG] Vilka mått har ni? → SE (expected SE) 🟩
+↳ Reply: [{"question":"Vilka format har ni?","answer":"Vi erbjuder flera olika standardformat i 20 mm tjocklek. Exempel: 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 och fler. Kontakta oss om du vill se hela listan.","score":0.5270462766947299}]
+[LANG] What sizes do you offer? → EN (expected EN) 🟩
+↳ Reply: [{"question":"What sizes do you have in 20 mm?","answer":"Standard sizes include 60x60, 80x80, 90x90, 60x120, 40x120, 100x100 cm. Would you like to see more formats?","score":0.5739057843249643},{"question":"Which countries do you offer standard delivery to?","answer":"Sweden, Denmark, and Germany are standard deliveries.","score":0.6465020801769839}]
+⚠️ PreDetect ≠ ChatDetect { input="Are the tiles slip resistant?", pre=SE (via=heuristic+anchors), chat=EN (via=faq) }
+[LANG] Are the tiles slip resistant? → EN (expected EN) 🟩
+↳ Reply: [{"question":"Are the tiles slip-resistant?","answer":"Yes, klinkerdäck® has slip-resistant surfaces designed for outdoor use.","score":0.18569533817705186},{"question":"Are the tiles UV-resistant?","answer":"Yes, they do not fade from sunlight.","score":0.41522739926869984},{"question":"Are the tiles scratch-resistant?","answer":"Yes, the surface is very scratch-resistant under normal use.","score":0.4913036844405175}]
+[LANG] Kan jeg selv montere det? → DA (expected DA) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+⚠️ PreDetect ≠ ChatDetect { input="Er det frostsikkert?", pre=UNKNOWN (via=heuristic), chat=DA (via=AI_FALLBACK) }
+[LANG] Er det frostsikkert? → DA (expected DA) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+⚠️ PreDetect ≠ ChatDetect { input="Gibt es verschiedene Farben?", pre=UNKNOWN (via=heuristic), chat=DE (via=faq) }
+[LANG] Gibt es verschiedene Farben? → DE (expected DE) 🟩
+↳ Reply: [{"question":"Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?","answer":"Ja, sowohl glatte als auch strukturierte Oberflächen sind verfügbar.","score":0.4951528521397801}]
+⚠️ PreDetect ≠ ChatDetect { input="Sind die Platten rutschfest?", pre=SE (via=heuristic+anchors), chat=DE (via=faq) }
+[LANG] Sind die Platten rutschfest? → DE (expected DE) 🟩
+↳ Reply: [{"question":"Sind die Fliesen rutschfest?","answer":"Ja, klinkerdäck® hat rutschfeste Oberflächen, die für den Außenbereich konzipiert sind.","score":0.3779644730092272}]
+[FUZZY] klinkerdak mått?? → SE (expected SE) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+[FUZZY] klinkerdäck slipp?? → SE (expected SE) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+⚠️ PreDetect ≠ ChatDetect { input="asdkjhqwe123", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[GIBBERISH] asdkjhqwe123 → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+⚠️ PreDetect ≠ ChatDetect { input="!!!!!!?????", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[GIBBERISH] !!!!!!????? → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+⚠️ PreDetect ≠ ChatDetect { input="Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ...................................................", pre=SE (via=regex-exclusive), chat=FILTER (via=filtered-long) }
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga är för lång eller repetitiv utan relevanta ord.
+⚠️ PreDetect ≠ ChatDetect { input="Another very very long nonsense text for sanity-test sanity-test sanity-test …", pre=SE (via=heuristic+anchors), chat=FILTER (via=filtered-long) }
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga är för lång eller repetitiv utan relevanta ord.
+⚠️ PreDetect ≠ ChatDetect { input="cheap viagra online", pre=UNKNOWN (via=heuristic), chat=FILTER (via=blacklist-ALL) }
+[BLOCK] cheap viagra online → FILTER (expected FILTER) 🟩
+↳ Reply: 🚫 Din fråga innehåller blockerade ord.
+⚠️ PreDetect ≠ ChatDetect { input="lottery scam free money", pre=SE (via=heuristic+anchors), chat=FILTER (via=blacklist-ALL) }
+[BLOCK] lottery scam free money → FILTER (expected FILTER) 🟩
+↳ Reply: 🚫 Din fråga innehåller blockerade ord.
+[GREETING] hej → SE (expected SE) 🟩
+↳ Reply: Jag är inte säker på vad du menar, kan du formulera frågan på ett annat sätt?
+[GREETING] hello there → EN (expected EN) 🟩
+↳ Reply: It seems like you're asking something unusual. Could you rephrase?
+⚠️ PreDetect ≠ ChatDetect { input="12345", pre=UNKNOWN (via=heuristic), chat=FILTER (via=gibberish) }
+[RELEVANCE] 12345 → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+⚠️ PreDetect ≠ ChatDetect { input="??!!", pre=UNKNOWN (via=heuristic), chat=FILTER (via=short-text) }
+[RELEVANCE] ??!! → FILTER (expected FILTER) 🟩
+↳ Reply: Din fråga verkar inte innehålla någon relevant text. Försök formulera den tydligare.
+
+🟩 Torture-v4 klart. Totala mismatchar: 0
+{"regex":4,"anchors":9,"whitelist":0,"heuristic":7,"ai":0,"unknown":0}
+⚠️ PreDetect ≠ ChatDetect: 12 fall
+✅ Sheets export ok → tab=TEST_TORT_PROD gid=1995713261
+=== END 2025-10-05T12:59:28.788Z ===

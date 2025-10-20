@@ -1,0 +1,27 @@
+=== MINI TORTURE START 2025-10-05T12:49:23.845Z ===
+🚀 Running MINI torture test
+[SE] Vilka mått har ni? → got=SE via=faq, expected=SE, source=- 🟢
+[SE] Är plattorna halksäkra? → got=SE via=faq, expected=SE, source=- 🟢
+[EN] What sizes do you offer? → got=EN via=faq, expected=EN, source=- 🟢
+[EN] Are the tiles slip resistant? → got=EN via=faq, expected=EN, source=- 🟢
+[DA] Er det frostsikkert? → got=DA via=AI_FALLBACK, expected=DA, source=- 🟢
+[DA] Kan jeg selv montere det? → got=DA via=AI_FALLBACK, expected=DA, source=- 🟢
+[DE] Gibt es verschiedene Farben? → got=DE via=faq, expected=DE, source=- 🟢
+[DE] Sind die Platten rutschfest? → got=DE via=faq, expected=DE, source=- 🟢
+[FUZZY] klinkerdak mått?? → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[FUZZY] klinkerdäck slipp?? → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[GIBBERISH] asdkjhqwe123 → got=FILTER via=gibberish, expected=FILTER, source=- 🟢
+[GIBBERISH] !!!!!!????? → got=FILTER via=short-text, expected=FILTER, source=- 🟢
+[LONG] Det här är en väldigt lång text bara för sanity-test, vi behöver inte 500+ tecken men det räcker att visa att längdfiltret triggas genom att den här strängen är riktigt lång och fortsätter med massa utfyllnad ................................................... → got=FILTER via=filtered-long, expected=FILTER, source=- 🟢
+[LONG] Another very very long nonsense text for sanity-test sanity-test sanity-test … → got=FILTER via=filtered-long, expected=FILTER, source=- 🟢
+[BLOCK] cheap viagra online → got=FILTER via=blacklist-ALL, expected=FILTER, source=- 🟢
+[BLOCK] lottery scam free money → got=FILTER via=blacklist-ALL, expected=FILTER, source=- 🟢
+[GREETING] hej → got=SE via=AI_FALLBACK, expected=SE, source=- 🟢
+[GREETING] hello there → got=EN via=AI_FALLBACK, expected=EN, source=- 🟢
+[RELEVANCE] 12345 → got=FILTER via=gibberish, expected=FILTER, source=- 🟢
+[RELEVANCE] ??!! → got=FILTER via=short-text, expected=FILTER, source=- 🟢
+
+🟩 MINI torture klart. Totala mismatchar: 0
+⚠️ PreDetect≠ChatDetect inte tillämpligt i mini.
+=== END 2025-10-05T12:49:27.981Z ===
+

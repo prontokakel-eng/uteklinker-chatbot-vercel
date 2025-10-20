@@ -1,0 +1,90 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== npm run deadcode ===
+
+> uteklinker-chatbot@1.0.1 deadcode
+> knip --production
+
+
+=== npm run deps:check ===
+
+> uteklinker-chatbot@1.0.1 deps:check
+> depcheck --skip-missing=true
+
+No depcheck issue
+
+=== graph:cycles (API mode) ===
+Ô£à Inga cykler
+
+=== graph:orphans (API mode) ===
+[
+  'ai.js',
+  'blacklist-regex.js',
+  'chatPipeline.js',
+  'detect-lang-rules last ver.js',
+  'faq-dialog.js',
+  'faq-keywords.js',
+  'faq-search.js',
+  'gate.featureflag.2025-10-10_042808.js',
+  'policy.js',
+  'utils-progress.js',
+  'utils.js'
+]
+
+=== node tests/smoke-wlbl.js ===
+(node:24244) V8: file:///C:/uteklinker-chatbot-vercel/tests/smoke-wlbl.js:1 'assert' is deprecated in import statements and support will be removed in a future version; use 'with' instead
+(Use `node --trace-warnings ...` to show where the warning was created)
+=== SMOKE: WL/BL ===
+Ô£à SMOKE WL/BL PASSED
+
+=== node tests/smoke-formats.js ===
+=== SMOKE: FORMATS ===
+Ô£à SMOKE FORMATS PASSED
+
+=== node tests/smoke-gate.js ===
+[filters.log] [2025-10-20T12:00:48.088Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
+=== SMOKE: GATE ===
+[gate.log] [2025-10-20T12:00:48.096Z] Ô£à IP whitelisted: 127.0.0.1
+[filters.log] [2025-10-20T12:00:48.096Z] ­ƒæï Greeting detected: Hello
+[filters.log] [2025-10-20T12:00:48.096Z] ­ƒæï H├ñlsning hanterad (Hello)
+[gate.log] [2025-10-20T12:00:48.097Z] Filter handled (greeting): undefined
+Ô£à SMOKE GATE PASSED
+
+=== node tests/check-healthz.js ===
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\uteklinker-chatbot-vercel\tests\check-healthz.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Module._load (node:internal/modules/cjs/loader:1038:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:164:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v20.19.5
+node:internal/errors:984
+  const err = new Error(message);
+              ^
+
+Error: Command failed: node tests/check-healthz.js
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at run (file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:5:3)
+    at file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:48:1 {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 32004,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v20.19.5

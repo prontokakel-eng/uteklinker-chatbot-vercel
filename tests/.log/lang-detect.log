@@ -1,0 +1,94 @@
+[2025-09-23T07:59:13.686Z] 2025-09-23T07:59:13.685Z | msg="Do you need to seal Klinkerdäck®?" | exp=null | det=EN | via=brand-en-override
+[2025-09-23T07:59:13.689Z] 2025-09-23T07:59:13.689Z | msg="How to clean Klinkerdäck®?" | exp=null | det=EN | via=brand-en-override
+[2025-09-23T07:59:13.689Z] 2025-09-23T07:59:13.689Z | msg="Is Klinkerdäck® frost resistant?" | exp=null | det=EN | via=brand-en-override
+[2025-09-23T07:59:13.690Z] 2025-09-23T07:59:13.690Z | msg="Behöver jag försegla Klinkerdäck®?" | exp=null | det=SE | via=regex
+[2025-09-23T07:59:13.690Z] 2025-09-23T07:59:13.690Z | msg="Brauchen wir Klinkerdäck®?" | exp=null | det=SE | via=regex
+[2025-09-23T07:59:13.691Z] 2025-09-23T07:59:13.691Z | msg="Kan man använda Klinkerdæk på altan?" | exp=null | det=DA | via=regex
+[2025-09-23T08:15:52.754Z] 2025-09-23T08:15:52.753Z | msg="Do you need to seal Klinkerdäck®?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:15:52.756Z] 2025-09-23T08:15:52.756Z | msg="How to clean Klinkerdäck®?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:15:52.756Z] 2025-09-23T08:15:52.756Z | msg="Is Klinkerdäck® frost resistant?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:15:52.757Z] 2025-09-23T08:15:52.757Z | msg="Behöver jag försegla Klinkerdäck®?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:15:52.758Z] 2025-09-23T08:15:52.758Z | msg="Brauchen wir Klinkerdäck®?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:15:52.758Z] 2025-09-23T08:15:52.758Z | msg="Kan man använda Klinkerdæk på altan?" | exp=null | det=DA | via=regex
+
+[2025-09-23T08:16:36.538Z] 2025-09-23T08:16:36.537Z | msg="Behöver jag försegla Klinkerdäck?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.539Z] 2025-09-23T08:16:36.539Z | msg="Hur rengör man uteplattor?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.539Z] 2025-09-23T08:16:36.539Z | msg="Vad kostar Klinkerdäck?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.540Z] 2025-09-23T08:16:36.540Z | msg="Kan man använda på altan?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.541Z] 2025-09-23T08:16:36.541Z | msg="Hur tåliga är klinkerplattorna?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.541Z] 2025-09-23T08:16:36.541Z | msg="måste jag skydda klinkerdäck från frost?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.542Z] 2025-09-23T08:16:36.542Z | msg="finns det olika färger av klinkerplattor?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.542Z] 2025-09-23T08:16:36.542Z | msg="vilka mått har ni?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.543Z] 2025-09-23T08:16:36.543Z | msg="hur lång garanti lämnar ni?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.543Z] 2025-09-23T08:16:36.543Z | msg="är produkten CE-märkt?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.544Z] 2025-09-23T08:16:36.544Z | msg="Do you need to seal Klinkerdäck?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:36.544Z] 2025-09-23T08:16:36.544Z | msg="How to clean outdoor tiles?" | exp=null | det=EN | via=dict
+
+[2025-09-23T08:16:36.545Z] 2025-09-23T08:16:36.545Z | msg="What sizes do you offer?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:36.545Z] 2025-09-23T08:16:36.545Z | msg="Is it frost resistant?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:36.546Z] 2025-09-23T08:16:36.546Z | msg="How durable are the slabs?" | exp=null | det=EN | via=dict
+
+[2025-09-23T08:16:36.546Z] 2025-09-23T08:16:36.546Z | msg="Can I use it on a balcony?" | exp=null | det=EN | via=dict
+
+[2025-09-23T08:16:38.008Z] 2025-09-23T08:16:38.008Z | msg="Are your products certified?" | exp=null | det=EN | via=dict
+
+[2025-09-23T08:16:38.009Z] 2025-09-23T08:16:38.009Z | msg="Do you ship internationally?" | exp=null | det=DE | via=dict
+
+[2025-09-23T08:16:38.010Z] 2025-09-23T08:16:38.010Z | msg="How long does delivery take?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:38.010Z] 2025-09-23T08:16:38.010Z | msg="Skal jeg forsegle Klinkerdæk?" | exp=null | det=DA | via=regex
+
+[2025-09-23T08:16:38.011Z] 2025-09-23T08:16:38.011Z | msg="Hvordan rengør man terrassefliser?" | exp=null | det=DA | via=regex
+
+[2025-09-23T08:16:38.011Z] 2025-09-23T08:16:38.011Z | msg="Er det frostsikkert?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:38.012Z] 2025-09-23T08:16:38.012Z | msg="Kan det bruges på altan?" | exp=null | det=SE | via=regex
+
+[2025-09-23T08:16:39.115Z] 2025-09-23T08:16:39.115Z | msg="Findes der forskellige farver?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.116Z] 2025-09-23T08:16:39.116Z | msg="Er der garanti?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.116Z] 2025-09-23T08:16:39.116Z | msg="Hvor lang er leveringstiden?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.117Z] 2025-09-23T08:16:39.117Z | msg="Er produktet CE-mærket?" | exp=null | det=DA | via=regex
+
+[2025-09-23T08:16:39.117Z] 2025-09-23T08:16:39.117Z | msg="Er klinkerpladerne holdbare?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.118Z] 2025-09-23T08:16:39.118Z | msg="Muss ich Klinkerdach versiegeln?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.118Z] 2025-09-23T08:16:39.118Z | msg="Wie reinigt man Terrassenplatten?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.119Z] 2025-09-23T08:16:39.119Z | msg="Ist es frostsicher?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.119Z] 2025-09-23T08:16:39.119Z | msg="Kann man es auf dem Balkon verwenden?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.120Z] 2025-09-23T08:16:39.120Z | msg="Welche Größen gibt es?" | exp=null | det=DE | via=regex
+
+[2025-09-23T08:16:39.120Z] 2025-09-23T08:16:39.120Z | msg="Gibt es verschiedene Farben?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.120Z] 2025-09-23T08:16:39.120Z | msg="Gibt es eine Garantie?" | exp=null | det=DE | via=dict
+
+[2025-09-23T08:16:39.121Z] 2025-09-23T08:16:39.121Z | msg="Wie lange dauert die Lieferung?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.121Z] 2025-09-23T08:16:39.121Z | msg="Sind die Produkte zertifiziert?" | exp=null | det=DA | via=dict
+
+[2025-09-23T08:16:39.122Z] 2025-09-23T08:16:39.122Z | msg="Sind die Platten langlebig?" | exp=null | det=DA | via=dict
+

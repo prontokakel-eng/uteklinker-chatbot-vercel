@@ -1,0 +1,397 @@
+[2025-10-14T06:10:16.767Z] 🤖 AI fallback aktiverad för input="ping"
+[2025-10-14T06:10:16.769Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:10:16.781Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:10:18.516Z] 🤖 AI svar: "EN"
+[2025-10-14T06:10:43.213Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:43.214Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:43.215Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:43.214Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:48.553Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:48.553Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:48.554Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:48.554Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:53.791Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:53.792Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:53.792Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:53.792Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:59.046Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:59.045Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:10:59.046Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:10:59.046Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:11:24.638Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:11:24.639Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:11:24.639Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:11:24.639Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:16.742Z] 🤖 AI fallback aktiverad för input="ping"
+[2025-10-14T06:16:16.744Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:16:16.756Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:16:17.376Z] 🤖 AI svar: "EN"
+[2025-10-14T06:16:22.960Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:22.960Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:22.961Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:22.960Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:28.156Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:28.157Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:28.157Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:28.157Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:33.276Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:33.277Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:33.277Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:33.278Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:38.498Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:38.499Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:38.499Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:38.499Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:56.385Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:16:56.386Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:56.386Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:16:56.386Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:17:24.900Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:24.901Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:30.241Z] 🔍 Strong marker detected: DA
+[2025-10-14T06:17:30.241Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:30.241Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:30.241Z] 🔍 Strong marker detected: DA
+[2025-10-14T06:17:35.593Z] 🔍 Strong marker detected: DE
+[2025-10-14T06:17:35.594Z] 🔍 Strong marker detected: DE
+[2025-10-14T06:17:35.594Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:35.594Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:40.858Z] ✅ Regex träff: {"lang":"EN","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:17:40.859Z] ✅ Regex träff: {"lang":"EN","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:18:02.423Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:02.425Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:02.438Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:03.916Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:03.918Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:03.934Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:04.089Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:04.779Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:05.073Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:05.075Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:05.090Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:05.463Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:05.466Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:05.479Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:06.371Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:06.546Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:08.125Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:08.127Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:08.140Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:08.497Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:08.499Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:08.513Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:08.659Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:10.644Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:10.646Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:10.660Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:11.074Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:11.076Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:11.089Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:11.228Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:12.652Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:13.667Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:13.669Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:13.684Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:14.046Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:18:14.049Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:18:14.063Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:18:14.948Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:15.114Z] 🤖 AI svar: "EN"
+[2025-10-14T06:18:15.379Z] 🤖 AI svar: "EN"
+[2025-10-14T06:39:12.401Z] 🤖 AI fallback aktiverad för input="ping"
+[2025-10-14T06:39:12.403Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:39:12.416Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:39:13.145Z] 🤖 AI svar: "EN"
+[2025-10-14T06:39:19.618Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:19.619Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:19.619Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:19.619Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:26.253Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:26.254Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:26.254Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:26.254Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:32.936Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:32.938Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:32.938Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:32.938Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:39.694Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:39.695Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:39.696Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:39.695Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:45.154Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:45.155Z] 🔍 Strong marker detected: EN
+[2025-10-14T06:39:45.155Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:45.156Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:51.143Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:39:51.143Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:00.322Z] 🔍 Strong marker detected: DA
+[2025-10-14T06:40:00.323Z] 🔍 Strong marker detected: DA
+[2025-10-14T06:40:00.324Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:00.324Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:13.117Z] 🔍 Strong marker detected: DE
+[2025-10-14T06:40:13.119Z] 🔍 Strong marker detected: DE
+[2025-10-14T06:40:13.119Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:13.119Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:19.209Z] ✅ Regex träff: {"lang":"EN","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:19.209Z] ✅ Regex träff: {"lang":"EN","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-14T06:40:26.042Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:26.045Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:26.059Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:26.228Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:26.226Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:26.242Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:26.308Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:26.311Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:26.326Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:26.377Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:26.379Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:26.395Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:26.494Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:26.496Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:26.511Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:26.813Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:26.990Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:27.219Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:27.342Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:27.674Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:27.959Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:27.961Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:27.975Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:28.767Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:34.918Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:34.920Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:34.933Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:35.482Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:52.962Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:52.964Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:52.976Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:54.044Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:54.046Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:54.061Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:54.570Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:54.630Z] 🤖 AI fallback aktiverad för input="Beton availability?"
+[2025-10-14T06:40:54.632Z] 🔍 OpenAI client origin: System/Powershell (key prefix: sk-proj-r3...)
+[2025-10-14T06:40:54.648Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-14T06:40:54.709Z] 🤖 AI svar: "EN"
+[2025-10-14T06:40:55.502Z] 🤖 AI svar: "EN"
+[2025-10-20T08:27:14.337Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:27:14.339Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:27:14.341Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:27:14.340Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T08:27:14.340Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:27:14.341Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:27:14.341Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:27:14.342Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:27:14.342Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:27:14.342Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:27:14.342Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:27:14.343Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:27:14.343Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:27:14.343Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:27:14.344Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:27:14.344Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:27:14.344Z] 🔍 Strong marker detected: DE
+[2025-10-20T08:29:00.941Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:29:00.944Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:29:00.945Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:29:00.944Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T08:29:00.945Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:29:00.945Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:29:00.945Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:29:00.945Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:29:00.946Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:29:00.946Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:29:00.946Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:29:00.946Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:29:00.947Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:29:00.947Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:29:00.947Z] 🔍 Strong marker detected: DE
+[2025-10-20T08:29:00.947Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:29:00.948Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.428Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:37:28.431Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:37:28.431Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T08:37:28.432Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.432Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:37:28.432Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.432Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:37:28.433Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.433Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:37:28.433Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:37:28.433Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.434Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:37:28.434Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.434Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:37:28.435Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:37:28.435Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:37:28.435Z] 🔍 Strong marker detected: DE
+[2025-10-20T08:38:56.694Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:38:56.697Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T08:38:56.697Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:38:56.698Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:38:56.698Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:38:56.699Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:38:56.699Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:38:56.699Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:38:56.699Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:38:56.700Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:38:56.700Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:38:56.700Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:38:56.700Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:38:56.701Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:38:56.701Z] 🔍 Strong marker detected: DE
+[2025-10-20T08:38:56.701Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:38:56.701Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:47:04.611Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:47:04.613Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T08:47:04.616Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:47:04.613Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T08:47:04.617Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:47:04.617Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:47:04.617Z] 🔍 Strong marker detected: EN
+[2025-10-20T08:47:04.618Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:47:04.619Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:47:04.618Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:47:04.619Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:47:04.619Z] 🔍 Strong marker detected: DA
+[2025-10-20T08:47:04.619Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T08:47:04.619Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:47:04.620Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T08:47:04.620Z] 🔍 Strong marker detected: DE
+[2025-10-20T08:47:04.620Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:38:31.025Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:38:31.028Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:38:31.031Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T09:38:31.032Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:38:31.032Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:38:31.033Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:38:31.033Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:38:31.033Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:38:31.034Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:38:31.034Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:38:31.035Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:38:31.035Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:38:31.034Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:38:31.035Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:38:31.035Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:38:31.036Z] 🔍 Strong marker detected: DE
+[2025-10-20T09:38:31.036Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:41:11.097Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:41:11.100Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:41:11.100Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T09:41:11.101Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:41:11.101Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:41:11.102Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:41:11.102Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:41:11.102Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:41:11.103Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:41:11.103Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:41:11.103Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:41:11.104Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:41:11.104Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:41:11.104Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:41:11.105Z] 🔍 Strong marker detected: DE
+[2025-10-20T09:41:11.105Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:41:11.105Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:43:52.425Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:43:52.429Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:43:52.428Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:43:52.428Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T09:43:52.429Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:43:52.429Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:43:52.430Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:43:52.430Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:43:52.430Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:43:52.431Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:43:52.431Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:43:52.431Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:43:52.431Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:43:52.432Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:43:52.432Z] 🔍 Strong marker detected: DE
+[2025-10-20T09:43:52.432Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:43:52.432Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:48:19.525Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:48:19.528Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:48:19.527Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:48:19.527Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T09:48:19.528Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:48:19.531Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:48:19.531Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:48:19.531Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:48:19.532Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:48:19.532Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:48:19.532Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:48:19.532Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:48:19.533Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:48:19.533Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:48:19.533Z] 🔍 Strong marker detected: DE
+[2025-10-20T09:48:19.533Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:48:19.534Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:55:39.022Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:55:39.025Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:55:39.026Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:55:39.025Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T09:55:39.026Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:55:39.027Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:55:39.027Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:55:39.027Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:55:39.028Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:55:39.027Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:55:39.028Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:55:39.028Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:55:39.028Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:55:39.029Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:55:39.029Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:55:39.029Z] 🔍 Strong marker detected: DE
+[2025-10-20T09:55:39.029Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:58:16.054Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:58:16.056Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T09:58:16.057Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:58:16.056Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T09:58:16.057Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:58:16.057Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:58:16.057Z] 🔍 Strong marker detected: EN
+[2025-10-20T09:58:16.058Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:58:16.060Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:58:16.061Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:58:16.061Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:58:16.061Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T09:58:16.061Z] 🔍 Strong marker detected: DA
+[2025-10-20T09:58:16.062Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:58:16.062Z] 🔍 Strong marker detected: DE
+[2025-10-20T09:58:16.062Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T09:58:16.062Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.817Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T10:03:04.819Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T10:03:04.820Z] 🔍 Strong marker detected: EN
+[2025-10-20T10:03:04.820Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T10:03:04.823Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.823Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.824Z] 🔍 Strong marker detected: EN
+[2025-10-20T10:03:04.824Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.824Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T10:03:04.825Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.825Z] 🔍 Strong marker detected: DA
+[2025-10-20T10:03:04.825Z] 🔍 Strong marker detected: DA
+[2025-10-20T10:03:04.825Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.826Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T10:03:04.826Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T10:03:04.826Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:03:04.826Z] 🔍 Strong marker detected: DE
+[2025-10-20T10:06:32.916Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T10:06:32.918Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.5}
+[2025-10-20T10:06:32.919Z] 🔍 Strong marker detected: EN
+[2025-10-20T10:06:32.919Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-20T10:06:32.920Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:06:32.920Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:06:32.920Z] 🔍 Strong marker detected: EN
+[2025-10-20T10:06:32.921Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:06:32.921Z] ⬅️ Default return: {"lang":"DA","via":"heuristic-group","confidence":0.4}
+[2025-10-20T10:06:32.921Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:06:32.921Z] 🔍 Strong marker detected: DA
+[2025-10-20T10:06:32.922Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-20T10:06:32.922Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T10:06:32.923Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-20T10:06:32.922Z] 🔍 Strong marker detected: DA
+[2025-10-20T10:06:32.923Z] 🔍 Strong marker detected: DE
+[2025-10-20T10:06:32.923Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}

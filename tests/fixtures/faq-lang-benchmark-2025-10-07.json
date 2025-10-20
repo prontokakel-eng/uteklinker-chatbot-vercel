@@ -1,0 +1,7618 @@
+[
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Lava?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Albero?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Alpine?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Anniversario?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Antique?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Ardesia?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Argresia?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Beton?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Cemento?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Cortina?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Grotta?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Iris?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Kvarts?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Manhattan?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Materia?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Meteo?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Mista?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Nature?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Nordique?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Quartz?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Roccia?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Slate?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Stella?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Stone?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Strada?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Travertin?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Trentino?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Vintage?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Konjak?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka mått finns klinkerdäck® i?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns tillgängliga?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilken vikt har en platta?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket material tillverkas klinkerdäck® av?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Har plattorna någon CE-märkning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns det olika ytstrukturer (släta, strukturerade)?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns det tekniska datablad att ladda ner?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna resistenta mot kemikalier?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka toleranser gäller för mått och form?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man lägga plattorna direkt på grus?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Måste man limma plattorna vid installation?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna läggas på en träaltan?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man kapa plattorna själv?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka verktyg rekommenderas för kapning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man lägga plattorna på en balkong?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Behöver man distanskryss när man lägger plattorna?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man lägga plattorna inomhus?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Fungerar plattorna på lutande underlag?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur rengör man plattorna bäst?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man använda högtryckstvätt på plattorna?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Behöver plattorna behandlas med impregnering?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur tar man bort mossa och alger från plattorna?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur påverkas plattorna av salt på vintern?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna missfärgas av vin, olja eller andra fläckar?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Krävs det speciell vinterförvaring?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "heuristic-group",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång livslängd har plattorna?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna slipas eller renoveras?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna halksäkra?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är klinkerdäck® brandsäkert?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man använda plattorna vid poolområden?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna säkra för barn att leka på?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan äldre personer gå säkert på plattorna?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur testas halksäkerheten?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna bli hala vid isbildning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns det någon garanti på halkskyddet?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man använda halkskyddstejp tillsammans med plattorna?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång är livslängden på klinkerdäck®?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna UV-beständiga?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Tål plattorna frost och kyla?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "heuristic-group",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna resistenta mot slitage?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man använda plattorna i offentliga miljöer?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Tål plattorna kemikalier?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna reptåliga?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur påverkas plattorna av tung belastning?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång garanti ges på hållbarheten?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är klinkerdäck® miljövänligt?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna återvinningsbara?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Tillverkas produkterna i Sverige?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man använda plattorna inomhus?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Passar klinkerdäck® till poolområden?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna användas på balkong?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man använda plattorna i kommersiella lokaler?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur påverkar produktionen miljön?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är produkterna certifierade för miljöbyggnation?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Levererar ni i hela Sverige?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Levererar ni till Danmark och Tyskland?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Levererar ni till Finland?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Levererar ni till Storbritannien?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Levererar ni utanför EU?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång är leveranstiden normalt?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vad kostar frakten?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man boka tid för leverans?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man hämta plattorna själv i lager?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vad kostar klinkerdäck® per kvadratmeter?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan man få offert på större projekt?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Erbjuder ni delbetalning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilken tjocklek har plattorna?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns plattorna med fasad kant?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur stor är kalibreringstoleransen?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur stor fogbredd rekommenderar ni?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns plattorna i matt eller halvmatt yta?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur packas plattorna på pall?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka kulörer är mest färgstabila över tid?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns produktcertifikat och provningsprotokoll?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "FAIL"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket fall bör underlaget ha för dränering?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag lägga plattorna på befintlig betongplatta?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Behöver jag frostskyddslager under plattorna?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "heuristic-group",
+    "status": "FAIL"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilken fog rekommenderas mellan plattorna?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur hanterar jag rörelsefogar?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna läggas på justerbara fötter?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket mönster är enklast att lägga?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur avslutar jag mot kanter och rabatter?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur ofta bör man städa en uteplats med klinkerdäck®?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur tar jag bort oljefläckar?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag använda ättika eller syror vid rengöring?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur förebygger jag gröna beläggningar?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag skotta snö med metallskyffel?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur rengör jag fogarna utan att skada dem?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Behöver jag efterbehandla plattorna efter vintern?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur tar jag bort rostfläckar?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Blir plattorna mycket varma i direkt solljus?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är ytan halksäker när den är blöt?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är produkten säker kring grill och gnistor?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan kanterna upplevas vassa?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns rekommendationer för belysning av trappsteg?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är plattorna lämpliga för rullator och rullstol?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Påverkas halksäkerheten av pollen och smuts?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Behövs skyddsutrustning vid kapning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur tåliga är plattorna mot repor från möbelben?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Tål plattorna cykelställ och barnleksaker?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "heuristic-group",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur påverkas färgen över tid?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Klarar plattorna snabba temperaturväxlingar?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan tunga krukor och grillar stå på plattorna?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur påverkas ytan av vägsalt?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång teknisk livslängd kan man räkna med?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna spricka?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är klinkerdäck® återvinningsbart?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns miljövarudeklaration (EPD)?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Passar plattorna för takterrasser?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna användas i entréer inomhus?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Är produkten lämplig i marina miljöer?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan plattorna kombineras med trä och natursten?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns rekommendationer för ljuddämpning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Lämpar sig plattorna för uteserveringar?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka länder har ni som standardleverans?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan ni leverera till andra EU-länder?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka leveranssätt används?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag få kvällsleverans?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång är normal leveranstid?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur levereras varorna – på pall?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur beräknas pris per m²?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Erbjuder ni volymrabatter?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka betalningsmetoder accepterar ni?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Går det att delbetala?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Ingår frakt i priset?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "FAIL"
+  },
+  {
+    "expected": "SE",
+    "input": "Har ni prisgaranti?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kostar provplattor något?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur länge gäller en offert?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag ångra köpet?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur returnerar jag överblivna plattor?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vem står för returfrakten?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur snabbt måste transportskada anmälas?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur hanteras produktionsfel?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan specialbeställda varor returneras?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång tid tar en återbetalning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag byta kulör efter leverans?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur kontaktar jag er för rådgivning?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan ni räkna på materialåtgång?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Erbjuder ni projekteringsstöd?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur lång är normal svarstid från kundservice?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan ni rekommendera montörer?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka handlingar är bra att ha när jag frågar om offert?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Finns support efter leverans?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan vi boka ett videomöte?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Har ni exempelbilder på uteplatser med klinkerdäck®?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag få hjälp att välja mönster?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Passar plattorna ihop med trädetaljer och stål?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag provlägga några plattor innan köp?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Kan jag använda möbeltassar på plattorna?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur ofta bör fogarna efterfyllas?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka storlekar finns i 20 mm tjocklek?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 100x100 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 80x80 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 60x60 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 60x120 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 40x120 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 80.0x80.0 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 60.4x60.4 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 120.8x120.8 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 60.4x120.8 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur många fötter behövs per m² för plattor i storlek 90x90 cm 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format har ni?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Jag letar en platta som är typ 60x60 – vilka format ligger närmast?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Jag letar en platta som är typ 80x80 – vilka format ligger närmast?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka storlekar har ni i 20 mm?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Har ni förslag på läggningsmönster för 20 mm plattor?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Jag har 35 m² av 60x60 cm – hur många fötter behöver jag?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Hur räknar jag antal fötter per m² för en viss plattstorlek?",
+    "detected": "SE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka höjder på fötter har ni?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Jag har en specifik höjd, t.ex. 40 mm eller 355 mm, vilken fot ska jag välja?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Adjustment Key?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Slope Corrector 0-5%?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Spacer Tabs 2/3/4 mm?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Pocket Key?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Twist Lock Ring?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Fix Ring?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Dome Extension 25 mm?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilket tillbehör används: Prolunga PBP10 100 mm?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Uteklinker?",
+    "detected": "SE",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka färger finns i serien Träklinker?",
+    "detected": "SE",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Lava?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Albero?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Alpine?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Anniversario?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Antique?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Ardesia?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Argresia?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Beton?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Cemento?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Cortina?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Grotta?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Iris?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Kvarts?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Manhattan?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Materia?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Meteo?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Mista?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Nature?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Nordique?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Quartz?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Roccia?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Slate?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Stella?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Stone?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Strada?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Travertin?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Trentino?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Vintage?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "SE",
+    "input": "Vilka format finns i serien Konjak?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Lava series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Albero series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Alpine series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Anniversario series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Antique series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Ardesia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Argresia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Beton series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Cemento series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Cortina series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Grotta series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Iris series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Kvarts series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Manhattan series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Materia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Meteo series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Mista series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Nature series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Nordique series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Quartz series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Roccia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Slate series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Stella series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Stone series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Strada series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Travertin series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Trentino series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Vintage series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Konjak series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What sizes are klinkerdäck® available in?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the weight of a plate?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What material is klinkerdäck® made of?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do the tiles have any CE marking?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are there different surface textures (smooth, structured)?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are there technical data sheets available for download?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles resistant to chemicals?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What tolerances apply to dimensions and shape?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you lay the tiles directly on gravel?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do the tiles need to be glued during installation?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be laid on a wooden deck?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you cut the tiles yourself?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What tools are recommended for cutting?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be placed on a balcony?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you need spacers when laying the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be installed indoors?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do the tiles work on sloped surfaces?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do you best clean the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you use a pressure washer on the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do the tiles need to be treated with impregnation?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do you remove moss and algae from the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How are the tiles affected by salt in the winter?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be discolored by wine, oil, or other stains?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is special winter storage required?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the lifespan of the plates?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be sanded or renovated?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles slip-resistant?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is klinkerdäck® fireproof?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be used in pool areas?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles safe for children to play on?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can older people walk safely on the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How is slip resistance tested?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles become slippery when ice forms?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is there a warranty on the anti-slip protection?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can anti-slip tape be used with the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the lifespan of klinkerdäck®?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles UV-resistant?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles resistant to frost and cold?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles resistant to wear?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be used in public environments?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles resistant to chemicals?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles scratch-resistant?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How are the tiles affected by heavy loads?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the warranty period for durability?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is klinkerdäck® environmentally friendly?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles recyclable?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the products manufactured in Sweden?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be used indoors?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is klinkerdäck® suitable for pool areas?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be used on a balcony?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be used in commercial premises?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How does production affect the environment?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the products certified for environmentally friendly construction?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you deliver throughout Sweden?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you deliver to Denmark and Germany?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you deliver to Finland?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you deliver to the United Kingdom?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you deliver outside the EU?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the normal delivery time?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the shipping cost?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you schedule a delivery time?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you pick up the tiles yourself in the warehouse?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the cost of klinkerdäck® per square meter?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I get a quote for larger projects?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you offer installment payments?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the thickness of the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles available with a beveled edge?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the calibration tolerance?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What joint width do you recommend?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles available in matte or semi-matte finish?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How are the tiles packed on a pallet?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which colors are the most color-stable over time?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are product certificates and test reports available?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "heuristic-group",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What slope should the base have for drainage?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I lay the tiles on an existing concrete slab?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do I need a frost protection layer under the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What grout is recommended between the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I manage expansion joints?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be laid on adjustable feet?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which pattern is the easiest to lay?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I finish against edges and borders?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How often should you clean a patio with klinkerdäck®?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I remove oil stains?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I use vinegar or acids for cleaning?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I prevent green deposits?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I shovel snow with a metal shovel?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I clean the grout without damaging it?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do I need to treat the tiles after winter?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I remove rust stains?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do the tiles get very hot in direct sunlight?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is the surface slip-resistant when wet?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is the product safe around the grill and sparks?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the edges be perceived as sharp?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are there recommendations for lighting stair steps?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles suitable for walkers and wheelchairs?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is slip resistance affected by pollen and dirt?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is protective equipment needed during cutting?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How resistant are the tiles to scratches from furniture legs?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles resistant to bike racks and children's toys?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How does the color change over time?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the plates withstand rapid temperature changes?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can heavy pots and grills be placed on the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How is the surface affected by road salt?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the expected technical lifespan?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles crack?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is klinkerdäck® recyclable?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is there an Environmental Product Declaration (EPD)?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles suitable for roof terraces?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be used in indoor entrances?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is the product suitable for marine environments?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can the tiles be combined with wood and natural stone?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are there recommendations for soundproofing?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Are the tiles suitable for outdoor dining areas?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which countries do you offer standard delivery to?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you deliver to other EU countries?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What delivery methods are used?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I get evening delivery?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the normal delivery time?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How are the goods delivered – on a pallet?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How is the price per m² calculated?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you offer volume discounts?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What payment methods do you accept?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is it possible to pay in installments?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is shipping included in the price?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you have a price guarantee?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do sample tiles cost anything?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How long is a quote valid?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I cancel the purchase?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I return leftover tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Who is responsible for the return shipping?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How quickly must a transport damage be reported?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How are production defects handled?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can custom-ordered items be returned?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How long does a refund take?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I change the color after delivery?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I contact you for advice?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you calculate the material consumption?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you offer design support?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What is the typical response time from customer service?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can you recommend installers?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What documents are good to have when I request a quote?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Is there support after delivery?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can we schedule a video meeting?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you have example images of patios with klinkerdäck®?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I get help choosing a pattern?",
+    "detected": "EN",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do the tiles match with wood details and steel?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I try laying some tiles before purchasing?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Can I use furniture pads on the tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How often should the joints be refilled?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What sizes are available in 20 mm thickness?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles sized 100x100 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles in size 80x80 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles sized 60x60 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles in size 60x120 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles in size 40x120 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles in size 80.0x80.0 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles sized 60.4x60.4 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles sized 120.8x120.8 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles sized 60.4x120.8 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How many feet are needed per m² for tiles in size 90x90 cm 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats do you have?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "I'm looking for a tile that's about 60x60 – which formats are closest?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "I'm looking for a tile that's about 80x80 – which formats are the closest?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What sizes do you have in 20 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Do you have suggestions for laying patterns for 20 mm tiles?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "I have 35 m² of 60x60 cm – how many feet do I need?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "How do I calculate the number of tiles per m² for a specific tile size?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What heights of feet do you have?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "I have a specific height, e.g., 40 mm or 355 mm, which foot should I choose?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Adjustment Key?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Slope Corrector 0-5%?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Spacer Tabs 2/3/4 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Pocket Key?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Twist Lock Ring?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Fix Ring?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Dome Extension 25 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "Which accessory is used: Prolunga PBP10 100 mm?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Uteklinker series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What colors are available in the Träklinker series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Lava series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Albero series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Alpine series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Anniversario series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Antique series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Ardesia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Argresia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Beton series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Cemento series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Cortina series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Grotta series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Iris series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Kvarts series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Manhattan series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Materia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Meteo series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Mista series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Nature series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Nordique series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Quartz series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Roccia series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Slate series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Stella series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Stone series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Strada series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Travertin series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Trentino series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Vintage series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "EN",
+    "input": "What formats are available in the Konjak series?",
+    "detected": "EN",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Lava-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Albero-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Alpine-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Anniversario-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Antique-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Ardesia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Argresia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Beton-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Cemento-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Cortina-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Grotta-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Iris-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Kvarts-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Manhattan-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Materia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Meteo-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Mista-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Nature-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Nordique-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Quartz-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Roccia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Slate-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Stella-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Stone-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Strada-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Travertin-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Trentino-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Vintage-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Konjak-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke størrelser fås klinkerdäck® i?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad vejer en tallerken?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket materiale er klinkerdäck® lavet af?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Har fliserne nogen CE-mærkning?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der forskellige overfladeteksturer (glat, struktureret)?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der tekniske datablad tilgængelige for download?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne modstandsdygtige over for kemikalier?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke tolerancer gælder for dimensioner og form?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan du lægge fliserne direkte på grus?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Skal fliserne limes under installationen?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne lægges på et trædæk?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan du selv skære fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke værktøjer anbefales til skæring?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne placeres på en altan?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Skal du bruge afstandsstykker, når du lægger fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne installeres indendørs?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Fungerer fliserne på skrånende overflader?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan rengør man bedst fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan man bruge en højtryksrenser på fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Skal fliserne behandles med imprægnering?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan fjerner man mos og alger fra fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan påvirkes fliserne af salt om vinteren?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne misfarves af vin, olie eller andre pletter?",
+    "detected": "DA",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kræves der særlig vinteropbevaring?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er levetiden for tallerkenerne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne slibes eller renoveres?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne skridsikre?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er klinkerdäck® brandsikkert?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne bruges i poolområder?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne sikre for børn at lege på?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan ældre mennesker gå sikkert på fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan testes skridsikkerhed?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne blive glatte, når der dannes is?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der garanti på skridsikringen?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan skridsikkert tape bruges med fliserne?",
+    "detected": "DA",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er levetiden for klinkerdäck®?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne UV-resistente?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne modstandsdygtige over for frost og kulde?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne modstandsdygtige over for slid?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne bruges i offentlige miljøer?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne modstandsdygtige over for kemikalier?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne ridsefaste?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan påvirkes fliserne af tunge belastninger?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er garantiperioden for holdbarhed?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er klinkerdäck® miljøvenligt?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne genanvendelige?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er produkterne fremstillet i Sverige?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne bruges indendørs?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er klinkerdäck® egnet til poolområder?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne bruges på en altan?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne bruges i erhvervslokaler?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan påvirker produktion miljøet?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er produkterne certificeret til miljøvenligt byggeri?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Leverer I i hele Sverige?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Leverer I til Danmark og Tyskland?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Leverer I til Finland?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Leverer I til Storbritannien?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Leverer I uden for EU?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er den normale leveringstid?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er forsendelsesomkostningerne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan du planlægge et leveringstidspunkt?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan du selv hente fliserne på lageret?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er prisen på klinkerdäck® per kvadratmeter?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg få et tilbud på større projekter?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Tilbyder I afbetalingsordninger?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er tykkelsen på fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne tilgængelige med en skrå kant?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er kalibreringstolerancen?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilken fugebredde anbefaler I?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne tilgængelige i mat eller semi-mat finish?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan er fliserne pakket på en palle?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er de mest farvestabile over tid?",
+    "detected": "DA",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er produktcertifikater og testrapporter tilgængelige?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilken hældning skal basen have for dræning?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg lægge fliserne på en eksisterende betonplade?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Skal jeg bruge et frostbeskyttelseslag under fliserne?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilken fugemasse anbefales mellem fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan håndterer jeg ekspansionsfuger?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne lægges på justerbare fødder?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket mønster er det nemmeste at lægge?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan afslutter jeg mod kanter og grænser?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor ofte bør du rengøre en terrasse med klinkerdäck®?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan fjerner jeg olieflekker?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg bruge eddike eller syrer til rengøring?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan forhindrer jeg grønne belægninger?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg skovle sne med en metalskovl?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan rengør jeg fugerne uden at beskadige dem?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Skal jeg behandle fliserne efter vinteren?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan fjerner jeg rustpletter?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Bliver fliserne meget varme i direkte sollys?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er overfladen skridsikker, når den er våd?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er produktet sikkert omkring grillen og gnister?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan kanterne opfattes som skarpe?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der anbefalinger til belysning af trappetrin?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne egnede til gående og kørestole?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er skridsikkerhed påvirket af pollen og snavs?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der behov for beskyttelsesudstyr under skæring?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor modstandsdygtige er fliserne over for ridser fra møbelben?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne modstandsdygtige over for cykelstativer og børnelegetøj?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan ændrer farven sig over tid?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan tallerkenerne modstå hurtige temperaturændringer?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan tunge gryder og grill placeres på fliserne?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan påvirkes overfladen af vejsalt?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er den forventede tekniske levetid?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne revne?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Er klinkerdäck® genanvendelig?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der en Miljøvaredeklaration (EPD)?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne egnede til tagterrasser?",
+    "detected": "DA",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne bruges i indendørs indgange?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er produktet egnet til marine miljøer?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan fliserne kombineres med træ og natursten?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der anbefalinger til lydisolering?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fliserne velegnede til udendørs spiseområder?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke lande tilbyder I standardlevering til?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan I levere til andre EU-lande?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke leveringsmetoder anvendes?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg få aftenlevering?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er den normale leveringstid?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan leveres varerne – på en palle?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan beregnes prisen pr. m²?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Tilbyder I mængderabatter?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke betalingsmetoder accepterer I?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er det muligt at betale i rater?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er fragt inkluderet i prisen?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Har I en prisgaranti?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Koster prøvetagning af fliser noget?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor længe er et tilbud gyldigt?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg annullere købet?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan returnerer jeg overskydende fliser?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvem er ansvarlig for returforsendelsen?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor hurtigt skal en transportskade rapporteres?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan håndteres produktionsfejl?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan specialbestilte varer returneres?",
+    "detected": "EN",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor lang tid tager en refundering?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg ændre farven efter levering?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan kontakter jeg jer for rådgivning?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan du beregne materialeforbruget?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Tilbyder I designstøtte?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvad er den typiske svartid fra kundeservice?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan du anbefale installatører?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke dokumenter er gode at have, når jeg anmoder om et tilbud?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Er der support efter levering?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan vi planlægge et videomøde?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Har I eksempler på billeder af terrasser med klinkerdäck®?",
+    "detected": "SE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "FAIL"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg få hjælp til at vælge et mønster?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Matcher fliserne med trædetaljer og stål?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg prøve at lægge nogle fliser, før jeg køber dem?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Kan jeg bruge møbelpuder på fliserne?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor ofte skal fugerne genopfyldes?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke størrelser er tilgængelige i 20 mm tykkelse?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 100x100 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er der brug for pr. m² til fliser i størrelsen 80x80 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fliser er der brug for pr. m² til fliser i størrelsen 60x60 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelse 60x120 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 40x120 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er der brug for pr. m² til fliser i størrelse 80.0x80.0 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er der brug for pr. m² for fliser i størrelsen 60.4x60.4 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fliser er der brug for pr. m² til fliser i størrelsen 120.8x120.8 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fliser er der brug for pr. m² for fliser i størrelsen 60.4x120.8 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvor mange fødder er nødvendige pr. m² for fliser i størrelsen 90x90 cm 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater har I?",
+    "detected": "DA",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Jeg leder efter en flise, der er omkring 60x60 – hvilke formater er tættest på?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Jeg leder efter en flise, der er omkring 80x80 – hvilke formater er de tætteste?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke størrelser har I i 20 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Har I forslag til læggemønstre for 20 mm fliser?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Jeg har 35 m² af 60x60 cm – hvor mange fødder har jeg brug for?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvordan beregner jeg antallet af fliser pr. m² for en specifik flisestørrelse?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke højder af fødder har I?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Jeg har en specifik højde, f.eks. 40 mm eller 355 mm, hvilken fod skal jeg vælge?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Adjustment Key?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Slope Corrector 0-5%?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Spacer Tabs 2/3/4 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Pocket Key?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Twist Lock Ring?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Fix Ring?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Dome Extension 25 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilket tilbehør bruges: Prolunga PBP10 100 mm?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Uteklinker-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke farver er tilgængelige i Träklinker-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Lava-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Albero-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Alpine-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Anniversario-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Antique-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Ardesia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Argresia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Beton-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Cemento-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Cortina-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Grotta-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Iris-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Kvarts-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Manhattan-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Materia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Meteo-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Mista-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Nature-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Nordique-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Quartz-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Roccia-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Slate-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Stella-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Stone-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Strada-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Travertin-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Trentino-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Vintage-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DA",
+    "input": "Hvilke formater er tilgængelige i Konjak-serien?",
+    "detected": "DA",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Lava-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Albero-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Alpine-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Anniversario-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Antique-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Ardesia-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Argresia-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Beton-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Serie Cemento erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Cortina-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Grotta-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Iris-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Kvarts-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Manhattan-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Materia-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Meteo-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Mista-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Nature-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Nordique-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Quartz-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Roccia-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Slate-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Stella-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Stone-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Strada-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Travertin-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Trentino-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Vintage-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Konjak-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "In welchen Größen ist klinkerdäck® erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie schwer ist ein Teller?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Aus welchem Material besteht klinkerdäck®?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Haben die Fliesen eine CE-Kennzeichnung?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es verschiedene Oberflächentexturen (glatt, strukturiert)?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es technische Datenblätter zum Herunterladen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen chemikalienbeständig?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Toleranzen gelten für Maße und Form?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie die Fliesen direkt auf Kies verlegen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Müssen die Fliesen während der Installation geklebt werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen auf einem Holzdeck verlegt werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie die Fliesen selbst schneiden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Werkzeuge werden zum Schneiden empfohlen?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen auf einem Balkon verlegt werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Benötigen Sie Abstandshalter beim Verlegen der Fliesen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen im Innenbereich installiert werden?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Funktionieren die Fliesen auf geneigten Flächen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie reinigt man Fliesen am besten?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann man einen Hochdruckreiniger auf den Fliesen verwenden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Müssen die Fliesen mit Imprägnierung behandelt werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie entfernt man Moos und Algen von den Fliesen?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie werden die Fliesen im Winter durch Salz beeinflusst?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen durch Wein, Öl oder andere Flecken verfärbt werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist eine spezielle Winterlagerung erforderlich?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie lange ist die Lebensdauer der Teller?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen geschliffen oder renoviert werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen rutschfest?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist klinkerdäck® feuerfest?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen in Poolbereichen verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen sicher für Kinder zum Spielen?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können ältere Menschen sicher auf den Fliesen gehen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie wird die Rutschfestigkeit getestet?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen rutschig werden, wenn sich Eis bildet?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es eine Garantie auf den Rutschschutz?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann Anti-Rutsch-Band mit den Fliesen verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Was ist die Lebensdauer von klinkerdäck®?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen UV-beständig?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen frost- und kältebeständig?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen verschleißfest?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen in öffentlichen Umgebungen verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen chemikalienbeständig?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen kratzfest?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie werden die Fliesen durch schwere Lasten beeinflusst?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie lange ist die Garantiezeit für die Haltbarkeit?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist klinkerdäck® umweltfreundlich?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen recycelbar?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Werden die Produkte in Schweden hergestellt?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen im Innenbereich verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist klinkerdäck® für Poolbereiche geeignet?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen auf einem Balkon verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen in Geschäftsräumen verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie wirkt sich die Produktion auf die Umwelt aus?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Produkte für umweltfreundliches Bauen zertifiziert?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Liefern Sie in ganz Schweden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Liefern Sie nach Dänemark und Deutschland?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Liefern Sie nach Finnland?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Liefern Sie in das Vereinigte Königreich?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Liefern Sie auch außerhalb der EU?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Was ist die normale Lieferzeit?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie hoch sind die Versandkosten?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie eine Lieferzeit vereinbaren?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie die Fliesen selbst im Lager abholen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Was kostet klinkerdäck® pro Quadratmeter?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich ein Angebot für größere Projekte erhalten?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Bieten Sie Ratenzahlungen an?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie dick sind die Fliesen?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen mit einer abgeschrägten Kante erhältlich?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Was ist die Kalibrierungstoleranz?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Fugenbreite empfehlen Sie?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen in matter oder halbmatten Ausführung erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie werden die Fliesen auf einer Palette verpackt?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind im Laufe der Zeit am farbstabilsten?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind Produktzertifikate und Prüfberichte verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Gefälle sollte die Basis für die Entwässerung haben?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich die Fliesen auf einer vorhandenen Betonplatte verlegen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Benötige ich eine Frostschutzschicht unter den Fliesen?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welcher Fugenmörtel wird zwischen den Fliesen empfohlen?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie verwalte ich Dehnungsfugen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen auf verstellbaren Füßen verlegt werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Muster lässt sich am einfachsten verlegen?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie bearbeite ich Kanten und Ränder?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie oft sollte man eine Terrasse mit klinkerdäck® reinigen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie entferne ich Ölflecken?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich Essig oder Säuren zum Reinigen verwenden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie kann ich Grünbeläge verhindern?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich mit einer Metallschaufel Schnee schaufeln?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie reinige ich die Fugen, ohne sie zu beschädigen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Muss ich die Fliesen nach dem Winter behandeln?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie entferne ich Rostflecken?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Werden die Fliesen in direktem Sonnenlicht sehr heiß?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist die Oberfläche rutschfest, wenn sie nass ist?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist das Produkt sicher in der Nähe des Grills und Funken?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Kanten als scharf wahrgenommen werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es Empfehlungen zur Beleuchtung von Treppenstufen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen für Rollatoren und Rollstühle geeignet?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wird die Rutschfestigkeit durch Pollen und Schmutz beeinträchtigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wird beim Schneiden eine Schutzausrüstung benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie widerstandsfähig sind die Fliesen gegen Kratzer von Möbelbeinen?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen widerstandsfähig gegen Fahrradständer und Kinderspielzeug?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie ändert sich die Farbe im Laufe der Zeit?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Teller schnellen Temperaturänderungen standhalten?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können schwere Töpfe und Grills auf den Fliesen platziert werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie wird die Oberfläche durch Streusalz beeinflusst?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie lang ist die erwartete technische Lebensdauer?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen Risse bekommen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist klinkerdäck® recycelbar?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es eine Umweltproduktdeklaration (EPD)?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen für Dachterrassen geeignet?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen in Innenbereichen von Eingängen verwendet werden?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist das Produkt für marine Umgebungen geeignet?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können die Fliesen mit Holz und Naturstein kombiniert werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es Empfehlungen zur Schalldämmung?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Sind die Fliesen für Außenbereiche geeignet?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "In welche Länder bieten Sie Standardlieferung an?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie in andere EU-Länder liefern?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Liefermethoden werden verwendet?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich eine Abendlieferung erhalten?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Was ist die normale Lieferzeit?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie werden die Waren geliefert – auf einer Palette?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie wird der Preis pro m² berechnet?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Bieten Sie Mengenrabatte an?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Zahlungsmethoden akzeptieren Sie?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist es möglich, in Raten zu zahlen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ist der Versand im Preis inbegriffen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Haben Sie eine Preisgarantie?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kosten Musterfliesen etwas?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie lange ist ein Angebot gültig?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich den Kauf stornieren?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie kann ich übrig gebliebene Fliesen zurückgeben?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wer ist für den Rückversand verantwortlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie schnell muss ein Transportschaden gemeldet werden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie werden Produktionsfehler behandelt?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können individuell bestellte Artikel zurückgegeben werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie lange dauert eine Rückerstattung?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich die Farbe nach der Lieferung ändern?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie kann ich Sie für eine Beratung kontaktieren?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie den Materialverbrauch berechnen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Bieten Sie Designunterstützung an?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie ist die typische Antwortzeit des Kundenservice?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können Sie Installateure empfehlen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Dokumente sind gut zu haben, wenn ich ein Angebot anfordere?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Gibt es Unterstützung nach der Lieferung?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Können wir ein Videomeeting planen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Haben Sie Beispielbilder von Terrassen mit klinkerdäck®?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich Hilfe bei der Auswahl eines Musters bekommen?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Passen die Fliesen zu Holzelementen und Stahl?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich einige Fliesen ausprobieren, bevor ich sie kaufe?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Kann ich Möbelunterlagen auf den Fliesen verwenden?",
+    "detected": "DE",
+    "confidence": 0.9,
+    "via": "ai-fallback",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie oft sollten die Fugen nachgefüllt werden?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Größen sind in 20 mm Dicke erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Füße werden pro m² für Fliesen der Größe 100x100 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Füße werden pro m² für Fliesen in der Größe 80x80 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Füße werden pro m² für Fliesen der Größe 60x60 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Füße werden pro m² für Fliesen in der Größe 60x120 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Fuß werden pro m² für Fliesen in der Größe 40x120 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Fliesen werden pro m² für Fliesen in der Größe 80,0x80,0 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Fliesen werden pro m² benötigt für Fliesen der Größe 60.4x60.4 cm 20 mm?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Füße werden pro m² für Fliesen der Größe 120.8x120.8 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Fliesen werden pro m² benötigt für Fliesen der Größe 60.4x120.8 cm 20 mm?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie viele Füße werden pro m² für Fliesen in der Größe 90x90 cm 20 mm benötigt?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate haben Sie?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ich suche nach einer Fliese, die etwa 60x60 groß ist – welche Formate kommen dem am nächsten?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ich suche nach einer Fliese, die etwa 80x80 groß ist – welche Formate kommen dem am nächsten?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Größen haben Sie in 20 mm?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Haben Sie Vorschläge für Verlegemuster für 20 mm Fliesen?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ich habe 35 m² von 60x60 cm – wie viele Fuß benötige ich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Wie berechne ich die Anzahl der Fliesen pro m² für eine bestimmte Fliesengröße?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Höhen in Fuß haben Sie?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Ich habe eine bestimmte Höhe, z.B. 40 mm oder 355 mm, welchen Fuß sollte ich wählen?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Adjustment Key?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Slope Corrector 0-5%?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Spacer Tabs 2/3/4 mm?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Pocket Key?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Twist Lock Ring?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Fix Ring?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Dome Extension 25 mm?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welches Zubehör wird verwendet: Prolunga PBP10 100 mm?",
+    "detected": "DE",
+    "confidence": 0.8,
+    "via": "short-lexicon",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Uteklinker-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Farben sind in der Träklinker-Serie erhältlich?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Lava-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Albero-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Alpine-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Anniversario-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Serie Antique verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Serie Ardesia verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Argresia-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Beton-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Serie Cemento verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Cortina-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Grotta-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Iris-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Kvarts-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Manhattan-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Materia-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Meteo-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Mista-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Nature-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Nordique-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Quartz-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Roccia-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Slate-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Stella-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Stone-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Strada-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Travertin-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Trentino-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Vintage-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  },
+  {
+    "expected": "DE",
+    "input": "Welche Formate sind in der Konjak-Serie verfügbar?",
+    "detected": "DE",
+    "confidence": 1,
+    "via": "regex-exclusive",
+    "status": "PASS"
+  }
+]

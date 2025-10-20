@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-10-10T07:09:19.390Z",
+  "total": 240,
+  "pass": 240,
+  "fail": 0,
+  "okRate": "100.00",
+  "aiMode": "off",
+  "latencyP95": {
+    "gates": 4.926399999996647,
+    "detect": 1245.7064999999711,
+    "lookup": 0.6939999999012798,
+    "ai": 0,
+    "total": 1349.5899999999674
+  },
+  "matrix": {
+    "SE": {
+      "uncategorized": {
+        "total": 239,
+        "pass": 239,
+        "fail": 0,
+        "ai": 0,
+        "blocked": 0
+      }
+    },
+    "EN": {
+      "uncategorized": {
+        "total": 1,
+        "pass": 1,
+        "fail": 0,
+        "ai": 0,
+        "blocked": 0
+      }
+    }
+  }
+}

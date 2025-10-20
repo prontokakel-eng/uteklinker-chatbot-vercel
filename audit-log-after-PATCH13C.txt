@@ -1,0 +1,67 @@
+
+> uteklinker-chatbot@1.0.1 audit
+> node ./scripts/audit-runner.js
+
+
+=== npm run deadcode ===
+
+> uteklinker-chatbot@1.0.1 deadcode
+> knip --production
+
+
+=== npm run deps:check ===
+
+> uteklinker-chatbot@1.0.1 deps:check
+> depcheck --skip-missing=true
+
+No depcheck issue
+
+=== graph:cycles (API mode) ===
+Ô£à Inga cykler
+
+=== graph:orphans (API mode) ===
+[
+  'ai.js',
+  'blacklist-regex.js',
+  'chatPipeline.js',
+  'detect-lang-rules last ver.js',
+  'faq-dialog.js',
+  'faq-keywords.js',
+  'faq-search.js',
+  'gate.featureflag.2025-10-10_042808.js',
+  'policy.js',
+  'utils-progress.js',
+  'utils.js'
+]
+
+=== npm run test:smoke:wlbl ===
+
+> uteklinker-chatbot@1.0.1 test:smoke:wlbl
+> powershell -NoProfile -ExecutionPolicy Bypass -File ./tests/smoke-wlbl.ps1
+
+The argument './tests/smoke-wlbl.ps1' to the -File parameter does not exist. Provide the path to an existing '.ps1' file as an argument to the -File parameter.
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+node:internal/errors:984
+  const err = new Error(message);
+              ^
+
+Error: Command failed: npm run test:smoke:wlbl
+    at genericNodeError (node:internal/errors:984:15)
+    at wrappedFn (node:internal/errors:538:14)
+    at checkExecSyncError (node:child_process:891:11)
+    at execSync (node:child_process:963:15)
+    at run (file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:5:3)
+    at file:///C:/uteklinker-chatbot-vercel/scripts/audit-runner.js:45:1 {
+  status: 4294770688,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 5884,
+  stdout: null,
+  stderr: null
+}
+
+Node.js v20.19.5

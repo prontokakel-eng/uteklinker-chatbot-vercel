@@ -1,0 +1,187 @@
+[2025-10-14T06:10:14.730Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:10:14.731Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:10:16.782Z] Gate pass: SE (ping)
+[2025-10-14T06:10:16.782Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:10:41.301Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:10:41.301Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:10:43.247Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:10:43.247Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:10:46.595Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:10:46.595Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:10:48.587Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:10:48.587Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:10:51.866Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:10:51.866Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:10:53.825Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:10:53.826Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:10:57.105Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:10:57.105Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:10:59.079Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:10:59.079Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:11:22.580Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:11:22.580Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:11:24.676Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:11:24.676Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:16:14.799Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:16:14.799Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:16:16.756Z] Gate pass: SE (ping)
+[2025-10-14T06:16:16.756Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:16:21.009Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:16:21.009Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:16:22.994Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:16:22.994Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:16:26.222Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:16:26.222Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:16:28.189Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:16:28.190Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:16:31.415Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:16:31.416Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:16:33.310Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:16:33.311Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:16:36.549Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:16:36.549Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:16:38.532Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:16:38.532Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:16:41.878Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:16:41.878Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:16:56.427Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:16:56.428Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:17:20.341Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:20.342Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:24.930Z] Gate pass: SE (Vilka f�rger finns i Beton?)
+[2025-10-14T06:17:24.930Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:17:28.261Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:28.261Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:30.261Z] Gate pass: DA (Hvilke farver findes i Beton?)
+[2025-10-14T06:17:30.261Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:17:33.635Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:33.635Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:35.612Z] Gate pass: DE (Welche Farben hat Beton?)
+[2025-10-14T06:17:35.613Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:17:38.904Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:38.904Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:40.876Z] Gate pass: EN (What colors are in Beton?)
+[2025-10-14T06:17:40.876Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:17:45.402Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:45.402Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:45.560Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:45.560Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:45.846Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:45.846Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:46.012Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:46.012Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:46.174Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:46.174Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:46.794Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:46.794Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:48.534Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:48.534Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:48.873Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:48.873Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:51.488Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:51.489Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:17:51.642Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:17:51.643Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:18:02.438Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:02.439Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:03.934Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:03.935Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:05.091Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:05.091Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:05.479Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:05.479Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:08.141Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:08.141Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:08.513Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:08.513Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:10.660Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:10.660Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:11.090Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:11.090Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:13.685Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:18:13.685Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:14.064Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:18:14.064Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:12.399Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:12.399Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:12.417Z] Gate pass: SE (ping)
+[2025-10-14T06:39:12.417Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:19.618Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:19.618Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:19.652Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:39:19.652Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:26.253Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:26.253Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:26.288Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:39:26.288Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:32.937Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:32.937Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:32.975Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:39:32.975Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:39.694Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:39.695Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:39.729Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:39:39.729Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:45.154Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:45.155Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:45.191Z] Gate pass: EN (What colors are available in the Beton series?)
+[2025-10-14T06:39:45.191Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:39:51.141Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:39:51.142Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:39:51.165Z] Gate pass: SE (Vilka f�rger finns i Beton?)
+[2025-10-14T06:39:51.165Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:00.323Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:00.323Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:00.345Z] Gate pass: DA (Hvilke farver findes i Beton?)
+[2025-10-14T06:40:00.345Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:13.118Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:13.118Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:13.139Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:13.138Z] Gate pass: DE (Welche Farben hat Beton?)
+[2025-10-14T06:40:19.208Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:19.208Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:19.228Z] Gate pass: EN (What colors are in Beton?)
+[2025-10-14T06:40:19.228Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:26.041Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:26.041Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:26.059Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:26.059Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:26.225Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:26.225Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:26.243Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:26.243Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:26.306Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:26.306Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:26.327Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:26.327Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:26.375Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:26.375Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:26.395Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:26.395Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:26.492Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:26.492Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:26.511Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:26.512Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:27.957Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:27.957Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:27.975Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:27.976Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:34.916Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:34.916Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:34.933Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:34.933Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:52.960Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:52.960Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:52.977Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:52.977Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:54.042Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:54.042Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:54.061Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:54.062Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-14T06:40:54.628Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-14T06:40:54.628Z] IP hint: ::ffff:127.0.0.1 -> UNKNOWN
+[2025-10-14T06:40:54.649Z] Gate pass: SE (Beton availability?)
+[2025-10-14T06:40:54.649Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-20T12:07:58.963Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-20T12:07:58.963Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-20T12:07:58.963Z] IP hint: 127.0.0.1 -> UNKNOWN
