@@ -1,6 +1,6 @@
-// /api/chat.js — fix: named import { chatPipeline } + robust mapping + START2
+// /api/chat.js — uses TTL-styrd init (initIfStale) + optional force refresh + robust mapping + START2
 import { chatPipeline } from "../lib/chatPipeline.js";
-import { initFaqData } from "../lib/faq-data.js";
+import { initFaqCache, initIfStale } from "../lib/faq-cache.js";
 import { logMessage } from "../lib/logger.js";
 
 export default async function handler(req, res) {
@@ -17,8 +17,18 @@ export default async function handler(req, res) {
       `[START2] reqId=${reqId} text="${String(req.body?.text || "").slice(0, 40)}..."`
     );
 
-    // Debounced + memoized init; överlever dev-reloads via globalt state
-    await initFaqData(`api/chat#${reqId}`);
+    // ── Cache bootstrap: TTL-styrd som default, men tillåt force-refresh vid behov
+    const forceRefresh =
+      (req.query && req.query.refresh === "1") ||
+      req.headers?.["x-refresh-cache"] === "1" ||
+      req.body?.refreshCache === true;
+
+    if (forceRefresh) {
+      await initFaqCache(`api/chat#${reqId}:force`);
+    } else {
+      // Använder env FAQ_CACHE_TTL_HOURS (default 4h) inne i lib/faq-cache.js
+      await initIfStale({ caller: `api/chat#${reqId}` });
+    }
 
     // Kör befintlig pipeline (ska INTE själv skriva till res)
     const result = await chatPipeline(req, res);
@@ -44,9 +54,10 @@ export default async function handler(req, res) {
     if (typeof result?.reply === "string") {
       reply = result.reply;
     } else if (Array.isArray(result?.reply)) {
-      reply = viaOrSource === "faq"
-        ? asText(result.reply[0]) || ""
-        : result.reply.map(asText).filter(Boolean).join("\n");
+      reply =
+        viaOrSource === "faq"
+          ? asText(result.reply[0]) || ""
+          : result.reply.map(asText).filter(Boolean).join("\n");
     } else {
       reply = asText(result?.reply) || "";
     }
@@ -66,9 +77,13 @@ export default async function handler(req, res) {
       source: prettyVia,
       reply,
       reqId,
+      cache: forceRefresh ? "force-refresh" : "ttl-init",
     });
   } catch (err) {
-    logMessage?.("chat-pipeline.log", `ERROR reqId=${reqId} ${err?.stack || err?.message || err}`);
+    logMessage?.(
+      "chat-pipeline.log",
+      `ERROR reqId=${reqId} ${err?.stack || err?.message || err}`
+    );
     return res.status(500).json({ error: "Internal Server Error", reqId });
   }
 }
