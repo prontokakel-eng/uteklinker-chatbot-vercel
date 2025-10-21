@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2025-10-21T00:00:00.000Z",
+  "source": "audit-log-final.txt",
+  "items": [
+    { "file": "lib/gate.featureflag.2025-10-10_042808.js", "tier": "O1", "reason": "dated feature flag" },
+
+    { "file": "lib/blacklist-regex.js", "tier": "O2", "reason": "generic util; no refs in audit" },
+    { "file": "lib/utils.js", "tier": "O2", "reason": "generic util; no refs in audit" },
+    { "file": "lib/utils-progress.js", "tier": "O2", "reason": "generic util; no refs in audit" },
+    { "file": "lib/policy.js", "tier": "O2", "reason": "policy stub; no refs in audit" },
+
+    { "file": "lib/faq-dialog.js", "tier": "O3", "reason": "older FAQ flow; verify dynamic import" },
+    { "file": "lib/faq-keywords.js", "tier": "O3", "reason": "older FAQ flow; verify dynamic import" },
+    { "file": "lib/faq-search.js", "tier": "O3", "reason": "older FAQ flow; verify dynamic import" },
+    { "file": "lib/chatPipeline.js", "tier": "O3", "reason": "central-sounding; verify dynamic import" }
+  ]
+}

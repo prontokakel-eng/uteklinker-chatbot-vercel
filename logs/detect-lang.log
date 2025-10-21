@@ -395,3 +395,67 @@
 [2025-10-20T10:06:32.922Z] 🔍 Strong marker detected: DA
 [2025-10-20T10:06:32.923Z] 🔍 Strong marker detected: DE
 [2025-10-20T10:06:32.923Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.328Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.337Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.340Z] ✅ Regex träff: {"lang":"SE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.345Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-21T08:10:56.346Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-21T08:10:56.348Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:10:56.349Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.349Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:10:56.349Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.352Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:10:56.352Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.352Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:10:56.352Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.360Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.362Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.363Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.365Z] 🔍 Strong marker detected: DE
+[2025-10-21T08:10:56.365Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.366Z] 🔍 Strong marker detected: DE
+[2025-10-21T08:10:56.366Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.373Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":0.9,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.375Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:10:56.376Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.376Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:10:56.376Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.383Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.390Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.392Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:10:56.392Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.394Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:10:56.394Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.395Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:10:56.395Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:10:56.397Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.399Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:10:56.401Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T08:19:45.694Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-21T08:19:45.698Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:19:45.698Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:19:45.701Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:19:45.701Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:19:45.704Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:19:45.707Z] 🔍 Strong marker detected: DE
+[2025-10-21T08:19:45.708Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:19:45.711Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:19:45.711Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:19:45.715Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:19:45.715Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:33:45.155Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-21T08:33:45.163Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:33:45.163Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:33:45.169Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:33:45.172Z] 🔍 Strong marker detected: DE
+[2025-10-21T08:33:45.173Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:33:45.178Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:33:45.178Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:41:16.934Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.6}
+[2025-10-21T08:41:16.942Z] 🔍 Strong marker detected: DA
+[2025-10-21T08:41:16.942Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:41:16.947Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:41:16.951Z] 🔍 Strong marker detected: DE
+[2025-10-21T08:41:16.951Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T08:41:16.957Z] 🔍 Strong marker detected: EN
+[2025-10-21T08:41:16.957Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}

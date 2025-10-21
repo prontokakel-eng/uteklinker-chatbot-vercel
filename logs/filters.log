@@ -45,3 +45,33 @@
 [2025-10-14T06:40:27.111Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
 [2025-10-14T06:40:27.122Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
 [2025-10-20T12:07:58.955Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
+[2025-10-21T08:10:56.283Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
+[2025-10-21T08:10:56.326Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T08:10:56.335Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T08:10:56.339Z] 👋 Greeting detected: Hej, hur mår du?
+[2025-10-21T08:10:56.340Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T08:10:56.359Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T08:10:56.372Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T08:10:56.382Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T08:10:56.389Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T08:10:56.391Z] 👋 Greeting detected: Hej, how are you?
+[2025-10-21T08:10:56.391Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T08:10:56.399Z] 🚫 Gibberish: låg bokstavsanddel (0.00)
+[2025-10-21T08:19:45.673Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
+[2025-10-21T08:19:45.678Z] 👋 Greeting detected: Hej, hur mår du?
+[2025-10-21T08:19:45.684Z] 👋 Greeting detected: Hej, hur mår du?
+[2025-10-21T08:19:45.685Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T08:19:45.713Z] 👋 Greeting detected: Hej, how are you?
+[2025-10-21T08:19:45.716Z] 🚫 Gibberish: låg bokstavsanddel (0.00)
+[2025-10-21T08:33:45.136Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
+[2025-10-21T08:33:45.144Z] 👋 Greeting detected: Hej, hur mår du?
+[2025-10-21T08:33:45.157Z] 👋 Greeting detected: Hvordan har du det i dag?
+[2025-10-21T08:33:45.174Z] 👋 Greeting detected: How are you doing today?
+[2025-10-21T08:33:45.175Z] 👋 Greeting detected: Hej, how are you?
+[2025-10-21T08:33:45.179Z] 🚫 Gibberish: låg bokstavsanddel (0.00)
+[2025-10-21T08:41:16.916Z] WL loaded: 1175 | BL loaded: 181 | NEU loaded: 447
+[2025-10-21T08:41:16.923Z] 👋 Greeting detected: Hej, hur mår du?
+[2025-10-21T08:41:16.936Z] 👋 Greeting detected: Hvordan har du det i dag?
+[2025-10-21T08:41:16.953Z] 👋 Greeting detected: How are you doing today?
+[2025-10-21T08:41:16.954Z] 👋 Greeting detected: Hej, how are you?
+[2025-10-21T08:41:16.958Z] 🚫 Gibberish: låg bokstavsanddel (0.00)
