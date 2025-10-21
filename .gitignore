@@ -1,3 +1,6 @@
 .vercel
 .env
 .env*.local
+# Tillåt mallar att spåras
+!.env.example
+!.env.local.example
