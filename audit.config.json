@@ -1,0 +1,43 @@
+{
+  "$comment": "Central config for audit runner; tweak keepers/smokeTests without touching code.",
+  "deadcode": {
+    "enabled": true,
+    "command": "knip --production --config .knip.json"
+  },
+  "depcheck": {
+    "enabled": true,
+    "command": "depcheck --skip-missing=true"
+  },
+  "graph": {
+    "roots": [
+      "lib",
+      "api"
+    ],
+    "excludeRegExp": [
+      "node_modules",
+      "^\\.",
+      "coverage",
+      "dist",
+      "_deprecated"
+    ]
+  },
+  "keepers": [
+    "ai.js",
+    "blacklist-regex.js",
+    "chatPipeline.js",
+    "faq-dialog.js",
+    "faq-keywords.js",
+    "faq-search.js",
+    "gate.featureflag.2025-10-10_042808.js",
+    "policy.js",
+    "utils-progress.js",
+    "utils-text.js",
+    "utils.js"
+  ],
+  "smokeTests": [
+    "tests/smoke-formats.js",
+    "tests/smoke-gate.js",
+    "tests/check-healthz.js"
+  ],
+  "skipMissingSmokeTests": true
+}
