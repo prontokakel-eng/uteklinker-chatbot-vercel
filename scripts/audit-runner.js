@@ -1,3 +1,4 @@
+// PATCH: whitelist keepers in orphans output (minimal diff)
 import { execSync } from "node:child_process";
 import { existsSync } from "node:fs";
 
@@ -29,6 +30,21 @@ console.log("\n=== graph:cycles (API mode) ===");
   console.log(cycles.length ? cycles : "✅ Inga cykler");
 }
 
+// 🆕 Keeper-list (behåll även om de saknar in-edges i lib/* just nu)
+const KEEPERS = new Set([
+  "ai.js",
+  "blacklist-regex.js",
+  "chatPipeline.js",
+  "faq-dialog.js",
+  "faq-keywords.js",
+  "faq-search.js",
+  "gate.featureflag.2025-10-10_042808.js",
+  "policy.js",
+  "utils-progress.js",
+  "utils-text.js",
+  "utils.js",
+]);
+
 console.log("\n=== graph:orphans (API mode) ===");
 {
   const res = await madge("lib", {
@@ -37,18 +53,25 @@ console.log("\n=== graph:orphans (API mode) ===");
       "withTimeout\\.js"
     ]
   });
-  const orphans = res.orphans();
-  console.log(orphans.length ? orphans : "✅ Inga orphans");
+
+  // original list
+  const rawOrphans = res.orphans();
+
+  // 🆕 dela upp i whitelisted keepers vs riktiga orphans
+  const whitelisted = rawOrphans.filter(f => KEEPERS.has(f));
+  const realOrphans = rawOrphans.filter(f => !KEEPERS.has(f));
+
+  if (whitelisted.length) {
+    console.log("whitelisted keepers (not flagged):");
+    console.log(whitelisted);
+  }
+
+  console.log("\norphans (after whitelist):");
+  console.log(realOrphans.length ? realOrphans : "✅ Inga orphans");
 }
 
 // 6. SMOKE TESTS (nivå L)
-// Guarda legacy-smoken: kör endast om filen finns
-if (existsSync("tests/smoke-wlbl.js")) {
-  run("node tests/smoke-wlbl.js");
-} else {
-  console.log("=== node tests/smoke-wlbl.js (skippad – fil saknas) ===");
-}
-
+run("node tests/smoke-wlbl.js");
 run("node tests/smoke-formats.js");
 run("node tests/smoke-gate.js");
 run("node tests/check-healthz.js");
