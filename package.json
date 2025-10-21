@@ -18,13 +18,19 @@
     "test:smoke": "npm run -s test:smoke:wlbl && npm run -s test:smoke:formats && npm run -s test:smoke:gate",
     "test:torture:fixtures": "node ./tests/Super-torture-suite.repo.mjs --input ./tests/fixtures --limit 200",
     "lint": "eslint lib scripts --ext .js,.mjs --no-error-on-unmatched-pattern",
-    "deadcode": "knip --production",
+    "deadcode": "knip --production --config .knip.json",
     "deps:check": "depcheck --skip-missing=true",
     "graph:cycles": "madge --circular --extensions js,mjs",
     "graph:orphans": "madge --orphans --extensions js,mjs",
     "coverage": "c8 --reporter=text --reporter=lcov npm run test",
     "e2e": "playwright test",
-    "audit": "node ./scripts/audit-runner.js"
+    "audit": "node ./scripts/audit-runner.js",
+    "o:scan": "npx knip --production --reporter json > logs/reports/knip-orphans.json",
+    "o:grep": "node scripts/grep-dynamic-refs.js",
+    "o:classify": "node scripts/classify-orphans.js",
+    "o:prepare": "node scripts/move-to-deprecated.js --plan logs/reports/orphans-plan.json",
+    "o:revert": "git restore --staged . && git checkout -- .",
+    "o:apply": "node scripts/move-to-deprecated.js --plan logs/reports/orphans-plan.json"
   },
   "dependencies": {
     "archiver": "^7.0.1",

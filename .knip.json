@@ -1,0 +1,7 @@
+{
+  "ignore": [
+    "_deprecated/**",
+    "scripts/trace-*.mjs",
+    "scripts/trace-*.js"
+  ]
+}
