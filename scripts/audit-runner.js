@@ -1,4 +1,5 @@
 import { execSync } from "node:child_process";
+import { existsSync } from "node:fs";
 
 function run(cmd) {
   console.log(`\n=== ${cmd} ===`);
@@ -40,9 +41,14 @@ console.log("\n=== graph:orphans (API mode) ===");
   console.log(orphans.length ? orphans : "✅ Inga orphans");
 }
 
-
 // 6. SMOKE TESTS (nivå L)
-run("node tests/smoke-wlbl.js");
+// Guarda legacy-smoken: kör endast om filen finns
+if (existsSync("tests/smoke-wlbl.js")) {
+  run("node tests/smoke-wlbl.js");
+} else {
+  console.log("=== node tests/smoke-wlbl.js (skippad – fil saknas) ===");
+}
+
 run("node tests/smoke-formats.js");
 run("node tests/smoke-gate.js");
 run("node tests/check-healthz.js");
