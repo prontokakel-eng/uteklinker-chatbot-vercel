@@ -17,8 +17,6 @@ run("npm run deadcode");
 // 3. DEPS
 run("npm run deps:check");
 
-import madge from "madge";
-
 console.log("\n=== graph:cycles (API mode) ===");
 {
   const res = await madge("lib", {
@@ -73,7 +71,6 @@ console.log("\n=== graph:orphans (API mode) ===");
 
 // 6. SMOKE TESTS (nivå L)
 // 🆕 kör endast om filen finns (tolerant mot rensning i /tests)
-import { existsSync } from "node:fs";
 function runIfExists(path, cmd) {
   if (existsSync(path)) {
     run(cmd);
