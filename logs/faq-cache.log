@@ -660,3 +660,52 @@
 [2025-10-14T06:40:54.022Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70gs1-ulllhc): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
 [2025-10-14T06:40:54.605Z] 💤 cache unchanged → skip write (reason=merge)
 [2025-10-14T06:40:54.605Z] ℹ️ FAQ+Lookups cache oförändrad (caller: api/chat#mgq70gs2-7n8emb): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:51:26.185Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:51:26.185Z] ✅ FAQ+Lookups cache laddad från fil (caller: healthz:preload): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:51:26.191Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-21T10:51:26.188Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:51:26.192Z] ℹ️ FAQ+Lookups cache oförändrad (caller: healthz:init): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:53:08.538Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:53:08.539Z] ✅ FAQ+Lookups cache laddad från fil (caller: healthz:preload): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:53:08.541Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:53:08.544Z] ℹ️ FAQ+Lookups cache oförändrad (caller: healthz:init): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T10:53:08.544Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-21T11:02:40.004Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:02:40.007Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:02:40.004Z] ✅ FAQ+Lookups cache laddad från fil (caller: healthz:preload): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:02:46.749Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-21T11:02:46.750Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-21T11:02:46.751Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-21T11:02:46.750Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-21T11:02:46.751Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-21T11:02:46.752Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-21T11:02:46.752Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-21T11:02:46.754Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-21T11:02:46.754Z] ℹ️ FAQ+Lookups cache oförändrad (caller: healthz:init): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:02:46.752Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-21T11:12:43.285Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:43.285Z] ✅ FAQ+Lookups cache laddad från fil (caller: healthz:preload): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:43.288Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:50.923Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-21T11:12:50.923Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-21T11:12:50.924Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-21T11:12:50.925Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-21T11:12:50.924Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-21T11:12:50.925Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-21T11:12:50.926Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-21T11:12:50.928Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-21T11:12:50.928Z] ℹ️ FAQ+Lookups cache oförändrad (caller: healthz:init): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:50.926Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-21T11:12:51.873Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:51.873Z] ✅ FAQ+Lookups cache laddad från fil (caller: healthz:preload): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:51.876Z] 📖 Läste disk-cache: FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}
+[2025-10-21T11:12:56.662Z] ✅ merged FAQ for SE: 238 rows
+[2025-10-21T11:12:56.662Z] ✅ merged FAQ for DA: 238 rows
+[2025-10-21T11:12:56.663Z] ✅ merged FAQ for EN: 238 rows
+[2025-10-21T11:12:56.663Z] ✅ merged LOOKUP for SE: 1353 entries
+[2025-10-21T11:12:56.664Z] ✅ merged LOOKUP for DA: 1353 entries
+[2025-10-21T11:12:56.664Z] ✅ merged LOOKUP for DE: 1353 entries
+[2025-10-21T11:12:56.665Z] ✅ merged LOOKUP for EN: 1353 entries
+[2025-10-21T11:12:56.666Z] 💤 cache unchanged → skip write (reason=merge)
+[2025-10-21T11:12:56.663Z] ✅ merged FAQ for DE: 238 rows
+[2025-10-21T11:12:56.666Z] ℹ️ FAQ+Lookups cache oförändrad (caller: healthz:init): FAQ={"SE":238,"DA":238,"DE":238,"EN":238}, Lookups={"SE":1353,"DA":1353,"DE":1353,"EN":1353}

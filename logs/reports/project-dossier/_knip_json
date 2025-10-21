@@ -1,0 +1,25 @@
+{
+  "entry": [
+    "lib/**/*.js"
+  ],
+  "ignore": [
+    "_deprecated/**",
+    "archive/**",
+    "api/**",
+    "public/**",
+    "config/**",
+    "coverage/**",
+    "tests/**",
+    "scripts/**",
+    "build-*.mjs",
+    "*.config.*"
+  ],
+  "ignoreDependencies": [
+    "archiver",
+    "chalk",
+    "cheerio",
+    "csv-parse",
+    "node-fetch",
+    "string-similarity"
+  ]
+}

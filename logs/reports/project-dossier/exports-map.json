@@ -1,0 +1,447 @@
+{
+  "_deprecated\\lib\\blacklist-regex.js": [
+    "blacklistRegexMatch",
+    "isBlacklistedByRegex"
+  ],
+  "_deprecated\\lib\\gate.featureflag.2025-10-10_042808.js": [],
+  "_deprecated\\lib\\policy.js": [
+    "DELIVERY_POLICY"
+  ],
+  "_deprecated\\lib\\text-normalize.js": [
+    "normalizeText",
+    "default"
+  ],
+  "_deprecated\\lib\\utils-progress.js": [
+    "createProgressBar"
+  ],
+  "_deprecated\\lib\\utils.js": [],
+  "api\\9-october-chat.js": [
+    "default"
+  ],
+  "api\\Archive\\ai.js": [],
+  "api\\Archive\\experimental.js": [],
+  "api\\Archive\\olddetect-lang.js": [
+    "default"
+  ],
+  "api\\Archive\\test-google.js": [
+    "default"
+  ],
+  "api\\api-debug-cache.js": [
+    "default"
+  ],
+  "api\\chat-debug.js": [
+    "default"
+  ],
+  "api\\chat.js": [
+    "default"
+  ],
+  "api\\healthz.js": [
+    "default"
+  ],
+  "api\\save-ai-reply.js": [
+    "default"
+  ],
+  "api\\save-faq-reply.js": [
+    "default"
+  ],
+  "api\\test-openai.js": [
+    "default"
+  ],
+  "archive\\_archive\\ai-fallback.js": [],
+  "archive\\_archive\\kopior\\ai - kopia.js": [],
+  "archive\\_archive\\kopior\\ai-fallback - kopia.js": [],
+  "archive\\_archive\\kopior\\block-long - kopia.js": [
+    "assessLongRepetitive",
+    "sanitizeInput",
+    "countWhitelistHits",
+    "shouldBlockLong"
+  ],
+  "archive\\_archive\\kopior\\chatPipeline - kopia.js": [],
+  "archive\\_archive\\kopior\\check-openai-env - kopia.js": [
+    "checkOpenAIEnvConflicts"
+  ],
+  "archive\\_archive\\kopior\\faq-cache - kopia (2).js": [
+    "getFaqCache",
+    "getLookupCache",
+    "loadFaqCache"
+  ],
+  "archive\\_archive\\kopior\\faq-cache - kopia.js": [
+    "loadFaqCache",
+    "saveFaqCache",
+    "getFaq"
+  ],
+  "archive\\_archive\\kopior\\faq-data - kopia.js": [
+    "buildFaqIndex",
+    "searchFaq"
+  ],
+  "archive\\_archive\\kopior\\faq-dialog - kopia.js": [
+    "handleFaqDialog"
+  ],
+  "archive\\_archive\\kopior\\faq-fuzzy-detect - kopia (2).js": [
+    "detectLangFaqFuzzy"
+  ],
+  "archive\\_archive\\kopior\\faq-fuzzy-detect - kopia.js": [
+    "detectLangFaqFuzzy"
+  ],
+  "archive\\_archive\\kopior\\faq-keywords - kopia.js": [
+    "matchKeywords",
+    "searchFaqWithKeywords"
+  ],
+  "archive\\_archive\\kopior\\filters - kopia.js": [
+    "detectShortLangWord",
+    "checkGreeting"
+  ],
+  "archive\\_archive\\kopior\\gate - kopia.js": [],
+  "archive\\_archive\\kopior\\gibberish-filter - kopia.js": [
+    "checkGibberish"
+  ],
+  "archive\\_archive\\kopior\\ip-lang - kopia.js": [
+    "getIpLang"
+  ],
+  "archive\\_archive\\kopior\\openai-client - kopia.js": [
+    "getOpenAIClient"
+  ],
+  "archive\\_archive\\kopior\\policy - kopia.js": [
+    "DELIVERY_POLICY"
+  ],
+  "archive\\_archive\\kopior\\rate-limiter - kopia.js": [],
+  "archive\\_archive\\kopior\\utils - kopia.js": [],
+  "archive\\_archive\\kopior\\utils-progress - kopia.js": [
+    "createProgressBar"
+  ],
+  "archive\\_archive\\kopior\\wl-bl-filters - kopia.js": [
+    "applyWhitelist",
+    "applyBlacklist"
+  ],
+  "archive\\_archive\\oct-10-detect-lang-core.js": [],
+  "archive\\_archive\\october 9\\09-october-faq-cache.js": [
+    "getFaqCache",
+    "getLookupCache",
+    "loadFaqCache"
+  ],
+  "archive\\_archive\\okt6 17av18 detect-lang-rules.js": [
+    "regexAnchors",
+    "exclusiveRegex",
+    "confidenceRules",
+    "detectLangRulesOnly",
+    "testSamples"
+  ],
+  "archive\\_archive\\okt6-ny-detect-lang-rules.js": [
+    "regexAnchors",
+    "exclusiveRegex",
+    "confidenceRules",
+    "detectLangRulesOnly",
+    "testSamples"
+  ],
+  "archive\\_archive\\old-6oktdetect-lang-rules.js": [],
+  "archive\\_archive\\old-detect-lang-core.js": [],
+  "archive\\_archive\\old-detect-lang-heuristics.js": [
+    "detectLangHeuristicGroup"
+  ],
+  "archive\\_archive\\old-detect-lang-rules.js": [],
+  "archive\\_archive\\old-detect-lang.js": [],
+  "archive\\_archive\\old-filters.js": [
+    "checkLength",
+    "greetings",
+    "checkGreeting",
+    "checkRelevance",
+    "containsWhitelistWord",
+    "containsBlacklistWord",
+    "checkBlacklist",
+    "isGibberish"
+  ],
+  "archive\\_archive\\old-gate.js": [
+    "runGate"
+  ],
+  "archive\\_archive\\old-okt6-detect-lang-rules.js": [],
+  "archive\\_archive\\old-rate-limiter.js": [
+    "checkRateLimit"
+  ],
+  "archive\\_archive\\old-sheets2025-09-28.js": [],
+  "archive\\faq-extended\\detect-lang-rules.js": [
+    "regexAnchors",
+    "exclusiveRegex",
+    "confidenceRules",
+    "detectLangRulesOnly",
+    "testSamples"
+  ],
+  "build-test-cases-full.mjs": [],
+  "config\\lexicon\\add-geo-mapping.mjs": [],
+  "config\\lexicon\\fix-lexicon-one.mjs": [],
+  "config\\lexicon\\fix\\tools.fix-lexicon-one.mjs": [],
+  "config\\lexicon\\lexicon-loader.js": [
+    "default"
+  ],
+  "config\\lexicon\\sanitize-lexicons.mjs": [],
+  "eslint.config.mjs": [
+    "default"
+  ],
+  "lib\\ai.js": [],
+  "lib\\blacklist-regex.js": [
+    "blacklistRegexMatch",
+    "default"
+  ],
+  "lib\\block-long.js": [
+    "assessLongRepetitive",
+    "sanitizeInput",
+    "countWhitelistHits",
+    "shouldBlockLong"
+  ],
+  "lib\\chatPipeline.js": [],
+  "lib\\check-openai-env.js": [
+    "checkOpenAIEnvConflicts"
+  ],
+  "lib\\detect-lang-core.js": [],
+  "lib\\detect-lang-heuristics.js": [
+    "detectLangHeuristicGroup"
+  ],
+  "lib\\detect-lang-rules.js": [
+    "regexAnchors",
+    "exclusiveRegex",
+    "confidenceRules",
+    "detectLangRulesOnly"
+  ],
+  "lib\\env-check.js": [
+    "validateEnv"
+  ],
+  "lib\\faq-cache-view.js": [
+    "canonicalizeLangKey",
+    "default"
+  ],
+  "lib\\faq-cache.js": [
+    "getFaqCache",
+    "getLookupCache",
+    "loadFaqCache"
+  ],
+  "lib\\faq-data.js": [
+    "buildFaqIndex",
+    "searchFaq"
+  ],
+  "lib\\faq-dialog.js": [
+    "handleFaqDialog"
+  ],
+  "lib\\faq-fuzzy-detect.js": [
+    "detectLangFaqFuzzy"
+  ],
+  "lib\\faq-keywords.js": [
+    "matchKeywords",
+    "searchFaqWithKeywords"
+  ],
+  "lib\\faq-search.js": [],
+  "lib\\faq-sheets.js": [],
+  "lib\\filters-config.js": [
+    "getFiltersConfig",
+    "reloadFiltersConfig",
+    "getWhitelistForLang",
+    "getBlacklistForLang",
+    "getNeutralForLang"
+  ],
+  "lib\\filters.js": [
+    "detectShortLangWord",
+    "checkGreeting",
+    "runFilters"
+  ],
+  "lib\\gate.featureflag.2025-10-10_042808.js": [
+    "default"
+  ],
+  "lib\\gate.js": [],
+  "lib\\gibberish-filter.js": [
+    "checkGibberish"
+  ],
+  "lib\\ip-lang.js": [
+    "profileIp",
+    "getIpLang"
+  ],
+  "lib\\load-env.js": [
+    "loadEnv",
+    "env",
+    "default"
+  ],
+  "lib\\logger.js": [
+    "logMessage"
+  ],
+  "lib\\openai-client.js": [
+    "getOpenAIClient"
+  ],
+  "lib\\policy.js": [
+    "default"
+  ],
+  "lib\\rate-limiter.js": [],
+  "lib\\text-normalize.js": [
+    "stripDiacritics",
+    "normalizeText",
+    "default"
+  ],
+  "lib\\utils-progress.js": [
+    "default"
+  ],
+  "lib\\utils-text.js": [
+    "normalizeMessage",
+    "asCheckMark"
+  ],
+  "lib\\utils.js": [
+    "default"
+  ],
+  "lib\\utils\\withTimeout.js": [],
+  "lib\\withTimeout.js": [],
+  "lib\\wl-bl-filters.js": [
+    "applyWhitelist",
+    "applyBlacklist"
+  ],
+  "madge.config.js": [
+    "default"
+  ],
+  "prettier.config.cjs": [],
+  "public\\13-okt-1600-chat-ui.js": [],
+  "public\\chat-ui.js": [],
+  "public\\embed.js": [],
+  "public\\oct-10-old\\09-october-chat-ui.js": [],
+  "public\\oct-10-old\\9-october-chat-ui.js": [],
+  "public\\oct-10-old\\chat-ui.js": [],
+  "public\\old-chat-ui.js": [],
+  "public\\snapshot.js": [],
+  "scripts\\audit-runner.js": [],
+  "scripts\\classify-orphans.js": [],
+  "scripts\\dev\\load-env.js": [
+    "env"
+  ],
+  "scripts\\dev\\snapshot.js": [],
+  "scripts\\grep-dynamic-refs.js": [],
+  "scripts\\make-project-dossier.mjs": [],
+  "scripts\\move-to-deprecated.js": [
+    "default"
+  ],
+  "scripts\\strip-bom.js": [],
+  "scripts\\trace-cjs.cjs": [],
+  "scripts\\trace-esm.mjs": [],
+  "tests\\Old tests\\list-files.js": [],
+  "tests\\Old tests\\move-core-scripts.js": [],
+  "tests\\Old tests\\move-scripts.js": [],
+  "tests\\Old tests\\server.js": [
+    "default"
+  ],
+  "tests\\Old tests\\snapshot.js": [],
+  "tests\\Old tests\\test-api.js": [],
+  "tests\\Old tests\\test-detect.js": [],
+  "tests\\Old tests\\test-faq.js": [],
+  "tests\\Old tests\\vercel-pull.js": [],
+  "tests\\Super-torture-suite.repo.mjs": [],
+  "tests\\analyze-torture-log.mjs": [],
+  "tests\\analyze-torture-report.mjs": [],
+  "tests\\autotune.mjs": [],
+  "tests\\build-lang-golden.mjs": [],
+  "tests\\build-test-cases-full.mjs": [],
+  "tests\\chatBot-torture-mini.mjs": [],
+  "tests\\chatBot-torture-test-v3-NEW.mjs": [],
+  "tests\\chatBot-torture-test-v4-LOCAL3000.mjs": [],
+  "tests\\chatBot-torture-test-v4-PROD.mjs": [],
+  "tests\\chatBot-torture-test-v4.mjs": [],
+  "tests\\chatBot-torture-test-v5.mjs": [],
+  "tests\\check-healthz.js": [],
+  "tests\\check-lexicons.mjs": [],
+  "tests\\debug-sheets.js": [],
+  "tests\\detect-lang-fulltest.mjs": [],
+  "tests\\detect-lang-lexicon.test.mjs": [],
+  "tests\\detect-lang-test-combined.mjs": [],
+  "tests\\e2e\\smoke.spec.ts": [],
+  "tests\\faq-dialog-torture.mjs": [],
+  "tests\\faq-lang-benchmark-v4.mjs": [],
+  "tests\\faq-lang-benchmark.mjs": [],
+  "tests\\filters-wl-bl.mjs": [],
+  "tests\\fixtures\\generate-faq-from-json.mjs": [],
+  "tests\\generate-fixtures.mjs": [],
+  "tests\\helpers\\ai-fallback.js": [],
+  "tests\\helpers\\run-chat.js": [],
+  "tests\\lexicon-schema.v2.lookup.test.mjs": [],
+  "tests\\no-lexicon-Super-torture-suite.repo.mjs": [],
+  "tests\\old-autotune.mjs": [],
+  "tests\\old-generate-fixtures.mjs": [],
+  "tests\\patch-faq-sheets.mjs": [],
+  "tests\\perf\\bench-faq-search.js": [],
+  "tests\\pipeline.spec.js": [],
+  "tests\\sep\\chatBot-torture-test-v2.mjs": [],
+  "tests\\sep\\chatBot-torture-test-v3.mjs": [],
+  "tests\\sep\\chatBot-torture-test.mjs": [],
+  "tests\\sep\\check-env.mjs": [],
+  "tests\\sep\\clean-faq-samples.mjs": [],
+  "tests\\sep\\detect-lang-core-test.mjs": [],
+  "tests\\sep\\detect-lang-test.mjs": [],
+  "tests\\sep\\faq-auto-categorize.mjs": [],
+  "tests\\sep\\faq-data-test.mjs": [],
+  "tests\\sep\\faq-fuzzy-suite-vercel.js": [],
+  "tests\\sep\\faq-fuzzy-suite.js": [],
+  "tests\\sep\\faq-fuzzy-suite.mjs": [],
+  "tests\\sep\\faq-fuzzy-test.mjs": [],
+  "tests\\sep\\faq-mini.mjs": [],
+  "tests\\sep\\faq-super-suite-ex-google-sheets.mjs": [],
+  "tests\\sep\\faq-super-suite-local.mjs": [],
+  "tests\\sep\\faq-super-suite-w-wo-google.mjs": [],
+  "tests\\sep\\faq-super-suite.mjs": [],
+  "tests\\sep\\generate-faq-sample.mjs": [],
+  "tests\\sep\\logger.js": [
+    "logDebug"
+  ],
+  "tests\\sep\\postprocess-pronto.mjs": [],
+  "tests\\sep\\scrape-pronto.mjs": [],
+  "tests\\sep\\sheets-helper.js": [],
+  "tests\\sep\\sheets-readwrite-test.mjs": [],
+  "tests\\sep\\sheets-write-test.mjs": [],
+  "tests\\sep\\test-api.js": [],
+  "tests\\sep\\test-cache.js": [],
+  "tests\\sep\\test-chat-prod.js": [],
+  "tests\\sep\\test-detect-lang-ai.mjs": [],
+  "tests\\sep\\test-detect-lang-extended.mjs": [],
+  "tests\\sep\\test-detect-lang-safe.mjs": [],
+  "tests\\sep\\test-detect-lang.mjs": [],
+  "tests\\sep\\test-faq-all-prod.js": [],
+  "tests\\sep\\test-faq-cache.js": [],
+  "tests\\sep\\test-faq-en-prod.js": [],
+  "tests\\sep\\test-faq.js": [],
+  "tests\\sep\\test-google-env.js": [],
+  "tests\\sep\\test-google-key.js": [],
+  "tests\\sep\\test-google-prod-full.js": [],
+  "tests\\sep\\test-google-prod-ver.js": [],
+  "tests\\sep\\test-google-sanitize.js": [],
+  "tests\\sep\\test-google.js": [],
+  "tests\\sep\\test-norm.js": [],
+  "tests\\sep\\test-openai.js": [
+    "default"
+  ],
+  "tests\\sep\\test-refresh.js": [],
+  "tests\\sep\\test-save.js": [],
+  "tests\\sep\\transform-specs-to-faq.mjs": [],
+  "tests\\smoke-formats.js": [],
+  "tests\\smoke-gate.js": [],
+  "tests\\snapshot.js": [],
+  "tests\\super_torture_suite.js": [
+    "runGates",
+    "detectLang",
+    "faqLookup"
+  ],
+  "tests\\test-chatPipeline.js": [],
+  "tests\\test-detect-rules.mjs": [
+    "regexAnchors",
+    "exclusiveRegex",
+    "confidenceRules",
+    "detectLangRulesOnly"
+  ],
+  "tests\\test-faq-search.mjs": [],
+  "tests\\test-google-sheets.js": [],
+  "tests\\utils\\adapters.mjs": [
+    "default"
+  ],
+  "tests\\utils\\lang-lexicon.mjs": [
+    "scoreWithLexicon"
+  ],
+  "tests\\utils\\sheets-batch.mjs": [],
+  "tests\\utils\\ver1-adapters.mjs": [
+    "default"
+  ],
+  "tests\\utils\\ver2-adapters.js": [
+    "default"
+  ],
+  "tests\\ver1-utan-lang-Super-torture-suite.repo.mjs": [],
+  "tests\\ver2-Super-torture-suite.repo.mjs": [],
+  "tests\\ver3-Super-torture-suite.repo.mjs": [],
+  "tests\\warm-and-test.mjs": []
+}

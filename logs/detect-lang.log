@@ -459,3 +459,64 @@
 [2025-10-21T08:41:16.951Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
 [2025-10-21T08:41:16.957Z] 🔍 Strong marker detected: EN
 [2025-10-21T08:41:16.957Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:05:51.269Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T09:05:51.276Z] 🔍 Strong marker detected: DA
+[2025-10-21T09:05:51.276Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:05:51.282Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:05:51.285Z] 🔍 Strong marker detected: DE
+[2025-10-21T09:05:51.286Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:05:51.291Z] 🔍 Strong marker detected: EN
+[2025-10-21T09:05:51.291Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:08:57.521Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T09:08:57.528Z] 🔍 Strong marker detected: DA
+[2025-10-21T09:08:57.528Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:08:57.534Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:08:57.538Z] 🔍 Strong marker detected: DE
+[2025-10-21T09:08:57.538Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:08:57.544Z] 🔍 Strong marker detected: EN
+[2025-10-21T09:08:57.544Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:47:42.943Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T09:47:42.955Z] 🔍 Strong marker detected: DA
+[2025-10-21T09:47:42.955Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:47:42.967Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:47:42.975Z] 🔍 Strong marker detected: DE
+[2025-10-21T09:47:42.975Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:47:42.986Z] 🔍 Strong marker detected: EN
+[2025-10-21T09:47:42.987Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:49:56.468Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T09:49:56.475Z] 🔍 Strong marker detected: DA
+[2025-10-21T09:49:56.476Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:49:56.481Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:49:56.485Z] 🔍 Strong marker detected: DE
+[2025-10-21T09:49:56.485Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:49:56.492Z] 🔍 Strong marker detected: EN
+[2025-10-21T09:49:56.492Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:59:33.189Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T09:59:33.196Z] 🔍 Strong marker detected: DA
+[2025-10-21T09:59:33.196Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:59:33.202Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:59:33.206Z] 🔍 Strong marker detected: DE
+[2025-10-21T09:59:33.206Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T09:59:33.212Z] 🔍 Strong marker detected: EN
+[2025-10-21T09:59:33.212Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:08:12.879Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T10:08:12.886Z] 🔍 Strong marker detected: DA
+[2025-10-21T10:08:12.886Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:08:12.891Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:08:12.894Z] 🔍 Strong marker detected: DE
+[2025-10-21T10:08:12.894Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:08:12.901Z] 🔍 Strong marker detected: EN
+[2025-10-21T10:08:12.902Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:15:56.415Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T10:15:56.422Z] 🔍 Strong marker detected: DA
+[2025-10-21T10:15:56.422Z] ✅ Regex träff: {"lang":"DA","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:15:56.429Z] ✅ Regex träff: {"lang":"DE","via":"short-lexicon","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:15:56.432Z] 🔍 Strong marker detected: DE
+[2025-10-21T10:15:56.432Z] ✅ Regex träff: {"lang":"DE","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:15:56.439Z] 🔍 Strong marker detected: EN
+[2025-10-21T10:15:56.439Z] ✅ Regex träff: {"lang":"EN","via":"regex-exclusive","confidence":1,"NeedsAI":false,"matches":[]}
+[2025-10-21T10:51:26.206Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T10:53:08.559Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T11:02:46.766Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T11:12:50.941Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}
+[2025-10-21T11:12:56.678Z] ⬅️ Default return: {"lang":"SE","via":"heuristic-group","confidence":0.4}

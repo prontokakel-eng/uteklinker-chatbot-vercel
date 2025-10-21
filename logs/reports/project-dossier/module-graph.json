@@ -1,0 +1,164 @@
+{
+  "circular": [],
+  "orphans": [
+    "api/9-october-chat.js",
+    "api/Archive/ai.js",
+    "api/Archive/experimental.js",
+    "api/Archive/olddetect-lang.js",
+    "api/Archive/test-google.js",
+    "api/api-debug-cache.js",
+    "api/chat-debug.js",
+    "api/chat.js",
+    "api/healthz.js",
+    "api/save-ai-reply.js",
+    "api/save-faq-reply.js",
+    "api/test-openai.js",
+    "lib/ai.js",
+    "lib/blacklist-regex.js",
+    "lib/faq-dialog.js",
+    "lib/faq-keywords.js",
+    "lib/faq-search.js",
+    "lib/gate.featureflag.2025-10-10_042808.js",
+    "lib/policy.js",
+    "lib/utils-progress.js",
+    "lib/utils-text.js",
+    "lib/withTimeout.js"
+  ],
+  "dependencies": {
+    "api/9-october-chat.js": [
+      "lib/chatPipeline.js"
+    ],
+    "api/Archive/ai.js": [],
+    "api/Archive/experimental.js": [],
+    "api/Archive/olddetect-lang.js": [],
+    "api/Archive/test-google.js": [],
+    "api/api-debug-cache.js": [
+      "lib/faq-cache.js"
+    ],
+    "api/chat-debug.js": [
+      "lib/faq-cache.js",
+      "lib/logger.js",
+      "lib/utils.js"
+    ],
+    "api/chat.js": [
+      "lib/chatPipeline.js",
+      "lib/faq-data.js",
+      "lib/logger.js"
+    ],
+    "api/healthz.js": [],
+    "api/save-ai-reply.js": [
+      "lib/utils.js"
+    ],
+    "api/save-faq-reply.js": [
+      "lib/utils.js"
+    ],
+    "api/test-openai.js": [],
+    "config/lexicon/lexicon-loader.js": [],
+    "lib/ai.js": [
+      "lib/load-env.js"
+    ],
+    "lib/blacklist-regex.js": [
+      "lib/text-normalize.js"
+    ],
+    "lib/block-long.js": [
+      "lib/logger.js"
+    ],
+    "lib/chatPipeline.js": [
+      "lib/block-long.js",
+      "lib/detect-lang-core.js",
+      "lib/faq-data.js",
+      "lib/gate.js",
+      "lib/logger.js"
+    ],
+    "lib/check-openai-env.js": [],
+    "lib/detect-lang-core.js": [
+      "config/lexicon/lexicon-loader.js",
+      "lib/detect-lang-heuristics.js",
+      "lib/detect-lang-rules.js",
+      "lib/faq-cache.js",
+      "lib/faq-data.js",
+      "lib/faq-fuzzy-detect.js",
+      "lib/logger.js",
+      "lib/openai-client.js",
+      "lib/text-normalize.js",
+      "lib/utils/withTimeout.js"
+    ],
+    "lib/detect-lang-heuristics.js": [
+      "config/lexicon/lexicon-loader.js",
+      "lib/text-normalize.js"
+    ],
+    "lib/detect-lang-rules.js": [
+      "lib/logger.js"
+    ],
+    "lib/env-check.js": [],
+    "lib/faq-cache-view.js": [
+      "lib/faq-cache.js"
+    ],
+    "lib/faq-cache.js": [
+      "lib/faq-sheets.js",
+      "lib/logger.js"
+    ],
+    "lib/faq-data.js": [
+      "lib/faq-cache.js",
+      "lib/logger.js"
+    ],
+    "lib/faq-dialog.js": [],
+    "lib/faq-fuzzy-detect.js": [
+      "lib/faq-data.js"
+    ],
+    "lib/faq-keywords.js": [
+      "lib/faq-cache.js"
+    ],
+    "lib/faq-search.js": [
+      "lib/faq-cache-view.js",
+      "lib/faq-cache.js"
+    ],
+    "lib/faq-sheets.js": [
+      "lib/env-check.js",
+      "lib/load-env.js",
+      "lib/logger.js"
+    ],
+    "lib/filters-config.js": [
+      "lib/logger.js"
+    ],
+    "lib/filters.js": [
+      "lib/logger.js"
+    ],
+    "lib/gate.featureflag.2025-10-10_042808.js": [],
+    "lib/gate.js": [
+      "lib/detect-lang-core.js",
+      "lib/filters.js",
+      "lib/gibberish-filter.js",
+      "lib/ip-lang.js",
+      "lib/logger.js",
+      "lib/rate-limiter.js",
+      "lib/wl-bl-filters.js"
+    ],
+    "lib/gibberish-filter.js": [
+      "lib/logger.js"
+    ],
+    "lib/ip-lang.js": [],
+    "lib/load-env.js": [
+      "lib/check-openai-env.js"
+    ],
+    "lib/logger.js": [],
+    "lib/openai-client.js": [
+      "lib/env-check.js",
+      "lib/load-env.js"
+    ],
+    "lib/policy.js": [],
+    "lib/rate-limiter.js": [
+      "lib/logger.js"
+    ],
+    "lib/text-normalize.js": [],
+    "lib/utils-progress.js": [],
+    "lib/utils-text.js": [],
+    "lib/utils.js": [],
+    "lib/utils/withTimeout.js": [],
+    "lib/withTimeout.js": [],
+    "lib/wl-bl-filters.js": [
+      "lib/filters-config.js",
+      "lib/logger.js"
+    ]
+  }
+}

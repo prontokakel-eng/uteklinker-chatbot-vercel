@@ -362,3 +362,306 @@
 [2025-10-21T08:41:16.958Z] Gibberish: asdfghjkl
 [2025-10-21T08:41:16.959Z] Gibberish: 1234567890
 [2025-10-21T08:41:16.959Z] Gibberish: ?
+[2025-10-21T09:05:51.253Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T09:05:51.258Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T09:05:51.264Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:05:51.254Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T09:05:51.264Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:05:51.265Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:05:51.269Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:05:51.269Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T09:05:51.270Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T09:05:51.275Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:05:51.275Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:05:51.275Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:05:51.276Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:05:51.276Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T09:05:51.277Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T09:05:51.280Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:05:51.281Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:05:51.281Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:05:51.282Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T09:05:51.282Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:05:51.285Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:05:51.284Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:05:51.285Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:05:51.286Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T09:05:51.286Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:05:51.286Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T09:05:51.287Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T09:05:51.287Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T09:05:51.288Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T09:05:51.290Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:05:51.289Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T09:05:51.291Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:05:51.291Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:05:51.292Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:05:51.292Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T09:05:51.292Z] Gibberish: asdfghjkl
+[2025-10-21T09:05:51.293Z] Gibberish: 1234567890
+[2025-10-21T09:05:51.293Z] Gibberish: ?
+[2025-10-21T09:08:57.506Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T09:08:57.516Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:08:57.510Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T09:08:57.517Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:08:57.506Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T09:08:57.517Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:08:57.521Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T09:08:57.521Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:08:57.522Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T09:08:57.527Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:08:57.527Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:08:57.527Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:08:57.528Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T09:08:57.529Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:08:57.531Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:08:57.529Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T09:08:57.533Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:08:57.534Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T09:08:57.533Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:08:57.535Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:08:57.537Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:08:57.537Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:08:57.537Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:08:57.538Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T09:08:57.538Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:08:57.539Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T09:08:57.539Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T09:08:57.540Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T09:08:57.540Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T09:08:57.541Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T09:08:57.543Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:08:57.543Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:08:57.544Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:08:57.544Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T09:08:57.544Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:08:57.545Z] Gibberish: 1234567890
+[2025-10-21T09:08:57.545Z] Gibberish: asdfghjkl
+[2025-10-21T09:08:57.546Z] Gibberish: ?
+[2025-10-21T09:47:42.922Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T09:47:42.923Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T09:47:42.926Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T09:47:42.938Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:47:42.937Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:47:42.938Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:47:42.943Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T09:47:42.943Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:47:42.944Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T09:47:42.954Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:47:42.954Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:47:42.955Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:47:42.955Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T09:47:42.956Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:47:42.956Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T09:47:42.965Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:47:42.966Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:47:42.966Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:47:42.967Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T09:47:42.967Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:47:42.974Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:47:42.974Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:47:42.975Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:47:42.975Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T09:47:42.976Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:47:42.976Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T09:47:42.977Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T09:47:42.978Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T09:47:42.978Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T09:47:42.985Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:47:42.979Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T09:47:42.986Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:47:42.986Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:47:42.987Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T09:47:42.987Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:47:42.987Z] Gibberish: asdfghjkl
+[2025-10-21T09:47:42.988Z] Gibberish: 1234567890
+[2025-10-21T09:47:42.988Z] Gibberish: ?
+[2025-10-21T09:49:56.452Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T09:49:56.453Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T09:49:56.463Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:49:56.457Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T09:49:56.464Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:49:56.464Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:49:56.468Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T09:49:56.468Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:49:56.470Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T09:49:56.474Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:49:56.475Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:49:56.475Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:49:56.476Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T09:49:56.476Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:49:56.476Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T09:49:56.478Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:49:56.480Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:49:56.481Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:49:56.482Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T09:49:56.482Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:49:56.484Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:49:56.484Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:49:56.484Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:49:56.485Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T09:49:56.485Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:49:56.486Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T09:49:56.486Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T09:49:56.487Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T09:49:56.487Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T09:49:56.489Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T09:49:56.491Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:49:56.491Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:49:56.491Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:49:56.492Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T09:49:56.492Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:49:56.492Z] Gibberish: asdfghjkl
+[2025-10-21T09:49:56.493Z] Gibberish: 1234567890
+[2025-10-21T09:49:56.493Z] Gibberish: ?
+[2025-10-21T09:59:31.773Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:59:31.774Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:59:31.774Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:59:33.174Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T09:59:33.174Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T09:59:33.178Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T09:59:33.185Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:59:33.184Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:59:33.185Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:59:33.189Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T09:59:33.190Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:59:33.195Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:59:33.195Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:59:33.191Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T09:59:33.196Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:59:33.196Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T09:59:33.197Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:59:33.197Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T09:59:33.199Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:59:33.201Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:59:33.201Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:59:33.202Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T09:59:33.203Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:59:33.205Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:59:33.205Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:59:33.205Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:59:33.206Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T09:59:33.206Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:59:33.207Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T09:59:33.207Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T09:59:33.208Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T09:59:33.208Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T09:59:33.209Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T09:59:33.212Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T09:59:33.212Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T09:59:33.211Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T09:59:33.212Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T09:59:33.213Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T09:59:33.213Z] Gibberish: asdfghjkl
+[2025-10-21T09:59:33.214Z] Gibberish: 1234567890
+[2025-10-21T09:59:33.214Z] Gibberish: ?
+[2025-10-21T10:08:11.469Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:08:11.471Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:08:11.470Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:08:12.863Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T10:08:12.864Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T10:08:12.868Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T10:08:12.874Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:08:12.875Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:08:12.875Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:08:12.879Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T10:08:12.879Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:08:12.880Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T10:08:12.885Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:08:12.885Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:08:12.885Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:08:12.886Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T10:08:12.886Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:08:12.887Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T10:08:12.889Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:08:12.890Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:08:12.890Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:08:12.891Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:08:12.891Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T10:08:12.893Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:08:12.894Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:08:12.894Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:08:12.895Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:08:12.895Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T10:08:12.895Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T10:08:12.896Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T10:08:12.896Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T10:08:12.897Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T10:08:12.900Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:08:12.898Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T10:08:12.901Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:08:12.901Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:08:12.902Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:08:12.902Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T10:08:12.902Z] Gibberish: asdfghjkl
+[2025-10-21T10:08:12.903Z] Gibberish: 1234567890
+[2025-10-21T10:08:12.903Z] Gibberish: ?
+[2025-10-21T10:15:54.978Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:15:54.978Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:15:54.979Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:15:56.399Z] ✅ Kortord hanterat (Ja)
+[2025-10-21T10:15:56.410Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:15:56.403Z] 👋 Hälsning hanterad (Hej, hur mår du?)
+[2025-10-21T10:15:56.411Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:15:56.400Z] ✅ Kortord hanterat (Hej)
+[2025-10-21T10:15:56.411Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:15:56.415Z] Gate pass: SE (Varför är klinkerdäck dyra?)
+[2025-10-21T10:15:56.416Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:15:56.417Z] 👋 Hälsning hanterad (Hvordan har du det i dag?)
+[2025-10-21T10:15:56.421Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:15:56.422Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:15:56.422Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:15:56.423Z] Gate pass: DA (Hvilken klinker passer bedst?)
+[2025-10-21T10:15:56.423Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:15:56.426Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:15:56.426Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:15:56.423Z] ✅ Kortord hanterat (Tak)
+[2025-10-21T10:15:56.428Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:15:56.429Z] Gate pass: DE (Muss ich die Fliesen gegen Frost schützen?)
+[2025-10-21T10:15:56.429Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:15:56.431Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:15:56.431Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:15:56.432Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:15:56.432Z] Gate pass: DE (Welche Fliesen sind am besten?)
+[2025-10-21T10:15:56.433Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:15:56.433Z] ✅ Kortord hanterat (Danke)
+[2025-10-21T10:15:56.434Z] 👋 Hälsning hanterad (How are you doing today?)
+[2025-10-21T10:15:56.434Z] ✅ Kortord hanterat (Hi)
+[2025-10-21T10:15:56.435Z] ✅ Kortord hanterat (Ok)
+[2025-10-21T10:15:56.435Z] 👋 Hälsning hanterad (Hej, how are you?)
+[2025-10-21T10:15:56.438Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:15:56.438Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:15:56.438Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:15:56.439Z] Gate pass: EN (Why are tiles so expensive?)
+[2025-10-21T10:15:56.439Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:15:56.440Z] Gibberish: asdfghjkl
+[2025-10-21T10:15:56.440Z] Gibberish: 1234567890
+[2025-10-21T10:15:56.441Z] Gibberish: ?
+[2025-10-21T10:34:32.533Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:34:32.534Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:34:32.534Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:51:26.201Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:51:26.201Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:51:26.202Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:51:26.206Z] Gate pass: SE (ping)
+[2025-10-21T10:51:26.206Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T10:53:08.554Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T10:53:08.554Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T10:53:08.555Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T10:53:08.559Z] Gate pass: SE (ping)
+[2025-10-21T10:53:08.560Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T11:02:46.762Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T11:02:46.762Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T11:02:46.763Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T11:02:46.767Z] Gate pass: SE (ping)
+[2025-10-21T11:02:46.767Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T11:12:50.937Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T11:12:50.937Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T11:12:50.938Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T11:12:50.941Z] Gate pass: SE (ping)
+[2025-10-21T11:12:50.942Z] ✅ Gate completed → downstream chat/FAQ
+[2025-10-21T11:12:56.674Z] ✅ IP whitelisted: 127.0.0.1
+[2025-10-21T11:12:56.674Z] [Gate] All filters passed → proceeding to detectLangCore
+[2025-10-21T11:12:56.675Z] IP hint: 127.0.0.1 -> UNKNOWN
+[2025-10-21T11:12:56.678Z] Gate pass: SE (ping)
+[2025-10-21T11:12:56.679Z] ✅ Gate completed → downstream chat/FAQ

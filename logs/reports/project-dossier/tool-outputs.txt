@@ -1,0 +1,11 @@
+=== knip ===
+
+'knip' is not recognized as an internal or external command,
+operable program or batch file.
+
+
+=== depcheck ===
+
+'depcheck' is not recognized as an internal or external command,
+operable program or batch file.
+
