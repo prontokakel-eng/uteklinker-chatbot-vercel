@@ -4,3 +4,8 @@
 # Tillåt mallar att spåras
 !.env.example
 !.env.local.example
+# runtime logs
+logs/*.log
+#audit scratch
+audit-log*.txt
+
