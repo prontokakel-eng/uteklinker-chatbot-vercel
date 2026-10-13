@@ -1,0 +1,5 @@
+<!doctype html><html lang="sv"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chatbot – anslutningstest</title>
+<body><h1>Anslutningstest i Preview</h1><p>Kontrollerar dataläsning och ett kort AI-svar med en syntetisk testfråga. Testet är avstängt i produktion.</p><button id="run">Kör anslutningstest</button><pre id="result" aria-live="polite"></pre>
+<script>
+document.getElementById('run').addEventListener('click',async()=>{const button=document.getElementById('run');button.disabled=true;const result=document.getElementById('result');result.textContent='Test pågår…';try{const response=await fetch('/api/diagnostics',{method:'POST',headers:{'Content-Type':'application/json'},body:'{}',signal:AbortSignal.timeout(45000)});result.textContent=JSON.stringify(await response.json(),null,2);}catch{result.textContent='Testet kunde inte slutföras.'}});
+</script></body></html>
