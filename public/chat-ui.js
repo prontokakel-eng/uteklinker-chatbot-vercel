@@ -134,7 +134,8 @@ function addMessage(text, sender, source = null, canRefine = false) {
     const improve = document.createElement("button");
     improve.className = "btn"; improve.dataset.action = 'refine'; improve.textContent = (uiCopy[lang] || uiCopy.SE).refine;
     const originalQuestion = lastUserText;
-    improve.addEventListener("click", () => { if (originalQuestion) sendCore(originalQuestion, lang, { refine: true }); });
+    const answerConversation = [...conversation, { role: 'assistant', content: toDisplay(text).slice(0, 1000) }].slice(-6);
+    improve.addEventListener("click", () => { if (originalQuestion) sendCore(originalQuestion, lang, { refine: true, priorConversation: lastUserText === originalQuestion ? conversation : answerConversation }); });
     bar.append(retry);
     if (canRefine) bar.append(improve);
     meta.appendChild(bar);
@@ -151,6 +152,7 @@ function addMessage(text, sender, source = null, canRefine = false) {
 let sending = false;
 let lastUserText = "";
 let lastBotAnswer = "";
+let conversation = [];
 
 function isNearBottom() {
   if (!messageScroller) return true;
@@ -236,18 +238,21 @@ function maybeAnnounceAutoLanguageSwitch(detectedCode){
   showBanner(langBanner, `OBS! ⚠️ Din fråga verkar vara på ${name} – vi bytte språk till ${flag} ${code}.`, 5000);
 }
 
-async function sendCore(text, language, { refine = false } = {}){
+async function sendCore(text, language, { refine = false, priorConversation = conversation } = {}){
   if (sending) return;
   sending = true;
   try {
+    const requestConversation = priorConversation.slice(-6);
+    conversation = requestConversation;
     addMessage(text, "user"); lastUserText = text;
+    conversation = [...requestConversation, { role: 'user', content: text.slice(0, 1000) }].slice(-6);
     if (input) input.value = "";
     showLoader(); startTypingSound();
 
     const resp = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, lang: language, refine }),
+      body: JSON.stringify({ text, lang: language, refine, conversation: requestConversation }),
       signal: AbortSignal.timeout(35000),
     });
 
@@ -280,6 +285,7 @@ async function sendCore(text, language, { refine = false } = {}){
         content.innerHTML = renderMarkdown(acc); enhanceCodeBlocks(live); maybeAutoScroll();
       }
       lastBotAnswer = acc;
+      conversation = [...conversation, { role: 'assistant', content: acc.slice(0, 1000) }].slice(-6);
     } else {
       const data = ct.includes("application/json") ? await resp.json() : { reply: await resp.text(), source: "AI" };
 
@@ -303,6 +309,7 @@ async function sendCore(text, language, { refine = false } = {}){
       } else {
         addMessage(replyText || "Inget svar.", "bot", src || "BOT");
       }
+      if (src === 'AI' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
     }
   } catch (err) {
     console.error("❌ Chat error:", err);
@@ -328,7 +335,7 @@ window.addEventListener("online",  () => showBanner(statusBanner, "✅ Tillbaka 
 
 newChatBtn?.addEventListener("click", () => {
   if (!confirm("Starta en ny konversation? Befintliga meddelanden rensas.")) return;
-  messagesDiv.innerHTML = ""; lastUserText = ""; lastBotAnswer = "";
+  messagesDiv.innerHTML = ""; lastUserText = ""; lastBotAnswer = ""; conversation = [];
   showBanner(statusBanner, "🆕 Ny konversation startad.", 2000); input?.focus();
 });
 

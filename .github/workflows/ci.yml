@@ -27,3 +27,6 @@ jobs:
 
       - name: ✅ Run DETECT-LANG TESTS
         run: npm run test:lang
+
+      - name: Test customer dialogue and early abuse protection
+        run: node --test tests/customer-flow.test.mjs tests/anti-abuse.test.mjs tests/conversation.test.mjs
