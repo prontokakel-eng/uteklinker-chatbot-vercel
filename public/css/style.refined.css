@@ -250,3 +250,15 @@ body.list-mode .message.system { align-self:flex-start !important; margin-left:.
   margin-left: .5rem;
   margin-top: .25rem;
 }
+#contact-options {padding: .5rem 1rem; font-size: .85rem; border-top: 1px solid #ddd;}
+#contact-options p {margin: .3rem 0;}
+#contact-options a {display: inline-block; margin: .25rem .5rem .25rem 0;}
+@media(max-width: 600px) {.chat-footer .footer-row {flex-wrap:wrap;} .chat-footer .options {flex-wrap:wrap;} #contact-options {max-height: 150px; overflow: auto;}}
+.app-wrapper {display:flex; flex-direction:column; height:100dvh; min-height:0; overflow:hidden;}
+.app-header {flex-shrink:0; flex-wrap:wrap;}
+.chat-container {min-height:0;}
+.chat-footer {flex-shrink:0;}
+#user-input {min-width:0;}
+.actions {display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.4rem;}
+.actions .btn, #contact-options .btn {padding:.45rem .65rem; border:1px solid #bbb; border-radius:.4rem; cursor:pointer; color:#163f84; background:#fff; font:inherit;}
+@media(max-width:600px){.message {max-width:95%;} .app-header h1 {font-size:1.1rem;}}
