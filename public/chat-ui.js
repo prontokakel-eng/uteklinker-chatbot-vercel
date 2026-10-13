@@ -135,7 +135,7 @@ function addMessage(text, sender, source = null, canRefine = false) {
     improve.className = "btn"; improve.dataset.action = 'refine'; improve.textContent = (uiCopy[lang] || uiCopy.SE).refine;
     const originalQuestion = lastUserText;
     const answerConversation = [...conversation, { role: 'assistant', content: toDisplay(text).slice(0, 1000) }].slice(-6);
-    improve.addEventListener("click", () => { if (originalQuestion) sendCore(originalQuestion, lang, { refine: true, priorConversation: answerConversation }); });
+    improve.addEventListener("click", () => { if (originalQuestion) sendCore(originalQuestion, lang, { refine: true, priorConversation: lastUserText === originalQuestion ? conversation : answerConversation }); });
     bar.append(retry);
     if (canRefine) bar.append(improve);
     meta.appendChild(bar);
