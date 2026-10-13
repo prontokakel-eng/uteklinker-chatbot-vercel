@@ -4,7 +4,7 @@ import { createChatPipeline, boundedConversation } from '../lib/chatPipeline.js'
 import { answerInstructions } from '../lib/customer-ai.js';
 import { gateMessage } from '../lib/gate.js';
 const questions = { SE:'Vilka färger finns i Lava?', DA:'Hvilke farver findes i Lava?', DE:'Welche Farben gibt es in Lava?', EN:'What colours are available in Lava?' };
-const data = Object.fromEntries(Object.entries(questions).map(([l,q]) => [l,[{question:q,answer:'Etna, Salina'}]]));
+const data = Object.fromEntries(Object.entries(questions).map(([l,q]) => [l,[{question:q,answer:'Etna, Salina'}, {question:'Ja gärna',answer:'Unrelated short FAQ'}]]));
 const request=(text,lang,extra={}) => ({body:{text,lang,...extra},headers:{'x-forwarded-for':'192.0.2.120'}});
 test('refinement and repeated questions pass bounded dialogue while facts remain server-selected in all languages',async()=>{
  for (const [lang,question] of Object.entries(questions)) {
@@ -30,6 +30,7 @@ test('accepting the appearance offer uses the product context, not the greeting 
   assert.ok(gateText.includes(question));
   assert.ok(gateText.includes(yes));
   assert.equal(captured.context[0].question,question);
+  assert.equal(captured.followUp,true);
  }
 });
 test('conversation cannot authorize unsupported installation or bypass the blacklist',async()=>{
