@@ -33,11 +33,12 @@ console.log("--------------------------------------------------------\n");
 
 let failCount = 0;
 
-for (const sample of tests) {
+for (const [index, sample] of tests.entries()) {
   const { text, expected } = sample;
 
   // Steg 1: Gate
-  const gateRes = await gateMessage(text, "127.0.0.1");
+  // Isolate language fixtures from the per-IP customer rate limit.
+  const gateRes = await gateMessage(text, `192.0.2.${index + 1}`);
 
   // Steg 2: Om Gate inte hanterade
   let coreRes = null;
@@ -75,3 +76,4 @@ console.log(
 );
 console.log(chalk.bold("--------------------------------------------------------\n"));
 console.log(chalk.gray("Tips: Kör med 'node detect-lang-fulltest.mjs'"));
+process.exitCode = failCount ? 1 : 0;
