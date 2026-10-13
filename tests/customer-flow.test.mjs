@@ -21,15 +21,22 @@ test('FAQ first, selected language, refinement and general fallback',async()=>{
  const r=rig();assert.equal((await r.pipeline(req('Vilka färger finns i Lava?'))).reply,'Etna och Salina');assert.equal(r.calls(),0);
  assert.equal((await r.pipeline(req('What colors are in Lava?',{lang:'EN'}))).reply,'Etna and Salina');
  assert.equal((await r.pipeline(req('Vilka färger finns i Lava?',{refine:true}))).via,'AI');
- assert.equal((await r.pipeline(req('Hur förbereder jag ett stabilt underlag?'))).via,'AI');assert.equal(r.calls(),2);
+ assert.equal((await r.pipeline(req('Vad betyder granitkeramik?'))).via,'AI');assert.equal(r.calls(),2);
 });
 test('data error, empty language and AI failure are distinct',async()=>{
  assert.equal((await rig({knowledge:async()=>({status:'error'})}).pipeline(req('Hur bygger jag?'))).via,'DATA_ERROR');
  assert.equal((await rig().pipeline(req('Hvordan lægger jeg fliser?',{lang:'DA'}))).via,'DATA_EMPTY');
- assert.equal((await rig({ai:async()=>{throw Error();}}).pipeline(req('Hur bygger jag ett underlag?'))).via,'AI_ERROR');
+ assert.equal((await rig({ai:async()=>{throw Error();}}).pipeline(req('Vad betyder granitkeramik?'))).via,'AI_ERROR');
 });
 test('unknown shop facts in all languages go to contact without AI',async()=>{
  const r=rig();for(const q of ['Vad är priset?','What is the price?','Wie sind Ihre Öffnungszeiten?','Hvad er jeres åbningstider?'])assert.equal((await r.pipeline(req(q))).via,'CONTACT',q);assert.equal(r.calls(),0);
+});
+test('unsupported installation questions never produce AI recipes',async()=>{
+ const r=rig();
+ for(const q of ['Hur monterar man klinkerdäck på gräs?','Hvordan lægger jeg fliser på græs?','Wie verlege ich Fliesen auf Rasen?','How do I install tiles on grass?']) {
+  assert.equal((await r.pipeline(req(q))).via,'CONTACT',q);
+ }
+ assert.equal(r.calls(),0);
 });
 test('client-supplied context cannot overwrite server-selected FAQ',async()=>{
  let context;await rig({ai:async a=>{context=a.context;return 'ok';}}).pipeline(req('Vilka färger finns i Lava?',{refine:true,faqAnswer:'fake',nearbyFaq:[{answer:'fake'}]}));assert.equal(context[0].answer,'Etna och Salina');
