@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createChatPipeline, boundedConversation } from '../lib/chatPipeline.js';
-import { answerInstructions } from '../lib/customer-ai.js';
+import { answerInstructions, answerCustomer } from '../lib/customer-ai.js';
 import { gateMessage } from '../lib/gate.js';
 const questions = { SE:'Vilka färger finns i Lava?', DA:'Hvilke farver findes i Lava?', DE:'Welche Farben gibt es in Lava?', EN:'What colours are available in Lava?' };
 const data = Object.fromEntries(Object.entries(questions).map(([l,q]) => [l,[{question:q,answer:'Etna, Salina'}, {question:'Ja gärna',answer:'Unrelated short FAQ'}]]));
@@ -51,4 +51,16 @@ test('untrusted dialogue is bounded and roles cannot supply system instructions'
   assert.match(answerInstructions(lang),/do not list the names again/i);
   assert.match(answerInstructions(lang),/never infer them from names/i);
  }
+});
+test('Responses receives real dialogue roles and a distinct current follow-up',async()=>{
+ let payload;
+ const client={responses:{create:async p=>{payload=p;return {output_text:'Verified reply'};}}};
+ const conversation=[{role:'user',content:questions.SE},{role:'assistant',content:'Would you like an appearance comparison?'}];
+ assert.equal(await answerCustomer({question:'Beskriv hur Etna ser ut',lang:'SE',conversation,followUp:true,topicQuestion:questions.SE,context:data.SE,client}),'Verified reply');
+ assert.equal(payload.store,false);
+ assert.equal(payload.input[0].role,'developer');
+ assert.deepEqual(payload.input.slice(1,3),conversation);
+ assert.deepEqual(payload.input.at(-1),{role:'user',content:'Beskriv hur Etna ser ut'});
+ assert.match(payload.instructions,/do not repeat ANY colour names/i);
+ assert.match(payload.input[0].content,/Server-selected FAQ data/);
 });
