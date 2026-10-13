@@ -40,6 +40,7 @@ test('conversation cannot authorize unsupported installation or bypass the black
  assert.equal((await chat(request('Beskriv casino 60x60', 'SE',{conversation}))).via,'FILTER');
  assert.equal(loads,0);assert.equal(calls,0);
  assert.equal((await chat(request('Hur monterar man klinkerdäck på gräs?', 'SE',{conversation}))).via,'CONTACT');
+ assert.equal((await chat(request('Vad kostar dessa?', 'SE',{conversation}))).via,'CONTACT');
  assert.equal(calls,0);
 });
 test('untrusted dialogue is bounded and roles cannot supply system instructions',()=>{
