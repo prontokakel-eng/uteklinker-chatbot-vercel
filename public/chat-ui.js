@@ -252,6 +252,12 @@ async function sendCore(text, language, { refine = false } = {}){
     });
 
     const ct = (resp.headers.get("content-type") || "").toLowerCase();
+    if (resp.status === 429) {
+      const throttled = { SE: 'Du har skickat många frågor. Vänta en minut och försök igen.', DA: 'Du har sendt mange spørgsmål. Vent et minut og prøv igen.', DE: 'Sie haben viele Fragen gesendet. Warten Sie eine Minute und versuchen Sie es erneut.', EN: 'You have sent many questions. Wait a minute and try again.' };
+      addMessage(throttled[language] || throttled.SE, 'bot', 'RATE-LIMIT');
+      return;
+    }
+    if (!resp.ok && !ct.includes('application/json')) throw new Error(`Chat HTTP ${resp.status}`);
 
     if (resp.ok && resp.body && (ct.includes("text/event-stream") || ct.includes("text/plain"))) {
       const live = document.createElement("div");
