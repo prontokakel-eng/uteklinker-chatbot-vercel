@@ -1,5 +1,18 @@
 # Changes
 
+## 2026-10-15 — Verified Danish price questions
+
+Recognize `prisen`, `priserne` and `koster` as price requests, including contextual
+follow-ups. Without an exact same-language FAQ question, route these requests to
+contact before AI or a fuzzy direct answer. Existing verified exact FAQ answers
+remain available. The store-fact guard now also runs before the direct FAQ shortcut.
+No changes to the blacklist, input limits, rate limits or installation checks.
+
+Regression coverage includes unknown Danish price forms, dialogue follow-ups,
+different formats/series and preservation of exact verified price answers.
+Local verification: 36 customer-flow, abuse, conversation and colour-match tests
+passed with the current four-language workbook; 18 language cases passed.
+
 ## 2026-10-15 — Danish/German colour FAQ matching
 
 Natural short colour-list questions can now select a same-language FAQ with the

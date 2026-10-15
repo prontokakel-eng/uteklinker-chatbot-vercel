@@ -31,6 +31,22 @@ test('data error, empty language and AI failure are distinct',async()=>{
 test('unknown shop facts in all languages go to contact without AI',async()=>{
  const r=rig();for(const q of ['Vad är priset?','What is the price?','Wie sind Ihre Öffnungszeiten?','Hvad er jeres åbningstider?'])assert.equal((await r.pipeline(req(q))).via,'CONTACT',q);assert.equal(r.calls(),0);
 });
+test('Danish price forms and contextual price requests require verified facts',async()=>{
+ const r=rig({knowledge:async()=>({status:'ready',data:{...data,DA:[{question:'Hvilke farver findes i Lava?',answer:'Etna og Salina'}]}})});
+ for(const text of ['Hvad er prisen på Lava?','Hvad er priserne på Lava?','Hvad koster Lava?','Ja tak, hvad er prisen på dem?']) {
+  assert.equal((await r.pipeline(req(text,{lang:'DA',conversation:[{role:'user',content:'Hvilke farver findes i Lava?'},{role:'assistant',content:'Etna og Salina'}]}))).via,'CONTACT',text);
+ }
+ assert.equal(r.calls(),0);
+});
+test('similar price FAQs cannot authorize a different format or series',async()=>{
+ const question='Hvad er prisen på Lava 60x60?';
+ const r=rig({knowledge:async()=>({status:'ready',data:{...data,DA:[{question,answer:'Verified fixture price'}]}})});
+ assert.equal((await r.pipeline(req(question,{lang:'DA'}))).reply,'Verified fixture price');
+ for(const text of ['Hvad er prisen på Lava 90x90?','Hvad er prisen på Arena 60x60?']) {
+  assert.equal((await r.pipeline(req(text,{lang:'DA'}))).via,'CONTACT',text);
+ }
+ assert.equal(r.calls(),0);
+});
 test('unsupported installation questions never produce AI recipes',async()=>{
  const r=rig();
  for(const q of ['Hur monterar man klinkerdäck på gräs?','Hvordan lægger jeg fliser på græs?','Wie verlege ich Fliesen auf Rasen?','How do I install tiles on grass?']) {
