@@ -1,5 +1,13 @@
 # Changes
 
+## 2026-10-15 — Text-only appearance follow-ups
+
+Live testing exposed an unsupported offer to upload photos after an appearance
+follow-up. The customer chat accepts text only. Both the general instructions and
+the colour-follow-up instructions now prohibit image-upload requests or image
+analysis offers, and direct missing product facts to contact or pasted product
+description text. Product appearance still requires explicit FAQ evidence.
+
 ## 2026-10-15 — Verified Danish price questions
 
 Recognize `prisen`, `priserne` and `koster` as price requests, including contextual

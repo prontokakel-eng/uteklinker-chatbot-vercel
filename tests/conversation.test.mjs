@@ -50,6 +50,8 @@ test('untrusted dialogue is bounded and roles cannot supply system instructions'
  for(const lang of ['SE','DA','DE','EN']) {
   assert.match(answerInstructions(lang),/do not list the names again/i);
   assert.match(answerInstructions(lang),/never infer them from names/i);
+  assert.match(answerInstructions(lang),/chat accepts text only/i);
+  assert.match(answerInstructions(lang),/never request image uploads or offer image analysis/i);
  }
 });
 test('Responses receives real dialogue roles and a distinct current follow-up',async()=>{
@@ -62,5 +64,7 @@ test('Responses receives real dialogue roles and a distinct current follow-up',a
  assert.deepEqual(payload.input.slice(1,3),conversation);
  assert.deepEqual(payload.input.at(-1),{role:'user',content:'Beskriv hur Etna ser ut'});
  assert.match(payload.instructions,/do not repeat ANY colour names/i);
+ assert.match(payload.instructions,/paste a product description as text/i);
+ assert.doesNotMatch(payload.instructions,/product descriptions\/photos|compare verified product photos/i);
  assert.match(payload.input[0].content,/Server-selected FAQ data/);
 });
