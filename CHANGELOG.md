@@ -1,0 +1,79 @@
+# Changes
+
+## 2026-10-15 — Danish/German colour FAQ matching
+
+Natural short colour-list questions can now select a same-language FAQ with the
+same exact series name, despite different question wording. This adds a bounded
+intent/entity match between the existing exact-text lookup and Fuse search.
+Case, whitespace, question/exclamation marks, common dash variants and explicit
+series wrappers are normalized only for this additional match. No names, answers
+or product descriptions are generated or translated.
+
+Reproductions against the question wording in
+`tests/fixtures/faq-lang-benchmark-2025-10-07.json`:
+
+| Language | Existing FAQ | Previously missed question |
+| --- | --- | --- |
+| DA | Hvilke farver er tilgængelige i Lava-serien? | Hvilke farver har Lava? |
+| DA | Same | Hvilke farver findes i Lava? |
+| DA | Same | Lava farver? |
+| DE | Welche Farben sind in der Lava-Serie erhältlich? | Welche Farben hat Lava? |
+| DE | Same | In welchen Farben gibt es Lava? |
+| DE | Same | Lava Farben? |
+
+Each example previously returned no hit, even in isolation. All now return the
+existing FAQ row with score 0.1, below the pipeline's 0.18 direct-answer limit.
+Score 0 remains reserved for the existing exact-text path. Widening Fuse's 0.28
+threshold was rejected because textual similarity alone does not establish the
+right product or question intent. Normalizing punctuation alone cannot reconcile
+these changes in wording and word order.
+
+Recognized colour-list requests for an unknown/modified series return no hits
+instead of falling back to a similarly spelled series. Conflicting answers for
+the same canonical series also return no hits. Exact FAQ wording still has first
+priority, including where canonical source rows conflict. Other intents and SE/EN
+continue through the original matching logic. Gate, rate limiting, language
+selection, conversation, installation/store-fact guards and AI instructions are
+unchanged.
+
+### Validation
+
+- `node --test tests/faq-colour-match.test.mjs`: 13 passed. Against original main:
+  7 passed, 6 failed, demonstrating the regressions before the fix.
+- `TEST_FAQ_FILE=översättning/faq_golden_translated_20250918_102152.xlsx node --test tests/customer-flow.test.mjs tests/anti-abuse.test.mjs tests/conversation.test.mjs tests/faq-colour-match.test.mjs`:
+  34 passed, none skipped. Uses the repository workbook, not current Drive data.
+- `npm run test:lang`: 18 passed.
+- `npm run audit`: passed (minimal sanity; live Google credentials unavailable).
+- `npx eslint lib/drive-knowledge.js`: passed. Added an explicit Node Buffer import
+  to resolve the pre-existing undefined-global lint error in this file.
+- CI now includes the new regression suite.
+
+The new suite checks each exact DA/DE benchmark question, colour-series
+paraphrases across the catalogue, near-spelled/unknown/multiple/modified series,
+source-answer conflicts, same-language isolation, actual pipeline gate,
+refinement/accepted follow-ups, and representative unsupported price and
+installation questions. Fixture answers are synthetic identifiers, not product
+facts. No external AI or production calls were used.
+
+### Limits and deployment
+
+Revalidation on 2026-10-15: all 34 tests also passed using the updated
+2026-10-13 FAQ workbook snapshot, with no skipped tests. An additional 183
+colour paraphrases across 31 Danish and 30 German source rows selected the
+original answer correctly. Language regression (18 cases), targeted lint and
+local audit passed again. This snapshot check is separate from a live Drive
+check in Preview; see the pull request for deployment verification.
+
+This is a finite set of colour-list formulations, not general semantic search.
+Appearance, negation, arbitrary paraphrases and other intents are not generalized.
+Production Drive contents have not been inspected or live-tested. The checked-in
+workbook is older than the workbook cited in PR #3; it validates parsing and the
+existing tests, not the current product facts. A Preview check with the actual
+FAQ source is still needed before approving production deployment.
+
+During testing, the existing store-fact regex also failed to classify Danish
+`Hvad er prisen på Lava?` as CONTACT (it went to AI). It recognizes `priser` but
+not `prisen`. This pre-existing, non-colour guard gap is unchanged; AI instructions
+still require verified product facts. It should be considered separately.
+
+No production deployment or merge is part of this change.
