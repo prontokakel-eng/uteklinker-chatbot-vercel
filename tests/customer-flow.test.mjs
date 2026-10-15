@@ -111,6 +111,29 @@ test('real gate admits structural questions for contact and still blocks abuse f
  assert.equal((await chat({body:{text:'casino hur många fötter?',lang:'SE'},headers:{'x-forwarded-for':'192.0.2.219'}})).via,'FILTER');
  assert.equal(loads,0);assert.equal(calls,0);
 });
+
+test('AI cannot reverse a verified drainage direction in any supported language',async()=>{
+ const samples={
+  SE:['Hur lägger man klinkerdäck på träreglar?','Normalt rekommenderas cirka 1 % fall från huset.','Lägg cirka 1 % fall mot huset.'],
+  DA:['Hvordan lægger man fliser på træbjælker?','Normalt anbefales cirka 1 % fald væk fra huset.','Lav cirka 1 % fald mod huset.'],
+  DE:['Wie verlegt man Außenfliesen auf Holzbalken?','Normalerweise wird etwa 1 % Gefälle vom Haus weg empfohlen.','Bauen Sie etwa 1 % Gefälle zum Haus hin.'],
+  EN:['How do I install tiles on timber joists?','Approximately 1% fall away from the house is normally recommended.','Use approximately 1% fall towards the house.'],
+ };
+ for(const [lang,[question,answer,unsafe]] of Object.entries(samples)) {
+  const r=rig({knowledge:async()=>({status:'ready',data:{[lang]:[{question,answer}]}}),ai:async()=>unsafe});
+  const result=await r.pipeline(req(question,{lang,refine:true}));
+  assert.equal(result.via,'faq',lang);assert.equal(result.reply,answer,lang);
+  assert.equal(result.canRefine,false,lang);
+ }
+});
+
+test('supported drainage explanations and colour refinement still reach AI',async()=>{
+ const question='Hur lägger man klinkerdäck på träreglar?';
+ const safe='Fallet från huset hjälper vattnet att rinna bort från fasaden.';
+ const r=rig({knowledge:async()=>({status:'ready',data:{SE:[{question,answer:'Normalt cirka 1 % fall från huset.'}]}}),ai:async()=>safe});
+ assert.equal((await r.pipeline(req(question,{refine:true}))).via,'AI');
+ assert.equal((await rig().pipeline(req('Vilka färger finns i Lava?',{refine:true}))).via,'AI');
+});
 test('open, closed, unknown and staff presence produce correct links',()=>{
  const place={currentOpeningHours:{openNow:true},internationalPhoneNumber:'+46 40 123456',timeZone:{id:'Europe/Stockholm'}};
  assert.deepEqual(contactState({place,staffAvailable:true,env}).links.map(l=>l.type),['email','phone','chat']);
