@@ -371,6 +371,7 @@ async function updateContacts() {
     const data = await response.json();
     contactPanel.replaceChildren();
     const status = document.createElement('p'); status.textContent = data.message; contactPanel.append(status);
+    if (data.supportHoursNote) { const note = document.createElement('p'); note.textContent = data.supportHoursNote; contactPanel.append(note); }
     if (data.staffMessage) { const note = document.createElement('p'); note.textContent = data.staffMessage; contactPanel.append(note); }
     for (const link of data.links || []) {
       if (!/^(mailto:|tel:|https:\/\/)/.test(link.href)) continue;

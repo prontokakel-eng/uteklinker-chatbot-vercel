@@ -134,11 +134,14 @@ test('supported drainage explanations and colour refinement still reach AI',asyn
  assert.equal((await r.pipeline(req(question,{refine:true}))).via,'AI');
  assert.equal((await rig().pipeline(req('Vilka färger finns i Lava?',{refine:true}))).via,'AI');
 });
-test('open, closed, unknown and staff presence produce correct links',()=>{
+test('support hours, independent store hours and staff presence produce correct links',()=>{
  const place={currentOpeningHours:{openNow:true},internationalPhoneNumber:'+46 40 123456',timeZone:{id:'Europe/Stockholm'}};
- assert.deepEqual(contactState({place,staffAvailable:true,env}).links.map(l=>l.type),['email','phone','chat']);
- assert.equal(contactState({place,staffAvailable:false,env}).links.some(l=>l.type==='chat'),false);
- assert.deepEqual(contactState({place:{...place,currentOpeningHours:{openNow:false}},env}).links.map(l=>l.type),['email']);assert.equal(contactState({env}).openNow,null);
+ const supportEnv={...env,SUPPORT_HOURS_VERIFIED:'true',SUPPORT_HOURS_JSON:JSON.stringify({weekly:Object.fromEntries([1,2,3,4,5,6,7].map(day=>[day,[['10:00','17:00']]]))})};
+ const now=new Date('2026-10-15T10:00:00Z');
+ assert.deepEqual(contactState({place,staffAvailable:true,env:supportEnv,now}).links.map(l=>l.type),['email','phone','chat']);
+ assert.deepEqual(contactState({place:{...place,currentOpeningHours:{openNow:false}},staffAvailable:true,env:supportEnv,now}).links.map(l=>l.type),['email','phone','chat']);
+ assert.equal(contactState({place,staffAvailable:false,env:supportEnv,now}).links.some(l=>l.type==='chat'),false);
+ assert.deepEqual(contactState({place,env:supportEnv,now:new Date('2026-10-15T15:00:00Z')}).links.map(l=>l.type),['email']);assert.equal(contactState({env}).openNow,null);
 });
 test('special current hours override regular hours; Google failure stays unknown',async()=>{
  assert.equal(contactState({place:{regularOpeningHours:{openNow:true},currentOpeningHours:{openNow:false}},env}).openNow,false);
