@@ -72,6 +72,45 @@ test('original Excel contains all four languages and no AI_SAVE import',{skip:!p
  for(const row of parsed.SE)assert.ok(!row.question.startsWith('2025-'));
 });
 const env={CONTACT_EMAIL:'info@example.com',CONTACT_EMAIL_VERIFIED:'true',LIVE_CHAT_URL:'https://example.com/chat'};
+
+test('structural sizing and support counts require personal contact in all four languages',async()=>{
+ const samples={
+  SE:['Vilken bärighet har min altan?','Hur många fötter behöver jag till 30 m2?','Vilka dimensioner ska träreglarna ha?','Vilket regelavstånd behöver jag?'],
+  DA:['Hvilken bæreevne har min terrasse?','Hvor mange støttefødder skal jeg bruge til 30 m2?','Hvilke dimensioner skal træbjælkerne have?'],
+  DE:['Welche Tragfähigkeit hat meine Terrasse?','Wie viele Stelzlager brauche ich für 30 m2?','Welche Abmessungen brauchen die Holzbalken?'],
+  EN:['What load-bearing capacity does my terrace have?','How many pedestals do I need for 30 m2?','What size joists do I need?'],
+ };
+ for(const [lang,questions] of Object.entries(samples)) {
+  for(const text of questions) {
+   // Even an exact FAQ must not turn a site-specific calculation into advice.
+   const r=rig({knowledge:async()=>({status:'ready',data:{[lang]:[{question:text,answer:'Unsafe sizing fixture'}]}})});
+   const out=await r.pipeline(req(text,{lang}));
+   assert.equal(out.via,'CONTACT',text);assert.equal(r.calls(),0,text);
+   assert.notEqual(out.reply,'Unsafe sizing fixture');
+  }
+ }
+});
+
+test('structural follow-ups cannot bypass personal contact; general installation FAQ still works',async()=>{
+ const r=rig();
+ assert.equal((await r.pipeline(req('Ja gärna',{conversation:[{role:'user',content:'Hur många fötter behöver jag?'},{role:'assistant',content:'Let me calculate that.'}]}))).via,'CONTACT');
+ assert.equal(r.calls(),0);
+ const question='Hur lägger man klinkerdäck på träreglar?';
+ const general=rig({knowledge:async()=>({status:'ready',data:{SE:[{question,answer:'Följ den verifierade monteringsanvisningen.'}]}})});
+ assert.equal((await general.pipeline(req(question))).via,'faq');assert.equal(general.calls(),0);
+});
+
+test('real gate admits structural questions for contact and still blocks abuse first',async()=>{
+ let loads=0,calls=0;
+ const chat=createChatPipeline({gate:gateMessage,knowledge:async()=>{loads++;throw Error('must not load');},ai:async()=>{calls++;return 'unsafe';}});
+ const examples={SE:'Hur många fötter behöver jag till min altan?',DA:'Hvor mange støttefødder skal jeg bruge?',DE:'Wie viele Stelzlager brauche ich?',EN:'How many pedestals do I need?'};
+ let id=210;
+ for(const [lang,text] of Object.entries(examples)) {
+  assert.equal((await chat({body:{text,lang},headers:{'x-forwarded-for':`192.0.2.${id++}`}})).via,'CONTACT',text);
+ }
+ assert.equal((await chat({body:{text:'casino hur många fötter?',lang:'SE'},headers:{'x-forwarded-for':'192.0.2.219'}})).via,'FILTER');
+ assert.equal(loads,0);assert.equal(calls,0);
+});
 test('open, closed, unknown and staff presence produce correct links',()=>{
  const place={currentOpeningHours:{openNow:true},internationalPhoneNumber:'+46 40 123456',timeZone:{id:'Europe/Stockholm'}};
  assert.deepEqual(contactState({place,staffAvailable:true,env}).links.map(l=>l.type),['email','phone','chat']);

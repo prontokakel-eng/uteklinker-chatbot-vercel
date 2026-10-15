@@ -27,3 +27,21 @@ test('legitimate FAQ and dimensions are still accepted',async()=>{
  const r=rig();assert.equal((await r.query('Vilka färger finns i Lava?')).via,'faq');assert.deepEqual(r.calls,{google:1,ai:0});
  for(const q of ['Hur lägger man plattor 60x60 cm på träreglar?','Vilket stöd behövs för 45x145 mm reglar?'])assert.equal((await gateMessage(q,`198.51.100.${id++}`)).filtered,false,q);
 });
+
+test('100 concurrent FAQ requests from one IP admit ten and throttle ninety before data or AI',async()=>{
+ const r=rig();
+ const results=await Promise.all(Array.from({length:100},()=>r.query('Vilka färger finns i Lava?')));
+ assert.equal(results.filter(x=>x.via==='faq').length,10);
+ const blocked=results.filter(x=>x.via==='rate-limit');
+ assert.equal(blocked.length,90);assert.ok(blocked.every(x=>x.retryAfter>0));
+ assert.deepEqual(r.calls,{google:10,ai:0});
+ // A second customer remains independent of the first customer's burst.
+ const other=rig();assert.equal((await other.query('Vilka färger finns i Lava?')).via,'faq');
+});
+
+test('100 concurrent greetings make zero external calls and still enforce the limit',async()=>{
+ const r=rig();const results=await Promise.all(Array.from({length:100},()=>r.query('Hej')));
+ assert.equal(results.filter(x=>x.via==='GREETING').length,10);
+ assert.equal(results.filter(x=>x.via==='rate-limit').length,90);
+ assert.deepEqual(r.calls,{google:0,ai:0});
+});
