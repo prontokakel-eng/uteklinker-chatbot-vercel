@@ -14,6 +14,10 @@ all initial responses were FAQ; refinements were AI, retained the selected
 language and did not repeat names or invent appearance facts. This is a
 bounded smoke test, not a guarantee about arbitrary AI responses.
 
+The proposed branch passed live Preview checks for an English structural question
+(CONTACT), unknown Lavo (no invented colour list), known Lava (FAQ) and retained
+AI refinement. CI/Audit/Sanity Sweep and Vercel all passed.
+
 The added routing matrix covers colours, formats, representative general
 installation, unsupported prices, structural weight questions, unsupported grass
 installation and unknown series. It initially passed 22/27; natural weight
@@ -34,9 +38,16 @@ API and currentSecondaryOpeningHours type ONLINE_SERVICE_HOURS. Its browser
 key must not be copied into the server or have its website restriction weakened.
 PR #11 adds an opt-in server Places path; it is open, unmerged and not live
 validated. Production still uses a manual snapshot expiring 29 October 2026.
-Google Cloud reauthentication blocked inspection of the existing project's keys,
-quotas and permitted APIs. A correctly restricted server credential and Preview
-validation remain necessary before activating this route. No billing or key
+After Google reauthentication, project ferrous-record-510814-a8 was inspected.
+Its only listed API key (Klinkerdack - Oppet idag) is restricted to
+https://klinkerdack.se/* and Maps JavaScript API / Places API (New). Both APIs
+are enabled. The Places quota UI shows GetPlaceRequest at 600/minute and
+125,000/day, not adjustable in this view; these shared quotas are not a small
+chatbot-specific spending cap. The previous-day API overview showed 156 requests
+and 20% errors; the cause has not been traced. No server key was present in this
+project. Creating a separate API-restricted server credential requires action-time
+approval. Preview validation and appropriate contact-endpoint abuse coverage
+remain necessary before activating this route. No billing or key
 activation was performed.
 
 Actual human-chat provider presence is a separate prerequisite: opening hours
@@ -106,7 +117,7 @@ Sources checked on 17 October 2026:
 ## Launch order
 
 1. Review this branch and test its Preview with current FAQ; do not merge yet.
-2. Finish Google project inspection and safe Preview API setup after user login.
+2. Approve a separate server credential, verify spending controls and contact-endpoint protection, then configure/test Preview only.
 3. Resolve privacy text, processor/retention facts and actual staff presence.
 4. Test the final embed's consent and storage behaviour, then graphical QA.
 5. User approves production deployment and customer activation.
