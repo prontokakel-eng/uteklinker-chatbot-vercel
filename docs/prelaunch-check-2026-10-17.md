@@ -36,19 +36,33 @@ These are different schedules and must stay distinct.
 The actual NEH storefront script already uses Google's Maps JavaScript/Places
 API and currentSecondaryOpeningHours type ONLINE_SERVICE_HOURS. Its browser
 key must not be copied into the server or have its website restriction weakened.
-PR #11 adds an opt-in server Places path; it is open, unmerged and not live
-validated. Production still uses a manual snapshot expiring 29 October 2026.
+PR #11 adds an opt-in server Places path; it is open and unmerged. Its real Google API path was validated in Preview
+on 17 October, as detailed below. Production still uses a manual snapshot expiring 29 October 2026.
 After Google reauthentication, project ferrous-record-510814-a8 was inspected.
-Its only listed API key (Klinkerdack - Oppet idag) is restricted to
+Its existing website API key (Klinkerdack - Oppet idag) is restricted to
 https://klinkerdack.se/* and Maps JavaScript API / Places API (New). Both APIs
 are enabled. The Places quota UI shows GetPlaceRequest at 600/minute and
 125,000/day, not adjustable in this view; these shared quotas are not a small
 chatbot-specific spending cap. The previous-day API overview showed 156 requests
-and 20% errors; the cause has not been traced. No server key was present in this
-project. Creating a separate API-restricted server credential requires action-time
-approval. Preview validation and appropriate contact-endpoint abuse coverage
-remain necessary before activating this route. No billing or key
-activation was performed.
+and 20% errors; the cause has not been traced. No server key was present before this work.
+
+After explicit user approval, a separate key named Chatbot - Places - Preview
+was created in this existing project, restricted to Places API (New). The website
+key was not changed. No billing plan or quota was changed. The new key is stored
+as a Vercel Secret GOOGLE_PLACES_API_KEY, and GOOGLE_PLACES_ENABLED=true is
+configured only for Preview branch work/places-support-2026-10-15. Neither is
+configured for Production. No IP restriction is claimed for the server key.
+
+Preview deployment C6VWVbeAXHPXiogWqerNn3Ukvxhh, source 573082a, was rebuilt:
+https://uteklinker-chatbot-vercel-jwwh1hkn3.vercel.app
+Four real /api/contact checks (SE, DA, DE, EN) passed ten assertions each:
+HTTP 200, google-places source, store open, support closed, staff unavailable,
+email-only actions, expiry present, seven-day schedule, no Set-Cookie and
+Cache-Control no-store. Messages and email labels matched each selected language.
+This validates the current Saturday state; open-support and transition/failure
+behaviour remain covered by simulated tests, not a real weekday observation.
+Production was checked separately and still uses the manual route. Shared
+contact-endpoint abuse protection and spending controls remain launch gates.
 
 Actual human-chat provider presence is a separate prerequisite: opening hours
 alone cannot establish staff availability. Confirm the provider/presence endpoint
@@ -117,7 +131,7 @@ Sources checked on 17 October 2026:
 ## Launch order
 
 1. Review this branch and test its Preview with current FAQ; do not merge yet.
-2. Approve a separate server credential, verify spending controls and contact-endpoint protection, then configure/test Preview only.
+2. The separate server credential and four-language Preview API checks are complete. Verify spending controls and fleet-wide contact-endpoint protection before production activation.
 3. Resolve privacy text, processor/retention facts and actual staff presence.
 4. Test the final embed's consent and storage behaviour, then graphical QA.
 5. User approves production deployment and customer activation.
