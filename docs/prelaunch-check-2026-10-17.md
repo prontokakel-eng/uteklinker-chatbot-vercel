@@ -72,16 +72,33 @@ before offering human chat. Email remains available in unknown/closed states.
 
 Vercel Rules UI verified the enabled rule "Chat API 10 per minute per IP":
 request path equals /api/chat, fixed 60-second window, 10 requests, IP key,
-429 response. Bot protection and system mitigations were active. This is
-fleet-wide protection in addition to the code's per-instance rate limiter.
+429 response. Bot protection and system mitigations were active. This runs before application code, in addition to the per-instance limiter.
+Vercel documents that counters are per-region, not one global spending cap.
 A controlled burst of eleven greeting-only requests completed within 8.4 seconds:
 ten returned GREETING and one returned HTTP 429 with the Vercel mitigation header.
 No answer-model calls were required. This is a single-origin smoke test, not a
 fleet load test or proof of a spending cap. An earlier sequential probe exceeded
 one minute and was therefore not a valid test of the per-minute threshold.
-The /api/contact endpoint is outside this rule; PR #11 adds a separate local
-limiter before live Google calls. Check fleet-wide coverage before activation.
-Never treat one process's limiter as a shared spending cap.
+The /api/contact endpoint is outside this rule. PR #11 has a separate local
+limiter before live Google calls. An additional regression test now proves that
+requests beyond ten are rejected before the Places fetch, including when the
+caller rotates SE/DA/DE/EN or supplies an invalid language. This uses an isolated
+process with fake fetch and fixture credentials. The full PR #11 suite passed
+69/69 with the current workbook and no skips.
+
+On 17 October an unsaved Preview-only contact WAF rule was prepared, but selecting
+Rate Limit opened a Pro upgrade prompt. The proposal was cancelled; no firewall
+settings or subscription were changed. Official limits confirm Hobby allows one
+rate-limiting rule per project, already occupied by /api/chat:
+https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting
+
+Proposed configuration within the current plan, requiring approval before changing
+the live firewall: match Request Path equals /api/chat OR /api/contact; retain
+Fixed Window 60 seconds, Request Limit 10, IP counting key, HTTP 429. Both routes
+would share the ten-request budget per IP per region, so a contact refresh would
+consume one of those requests. This also needs a controlled post-change smoke
+test. Separate counters require another solution or plan. Do not treat this
+per-IP mitigation as a global Places spending cap or distributed-attack defence.
 
 ## Privacy and cookies
 
