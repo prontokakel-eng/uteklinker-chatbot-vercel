@@ -92,13 +92,22 @@ settings or subscription were changed. Official limits confirm Hobby allows one
 rate-limiting rule per project, already occupied by /api/chat:
 https://vercel.com/docs/vercel-firewall/vercel-waf/rate-limiting
 
-Proposed configuration within the current plan, requiring approval before changing
-the live firewall: match Request Path equals /api/chat OR /api/contact; retain
-Fixed Window 60 seconds, Request Limit 10, IP counting key, HTTP 429. Both routes
-would share the ten-request budget per IP per region, so a contact refresh would
-consume one of those requests. This also needs a controlled post-change smoke
-test. Separate counters require another solution or plan. Do not treat this
-per-IP mitigation as a global Places spending cap or distributed-attack defence.
+After explicit user approval on 17 October, the existing WAF rule was updated
+and published: Request Path equals /api/chat OR /api/contact; Fixed Window
+60 seconds, Request Limit 10, IP counting key, HTTP 429. The active rule is named
+Chat and Contact APIs 10 per minute per IP. Both routes share the ten-request
+budget per IP per region; a contact refresh consumes one request.
+
+A bounded production check at 09:01 UTC sent ten concurrent contact requests:
+all returned HTTP 200. Two subsequent requests, one contact and one greeting-only
+chat request, both returned HTTP 429 with x-vercel-mitigated: deny. All twelve
+completed within 12.67 seconds and reported region sfo1. After a cooldown, both
+routes returned HTTP 200 again; the chat response was GREETING. The production
+contact route still had Places disabled. No new application code was deployed,
+no PR was merged, and no subscription or billing plan was changed. Test data
+contained no customer questions or personal information. This is one-origin,
+one-region verification, not a global spending cap or distributed-attack test.
+Separate route counters would require another solution or plan.
 
 ## Privacy and cookies
 
