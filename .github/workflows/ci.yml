@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "work/prelaunch-guards-2026-10-17"]
 
 jobs:
   build-and-test:
