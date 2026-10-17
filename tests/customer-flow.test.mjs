@@ -1,3 +1,4 @@
+import { syntheticEvidence } from './fixtures/approved-synthetic.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -6,7 +7,7 @@ import { createKnowledgeCache, parseWorkbook } from '../lib/drive-knowledge.js';
 import { createRateLimiter } from '../lib/rate-limiter.js';
 import { gateMessage } from '../lib/gate.js';
 import { contactState, getStoreContact, stockholmTime } from '../lib/store-contact.js';
-const data = { SE:[{question:'Vilka färger finns i Lava?',answer:'Etna och Salina'}], EN:[{question:'What colors are in Lava?',answer:'Etna and Salina'}], DA:[], DE:[] };
+const data = { SE:[{question:'Vilka färger finns i Lava?',evidence:syntheticEvidence,answer:'Etna och Salina'}], EN:[{question:'What colors are in Lava?',evidence:syntheticEvidence,answer:'Etna and Salina'}], DA:[], DE:[] };
 const req=(text,extra={})=>({body:{text,lang:'SE',...extra},headers:{'x-forwarded-for':'192.0.2.1'}});
 function rig(overrides={}) {
  let calls=0;
@@ -32,7 +33,7 @@ test('unknown shop facts in all languages go to contact without AI',async()=>{
  const r=rig();for(const q of ['Vad är priset?','What is the price?','Wie sind Ihre Öffnungszeiten?','Hvad er jeres åbningstider?'])assert.equal((await r.pipeline(req(q))).via,'CONTACT',q);assert.equal(r.calls(),0);
 });
 test('Danish price forms and contextual price requests require verified facts',async()=>{
- const r=rig({knowledge:async()=>({status:'ready',data:{...data,DA:[{question:'Hvilke farver findes i Lava?',answer:'Etna og Salina'}]}})});
+ const r=rig({knowledge:async()=>({status:'ready',data:{...data,DA:[{question:'Hvilke farver findes i Lava?',evidence:syntheticEvidence,answer:'Etna og Salina'}]}})});
  for(const text of ['Hvad er prisen på Lava?','Hvad er priserne på Lava?','Hvad koster Lava?','Ja tak, hvad er prisen på dem?']) {
   assert.equal((await r.pipeline(req(text,{lang:'DA',conversation:[{role:'user',content:'Hvilke farver findes i Lava?'},{role:'assistant',content:'Etna og Salina'}]}))).via,'CONTACT',text);
  }
@@ -40,8 +41,8 @@ test('Danish price forms and contextual price requests require verified facts',a
 });
 test('similar price FAQs cannot authorize a different format or series',async()=>{
  const question='Hvad er prisen på Lava 60x60?';
- const r=rig({knowledge:async()=>({status:'ready',data:{...data,DA:[{question,answer:'Verified fixture price'}]}})});
- assert.equal((await r.pipeline(req(question,{lang:'DA'}))).reply,'Verified fixture price');
+ const r=rig({knowledge:async()=>({status:'ready',data:{...data,DA:[{question,evidence:syntheticEvidence,answer:'Verified fixture price'}]}})});
+ assert.equal((await r.pipeline(req(question,{lang:'DA'}))).via,'CONTACT');
  for(const text of ['Hvad er prisen på Lava 90x90?','Hvad er prisen på Arena 60x60?']) {
   assert.equal((await r.pipeline(req(text,{lang:'DA'}))).via,'CONTACT',text);
  }
@@ -55,7 +56,7 @@ test('unsupported installation questions never produce AI recipes',async()=>{
  assert.equal(r.calls(),0);
 });
 test('client-supplied context cannot overwrite server-selected FAQ',async()=>{
- let context;await rig({ai:async a=>{context=a.context;return 'ok';}}).pipeline(req('Vilka färger finns i Lava?',{refine:true,faqAnswer:'fake',nearbyFaq:[{answer:'fake'}]}));assert.equal(context[0].answer,'Etna och Salina');
+ let context;await rig({ai:async a=>{context=a.context;return 'ok';}}).pipeline(req('Vilka färger finns i Lava?',{refine:true,faqAnswer:'fake',nearbyFaq:[{evidence:syntheticEvidence,answer:'fake'}]}));assert.equal(context[0].answer,'Etna och Salina');
 });
 test('cache coalesces, updates after TTL and exposes refresh error',async()=>{
  let t=1000,loads=0,fail=false;
@@ -83,7 +84,7 @@ test('structural sizing and support counts require personal contact in all four 
  for(const [lang,questions] of Object.entries(samples)) {
   for(const text of questions) {
    // Even an exact FAQ must not turn a site-specific calculation into advice.
-   const r=rig({knowledge:async()=>({status:'ready',data:{[lang]:[{question:text,answer:'Unsafe sizing fixture'}]}})});
+   const r=rig({knowledge:async()=>({status:'ready',data:{[lang]:[{question:text,evidence:syntheticEvidence,answer:'Unsafe sizing fixture'}]}})});
    const out=await r.pipeline(req(text,{lang}));
    assert.equal(out.via,'CONTACT',text);assert.equal(r.calls(),0,text);
    assert.notEqual(out.reply,'Unsafe sizing fixture');
@@ -96,7 +97,7 @@ test('structural follow-ups cannot bypass personal contact; general installation
  assert.equal((await r.pipeline(req('Ja gärna',{conversation:[{role:'user',content:'Hur många fötter behöver jag?'},{role:'assistant',content:'Let me calculate that.'}]}))).via,'CONTACT');
  assert.equal(r.calls(),0);
  const question='Hur lägger man klinkerdäck på träreglar?';
- const general=rig({knowledge:async()=>({status:'ready',data:{SE:[{question,answer:'Följ den verifierade monteringsanvisningen.'}]}})});
+ const general=rig({knowledge:async()=>({status:'ready',data:{SE:[{question,evidence:syntheticEvidence,answer:'Följ den verifierade monteringsanvisningen.'}]}})});
  assert.equal((await general.pipeline(req(question))).via,'faq');assert.equal(general.calls(),0);
 });
 
@@ -120,7 +121,7 @@ test('AI cannot reverse a verified drainage direction in any supported language'
   EN:['How do I install tiles on timber joists?','Approximately 1% fall away from the house is normally recommended.','Use approximately 1% fall towards the house.'],
  };
  for(const [lang,[question,answer,unsafe]] of Object.entries(samples)) {
-  const r=rig({knowledge:async()=>({status:'ready',data:{[lang]:[{question,answer}]}}),ai:async()=>unsafe});
+  const r=rig({knowledge:async()=>({status:'ready',data:{[lang]:[{question,evidence:syntheticEvidence,answer}]}}),ai:async()=>unsafe});
   const result=await r.pipeline(req(question,{lang,refine:true}));
   assert.equal(result.via,'faq',lang);assert.equal(result.reply,answer,lang);
   assert.equal(result.canRefine,false,lang);
@@ -130,7 +131,7 @@ test('AI cannot reverse a verified drainage direction in any supported language'
 test('supported drainage explanations and colour refinement still reach AI',async()=>{
  const question='Hur lägger man klinkerdäck på träreglar?';
  const safe='Fallet från huset hjälper vattnet att rinna bort från fasaden.';
- const r=rig({knowledge:async()=>({status:'ready',data:{SE:[{question,answer:'Normalt cirka 1 % fall från huset.'}]}}),ai:async()=>safe});
+ const r=rig({knowledge:async()=>({status:'ready',data:{SE:[{question,evidence:syntheticEvidence,answer:'Normalt cirka 1 % fall från huset.'}]}}),ai:async()=>safe});
  assert.equal((await r.pipeline(req(question,{refine:true}))).via,'AI');
  assert.equal((await rig().pipeline(req('Vilka färger finns i Lava?',{refine:true}))).via,'AI');
 });

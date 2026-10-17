@@ -1,3 +1,4 @@
+import { syntheticEvidence } from './fixtures/approved-synthetic.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -9,7 +10,7 @@ import { createChatPipeline } from '../lib/chatPipeline.js';
 // Answers are deliberately synthetic: these tests verify retrieval, not colours.
 const benchmark = JSON.parse(await fs.readFile(new URL('./fixtures/faq-lang-benchmark-2025-10-07.json', import.meta.url)));
 const data = Object.fromEntries(['SE', 'DA', 'DE'].map(lang => [lang, benchmark
-  .filter(r => r.expected === lang).map(r => ({ question: r.input, answer: `Fixture ${lang}: ${r.input}`, lang }))]));
+  .filter(r => r.expected === lang).map(r => ({ question: r.input, evidence:syntheticEvidence,answer: `Fixture ${lang}: ${r.input}`, lang }))]));
 const source = {
   SE: 'Vilka färger finns i serien Lava?',
   DA: 'Hvilke farver er tilgængelige i Lava-serien?',
@@ -65,8 +66,8 @@ for (const lang of ['SE', 'DA', 'DE']) {
   });
   test(`${lang}: conflicting colour source rows do not become an arbitrary direct answer`, () => {
     const rows = [
-      { question: source[lang], answer: 'first' },
-      { question: variants[lang][1], answer: 'conflicting' },
+      { question: source[lang], evidence:syntheticEvidence,answer: 'first' },
+      { question: variants[lang][1], evidence:syntheticEvidence,answer: 'conflicting' },
     ];
     assert.deepEqual(findKnowledge({ [lang]: rows }, lang, variants[lang][0]), []);
     assert.equal(findKnowledge({ [lang]: rows }, lang, source[lang])[0].answer, 'first');
@@ -107,7 +108,7 @@ test('EN fuzzy retrieval and SE/DA/DE non-colour questions retain original Fuse 
     ['DA', 'Hvilke formater findes i Lava?', 'Hvilke formater findes i Lava'],
     ['DE', 'Welche Formate gibt es in Lava?', 'Welche Formate gibt es in Lava'],
   ]) {
-    const rows = [{ question, answer: 'fixture' }];
+    const rows = [{ question, evidence:syntheticEvidence,answer: 'fixture' }];
     const expected = new Fuse(rows, { keys: ['question'], includeScore: true, threshold: 0.28, ignoreLocation: true })
       .search(query, { limit: 4 }).map(r => ({ ...r.item, score: r.score }));
     assert.deepEqual(findKnowledge({ [lang]: rows }, lang, query), expected);

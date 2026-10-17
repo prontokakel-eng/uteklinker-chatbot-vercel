@@ -380,28 +380,52 @@ function bindListToggle(){
 bindListToggle();
 try{ new MutationObserver(()=> bindListToggle()).observe(document.documentElement,{childList:true,subtree:true}); }catch{}
 const contactPanel = document.getElementById('contact-options');
+let contactTimer, contactGeneration = 0;
 async function updateContacts() {
   if (!contactPanel) return;
+  clearTimeout(contactTimer);
+  const generation = ++contactGeneration;
+  // Clear time-limited actions before waiting for a fresh response.
+  contactPanel.querySelectorAll('[data-support-action]').forEach(anchor => anchor.remove());
+  let refreshMs = 60000;
   try {
     const response = await fetch('/api/contact?lang=' + encodeURIComponent(lang), { signal: AbortSignal.timeout(10000) });
     if (!response.ok) throw new Error('Contact unavailable');
     const data = await response.json();
+    if (generation !== contactGeneration) return;
+    const deadline = data.validUntil ? Date.parse(data.validUntil) : null;
+    refreshMs = data.refreshAfterMs === 900000 ? 900000 : 60000;
+    if (Number.isFinite(deadline)) refreshMs = Math.max(1000, Math.min(refreshMs, deadline - Date.now()));
     contactPanel.replaceChildren();
     const status = document.createElement('p'); status.textContent = data.message; contactPanel.append(status);
     if (data.supportHoursNote) { const note = document.createElement('p'); note.textContent = data.supportHoursNote; contactPanel.append(note); }
     if (data.staffMessage) { const note = document.createElement('p'); note.textContent = data.staffMessage; contactPanel.append(note); }
     for (const link of data.links || []) {
       if (!/^(mailto:|tel:|https:\/\/)/.test(link.href)) continue;
+      if ((link.type === 'phone' || link.type === 'chat') && deadline !== null && (!Number.isFinite(deadline) || deadline <= Date.now())) continue;
       const anchor = document.createElement('a'); anchor.className = 'btn'; anchor.textContent = link.label; anchor.href = link.href;
+      if (link.type === 'phone' || link.type === 'chat') {
+        anchor.dataset.supportAction = 'true';
+        anchor.addEventListener('click', event => { if (deadline !== null && Date.now() >= deadline) { event.preventDefault(); updateContacts(); } });
+      }
       if (link.type === 'chat') { anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; }
       contactPanel.append(anchor);
     }
     if (data.googleMapsUrl) { const anchor = document.createElement('a'); anchor.href = data.googleMapsUrl; anchor.textContent = 'Google Maps'; anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; contactPanel.append(anchor); }
+    if (data.supportSource === 'google-places' && data.supportOpenNow !== null) {
+      const attribution = document.createElement('p'); attribution.textContent = 'Google Maps'; attribution.setAttribute('translate', 'no');
+      attribution.style.cssText = 'font-family:Roboto,sans-serif;font-style:normal;font-weight:400;font-size:14px;letter-spacing:normal;white-space:nowrap;color:#5e5e5e'; contactPanel.append(attribution);
+      for (const provider of data.attributions || []) {
+        if (!/^https:\/\//.test(provider.href)) continue;
+        const anchor = document.createElement('a'); anchor.href = provider.href; anchor.textContent = provider.provider; anchor.target = '_blank'; anchor.rel = 'noopener noreferrer'; contactPanel.append(anchor);
+      }
+    }
     if (data.responseNote) { const note = document.createElement('p'); note.textContent = data.responseNote; contactPanel.append(note); }
   } catch {
+    if (generation !== contactGeneration) return;
     contactPanel.textContent = 'Kontaktinformationen kunde inte hämtas. Försök igen om en stund.';
   }
+  if (generation === contactGeneration) contactTimer = setTimeout(updateContacts, refreshMs);
 }
 langSelect?.addEventListener('change', updateContacts);
 updateContacts();
-setInterval(updateContacts, 60000);

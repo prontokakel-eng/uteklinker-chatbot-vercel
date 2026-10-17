@@ -1,3 +1,4 @@
+import { syntheticEvidence } from './fixtures/approved-synthetic.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
@@ -14,14 +15,14 @@ test('natural load/weight questions in all four languages stop before FAQ and AI
  }
 });
 test('English colour lists keep series identity instead of fuzzy borrowing', () => {
- const row={question:'What colors are available in the Lava series?',answer:'Verified fixture',lang:'EN'};
- const data={EN:[row,{question:'What colors are available in the Albero series?',answer:'Other fixture',lang:'EN'}]};
+ const row={question:'What colors are available in the Lava series?',evidence:syntheticEvidence,answer:'Verified fixture',lang:'EN'};
+ const data={EN:[row,{question:'What colors are available in the Albero series?',evidence:syntheticEvidence,answer:'Other fixture',lang:'EN'}]};
  for(const q of ['What colours are available in Lava?','What colors does Lava have?','Lava colours?']) {
   assert.equal(findKnowledge(data,'EN',q)[0]?.answer,row.answer,q);
  }
  for(const entity of ['Lavo','Lava Pro','Lava and Albero','Lava 60x60'])assert.deepEqual(findKnowledge(data,'EN',`What colors are available in ${entity}?`),[],entity);
  assert.equal(findKnowledge(data,'EN',row.question)[0].score,0);
- const conflict={EN:[row,{question:'Lava colors?',answer:'Conflicting fixture'}]};
+ const conflict={EN:[row,{question:'Lava colors?',evidence:syntheticEvidence,answer:'Conflicting fixture'}]};
  assert.deepEqual(findKnowledge(conflict,'EN','What colors does Lava have?'),[]);
 });
 test('production logging excludes customer text, IP addresses and credential fragments', () => {

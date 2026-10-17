@@ -1,3 +1,4 @@
+import { syntheticEvidence } from './fixtures/approved-synthetic.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { createChatPipeline } from '../lib/chatPipeline.js';
@@ -5,7 +6,7 @@ import { gateMessage } from '../lib/gate.js';
 let id=100;
 function rig() {
  const calls={google:0,ai:0};
- const pipeline=createChatPipeline({gate:gateMessage,knowledge:async()=>{calls.google++;return {status:'ready',data:{SE:[{question:'Vilka färger finns i Lava?',answer:'Etna'}]}};},ai:async()=>{calls.ai++;return 'AI';}});
+ const pipeline=createChatPipeline({gate:gateMessage,knowledge:async()=>{calls.google++;return {status:'ready',data:{SE:[{question:'Vilka färger finns i Lava?',evidence:syntheticEvidence,answer:'Etna'}]}};},ai:async()=>{calls.ai++;return 'AI';}});
  const ip=`198.51.100.${id++}`;
  return {calls,query:text=>pipeline({body:{text,lang:'SE'},headers:{'x-forwarded-for':ip}})};
 }
