@@ -91,3 +91,42 @@ test('contact endpoint rejects unsupported methods and throttles independently o
  for (let index = 0; index < 11; index++) { const response = res(); await handler({ method: 'GET', headers: { 'x-forwarded-for': '192.0.2.250' } }, response); assert.equal(response.code, index < 10 ? 200 : 429); if (index === 10) assert.ok(Number(response.headers['Retry-After']) > 0); }
  const other = res(); await handler({ method: 'GET', headers: { 'x-forwarded-for': '192.0.2.251' } }, other); assert.equal(other.code, 200); assert.equal(other.headers['Cache-Control'], 'no-store');
 });
+
+test('contact throttling rejects requests before Google even when language changes', async () => {
+ // A fresh process installs the fake fetch before the production loader captures it.
+ // No test request is allowed to leave this process.
+ const { spawnSync } = await import('node:child_process');
+ const endpoint = new URL('../api/contact.js', import.meta.url).href;
+ const script = `
+  import assert from 'node:assert/strict';
+  let googleCalls = 0;
+  globalThis.fetch = async url => {
+   assert.equal(new URL(url).hostname, 'places.googleapis.com');
+   googleCalls++;
+   return { ok: true, json: async () => ({ currentSecondaryOpeningHours: [] }) };
+  };
+  const { default: handler } = await import(${JSON.stringify(endpoint)});
+  const res = () => ({ headers: {}, setHeader(key, value) { this.headers[key] = value; }, status(code) { this.code = code; return this; }, json(body) { this.body = body; return this; } });
+  const request = lang => ({ method: 'GET', headers: { 'x-forwarded-for': '192.0.2.252' }, query: { lang } });
+  const post = res(); await handler({ method: 'POST' }, post);
+  assert.equal(post.code, 405); assert.equal(googleCalls, 0);
+  for (let index = 0; index < 10; index++) {
+   const response = res(); await handler(request(['SE', 'DA', 'DE', 'EN'][index % 4]), response);
+   assert.equal(response.code, 200);
+  }
+  assert.equal(googleCalls, 10);
+  for (const lang of ['SE', 'DA', 'DE', 'EN', 'invalid']) {
+   const blocked = res(); await handler(request(lang), blocked);
+   assert.equal(blocked.code, 429);
+   assert.ok(Number(blocked.headers['Retry-After']) > 0);
+   assert.equal(blocked.headers['Cache-Control'], 'no-store');
+   assert.equal(googleCalls, 10, 'blocked request must never reach Google');
+   assert.ok(!JSON.stringify(blocked.body).includes('fixture-key'));
+  }
+ `;
+ const child = spawnSync(process.execPath, ['--input-type=module', '-e', script], {
+  encoding: 'utf8', timeout: 5000,
+  env: { ...process.env, GOOGLE_PLACES_ENABLED: 'true', GOOGLE_PLACE_ID: 'fixture-place', GOOGLE_PLACES_API_KEY: 'fixture-key' },
+ });
+ assert.equal(child.status, 0, child.stderr || child.error?.message);
+});
