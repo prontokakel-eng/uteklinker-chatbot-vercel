@@ -30,6 +30,12 @@ const uiCopy = {
   DA: { input: 'Skriv en besked...', retry: 'Prøv igen', refine: 'Uddyb svaret', help: 'Send med Enter eller send-knappen.' },
   DE: { input: 'Nachricht eingeben...', retry: 'Erneut versuchen', refine: 'Antwort erläutern', help: 'Mit Enter oder der Senden-Taste senden.' },
 };
+const privacyCopy = {
+  SE: 'Du chattar med en AI-assistent. Text kan behandlas av OpenAI. Skriv inte personnummer, betalningsuppgifter eller känsliga uppgifter. Svaren kan innehålla fel.',
+  DA: 'Du chatter med en AI-assistent. Tekst kan blive behandlet af OpenAI. Skriv ikke CPR-nummer, betalingsoplysninger eller følsomme oplysninger. Svarene kan indeholde fejl.',
+  DE: 'Sie chatten mit einem KI-Assistenten. Texte können von OpenAI verarbeitet werden. Geben Sie keine persönlichen Identifikationsnummern, Zahlungsdaten oder sensiblen Daten ein. Antworten können Fehler enthalten.',
+  EN: 'You are chatting with an AI assistant. Text may be processed by OpenAI. Do not enter personal identification numbers, payment details or sensitive information. Answers may contain errors.',
+};
 
 function showBanner(element, text, timeout = 3000) {
   if (!element) return;
@@ -88,6 +94,8 @@ function setLanguage(newLang, { announce = true } = {}) {
   lang = newLang;
   if (langSelect) langSelect.value = newLang;
   if (input) input.placeholder = (uiCopy[newLang] || uiCopy.SE).input;
+  const privacyNotice = document.getElementById('chat-privacy-notice');
+  if (privacyNotice) privacyNotice.textContent = privacyCopy[newLang] || privacyCopy.SE;
   document.querySelectorAll('[data-action]').forEach(button => { button.textContent = (uiCopy[newLang] || uiCopy.SE)[button.dataset.action]; });
   if (enterHelp) enterHelp.textContent = (uiCopy[newLang] || uiCopy.SE).help;
   flagButtons.forEach(btn => btn.setAttribute("aria-pressed", btn.dataset.lang === newLang ? "true" : "false"));

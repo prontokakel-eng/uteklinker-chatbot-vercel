@@ -2,6 +2,12 @@
 
 ## 2026-10-17 — Prelaunch regression and privacy review
 
+- Load the embedded chat only after opening; remove its document on closing.
+  Drop old cross-window save handlers. Keep the launcher independent of browser
+  storage and allow NEH to serve it locally with an explicit HTTPS chat URL.
+- Display a short AI/data notice in SE/DA/DE/EN. Add an internal privacy draft
+  and a technical embed test page; final NEH/Cookiebot checks remain outstanding.
+- With embed regressions included, 63 tests pass using the current FAQ workbook.
 - Recognize natural weight/load questions in SE/DA/DE/EN before knowledge or AI.
 - Extend bounded colour-series matching to English, keeping unknown and modified
   series out of similar-product FAQ context.

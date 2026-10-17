@@ -111,6 +111,15 @@ Separate route counters would require another solution or plan.
 
 ## Privacy and cookies
 
+PR #12 now also replaces the old eager iframe launcher with explicit-open loading,
+removes legacy cross-window save handlers and destroys the iframe on closing.
+The short AI notice is displayed before input in all four languages. Three new
+simulated-DOM regressions pass with blocked storage; the branch suite is 63/63
+with the current workbook and no skips. A technical browser test page is included.
+Full draft text, verified facts and the remaining NEH/Cookiebot test matrix are
+in docs/chat-integritet-och-inbaddning-2026-10-17.md. This is not a completed
+consent audit or a published full privacy policy.
+
 The deployed UI stored optional sound/list preferences in localStorage and
 could fail when embedded browser storage is blocked. The proposed branch uses
 page memory instead. It also replaces production application log messages with
