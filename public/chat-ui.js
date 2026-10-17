@@ -30,6 +30,19 @@ const uiCopy = {
   DA: { input: 'Skriv en besked...', retry: 'Prøv igen', refine: 'Uddyb svaret', help: 'Send med Enter eller send-knappen.' },
   DE: { input: 'Nachricht eingeben...', retry: 'Erneut versuchen', refine: 'Antwort erläutern', help: 'Mit Enter oder der Senden-Taste senden.' },
 };
+const privacyCopy = {
+  SE: 'Du chattar med en AI-assistent. Text kan behandlas av OpenAI. Skriv inte personnummer, betalningsuppgifter eller känsliga uppgifter. Svaren kan innehålla fel.',
+  DA: 'Du chatter med en AI-assistent. Tekst kan blive behandlet af OpenAI. Skriv ikke CPR-nummer, betalingsoplysninger eller følsomme oplysninger. Svarene kan indeholde fejl.',
+  DE: 'Sie chatten mit einem KI-Assistenten. Texte können von OpenAI verarbeitet werden. Geben Sie keine persönlichen Identifikationsnummern, Zahlungsdaten oder sensiblen Daten ein. Antworten können Fehler enthalten.',
+  EN: 'You are chatting with an AI assistant. Text may be processed by OpenAI. Do not enter personal identification numbers, payment details or sensitive information. Answers may contain errors.',
+};
+
+const privacyLinkCopy = {
+  SE: 'Integritet och säkerhet (svenska)',
+  DA: 'Privatliv og sikkerhed (på svensk)',
+  DE: 'Datenschutz und Sicherheit (auf Schwedisch)',
+  EN: 'Privacy and security (in Swedish)',
+};
 
 function showBanner(element, text, timeout = 3000) {
   if (!element) return;
@@ -88,6 +101,10 @@ function setLanguage(newLang, { announce = true } = {}) {
   lang = newLang;
   if (langSelect) langSelect.value = newLang;
   if (input) input.placeholder = (uiCopy[newLang] || uiCopy.SE).input;
+  const privacyNotice = document.getElementById('chat-privacy-notice');
+  if (privacyNotice) privacyNotice.textContent = privacyCopy[newLang] || privacyCopy.SE;
+  const privacyLink = document.getElementById('chat-privacy-link');
+  if (privacyLink) privacyLink.textContent = privacyLinkCopy[newLang] || privacyLinkCopy.SE;
   document.querySelectorAll('[data-action]').forEach(button => { button.textContent = (uiCopy[newLang] || uiCopy.SE)[button.dataset.action]; });
   if (enterHelp) enterHelp.textContent = (uiCopy[newLang] || uiCopy.SE).help;
   flagButtons.forEach(btn => btn.setAttribute("aria-pressed", btn.dataset.lang === newLang ? "true" : "false"));
@@ -171,7 +188,8 @@ messageScroller?.addEventListener("scroll", () => { if (jumpBtn && isNearBottom(
 jumpBtn?.addEventListener("click", () => { messageScroller.scrollTop = messageScroller.scrollHeight; jumpBtn.style.display = "none"; });
 
 let audioCtx = null, keyTimer = null;
-let muted = localStorage.getItem("ui.muted") === "1";
+// Preferences last only for this page session; embedded chat needs no browser storage.
+let muted = false;
 function updateSoundUI(){
   if (!soundBtn) return;
   soundBtn.textContent = muted ? "🔈" : "🔊";
@@ -180,7 +198,7 @@ function updateSoundUI(){
 }
 updateSoundUI();
 soundBtn?.addEventListener("click", () => {
-  muted = !muted; localStorage.setItem("ui.muted", muted ? "1" : "0"); updateSoundUI(); if (muted) stopTypingSound();
+  muted = !muted; updateSoundUI(); if (muted) stopTypingSound();
 });
 function startTypingSound() {
   if (muted) return;
@@ -343,11 +361,10 @@ newChatBtn?.addEventListener("click", () => {
 // === List-mode (Q→A stacked on left) ===
 function applyListMode(on){
   document.body.classList.toggle('list-mode', !!on);
-  try{ localStorage.setItem('ui.list', on?'1':'0'); }catch{}
   if(listTgl) listTgl.checked = !!on;
 }
 function initListMode(){
-  let on=false; try{ on = localStorage.getItem('ui.list')==='1'; }catch{}
+  const on = false;
   applyListMode(on);
 }
 initListMode();

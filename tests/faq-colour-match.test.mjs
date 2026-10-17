@@ -103,7 +103,7 @@ for (const lang of ['SE', 'DA', 'DE']) {
 test('EN fuzzy retrieval and SE/DA/DE non-colour questions retain original Fuse logic', () => {
   for (const [lang, question, query] of [
     ['SE', 'Vilka format finns i Lava?', 'Vilka format finns i Lava'],
-    ['EN', 'What colours are available in Lava?', 'What colours are available in Lava'],
+    ['EN', 'What formats are available in Lava?', 'What formats are available in Lava'],
     ['DA', 'Hvilke formater findes i Lava?', 'Hvilke formater findes i Lava'],
     ['DE', 'Welche Formate gibt es in Lava?', 'Welche Formate gibt es in Lava'],
   ]) {
