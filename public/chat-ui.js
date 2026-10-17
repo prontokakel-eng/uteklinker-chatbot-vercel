@@ -37,6 +37,13 @@ const privacyCopy = {
   EN: 'You are chatting with an AI assistant. Text may be processed by OpenAI. Do not enter personal identification numbers, payment details or sensitive information. Answers may contain errors.',
 };
 
+const privacyLinkCopy = {
+  SE: 'Integritet och säkerhet (svenska)',
+  DA: 'Privatliv og sikkerhed (på svensk)',
+  DE: 'Datenschutz und Sicherheit (auf Schwedisch)',
+  EN: 'Privacy and security (in Swedish)',
+};
+
 function showBanner(element, text, timeout = 3000) {
   if (!element) return;
   element.textContent = text;
@@ -96,6 +103,8 @@ function setLanguage(newLang, { announce = true } = {}) {
   if (input) input.placeholder = (uiCopy[newLang] || uiCopy.SE).input;
   const privacyNotice = document.getElementById('chat-privacy-notice');
   if (privacyNotice) privacyNotice.textContent = privacyCopy[newLang] || privacyCopy.SE;
+  const privacyLink = document.getElementById('chat-privacy-link');
+  if (privacyLink) privacyLink.textContent = privacyLinkCopy[newLang] || privacyLinkCopy.SE;
   document.querySelectorAll('[data-action]').forEach(button => { button.textContent = (uiCopy[newLang] || uiCopy.SE)[button.dataset.action]; });
   if (enterHelp) enterHelp.textContent = (uiCopy[newLang] || uiCopy.SE).help;
   flagButtons.forEach(btn => btn.setAttribute("aria-pressed", btn.dataset.lang === newLang ? "true" : "false"));
