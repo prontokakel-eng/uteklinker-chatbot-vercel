@@ -1,5 +1,25 @@
 # Changes
 
+## 2026-10-17 — Prelaunch regression and privacy review
+
+- Recognize natural weight/load questions in SE/DA/DE/EN before knowledge or AI.
+- Extend bounded colour-series matching to English, keeping unknown and modified
+  series out of similar-product FAQ context.
+- Production application logs keep timestamp/module only. Raw question text,
+  IP addresses and key fragments are omitted. Remove the legacy key-prefix log.
+  Vercel's own access logs and provider retention are separate and not disabled.
+- Keep optional sound/list preferences in page memory. Active chat no longer
+  accesses localStorage, including when embedded with browser storage blocked.
+  Preferences reset on refresh, as the conversation already does.
+- Add CI regressions. 60 tests pass using the current Drive workbook; 18 language
+  cases pass. Additional actual-workbook routing matrix: 27/27 after the fix,
+  22/27 before it. AI was stubbed for this matrix; eight real production exchanges
+  separately verified initial colour FAQ and refinement in every language.
+
+No production deployment, billing, API credentials, support schedule or public
+privacy policy is changed. See docs/prelaunch-check-2026-10-17.md for remaining
+launch gates. The independently open Places PR #11 is not included here.
+
 ## 2026-10-15 — Text-only appearance follow-ups
 
 Live testing exposed an unsupported offer to upload photos after an appearance

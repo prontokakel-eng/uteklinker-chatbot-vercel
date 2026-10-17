@@ -171,7 +171,8 @@ messageScroller?.addEventListener("scroll", () => { if (jumpBtn && isNearBottom(
 jumpBtn?.addEventListener("click", () => { messageScroller.scrollTop = messageScroller.scrollHeight; jumpBtn.style.display = "none"; });
 
 let audioCtx = null, keyTimer = null;
-let muted = localStorage.getItem("ui.muted") === "1";
+// Preferences last only for this page session; embedded chat needs no browser storage.
+let muted = false;
 function updateSoundUI(){
   if (!soundBtn) return;
   soundBtn.textContent = muted ? "🔈" : "🔊";
@@ -180,7 +181,7 @@ function updateSoundUI(){
 }
 updateSoundUI();
 soundBtn?.addEventListener("click", () => {
-  muted = !muted; localStorage.setItem("ui.muted", muted ? "1" : "0"); updateSoundUI(); if (muted) stopTypingSound();
+  muted = !muted; updateSoundUI(); if (muted) stopTypingSound();
 });
 function startTypingSound() {
   if (muted) return;
@@ -343,11 +344,10 @@ newChatBtn?.addEventListener("click", () => {
 // === List-mode (Q→A stacked on left) ===
 function applyListMode(on){
   document.body.classList.toggle('list-mode', !!on);
-  try{ localStorage.setItem('ui.list', on?'1':'0'); }catch{}
   if(listTgl) listTgl.checked = !!on;
 }
 function initListMode(){
-  let on=false; try{ on = localStorage.getItem('ui.list')==='1'; }catch{}
+  const on = false;
   applyListMode(on);
 }
 initListMode();
