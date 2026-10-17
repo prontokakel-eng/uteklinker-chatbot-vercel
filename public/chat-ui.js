@@ -119,7 +119,7 @@ langSelect?.addEventListener("change", () => {
   if (rec) { try { rec.abort(); } catch {} setupRecognition(); }
 });
 
-function addMessage(text, sender, source = null, canRefine = false) {
+function addMessage(text, sender, source = null, canRefine = false, citations = []) {
   if (!messagesDiv) return;
   const followLatest = isNearBottom();
   const div = document.createElement("div");
@@ -158,6 +158,16 @@ function addMessage(text, sender, source = null, canRefine = false) {
     meta.appendChild(bar);
   }
 
+  for (const citation of Array.isArray(citations) ? citations.slice(0, 3) : []) {
+    try {
+      const url = new URL(citation.url);
+      if (url.protocol !== 'https:' || !['klinkerdack.se','www.klinkerdack.se'].includes(url.hostname) || url.port || url.username || url.password || url.search) continue;
+      const link = document.createElement('a');
+      link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.referrerPolicy = 'no-referrer';
+      link.textContent = ({SE:'Källa: ',DA:'Kilde: ',DE:'Quelle: ',EN:'Source: '}[lang] || 'Source: ') + (citation.title || url.hostname);
+      const row = document.createElement('p'); row.append(link); bubble.append(row);
+    } catch { /* Invalid citations do not become links. */ }
+  }
   div.append(bubble, meta);
   messagesDiv.appendChild(div);
 
@@ -321,13 +331,13 @@ async function sendCore(text, language, { refine = false, priorConversation = co
         showBanner(faqBanner, "⚠️ Din fråga verkar inte relatera till våra produkter");
         addMessage(replyText || "⚠️ Din fråga verkar inte relatera till våra produkter.", "bot", "Filter");
       } else if (src === "AI") {
-        addMessage(replyText || "Inget svar.", "ai", "AI", data.canRefine === true);
+        addMessage(replyText || "Inget svar.", "ai", "AI", data.canRefine === true, data.citations);
       } else if (src.startsWith("FAQ")) {
-        addMessage(replyText || "Inget svar.", "faq", "FAQ", data.canRefine === true);
+        addMessage(replyText || "Inget svar.", "faq", "FAQ", data.canRefine === true, data.citations);
       } else {
-        addMessage(replyText || "Inget svar.", "bot", src || "BOT");
+        addMessage(replyText || "Inget svar.", "bot", src || "BOT", false, data.citations);
       }
-      if (src === 'AI' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
+      if (src === 'AI' || src === 'WEBSITE' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
     }
   } catch (err) {
     console.error("❌ Chat error:", err);

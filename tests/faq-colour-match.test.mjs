@@ -1,3 +1,4 @@
+import { warrantyMaterial } from '../lib/warranty-policy.js';
 import { syntheticEvidence } from './fixtures/approved-synthetic.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -49,8 +50,9 @@ for (const lang of ['SE', 'DA', 'DE']) {
     }
     assert.ok(checked >= 20, `Expected a representative catalogue, got ${checked}`);
   });
-  test(`${lang}: every exact benchmark question keeps its own answer and exact score`, () => {
+  test(`${lang}: non-warranty exact benchmark questions keep their answers; warranty rows are excluded`, () => {
     for (const row of data[lang]) {
+      if (warrantyMaterial(row.question + ' ' + row.answer)) { assert.deepEqual(findKnowledge(data, lang, row.question), []); continue; }
       const [hit] = findKnowledge(data, lang, row.question);
       assert.equal(hit.question, row.question);
       assert.equal(hit.answer, row.answer);
