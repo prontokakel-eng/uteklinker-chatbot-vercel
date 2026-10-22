@@ -19,6 +19,14 @@ Private `FAQ_SE`, `FAQ_DA`, `FAQ_DE`, `FAQ_EN` sheets use:
 | H | `approved` after human review; missing/other status is not approved |
 | I | Reviewer identifier; mandatory for approval |
 | J | Reviewed fact class: `static`; missing/unknown/current-commerce is excluded |
+| K | SHA-256 from `reviewedContentHash(row)`, recorded only after source review |
+
+Approval is bound to the reviewed question, answer, language, source ID/name,
+section, source date, origin and fact class. Missing or mismatched column K blocks
+direct answers and model context, including after cache refresh. The importer never
+generates the hash. A hash detects an unreviewed edit; it is not a signature or
+proof of human approval. Review permissions and the private decision log still matter.
+Do not recompute hashes automatically when the workbook changes.
 
 Drive modification time is retained separately; it neither replaces source date
 nor proves freshness. Multiple source rows are retained. Conflicting exact/colour
@@ -31,6 +39,12 @@ approval on AI/cache-origin data. No generated answer is written back into FAQ.
 
 Existing A–C rows remain pending. **This is deliberately not a drop-in release
 until the existing FAQ has been reviewed and its metadata migrated privately.**
+
+Empty retrieval stops product questions before a model call. A narrow, exact
+allowlist of generic definition questions preserves basic concept explanations;
+added product names, mixed questions and unsupported contextual follow-ups do not
+inherit that allowance. This does not prove that every claim with nonempty context
+is supported: real-model claim review remains a separate release gate.
 Do not bulk-approve the current workbook to make tests pass.
 
 ## Current business facts and support
@@ -70,10 +84,11 @@ Google failure remains unknown under live mode. No document or AI hours substitu
    node scripts/review-knowledge-model.mjs /private/cases.json /private/new-report.json
    ```
 
-   Supply `OPENAI_API_KEY` securely in that runtime. The script performs actual
+   Supply `OPENAI_API_KEY` and the verified `OPENAI_PROJECT_ID` securely in that runtime. The script performs actual
    model requests via the real pipeline with `store:false`; it never runs in CI,
    refuses paths inside the repo, will not overwrite a report, and prints counts
-   only. Keep the cases and resulting answers private in Drive. Operational logs are forced to metadata-only mode, including local execution. Source/string
+   only. The private report records the returned model ID, response ID and token usage
+   separately from the requested model alias. Keep the cases and resulting answers private in Drive. Operational logs are forced to metadata-only mode, including local execution. Source/string
    checks are preliminary; every answer remains pending human fact review.
    Commerce refusals and support routing are covered separately by deterministic
    tests because they must not invoke a model.
@@ -90,3 +105,32 @@ commits. Do not commit real FAQ rows, workbook exports, document extracts, model
 transcripts, private IDs or review reports. This change does not purge older
 repository history. The current standalone local pilot was not available in this
 checkout and has not been represented as audited or deployed.
+
+## AI draft quarantine and manual review
+
+The retired public `/api/save-faq-reply` route returns 410 without initializing a
+Google client. Browser clients cannot submit answers or approval metadata to FAQ.
+The customer pipeline performs no draft writes. Do not enable automatic collection
+of customer text until minimization, access and retention are decided.
+
+`createAiReviewDraft` creates offline review records with AI provenance, pending
+fact/language/decision fields and `productionApproved:false`. Unknown approval
+inputs are ignored. The private model-review runner includes these records for
+generated answers. Both failed and successful automated results remain unapproved.
+The draft hash identifies a version; it neither signs it nor grants approval.
+
+Keep drafts in a separate private review workbook/tab, never named FAQ_SE/DA/DE/EN.
+The runtime loader imports exactly those four FAQ tabs; AI_REVIEW and all AI_SAVE
+tabs are excluded, even if a draft carries forged approval columns. Status edits
+alone also cannot make AI/cache provenance an approved source.
+
+A human compares each draft with a primary source and reviews the translation,
+units, product identity, scope and qualifications. Record corrections, source
+section/revision, reviewer and date in the private review log. Rejected drafts
+stay rejected. After explicit human approval, create a separate manual FAQ entry
+backed by that primary source, with its reviewed content hash and a link to the
+private decision record. No automatic promotion/import script is provided.
+An approval in the review workbook does not change the chatbot or authorize release.
+
+Regression tests distinguish isolation/routing/payload checks from real model
+factuality. A mocked response or string check cannot prove absence of hallucinations.
