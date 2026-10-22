@@ -29,4 +29,4 @@ jobs:
         run: npm run test:lang
 
       - name: Test customer dialogue and early abuse protection
-        run: node --test tests/customer-flow.test.mjs tests/anti-abuse.test.mjs tests/conversation.test.mjs tests/faq-colour-match.test.mjs tests/support-hours.test.mjs tests/prelaunch-guards.test.mjs tests/embed-privacy.test.mjs tests/places-contact.test.mjs tests/knowledge-safety.test.mjs tests/warranty-policy.test.mjs tests/website-knowledge.test.mjs
+        run: node --test tests/customer-flow.test.mjs tests/anti-abuse.test.mjs tests/conversation.test.mjs tests/faq-colour-match.test.mjs tests/support-hours.test.mjs tests/prelaunch-guards.test.mjs tests/embed-privacy.test.mjs tests/places-contact.test.mjs tests/knowledge-safety.test.mjs tests/ai-review.test.mjs tests/warranty-policy.test.mjs tests/website-knowledge.test.mjs

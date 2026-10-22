@@ -105,3 +105,32 @@ commits. Do not commit real FAQ rows, workbook exports, document extracts, model
 transcripts, private IDs or review reports. This change does not purge older
 repository history. The current standalone local pilot was not available in this
 checkout and has not been represented as audited or deployed.
+
+## AI draft quarantine and manual review
+
+The retired public `/api/save-faq-reply` route returns 410 without initializing a
+Google client. Browser clients cannot submit answers or approval metadata to FAQ.
+The customer pipeline performs no draft writes. Do not enable automatic collection
+of customer text until minimization, access and retention are decided.
+
+`createAiReviewDraft` creates offline review records with AI provenance, pending
+fact/language/decision fields and `productionApproved:false`. Unknown approval
+inputs are ignored. The private model-review runner includes these records for
+generated answers. Both failed and successful automated results remain unapproved.
+The draft hash identifies a version; it neither signs it nor grants approval.
+
+Keep drafts in a separate private review workbook/tab, never named FAQ_SE/DA/DE/EN.
+The runtime loader imports exactly those four FAQ tabs; AI_REVIEW and all AI_SAVE
+tabs are excluded, even if a draft carries forged approval columns. Status edits
+alone also cannot make AI/cache provenance an approved source.
+
+A human compares each draft with a primary source and reviews the translation,
+units, product identity, scope and qualifications. Record corrections, source
+section/revision, reviewer and date in the private review log. Rejected drafts
+stay rejected. After explicit human approval, create a separate manual FAQ entry
+backed by that primary source, with its reviewed content hash and a link to the
+private decision record. No automatic promotion/import script is provided.
+An approval in the review workbook does not change the chatbot or authorize release.
+
+Regression tests distinguish isolation/routing/payload checks from real model
+factuality. A mocked response or string check cannot prove absence of hallucinations.

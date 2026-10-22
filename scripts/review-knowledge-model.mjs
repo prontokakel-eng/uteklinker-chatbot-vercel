@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { approvedFact } from '../lib/knowledge-policy.js';
+import { createAiReviewDraft } from '../lib/ai-review.js';
 
 const root = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const [inputPath, outputPath] = process.argv.slice(2);
@@ -52,6 +53,10 @@ for (const c of cases) {
     checks: { actualModelCall: calls === 1 && !!modelResponse?.id && !!modelResponse?.model && result.via === 'AI',
       expectedSources: c.expectedSourceIds.every(id => sourceIds.includes(id)) && sourceIds.every(id => c.expectedSourceIds.includes(id)),
       required: c.required.every(s => result.reply.includes(s)), forbidden: c.forbidden.every(s => !result.reply.includes(s)) },
+    draft: result.via === 'AI' ? createAiReviewDraft({ lang: c.lang, question: c.question,
+      answer: result.reply, sourceReferences: result.evidence || [],
+      model: modelResponse?.model || null, responseId: modelResponse?.id || null,
+      testedAt: new Date().toISOString() }) : null,
     reviewStatus: 'pending-human-fact-review', reviewer: null,
   });
 }
