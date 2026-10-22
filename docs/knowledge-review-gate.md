@@ -19,6 +19,14 @@ Private `FAQ_SE`, `FAQ_DA`, `FAQ_DE`, `FAQ_EN` sheets use:
 | H | `approved` after human review; missing/other status is not approved |
 | I | Reviewer identifier; mandatory for approval |
 | J | Reviewed fact class: `static`; missing/unknown/current-commerce is excluded |
+| K | SHA-256 from `reviewedContentHash(row)`, recorded only after source review |
+
+Approval is bound to the reviewed question, answer, language, source ID/name,
+section, source date, origin and fact class. Missing or mismatched column K blocks
+direct answers and model context, including after cache refresh. The importer never
+generates the hash. A hash detects an unreviewed edit; it is not a signature or
+proof of human approval. Review permissions and the private decision log still matter.
+Do not recompute hashes automatically when the workbook changes.
 
 Drive modification time is retained separately; it neither replaces source date
 nor proves freshness. Multiple source rows are retained. Conflicting exact/colour
@@ -70,10 +78,11 @@ Google failure remains unknown under live mode. No document or AI hours substitu
    node scripts/review-knowledge-model.mjs /private/cases.json /private/new-report.json
    ```
 
-   Supply `OPENAI_API_KEY` securely in that runtime. The script performs actual
+   Supply `OPENAI_API_KEY` and the verified `OPENAI_PROJECT_ID` securely in that runtime. The script performs actual
    model requests via the real pipeline with `store:false`; it never runs in CI,
    refuses paths inside the repo, will not overwrite a report, and prints counts
-   only. Keep the cases and resulting answers private in Drive. Operational logs are forced to metadata-only mode, including local execution. Source/string
+   only. The private report records the returned model ID, response ID and token usage
+   separately from the requested model alias. Keep the cases and resulting answers private in Drive. Operational logs are forced to metadata-only mode, including local execution. Source/string
    checks are preliminary; every answer remains pending human fact review.
    Commerce refusals and support routing are covered separately by deterministic
    tests because they must not invoke a model.

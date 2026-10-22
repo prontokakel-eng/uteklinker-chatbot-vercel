@@ -1,3 +1,4 @@
+import { syntheticRow } from './fixtures/approved-synthetic.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
@@ -29,8 +30,8 @@ for(const [lang,questions] of Object.entries(examples)) {
  });
 }
 test('retired warranty promises are absent from exact and fuzzy retrieval and model context',async()=>{
- const rows=[{question:'Synthetic surface?',answer:'Anti-slip protection applies throughout the product lifespan.',evidence},
-  {question:'Synthetic format?',answer:'Retired fixture',evidence:{...evidence,approvalStatus:'superseded'}}];
+ const rows=[syntheticRow({question:'Synthetic surface?',answer:'Anti-slip protection applies throughout the product lifespan.',evidence}),
+  syntheticRow({question:'Synthetic format?',answer:'Retired fixture',evidence:{...evidence,approvalStatus:'superseded'}})];
  for(const q of ['Synthetic surface?','Synthetic surface','Synthetic format?'])assert.deepEqual(findKnowledge({EN:rows},'EN',q),[]);
  let payload;
  await answerCustomer({question:'Explain synthetic tiles',lang:'EN',context:rows,client:{responses:{create:async p=>{payload=p;return {output_text:'No promise'};}}}});
@@ -39,7 +40,7 @@ test('retired warranty promises are absent from exact and fuzzy retrieval and mo
 test('technical frost remains separate after warranty discussion; German gewährleisten is not warranty',async()=>{
  assert.equal(warrantyMaterial('Abstandshalter gewährleisten gleichmäßige Fugen.'),false);
  const question='Är Testplatta frostbeständig?';
- const chat=createChatPipeline({gate:async()=>({filtered:false}),knowledge:async()=>({status:'ready',data:{SE:[{question,answer:'Synthetic verified frost fact.',evidence}]}})});
+ const chat=createChatPipeline({gate:async()=>({filtered:false}),knowledge:async()=>({status:'ready',data:{SE:[syntheticRow({question,answer:'Synthetic verified frost fact.',evidence})]}})});
  const out=await chat(request(question,'SE',{conversation:[{role:'user',content:'Hur lång garanti har ni?'}]}));
  assert.equal(out.via,'faq');assert.equal(out.reply,'Synthetic verified frost fact.');
 });

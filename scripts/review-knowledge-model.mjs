@@ -11,8 +11,8 @@ const outsideRepo = p => {
   const relative = path.relative(root, path.resolve(p));
   return relative === '..' || relative.startsWith('..' + path.sep) || path.isAbsolute(relative);
 };
-if (!outsideRepo(inputPath) || !outsideRepo(outputPath) || !process.env.OPENAI_API_KEY) {
-  console.error('Provide absolute private paths outside the repository and OPENAI_API_KEY. No model requests made.');
+if (!outsideRepo(inputPath) || !outsideRepo(outputPath) || !process.env.OPENAI_API_KEY || !process.env.OPENAI_PROJECT_ID) {
+  console.error('Provide absolute private paths outside the repository, OPENAI_API_KEY and verified OPENAI_PROJECT_ID. No model requests made.');
   process.exit(1);
 }
 // Resolve symlinks too: private source material/reports must not land in the repo.
@@ -32,16 +32,24 @@ process.env.PRIVACY_SAFE_LOGS = 'true';
 process.env.NODE_ENV = 'production';
 const { createChatPipeline } = await import('../lib/chatPipeline.js');
 const { answerCustomer } = await import('../lib/customer-ai.js');
+const { getOpenAIClient } = await import('../lib/openai-client.js');
+const liveClient = getOpenAIClient();
 const results = [];
 for (const c of cases) {
-  let calls = 0;
+  let calls = 0, modelResponse;
+  const client = { responses: { create: async (...args) => {
+    calls++;
+    const response = await liveClient.responses.create(...args);
+    modelResponse = { id: response.id, model: response.model, usage: response.usage };
+    return response;
+  } } };
   const chat = createChatPipeline({ knowledge: async () => ({ status: 'ready', data: { [c.lang]: c.rows } }),
-    ai: async args => { calls++; return answerCustomer(args); },
+    ai: async args => answerCustomer({ ...args, client }),
   });
   const result = await chat({ body: { text: c.question, lang: c.lang, refine: true, conversation: c.conversation || [] }, headers: { 'x-forwarded-for': '192.0.2.200' } });
   const sourceIds = (result.evidence || []).map(e => e.sourceId);
-  results.push({ id: c.id, lang: c.lang, question: c.question, result,
-    checks: { actualModelCall: calls === 1 && result.via === 'AI',
+  results.push({ id: c.id, lang: c.lang, question: c.question, result, modelResponse,
+    checks: { actualModelCall: calls === 1 && !!modelResponse?.id && !!modelResponse?.model && result.via === 'AI',
       expectedSources: c.expectedSourceIds.every(id => sourceIds.includes(id)) && sourceIds.every(id => c.expectedSourceIds.includes(id)),
       required: c.required.every(s => result.reply.includes(s)), forbidden: c.forbidden.every(s => !result.reply.includes(s)) },
     reviewStatus: 'pending-human-fact-review', reviewer: null,
