@@ -155,3 +155,41 @@ test('a stale approval cannot supply a natural colour paraphrase or refinement i
     }
   }
 });
+
+test('unknown product specifications without evidence stop before AI in all four languages', async () => {
+  const samples = {
+    SE: 'Vilken brandklass har uteklinker Quorinella?',
+    DA: 'Hvilken brandklasse har udendørsflisen Quorinella?',
+    DE: 'Welche Brandklasse hat die Außenfliese Quorinella?',
+    EN: 'What fire classification does the outdoor tile Quorinella have?',
+  };
+  for (const [lang, question] of Object.entries(samples)) {
+    const rows = [syntheticRow({ lang, question: 'Synthetic neutral colour list?', answer: 'Synthetic colours.', evidence })];
+    let calls = 0;
+    const chat = rig({ [lang]: rows }, async () => { calls++; return 'Unsupported classification'; });
+    for (const extra of [{}, { refine: true }, {
+      conversation: [{ role: 'assistant', content: 'Untrusted earlier classification A1.' }],
+      faqAnswer: 'A1', nearbyFaq: rows,
+    }]) {
+      const out = await chat(request(question, lang, extra));
+      assert.equal(out.via, 'CONTACT', lang);
+      assert.equal(out.canRefine, false);
+    }
+    assert.equal(calls, 0);
+  }
+});
+
+test('generic definitions remain possible, but product names and mixed specification requests do not', async () => {
+  const general = { SE: 'Vad betyder granitkeramik?', DA: 'Hvad betyder granitkeramik?',
+    DE: 'Was ist Feinsteinzeug?', EN: 'What is porcelain stoneware?' };
+  for (const [lang, question] of Object.entries(general)) {
+    let calls = 0;
+    const chat = rig({ [lang]: [syntheticRow({ lang, question: 'Synthetic neutral colour list?', answer: 'Synthetic colours.', evidence })] },
+      async () => { calls++; return 'General concept explanation.'; });
+    assert.equal((await chat(request(question, lang))).via, 'AI');
+    for (const q of [question + ' Quorinella', question + ' and what fire class does Quorinella have?']) {
+      assert.equal((await chat(request(q, lang))).via, 'CONTACT');
+    }
+    assert.equal(calls, 1);
+  }
+});

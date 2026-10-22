@@ -39,6 +39,12 @@ approval on AI/cache-origin data. No generated answer is written back into FAQ.
 
 Existing A–C rows remain pending. **This is deliberately not a drop-in release
 until the existing FAQ has been reviewed and its metadata migrated privately.**
+
+Empty retrieval stops product questions before a model call. A narrow, exact
+allowlist of generic definition questions preserves basic concept explanations;
+added product names, mixed questions and unsupported contextual follow-ups do not
+inherit that allowance. This does not prove that every claim with nonempty context
+is supported: real-model claim review remains a separate release gate.
 Do not bulk-approve the current workbook to make tests pass.
 
 ## Current business facts and support
