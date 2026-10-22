@@ -64,3 +64,27 @@ test('private staging workbook has one contact answer per language; archive is n
   assert.ok(rows.some(r=>/frost/iu.test(r.question)&&!warrantyMaterial(r.question+' '+r.answer)),lang);
  }
 });
+
+test('German separable replacement verbs retain warranty context through the full four-turn flow', async () => {
+  let externalCalls = 0;
+  const blocked = () => { externalCalls++; throw Error('must not use external data or AI'); };
+  const chat = createChatPipeline({ gate: async () => ({ filtered: false }),
+    knowledge: blocked, website: blocked, ai: blocked, contact: blocked });
+  const history = [];
+  const questions = ['Welche Garantie gilt für die Außenfliesen?', 'Wie viele Jahre gilt sie?',
+    'Und die Arbeitskosten?', 'Tauschen Sie die ganze Terrasse aus?'];
+  for (const text of questions) {
+    const result = await chat(request(text, 'DE', { conversation: history.slice(-6) }));
+    assert.equal(result.via, 'CONTACT', text);
+    assert.equal(result.reply, warrantyContact.DE, text);
+    assert.equal(result.canRefine, false);
+    history.push({ role: 'user', content: text }, { role: 'assistant', content: result.reply });
+  }
+  for (const text of ['Tauscht ihr die ganze Terrasse aus?', 'Ersetzen Sie die gesamte Terrasse?',
+    'Kann ich die ganze Terrasse austauschen?']) {
+    const result = await chat(request(text, 'DE', { conversation: history.slice(0, 2), refine: true }));
+    assert.equal(result.reply, warrantyContact.DE, text);
+    assert.equal(result.canRefine, false);
+  }
+  assert.equal(externalCalls, 0);
+});
