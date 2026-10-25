@@ -17,6 +17,7 @@
     let frame, expanded = false;
     function close() {
       frame?.remove(); frame = undefined; expanded = false;
+      Object.assign(button.style, { background: '#2f5d50', color: '#fff', border: '1px solid transparent', padding: '10px 16px', boxShadow: 'none' });
       button.textContent = 'Fråga oss'; button.setAttribute('aria-expanded', 'false');
       button.focus?.();
     }
@@ -43,6 +44,7 @@
       Object.assign(frame.style, { position: 'fixed', bottom: '76px', right: '16px', width: 'min(400px, calc(100vw - 40px))', height: 'min(600px, calc(100dvh - 110px))', border: 'none', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.2)', zIndex: '9999' });
       resize();
       document.body.appendChild(frame);
+      Object.assign(button.style, { background: '#fff', color: '#2f5d50', border: '1px solid #a9bdb1', padding: '12px 18px', boxShadow: 'none' });
       button.textContent = 'Stäng chatten (rensa samtalet)';
       button.setAttribute('aria-expanded', 'true');
     });
