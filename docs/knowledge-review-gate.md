@@ -132,5 +132,24 @@ backed by that primary source, with its reviewed content hash and a link to the
 private decision record. No automatic promotion/import script is provided.
 An approval in the review workbook does not change the chatbot or authorize release.
 
+## Bounded conversation and warranty routing
+
+The UI retains only a `warranty` routing enum in memory after the server returns
+the central warranty contact policy. It echoes this enum on subsequent requests
+so a short duration/compensation follow-up stays with staff even after the initial
+question leaves the six-message window. The enum cannot authorize evidence,
+approve FAQ, bypass the gate or trigger staff contact. Other values are ignored.
+It is never inferred from assistant assertions and is never passed as model context.
+New technical/colour topics clear it, including questions starting with "and";
+coverage questions such as "does it apply to frost?" still go to staff.
+New conversation/reload discards it; no cookies, browser storage or server session
+are added. Filtered or failed requests do not erase the last valid routing enum.
+
+The public deployment deliberately builds only chat/contact/diagnostics APIs.
+`/api/save-faq-reply` therefore returns **404 at the routing layer**, while its
+retired source handler returns 410 if called directly or in a different dev setup.
+Do not expose that endpoint merely to obtain a 410 in Preview. A prior Preview 404
+was expected denial, not evidence of a missing deployment.
+
 Regression tests distinguish isolation/routing/payload checks from real model
 factuality. A mocked response or string check cannot prove absence of hallucinations.

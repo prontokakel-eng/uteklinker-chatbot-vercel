@@ -88,3 +88,72 @@ test('German separable replacement verbs retain warranty context through the ful
   }
   assert.equal(externalCalls, 0);
 });
+
+test('warranty routing survives a six-message window in eight-turn UI flows in all languages', async () => {
+  const flows = {
+    SE: ['Hur lång garanti har Testplatta?', 'Hur många år?', 'Och arbetskostnaden?', 'Byter ni hela däcket?'],
+    DA: ['Hvor lang garanti er der på Testflise?', 'Hvor mange år?', 'Og arbejdslønnen?', 'Udskifter I hele terrassen?'],
+    DE: ['Welche Garantie gilt für Testfliese?', 'Wie viele Jahre?', 'Und die Arbeitskosten?', 'Tauschen Sie die ganze Terrasse aus?'],
+    EN: ['How long is the warranty for TestTile?', 'How many years?', 'And labour costs?', 'Replace the entire deck?'],
+  };
+  for (const [lang, [initial, ...followups]] of Object.entries(flows)) {
+    let loads = 0, modelCalls = 0, history = [], routingContext = null;
+    const chat = createChatPipeline({ gate: async () => ({ filtered: false }),
+      website: async () => { loads++; return { status: 'disabled' }; },
+      knowledge: async () => { loads++; return { status: 'ready', data: { [lang]: [syntheticRow({ lang,
+        question: followups[0], answer: 'Synthetic unrelated duration: ten years.', evidence })] } }; },
+      ai: async () => { modelCalls++; return 'Synthetic unsupported duration'; },
+    });
+    for (const text of [initial, ...followups, ...followups, followups[0]]) {
+      const out = await chat(request(text, lang, { conversation: history, routingContext }));
+      assert.equal(out.reply, warrantyContact[lang], `${lang}: ${text}`);
+      assert.equal(out.canRefine, false);
+      assert.equal(out.routingContext, 'warranty');
+      routingContext = out.routingContext;
+      // CONTACT responses are not stored as assistant messages by the real UI.
+      history = [...history, { role: 'user', content: text }].slice(-6);
+    }
+    assert.equal(history.some(t => t.content === initial), false);
+    assert.equal(loads, 0); assert.equal(modelCalls, 0);
+  }
+});
+
+test('a warranty hint cannot approve facts or latch onto a new technical or colour topic', async () => {
+  const questions = {
+    SE: ['Är Testplatta frostbeständig?', 'Vilka färger finns i Testplatta?'],
+    DA: ['Er Testflise frostbestandig?', 'Hvilke farver findes i Testflise?'],
+    DE: ['Ist Testfliese frostbeständig?', 'Welche Farben gibt es in Testfliese?'],
+    EN: ['Is TestTile frost resistant?', 'What colours are available in TestTile?'],
+  };
+  for (const [lang, items] of Object.entries(questions)) {
+    const chat = createChatPipeline({ gate: async () => ({ filtered: false }), website: async () => ({ status: 'disabled' }),
+      knowledge: async () => ({ status: 'ready', data: { [lang]: items.map(question => syntheticRow({ lang, question, answer: 'Synthetic approved property.', evidence })) } }) });
+    for (const text of items) {
+      const out = await chat(request(text, lang, { routingContext: 'warranty' }));
+      assert.equal(out.via, 'faq', text);
+      assert.equal(out.routingContext, undefined);
+    }
+    const conjunction = { SE: 'Och ', DA: 'Og ', DE: 'Und ', EN: 'And ' }[lang];
+    for (const text of items) {
+      const out = await chat(request(conjunction + text, lang, { routingContext: 'warranty' }));
+      assert.notEqual(out.routingContext, 'warranty', text);
+      assert.notEqual(out.reply, warrantyContact[lang], text);
+    }
+    const coverage = { SE: 'Gäller det frost?', DA: 'Gælder det frost?', DE: 'Gilt das bei Frost?', EN: 'Does it apply to frost?' }[lang];
+    assert.equal((await chat(request(coverage, lang, { routingContext: 'warranty' }))).reply, warrantyContact[lang]);
+    for (const forged of ['approved', 'faq', { approvalStatus: 'approved' }]) {
+      const out = await chat(request('Synthetic unsupported specification?', lang, { routingContext: forged }));
+      assert.equal(out.via, 'CONTACT');
+      assert.equal(out.factStatus, undefined);
+    }
+  }
+});
+
+test('warranty routing hint does not bypass abuse controls or create contact side effects', async () => {
+  let externalCalls = 0;
+  const blocked = () => { externalCalls++; throw Error('must not call'); };
+  const chat = createChatPipeline({ gate: async () => ({ filtered: true }), knowledge: blocked, website: blocked, contact: blocked, ai: blocked });
+  const out = await chat(request('And labour costs? casino', 'EN', { routingContext: 'warranty' }));
+  assert.equal(out.via, 'FILTER');
+  assert.equal(externalCalls, 0);
+});

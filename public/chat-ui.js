@@ -180,6 +180,8 @@ let sending = false;
 let lastUserText = "";
 let lastBotAnswer = "";
 let conversation = [];
+// Routing hint only; never a fact, source or approval. Kept in memory only.
+let routingContext = null;
 
 function isNearBottom() {
   if (!messageScroller) return true;
@@ -280,7 +282,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
     const resp = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, lang: language, refine, conversation: requestConversation }),
+      body: JSON.stringify({ text, lang: language, refine, conversation: requestConversation, routingContext }),
       signal: AbortSignal.timeout(35000),
     });
 
@@ -312,6 +314,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
         acc += decoder.decode(value, { stream: true });
         content.innerHTML = renderMarkdown(acc); enhanceCodeBlocks(live); maybeAutoScroll();
       }
+      routingContext = null;
       lastBotAnswer = acc;
       conversation = [...conversation, { role: 'assistant', content: acc.slice(0, 1000) }].slice(-6);
     } else {
@@ -326,6 +329,10 @@ async function sendCore(text, language, { refine = false, priorConversation = co
       const srcRaw = (data.source || data.via || "").toString();
       const src = srcRaw.toUpperCase();
       const replyText = toDisplay(data.reply ?? "");
+      // Blocked/failed requests do not erase the last valid conversation topic.
+      if (resp.ok && !['FILTER', 'RATE-LIMIT', 'AI_ERROR', 'DATA_ERROR'].includes(src)) {
+        routingContext = data.routingContext === 'warranty' ? 'warranty' : null;
+      }
 
       if (detected === "FILTER" || src === "FILTER") {
         showBanner(faqBanner, "⚠️ Din fråga verkar inte relatera till våra produkter");
@@ -363,7 +370,7 @@ window.addEventListener("online",  () => showBanner(statusBanner, "✅ Tillbaka 
 
 newChatBtn?.addEventListener("click", () => {
   if (!confirm("Starta en ny konversation? Befintliga meddelanden rensas.")) return;
-  messagesDiv.innerHTML = ""; lastUserText = ""; lastBotAnswer = ""; conversation = [];
+  messagesDiv.innerHTML = ""; lastUserText = ""; lastBotAnswer = ""; conversation = []; routingContext = null;
   showBanner(statusBanner, "🆕 Ny konversation startad.", 2000); input?.focus();
 });
 

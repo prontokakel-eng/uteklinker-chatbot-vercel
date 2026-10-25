@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import ExcelJS from 'exceljs';
+import fs from 'node:fs/promises';
 import handler from '../api/save-faq-reply.js';
 import { createAiReviewDraft } from '../lib/ai-review.js';
 import { approvedFact } from '../lib/knowledge-policy.js';
@@ -18,6 +19,15 @@ test('retired public save endpoint rejects every write without credentials or si
     assert.equal(status, 410);
     assert.deepEqual(result, { error: 'FAQ_WRITE_DISABLED' });
   }
+});
+
+test('deployment does not build or route a public FAQ writer', async () => {
+  const config = JSON.parse(await fs.readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
+  assert.deepEqual(config.builds.filter(b => b.src.startsWith('api/')).map(b => b.src).sort(),
+    ['api/chat.js', 'api/contact.js', 'api/diagnostics.js']);
+  const route = config.routes.find(r => new RegExp('^' + r.src + '$').test('/api/save-faq-reply'));
+  assert.equal(route.status, 404);
+  assert.equal(route.dest, undefined);
 });
 
 test('passing checks and supplied approval fields never approve drafts in four languages', async () => {
