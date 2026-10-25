@@ -30,6 +30,86 @@ const uiCopy = {
   DA: { contactUnknown: 'Kontaktstatus kan ikke bekræftes lige nu. Brug e-mail, eller prøv igen om lidt.', contactUnavailable: 'Kontaktoplysningerne kunne ikke hentes. Prøv igen om lidt.', input: 'Skriv en besked...', retry: 'Prøv igen', refine: 'Uddyb svaret', help: 'Send med Enter eller send-knappen.' },
   DE: { contactUnknown: 'Der Kontaktstatus kann gerade nicht bestätigt werden. Nutzen Sie E-Mail oder versuchen Sie es später erneut.', contactUnavailable: 'Die Kontaktinformationen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.', input: 'Nachricht eingeben...', retry: 'Erneut versuchen', refine: 'Antwort erläutern', help: 'Mit Enter oder der Senden-Taste senden.' },
 };
+const statusCopy = {
+  "SE": {
+    "switched": "Språk ändrat till svenska.",
+    "autoSwitched": "Din fråga verkar vara på svenska. Språket har ändrats till svenska.",
+    "newConfirm": "Starta en ny konversation? Befintliga meddelanden rensas.",
+    "newStarted": "Ny konversation startad.",
+    "error": "Ett fel inträffade. Försök igen.",
+    "offline": "Du är offline. Svar kan inte hämtas nu.",
+    "online": "Tillbaka online.",
+    "noReply": "Inget svar.",
+    "filter": "Din fråga verkar inte relatera till våra produkter.",
+    "source": "Källa: ",
+    "copy": "Kopiera",
+    "copied": "Kopierat ✓",
+    "copyFailed": "Kunde inte kopiera.",
+    "typing": "Skriver…",
+    "soundOff": "Ljud av",
+    "soundOn": "Ljud på",
+    "lineHelp": "Använd Shift+Enter för radbrytning och sändknappen för att skicka."
+  },
+  "DA": {
+    "switched": "Sproget er ændret til dansk.",
+    "autoSwitched": "Dit spørgsmål ser ud til at være på dansk. Sproget er ændret til dansk.",
+    "newConfirm": "Start en ny samtale? Eksisterende beskeder slettes.",
+    "newStarted": "En ny samtale er startet.",
+    "error": "Der opstod en fejl. Prøv igen.",
+    "offline": "Du er offline. Svar kan ikke hentes lige nu.",
+    "online": "Du er online igen.",
+    "noReply": "Intet svar.",
+    "filter": "Dit spørgsmål ser ikke ud til at vedrøre vores produkter.",
+    "source": "Kilde: ",
+    "copy": "Kopiér",
+    "copied": "Kopieret ✓",
+    "copyFailed": "Kunne ikke kopiere.",
+    "typing": "Skriver…",
+    "soundOff": "Lyd fra",
+    "soundOn": "Lyd til",
+    "lineHelp": "Brug Shift+Enter til linjeskift og send-knappen til at sende."
+  },
+  "DE": {
+    "switched": "Die Sprache wurde auf Deutsch umgestellt.",
+    "autoSwitched": "Ihre Frage scheint auf Deutsch zu sein. Die Sprache wurde auf Deutsch umgestellt.",
+    "newConfirm": "Ein neues Gespräch starten? Vorhandene Nachrichten werden gelöscht.",
+    "newStarted": "Ein neues Gespräch wurde gestartet.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "offline": "Sie sind offline. Antworten können gerade nicht geladen werden.",
+    "online": "Sie sind wieder online.",
+    "noReply": "Keine Antwort.",
+    "filter": "Ihre Frage scheint sich nicht auf unsere Produkte zu beziehen.",
+    "source": "Quelle: ",
+    "copy": "Kopieren",
+    "copied": "Kopiert ✓",
+    "copyFailed": "Kopieren fehlgeschlagen.",
+    "typing": "Schreibt…",
+    "soundOff": "Ton aus",
+    "soundOn": "Ton an",
+    "lineHelp": "Mit Shift+Enter einen Zeilenumbruch einfügen und mit der Senden-Taste senden."
+  },
+  "EN": {
+    "switched": "Language changed to English.",
+    "autoSwitched": "Your question appears to be in English. The language has been changed to English.",
+    "newConfirm": "Start a new conversation? Existing messages will be cleared.",
+    "newStarted": "A new conversation has started.",
+    "error": "An error occurred. Please try again.",
+    "offline": "You are offline. Answers cannot be loaded right now.",
+    "online": "You are back online.",
+    "noReply": "No answer.",
+    "filter": "Your question does not appear to relate to our products.",
+    "source": "Source: ",
+    "copy": "Copy",
+    "copied": "Copied ✓",
+    "copyFailed": "Could not copy.",
+    "typing": "Typing…",
+    "soundOff": "Sound off",
+    "soundOn": "Sound on",
+    "lineHelp": "Use Shift+Enter for a new line and the send button to send."
+  }
+};
+function uiText(key) { return (statusCopy[lang] || statusCopy.SE)[key]; }
+
 const privacyCopy = {
   SE: 'Du chattar med en AI-assistent. Text kan behandlas av OpenAI. Skriv inte personnummer, betalningsuppgifter eller känsliga uppgifter. Svaren kan innehålla fel.',
   DA: 'Du chatter med en AI-assistent. Tekst kan blive behandlet af OpenAI. Skriv ikke CPR-nummer, betalingsoplysninger eller følsomme oplysninger. Svarene kan indeholde fejl.',
@@ -56,9 +136,7 @@ function showLoader(){ if (loader) loader.classList.remove("hidden"); }
 function updateEnterHelp() {
   if (!enterHelp) return;
   const enterSends = !enterToggle || enterToggle.checked;
-  enterHelp.innerHTML = enterSends
-    ? 'Tips: Du kan skicka meddelanden med <strong>Enter</strong> eller ➤-knappen.'
-    : 'Tips: Använd <strong>Shift+Enter</strong> för radbrytning, och ➤ för att skicka.';
+  enterHelp.textContent = enterSends ? (uiCopy[lang] || uiCopy.SE).help : uiText('lineHelp');
 }
 
 function escapeHTML(s){ return s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;'); }
@@ -77,11 +155,11 @@ function enhanceCodeBlocks(container){
     const btn = document.createElement('button');
     btn.className = 'btn copy-code';
     btn.type = 'button';
-    btn.textContent = 'Kopiera';
+    btn.dataset.ui = 'copy'; btn.textContent = uiText('copy');
     btn.style.float = 'right';
     btn.addEventListener('click', async ()=>{
-      try { await navigator.clipboard.writeText(pre.innerText); btn.textContent = 'Kopierat ✓'; setTimeout(()=>btn.textContent='Kopiera',1200); }
-      catch { btn.textContent='Fel'; setTimeout(()=>btn.textContent='Kopiera',1200); }
+      try { await navigator.clipboard.writeText(pre.innerText); btn.textContent = uiText('copied'); setTimeout(()=>btn.textContent=uiText('copy'),1200); }
+      catch { btn.textContent=uiText('copyFailed'); setTimeout(()=>btn.textContent=uiText('copy'),1200); }
     });
     pre.prepend(btn);
   });
@@ -106,11 +184,14 @@ function setLanguage(newLang, { announce = true } = {}) {
   const privacyLink = document.getElementById('chat-privacy-link');
   if (privacyLink) privacyLink.textContent = privacyLinkCopy[newLang] || privacyLinkCopy.SE;
   document.querySelectorAll('[data-action]').forEach(button => { button.textContent = (uiCopy[newLang] || uiCopy.SE)[button.dataset.action]; });
-  if (enterHelp) enterHelp.textContent = (uiCopy[newLang] || uiCopy.SE).help;
+  updateEnterHelp();
+  document.querySelectorAll('[data-ui]').forEach(node => { node.textContent = uiText(node.dataset.ui); });
+  document.querySelectorAll('[data-source]').forEach(node => { node.textContent = uiText('source') + node.dataset.source; });
+  updateSoundUI();
   flagButtons.forEach(btn => btn.setAttribute("aria-pressed", btn.dataset.lang === newLang ? "true" : "false"));
   window.dispatchEvent(new CustomEvent('pronto-language-change'));
   updateContacts();
-  if (announce) showBanner(langBanner, `🌐 Språk ändrat till ${newLang}`);
+  if (announce) showBanner(langBanner, '🌐 ' + uiText('switched'));
 }
 flagButtons.forEach(btn => btn.addEventListener("click", () => {
   setLanguage(btn.dataset.lang);
@@ -140,7 +221,8 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
   if (source) {
     const badge = document.createElement("small");
     badge.className = "meta";
-    badge.textContent = source === "AI" ? "🤖 AI" : (source === "FAQ" || source.startsWith?.("FAQ")) ? "✅ FAQ" : `Källa: ${source}`;
+    badge.textContent = source === "AI" ? "🤖 AI" : (source === "FAQ" || source.startsWith?.("FAQ")) ? "✅ FAQ" : uiText('source') + source;
+    if (source !== 'AI' && !source.startsWith('FAQ')) badge.dataset.source = source;
     meta.appendChild(badge);
   }
 
@@ -208,7 +290,7 @@ function updateSoundUI(){
   if (!soundBtn) return;
   soundBtn.textContent = muted ? "🔈" : "🔊";
   soundBtn.setAttribute("aria-pressed", String(!muted));
-  soundBtn.title = muted ? "Ljud av" : "Ljud på";
+  soundBtn.title = uiText(muted ? 'soundOff' : 'soundOn');
 }
 updateSoundUI();
 soundBtn?.addEventListener("click", () => {
@@ -226,7 +308,7 @@ function startTypingSound() {
     o.connect(g); g.connect(audioCtx.destination); o.start();
     setTimeout(() => o.stop(), 15 + Math.random() * 25);
   }, 95);
-  if (thinkingSr) thinkingSr.textContent = "Skriver…";
+  if (thinkingSr) thinkingSr.textContent = uiText('typing');
 }
 function stopTypingSound() { if (keyTimer) clearInterval(keyTimer); keyTimer = null; if (thinkingSr) thinkingSr.textContent = ""; }
 
@@ -249,8 +331,8 @@ voiceBtn?.addEventListener("click", () => { if (!rec) return; try { rec.start();
 
 copyBtn?.addEventListener("click", async () => {
   if (!lastBotAnswer) return;
-  try { await navigator.clipboard.writeText(lastBotAnswer); showBanner(saveBanner, "📋 Svar kopierat"); }
-  catch { showBanner(saveBanner, "⚠️ Kunde inte kopiera"); }
+  try { await navigator.clipboard.writeText(lastBotAnswer); showBanner(saveBanner, '📋 ' + uiText('copied')); }
+  catch { showBanner(saveBanner, '⚠️ ' + uiText('copyFailed')); }
 });
 
 function resendLastUser(){ if (!lastUserText) return; sendCore(lastUserText, lang); }
@@ -258,16 +340,11 @@ function improveWithAI(faqText){
   if (lastUserText) sendCore(lastUserText, lang, { refine: true });
 }
 
-// Generic auto-language banner for all languages
+// Describe the interface switch in the newly selected language. Existing answers
+// are not translated or changed by switching the interface language.
 function maybeAnnounceAutoLanguageSwitch(detectedCode){
-  const code = (detectedCode||"").toUpperCase();
-  const flagMap = { SE:"🇸🇪", EN:"🇬🇧", DA:"🇩🇰", DE:"🇩🇪" };
-  const nameMap = { SE:"svenska", EN:"engelska", DA:"danska", DE:"tyska" };
-  const flag = flagMap[code] || "";
-  const name = nameMap[code] || code;
-  // Always same pattern:
-  // "OBS! ⚠️ Din fråga verkar vara på {name} – vi bytte språk till {flag} {code}."
-  showBanner(langBanner, `OBS! ⚠️ Din fråga verkar vara på ${name} – vi bytte språk till ${flag} ${code}.`, 5000);
+  const code = (detectedCode || '').toUpperCase();
+  showBanner(langBanner, '🌐 ' + (statusCopy[code] || statusCopy.SE).autoSwitched, 5000);
 }
 
 async function sendCore(text, language, { refine = false, priorConversation = conversation } = {}){
@@ -339,21 +416,21 @@ async function sendCore(text, language, { refine = false, priorConversation = co
       }
 
       if (detected === "FILTER" || src === "FILTER") {
-        showBanner(faqBanner, "⚠️ Din fråga verkar inte relatera till våra produkter");
-        addMessage(replyText || "⚠️ Din fråga verkar inte relatera till våra produkter.", "bot", "Filter");
+        showBanner(faqBanner, '⚠️ ' + uiText('filter'));
+        addMessage(replyText || ('⚠️ ' + uiText('filter')), "bot", "Filter");
       } else if (src === "AI") {
-        addMessage(replyText || "Inget svar.", "ai", "AI", data.canRefine === true, data.citations);
+        addMessage(replyText || uiText('noReply'), "ai", "AI", data.canRefine === true, data.citations);
       } else if (src.startsWith("FAQ")) {
-        addMessage(replyText || "Inget svar.", "faq", "FAQ", data.canRefine === true, data.citations);
+        addMessage(replyText || uiText('noReply'), "faq", "FAQ", data.canRefine === true, data.citations);
       } else {
-        addMessage(replyText || "Inget svar.", "bot", src || "BOT", false, data.citations);
+        addMessage(replyText || uiText('noReply'), "bot", src || "BOT", false, data.citations);
       }
       if (src === 'AI' || src === 'WEBSITE' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
     }
   } catch (err) {
     console.error("❌ Chat error:", err);
-    addMessage("⚠️ Ett fel inträffade.", "bot");
-    if (!navigator.onLine) showBanner(statusBanner, "⚠️ Du är offline. Svar kan inte hämtas nu.", 4000);
+    addMessage('⚠️ ' + uiText('error'), 'bot');
+    if (!navigator.onLine) showBanner(statusBanner, '⚠️ ' + uiText('offline'), 4000);
   } finally {
     hideLoader(); stopTypingSound(); sending = false;
     if (sendBtn) sendBtn.disabled = false;
@@ -371,13 +448,13 @@ input?.addEventListener("keydown", (e) => {
 enterToggle?.addEventListener("change", updateEnterHelp);
 updateEnterHelp();
 
-window.addEventListener("offline", () => showBanner(statusBanner, "⚠️ Du är offline.", 3000));
-window.addEventListener("online",  () => showBanner(statusBanner, "✅ Tillbaka online.", 2000));
+window.addEventListener("offline", () => showBanner(statusBanner, '⚠️ ' + uiText('offline'), 3000));
+window.addEventListener("online",  () => showBanner(statusBanner, '✅ ' + uiText('online'), 2000));
 
 newChatBtn?.addEventListener("click", () => {
-  if (!confirm("Starta en ny konversation? Befintliga meddelanden rensas.")) return;
+  if (!confirm(uiText('newConfirm'))) return;
   messagesDiv.innerHTML = ""; lastUserText = ""; lastBotAnswer = ""; conversation = []; routingContext = null;
-  showBanner(statusBanner, "🆕 Ny konversation startad.", 2000); input?.focus();
+  showBanner(statusBanner, '🆕 ' + uiText('newStarted'), 2000); input?.focus();
 });
 
 

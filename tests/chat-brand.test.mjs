@@ -8,7 +8,7 @@ function app({language='SE',embedded=false}={}) {
  const make=id=>{ const el={id,textContent:'',style:{},dataset:{},events:{},attributes:{},children:[],hidden:false,value:'',
   addEventListener(name,fn){this.events[name]=fn;},setAttribute(k,v){this.attributes[k]=v;},focus(){this.focused=true;},click(){this.events.click?.();},
   querySelector(){return this.label ||= {textContent:''};},showModal(){this.open=true;},close(){this.open=false;this.events.close?.();}}; nodes.set(id,el);return el; };
- for(const id of ['langSelect','contact-dialog','messages','welcome','brand-title','brand-subtitle','language-label','welcome-title','welcome-description','personal-help','contact-title','message-label','send-btn','new-chat-btn','close-chat-btn','expand-chat-btn','close-contact','user-input'])make(id);
+ for(const id of ['ai-label','skip-input','chat-region','loader','langSelect','contact-dialog','messages','welcome','brand-title','brand-subtitle','language-label','welcome-title','welcome-description','personal-help','contact-title','message-label','send-btn','new-chat-btn','close-chat-btn','expand-chat-btn','close-contact','user-input'])make(id);
  nodes.get('langSelect').value=language;
  const quick=['tiles','installation','project'].map(k=>{const n=make('quick-'+k);n.dataset.quick=k;return n;});
  const contact=[make('contact-a'),make('contact-b')];let sent;
