@@ -22,6 +22,8 @@
     for (const [id,key] of Object.entries({'send-btn':'send','new-chat-btn':'newChat','close-chat-btn':'close','expand-chat-btn':'expand','close-contact':'closeContact'})) { const button = document.getElementById(id); button.setAttribute('aria-label',text[key]); button.title = text[key]; }
     document.querySelectorAll('[data-quick]').forEach(button => { button.querySelector('span').textContent = text[button.dataset.quick]; });
     document.querySelectorAll('[data-open-contact]').forEach(button => { button.textContent = text.contact; });
+    // Only an allowlisted language code leaves the frame; never conversation data.
+    if (window.parent !== window) window.parent.postMessage({type:'pronto-chat:language',language:copy[language] ? language : 'SE'},'*');
   }
   document.querySelectorAll('[data-quick]').forEach(button => button.addEventListener('click', () => {
     if (document.getElementById('send-btn').disabled) return;

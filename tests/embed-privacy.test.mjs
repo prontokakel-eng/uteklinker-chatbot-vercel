@@ -77,3 +77,15 @@ test('embedded controls accept only commands from the current trusted chat frame
  send('https://preview.example',frame.contentWindow,'pronto-chat:close');
  assert.ok(p.nodes.includes(replacement),'a destroyed frame cannot control a new conversation');
 });
+
+test('outer launcher follows the current trusted frame language and rejects invalid senders and codes', () => {
+ const p=page({chatUrl:'https://preview.example/'});p.run();const button=p.nodes[0];button.events.click();
+ const frame=p.nodes.find(n=>n.tag==='iframe');frame.contentWindow={};
+ const send=(language,origin='https://preview.example',source=frame.contentWindow)=>p.windowListeners.message({origin,source,data:{type:'pronto-chat:language',language}});
+ for(const [language,label] of [['DA','Luk chatten (ryd samtalen)'],['DE','Chat schließen (Gespräch löschen)'],['EN','Close chat (clear conversation)'],['SE','Stäng chatten (rensa samtalet)']]){send(language);assert.equal(button.textContent,label);}
+ send('DE');for(const invalid of ['invalid','__proto__','constructor'])send(invalid);
+ send('EN','https://attacker.example');send('EN','https://preview.example',{});
+ assert.equal(button.textContent,'Chat schließen (Gespräch löschen)');
+ button.events.click();assert.equal(button.textContent,'Fragen Sie uns');
+ send('EN');assert.equal(button.textContent,'Fragen Sie uns','closed frames cannot change the launcher');
+});

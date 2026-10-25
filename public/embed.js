@@ -14,11 +14,21 @@
     button.setAttribute('aria-expanded', 'false');
     button.setAttribute('aria-controls', 'pronto-chat-frame');
     Object.assign(button.style, { position: 'fixed', bottom: '20px', right: '16px', zIndex: '9999', padding: '10px 16px', borderRadius: '50px', border: 'none', background: '#2f5d50', color: '#fff', cursor: 'pointer' });
-    let frame, expanded = false;
+    const labels = {
+      SE: ['Fråga oss', 'Stäng chatten (rensa samtalet)', 'Pronto Klinkerdäck – AI-assistent'],
+      DA: ['Spørg os', 'Luk chatten (ryd samtalen)', 'Pronto Klinkerdäck – AI-assistent'],
+      DE: ['Fragen Sie uns', 'Chat schließen (Gespräch löschen)', 'Pronto Klinkerdäck – KI-Assistent'],
+      EN: ['Ask us', 'Close chat (clear conversation)', 'Pronto Klinkerdäck – AI assistant'],
+    };
+    let frame, expanded = false, language = 'SE';
+    function renderLanguage() {
+      button.textContent = labels[language][frame ? 1 : 0];
+      if (frame) frame.title = labels[language][2];
+    }
     function close() {
       frame?.remove(); frame = undefined; expanded = false;
       Object.assign(button.style, { background: '#2f5d50', color: '#fff', border: '1px solid transparent', padding: '10px 16px', boxShadow: 'none' });
-      button.textContent = 'Fråga oss'; button.setAttribute('aria-expanded', 'false');
+      renderLanguage(); button.setAttribute('aria-expanded', 'false');
       button.focus?.();
     }
     function resize() {
@@ -30,6 +40,9 @@
       if (!frame || event.source !== frame.contentWindow || event.origin !== chatUrl.origin) return;
       if (event.data?.type === 'pronto-chat:close') close();
       else if (event.data?.type === 'pronto-chat:toggle-size') { expanded = !expanded; resize(); }
+      else if (event.data?.type === 'pronto-chat:language' && Object.hasOwn(labels, event.data.language)) {
+        language = event.data.language; renderLanguage();
+      }
     });
     button.addEventListener('click', () => {
       if (frame) {
@@ -45,7 +58,7 @@
       resize();
       document.body.appendChild(frame);
       Object.assign(button.style, { background: '#fff', color: '#2f5d50', border: '1px solid #a9bdb1', padding: '12px 18px', boxShadow: 'none' });
-      button.textContent = 'Stäng chatten (rensa samtalet)';
+      renderLanguage();
       button.setAttribute('aria-expanded', 'true');
     });
     document.body.appendChild(button);

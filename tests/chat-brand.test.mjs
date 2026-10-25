@@ -37,8 +37,8 @@ test('language updates and contact dialog work without exposing invented staff a
  p.nodes.get('close-contact').click();assert.equal(p.nodes.get('contact-dialog').open,false);assert.equal(p.contact[0].focused,true);
  assert.doesNotMatch(p.nodes.get('personal-help').textContent,/verfügbar|online|geöffnet/i);
 });
-test('frame controls emit only close and resize commands, with no conversation payload',()=>{
+test('frame controls emit only language, close and resize commands, with no conversation payload',()=>{
  const p=app({embedded:true});p.nodes.get('close-chat-btn').click();p.nodes.get('expand-chat-btn').click();
- assert.deepEqual(p.commands.map(c=>JSON.stringify(c.data)),['{"type":"pronto-chat:close"}','{"type":"pronto-chat:toggle-size"}']);
+ assert.deepEqual(p.commands.map(c=>JSON.stringify(c.data)),['{"type":"pronto-chat:language","language":"SE"}','{"type":"pronto-chat:close"}','{"type":"pronto-chat:toggle-size"}']);
  const standalone=app();assert.equal(standalone.nodes.get('close-chat-btn').events.click,undefined);
 });
