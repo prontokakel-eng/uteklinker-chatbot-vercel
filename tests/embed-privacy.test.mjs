@@ -51,3 +51,9 @@ test('insecure and executable iframe targets are not mounted', () => {
   const p = page({ chatUrl }); p.run(); assert.equal(p.nodes.length, 0);
  }
 });
+
+test('the embedding test page always uses its own reviewed deployment, never a stale branch', async () => {
+ const html = await fs.readFile(new URL('../public/embed-privacy-check.html', import.meta.url), 'utf8');
+ assert.match(html, /<script src="\/embed\.js"><\/script>/u);
+ assert.doesNotMatch(html, /data-chat-url|vercel\.app/u);
+});

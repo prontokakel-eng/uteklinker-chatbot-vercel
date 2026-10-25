@@ -25,10 +25,10 @@ const voiceBtn = document.getElementById("voice-btn");
 const copyBtn  = document.getElementById("copy-btn");
 const soundBtn = document.getElementById("sound-btn");
 const uiCopy = {
-  SE: { contactUnavailable: 'Kontaktinformationen kunde inte hämtas. Försök igen om en stund.', input: 'Skriv ett meddelande...', retry: 'Försök igen', refine: 'Utveckla svaret', help: 'Skicka med Enter eller sändknappen.' },
-  EN: { contactUnavailable: 'Contact information could not be loaded. Please try again shortly.', input: 'Type a message...', retry: 'Try again', refine: 'Explain in more detail', help: 'Send with Enter or the send button.' },
-  DA: { contactUnavailable: 'Kontaktoplysningerne kunne ikke hentes. Prøv igen om lidt.', input: 'Skriv en besked...', retry: 'Prøv igen', refine: 'Uddyb svaret', help: 'Send med Enter eller send-knappen.' },
-  DE: { contactUnavailable: 'Die Kontaktinformationen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.', input: 'Nachricht eingeben...', retry: 'Erneut versuchen', refine: 'Antwort erläutern', help: 'Mit Enter oder der Senden-Taste senden.' },
+  SE: { contactUnknown: 'Kontaktstatusen kan inte verifieras just nu. Använd e-post eller försök igen om en stund.', contactUnavailable: 'Kontaktinformationen kunde inte hämtas. Försök igen om en stund.', input: 'Skriv ett meddelande...', retry: 'Försök igen', refine: 'Utveckla svaret', help: 'Skicka med Enter eller sändknappen.' },
+  EN: { contactUnknown: 'Contact status cannot be verified right now. Use email or try again shortly.', contactUnavailable: 'Contact information could not be loaded. Please try again shortly.', input: 'Type a message...', retry: 'Try again', refine: 'Explain in more detail', help: 'Send with Enter or the send button.' },
+  DA: { contactUnknown: 'Kontaktstatus kan ikke bekræftes lige nu. Brug e-mail, eller prøv igen om lidt.', contactUnavailable: 'Kontaktoplysningerne kunne ikke hentes. Prøv igen om lidt.', input: 'Skriv en besked...', retry: 'Prøv igen', refine: 'Uddyb svaret', help: 'Send med Enter eller send-knappen.' },
+  DE: { contactUnknown: 'Der Kontaktstatus kann gerade nicht bestätigt werden. Nutzen Sie E-Mail oder versuchen Sie es später erneut.', contactUnavailable: 'Die Kontaktinformationen konnten nicht geladen werden. Bitte versuchen Sie es später erneut.', input: 'Nachricht eingeben...', retry: 'Erneut versuchen', refine: 'Antwort erläutern', help: 'Mit Enter oder der Senden-Taste senden.' },
 };
 const privacyCopy = {
   SE: 'Du chattar med en AI-assistent. Text kan behandlas av OpenAI. Skriv inte personnummer, betalningsuppgifter eller känsliga uppgifter. Svaren kan innehålla fel.',
@@ -408,11 +408,18 @@ async function updateContacts() {
   try {
     const response = await fetch('/api/contact?lang=' + encodeURIComponent(lang), { signal: AbortSignal.timeout(10000) });
     if (!response.ok) throw new Error('Contact unavailable');
-    const data = await response.json();
+    let data = await response.json();
     if (generation !== contactGeneration) return;
     const deadline = data.validUntil ? Date.parse(data.validUntil) : null;
     refreshMs = data.refreshAfterMs === 900000 ? 900000 : 60000;
-    if (Number.isFinite(deadline)) refreshMs = Math.max(1000, Math.min(refreshMs, deadline - Date.now()));
+    const expired = deadline !== null && (!Number.isFinite(deadline) || deadline <= Date.now());
+    if (expired) {
+      // An old open/available statement is no safer than an expired action.
+      data = { ...data, message: (uiCopy[lang] || uiCopy.SE).contactUnknown,
+        supportOpenNow: null, supportHoursNote: null, staffMessage: null,
+        links: (data.links || []).filter(link => link.type === 'email') };
+      refreshMs = 60000;
+    } else if (Number.isFinite(deadline)) refreshMs = Math.max(1000, Math.min(refreshMs, deadline - Date.now()));
     contactPanel.replaceChildren();
     const status = document.createElement('p'); status.textContent = data.message; contactPanel.append(status);
     if (data.supportHoursNote) { const note = document.createElement('p'); note.textContent = data.supportHoursNote; contactPanel.append(note); }
