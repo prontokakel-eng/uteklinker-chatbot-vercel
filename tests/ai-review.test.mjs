@@ -24,7 +24,7 @@ test('retired public save endpoint rejects every write without credentials or si
 test('deployment does not build or route a public FAQ writer', async () => {
   const config = JSON.parse(await fs.readFile(new URL('../vercel.json', import.meta.url), 'utf8'));
   assert.deepEqual(config.builds.filter(b => b.src.startsWith('api/')).map(b => b.src).sort(),
-    ['api/chat.js', 'api/contact.js', 'api/diagnostics.js']);
+    ['api/chat.js', 'api/contact.js', 'api/diagnostics.js', 'api/opening-hours.js']);
   const route = config.routes.find(r => new RegExp('^' + r.src + '$').test('/api/save-faq-reply'));
   assert.equal(route.status, 404);
   assert.equal(route.dest, undefined);

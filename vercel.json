@@ -3,11 +3,12 @@
   "builds": [
     { "src": "api/chat.js", "use": "@vercel/node" },
     { "src": "api/contact.js", "use": "@vercel/node" },
+    { "src": "api/opening-hours.js", "use": "@vercel/node" },
     { "src": "api/diagnostics.js", "use": "@vercel/node" },
     { "src": "public/**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/api/(chat|contact|diagnostics)", "dest": "/api/$1.js" },
+    { "src": "/api/(chat|contact|diagnostics|opening-hours)", "dest": "/api/$1.js" },
     { "src": "/api/.*", "status": 404 },
     { "src": "/", "dest": "/public/index.html" },
     { "src": "/(.*)", "dest": "/public/$1" }
