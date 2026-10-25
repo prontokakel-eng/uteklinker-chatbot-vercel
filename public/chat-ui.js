@@ -218,7 +218,7 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
 
   const meta = document.createElement("div");
   meta.className = "info";
-  if (source) {
+  if (source && source !== 'GUIDANCE') {
     const badge = document.createElement("small");
     badge.className = "meta";
     badge.textContent = source === "AI" ? "🤖 AI" : (source === "FAQ" || source.startsWith?.("FAQ")) ? "✅ FAQ" : uiText('source') + source;
@@ -226,7 +226,7 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
     meta.appendChild(badge);
   }
 
-  if (sender !== "user") {
+  if (sender !== "user" && source !== 'GUIDANCE') {
     const bar = document.createElement("div");
     bar.className = "actions";
     const retry = document.createElement("button");
@@ -425,7 +425,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
       } else {
         addMessage(replyText || uiText('noReply'), "bot", src || "BOT", false, data.citations);
       }
-      if (src === 'AI' || src === 'WEBSITE' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
+      if (src === 'AI' || src === 'WEBSITE' || src === 'GUIDANCE' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
     }
   } catch (err) {
     console.error("❌ Chat error:", err);

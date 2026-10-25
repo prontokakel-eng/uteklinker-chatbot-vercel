@@ -13,3 +13,10 @@
 .welcome-contact [data-open-contact],.composer-note [data-open-contact]{font-weight:600;font-size:12px;min-height:44px;text-underline-offset:4px}
 #contact-options .btn{font-weight:600}
 @media(max-width:440px){.composer-label{font-size:15px}}
+
+/* Keep the single active composer next to the latest conversational turn. */
+.reply-composer{margin:6px 0 12px;padding:14px 0 0;border-top:1px solid var(--line)}
+.reply-composer .composer-label{color:var(--green)}
+#composer-home:empty{display:none}
+
+.info:empty{display:none}

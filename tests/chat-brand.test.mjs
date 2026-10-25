@@ -6,10 +6,10 @@ const source=await fs.readFile(new URL('../public/chat-brand.js',import.meta.url
 function app({language='SE',embedded=false}={}) {
  const nodes=new Map(), observers=[], windowEvents={}, commands=[];
  const make=id=>{ const el={id,textContent:'',style:{},dataset:{},events:{},attributes:{},children:[],hidden:false,value:'',
-  addEventListener(name,fn){this.events[name]=fn;},setAttribute(k,v){this.attributes[k]=v;},focus(){this.focused=true;},click(){this.events.click?.();},
+  classList:{toggle(){}},appendChild(node){if(node.parentElement)node.parentElement.children=node.parentElement.children.filter(n=>n!==node);this.children.push(node);node.parentElement=this;},scrollHeight:0,scrollTop:0,clientHeight:0,addEventListener(name,fn){this.events[name]=fn;},setAttribute(k,v){this.attributes[k]=v;},focus(){this.focused=true;},click(){this.events.click?.();},
   querySelector(){return this.label ||= {textContent:''};},showModal(){this.open=true;},close(){this.open=false;this.events.close?.();}}; nodes.set(id,el);return el; };
- for(const id of ['ai-label','skip-input','chat-region','loader','langSelect','contact-dialog','messages','welcome','brand-title','brand-subtitle','language-label','welcome-title','welcome-description','personal-help','contact-title','message-label','send-btn','new-chat-btn','close-chat-btn','expand-chat-btn','close-contact','user-input'])make(id);
- nodes.get('langSelect').value=language;
+ for(const id of ['composer-controls','composer-home','ai-label','skip-input','chat-region','loader','langSelect','contact-dialog','messages','welcome','brand-title','brand-subtitle','language-label','welcome-title','welcome-description','personal-help','contact-title','message-label','send-btn','new-chat-btn','close-chat-btn','expand-chat-btn','close-contact','user-input'])make(id);
+ nodes.get('langSelect').value=language;nodes.get('composer-home').appendChild(nodes.get('composer-controls'));
  const quick=['tiles','installation','project'].map(k=>{const n=make('quick-'+k);n.dataset.quick=k;return n;});
  const contact=[make('contact-a'),make('contact-b')];let sent;
  nodes.get('send-btn').events.click=()=>{sent=nodes.get('user-input').value;};
@@ -41,4 +41,20 @@ test('frame controls emit only language, close and resize commands, with no conv
  const p=app({embedded:true});p.nodes.get('close-chat-btn').click();p.nodes.get('expand-chat-btn').click();
  assert.deepEqual(p.commands.map(c=>JSON.stringify(c.data)),['{"type":"pronto-chat:language","language":"SE"}','{"type":"pronto-chat:close"}','{"type":"pronto-chat:toggle-size"}']);
  const standalone=app();assert.equal(standalone.nodes.get('close-chat-btn').events.click,undefined);
+});
+
+test('the same composer follows the conversation and returns home on reset in four languages',()=>{
+ const labels={SE:'Ditt svar',DA:'Dit svar',DE:'Ihre Antwort',EN:'Your reply'};
+ for(const [language,label] of Object.entries(labels)){
+  const p=app({language}),controls=p.nodes.get('composer-controls');
+  assert.equal(controls.parentElement,p.nodes.get('composer-home'));
+  p.nodes.get('user-input').value='Synthetic unsent reply';
+  p.nodes.get('messages').children.push({});p.observers[0]();
+  assert.equal(controls.parentElement,p.nodes.get('chat-region'));
+  assert.equal(p.nodes.get('message-label').textContent,label);
+  assert.equal(p.nodes.get('user-input').value,'Synthetic unsent reply','moving the composer must not clear a draft');
+  p.observers[0]();assert.equal(p.nodes.get('chat-region').children.filter(n=>n===controls).length,1);
+  p.nodes.get('messages').children=[];p.observers[0]();
+  assert.equal(controls.parentElement,p.nodes.get('composer-home'));
+ }
 });
