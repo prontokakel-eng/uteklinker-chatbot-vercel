@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 import vm from 'node:vm';
 const source = await fs.readFile(new URL('../public/embed.js', import.meta.url), 'utf8');
 function page({ readyState = 'complete', chatUrl } = {}) {
- const nodes = [], listeners = {}, created = [];
+ const nodes = [], listeners = {}, windowListeners = {}, created = [];
  const document = {
   readyState, currentScript: { src: 'https://chat.example/embed.js', dataset: chatUrl ? { chatUrl } : {} },
   getElementById: id => nodes.find(node => node.id === id) || null,
@@ -15,11 +15,11 @@ function page({ readyState = 'complete', chatUrl } = {}) {
   },
   body: { appendChild(node) { nodes.push(node); } },
  };
- const context = { document, URL, location: { href: 'https://shop.example/products' } };
+ const context = { window: { addEventListener(name, fn) { windowListeners[name] = fn; } }, document, URL, location: { href: 'https://shop.example/products' } };
  for (const [target, key] of [[document, 'cookie'], [context, 'localStorage'], [context, 'sessionStorage']]) Object.defineProperty(target, key, { get() { throw Error('Browser storage is blocked'); } });
  context.fetch = () => { throw Error('Launcher must not call an API'); };
  const sandbox = vm.createContext(context);
- return { document, nodes, listeners, created, run: () => vm.runInContext(source, sandbox) };
+ return { document, nodes, listeners, windowListeners, created, run: () => vm.runInContext(source, sandbox) };
 }
 test('embed makes no iframe or API request before explicit opening, even with storage blocked', () => {
  const p = page(); p.run();
@@ -56,4 +56,24 @@ test('the embedding test page always uses its own reviewed deployment, never a s
  const html = await fs.readFile(new URL('../public/embed-privacy-check.html', import.meta.url), 'utf8');
  assert.match(html, /<script src="\/embed\.js"><\/script>/u);
  assert.doesNotMatch(html, /data-chat-url|vercel\.app/u);
+});
+
+test('embedded controls accept only commands from the current trusted chat frame', () => {
+ const p = page({chatUrl:'https://preview.example/'}); p.run();
+ const button=p.nodes[0]; button.events.click();
+ const frame=p.nodes.find(n=>n.tag==='iframe'); frame.contentWindow={};
+ const send=(origin,source,type)=>p.windowListeners.message({origin,source,data:{type}});
+ send('https://attacker.example',frame.contentWindow,'pronto-chat:close');
+ send('https://preview.example',{},'pronto-chat:close');
+ assert.ok(p.nodes.includes(frame),'origin and source are both required');
+ send('https://preview.example',frame.contentWindow,'save-faq');
+ assert.ok(p.nodes.includes(frame),'unrecognized commands do nothing');
+ send('https://preview.example',frame.contentWindow,'pronto-chat:toggle-size');
+ assert.match(frame.style.width,/580px/);
+ send('https://preview.example',frame.contentWindow,'pronto-chat:close');
+ assert.ok(!p.nodes.includes(frame));
+ button.events.click();
+ const replacement=p.nodes.find(n=>n.tag==='iframe'); replacement.contentWindow={};
+ send('https://preview.example',frame.contentWindow,'pronto-chat:close');
+ assert.ok(p.nodes.includes(replacement),'a destroyed frame cannot control a new conversation');
 });

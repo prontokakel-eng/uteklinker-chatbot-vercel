@@ -108,6 +108,8 @@ function setLanguage(newLang, { announce = true } = {}) {
   document.querySelectorAll('[data-action]').forEach(button => { button.textContent = (uiCopy[newLang] || uiCopy.SE)[button.dataset.action]; });
   if (enterHelp) enterHelp.textContent = (uiCopy[newLang] || uiCopy.SE).help;
   flagButtons.forEach(btn => btn.setAttribute("aria-pressed", btn.dataset.lang === newLang ? "true" : "false"));
+  window.dispatchEvent(new CustomEvent('pronto-language-change'));
+  updateContacts();
   if (announce) showBanner(langBanner, `🌐 Språk ändrat till ${newLang}`);
 }
 flagButtons.forEach(btn => btn.addEventListener("click", () => {
@@ -271,6 +273,8 @@ function maybeAnnounceAutoLanguageSwitch(detectedCode){
 async function sendCore(text, language, { refine = false, priorConversation = conversation } = {}){
   if (sending) return;
   sending = true;
+  if (sendBtn) sendBtn.disabled = true;
+  if (newChatBtn) newChatBtn.disabled = true;
   try {
     const requestConversation = priorConversation.slice(-6);
     conversation = requestConversation;
@@ -352,6 +356,8 @@ async function sendCore(text, language, { refine = false, priorConversation = co
     if (!navigator.onLine) showBanner(statusBanner, "⚠️ Du är offline. Svar kan inte hämtas nu.", 4000);
   } finally {
     hideLoader(); stopTypingSound(); sending = false;
+    if (sendBtn) sendBtn.disabled = false;
+    if (newChatBtn) newChatBtn.disabled = false;
   }
 }
 
@@ -360,7 +366,7 @@ async function sendMessage(){ const text = input?.value?.trim(); if (!text) retu
 sendBtn?.addEventListener("click", sendMessage);
 input?.addEventListener("keydown", (e) => {
   const enterSends = !enterToggle || enterToggle.checked;
-  if (e.key === "Enter" && !e.shiftKey) { if (enterSends) { e.preventDefault(); sendBtn?.click(); } }
+  if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { if (enterSends) { e.preventDefault(); sendBtn?.click(); } }
 });
 enterToggle?.addEventListener("change", updateEnterHelp);
 updateEnterHelp();
@@ -451,5 +457,4 @@ async function updateContacts() {
   }
   if (generation === contactGeneration) contactTimer = setTimeout(updateContacts, refreshMs);
 }
-langSelect?.addEventListener('change', updateContacts);
 updateContacts();
