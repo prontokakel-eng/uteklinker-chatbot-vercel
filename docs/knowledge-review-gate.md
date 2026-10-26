@@ -40,6 +40,24 @@ approval on AI/cache-origin data. No generated answer is written back into FAQ.
 Existing A–C rows remain pending. **This is deliberately not a drop-in release
 until the existing FAQ has been reviewed and its metadata migrated privately.**
 
+### Reconfirmed legacy review, 2026-10-26
+
+The business owner explicitly reconfirmed the prior human review of the original
+FAQ in all four languages and requested its restoration. The finite legacy block
+has 238 entries per language, before later additions. One contradictory legacy
+manufacturing entry is held for correction in each language. The other 237 entries
+per language have version-specific, source-bound digests in the server-only
+`legacy-faq-approvals.js` registry. It contains no FAQ text or private source IDs.
+
+The importer restores only an exact digest match with pending status. It records
+the reconfirmation as a manual review, retains the previous origin/provenance,
+source identity and location, and binds the restored decision to the reviewed
+content contract. Legacy translation labels such as AI/Cache are retained as
+historical provenance; only the individually pinned, human-reconfirmed translation
+is migrated. No other generated content is promoted. Edits, new rows, other files,
+rejections, later additions and AI_SAVE/AI_REVIEW tabs cannot inherit this decision.
+Current commerce, warranty and structural routing guards still apply.
+
 Empty retrieval stops product questions before a model call. A narrow, exact
 allowlist of generic definition questions preserves basic concept explanations;
 added product names, mixed questions and unsupported contextual follow-ups do not
