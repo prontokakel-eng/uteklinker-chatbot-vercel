@@ -70,6 +70,16 @@ test('new preferences and corrections go to the published catalog, never a model
   assert.equal(result.via,'AI');assert.deepEqual(captured.preferences,{colour:null,style:'wood look',format:'90x90'});
   assert.match(JSON.stringify(r.calls[1].p.input),/No verified matches/);
 });
+test('invalid preference arguments can be repaired within the same bounded turn without asking the customer to repeat',async()=>{
+  let calls=0;
+  const r=rig([output('find_products',{colour:null,style:'trælook',format:'90x90'}),
+    output('find_products',{colour:null,style:'wood look',format:'90x90'}),finish('Vilket annat format kan du tänka dig?')],{
+      catalog:async a=>{calls++;assert.equal(a.preferences.style,'wood look');return {status:'incomplete'};},
+  });
+  const result=await r.run({question:'Jag menar trälook i 90x90.'});
+  assert.equal(result.via,'AI');assert.equal(calls,1);assert.equal(r.calls.length,3);
+  assert.ok(result.modelDiagnostics.some(t=>t.rejected==='product_arguments'));
+});
 test('unapproved/cache rows, stale web data and prior assistant answers cannot become source evidence',async()=>{
   const cache={...faq,provenance:'AI cache'};
   const r=rig([output('search_faq',{query:faq.question}),finish('Synthetic Stone är blå.','sourced',[faq.evidence.sourceId])],{
