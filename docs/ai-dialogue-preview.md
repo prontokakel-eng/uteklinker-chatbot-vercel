@@ -1,0 +1,23 @@
+# Preview conversation pilot
+
+An area reply such as `30M2` used to fail the gibberish gate, and natural corrections missed a fixed preference grammar. Many FAQ misses returned contact text before invoking the model. Changing the model alone did not change those routes.
+
+`AI_DIALOGUE_ENABLED=true` activates the new controller **only when VERCEL_ENV=preview**. An exact approved FAQ answer remains a direct response. Otherwise the model sees bounded dialogue and can call approved FAQ search, public website search or catalog discovery. It can ask clarifying questions, explain general concepts, and request alternative product formats. Product links and sizes are rendered by the existing verified catalog adapter, not invented by the model. The legacy route remains available by removing the flag.
+
+## Safety and limits
+
+- Blacklist, long/repetitive input and per-IP limits run first. Bounded numeric replies in an existing conversation may receive topic context for the gibberish check; this does not authorize facts or skip the remaining gates.
+- Warranty, compensation, current commerce, support hours and structural sizing keep their existing dedicated routes. No messages are sent to staff.
+- Source IDs, locations, dates, review status and content hashes stay on the server. AI/cache data and prior assistant replies cannot become approved source rows. Client-supplied source IDs are never used.
+- Website search reads only robots/sitemap-approved HTTPS pages on the existing shop allowlist. It reads at most two candidate pages and bounded static paragraphs. It excludes commercial/warranty paragraphs and never flattens variant specification tables. R ratings use the existing exact-identity/all-variants adapter.
+- Model-selected colour/appearance is resolved against published catalog controls. Alternative sizes keep the selected colour/look. No unrestricted browsing or arbitrary URLs, POST parameters, credentials or cookies are supplied by the model.
+- Maximum three Responses calls, two read-only tool calls, 4,000 total reserved output tokens including reasoning, no SDK retries, 26-second controller deadline. Sol uses low reasoning; each response must complete. Truncated output is not shown as a successful answer.
+- The UI retains at most twelve messages, each at most 1,000 characters; legacy server routing still bounds its own history to six. Long conversations may require clarification when old details leave the window.
+- Telemetry contains response/model IDs, completion state and token counts, never questions, source content or credentials. Preview diagnostics compares a fixed synthetic legacy request with the bounded controller and is rate-limited. It cannot conclusively identify an earlier failure unless reproduced.
+- Generated source-based prose still needs semantic fact review. Matching a source ID and checking numbers is not proof that every sentence is supported. Exact FAQ and product links remain server-controlled.
+
+## Validation
+
+Run the existing customer, abuse, source, warranty, contact, embedding and language suites plus `tests/dialogue-ai.test.mjs`. Fixtures are synthetic; private FAQ remains in Drive. Replay the three customer dialogues from the private comparison report against the Preview after activation. Inspect actual Responses completion status, tool selection, sourced facts, follow-up continuity and language. Check source pages independently before marking product claims reviewed.
+
+This is a test pilot. Do not merge, promote to Production, change the storefront embed or publish the privacy page based on this document. Complete live model/source review and remaining launch gates first.
