@@ -218,7 +218,7 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
 
   const meta = document.createElement("div");
   meta.className = "info";
-  if (source && source !== 'GUIDANCE') {
+  if (source && !['GUIDANCE','PRODUCTS'].includes(source)) {
     const badge = document.createElement("small");
     badge.className = "meta";
     badge.textContent = source === "AI" ? "🤖 AI" : (source === "FAQ" || source.startsWith?.("FAQ")) ? "✅ FAQ" : uiText('source') + source;
@@ -226,7 +226,7 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
     meta.appendChild(badge);
   }
 
-  if (sender !== "user" && source !== 'GUIDANCE') {
+  if (sender !== "user" && !['GUIDANCE','PRODUCTS'].includes(source)) {
     const bar = document.createElement("div");
     bar.className = "actions";
     const retry = document.createElement("button");
@@ -248,7 +248,7 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
       if (url.protocol !== 'https:' || !['klinkerdack.se','www.klinkerdack.se'].includes(url.hostname) || url.port || url.username || url.password || url.search) continue;
       const link = document.createElement('a');
       link.href = url.href; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.referrerPolicy = 'no-referrer';
-      link.textContent = ({SE:'Källa: ',DA:'Kilde: ',DE:'Quelle: ',EN:'Source: '}[lang] || 'Source: ') + (citation.title || url.hostname);
+      link.textContent = (citation.kind === 'product' ? ({SE:'Visa produkt: ',DA:'Se produkt: ',DE:'Produkt ansehen: ',EN:'View product: '}[lang] || 'View product: ') : ({SE:'Källa: ',DA:'Kilde: ',DE:'Quelle: ',EN:'Source: '}[lang] || 'Source: ')) + (citation.title || url.hostname);
       const row = document.createElement('p'); row.append(link); bubble.append(row);
     } catch { /* Invalid citations do not become links. */ }
   }
@@ -425,7 +425,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
       } else {
         addMessage(replyText || uiText('noReply'), "bot", src || "BOT", false, data.citations);
       }
-      if (src === 'AI' || src === 'WEBSITE' || src === 'GUIDANCE' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
+      if (src === 'AI' || src === 'WEBSITE' || src === 'GUIDANCE' || src === 'PRODUCTS' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-6);
     }
   } catch (err) {
     console.error("❌ Chat error:", err);
