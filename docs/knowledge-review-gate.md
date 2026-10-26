@@ -128,8 +128,17 @@ checkout and has not been represented as audited or deployed.
 
 The retired public `/api/save-faq-reply` route returns 410 without initializing a
 Google client. Browser clients cannot submit answers or approval metadata to FAQ.
-The customer pipeline performs no draft writes. Do not enable automatic collection
-of customer text until minimization, access and retention are decided.
+The HTTP chat handler now appends only successful server-generated AI answers to
+the separately initialized private `AI_REVIEW` tab in the existing configured
+Google spreadsheet. This collection was explicitly requested by the owner on
+2026-10-26. It records only the current question/answer, language, timestamp,
+model/response identifiers, source references, request ID and environment. It
+does not store IP addresses, session identifiers or the full conversation. Email
+addresses and long numeric identifiers are redacted. RAW writes prevent spreadsheet
+formula execution. Every new entry is `Ej granskat`, with AI origin and blank human
+review/correction fields. FAQ answers, filters and staff fallbacks are not appended.
+Schema mismatches stop writes; a write failure logs a metadata-only request ID and
+does not replace the customer answer. No client-facing write endpoint is exposed.
 
 `createAiReviewDraft` creates offline review records with AI provenance, pending
 fact/language/decision fields and `productionApproved:false`. Unknown approval
