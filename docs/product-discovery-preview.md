@@ -12,9 +12,9 @@ never forwarded. Public product GETs retain the existing host/path restrictions;
 POST redirects are rejected. Robots rules, bounded response sizes, timeouts and
 bounded concurrent reads apply. No admin or checkout endpoint is used.
 
-The requested format is tried first. If it returns no product candidates, only
+The requested format is tried first. If it returns no verified matching floor variants, only
 the format filter is removed. Selected appearance and colour remain in place.
-A maximum of six candidate pages is checked and at most three products shown.
+A maximum of six candidate pages per search (twelve across the two searches) is checked and at most three products shown. Repeated pages are reused within the turn.
 Alternative sizes are ordered by dimensional proximity, with orientation ignored.
 The reply says which products were checked; it does not claim that a format is
 absent from the entire shop.

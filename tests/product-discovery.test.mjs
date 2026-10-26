@@ -43,6 +43,13 @@ test('missing size relaxes format only, retaining the selected appearance and co
  const queries=r.calls.filter(c=>c.options.method==='POST').map(c=>new URLSearchParams(c.options.body).get('filter_options'));
  assert.deepEqual(queries,['||1|11||2|21||3|31','||1|11||2|21']);
 });
+test('non-empty filtered results without verified matching variants still try alternative sizes',async()=>{
+ const r=rig({exact:true,format:'80x80'});
+ const s=await r.lookup({preferences:{style:'wood look',colour:null,format:'60x60'},env});
+ assert.equal(s.status,'ready');assert.equal(s.exact,false);assert.match(s.reply,/80 × 80/);
+ const filters=r.calls.filter(c=>c.options.method==='POST').map(c=>new URLSearchParams(c.options.body).get('filter_options'));
+ assert.deepEqual(filters,['||2|22||3|31','||2|22']);
+});
 test('wood look without requested size suggests other sizes of wood look, in all four languages',async()=>{
  const examples={SE:['träkänsla','Kunde'],DA:['trælook','bekræfte'],DE:['Holzoptik','bestätigen'],EN:['wood look','verify']};
  for(const [lang,[style]]of Object.entries(examples)){
