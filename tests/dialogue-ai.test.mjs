@@ -139,9 +139,10 @@ test('real SDK timeout errors get one bounded retry and their unknown billed tok
   assert.equal((await failed.run({})).via,'CONTACT');assert.equal(failed.calls.length,2);
 });
 test('unrequested model warranty text cannot establish a warranty routing hint',async()=>{
-  const r=rig([finish('Det är ingen garanti för frostbeständighet.','general')]);
+  const r=rig([finish('Det är ingen garanti för frostbeständighet.','general'),finish('Granitkeramik är ett tätt keramiskt material.','general')]);
   const result=await r.run({question:'Vad är granitkeramik?'});
-  assert.equal(result.via,'CONTACT');assert.equal(result.routingContext,undefined);
+  assert.equal(result.via,'AI');assert.equal(result.routingContext,undefined);assert.doesNotMatch(result.reply,/garanti/);
+  assert.equal(r.calls.length,2);
 });
 test('website search reads only sitemap/robots-approved static paragraphs, not variant facts, warranties or instructions',async()=>{
   const url='https://klinkerdack.se/synthetic-tradack-guide';const calls=[];
