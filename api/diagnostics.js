@@ -3,6 +3,7 @@ import { answerCustomer } from '../lib/customer-ai.js';
 import { answerDialogue, modelTrace, aiFailure } from '../lib/dialogue-ai.js';
 import { getOpenAIClient } from '../lib/openai-client.js';
 import { checkRateLimit } from '../lib/rate-limiter.js';
+import { approvedFact } from '../lib/knowledge-policy.js';
 let ranAI = false;
 export default async function handler(req, res) {
   res.setHeader('Cache-Control', 'no-store');
@@ -12,7 +13,9 @@ export default async function handler(req, res) {
   const rate=await checkRateLimit(ip);
   if(rate.limited) return res.status(429).json({error:'Rate limited'});
   const knowledge = await getKnowledge();
-  const result = { data: {status:knowledge.status, counts:Object.fromEntries(['SE','DA','DE','EN'].map(l=>[l,knowledge.data?.[l]?.length || 0]))}, ai:{status:'not_tested'} };
+  const result = { data: {status:knowledge.status, counts:Object.fromEntries(['SE','DA','DE','EN'].map(l=>[l,knowledge.data?.[l]?.length || 0])),
+    approvedCounts:Object.fromEntries(['SE','DA','DE','EN'].map(l=>[l,(knowledge.data?.[l] || []).filter(r=>approvedFact(r)).length]))}, ai:{status:'not_tested'} };
+  if(req.body?.mode==='sources') return res.status(200).json(result);
   // One synthetic AI call per function instance, bounded in tokens and timeout.
   if (!ranAI) {
     ranAI = true;
