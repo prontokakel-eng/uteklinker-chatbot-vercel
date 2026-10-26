@@ -6,6 +6,7 @@ import { gateMessage } from '../lib/gate.js';
 import { createWebsiteLookup, extractPublicContext } from '../lib/website-knowledge.js';
 import { createProductDiscovery } from '../lib/product-discovery.js';
 import { syntheticRow, syntheticEvidence } from './fixtures/approved-synthetic.mjs';
+import { APIConnectionTimeoutError } from 'openai';
 const env={VERCEL_ENV:'preview',AI_DIALOGUE_ENABLED:'true',OPENAI_MODEL:'gpt-6.1-sol',WEBSITE_KNOWLEDGE_ENABLED:'true'};
 const faq=syntheticRow({question:'Vilken färg har Synthetic Stone?',answer:'Synthetic Stone har en ljusgrå ton.',evidence:syntheticEvidence});
 const knowledge=async()=>({status:'ready',data:{SE:[faq],DA:[],DE:[],EN:[]}});
@@ -127,6 +128,20 @@ test('unavailable data still permits a clarification but cannot supply sourced p
 test('customer measurements can be acknowledged even if the model labels its reply general',async()=>{
   const r=rig([finish('Då utgår vi från 20,5 m². Finns det ett underlag redan?','general')]);
   assert.equal((await r.run({question:'20.5m2'})).via,'AI');
+});
+test('real SDK timeout errors get one bounded retry and their unknown billed tokens are reserved',async()=>{
+  const timeout=new APIConnectionTimeoutError();assert.equal(timeout.name,'Error');
+  const r=rig([timeout,finish('Finns det redan ett underlag?')]);
+  const result=await r.run({});assert.equal(result.via,'AI');assert.equal(r.calls.length,2);
+  assert.ok(result.modelDiagnostics.some(t=>t.error==='timeout'));
+  assert.ok(r.calls.reduce((sum,c)=>sum+c.p.max_output_tokens,0)<=4000);
+  const failed=rig([new APIConnectionTimeoutError(),new APIConnectionTimeoutError()]);
+  assert.equal((await failed.run({})).via,'CONTACT');assert.equal(failed.calls.length,2);
+});
+test('unrequested model warranty text cannot establish a warranty routing hint',async()=>{
+  const r=rig([finish('Det är ingen garanti för frostbeständighet.','general')]);
+  const result=await r.run({question:'Vad är granitkeramik?'});
+  assert.equal(result.via,'CONTACT');assert.equal(result.routingContext,undefined);
 });
 test('website search reads only sitemap/robots-approved static paragraphs, not variant facts, warranties or instructions',async()=>{
   const url='https://klinkerdack.se/synthetic-tradack-guide';const calls=[];
