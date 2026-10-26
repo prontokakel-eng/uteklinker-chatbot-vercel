@@ -17,7 +17,7 @@
       if (!node) continue;
       const state = data?.[key];
       const deadline = Date.parse(state?.validUntil);
-      const valid = data?.source === 'google-places' && data.timezone === 'Europe/Stockholm' && Number.isFinite(deadline) && deadline > Date.now() && deadline <= Date.now() + 900000 && typeof state.openNow === 'boolean';
+      const valid = ['google-places', 'owner-approved-temporary'].includes(data?.source) && data.timezone === 'Europe/Stockholm' && Number.isFinite(deadline) && deadline > Date.now() && deadline <= Date.now() + 900000 && typeof state.openNow === 'boolean';
       node.textContent = labels[language][valid ? state.openNow ? 0 : 1 : 2];
       node.dataset.openState = valid ? state.openNow ? 'open' : 'closed' : 'unknown';
       node.title = valid && typeof state.note === 'string' ? state.note : '';
@@ -25,12 +25,12 @@
     }
     const attribution = document.querySelector('[data-kd-source]');
     if (attribution) {
-      attribution.hidden = deadlines.length === 0; attribution.textContent = 'Google Maps'; attribution.setAttribute('translate','no');
+      attribution.hidden = deadlines.length === 0 || data?.source !== 'google-places'; attribution.textContent = 'Google Maps'; attribution.setAttribute('translate','no');
       attribution.href = 'https://www.google.com/maps/search/?api=1&query=Pronto+Klinkerdack+AB&query_place_id=ChIJCdnMWe8KU0YRLbU9Z5ExWEA';
       let providers = document.getElementById('kd-hours-attributions');
       if (!providers) { providers = document.createElement('span'); providers.id = 'kd-hours-attributions'; attribution.parentNode.appendChild(providers); }
       providers.replaceChildren();
-      if (deadlines.length) for (const item of data.attributions || []) {
+      if (deadlines.length && data?.source === 'google-places') for (const item of data.attributions || []) {
         try {
           const url = new URL(item.href);
           if (url.protocol !== 'https:' || url.username || url.password || typeof item.provider !== 'string') continue;
@@ -55,3 +55,4 @@
   function start() { render(); update(); document.addEventListener('visibilitychange', () => { if (!document.hidden) { render(); update(); } }); }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded',start,{once:true}); else start();
 })();
+
