@@ -10,7 +10,7 @@ prove semantic entailment or grant human approval. Legacy production still uses
 its existing drainage predicate. Source identity and supporting quotes retain mechanical checks; rating/number claims require semantic source support.
 
 One rejected draft may be revised within the shared time/token budget, and the
-revision must be checked again. Invalid or unavailable checks fail closed. A
+revision must be checked again. Invalid or persistently unavailable checks fail closed with a temporary AI_ERROR, distinguished from a personal-service handoff. One transient retry is shared across generation and review, within the same budget. A
 reviewed contact draft can retain its explanation. All generated AI replies still
 save only as pending AI_REVIEW drafts; a review call never promotes source facts.
 

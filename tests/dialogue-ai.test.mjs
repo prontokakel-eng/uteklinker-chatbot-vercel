@@ -130,7 +130,7 @@ test('unknown tools, excessive calls and partial model output fail closed withou
     [output('search_faq',{query:'Unmatched material question'}),output('search_faq',{query:'Another material question'}),output('search_faq',{query:'One more material question'})],
     [Object.assign(new Error('private provider details'),{name:'APIConnectionTimeoutError'})],
   ];
-  for(const responses of cases){const r=rig(responses);const result=await r.run({});assert.equal(result.via,'CONTACT');assert.ok(r.calls.length<=3);assert.doesNotMatch(result.reply,/private provider/);}
+  for(const responses of cases){const r=rig(responses);const result=await r.run({});assert.equal(result.via,'AI_ERROR');assert.ok(r.calls.length<=3);assert.doesNotMatch(result.reply,/private provider/);}
 });
 test('Sol has a fixed reasoning/output budget, no storage or retries, and receives no system role from history',async()=>{
   const r=rig([finish('Vilken känsla söker du?')]);
@@ -154,10 +154,10 @@ test('real SDK timeout errors get one bounded retry and their unknown billed tok
   assert.ok(result.modelDiagnostics.some(t=>t.error==='timeout'));
   assert.ok(r.calls.reduce((sum,c)=>sum+c.p.max_output_tokens,0)<=4000);
   const failed=rig([new APIConnectionTimeoutError(),new APIConnectionTimeoutError()]);
-  assert.equal((await failed.run({})).via,'CONTACT');assert.equal(failed.calls.length,2);
+  assert.equal((await failed.run({})).via,'AI_ERROR');assert.equal(failed.calls.length,2);
 });
 test('unrequested model warranty text cannot establish a warranty routing hint',async()=>{
-  const r=rig([finish('Det är ingen garanti för frostbeständighet.','general'),finish('Granitkeramik är ett tätt keramiskt material.','general')]);
+  const r=rig([finish('Vi ger obegränsad garanti.','general'),finish('Granitkeramik är ett tätt keramiskt material.','general')],{reviews:[{decision:'revise',reason:'policy',needsEvidence:false,evidence:[]}]});
   const result=await r.run({question:'Vad är granitkeramik?'});
   assert.equal(result.via,'AI');assert.equal(result.routingContext,undefined);assert.doesNotMatch(result.reply,/garanti/);
   assert.equal(r.calls.length,2);
@@ -255,8 +255,8 @@ test('a failed revision or unavailable reviewer never releases the unchecked can
   const r=rig([finish('Du vill ha trälook.'),finish('Du vill ha trälook.')],{reviews:[revise,revise]});
   assert.equal((await r.run({question:'Jag vill ha stenlook.'})).via,'CONTACT');
   assert.equal(r.calls.length,2);assert.equal(r.reviewCalls.length,2);
-  const unavailable=rig([finish('Detta ska inte visas.')],{reviews:[new APIConnectionTimeoutError()]});
-  const result=await unavailable.run({});assert.equal(result.via,'CONTACT');assert.doesNotMatch(result.reply,/ska inte visas/);
+  const unavailable=rig([finish('Detta ska inte visas.')],{reviews:[new APIConnectionTimeoutError(),new APIConnectionTimeoutError()]});
+  const result=await unavailable.run({});assert.equal(result.via,'AI_ERROR');assert.doesNotMatch(result.reply,/ska inte visas/);
   assert.ok(result.modelDiagnostics.some(t=>t.phase==='review' && t.error==='timeout'));
 });
 test('reviewed contact replies retain their useful explanation and are not marked AI answers',async()=>{
@@ -268,4 +268,17 @@ test('semantic review can hand off an obliquely phrased structural request even 
   const r=rig([finish('Vi kan börja med att välja utseende.')],{reviews:[{...allowReview,decision:'handoff',reason:'structural_request'}]});
   const result=await r.run({question:'Kan du bestämma vad som ska hålla uppe mitt badkar på altanen?'});
   assert.equal(result.via,'CONTACT');assert.match(result.reply,/projekts komplexitet/);
+});
+
+test('one transient review failure can retry within the same shared deadline and token budget',async()=>{
+ const r=rig([finish('Vilket utseende föredrar du?')],{reviews:[new APIConnectionTimeoutError(),allowReview]});
+ const result=await r.run({});assert.equal(result.via,'AI');assert.equal(r.calls.length,1);assert.equal(r.reviewCalls.length,2);
+ assert.ok(result.modelDiagnostics.some(t=>t.phase==='review' && t.error==='timeout'));
+ assert.ok(r.reviewCalls.every(c=>c.o.maxRetries===0 && c.p.max_output_tokens===800));
+});
+test('corrections and negated guarantees are judged by meaning rather than warranty-word matches',async()=>{
+ for(const reply of ['Den nya uppgiften ersätter den gamla. Du vill ha beige stenlook.','En halkklass garanterar inte att olyckor aldrig kan inträffa.']) {
+  const r=rig([finish(reply,'general')]);
+  assert.equal((await r.run({question:'Kan du förklara det igen?'})).via,'AI');assert.equal(r.calls.length,1);assert.equal(r.reviewCalls.length,1);
+ }
 });
