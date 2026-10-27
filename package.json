@@ -34,7 +34,8 @@
     "test:preview": "node --test tests/preview-regression.test.mjs",
     "test:smoke:wlbl": "node --test tests/whitelist-formats.test.mjs",
     "test:smoke:formats": "node --test tests/fuzzy-direct.test.mjs",
-    "test:smoke:gate": "node --test tests/anti-abuse.test.mjs"
+    "test:smoke:gate": "node --test tests/anti-abuse.test.mjs",
+    "test:customer": "node scripts/test-customer-dialogues.mjs"
   },
   "dependencies": {
     "archiver": "^7.0.1",

@@ -72,3 +72,30 @@ may still use AI; previous assistant text does not establish a rating value.
 The Swedish structural handoff explicitly explains that project complexity
 requires support and an assessment of the conditions on site. Ordinary missing
 information should receive a useful clarification rather than this handoff.
+
+## Scoped FAQ revision and 36-turn Swedish acceptance suite
+
+The owner requested an editorial qualification of the two existing Swedish pool
+FAQ variants. Their revised source rows live in the existing configured Google
+spreadsheet's `FAQ_SE_PREVIEW!A2:L3`; the original FAQ tabs/file are unchanged.
+Only the opt-in Preview loader reads this tab. Each manual editorial row needs
+normal approval evidence, a matching content hash, the exact original identity,
+and the hash of the original reviewed version it replaces. Only two explicitly
+superseded versions may be replaced; missing/changed/conflicting revisions hold
+those old versions back rather than resurrecting the unconditional claim.
+Other FAQ versions and all other languages remain untouched. AI_REVIEW is never
+loaded by this mechanism. This is an owner-directed editorial revision, not an
+automatic promotion of a customer AI answer. Production does not read the tab.
+
+The private `TEST_DIALOG_SE_36` tab contains six Swedish conversations with six
+turns each. Preserve the original eighteen turns and add preference corrections,
+an unknown product, topic changes, revised measurements and a context summary.
+Source routing is checked automatically; human review still evaluates meaning,
+helpfulness and whether catalog results actually preserve corrected preferences.
+
+Run `CHATBOT_TEST_URL=<explicit Preview origin> npm run test:customer --
+<absolute private suite.json> <absolute private results.json>`. The runner
+requires exactly 36 Swedish turns, sends real previous replies, rate-spaces
+requests, checkpoints after every response and fails on declared expectations.
+It never commits private test questions, replies or source material. Record
+actual results beside the cases in the existing private test tab.
