@@ -18,7 +18,8 @@ function rig(responses,extras={}) {
   const calls=[],reviewCalls=[];
   const {reviews=[],...options}=extras;
   const client={responses:{create:async(p,o)=>{
-    if(p.tools?.[0]?.name==='review_answer'){reviewCalls.push({p,o});const review=reviews.shift();if(review instanceof Error)throw review;return output('review_answer',review || {decision:'allow',reason:'none',needsEvidence:false,evidence:[]});}
+    if(p.tools?.[0]?.name==='review_answer'){reviewCalls.push({p,o});const review=reviews.shift();if(review instanceof Error)throw review;const data=JSON.parse(p.input[0].content),needsEvidence=data.candidate.kind==='sourced';
+      return output('review_answer',review || {decision:'allow',reason:'none',needsEvidence,evidence:needsEvidence?data.sources.filter(r=>data.candidate.sourceIds.includes(r.evidence.sourceId)).slice(0,1).map(r=>({sourceId:r.evidence.sourceId,quote:r.answer})):[]});}
     calls.push({p,o});const r=responses.shift();if(r instanceof Error)throw r;assert.ok(r,'unexpected model call');return r;
   }}};
   return {calls,reviewCalls,run:args=>answerDialogue({question:'Jag vill välja plattor till min uteplats',lang:'SE',knowledge,

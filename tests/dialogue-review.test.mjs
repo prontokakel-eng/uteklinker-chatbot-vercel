@@ -19,3 +19,10 @@ test('partial, malformed or ambiguous review responses fail closed',()=>{
   response({...verdict,evidence:[{sourceId:row.evidence.sourceId,quote:''}]}),
  ])assert.equal(parseAnswerReview(value,[row]),null);
 });
+
+test('a sourced candidate cannot be approved by labelling it evidence-free',()=>{
+ const evidenceFree={decision:'allow',reason:'none',needsEvidence:false,evidence:[]};
+ assert.equal(parseAnswerReview(response(evidenceFree),[row],{requireEvidence:true}),null);
+ assert.deepEqual(parseAnswerReview(response(evidenceFree),[]),evidenceFree);
+ assert.deepEqual(parseAnswerReview(response(verdict),[row],{requireEvidence:true}),verdict);
+});

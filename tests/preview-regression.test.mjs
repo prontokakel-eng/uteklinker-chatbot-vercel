@@ -18,7 +18,9 @@ function rig({rows=[treatment,drainage],outputs=[],reviews=[],storageFails=false
   const client={responses:{create:async params=>{
     if(params.tools?.[0]?.name==='review_answer'){
       reviewCalls.push(params);
-      return {status:'completed',usage:{output_tokens:100},output:[{type:'function_call',name:'review_answer',arguments:JSON.stringify(reviews.shift() || {decision:'allow',reason:'none',needsEvidence:false,evidence:[]})}]};
+      const data=JSON.parse(params.input[0].content),needsEvidence=data.candidate.kind==='sourced';
+      const cannedApproval={decision:'allow',reason:'none',needsEvidence,evidence:needsEvidence?data.sources.filter(r=>data.candidate.sourceIds.includes(r.evidence.sourceId)).slice(0,1).map(r=>({sourceId:r.evidence.sourceId,quote:r.answer})):[]};
+      return {status:'completed',usage:{output_tokens:100},output:[{type:'function_call',name:'review_answer',arguments:JSON.stringify(reviews.shift() || cannedApproval)}]};
     }
     calls.push(params);assert.ok(outputs.length,'Unexpected model call');
     const {reply,kind='general',sourceIds=[]}=outputs.shift();
