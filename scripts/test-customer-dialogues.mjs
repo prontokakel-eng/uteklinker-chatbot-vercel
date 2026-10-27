@@ -36,7 +36,7 @@ for(const scenario of suite.scenarios) {
     record.turns.push(turn);await save();
     console.log(JSON.stringify({scenario:scenario.id,turn:record.turns.length,source:result.source,pass:turn.pass,seconds:turn.seconds}));
     if(response?.ok && typeof result.reply==='string') {
-      conversation.push({role:'user',content:spec.question},{role:'assistant',content:result.reply});routingContext=result.routingContext;
+      conversation.push({role:'user',content:spec.question},{role:'assistant',content:result.reply,source:result.source});routingContext=result.routingContext;
     }
   }
 }

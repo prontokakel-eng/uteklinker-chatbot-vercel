@@ -235,7 +235,7 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
     const improve = document.createElement("button");
     improve.className = "btn"; improve.dataset.action = 'refine'; improve.textContent = (uiCopy[lang] || uiCopy.SE).refine;
     const originalQuestion = lastUserText;
-    const answerConversation = [...conversation, { role: 'assistant', content: toDisplay(text).slice(0, 1000) }].slice(-12);
+    const answerConversation = [...conversation, { role: 'assistant', content: toDisplay(text).slice(0, 2400), source }].slice(-32);
     improve.addEventListener("click", () => { if (originalQuestion) sendCore(originalQuestion, lang, { refine: true, priorConversation: lastUserText === originalQuestion ? conversation : answerConversation }); });
     bar.append(retry);
     if (canRefine) bar.append(improve);
@@ -353,10 +353,10 @@ async function sendCore(text, language, { refine = false, priorConversation = co
   if (sendBtn) sendBtn.disabled = true;
   if (newChatBtn) newChatBtn.disabled = true;
   try {
-    const requestConversation = priorConversation.slice(-12);
+    const requestConversation = priorConversation.slice(-32);
     conversation = requestConversation;
     addMessage(text, "user"); lastUserText = text;
-    conversation = [...requestConversation, { role: 'user', content: text.slice(0, 1000) }].slice(-12);
+    conversation = [...requestConversation, { role: 'user', content: text.slice(0, 2400) }].slice(-32);
     if (input) input.value = "";
     showLoader(); startTypingSound();
 
@@ -397,7 +397,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
       }
       routingContext = null;
       lastBotAnswer = acc;
-      conversation = [...conversation, { role: 'assistant', content: acc.slice(0, 1000) }].slice(-12);
+      conversation = [...conversation, { role: 'assistant', content: acc.slice(0, 2400), source: 'AI' }].slice(-32);
     } else {
       const data = ct.includes("application/json") ? await resp.json() : { reply: await resp.text(), source: "AI" };
 
@@ -425,7 +425,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
       } else {
         addMessage(replyText || uiText('noReply'), "bot", src || "BOT", false, data.citations);
       }
-      if (src === 'AI' || src === 'WEBSITE' || src === 'GUIDANCE' || src === 'PRODUCTS' || src.startsWith('FAQ')) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 1000) }].slice(-12);
+      if (resp.ok && (['AI','WEBSITE','GUIDANCE','PRODUCTS','CONTACT','GREETING'].includes(src) || src.startsWith('FAQ'))) conversation = [...conversation, { role: 'assistant', content: replyText.slice(0, 2400), source: src.startsWith('FAQ') ? 'FAQ' : src }].slice(-32);
     }
   } catch (err) {
     console.error("❌ Chat error:", err);
