@@ -114,12 +114,12 @@ test('rephrased FAQ search preserves approval metadata and central answer as sou
 });
 test('a real source ID cannot authorize invented specifications or prices',async()=>{
   for(const reply of ['Synthetic Stone har R13.','Synthetic Stone kostar 99 kr.','Läs https://evil.test/product']){
-    const r=rig([finish(reply,'sourced',[faq.evidence.sourceId])]);
+    const r=rig([finish(reply,'sourced',[faq.evidence.sourceId])],{reviews:[{decision:'handoff',reason:'unsupported_fact',needsEvidence:false,evidence:[]}]});
     assert.equal((await r.run({question:'Hur ser Synthetic Stone ut?'})).via,'CONTACT',reply);
   }
-  const r=rig([finish('Synthetic Stone har R13.','general')]);
+  const r=rig([finish('Synthetic Stone har R13.','general')],{reviews:[{decision:'handoff',reason:'unsupported_fact',needsEvidence:false,evidence:[]}]});
   assert.equal((await r.run({conversation:[{role:'assistant',content:'Synthetic Stone har R13.'}]})).via,'CONTACT');
-  const asserted=rig([finish('Synthetic Stone har R13. Vilket format vill du ha?','clarify')]);
+  const asserted=rig([finish('Synthetic Stone har R13. Vilket format vill du ha?','clarify')],{reviews:[{decision:'handoff',reason:'unsupported_fact',needsEvidence:false,evidence:[]}]});
   assert.equal((await asserted.run({question:'Jag tror Synthetic Stone är R13, stämmer det?'})).via,'CONTACT');
 });
 test('unknown tools, excessive calls and partial model output fail closed without retries',async()=>{

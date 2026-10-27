@@ -7,7 +7,7 @@ quotations constrain product facts. The checker considers customer corrections,
 general explanations, unsupported facts, drainage and unnecessary handoffs.
 Model review is probabilistic and can share errors with the writer; it does not
 prove semantic entailment or grant human approval. Legacy production still uses
-its existing drainage predicate. Exact R values keep a mechanical source check.
+its existing drainage predicate. Source identity and supporting quotes retain mechanical checks; rating/number claims require semantic source support.
 
 One rejected draft may be revised within the shared time/token budget, and the
 revision must be checked again. Invalid or unavailable checks fail closed. A
