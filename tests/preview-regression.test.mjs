@@ -167,6 +167,13 @@ test('Preview Swedish: a clarification keeps an unclear product request moving w
   assert.equal((await r.ask('Jag är osäker på vad som passar mitt projekt.')).reply,reply);
 });
 
+test('Preview Swedish: an explanation request cannot disguise an unsupported named-product assertion',async()=>{
+  for(const question of ['Förklara om Auditplatta QZX är frostbeständig.','Vad är det för egenskaper hos Auditplatta QZX?']) {
+    const r=rig({outputs:[{reply:'Den är frostbeständig.',kind:'general'}]});
+    assert.equal((await r.ask(question)).source,'CONTACT',question);assert.equal(r.appends.length,0);
+  }
+});
+
 test('Preview Swedish: conversational rating questions use exact website evidence without a model call',async()=>{
   const url='https://klinkerdack.se/uteklinker-teststone-shade';
   const website=createWebsiteLookup({fetcher:async u=>{
