@@ -1,3 +1,4 @@
+import {withLatency,timeStage} from '../lib/latency.js';
 import { getKnowledge } from '../lib/drive-knowledge.js';
 import { answerCustomer } from '../lib/customer-ai.js';
 import { answerDialogue, modelTrace, aiFailure } from '../lib/dialogue-ai.js';
@@ -12,10 +13,11 @@ export default async function handler(req, res) {
   const ip=String(req.headers?.['x-forwarded-for'] || req.socket?.remoteAddress || 'anon').split(',')[0].trim();
   const rate=await checkRateLimit(ip);
   if(rate.limited) return res.status(429).json({error:'Rate limited'});
-  const knowledge = await getKnowledge();
+  return withLatency(async timing=>{
+  const knowledge = await timeStage('faq_lookup',()=>getKnowledge());
   const result = { data: {status:knowledge.status, counts:Object.fromEntries(['SE','DA','DE','EN'].map(l=>[l,knowledge.data?.[l]?.length || 0])),
     approvedCounts:Object.fromEntries(['SE','DA','DE','EN'].map(l=>[l,(knowledge.data?.[l] || []).filter(r=>approvedFact(r)).length]))}, ai:{status:'not_tested'} };
-  if(req.body?.mode==='sources') return res.status(200).json(result);
+  if(req.body?.mode==='sources') return res.status(200).json({...result,performance:timing.snapshot()});
   // One synthetic AI call per function instance, bounded in tokens and timeout.
   if (!ranAI) {
     ranAI = true;
@@ -36,5 +38,6 @@ export default async function handler(req, res) {
       result.dialogue={status:candidate.via,reply:candidate.reply,diagnosticCode:candidate.diagnosticCode || null,trace:candidateTrace};
     }
   } else result.ai = {status:'already_tested'};
-  return res.status(200).json(result);
+  return res.status(200).json({...result,performance:timing.snapshot()});
+  });
 }

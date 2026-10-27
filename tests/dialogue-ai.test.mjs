@@ -282,3 +282,27 @@ test('corrections and negated guarantees are judged by meaning rather than warra
   assert.equal((await r.run({question:'Kan du förklara det igen?'})).via,'AI');assert.equal(r.calls.length,1);assert.equal(r.reviewCalls.length,1);
  }
 });
+
+test('Preview single-call experiment validates exact source quotes without claiming an independent review',async()=>{
+ const candidate=output('respond',{reply:faq.answer,kind:'sourced',sourceIds:[faq.evidence.sourceId],evidence:[{sourceId:faq.evidence.sourceId,quote:faq.answer}]});
+ const r=rig([candidate]);
+ const result=await r.run({question:'Kan du beskriva tonen igen?',conversation:[{role:'user',content:faq.question},{role:'assistant',content:faq.answer,source:'FAQ'}],reviewMode:'inline'});
+ assert.equal(result.via,'AI');assert.equal(r.calls.length,1);assert.equal(r.reviewCalls.length,0);
+ assert.ok(result.modelDiagnostics.some(t=>t.review==='inline_self_check'));
+ assert.ok(r.calls[0].p.tools.find(t=>t.name==='respond').parameters.required.includes('evidence'));
+});
+test('single-call experiment rejects invented quotations and missing sourced evidence',async()=>{
+ for(const evidence of [[],[{sourceId:faq.evidence.sourceId,quote:'Synthetic Stone är frostbeständig.'}]]){
+  const r=rig([output('respond',{reply:faq.answer,kind:'sourced',sourceIds:[faq.evidence.sourceId],evidence})]);
+  assert.equal((await r.run({question:faq.question,refine:true,reviewMode:'inline'})).via,'CONTACT');
+  assert.equal(r.reviewCalls.length,0);
+ }
+});
+test('the single-call request flag is confined to opt-in Preview routing',async()=>{
+ let selected;const chat=createChatPipeline({env,gate:async()=>({filtered:false}),dialogue:async args=>{selected=args.reviewMode;return{via:'AI',reply:'Synthetic'};}});
+ await chat(request('Jag planerar en uteplats.',{experiment:'single'}));assert.equal(selected,'inline');
+ await chat(request('Jag planerar en uteplats.'));assert.equal(selected,'separate');
+ let called=false;const prod=createChatPipeline({env:{...env,VERCEL_ENV:'production'},gate:async()=>({filtered:false}),knowledge,
+  website:async()=>({status:'disabled'}),dialogue:async()=>{called=true;}});
+ await prod(request('Unknown Synthetic Product specification?',{experiment:'single'}));assert.equal(called,false);
+});

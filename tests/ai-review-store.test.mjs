@@ -36,3 +36,13 @@ test('HTTP chat waits for review write and preserves the answer if storage fails
     assert.deepEqual(steps,['save','response']);assert.equal(body.reply,'Synthetic answer');assert.equal(body.evidence,undefined);
   }
 });
+
+test('review logging records the customer answer response ID rather than its checking call',async()=>{
+ let values;
+ const sheets={spreadsheets:{values:{get:async()=>({data:{values:[REVIEW_HEADERS]}}),append:async args=>{values=args.requestBody.values;return {data:{updates:{updatedRange:'AI_REVIEW!A2:O2'}}};}}}};
+ const save=createReviewStore({env:{SHEET_ID:'synthetic'},sheets});
+ await save({question:'Synthetic?',reqId:'synthetic-request',result:{via:'AI',lang:'SE',reply:'Synthetic.',modelDiagnostics:[
+  {model:'synthetic-model',responseId:'answer-response'}, {phase:'review',model:'synthetic-model',responseId:'review-response'},
+ ]}});
+ assert.equal(values[0][6],'answer-response');assert.equal(values[0][4],'Ej granskat');
+});

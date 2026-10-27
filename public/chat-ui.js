@@ -367,6 +367,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
   if (newChatBtn) newChatBtn.disabled = true;
   try {
     const requestConversation = priorConversation.slice(-32);
+    const experiment=typeof window!=='undefined' && new URLSearchParams(window.location?.search || '').get('experiment')==='single'?'single':undefined;
     conversation = requestConversation;
     addMessage(text, "user"); lastUserText = text;
     conversation = [...requestConversation, { role: 'user', content: text.slice(0, 2400) }].slice(-32);
@@ -376,7 +377,7 @@ async function sendCore(text, language, { refine = false, priorConversation = co
     const resp = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ text, lang: language, refine, conversation: requestConversation, routingContext }),
+      body: JSON.stringify({ text, lang: language, refine, conversation: requestConversation, routingContext, experiment }),
       signal: AbortSignal.timeout(35000),
     });
 
