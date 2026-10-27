@@ -83,6 +83,8 @@ normal approval evidence, a matching content hash, the exact original identity,
 and the hash of the original reviewed version it replaces. Only two explicitly
 superseded versions may be replaced; missing/changed/conflicting revisions hold
 those old versions back rather than resurrecting the unconditional claim.
+An original row that has subsequently been rejected, retired or left pending
+cannot regain approval through this revision mechanism.
 Other FAQ versions and all other languages remain untouched. AI_REVIEW is never
 loaded by this mechanism. This is an owner-directed editorial revision, not an
 automatic promotion of a customer AI answer. Production does not read the tab.

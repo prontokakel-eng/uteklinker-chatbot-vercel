@@ -26,3 +26,9 @@ test('later base edits and unrelated source rows cannot inherit a Preview revisi
  const changed=syntheticRow({...base,answer:'Newly reviewed original.'});
  assert.deepEqual(applyPreviewFaqRevisions({SE:[changed]},[revision()],retired).SE,[changed]);
 });
+test('a subsequently rejected or unreviewed base cannot regain approval through a revision',()=>{
+ for(const approvalStatus of ['rejected','pending','retired']) {
+  const revoked={...base,evidence:{...base.evidence,approvalStatus}};
+  assert.deepEqual(applyPreviewFaqRevisions({SE:[revoked]},[revision()],retired).SE,[]);
+ }
+});
