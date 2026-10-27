@@ -1,18 +1,18 @@
 # Preview answer guards and regression commands
 
-The AI dialogue controller returns before the legacy generation path. Its own
-final-answer boundary therefore checks retrieved approved drainage facts and
-rejects reversed drainage instructions, regardless of the model's `respond.kind`
-or omitted citation IDs. The legacy path uses the same drainage predicate.
+The Preview AI controller now checks generated drafts with a separate semantic
+review call. It no longer guesses product identity from capitalization or generic
+intent/property word lists. Current server-approved sources and exact cited
+quotations constrain product facts. The checker considers customer corrections,
+general explanations, unsupported facts, drainage and unnecessary handoffs.
+Model review is probabilistic and can share errors with the writer; it does not
+prove semantic entailment or grant human approval. Legacy production still uses
+its existing drainage predicate. Exact R values keep a mechanical source check.
 
-Product-attribute assertions cannot become factual evidence merely by being
-labelled `general` or `clarify`. The dialogue boundary rejects recognized
-unsupported property claims and pronoun/nominal variants, ignores previous
-assistant claims as evidence, and checks that cited evidence covers the named
-product and recognized property family. A colour FAQ cannot authorize a frost
-claim. General material definitions and preference clarification remain available.
-These deterministic checks are bounded safeguards, not a complete semantic
-entailment verifier for every possible natural-language assertion.
+One rejected draft may be revised within the shared time/token budget, and the
+revision must be checked again. Invalid or unavailable checks fail closed. A
+reviewed contact draft can retain its explanation. All generated AI replies still
+save only as pending AI_REVIEW drafts; a review call never promotes source facts.
 
 An exact, whitelisted dimension input is evaluated before the gibberish filter,
 after the rate, blacklist and repetition checks. Unicode letter boundaries in
@@ -20,7 +20,7 @@ WL/BL matching prevent an adjoining size number from hiding a blocked word.
 
 `tests/preview-regression.test.mjs` runs Swedish cases through the real Preview
 pipeline, dialogue controller, HTTP handler and review writer. Only external
-model/knowledge/website/catalog/Sheets services are synthetic. It asserts direct
+model/knowledge/website/catalog/Sheets services are synthetic. Rejection fixtures explicitly supply reviewer verdicts; these test routing, revision and storage behavior, not the live model’s semantic accuracy. It asserts direct
 FAQ answers and zero model calls, fuzzy variants, changed dimensions, incorrect
 drainage, unsupported product facts, retained conversations, blacklist/whitelist,
 commercial and structural routing, and RAW pending-only writes to `AI_REVIEW`.
@@ -53,13 +53,13 @@ This change does not alter the rate-window policy or cache-outage policy.
 
 ## Natural conversation follow-up
 
-Live multi-turn testing exposed false positives in the initial product guard:
-sentence-initial capitals and an earlier product topic could turn general
-material/slip explanations into unsupported product claims. The guard now
-distinguishes a product-bound assertion from a general explanation and keeps
-the named-product, property-family, number/rating and drainage checks. Generic
-material definitions, contextual clarifications and ordinary safety advice have
-positive regression cases alongside the existing unsafe-answer cases.
+Earlier live testing exposed false positives from capitalization, prior product
+mentions and ordinary concept nouns. Those word-list checks have now been removed
+from Preview in favor of semantic review. Positive general-explanation cases
+remain alongside mocked rejection cases, invalid-source/quote checks, bounded
+revision and unavailable-review checks. Live evaluation must include new dialogue
+and unsafe candidate examples; passing these regressions is not proof of general
+factual accuracy.
 
 Natural R-class requests reach the existing exact-identity website adapter on
 the active dialogue path after FAQ matching. Preambles, attribution phrases and

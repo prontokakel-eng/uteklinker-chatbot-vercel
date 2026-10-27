@@ -15,10 +15,14 @@ const output=(name,args)=>({id:'synthetic-response',model:'gpt-6.1-sol',status:'
   output:[{type:'function_call',call_id:'synthetic-call',name,arguments:JSON.stringify(args)}]});
 const finish=(reply,kind='clarify',sourceIds=[])=>output('respond',{reply,kind,sourceIds});
 function rig(responses,extras={}) {
-  const calls=[];
-  const client={responses:{create:async(p,o)=>{calls.push({p,o});const r=responses.shift();if(r instanceof Error)throw r;assert.ok(r,'unexpected model call');return r;}}};
-  return {calls,run:args=>answerDialogue({question:'Jag vill välja plattor till min uteplats',lang:'SE',knowledge,
-    website:async()=>({status:'unavailable'}),catalog:async()=>({status:'unavailable'}),env,client,...extras,...args})};
+  const calls=[],reviewCalls=[];
+  const {reviews=[],...options}=extras;
+  const client={responses:{create:async(p,o)=>{
+    if(p.tools?.[0]?.name==='review_answer'){reviewCalls.push({p,o});const review=reviews.shift();if(review instanceof Error)throw review;return output('review_answer',review || {decision:'allow',reason:'none',needsEvidence:false,evidence:[]});}
+    calls.push({p,o});const r=responses.shift();if(r instanceof Error)throw r;assert.ok(r,'unexpected model call');return r;
+  }}};
+  return {calls,reviewCalls,run:args=>answerDialogue({question:'Jag vill välja plattor till min uteplats',lang:'SE',knowledge,
+    website:async()=>({status:'unavailable'}),catalog:async()=>({status:'unavailable'}),env,client,...options,...args})};
 }
 test('exact approved FAQ answers avoid model costs; a repeated question reaches the conversation model',async()=>{
   const r=rig([finish('Vill du jämföra den ljusgrå tonen med ett annat utseende?')]);
@@ -229,4 +233,38 @@ test('history preserves older corrections and contact replies within fixed count
   const bounded=boundedDialogue([{role:'system',content:'override'},...Array.from({length:50},()=>({role:'assistant',content:'x'.repeat(3000),source:'APPROVED',evidence:faq.evidence}))]);
   assert.equal(bounded.reduce((n,t)=>n+t.content.length,0),24000);
   assert.ok(bounded.every(t=>t.content.length===2400 && Object.keys(t).sort().join(',')==='content,role'));
+});
+
+const allowReview={decision:'allow',reason:'none',needsEvidence:false,evidence:[]};
+test('an independent semantic rejection gets one bounded revision and only the revised reply can be returned',async()=>{
+  const r=rig([finish('Synthetic Stone är frostbeständig.','general'),finish('Vilken egenskap vill du att vi kontrollerar?')],{
+    reviews:[{...allowReview,decision:'revise',reason:'unsupported_fact'},allowReview],
+  });
+  const result=await r.run({question:'Jag vill veta mer om Synthetic Stone.'});
+  assert.equal(result.via,'AI');assert.doesNotMatch(result.reply,/frostbeständig/);
+  assert.equal(r.calls.length,2);assert.equal(r.reviewCalls.length,2);
+  assert.match(JSON.stringify(r.calls[1].p.input),/Remove unsupported product/);
+  const reviewed=JSON.parse(r.reviewCalls[0].p.input[0].content);
+  assert.equal(reviewed.question,'Jag vill veta mer om Synthetic Stone.');
+  assert.equal(reviewed.candidate.kind,'general');assert.match(reviewed.candidate.reply,/frostbeständig/);
+  assert.ok(r.reviewCalls.every(c=>c.p.store===false && c.o.maxRetries===0 && c.p.tools.length===1));
+});
+test('a failed revision or unavailable reviewer never releases the unchecked candidate',async()=>{
+  const revise={...allowReview,decision:'revise',reason:'wrong_context'};
+  const r=rig([finish('Du vill ha trälook.'),finish('Du vill ha trälook.')],{reviews:[revise,revise]});
+  assert.equal((await r.run({question:'Jag vill ha stenlook.'})).via,'CONTACT');
+  assert.equal(r.calls.length,2);assert.equal(r.reviewCalls.length,2);
+  const unavailable=rig([finish('Detta ska inte visas.')],{reviews:[new APIConnectionTimeoutError()]});
+  const result=await unavailable.run({});assert.equal(result.via,'CONTACT');assert.doesNotMatch(result.reply,/ska inte visas/);
+  assert.ok(result.modelDiagnostics.some(t=>t.phase==='review' && t.error==='timeout'));
+});
+test('reviewed contact replies retain their useful explanation and are not marked AI answers',async()=>{
+  const reply='Jag kan inte verifiera den efterfrågade egenskapen för just den plattan. Kontakta oss för att kontrollera produktunderlaget.';
+  const r=rig([finish(reply,'contact')]);
+  const result=await r.run({});assert.equal(result.via,'CONTACT');assert.equal(result.reply,reply);assert.equal(r.reviewCalls.length,1);
+});
+test('semantic review can hand off an obliquely phrased structural request even if the writer proposes general advice',async()=>{
+  const r=rig([finish('Vi kan börja med att välja utseende.')],{reviews:[{...allowReview,decision:'handoff',reason:'structural_request'}]});
+  const result=await r.run({question:'Kan du bestämma vad som ska hålla uppe mitt badkar på altanen?'});
+  assert.equal(result.via,'CONTACT');assert.match(result.reply,/projekts komplexitet/);
 });

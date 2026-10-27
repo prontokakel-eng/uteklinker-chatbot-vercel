@@ -13,9 +13,13 @@ const env={VERCEL_ENV:'preview',AI_DIALOGUE_ENABLED:'true',OPENAI_MODEL:'gpt-6.1
 const treatment=syntheticRow({question:'Behöver testplattorna behandlas med impregnering?',answer:'Testplattorna behöver inte impregneras.',evidence:syntheticEvidence});
 const drainage=syntheticRow({question:'Hur lägger man klinkerdäck på träreglar?',answer:'Normalt rekommenderas cirka 1 % fall från huset.',evidence:{...syntheticEvidence,sourceId:'synthetic:drainage'}});
 let nextIp=10;
-function rig({rows=[treatment,drainage],outputs=[],storageFails=false,website=async()=>({status:'unavailable'})}={}) {
-  const calls=[],appends=[];
+function rig({rows=[treatment,drainage],outputs=[],reviews=[],storageFails=false,website=async()=>({status:'unavailable'})}={}) {
+  const calls=[],reviewCalls=[],appends=[];
   const client={responses:{create:async params=>{
+    if(params.tools?.[0]?.name==='review_answer'){
+      reviewCalls.push(params);
+      return {status:'completed',usage:{output_tokens:100},output:[{type:'function_call',name:'review_answer',arguments:JSON.stringify(reviews.shift() || {decision:'allow',reason:'none',needsEvidence:false,evidence:[]})}]};
+    }
     calls.push(params);assert.ok(outputs.length,'Unexpected model call');
     const {reply,kind='general',sourceIds=[]}=outputs.shift();
     return {id:'synthetic-response',model:'gpt-6.1-sol',status:'completed',usage:{input_tokens:100,output_tokens:100},
@@ -30,7 +34,7 @@ function rig({rows=[treatment,drainage],outputs=[],storageFails=false,website=as
   }}}};
   const handler=createChatHandler({chat,saveReview:createReviewStore({env,sheets})});
   const ip=`198.51.100.${nextIp++}`;
-  return {calls,appends,ask:async(text,extra={})=>{
+  return {calls,reviewCalls,appends,ask:async(text,extra={})=>{
     let body,status;
     const res={setHeader(){},status(value){status=value;return this;},json(value){body=value;}};
     await handler({method:'POST',body:{text,lang:'SE',...extra},headers:{'x-forwarded-for':ip}},res);
@@ -54,11 +58,12 @@ test('Preview Swedish: a misleading numerical almost-match cannot become direct 
   assert.equal(r.appends.length,0);
 });
 
-for(const kind of ['general','clarify','sourced']) test(`Preview Swedish: reversed drainage is blocked even when labelled ${kind}`,async()=>{
-  const r=rig({outputs:[{reply:'Lägg cirka 1 % fall mot huset.',kind,sourceIds:kind==='sourced'?[drainage.evidence.sourceId]:[]}]});
+const rejectFact={decision:'handoff',reason:'unsupported_fact',needsEvidence:false,evidence:[]};
+for(const kind of ['general','clarify','sourced']) test(`Preview Swedish: semantic review rejects reversed drainage even when labelled ${kind}`,async()=>{
+  const r=rig({reviews:[{...rejectFact,reason:'unsafe_advice'}],outputs:[{reply:'Lägg cirka 1 % fall mot huset.',kind,sourceIds:kind==='sourced'?[drainage.evidence.sourceId]:[]}]});
   const result=await r.ask(drainage.question,{refine:true});
   assert.equal(result.source,'CONTACT');assert.doesNotMatch(result.reply,/fall mot huset/);
-  assert.ok(result.modelDiagnostics.some(t=>t.rejected==='reversed_drainage'));
+  assert.ok(result.modelDiagnostics.some(t=>t.review==='handoff' && t.reason==='unsafe_advice'));
   assert.equal(r.calls.length,1);assert.equal(r.appends.length,0);
 });
 
@@ -70,15 +75,15 @@ test('Preview Swedish: supported drainage explanation is allowed and saved as un
 });
 
 for(const kind of ['general','clarify']) test(`Preview Swedish: unsourced nonnumeric product claim is blocked despite ${kind}`,async()=>{
-  const r=rig({outputs:[{reply:'Auditplatta QZX är frostbeständig.',kind}]});
+  const r=rig({reviews:[rejectFact],outputs:[{reply:'Auditplatta QZX är frostbeständig.',kind}]});
   const result=await r.ask('Är Auditplatta QZX frostbeständig?');
-  assert.equal(result.source,'CONTACT');assert.ok(result.modelDiagnostics.some(t=>t.rejected==='unsupported_product_claim'));
+  assert.equal(result.source,'CONTACT');assert.ok(result.modelDiagnostics.some(t=>t.review==='handoff' && t.reason==='unsupported_fact'));
   assert.equal(r.appends.length,0);
 });
 
 test('Preview Swedish: prior assistant claims and an unrelated valid source cannot verify an unknown product',async()=>{
   for(const sourceIds of [[],[treatment.evidence.sourceId]]) {
-    const r=rig({outputs:[{reply:'Auditplatta QZX är frostbeständig.',kind:'general',sourceIds}]});
+    const r=rig({reviews:[rejectFact],outputs:[{reply:'Auditplatta QZX är frostbeständig.',kind:'general',sourceIds}]});
     // Make the unrelated source available without turning the request into a direct FAQ.
     const result=await r.ask(treatment.question,{refine:true,conversation:[{role:'assistant',content:'Auditplatta QZX är frostbeständig.'}]});
     assert.equal(result.source,'CONTACT');assert.equal(r.appends.length,0);
@@ -93,14 +98,14 @@ test('Preview Swedish: valid sourced nonnumeric product fact remains available',
 
 test('Preview Swedish: a colour source does not authorize frost claims about the same product',async()=>{
   const row=syntheticRow({question:'Vilken färg har Auditplatta QZX?',answer:'Auditplatta QZX har en ljusgrå färg.',evidence:syntheticEvidence});
-  const r=rig({rows:[row],outputs:[{reply:'Auditplatta QZX är frostbeständig.',kind:'sourced',sourceIds:[row.evidence.sourceId]}]});
+  const r=rig({rows:[row],reviews:[rejectFact],outputs:[{reply:'Auditplatta QZX är frostbeständig.',kind:'sourced',sourceIds:[row.evidence.sourceId]}]});
   const result=await r.ask(row.question,{refine:true});
   assert.equal(result.source,'CONTACT');assert.equal(r.appends.length,0);
 });
 
 test('Preview Swedish: short and nominal product assertions also require evidence',async()=>{
   for(const reply of ['Ja, den tål det.','Auditplatta QZX: frostbeständig.','auditplatta qzx är frostbeständig.']) {
-    const r=rig({outputs:[{reply,kind:'clarify'}]});
+    const r=rig({reviews:[rejectFact],outputs:[{reply,kind:'clarify'}]});
     assert.equal((await r.ask('Är Auditplatta QZX frostbeständig?')).source,'CONTACT',reply);
     assert.equal(r.appends.length,0);
   }
@@ -188,7 +193,7 @@ test('Preview Swedish: summarizing corrected customer measurements is not a prod
 
 test('Preview Swedish: an explanation request cannot disguise an unsupported named-product assertion',async()=>{
   for(const question of ['Förklara om Auditplatta QZX är frostbeständig.','Vad är det för egenskaper hos Auditplatta QZX?']) {
-    const r=rig({outputs:[{reply:'Den är frostbeständig.',kind:'general'}]});
+    const r=rig({reviews:[rejectFact],outputs:[{reply:'Den är frostbeständig.',kind:'general'}]});
     assert.equal((await r.ask(question)).source,'CONTACT',question);assert.equal(r.appends.length,0);
   }
 });
