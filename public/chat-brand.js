@@ -26,7 +26,6 @@
     document.documentElement.lang = {SE:'sv',DA:'da',DE:'de',EN:'en'}[language] || 'sv';
     for (const [id,key] of Object.entries({'brand-title':'title','brand-subtitle':'subtitle','language-label':'language','welcome-title':'welcome','welcome-description':'intro','personal-help':'help','contact-title':'contactTitle','message-label':'message','ai-label':'ai','skip-input':'skip'})) document.getElementById(id).textContent = text[key];
     document.getElementById('chat-region').setAttribute('aria-label',text.conversation);
-    document.getElementById('loader').setAttribute('aria-label',text.loading);
     document.getElementById('welcome-title').style.whiteSpace = 'pre-line';
     for (const [id,key] of Object.entries({'send-btn':'send','new-chat-btn':'newChat','close-chat-btn':'close','expand-chat-btn':'expand','close-contact':'closeContact'})) { const button = document.getElementById(id); button.setAttribute('aria-label',text[key]); button.title = text[key]; }
     document.querySelectorAll('[data-quick]').forEach(button => { button.querySelector('span').textContent = text[button.dataset.quick]; });

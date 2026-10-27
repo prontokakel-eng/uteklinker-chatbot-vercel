@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex,nofollow">
 <title>Klinkerdäck · AI-assistent</title>
-<link rel="stylesheet" href="/css/chat-brand.css?v=20261025-31">
-<script src="/chat-ui.js?v=20261027-context" defer></script>
-<script src="/chat-brand.js?v=20261025-31" defer></script>
+<link rel="stylesheet" href="/css/chat-brand.css?v=20261027-latency">
+<script src="/chat-ui.js?v=20261027-latency" defer></script>
+<script src="/chat-brand.js?v=20261027-latency" defer></script>
 </head>
 <body>
 <a id="skip-input" class="sr-only sr-only-focusable" href="#user-input">Hoppa till inmatning</a>
@@ -41,7 +41,7 @@
 </section>
 <div id="messages" class="messages" role="log" aria-live="polite" aria-relevant="additions text"></div>
 </main>
-<div id="loader" class="loader hidden" role="status" aria-label="Svar hämtas"><span></span><span></span><span></span></div>
+<div id="loader" class="loader hidden" role="status" aria-live="polite" aria-atomic="true"><span class="waiting-dot" aria-hidden="true"></span><span class="waiting-dot" aria-hidden="true"></span><span class="waiting-dot" aria-hidden="true"></span><span id="waiting-status" class="waiting-text">Hämtar svar…</span></div>
 <div id="thinkingSr" class="sr-only" aria-live="polite"></div>
 <footer class="chat-footer">
 <p id="chat-privacy-notice" class="privacy-notice">Du chattar med en AI-assistent. Text kan behandlas av OpenAI. Skriv inte personnummer, betalningsuppgifter eller känsliga uppgifter. Svaren kan innehålla fel.</p>

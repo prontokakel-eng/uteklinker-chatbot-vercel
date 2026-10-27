@@ -130,8 +130,22 @@ function showBanner(element, text, timeout = 3000) {
   element.style.display = "block";
   setTimeout(() => (element.style.display = "none"), timeout);
 }
-function hideLoader(){ if (loader) loader.classList.add("hidden"); }
-function showLoader(){ if (loader) loader.classList.remove("hidden"); }
+let loaderTimer;
+const waitingCopy={
+  SE:['Hämtar svar…','Det tar lite längre tid än vanligt…'],
+  DA:['Henter svar…','Det tager lidt længere tid end normalt…'],
+  DE:['Antwort wird abgerufen…','Es dauert etwas länger als üblich…'],
+  EN:['Getting your answer…','This is taking a little longer than usual…'],
+};
+function hideLoader(){ clearTimeout(loaderTimer);if (loader) loader.classList.add("hidden"); }
+function showLoader(){
+  clearTimeout(loaderTimer);
+  if (!loader) return;
+  const status=document.getElementById('waiting-status');
+  if(status)status.textContent=(waitingCopy[lang] || waitingCopy.SE)[0];
+  loader.classList.remove("hidden");
+  loaderTimer=setTimeout(()=>{if(status)status.textContent=(waitingCopy[lang] || waitingCopy.SE)[1];},7000);
+}
 
 function updateEnterHelp() {
   if (!enterHelp) return;
@@ -285,7 +299,7 @@ jumpBtn?.addEventListener("click", () => { messageScroller.scrollTop = messageSc
 
 let audioCtx = null, keyTimer = null;
 // Preferences last only for this page session; embedded chat needs no browser storage.
-let muted = false;
+let muted = true;
 function updateSoundUI(){
   if (!soundBtn) return;
   soundBtn.textContent = muted ? "🔈" : "🔊";
@@ -308,7 +322,6 @@ function startTypingSound() {
     o.connect(g); g.connect(audioCtx.destination); o.start();
     setTimeout(() => o.stop(), 15 + Math.random() * 25);
   }, 95);
-  if (thinkingSr) thinkingSr.textContent = uiText('typing');
 }
 function stopTypingSound() { if (keyTimer) clearInterval(keyTimer); keyTimer = null; if (thinkingSr) thinkingSr.textContent = ""; }
 
