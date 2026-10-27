@@ -167,6 +167,25 @@ test('Preview Swedish: a clarification keeps an unclear product request moving w
   assert.equal((await r.ask('Jag är osäker på vad som passar mitt projekt.')).reply,reply);
 });
 
+test('Preview Swedish: ordinary concept nouns and viktigt do not become product names or weight claims',async()=>{
+  for(const reply of ['Dränering är viktig eftersom vatten behöver kunna rinna undan.',
+    'Porositeten har betydelse för hur material tar upp vatten. Dränering kan påverka hur mycket vatten som blir stående.',
+    'Ett bra underlag är viktigt. Vatten som fryser kan få underlaget att röra sig.']) {
+    const r=rig({outputs:[{reply}]});
+    assert.equal((await r.ask('Varför är det viktigt att underlaget släpper igenom vatten? Förklara enkelt.')).source,'AI',reply);
+  }
+});
+
+test('Preview Swedish: summarizing corrected customer measurements is not a product specification',async()=>{
+  const reply='Du planerar en uteplats på 25 m² på betong. Du har inte valt färg eller format ännu.';
+  const r=rig({outputs:[{reply,kind:'clarify'}]});
+  const result=await r.ask('Kan du sammanfatta vad du vet om mitt nya projekt, utan att anta färg eller format?',{
+    conversation:[{role:'user',content:'Jag planerar 35 m² uteplats.'},{role:'assistant',content:'Vilket underlag?'},
+      {role:'user',content:'Nej, jag räknade fel. Det är 25 m², på betong.'}],
+  });
+  assert.equal(result.source,'AI');assert.equal(result.reply,reply);
+});
+
 test('Preview Swedish: an explanation request cannot disguise an unsupported named-product assertion',async()=>{
   for(const question of ['Förklara om Auditplatta QZX är frostbeständig.','Vad är det för egenskaper hos Auditplatta QZX?']) {
     const r=rig({outputs:[{reply:'Den är frostbeständig.',kind:'general'}]});

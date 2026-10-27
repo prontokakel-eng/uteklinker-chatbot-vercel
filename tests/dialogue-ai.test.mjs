@@ -71,6 +71,19 @@ test('new preferences and corrections go to the published catalog, never a model
   assert.equal(result.via,'AI');assert.deepEqual(captured.preferences,{colour:null,style:'wood look',format:'90x90'});
   assert.match(JSON.stringify(r.calls[1].p.input),/No verified matches/);
 });
+
+test('a catalog miss preserves corrected preferences and permits a useful alternative question',async()=>{
+  let preferences;
+  const r=rig([output('find_products',{colour:'Brun',style:'wood look',format:'60x60'}),
+    finish('Vill du behålla brun trälook och prova ett annat format?')],{
+      catalog:async a=>{preferences=a.preferences;return {status:'unavailable',diagnosticStage:'no_verified_variants'};},
+  });
+  const result=await r.run({question:'Nej, jag menar trälook, och färgen får vara brun.',
+    conversation:[{role:'user',content:'Grå stenlook i 60x60.'}]});
+  assert.equal(result.via,'AI');assert.match(result.reply,/brun trälook/);
+  assert.deepEqual(preferences,{colour:'Brun',style:'wood look',format:'60x60'});
+  assert.match(JSON.stringify(r.calls[1].p.input),/failed search alone does not require/);
+});
 test('invalid preference arguments can be repaired within the same bounded turn without asking the customer to repeat',async()=>{
   let calls=0;
   const r=rig([output('find_products',{colour:null,style:'trælook',format:'90x90'}),
