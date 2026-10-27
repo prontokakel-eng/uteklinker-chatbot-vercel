@@ -50,3 +50,25 @@ cannot approve real FAQ content. Review writes are pending drafts; approval is
 still tied to human-reviewed source versions and content hashes.
 
 This change does not alter the rate-window policy or cache-outage policy.
+
+## Natural conversation follow-up
+
+Live multi-turn testing exposed false positives in the initial product guard:
+sentence-initial capitals and an earlier product topic could turn general
+material/slip explanations into unsupported product claims. The guard now
+distinguishes a product-bound assertion from a general explanation and keeps
+the named-product, property-family, number/rating and drainage checks. Generic
+material definitions, contextual clarifications and ordinary safety advice have
+positive regression cases alongside the existing unsafe-answer cases.
+
+Natural R-class requests reach the existing exact-identity website adapter on
+the active dialogue path after FAQ matching. Preambles, attribution phrases and
+explicit customer product references are normalized; extra product qualifiers
+and requested formats remain part of the identity and cannot borrow a nearby
+variant. The adapter returns the verified published rating with its source
+directly, without a generated answer or AI_REVIEW write. Conceptual follow-ups
+may still use AI; previous assistant text does not establish a rating value.
+
+The Swedish structural handoff explicitly explains that project complexity
+requires support and an assessment of the conditions on site. Ordinary missing
+information should receive a useful clarification rather than this handoff.

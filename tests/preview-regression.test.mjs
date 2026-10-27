@@ -5,6 +5,7 @@ import { answerDialogue } from '../lib/dialogue-ai.js';
 import { createChatHandler } from '../api/chat.js';
 import { createReviewStore, REVIEW_HEADERS } from '../lib/ai-review-store.js';
 import { syntheticRow, syntheticEvidence } from './fixtures/approved-synthetic.mjs';
+import { createWebsiteLookup } from '../lib/website-knowledge.js';
 
 // Swedish baseline runs through the real Preview controller and HTTP handler.
 // Only external services are faked: no model costs or live Sheet mutations.
@@ -12,7 +13,7 @@ const env={VERCEL_ENV:'preview',AI_DIALOGUE_ENABLED:'true',OPENAI_MODEL:'gpt-6.1
 const treatment=syntheticRow({question:'Behöver testplattorna behandlas med impregnering?',answer:'Testplattorna behöver inte impregneras.',evidence:syntheticEvidence});
 const drainage=syntheticRow({question:'Hur lägger man klinkerdäck på träreglar?',answer:'Normalt rekommenderas cirka 1 % fall från huset.',evidence:{...syntheticEvidence,sourceId:'synthetic:drainage'}});
 let nextIp=10;
-function rig({rows=[treatment,drainage],outputs=[],storageFails=false}={}) {
+function rig({rows=[treatment,drainage],outputs=[],storageFails=false,website=async()=>({status:'unavailable'})}={}) {
   const calls=[],appends=[];
   const client={responses:{create:async params=>{
     calls.push(params);assert.ok(outputs.length,'Unexpected model call');
@@ -22,7 +23,7 @@ function rig({rows=[treatment,drainage],outputs=[],storageFails=false}={}) {
   }}};
   const knowledge=async()=>({status:'ready',data:{SE:rows}});
   const chat=createChatPipeline({env,knowledge,dialogue:args=>answerDialogue({...args,client}),
-    website:async()=>({status:'unavailable'}),catalog:async()=>({status:'unavailable'})});
+    website,catalog:async()=>({status:'unavailable'})});
   const sheets={spreadsheets:{values:{get:async()=>({data:{values:[REVIEW_HEADERS]}}),append:async args=>{
     if(storageFails)throw Error('Synthetic storage outage');
     appends.push(args);return {data:{updates:{updatedRange:'AI_REVIEW!A2:O2'}}};
@@ -146,4 +147,48 @@ test('Preview Swedish: a review storage failure preserves the safe customer answ
   const r=rig({storageFails:true,outputs:[{reply,kind:'clarify'}]});
   assert.equal((await r.ask('Jag planerar en uteplats.')).reply,reply);
   assert.equal(r.appends.length,0);
+});
+
+test('Preview Swedish: general material, slip and child-safety explanations do not certify a product',async()=>{
+  for(const [question,reply] of [
+    ['Det är en träaltan. Förklara skillnaden mellan granitkeramik och natursten.','Granitkeramik tillverkas av keramiska råvaror. Natursten bryts ur berg och kan ha varierande porositet och färg.'],
+    ['Kan du förklara skillnaden mellan halkklassning och att en yta aldrig kan bli hal?','En halkklassning beskriver hur ytan har testats. Vatten, smuts och is kan fortfarande göra ytan hal.'],
+    ['Vad bör jag generellt tänka på när barn springer barfota?','Håll gångytorna rena och undvik stående vatten. En klassning betyder inte att olyckor aldrig kan inträffa.'],
+  ]) {
+    const r=rig({outputs:[{reply}]});
+    const result=await r.ask(question,{conversation:[{role:'user',content:'Jag tittar på Auditplatta QZX.'}]});
+    assert.equal(result.source,'AI',question);assert.equal(result.reply,reply);assert.equal(r.appends.length,1);
+  }
+});
+
+test('Preview Swedish: a clarification keeps an unclear product request moving without inventing a property',async()=>{
+  const reply='Menar du plattans egenskaper eller hur altanen behöver byggas?';
+  const r=rig({outputs:[{reply,kind:'clarify'}]});
+  assert.equal((await r.ask('Jag är osäker på vad som passar mitt projekt.')).reply,reply);
+});
+
+test('Preview Swedish: conversational rating questions use exact website evidence without a model call',async()=>{
+  const url='https://klinkerdack.se/uteklinker-teststone-shade';
+  const website=createWebsiteLookup({fetcher:async u=>{
+    if(u.endsWith('/robots.txt'))return new Response('User-agent: *\nSitemap: https://klinkerdack.se/sitemap.xml',{headers:{'content-type':'text/plain'}});
+    if(u.endsWith('/sitemap.xml'))return new Response(`<urlset><url><loc>${url}</loc></url></urlset>`,{headers:{'content-type':'application/xml'}});
+    assert.equal(u,url);
+    return new Response('<h1>Uteklinker Teststone Shade</h1><div class="specifikation-hela-rutan"><div class="product-specs-table"><div class="ml-variant-vtext-row"><span class="ml-variant-vtext-title">Yta:</span> R10/Antislip</div></div></div>',{headers:{'content-type':'text/html'}});
+  }});
+  for(const text of ['Jag tittar på Teststone Shade. Vilken R-klassning har den enligt er hemsida?',
+    'Jag gillar nyansen. Vilken R-klassning har Teststone Shade enligt produktsidan?',
+    'Jag funderar på Teststone Shade runt poolen. Vilken R-klassning anges på er hemsida?']) {
+    const r=rig({website:args=>website({...args,env:{...env,WEBSITE_KNOWLEDGE_ENABLED:'true'}})});
+    const result=await r.ask(text);
+    assert.equal(result.source,'WEBSITE',text);assert.match(result.reply,/R10/);
+    assert.equal(result.citations[0].url,url);assert.equal(result.factStatus,'website-observed');
+    assert.equal(r.calls.length,0);assert.equal(r.appends.length,0);
+  }
+});
+
+test('Preview Swedish: complex construction receives an explicit project-specific support handoff',async()=>{
+  const r=rig();const result=await r.ask('Vilket regelavstånd behövs när altanen ska bära ett tungt spabad?');
+  assert.equal(result.source,'CONTACT');assert.match(result.reply,/projekts komplexitet/);
+  assert.match(result.reply,/kontaktar supporten/);assert.match(result.reply,/på plats/);
+  assert.equal(r.calls.length,0);assert.equal(r.appends.length,0);
 });
