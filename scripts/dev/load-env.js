@@ -4,14 +4,7 @@ import fs from "fs";
 import path from "path";
 import dotenv from "dotenv";
 
-🧩 ENV DIAGNOSTIC REPORT ------------------------------
-🔑 OPENAI_API_KEY       = sk-proj-r3je...  | src: .env.local
-🔑 OPENAI_PROJECT_ID    = proj_nP7gK...    | src: .env.local
-🔑 GCP_CLIENT_EMAIL     = chatb...         | src: .env.local
-🔑 GCP_PRIVATE_KEY_ID   = 12345...         | src: .env.local
-🔑 SHEET_ID_MAIN        = 1_FjA...         | src: .env.local
-🔑 VERCEL               = undefined        | src: ❌ missing
-------------------------------------------------------
+// Diagnostic output must not be pasted into executable source.
 
 const envPath = path.resolve(process.cwd(), ".env.local");
 

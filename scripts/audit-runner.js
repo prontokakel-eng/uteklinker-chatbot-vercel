@@ -1,6 +1,5 @@
 // PATCH: whitelist keepers in orphans output (minimal diff)
 import { execSync } from "node:child_process";
-import { existsSync } from "node:fs";
 import madge from "madge";
 
 function run(cmd) {
@@ -69,19 +68,8 @@ console.log("\n=== graph:orphans (API mode) ===");
   console.log(realOrphans.length ? realOrphans : "✅ Inga orphans");
 }
 
-// 6. SMOKE TESTS (nivå L)
-// 🆕 kör endast om filen finns (tolerant mot rensning i /tests)
-function runIfExists(path, cmd) {
-  if (existsSync(path)) {
-    run(cmd);
-  } else {
-    console.log(`(skip) ${path} saknas — hoppar över`);
-  }
-}
+// Required smoke checks must fail when a command/file is missing. They use
+// synthetic services, not production credentials or retired public endpoints.
+run("npm run test:smoke");
 
-runIfExists("tests/smoke-wlbl.js",     "node tests/smoke-wlbl.js");
-runIfExists("tests/smoke-formats.js",  "node tests/smoke-formats.js");
-runIfExists("tests/smoke-gate.js",     "node tests/smoke-gate.js");
-runIfExists("tests/check-healthz.js",  "node tests/check-healthz.js");
-
-console.log("\n✅ AUDIT COMPLETE — minimal sanity passed.");
+console.log("\nAUDIT COMPLETE — required smoke checks passed.");
