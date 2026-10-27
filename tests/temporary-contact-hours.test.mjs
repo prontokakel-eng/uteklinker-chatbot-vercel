@@ -32,7 +32,7 @@ test('every date in the exception opens only weekdays 10–12 and expires at clo
     if (workday) assert.equal(at(`${date}T10:59:59Z`).validUntil, `${date}T11:00:00.000Z`);
   }
 });
-test('exception overrides Google and expired manual hours, retains email and requires real presence', async () => {
+test('exception overrides Google, retains phone and email, and keeps staff chat closed even with presence', async () => {
   for (const google of ['true', 'false']) for (const lang of ['SE', 'DA', 'DE', 'EN']) {
     let presence = 0;
     const config = { ...env, GOOGLE_PLACES_ENABLED: google };
@@ -42,8 +42,8 @@ test('exception overrides Google and expired manual hours, retains email and req
     assert.equal(closed.openNow, false); assert.equal(closed.staffAvailable, false);
     assert.deepEqual(closed.links.map(link => link.type), ['email']); assert.equal(presence, 0);
     const open = await getStoreContact({ ...options, now: new Date('2026-11-16T09:00:00Z') });
-    assert.deepEqual(open.links.map(link => link.type), ['email', 'phone', 'chat']);
-    assert.equal(open.openNow, false); assert.equal(presence, 1);
+    assert.deepEqual(open.links.map(link => link.type), ['email', 'phone']);
+    assert.equal(open.openNow, false); assert.equal(presence, 0); assert.equal(open.staffAvailable, false);
     assert.match(open.supportHoursNote, /2026/);
     assert.equal(open.supportSource, 'owner-approved-temporary');
     const absent = contactState({ env: config, lang, now: new Date('2026-11-16T09:00:00Z'),

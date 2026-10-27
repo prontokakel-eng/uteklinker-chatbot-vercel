@@ -23,9 +23,9 @@ function rig({rows=[treatment,drainage],outputs=[],reviews=[],storageFails=false
       return {status:'completed',usage:{output_tokens:100},output:[{type:'function_call',name:'review_answer',arguments:JSON.stringify(reviews.shift() || cannedApproval)}]};
     }
     calls.push(params);assert.ok(outputs.length,'Unexpected model call');
-    const {reply,kind='general',sourceIds=[]}=outputs.shift();
+    const {reply,kind='general',sourceIds=[],contactReason}=outputs.shift();
     return {id:'synthetic-response',model:'gpt-6.1-sol',status:'completed',usage:{input_tokens:100,output_tokens:100},
-      output:[{type:'function_call',call_id:'synthetic-call',name:'respond',arguments:JSON.stringify({reply,kind,sourceIds})}]};
+      output:[{type:'function_call',call_id:'synthetic-call',name:contactReason?'contact_staff':'respond',arguments:JSON.stringify(contactReason?{reason:contactReason}:{reply,kind,sourceIds})}]};
   }}};
   const knowledge=async()=>({status:'ready',data:{SE:rows}});
   const chat=createChatPipeline({env,knowledge,dialogue:args=>answerDialogue({...args,client}),
@@ -141,12 +141,12 @@ test('Preview Swedish: whitelist format reaches dialogue while blacklist and gib
   assert.equal(r.calls.length,1);assert.equal(r.appends.length,1);
 });
 
-test('Preview Swedish: warranty, prices, stock and support counts remain outside Sol and review storage',async()=>{
-  const r=rig();
+test('Preview Swedish: semantic warranty, commerce and structural selections retain staff routing without review rows',async()=>{
+  const r=rig({outputs:['warranty','commerce','commerce','structural'].map(contactReason=>({contactReason}))});
   for(const text of ['Vilken garanti har plattorna?','Vad kostar Meteor Salt?','Finns Meteor Salt i lager?','Hur många fötter behöver jag?']) {
     assert.equal((await r.ask(text)).source,'CONTACT',text);
   }
-  assert.equal(r.calls.length,0);assert.equal(r.appends.length,0);
+  assert.equal(r.calls.length,4);assert.equal(r.reviewCalls.length,0);assert.equal(r.appends.length,0);
 });
 
 test('Preview Swedish: a review storage failure preserves the safe customer answer',async()=>{
@@ -220,8 +220,8 @@ test('Preview Swedish: conversational rating questions use exact website evidenc
 });
 
 test('Preview Swedish: complex construction receives an explicit project-specific support handoff',async()=>{
-  const r=rig();const result=await r.ask('Vilket regelavstånd behövs när altanen ska bära ett tungt spabad?');
+  const r=rig({outputs:[{contactReason:'structural'}]});const result=await r.ask('Vilket regelavstånd behövs när altanen ska bära ett tungt spabad?');
   assert.equal(result.source,'CONTACT');assert.match(result.reply,/projekts komplexitet/);
   assert.match(result.reply,/kontaktar supporten/);assert.match(result.reply,/på plats/);
-  assert.equal(r.calls.length,0);assert.equal(r.appends.length,0);
+  assert.equal(r.calls.length,1);assert.equal(r.appends.length,0);
 });
