@@ -78,7 +78,7 @@ information should receive a useful clarification rather than this handoff.
 The owner requested an editorial qualification of the two existing Swedish pool
 FAQ variants. Their revised source rows live in the existing configured Google
 spreadsheet's `FAQ_SE_PREVIEW!A2:L3`; the original FAQ tabs/file are unchanged.
-Only the opt-in Preview loader reads this tab. Each manual editorial row needs
+Preview reads this tab when opted in. The prepared, inactive Production path also reads these exact revisions when AI_DIALOGUE_ENABLED=true, independently of the engine release switch, so engine rollback retains approved corrections. Each manual editorial row needs
 normal approval evidence, a matching content hash, the exact original identity,
 and the hash of the original reviewed version it replaces. Only two explicitly
 superseded versions may be replaced; missing/changed/conflicting revisions hold
@@ -87,7 +87,7 @@ An original row that has subsequently been rejected, retired or left pending
 cannot regain approval through this revision mechanism.
 Other FAQ versions and all other languages remain untouched. AI_REVIEW is never
 loaded by this mechanism. This is an owner-directed editorial revision, not an
-automatic promotion of a customer AI answer. Production does not read the tab.
+automatic promotion of a customer AI answer. Production configuration has not been activated or changed.
 
 The private `TEST_DIALOG_SE_36` tab contains six Swedish conversations with six
 turns each. Preserve the original eighteen turns and add preference corrections,

@@ -5,7 +5,7 @@ Europe/Stockholm, both dates inclusive:
 
 - Store closed every day.
 - Phone advice Monday–Friday 10:00–12:00; weekends closed.
-- Staff chat permitted only within those hours and with confirmed provider presence.
+- Staff chat closed throughout the period, including phone hours. Presence checks must not reopen it.
 - FAQ/AI and the verified email contact remain available outside staffed hours.
 - No guaranteed email response time has been approved.
 

@@ -323,3 +323,21 @@ test('the single-call request flag is confined to opt-in Preview routing',async(
   website:async()=>({status:'disabled'}),dialogue:async()=>{called=true;}});
  await prod(request('Unknown Synthetic Product specification?',{experiment:'single'}));assert.equal(called,false);
 });
+
+test('an unresolved product caution can be revised into an explicit personal-service offer without inventing a fact',async()=>{
+ const r=rig([finish('Jag kan inte verifiera den egenskapen.','general'),
+  finish('Jag kan inte verifiera egenskapen för den produkten. Använd kontaktalternativen nedan så kan personalen hjälpa dig att kontrollera dokumentationen.','contact')],
+  {reviews:[{decision:'revise',reason:'unsupported_fact',needsEvidence:false,evidence:[]}]});
+ const result=await r.run({question:'Kan du verifiera en egenskap för en okänd produkt?'});
+ assert.equal(result.via,'CONTACT');assert.match(result.reply,/kontaktalternativen/);assert.equal(r.calls.length,2);assert.equal(r.reviewCalls.length,2);
+});
+
+test('temporary provider 5xx failures share the existing single retry budget; authentication failures never retry',async()=>{
+ const outage=()=>Object.assign(new Error('private provider body'),{status:503});
+ const generated=rig([outage(),finish('Vilket underlag har du?')]);
+ assert.equal((await generated.run({})).via,'AI');assert.equal(generated.calls.length,2);
+ const reviewed=rig([finish('Vilket underlag har du?')],{reviews:[outage()]});
+ assert.equal((await reviewed.run({})).via,'AI');assert.equal(reviewed.reviewCalls.length,2);
+ const persistent=rig([outage(),outage()]);assert.equal((await persistent.run({})).via,'AI_ERROR');assert.equal(persistent.calls.length,2);
+ const auth=rig([Object.assign(new Error('secret'),{status:401})]);assert.equal((await auth.run({})).via,'AI_ERROR');assert.equal(auth.calls.length,1);
+});

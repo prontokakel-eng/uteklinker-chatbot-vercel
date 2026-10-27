@@ -1,6 +1,8 @@
 # Integritet och inbäddning – arbetsunderlag 17 oktober 2026
 
-Detta är ett granskningsunderlag för PR #12, inte en publicerad eller färdig integritetspolicy.
+Detta är ett historiskt granskningsunderlag för PR #12, inte en publicerad eller färdig integritetspolicy.
+
+**Teknisk uppdatering 27 oktober:** Den senare Preview-versionen skickar upp till 32 tidigare meddelanden, högst 2 400 tecken per meddelande och totalt 24 000 tecken, till AI-delen när den behövs. Ett separat modellanrop kan kontrollera svarsförslaget. Godkända källor kan skickas med; kundens tidigare AI-svar är inte faktaunderlag. Publicerade AI-svar och kundfrågan sparas i en separat privat Google-flik som ”Ej granskat”. E-postadresser och vissa nummer maskeras före denna lagring; detta är inte fullständig anonymisering och maskeringen sker inte före AI-anropet. Koden har ingen automatisk gallring av granskningsrader. FAQ-cache i privat Google Cloud Storage innehåller källmaterial, inte kunddialoger. Textförslaget nedan behöver anpassas till dessa faktiska dataflöden före publicering. Kontovillkor, gallringstid och publicerad kundinformation är inte verifierade genom kodtesterna.
 
 ## Kort information före första meddelandet
 

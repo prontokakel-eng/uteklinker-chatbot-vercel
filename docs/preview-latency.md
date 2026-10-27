@@ -39,7 +39,7 @@ within five minutes of source loading and memory reads cannot extend that expiry
 Invalid, missing, expired or unavailable snapshots fall back to the authoritative
 Drive/Sheets loader. Expired data is never a fallback if that loader fails. As with
 the previous five-minute memory cache, source edits/revocations can take up to
-that cache window to propagate. Set FAQ_FAST_CACHE_ENABLED=false to disable it.
+that cache window to propagate. Set FAQ_FAST_CACHE_ENABLED=false to disable it. The prepared, inactive Production path additionally requires both engine release switches and FAQ_FAST_CACHE_ENABLED=true; its signature scope cannot reuse a Preview envelope.
 
 Snapshot writes use Vercel waitUntil as best-effort post-response cache work;
 this is deliberately not a durable customer-data queue. No customer questions or

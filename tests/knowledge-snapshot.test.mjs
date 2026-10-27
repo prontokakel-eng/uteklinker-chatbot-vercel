@@ -34,3 +34,17 @@ test('expired cache plus unavailable source fails closed; Production never touch
  const production=createSnapshotLoader({env:{...env,VERCEL_ENV:'production'},store:{read:()=>productionReads++},loader:async()=>knowledge});
  assert.deepEqual(await production(),knowledge);assert.equal(productionReads,0);
 });
+
+test('explicit Production release/cache opt-in has a different signed scope and cannot reuse a Preview envelope',async()=>{
+ const production={...env,VERCEL_ENV:'production',AI_DIALOGUE_RELEASE_ENABLED:'true',FAQ_FAST_CACHE_ENABLED:'true'};
+ let loads=0,reads=0;const scope=snapshotScope(env);
+ const preview=sealSnapshot({schema:1,scope,createdAt:1000,expiresAt:301000,knowledge},env.GCP_PRIVATE_KEY);
+ const loader=createSnapshotLoader({env:production,now:()=>2000,store:{read:async()=>{reads++;return preview;},write:async()=>{}},
+  loader:async()=>{loads++;return knowledge;},defer:p=>p});
+ assert.equal((await loader()).storage,'google');assert.equal(reads,1);assert.equal(loads,1);
+ assert.notEqual(snapshotScope(production),scope);
+ for(const config of [{...production,FAQ_FAST_CACHE_ENABLED:undefined},{...production,AI_DIALOGUE_RELEASE_ENABLED:'false'}]){
+  let touched=false;const disabled=createSnapshotLoader({env:config,loader:async()=>knowledge,store:{read:async()=>{touched=true;}}});
+  assert.deepEqual(await disabled(),knowledge);assert.equal(touched,false);
+ }
+});
