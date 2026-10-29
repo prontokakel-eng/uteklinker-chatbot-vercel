@@ -19,7 +19,7 @@ Vercel-körningar skriver bara händelsemetadata genom den gemensamma loggern. L
 
 ## Föreslagen rutin att besluta om
 
-1. Utse ansvarig hos Pronto Klinkerdäck AB. Föreslagen period: högst 30 dagar för råa frågor och svar, efter nödvändig kvalitetsgranskning. Perioden är ett verksamhetsval och måste beslutas, inte en generell lagfrist. En rättighetsbegäran kan behöva hanteras tidigare.
+1. Utse ansvarig hos Pronto Klinkerdäck AB. Användaren har valt 30 dagar som målsättning för råa frågor och svar, efter nödvändig kvalitetsgranskning. Perioden är ett verksamhetsval, inte en generell lagfrist. Genomförandet, inklusive historik, återstår att verifiera. En rättighetsbegäran kan behöva hanteras tidigare.
 2. Kör förhandskontrollen dagligen när rutinen införs. Använd en uttryckligen angiven arbetsbok, aldrig en automatisk reservdestination. Kontrollera avvikande datum och rapportera endast antal, körningstid och resultat i driftprotokollet.
 3. För en framtida radering ska hela råa raden A:O hanteras, även rättade svar, länkar och identifierare. Bevara radpositionen eftersom godkända FAQ kan hänvisa till AI_REVIEW-radnummer. Ta inte bort rader så att hänvisningar förskjuts. Behåll högst en innehållsfri markering om gallring om den behövs för spårbarhet.
 4. **Att tömma celler är inte bevis på fullständig radering.** Verifiera hur Workspace-administrationen hanterar versionshistorik, eventuella Vault-regler, säkerhetskopior och återställning. Google beskriver en särskild historikradering för personliga konton; stöd och verkan i den här delade driven är inte fastställda. Om historiken inte kan gallras enligt behovet måste råloggen flyttas till en lagringslösning med verifierad livscykel innan en fast raderingsfrist utlovas.
