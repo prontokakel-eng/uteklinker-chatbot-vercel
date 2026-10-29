@@ -63,16 +63,32 @@ test('Preview policy words reach Sol in context while disabling a direct FAQ sho
   }
 });
 test('semantic staff selections use server-owned copy and verified support data; they never send messages',async()=>{
-  for(const reason of ['warranty','commerce','structural','support']) {
+  for(const reason of ['warranty','commerce','structural','opening_hours']) {
     let contacted=0;
     const r=rig([output('contact_staff',{reason})],{contact:async()=>{contacted++;return {message:'Verifierad kontaktstatus.',supportHoursNote:'Verifierade tider.'};}});
     const result=await r.run({question:'Relevant personal-service request'});
     assert.equal(result.via,'CONTACT');assert.equal(r.calls.length,1);assert.equal(r.reviewCalls.length,0);
-    assert.equal(contacted,reason==='support'?1:0);
+    assert.equal(contacted,reason==='opening_hours'?1:0);
     if(reason==='warranty')assert.equal(result.routingContext,'warranty');
-    if(reason==='support')assert.equal(result.reply,'Verifierad kontaktstatus. Verifierade tider.');
+    if(reason==='opening_hours')assert.equal(result.reply,'Verifierad kontaktstatus. Verifierade tider.');
   }
   const invalid=rig([output('contact_staff',{reason:'send_email'})]);assert.equal((await invalid.run({})).via,'AI_ERROR');
+});
+
+test('personal help retains a reviewed explanation instead of replacing it with support hours',async()=>{
+  const explanation='Jag kan inte verifiera den uppgiften för produkten. Använd kontaktknappen så kan personalen hjälpa dig att kontrollera underlaget.';
+  let contacted=0;
+  const r=rig([output('contact_staff',{reason:'support'}),finish(explanation,'contact')],{
+    contact:async()=>{contacted++;return {message:'Open status must not replace the explanation'};},
+  });
+  const result=await r.run({question:'Jag behöver hjälp med en produktuppgift som saknas.'});
+  assert.equal(result.via,'CONTACT');assert.equal(result.reply,explanation);
+  assert.equal(r.reviewCalls.length,1);assert.equal(contacted,0);
+  assert.match(JSON.stringify(r.calls[1].p.input),/contact_options/);
+  const rejected=rig([output('contact_staff',{reason:'support'}),finish('En påhittad specifikation.','contact')],{
+    reviews:[{decision:'handoff',reason:'unsupported_fact',needsEvidence:false,evidence:[]}],
+  });
+  assert.notEqual((await rejected.run({})).reply,'En påhittad specifikation.');
 });
 test('policy-sensitive FAQ matches must reach semantic intent handling, never direct source release',async()=>{
   const r=rig([output('contact_staff',{reason:'structural'})]);

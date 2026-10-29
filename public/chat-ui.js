@@ -230,6 +230,14 @@ function addMessage(text, sender, source = null, canRefine = false, citations = 
   content.innerHTML = renderMarkdown(toDisplay(text));
   bubble.appendChild(content);
 
+  if (source === 'CONTACT') {
+    const contactButton = document.createElement('button');
+    contactButton.type = 'button'; contactButton.className = 'btn';
+    contactButton.dataset.openContact = '';
+    contactButton.textContent = ({SE:'Kontakta oss personligen',DA:'Kontakt os personligt',DE:'Persönlich Kontakt aufnehmen',EN:'Contact us personally'}[lang] || 'Kontakta oss personligen');
+    bubble.appendChild(contactButton);
+  }
+
   const meta = document.createElement("div");
   meta.className = "info";
   if (source && !['GUIDANCE','PRODUCTS'].includes(source)) {
@@ -548,4 +556,5 @@ async function updateContacts() {
   }
   if (generation === contactGeneration) contactTimer = setTimeout(updateContacts, refreshMs);
 }
+window.addEventListener('pronto-contact-open', updateContacts);
 updateContacts();

@@ -4,21 +4,21 @@ import fs from 'node:fs/promises';
 import vm from 'node:vm';
 const source=await fs.readFile(new URL('../public/chat-brand.js',import.meta.url),'utf8');
 function app({language='SE',embedded=false}={}) {
- const nodes=new Map(), observers=[], windowEvents={}, commands=[];
+ const nodes=new Map(), observers=[], windowEvents={}, documentEvents={}, commands=[];
  const make=id=>{ const el={id,textContent:'',style:{},dataset:{},events:{},attributes:{},children:[],hidden:false,value:'',
-  classList:{toggle(){}},appendChild(node){if(node.parentElement)node.parentElement.children=node.parentElement.children.filter(n=>n!==node);this.children.push(node);node.parentElement=this;},scrollHeight:0,scrollTop:0,clientHeight:0,addEventListener(name,fn){this.events[name]=fn;},setAttribute(k,v){this.attributes[k]=v;},focus(){this.focused=true;},click(){this.events.click?.();},
+  classList:{toggle(){}},appendChild(node){if(node.parentElement)node.parentElement.children=node.parentElement.children.filter(n=>n!==node);this.children.push(node);node.parentElement=this;},scrollHeight:0,scrollTop:0,clientHeight:0,addEventListener(name,fn){this.events[name]=fn;},setAttribute(k,v){this.attributes[k]=v;},focus(){this.focused=true;},click(){this.events.click?.();documentEvents.click?.({target:this});},closest(){return Object.hasOwn(this.dataset,'openContact')?this:null;},
   querySelector(){return this.label ||= {textContent:''};},showModal(){this.open=true;},close(){this.open=false;this.events.close?.();}}; nodes.set(id,el);return el; };
  for(const id of ['composer-controls','composer-home','ai-label','skip-input','chat-region','loader','langSelect','contact-dialog','messages','welcome','brand-title','brand-subtitle','language-label','welcome-title','welcome-description','personal-help','contact-title','message-label','send-btn','new-chat-btn','close-chat-btn','expand-chat-btn','close-contact','user-input'])make(id);
  nodes.get('langSelect').value=language;nodes.get('composer-home').appendChild(nodes.get('composer-controls'));
  const quick=['tiles','installation','project'].map(k=>{const n=make('quick-'+k);n.dataset.quick=k;return n;});
- const contact=[make('contact-a'),make('contact-b')];let sent;
+ const contact=[make('contact-a'),make('contact-b')];contact.forEach(n=>{n.dataset.openContact='';});let sent;
  nodes.get('send-btn').events.click=()=>{sent=nodes.get('user-input').value;};
- const document={documentElement:{},getElementById:id=>nodes.get(id),querySelectorAll:q=>q==='[data-quick]'?quick:contact};
- const window={addEventListener(k,fn){windowEvents[k]=fn;}};
+ const document={documentElement:{},addEventListener(k,fn){documentEvents[k]=fn;},getElementById:id=>nodes.get(id),querySelectorAll:q=>q==='[data-quick]'?quick:contact};
+ const window={addEventListener(k,fn){windowEvents[k]=fn;},dispatchEvent(event){windowEvents[event.type]?.();}};
  window.parent=embedded?{postMessage(data,target){commands.push({data,target});}}:window;
  class Observer{constructor(fn){observers.push(fn);}observe(){}}
- vm.runInNewContext(source,{document,window,MutationObserver:Observer});
- return {nodes,quick,contact,document,commands,windowEvents,observers,get sent(){return sent;}};
+ vm.runInNewContext(source,{document,window,MutationObserver:Observer,CustomEvent:class{constructor(type){this.type=type;}}});
+ return {nodes,quick,contact,document,documentEvents,commands,windowEvents,observers,get sent(){return sent;}};
 }
 test('welcome shortcuts submit real questions in all four languages without inventing replies',()=>{
  const expected={SE:/uteklinker/,DA:/udendørsfliser/,DE:/Außenfliesen/,EN:/outdoor tiles/};
@@ -41,6 +41,16 @@ test('frame controls emit only language, close and resize commands, with no conv
  const p=app({embedded:true});p.nodes.get('close-chat-btn').click();p.nodes.get('expand-chat-btn').click();
  assert.deepEqual(p.commands.map(c=>JSON.stringify(c.data)),['{"type":"pronto-chat:language","language":"SE"}','{"type":"pronto-chat:close"}','{"type":"pronto-chat:toggle-size"}']);
  const standalone=app();assert.equal(standalone.nodes.get('close-chat-btn').events.click,undefined);
+});
+
+test('a contact button added after startup opens the dialog, refreshes contact data and restores focus',()=>{
+ const p=app();let refreshed=0,focused=false;
+ p.windowEvents['pronto-contact-open']=()=>{refreshed++;};
+ const button={focus(){focused=true;}};
+ p.documentEvents.click({target:{closest:()=>button}});
+ assert.equal(p.nodes.get('contact-dialog').open,true);assert.equal(refreshed,1);
+ p.nodes.get('close-contact').click();assert.equal(focused,true);
+ p.documentEvents.click({target:{closest:()=>null}});assert.equal(refreshed,1);
 });
 
 test('the same composer follows the conversation and returns home on reset in four languages',()=>{

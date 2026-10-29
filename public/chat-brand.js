@@ -42,7 +42,12 @@
     document.getElementById('send-btn').click();
   }));
   let opener;
-  document.querySelectorAll('[data-open-contact]').forEach(button => button.addEventListener('click', () => { opener = button; dialog.showModal(); document.getElementById('close-contact').focus(); }));
+  document.addEventListener('click', event => {
+    const button = event.target.closest('[data-open-contact]');
+    if (!button) return;
+    opener = button; dialog.showModal(); document.getElementById('close-contact').focus();
+    window.dispatchEvent(new CustomEvent('pronto-contact-open'));
+  });
   document.getElementById('close-contact').addEventListener('click', () => dialog.close());
   dialog.addEventListener('close', () => opener?.focus());
   const updateWelcome = () => {

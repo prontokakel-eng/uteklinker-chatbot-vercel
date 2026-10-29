@@ -19,7 +19,7 @@ test('failed contact refresh is localized and removes stale live actions in four
     let removed = 0, requests = 0;
     const timers = [];
     const panel = { textContent: 'Stale open status', querySelectorAll: () => [{ remove() { removed++; } }] };
-    const sandbox = vm.createContext({ lang, langSelect: null, Date, AbortSignal, encodeURIComponent,
+    const sandbox = vm.createContext({ lang, langSelect: null, Date, AbortSignal, encodeURIComponent, window:{addEventListener(){}},
       document: { getElementById: () => panel },
       fetch: async url => { requests++; assert.equal(url, '/api/contact?lang=' + lang); throw Error('Synthetic network failure'); },
       clearTimeout() {}, setTimeout(fn, ms) { timers.push({ fn, ms }); return timers.length; },
@@ -49,7 +49,7 @@ function contactPage(data, { lang = 'SE', clock = Date.parse('2026-10-26T10:00:0
   }
   const panel = element('section');
   class Clock extends Date { static now() { return clock; } }
-  const sandbox = vm.createContext({ lang, langSelect: null, Date: Clock, AbortSignal, encodeURIComponent,
+  const sandbox = vm.createContext({ lang, langSelect: null, Date: Clock, AbortSignal, encodeURIComponent, window:{addEventListener(){}},
     document: { getElementById: () => panel, createElement: element },
     fetch: async () => ({ ok: true, json: async () => data }),
     clearTimeout() {}, setTimeout(fn, ms) { timers.push({ fn, ms }); return timers.length; },
