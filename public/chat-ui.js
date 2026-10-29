@@ -111,10 +111,10 @@ const statusCopy = {
 function uiText(key) { return (statusCopy[lang] || statusCopy.SE)[key]; }
 
 const privacyCopy = {
-  SE: 'Du chattar med en AI-assistent. Text kan behandlas av OpenAI. Skriv inte personnummer, betalningsuppgifter eller känsliga uppgifter. Svaren kan innehålla fel.',
-  DA: 'Du chatter med en AI-assistent. Tekst kan blive behandlet af OpenAI. Skriv ikke CPR-nummer, betalingsoplysninger eller følsomme oplysninger. Svarene kan indeholde fejl.',
-  DE: 'Sie chatten mit einem KI-Assistenten. Texte können von OpenAI verarbeitet werden. Geben Sie keine persönlichen Identifikationsnummern, Zahlungsdaten oder sensiblen Daten ein. Antworten können Fehler enthalten.',
-  EN: 'You are chatting with an AI assistant. Text may be processed by OpenAI. Do not enter personal identification numbers, payment details or sensitive information. Answers may contain errors.',
+  SE: 'Du chattar med en AI-assistent. Text kan skickas till OpenAI. Vid AI-svar sparas frågan och svaret för kvalitetsgranskning. Undvik personuppgifter och känslig information. Svaren kan innehålla fel.',
+  DA: 'Du chatter med en AI-assistent. Tekst kan sendes til OpenAI. Ved AI-svar gemmes spørgsmålet og svaret til kvalitetskontrol. Undgå personoplysninger og følsom information. Svarene kan indeholde fejl.',
+  DE: 'Sie chatten mit einem KI-Assistenten. Texte können an OpenAI gesendet werden. Bei KI-Antworten werden Frage und Antwort zur Qualitätsprüfung gespeichert. Vermeiden Sie personenbezogene und sensible Angaben. Antworten können Fehler enthalten.',
+  EN: 'You are chatting with an AI assistant. Text may be sent to OpenAI. For AI answers, the question and answer are saved for quality review. Avoid personal and sensitive information. Answers may contain errors.',
 };
 
 const privacyLinkCopy = {

@@ -34,7 +34,7 @@ function rig({rows=[treatment,drainage],outputs=[],reviews=[],storageFails=false
     if(storageFails)throw Error('Synthetic storage outage');
     appends.push(args);return {data:{updates:{updatedRange:'AI_REVIEW!A2:O2'}}};
   }}}};
-  const handler=createChatHandler({chat,saveReview:createReviewStore({env,sheets})});
+  const handler=createChatHandler({chat,env,saveReview:createReviewStore({env,sheets})});
   const ip=`198.51.100.${nextIp++}`;
   return {calls,reviewCalls,appends,ask:async(text,extra={})=>{
     let body,status;

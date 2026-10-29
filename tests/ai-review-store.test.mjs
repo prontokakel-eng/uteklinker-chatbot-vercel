@@ -3,6 +3,18 @@ import assert from 'node:assert/strict';
 import { createReviewStore, REVIEW_HEADERS, reviewText } from '../lib/ai-review-store.js';
 import { createChatHandler } from '../api/chat.js';
 
+test('provider diagnostics stay server-side outside Preview while review storage keeps them',async()=>{
+  for(const stage of ['production','preview']) {
+    let body, stored;
+    const result={via:'AI',reply:'Synthetic',modelDiagnostics:[{responseId:'provider-private'}],diagnosticCode:'internal',evidence:[{sourceId:'private'}]};
+    const handler=createChatHandler({chat:async()=>result,saveReview:async value=>{stored=value.result;},env:{VERCEL_ENV:stage}});
+    await handler({method:'POST',body:{text:'Synthetic'}},{setHeader(){},status(){return this;},json(value){body=value;}});
+    assert.equal(body.evidence,undefined); assert.equal(stored.modelDiagnostics[0].responseId,'provider-private');
+    assert.equal(body.modelDiagnostics?.[0]?.responseId,stage==='preview'?'provider-private':undefined);
+    assert.equal(body.diagnosticCode,stage==='preview'?'internal':undefined);
+  }
+});
+
 test('AI review uses RAW append to a separate tab with pending status and no approval',async()=>{
   const calls=[];
   const sheets={spreadsheets:{values:{get:async args=>{calls.push(args);return{data:{values:[REVIEW_HEADERS]}};},

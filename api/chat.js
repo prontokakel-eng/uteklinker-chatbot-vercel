@@ -19,7 +19,11 @@ return async function handler(req, res) {
     }
     if (result.retryAfter) res.setHeader('Retry-After', String(result.retryAfter));
     // Keep private Drive IDs/reviewer names server-side; review harness calls the pipeline directly.
-    const { evidence, ...publicResult } = result;
+    const { evidence, modelDiagnostics, diagnosticCode, ...publicResult } = result;
+    if(env.VERCEL_ENV==='preview'){
+      if(modelDiagnostics)publicResult.modelDiagnostics=modelDiagnostics;
+      if(diagnosticCode)publicResult.diagnosticCode=diagnosticCode;
+    }
     const performance=timing.snapshot();
     if(env.VERCEL_ENV==='preview'){res.setHeader('Server-Timing',serverTiming(performance));publicResult.performance=performance;}
     return res.status(result.via === 'rate-limit' ? 429 : 200).json({ ...publicResult, source: result.via === 'faq' ? 'FAQ' : result.via, reqId });
