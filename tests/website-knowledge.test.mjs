@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { publicSiteUrl, createWebsiteLookup, extractWebsiteFacts, verifiedWebsiteFact } from '../lib/website-knowledge.js';
+import { publicSiteUrl, createWebsiteLookup, extractWebsiteFacts, verifiedWebsiteFact, ratingLookupQuestion } from '../lib/website-knowledge.js';
 import { createChatPipeline } from '../lib/chatPipeline.js';
 const url='https://klinkerdack.se/uteklinker-teststone-shade';
 // Synthetic product and attribute. No copied real website or FAQ content.
@@ -41,6 +41,14 @@ test('lookalikes, changed series, missing properties and conflicting variants fa
  const different='<div class="product-specs-table"><div class="ml-variant-vtext-row"><span class="ml-variant-vtext-title">Yta:</span>R11/Antislip</div></div>';
  assert.equal(extractWebsiteFacts(html(different),url,question).status,'ambiguous');
  assert.equal(extractWebsiteFacts(html('', 'Unknown'),url,question).status,'ambiguous');
+});
+
+test('natural rating questions retain full identity, including disallowed extra qualifiers',()=>{
+ assert.equal(ratingLookupQuestion('Jag tittar på Teststone Shade Pro. Vilken R-klassning har den enligt er hemsida?'),'Vilken R-klassning har teststone shade pro?');
+ assert.equal(ratingLookupQuestion('Jag gillar nyansen. Vilken R-klassning har Teststone Shade 90x90 enligt produktsidan?'),'Vilken R-klassning har teststone shade 90x90?');
+ const context=[{role:'user',content:'Vilken R-klassning har Teststone Shade?'},{role:'assistant',content:'An invented product name'}];
+ assert.equal(ratingLookupQuestion('Vilken R-klassning har den?',context),'Vilken R-klassning har teststone shade?');
+ assert.equal(ratingLookupQuestion('Vad innebär klassningen i praktiken?'),null);
 });
 test('four-language property requests retain exact identity and source',async()=>{
  const r=fetchRig();

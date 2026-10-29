@@ -1,6 +1,8 @@
 # Integritet och inbäddning – arbetsunderlag 17 oktober 2026
 
-Detta är ett granskningsunderlag för PR #12, inte en publicerad eller färdig integritetspolicy.
+Detta är ett historiskt granskningsunderlag för PR #12, inte en publicerad eller färdig integritetspolicy.
+
+**Teknisk uppdatering 27 oktober:** Den senare Preview-versionen skickar upp till 32 tidigare meddelanden, högst 2 400 tecken per meddelande och totalt 24 000 tecken, till AI-delen när den behövs. Ett separat modellanrop kan kontrollera svarsförslaget. Godkända källor kan skickas med; kundens tidigare AI-svar är inte faktaunderlag. Publicerade AI-svar och kundfrågan sparas i en separat privat Google-flik som ”Ej granskat”. E-postadresser och vissa nummer maskeras före denna lagring; detta är inte fullständig anonymisering och maskeringen sker inte före AI-anropet. Koden har ingen automatisk gallring av granskningsrader. FAQ-cache i privat Google Cloud Storage innehåller källmaterial, inte kunddialoger. Textförslaget nedan behöver anpassas till dessa faktiska dataflöden före publicering. Kontovillkor, gallringstid och publicerad kundinformation är inte verifierade genom kodtesterna.
 
 ## Kort information före första meddelandet
 
@@ -18,7 +20,7 @@ När den fullständiga informationen är färdig ska denna kompletteras med en l
 
 **AI och leverantörer.** När en fråga behöver AI skickas frågan, ett begränsat samtalssammanhang och relevanta FAQ-uppgifter till OpenAI. Språkidentifiering kan också använda OpenAI för otydlig text. Tjänsten levereras via Vercel. Google Places används för att kontrollera öppettider när den kopplingen är aktiverad; våra serveranrop för öppettider skickar butikens plats-ID och valt språk, inte din frågetext. Om du följer en extern länk gäller även den tjänstens information.
 
-**Samtalet på din enhet.** Den föreslagna versionen håller samtalet i den öppna chattens minne och sparar inte samtalet eller visningsval i localStorage. När sidan laddas om eller chatten stängs med stängknappen försvinner det visade samtalet. Detta raderar inte uppgifter som redan har behandlats hos tjänsteleverantörer. Till en AI-förfrågan följer högst sex tidigare meddelanden med begränsad längd; det är inte ett löfte att äldre skickad text aldrig har behandlats.
+**Samtalet på din enhet.** Den föreslagna versionen håller samtalet i den öppna chattens minne och sparar inte samtalet eller visningsval i localStorage. När sidan laddas om eller chatten stängs med stängknappen försvinner det visade samtalet. Detta raderar inte uppgifter som redan har behandlats hos tjänsteleverantörer. Till en AI-förfrågan följer upp till 32 tidigare meddelanden, högst 2 400 tecken per meddelande och 24 000 tecken totalt; det är inte ett löfte att äldre skickad text aldrig har behandlats.
 
 **Lagring hos leverantörer.** Vi använder inställningen store:false för AI-svar, vilket begränsar lagring av svar som applikationstillstånd. OpenAI beskriver normalt upp till 30 dagars säkerhetsloggning, med vissa undantag. Vi måste bekräfta vilka villkor och kontoinställningar som gäller för vår tjänst innan vi anger exakta lagringstider. Vercels tekniska loggar omfattas av separata lagringsinställningar. PR #12 tar bort kundtext och IP-adresser från appens logMessage-utskrifter men raderar inte tidigare loggar eller driftleverantörens loggar.
 

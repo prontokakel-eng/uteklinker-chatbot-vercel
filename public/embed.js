@@ -10,18 +10,43 @@
     const button = document.createElement('button');
     button.id = 'pronto-chat-toggle';
     button.type = 'button';
-    button.textContent = '💬 Chatta med oss';
+    button.textContent = 'Fråga oss';
     button.setAttribute('aria-expanded', 'false');
     button.setAttribute('aria-controls', 'pronto-chat-frame');
-    Object.assign(button.style, { position: 'fixed', bottom: '20px', right: '20px', zIndex: '9999', padding: '10px 16px', borderRadius: '50px', border: 'none', background: '#0070f3', color: '#fff', cursor: 'pointer' });
-    let frame;
+    Object.assign(button.style, { position: 'fixed', bottom: '20px', right: '16px', zIndex: '9999', padding: '10px 16px', borderRadius: '50px', border: 'none', background: '#2f5d50', color: '#fff', cursor: 'pointer' });
+    const labels = {
+      SE: ['Fråga oss', 'Stäng chatten (rensa samtalet)', 'Pronto Klinkerdäck – AI-assistent'],
+      DA: ['Spørg os', 'Luk chatten (ryd samtalen)', 'Pronto Klinkerdäck – AI-assistent'],
+      DE: ['Fragen Sie uns', 'Chat schließen (Gespräch löschen)', 'Pronto Klinkerdäck – KI-Assistent'],
+      EN: ['Ask us', 'Close chat (clear conversation)', 'Pronto Klinkerdäck – AI assistant'],
+    };
+    let frame, expanded = false, language = 'SE';
+    function renderLanguage() {
+      button.textContent = labels[language][frame ? 1 : 0];
+      if (frame) frame.title = labels[language][2];
+    }
+    function close() {
+      frame?.remove(); frame = undefined; expanded = false;
+      Object.assign(button.style, { background: '#2f5d50', color: '#fff', border: '1px solid transparent', padding: '10px 16px', boxShadow: 'none' });
+      renderLanguage(); button.setAttribute('aria-expanded', 'false');
+      button.focus?.();
+    }
+    function resize() {
+      Object.assign(frame.style, expanded
+        ? { width: 'min(580px, calc(100% - 32px))', height: 'min(820px, calc(100dvh - 110px))' }
+        : { width: 'min(400px, calc(100% - 32px))', height: 'min(660px, calc(100dvh - 110px))' });
+    }
+    window.addEventListener('message', event => {
+      if (!frame || event.source !== frame.contentWindow || event.origin !== chatUrl.origin) return;
+      if (event.data?.type === 'pronto-chat:close') close();
+      else if (event.data?.type === 'pronto-chat:toggle-size') { expanded = !expanded; resize(); }
+      else if (event.data?.type === 'pronto-chat:language' && Object.hasOwn(labels, event.data.language)) {
+        language = event.data.language; renderLanguage();
+      }
+    });
     button.addEventListener('click', () => {
       if (frame) {
-        // Destroy the document: stop timers and discard the conversation in memory.
-        frame.remove();
-        frame = undefined;
-        button.textContent = '💬 Chatta med oss';
-        button.setAttribute('aria-expanded', 'false');
+        close();
         return;
       }
       frame = document.createElement('iframe');
@@ -29,9 +54,11 @@
       frame.title = 'Pronto Klinkerdäck – AI-assistent';
       frame.referrerPolicy = 'no-referrer';
       frame.src = chatUrl.href;
-      Object.assign(frame.style, { position: 'fixed', bottom: '76px', right: '20px', width: 'min(400px, calc(100vw - 40px))', height: 'min(600px, calc(100dvh - 110px))', border: 'none', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.2)', zIndex: '9999' });
+      Object.assign(frame.style, { position: 'fixed', bottom: '76px', right: '16px', width: 'min(400px, calc(100vw - 40px))', height: 'min(600px, calc(100dvh - 110px))', border: 'none', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.2)', zIndex: '9999' });
+      resize();
       document.body.appendChild(frame);
-      button.textContent = 'Stäng chatten (rensa samtalet)';
+      Object.assign(button.style, { background: '#fff', color: '#2f5d50', border: '1px solid #a9bdb1', padding: '12px 18px', boxShadow: 'none' });
+      renderLanguage();
       button.setAttribute('aria-expanded', 'true');
     });
     document.body.appendChild(button);

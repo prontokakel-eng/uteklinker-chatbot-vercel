@@ -19,6 +19,14 @@ Private `FAQ_SE`, `FAQ_DA`, `FAQ_DE`, `FAQ_EN` sheets use:
 | H | `approved` after human review; missing/other status is not approved |
 | I | Reviewer identifier; mandatory for approval |
 | J | Reviewed fact class: `static`; missing/unknown/current-commerce is excluded |
+| K | SHA-256 from `reviewedContentHash(row)`, recorded only after source review |
+
+Approval is bound to the reviewed question, answer, language, source ID/name,
+section, source date, origin and fact class. Missing or mismatched column K blocks
+direct answers and model context, including after cache refresh. The importer never
+generates the hash. A hash detects an unreviewed edit; it is not a signature or
+proof of human approval. Review permissions and the private decision log still matter.
+Do not recompute hashes automatically when the workbook changes.
 
 Drive modification time is retained separately; it neither replaces source date
 nor proves freshness. Multiple source rows are retained. Conflicting exact/colour
@@ -31,6 +39,30 @@ approval on AI/cache-origin data. No generated answer is written back into FAQ.
 
 Existing A–C rows remain pending. **This is deliberately not a drop-in release
 until the existing FAQ has been reviewed and its metadata migrated privately.**
+
+### Reconfirmed legacy review, 2026-10-26
+
+The business owner explicitly reconfirmed the prior human review of the original
+FAQ in all four languages and requested its restoration. The finite legacy block
+has 238 entries per language, before later additions. One contradictory legacy
+manufacturing entry is held for correction in each language. The other 237 entries
+per language have version-specific, source-bound digests in the server-only
+`legacy-faq-approvals.js` registry. It contains no FAQ text or private source IDs.
+
+The importer restores only an exact digest match with pending status. It records
+the reconfirmation as a manual review, retains the previous origin/provenance,
+source identity and location, and binds the restored decision to the reviewed
+content contract. Legacy translation labels such as AI/Cache are retained as
+historical provenance; only the individually pinned, human-reconfirmed translation
+is migrated. No other generated content is promoted. Edits, new rows, other files,
+rejections, later additions and AI_SAVE/AI_REVIEW tabs cannot inherit this decision.
+Current commerce, warranty and structural routing guards still apply.
+
+Empty retrieval stops product questions before a model call. A narrow, exact
+allowlist of generic definition questions preserves basic concept explanations;
+added product names, mixed questions and unsupported contextual follow-ups do not
+inherit that allowance. This does not prove that every claim with nonempty context
+is supported: real-model claim review remains a separate release gate.
 Do not bulk-approve the current workbook to make tests pass.
 
 ## Current business facts and support
@@ -70,10 +102,11 @@ Google failure remains unknown under live mode. No document or AI hours substitu
    node scripts/review-knowledge-model.mjs /private/cases.json /private/new-report.json
    ```
 
-   Supply `OPENAI_API_KEY` securely in that runtime. The script performs actual
+   Supply `OPENAI_API_KEY` and the verified `OPENAI_PROJECT_ID` securely in that runtime. The script performs actual
    model requests via the real pipeline with `store:false`; it never runs in CI,
    refuses paths inside the repo, will not overwrite a report, and prints counts
-   only. Keep the cases and resulting answers private in Drive. Operational logs are forced to metadata-only mode, including local execution. Source/string
+   only. The private report records the returned model ID, response ID and token usage
+   separately from the requested model alias. Keep the cases and resulting answers private in Drive. Operational logs are forced to metadata-only mode, including local execution. Source/string
    checks are preliminary; every answer remains pending human fact review.
    Commerce refusals and support routing are covered separately by deterministic
    tests because they must not invoke a model.
@@ -90,3 +123,60 @@ commits. Do not commit real FAQ rows, workbook exports, document extracts, model
 transcripts, private IDs or review reports. This change does not purge older
 repository history. The current standalone local pilot was not available in this
 checkout and has not been represented as audited or deployed.
+
+## AI draft quarantine and manual review
+
+The retired public `/api/save-faq-reply` route returns 410 without initializing a
+Google client. Browser clients cannot submit answers or approval metadata to FAQ.
+The HTTP chat handler now appends only successful server-generated AI answers to
+the separately initialized private `AI_REVIEW` tab in the existing configured
+Google spreadsheet. This collection was explicitly requested by the owner on
+2026-10-26. It records only the current question/answer, language, timestamp,
+model/response identifiers, source references, request ID and environment. It
+does not store IP addresses, session identifiers or the full conversation. Email
+addresses and long numeric identifiers are redacted. RAW writes prevent spreadsheet
+formula execution. Every new entry is `Ej granskat`, with AI origin and blank human
+review/correction fields. FAQ answers, filters and staff fallbacks are not appended.
+Schema mismatches stop writes; a write failure logs a metadata-only request ID and
+does not replace the customer answer. No client-facing write endpoint is exposed.
+
+`createAiReviewDraft` creates offline review records with AI provenance, pending
+fact/language/decision fields and `productionApproved:false`. Unknown approval
+inputs are ignored. The private model-review runner includes these records for
+generated answers. Both failed and successful automated results remain unapproved.
+The draft hash identifies a version; it neither signs it nor grants approval.
+
+Keep drafts in a separate private review workbook/tab, never named FAQ_SE/DA/DE/EN.
+The runtime loader imports exactly those four FAQ tabs; AI_REVIEW and all AI_SAVE
+tabs are excluded, even if a draft carries forged approval columns. Status edits
+alone also cannot make AI/cache provenance an approved source.
+
+A human compares each draft with a primary source and reviews the translation,
+units, product identity, scope and qualifications. Record corrections, source
+section/revision, reviewer and date in the private review log. Rejected drafts
+stay rejected. After explicit human approval, create a separate manual FAQ entry
+backed by that primary source, with its reviewed content hash and a link to the
+private decision record. No automatic promotion/import script is provided.
+An approval in the review workbook does not change the chatbot or authorize release.
+
+## Bounded conversation and warranty routing
+
+The UI retains only a `warranty` routing enum in memory after the server returns
+the central warranty contact policy. It echoes this enum on subsequent requests
+so a short duration/compensation follow-up stays with staff even after the initial
+question leaves the six-message window. The enum cannot authorize evidence,
+approve FAQ, bypass the gate or trigger staff contact. Other values are ignored.
+It is never inferred from assistant assertions and is never passed as model context.
+New technical/colour topics clear it, including questions starting with "and";
+coverage questions such as "does it apply to frost?" still go to staff.
+New conversation/reload discards it; no cookies, browser storage or server session
+are added. Filtered or failed requests do not erase the last valid routing enum.
+
+The public deployment deliberately builds only chat/contact/diagnostics APIs.
+`/api/save-faq-reply` therefore returns **404 at the routing layer**, while its
+retired source handler returns 410 if called directly or in a different dev setup.
+Do not expose that endpoint merely to obtain a 410 in Preview. A prior Preview 404
+was expected denial, not evidence of a missing deployment.
+
+Regression tests distinguish isolation/routing/payload checks from real model
+factuality. A mocked response or string check cannot prove absence of hallucinations.

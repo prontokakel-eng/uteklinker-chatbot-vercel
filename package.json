@@ -8,13 +8,13 @@
     "./lib/*": "./lib/*.js"
   },
   "scripts": {
-    "test": "node tests/check-healthz.js && node tests/faq-fuzzy-suite-vercel.js",
-    "test:prod": "NODE_ENV=production node tests/faq-fuzzy-suite-vercel.js",
+    "test": "node --test tests/*.test.mjs",
+    "test:prod": "NODE_ENV=production node --test tests/*.test.mjs",
     "pull-env": "node vercel-pull.js",
-    "test:faq": "node tests/faq-super-suite.mjs",
+    "test:faq": "node --test tests/fuzzy-direct.test.mjs tests/faq-colour-match.test.mjs tests/legacy-faq-review.test.mjs tests/knowledge-safety.test.mjs tests/preview-regression.test.mjs",
     "test:lang": "node tests/detect-lang-fulltest.mjs",
     "version-info": "echo '🔤 ChatBot LangDetect Framework — v6.3 stable | v6.4→v6.5 roadmap 🚀'",
-    "test:filters": "node tests/filters-wl-bl.mjs",
+    "test:filters": "node --test tests/anti-abuse.test.mjs tests/whitelist-formats.test.mjs",
     "test:smoke": "npm run -s test:smoke:wlbl && npm run -s test:smoke:formats && npm run -s test:smoke:gate",
     "test:torture:fixtures": "node ./tests/Super-torture-suite.repo.mjs --input ./tests/fixtures --limit 200",
     "lint": "eslint lib scripts --ext .js,.mjs --no-error-on-unmatched-pattern",
@@ -30,9 +30,15 @@
     "o:classify": "node scripts/classify-orphans.js",
     "o:prepare": "node scripts/move-to-deprecated.js --plan logs/reports/orphans-plan.json",
     "o:revert": "git restore --staged . && git checkout -- .",
-    "o:apply": "node scripts/move-to-deprecated.js --plan logs/reports/orphans-plan.json"
+    "o:apply": "node scripts/move-to-deprecated.js --plan logs/reports/orphans-plan.json",
+    "test:preview": "node --test tests/preview-regression.test.mjs",
+    "test:smoke:wlbl": "node --test tests/whitelist-formats.test.mjs",
+    "test:smoke:formats": "node --test tests/fuzzy-direct.test.mjs",
+    "test:smoke:gate": "node --test tests/anti-abuse.test.mjs",
+    "test:customer": "node scripts/test-customer-dialogues.mjs"
   },
   "dependencies": {
+    "@vercel/functions": "^3.10.4",
     "archiver": "^7.0.1",
     "chalk": "^5.6.2",
     "cheerio": "^1.1.2",
@@ -40,6 +46,7 @@
     "dotenv": "^17.2.3",
     "exceljs": "^4.4.0",
     "fuse.js": "^7.1.0",
+    "google-auth-library": "^9.15.1",
     "googleapis": "^126.0.1",
     "node-fetch": "^3.3.2",
     "openai": "^5.23.0",

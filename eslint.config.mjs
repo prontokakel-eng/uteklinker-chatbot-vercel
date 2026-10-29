@@ -19,7 +19,10 @@ export default [
         console: "readonly",
         process: "readonly",
         setTimeout: "readonly",
-        setInterval: "readonly"
+        setInterval: "readonly",
+        fetch: "readonly",
+        URL: "readonly",
+        AbortSignal: "readonly"
 
       }
     },
