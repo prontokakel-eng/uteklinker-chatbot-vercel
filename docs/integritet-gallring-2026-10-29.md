@@ -41,7 +41,15 @@ Metadata bekräftar att både originalet och Impresa-kopian är native Google Sh
 
 Läskontroll av Vercel bekräftar två inställningar: `SHEET_ID_MAIN` gäller bara Preview-grenen `work/pilot-review-2026-10-22`, medan den äldre `SHEET_ID` gäller All Environments. Tidigare verifierade värden pekar på Impresa-kopian respektive Gmail-originalet. Gamla byggen tar inte emot nya miljövariabler i efterhand, enligt Vercels dokumentation. Tidigare Preview-adresser kan därför behålla den äldre destinationen. Ingen sådan adress har fått testfrågor i denna kontroll, eftersom ett AI-svar då skulle kunna skapa en ny rålogg i Gmail.
 
-Förslag till nästa separata åtgärd är att inventera och granska de gamla testbyggena och därefter avaktivera deras åtkomst eller skrivmöjlighet utan att radera data. Det kräver kontroll av påverkan på befintlig produktion och gemensamt servicekonto. Inget gammalt bygge, ingen behörighet och ingen miljöinställning har ändrats i denna kartläggning. Gamla filer och loggar ska ligga kvar tills användaren granskat ett konkret åtgärdsunderlag.
+Efter användarens instruktion att fortsätta begränsades det verifierade servicekontot från redigerare till läsare i Gmail-originalet. Impresa-kopian behåller samma servicekonto som redigerare. Befintliga celler, filer och versioner raderades inte. Det stoppar den identifierade gamla skrivvägen utan att ta bort läsåtkomst. Andra identiteter eller framtida nya behörigheter omfattas inte av denna spärr.
+
+Kontroll efter ändringen: produktionen svarade på en befintlig FAQ-fråga. En opersonlig AI-testfråga i aktuell Preview ökade Impresa-arkets granskningslogg från 164 till 165 rader; Gmail-originalet låg kvar på 161. Produktionskod, driftsättning och miljövariabler ändrades inte. Ingen gammal testadress fick en AI-testfråga och inget avsiktligt skrivförsök gjordes mot originalet.
+
+100 driftsättningar inventerades i Vercels gränssnitt, från 15 till 29 oktober. Där ingår 48 äldre pilotbyggen före Impresa-bytet. Inventeringen är ett avgränsat underlag, inte en fullständig lista över projektets hela historik. Inga byggen raderades eller återställdes i arbetet.
+
+**Separat plattformsbegränsning:** Vercel hade redan en automatisk bevaranderegel på 30 dagar för samtliga byggkategorier. För Pre-Production och avbrutna byggen visade det befintliga Hobby-kontot bara 1 dag, 1 vecka, 2 veckor och 30 dagar; inget avstängningsval. Regeln ändrades inte och ingen betald uppgradering gjordes. Den manuella spärren för kunddialoger kan inte stoppa Vercels egen städning av byggartefakter. Äldre byggen fanns redan i Recently Deleted med återställningsfrister; det säger inget om radering av Google-arkets innehåll. Vercels undantag för bland annat aktuell produktion och aktiv grens senaste Preview är dokumenterade av leverantören. Bevarandet av äldre byggartefakter måste därför hanteras separat om de behövs för granskning.
+
+Gamla filer och kundloggar ska ligga kvar tills användaren granskat och godkänt ett konkret åtgärdsunderlag. Ingen automatisk radering av kunddialoger införs.
 
 Fastställ ändamål, rättslig grund och eventuell intresseavvägning samt publicerad information om rättigheter, mottagare, lagring och internationella överföringar. Verifiera personuppgiftsbiträdesavtal och överföringsvillkor för OpenAI, Google och Vercel mot de konton/projekt som appen faktiskt använder. Inga nya villkor har accepterats i denna genomgång.
 
@@ -64,3 +72,4 @@ Kräver befintlig Google-konfiguration lokalt och begär endast `spreadsheets.re
 - https://vercel.com/docs/logs/runtime — runtime-loggarnas visningsperiod beror på plan; detta är inte ett löfte om all plattformsdata.
 - https://developers.google.com/workspace/drive/api/guides/manage-revisions — API-radering av revisioner stöds för binära filer, inte native Sheets.
 - https://vercel.com/docs/environment-variables — ändrade variabler gäller nya byggen, inte tidigare driftsättningar.
+- https://vercel.com/docs/deployment-retention — Vercels separata byggstädning och dess undantag.
