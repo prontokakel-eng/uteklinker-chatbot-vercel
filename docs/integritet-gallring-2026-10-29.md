@@ -2,6 +2,12 @@
 
 Status 29 oktober 2026: tekniskt underlag och förslag. Ingen automatisk radering är aktiverad och detta är inte en färdig juridisk bedömning. Mobilkontroll görs separat.
 
+## Bindande arbetsinstruktion från användaren
+
+**Kontroll först, radering efter separat godkännande.** Inget får raderas innan ansvarig har hunnit granska underlaget. Trettio dagar är en gräns för att ta upp uppgifter till manuell gallringskontroll, inte en timer som utlöser radering. En granskad FAQ innebär inte ett godkännande av radering av råloggen. Varje konkret raderingsomgång ska godkännas separat efter granskning av arbetsbok, berörda rader, kvarvarande FAQ-källor, kopior och historik. Uteblivet svar eller passerad tidsgräns räknas aldrig som godkännande.
+
+Teknisk spärr: förhandskontrollen returnerar alltid `deletionAllowed:false`, `manualReviewRequired:true` och `workflowStatus:awaiting-human-review`. Den begär endast läsbehörighet och saknar raderingsfunktion, publik endpoint och automatiskt raderingsschema. `--apply` och `--delete` avvisas. Ingen miljövariabel kan slå på radering i detta verktyg. Framtida införande av en separat raderingsfunktion får inte kringgå denna arbetsinstruktion.
+
 ## Genomförda förbättringar i kandidaten
 
 - Kort kundinformation på svenska, danska, tyska och engelska beskriver nu att kundfrågan och AI-svaret sparas för kvalitetsgranskning. En lokal informationssida `/privacy.html` är uttryckligen märkt som testunderlag.
@@ -20,7 +26,7 @@ Vercel-körningar skriver bara händelsemetadata genom den gemensamma loggern. L
 ## Föreslagen rutin att besluta om
 
 1. Utse ansvarig hos Pronto Klinkerdäck AB. Användaren har valt 30 dagar som målsättning för råa frågor och svar, efter nödvändig kvalitetsgranskning. Perioden är ett verksamhetsval, inte en generell lagfrist. Genomförandet, inklusive historik, återstår att verifiera. En rättighetsbegäran kan behöva hanteras tidigare.
-2. Kör förhandskontrollen dagligen när rutinen införs. Använd en uttryckligen angiven arbetsbok, aldrig en automatisk reservdestination. Kontrollera avvikande datum och rapportera endast antal, körningstid och resultat i driftprotokollet.
+2. Kör förhandskontrollen när ansvarig ska granska gallringsunderlaget. Använd en uttryckligen angiven arbetsbok, aldrig en automatisk reservdestination. Kontrollera avvikande datum och rapportera endast antal, körningstid och resultat i driftprotokollet. Lägg fram resultatet för ansvarig. Ingen radering får följa utan separat godkännande av den konkreta omgången.
 3. För en framtida radering ska hela råa raden A:O hanteras, även rättade svar, länkar och identifierare. Bevara radpositionen eftersom godkända FAQ kan hänvisa till AI_REVIEW-radnummer. Ta inte bort rader så att hänvisningar förskjuts. Behåll högst en innehållsfri markering om gallring om den behövs för spårbarhet.
 4. **Att tömma celler är inte bevis på fullständig radering.** Verifiera hur Workspace-administrationen hanterar versionshistorik, eventuella Vault-regler, säkerhetskopior och återställning. Google beskriver en särskild historikradering för personliga konton; stöd och verkan i den här delade driven är inte fastställda. Om historiken inte kan gallras enligt behovet måste råloggen flyttas till en lagringslösning med verifierad livscykel innan en fast raderingsfrist utlovas.
 5. Omfatta även den äldre Gmail-arbetsboken, gamla fasta Preview-adresser som kan skriva dit, exportfiler och lokala rapporter/loggar. Stoppa gamla skrivvägar först. Radera inte originalet innan alla behövliga källor och godkända FAQ kontrollerats och exakt åtgärd godkänts. Ägarskap och behörigheter är en separat fråga från gallring.
@@ -28,6 +34,14 @@ Vercel-körningar skriver bara händelsemetadata genom den gemensamma loggern. L
 7. Rättighetsbegäran tas emot via info@klinkerdack.se. Använd minsta nödvändiga uppgifter för att hitta och verifiera ärendet; kontrollera aktiva kopior, historik, exporter och relevanta leverantörer. Dokumentera åtgärd och begränsningar utan att skapa en ny rådialogkopia.
 
 ## Kontroll före lansering
+
+### Kartläggning av historik och gamla skrivvägar
+
+Metadata bekräftar att både originalet och Impresa-kopian är native Google Sheets, och att Impresa-kopian ligger i en delad drive. Googles Drive-API kan inte radera revisioner av native Sheets. Den separata funktionen för historikradering i redigeraren dokumenteras endast för personliga Google-konton. Därför finns ännu ingen verifierad raderingsväg för revisionshistoriken i den delade driven. Filmetadata från anslutningen gav inget besked om eventuell Vault-regel eller administrativ lagring; detta är inte en kontroll av de reglerna.
+
+Läskontroll av Vercel bekräftar två inställningar: `SHEET_ID_MAIN` gäller bara Preview-grenen `work/pilot-review-2026-10-22`, medan den äldre `SHEET_ID` gäller All Environments. Tidigare verifierade värden pekar på Impresa-kopian respektive Gmail-originalet. Gamla byggen tar inte emot nya miljövariabler i efterhand, enligt Vercels dokumentation. Tidigare Preview-adresser kan därför behålla den äldre destinationen. Ingen sådan adress har fått testfrågor i denna kontroll, eftersom ett AI-svar då skulle kunna skapa en ny rålogg i Gmail.
+
+Förslag till nästa separata åtgärd är att inventera och granska de gamla testbyggena och därefter avaktivera deras åtkomst eller skrivmöjlighet utan att radera data. Det kräver kontroll av påverkan på befintlig produktion och gemensamt servicekonto. Inget gammalt bygge, ingen behörighet och ingen miljöinställning har ändrats i denna kartläggning. Gamla filer och loggar ska ligga kvar tills användaren granskat ett konkret åtgärdsunderlag.
 
 Fastställ ändamål, rättslig grund och eventuell intresseavvägning samt publicerad information om rättigheter, mottagare, lagring och internationella överföringar. Verifiera personuppgiftsbiträdesavtal och överföringsvillkor för OpenAI, Google och Vercel mot de konton/projekt som appen faktiskt använder. Inga nya villkor har accepterats i denna genomgång.
 
@@ -48,3 +62,5 @@ Kräver befintlig Google-konfiguration lokalt och begär endast `spreadsheets.re
 - https://www.imy.se/privatperson/dataskydd/dina-rattigheter/ — registrerades rättigheter.
 - https://support.google.com/docs/answer/190843?hl=en — versionshistorik och kontoberoende historikradering.
 - https://vercel.com/docs/logs/runtime — runtime-loggarnas visningsperiod beror på plan; detta är inte ett löfte om all plattformsdata.
+- https://developers.google.com/workspace/drive/api/guides/manage-revisions — API-radering av revisioner stöds för binära filer, inte native Sheets.
+- https://vercel.com/docs/environment-variables — ändrade variabler gäller nya byggen, inte tidigare driftsättningar.
