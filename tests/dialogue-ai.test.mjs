@@ -78,17 +78,27 @@ test('semantic staff selections use server-owned copy and verified support data;
 test('personal help retains a reviewed explanation instead of replacing it with support hours',async()=>{
   const explanation='Jag kan inte verifiera den uppgiften för produkten. Använd kontaktknappen så kan personalen hjälpa dig att kontrollera underlaget.';
   let contacted=0;
-  const r=rig([output('contact_staff',{reason:'support'}),finish(explanation,'contact')],{
+  const r=rig([output('contact_staff',{reason:'support',explanation})],{
     contact:async()=>{contacted++;return {message:'Open status must not replace the explanation'};},
   });
   const result=await r.run({question:'Jag behöver hjälp med en produktuppgift som saknas.'});
   assert.equal(result.via,'CONTACT');assert.equal(result.reply,explanation);
+  assert.equal(r.calls.length,1,'handoff must not add another generation before review');
   assert.equal(r.reviewCalls.length,1);assert.equal(contacted,0);
-  assert.match(JSON.stringify(r.calls[1].p.input),/contact_options/);
-  const rejected=rig([output('contact_staff',{reason:'support'}),finish('En påhittad specifikation.','contact')],{
+  assert.equal(JSON.parse(r.reviewCalls[0].p.input[0].content).candidate.reply,explanation);
+  const rejected=rig([output('contact_staff',{reason:'support',explanation:'En påhittad specifikation.'})],{
     reviews:[{decision:'handoff',reason:'unsupported_fact',needsEvidence:false,evidence:[]}],
   });
   assert.notEqual((await rejected.run({})).reply,'En påhittad specifikation.');
+});
+
+test('a rejected staff explanation can be revised through the same bounded review path',async()=>{
+  const revised='Jag kan inte verifiera uppgiften. Använd kontaktknappen för personlig hjälp.';
+  const r=rig([output('contact_staff',{reason:'support',explanation:'Ett för tidigt påstående.'}),finish(revised,'contact')],{
+    reviews:[{decision:'revise',reason:'unsupported_fact',needsEvidence:false,evidence:[]}],
+  });
+  const result=await r.run({});assert.equal(result.reply,revised);assert.equal(result.via,'CONTACT');
+  assert.equal(r.calls.length,2);assert.equal(r.reviewCalls.length,2);
 });
 test('policy-sensitive FAQ matches must reach semantic intent handling, never direct source release',async()=>{
   const r=rig([output('contact_staff',{reason:'structural'})]);

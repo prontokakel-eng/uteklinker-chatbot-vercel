@@ -5,9 +5,10 @@ support tool used to end the turn with only opening status and support hours.
 The reason for the referral disappeared and the customer had to find a separate
 contact control outside the reply.
 
-The support tool now returns a read-only instruction to finish with an
-explanation and a personal-service offer. That generated reply follows the
-existing semantic review, revision and failure boundaries. The controller keeps
+The support tool now includes a customer-facing explanation and personal-service
+offer in its read-only selection. That generated reply follows the existing
+semantic review, revision and failure boundaries without another generation
+call. The controller keeps
 the same generation, tool, token and deadline limits. A separate opening_hours
 reason retains deterministic verified hours; warranty, commerce and structural
 requests retain their existing server-owned policy replies.
@@ -19,7 +20,7 @@ No product names, reply facts, contact details or hours are supplied by this UI
 change. Nothing is sent to staff. Closed, busy, unknown and expired states use
 the existing contact renderer and its action-expiry rules.
 
-Local validation: 249 tests pass, 3 private-workbook tests are explicitly skipped;
+Local validation: 250 tests pass, 3 private-workbook tests are explicitly skipped;
 lint has no errors and 13 existing warnings. Synthetic tests cover preservation
 of the reviewed explanation, rejection of unsupported contact drafts, dynamic
 contact actions and contact-state expiry. Live Preview behavior must also be
